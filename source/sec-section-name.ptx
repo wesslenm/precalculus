@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>Trigonometry</title>
 
-  <p> Text of section. </p>
+  <p> Some trig text here. Adding more.  </p>
+
+  <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
+
+  <exercise xml:id="ez-trig-finding-angles-WW4">
+    <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
+  </exercise>
+
+
+  <exercise xml:id="ez-trig-finding-angles-WW1">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW2">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" />
+  </exercise>
+  <exercise xml:id="ez-trig-finding-angles-WW3">
+    <webwork source="Library/UMN/calculusStewartCCC/s_1_6_26.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork>
+      <statement>
+        <p><m>1+2=</m><var name="'3'" width="5" /></p>
+      </statement>
+    </webwork>
+  </exercise>
 
 </section>
