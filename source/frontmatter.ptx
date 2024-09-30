@@ -7,9 +7,16 @@
   <titlepage>
     <author>
       <personname>Maria Wesslen</personname>
-      <department>MCS</department>
-      <institution>UTM</institution>
+      <department>Department of Mathematical and Computational Sciences</department>
+      <institution>University of Toronto Mississauga</institution>
+      <email>maria.wesslen@utoronto.ca</email>
+          
+          <p> Contributing Editors: Micheal Pawliuk and Ivan Khatchatourian</p>
     </author>
+    <author>
+      <personname>Contributing Editors: Micheal Pawliuk and Ivan Khatchatourian</personname>
+    </author>
+ 
     <date>
       <today />
     </date>

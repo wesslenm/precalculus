@@ -5,11 +5,24 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>Precalculus review for UTM</title>
-    <subtitle>A resource for calculus students at UTM</subtitle>
+    <title>Precalculus review for UTM students</title>
+   <!-- Optional subtitle: -->
+    <!-- <subtitle>A resource for students at UTM</subtitle> -->
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-algebra.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-functions.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-exponents.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-trig.ptx" />
 
     <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />

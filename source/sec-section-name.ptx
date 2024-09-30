@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometry</title>
+  <title>Random trial chapter </title>
 
-  <p> Some trig text here. Adding more.  </p>
+  <p> For testing things out.... Some  text here. Adding more.  </p>
 
   <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
 
