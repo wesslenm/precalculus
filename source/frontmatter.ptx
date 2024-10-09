@@ -22,18 +22,51 @@
     </date>
   </titlepage>
 
+  <preface>
+    <title>Welcome!</title>
+    <p>
+      Welcome to this Precalculus review resource to UTM students.  
+    </p>
+    <p>
+      [Add a longer message about how to use this resource.] 
+    </p>
+  </preface>
+
+  <preface>
+    <title>Feedback</title>
+    <p>
+      Please direct any feedback and error reports to maria.wesslen@utoronto.ca. 
+    </p>
+    <p>
+      [Add a longer message about how this is an ongoing project, and there may be errors at first(?). Students might also suggest topics they would like more material on?] 
+    </p>
+  </preface> 
+
+  <acknowledgement>
+    <p>
+      Large parts of the text are based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> The text has been modified, built upon, and interactive exercises have been added. 
+    </p>
+
+    <p>
+    Thank you to all contributors of the <url href="https://pretextbook.org/">PreTeXt</url> project. PreTeXt was used to produce this resource. 
+    </p>
+
+    <p>
+      Thank you to all contributors of the WebWorK project. 
+      </p>
+  </acknowledgement>
+
+
+
   <colophon>
-
-    <website>
-      <url href="https://pretextbook.org">My Website</url>
-    </website>
-
     <copyright>
-      <year>2020<ndash />2023</year>
-      <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      <holder>Maria Wesslen</holder>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CreativeCommons.org</url>
       </shortlicense>
+      <minilicense>CC BY-NC-SA 4.0 License</minilicense>
     </copyright>
   </colophon>
+
+
 </frontmatter>
 

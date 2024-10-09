@@ -4,10 +4,11 @@
   <title>Algebra</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> Coming soon. </p>
   </introduction>
 
   <!-- include sections -->
   <xi:include href="sec-alg-intro.ptx" />
+  <xi:include href="sec-alg-rational.ptx" />
 
 </chapter>

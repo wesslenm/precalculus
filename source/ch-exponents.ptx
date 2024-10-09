@@ -4,10 +4,19 @@
   <title>Exponents and Exponential Functions</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> 
+      In this section, we will look at properties of exponents. Here, these rules apply to any type of function that involves exponents, namely power functions and exponential functions. However, this section will mostly focus on power functions, functions where the base is the variable and the exponent is a constant. We'll discuss several exponent rules, show you how to use them, and explain the reasoning behind these rules. 
+    </p>
+    <p> <alert>
+    In this section, we are assuming that all variables are strictly positive, meaning that they cannot be negative nor can they be zero.
+    </alert> </p>
+    <p>
+      This is to ensure that we won't run into any issues with dividing by zero or trying to take a square root of a negative number. Later, when we discuss functions domains, we will revisit these problems and explain how to deal with general variables and not just variables that are strictly positive. 
+    </p>
   </introduction>
 
   <!-- include sections -->
   <xi:include href="sec-exp-intro.ptx" />
+  <xi:include href="sec-exp-functions.ptx" />
 
 </chapter>
