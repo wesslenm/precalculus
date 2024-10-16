@@ -2,9 +2,161 @@
 
 <section xml:id="sec-alg-rational" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Rational Expressions</title>
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Simplify and re-work rational expressions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Simplify and work with fractions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add, subtract, multiply and divide rational expressions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Simplify and rewrite complex fractions and complex rational expressions.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+   
+  <assemblage xml:id="rational-use">
+    <title>Where will this be used in calculus?</title>
+    <p>
+      Here are several specific calculus examples where working with rational expressions will be useful: 
+    </p>
+    <p>
+    <ul>
+      <li>
+        <p>
+          After using rules to differentiate a function (especially the quotient rule) the result is often a rational expression or complex rational expression which needs to be simplified. 
+        </p>
+      </li>
+      <li>
+        <p>
+          When using implicit differentiation the process often involves working with and simplifying complex rational expressions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Integration using the technique called Partial Fractions, involves rational expressions.
+        </p>
+      </li>
+      <li>
+        <p>
+          In Sequences and Series, using the Limit Comparison Test and the Ratio Test often involves working with multiple complex rational expressions.
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage>
+  
+   
+    <introduction>
+    <p>    
+The quotient of two polynomials of called a <term>rational expression</term>. For example, lets look at the following rational expression:
+    </p>
+  
+    <me>
+      \frac{x^3+3x^2}{x^2+2x-3}
+    </me>
 
-  <p> Coming soon.   </p>
+    <p>
+      Here, <m>x^3+3x^2</m> is the <term>numerator</term> of the rational expression, and <m>x^2+2x-3</m> is the <term>denominator</term>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as <m>\frac{3}{4} - \frac{1}{5}</m>).
+    </p>
+  </introduction>
+  
+  <subsection>
+    <title>Common factors</title>
+    <p>
+    Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator. 
+
+EXAMPLE...
+
+The cancelation in example (...) is based on the following rule, which says that if both the numerator an the denominator has the same FACTOR, it can be cancelled. A factor is.... 
+
+Note that what you are canceling must be multiplied (or divided), NOT added or subtracted. 
+    </p>
+
+    <assemblage xml:id="rational-factor">
+      <title>.....</title>
+      <p>
+        ....
+      </p>
+       </assemblage>
+
+       <assemblage xml:id="rational-error">
+        <title>Common Error</title>
+        <p>
+          ....
+        </p>
+         </assemblage>   
+       
 
 
+  </subsection>
 
+  <subsection>
+    <title>Multiplying and dividing rational expressions</title>
+
+      <p> Coming soon.   </p>
+
+
+  </subsection>
+
+  <subsection>
+    <title>Adding and Subtracting rational expressions</title>
+
+      <p> Coming soon.   </p>
+
+
+  </subsection>
+
+  <subsection>
+    <title>Complex rational expressions</title>
+
+      <p> Coming soon.   </p>
+
+
+  </subsection>
+
+  <subsection>
+    <title>Additional Examples</title>
+
+      <p> Coming soon. very soon...  </p>
+
+
+      <exercise>
+        <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
+      </exercise>
+
+  </subsection>
+
+  <subsection>
+    <title>Exercises</title>
+
+    <p>
+      1. Coming soon...
+    </p>
+ 
+    <p>
+      2. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
+    </p>
+
+    <p>
+      3. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
+    </p>
+
+    <p>
+      4. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
+    </p>
+
+  </subsection>
 </section>
