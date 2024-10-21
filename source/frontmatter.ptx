@@ -43,9 +43,6 @@
   </preface> 
 
   <acknowledgement>
-    <p>
-      Large parts of the text are based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> The text has been modified, built upon, and interactive exercises have been added. 
-    </p>
 
     <p>
     Thank you to all contributors of the <url href="https://pretextbook.org/">PreTeXt</url> project. PreTeXt was used to produce this resource. 
@@ -54,6 +51,11 @@
     <p>
       Thank you to all contributors of the WebWorK project. 
       </p>
+
+      <p>
+      Some (but not all) parts of the text are based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> The text has been modified, built upon, and interactive exercises have been added. 
+      </p>
+  
   </acknowledgement>
 
 

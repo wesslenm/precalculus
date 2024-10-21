@@ -27,11 +27,11 @@
 	<title>Where will this be used in calculus?</title>
 	<p>
 		Rewriting and simplifying exponentials and radicals is usefully in most computational areas of mathematics, including calculus. Here are two specific calculus examples: 
-	</p>
+
 	<ul>
 		<li>
 			<p>
-				When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting <m>f(x) = \frac{1}{x^4}</m> as (<m>f(x) = x^{-4}</m> in this case) will make it easier to differentiate or integrate. 
+				When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting <m>f(x) = \frac{1}{x^4}</m> as <m>f(x) = x^{-4}</m> will make it easier to differentiate or integrate. 
 			</p>
 		</li>
 		<li>
@@ -40,6 +40,7 @@
 			</p>
 		</li>
 	</ul>
+</p>
 </assemblage>
 
  
@@ -588,87 +589,91 @@ Let's look at a few examples of working with exponent rules. The examples use on
 </p>
 
 <p>
-	3. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
+	3.	<webwork source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
+</p>
+
+<p>
+	4. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
 </p>
 
 
 <p>
-	4. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" />
+	5. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" />
 </p>
 	
 <p>
-	5. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
+	6. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
 </p>
 
 <p>
-	6. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" />
+	7. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" />
 </p>
 
 <p>
-	7. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" />
+	8. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" />
 </p>
 
 <p>
-	8. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" />
+	9. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" />
 </p>
 
 <p>
-	9. <webwork source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" />
+	10. <webwork source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" />
 </p>
 
 <p>
-	10. <webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" />
+	11. <webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" />
 </p>
 
 <p>
-	11. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" />
+	12. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" />
 </p>
 
 <p>
-	12. Note: A monomial is a term of the form <m>ay^b</m> for some constants <m>a</m> and <m>b</m>.  
+	13. Note: A monomial is a term of the form <m>ay^b</m> for some constants <m>a</m> and <m>b</m>.  
 	
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" />
 </p>
 
 <p>
-	13. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" />
+	14. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" />
 </p>
 
 <p>
-	14. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" />
+	15. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" />
 </p>
 	
 <p>
-	15. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" />
+	16. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" />
 </p>
 
 <p>
-	16. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" />
+	17. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" />
 </p>
 
 <p>
-	17. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" />
+	18. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" />
 </p>
 
 <p>
-	18. <webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
+	19. <webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
 </p>
 
 <p>
-	19. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" />
+	20. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" />
 </p>
 
 <p>
-	20. <webwork source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" />
+	21. <webwork source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" />
 </p>
 	
 <p>
-	21. <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" />
+	22. <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" />
 </p>
 
 
 <p>
-22. <alert> The rest do not seem to render properly...</alert>  <webwork source="Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg" />
+23. <alert> The rest do not seem to render properly...</alert>  <webwork source="Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg" />
 </p>
 
 <!--

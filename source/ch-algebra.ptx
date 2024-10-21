@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-alg-intro.ptx" />
   <xi:include href="sec-alg-rational.ptx" />
+  <xi:include href="sec-alg-rationaleq.ptx" />
 
 </chapter>

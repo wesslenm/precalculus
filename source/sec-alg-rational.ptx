@@ -61,7 +61,7 @@
    
     <introduction>
     <p>    
-The quotient of two polynomials of called a <term>rational expression</term>. For example, lets look at the following rational expression:
+The quotient of two polynomials is called a <term>rational expression</term>. For example, lets look at the following rational expression:
     </p>
   
     <me>
@@ -69,7 +69,7 @@ The quotient of two polynomials of called a <term>rational expression</term>. Fo
     </me>
 
     <p>
-      Here, <m>x^3+3x^2</m> is the <term>numerator</term> of the rational expression, and <m>x^2+2x-3</m> is the <term>denominator</term>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as <m>\frac{3}{4} - \frac{1}{5}</m>).
+      Here, <m>x^3+3x^2</m> is the <term>numerator</term>, and <m>x^2+2x-3</m> is the <term>denominator</term>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as simplifying <m>\frac{3}{4} - \frac{1}{5}</m>).
     </p>
   </introduction>
   
@@ -77,86 +77,866 @@ The quotient of two polynomials of called a <term>rational expression</term>. Fo
     <title>Common factors</title>
     <p>
     Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator. 
+    </p>
 
-EXAMPLE...
+    <p>
+      A <term>factor</term> is part of an expression which is <em>multiplied</em> by the rest of the expression. 
+    </p>
 
-The cancelation in example (...) is based on the following rule, which says that if both the numerator an the denominator has the same FACTOR, it can be cancelled. A factor is.... 
+    <example xml:id="ex-common">
+      <title>Common factor</title>
+      <statement>
+        <p>
+        Simplify the rational epression <me>\frac{x^3+3x^2}{x^2+2x-3}.</me>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <me>\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}}</me>
+        </p>
+        </answer>
+      <solution>
+      <p>
+        Let's factor both the numerator and the denominator to see if there are any common factors. 
+        <me>
+          x^3+3x^2 = x^2(x+3)
+        </me>
+        and 
+        <me>
+          x^2+2x-3= (x-1)(x+3).
+        </me>
+        Next, lets look at the expression in the question and cancel any common factors:
+      </p>
+      <md>
+          <mrow>\frac{x^3+3x^2}{x^2+2x-3} &amp;= \frac{x^2(x+3)}{(x-1)(x+3)}</mrow>
+          <mrow> 		&amp;= \frac{x^2}{x-1}</mrow>
+        </md>.
 
-Note that what you are canceling must be multiplied (or divided), NOT added or subtracted. 
+        <p>
+        So, in the end, we see that
+        <me>\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}}</me>
+        </p>
+      </solution>
+    </example>
+
+    <exercise>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" />
+    </exercise>
+
+
+
+<p>
+The cancelation in <xref ref="ex-common" /> is based on the following rule, which says that if both the numerator and the denominator has the same <em> FACTOR </em>, it can be cancelled.  
+
+Note that what you are canceling must be multiplied (or divided) by the rest of the numerator and denominator, NOT added or subtracted. 
     </p>
 
     <assemblage xml:id="rational-factor">
-      <title>.....</title>
+      <title>Rule</title>
       <p>
-        ....
+        For any real numbers <m>a</m>, <m>b</m>, <m>c</m> and <m>k</m> where <m>b\not= 0</m> and <m>c\not= 0</m>, it is true that
+        <men xml:id="rule">\frac{ac}{bc}=\frac{a}{b}</men>
+        and 
+        <men xml:id="rule2">\frac{ak}{b}=\frac{a}{b} \cdot k</men>
+        This is true both if <m>a</m>, <m>b</m>, <m>c</m> and <m>k</m> are be constants (numbers) and/or expressions involving variables.  
       </p>
        </assemblage>
 
        <assemblage xml:id="rational-error">
         <title>Common Error</title>
         <p>
-          ....
+          In general, the following are not true. 
+
+          <me>\frac{a+c}{b+c}\not=\frac{a}{b}</me>
+          <me>\frac{a-c}{b-c}\not=\frac{a}{b}</me>
         </p>
          </assemblage>   
        
+         <p>
+          Note that <xref ref="rule" /> can be useful in ``both directions''. Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.
+         </p>
 
+         <exercise xml:id="ex-rat">    
+          <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg"/>
+        </exercise>
 
+        <p>
+          Note: If you are unsure of how to work with exponents, you could have a look at section <xref ref="sec-exp-intro"/> before working on <xref ref="ex-rat" />.
+        </p>   
+        <example>
+          <statement>
+                       For each of the following, determine if the statement is True or False, for all real numbers <m>a</m>, <m>b</m>, <m>c</m>? 
+                       Whenever there is division, assume that all denominators are non-zero.
+                       
+                       Make sure to try these yourself first before looking at the answers!
+
+          <p>
+          <ol>
+            <li>
+              <m>
+                \frac{x^2+3}{x^2+5} = \frac{3}{5} 
+              </m> (True or False?)
+            </li>
+            <li> 
+              <m>
+                \frac{a-b}{c-d} = \frac{b-a}{c-d}
+              </m> (True or False?)
+            </li>
+            <li>
+              <m>
+                \frac{x^2-3x}{x^2-7} = \frac{3x-x^2}{7-x^2}
+              </m> (True or False?)
+            </li>
+            <li>
+              <m>
+                \frac{ab+ac}{a} = b+c
+              </m> (True or False?)
+            </li>
+            <li>
+              <m>
+                \frac{x^2+1}{x^2+6} = \frac{3x^2+1}{3x^2+6}
+              </m> (True or False?)
+            </li>
+          </ol>
+        </p>
+          </statement>
+          <answer> 
+          <p>
+           1-False, 2-False,  3-True, 4-True, 5-False
+          </p>
+          </answer>           
+        </example>   
   </subsection>
 
   <subsection>
     <title>Multiplying and dividing rational expressions</title>
 
-      <p> Coming soon.   </p>
+      <p> To multiplying rational expressions we use the same ideas and rules as when multiplying numerical fractions. The numerators are multipled, and the denominators are multiplied. For example </p>
+         <me> \frac{2}{3}\times \frac{5}{7} = \frac{10}{21}</me>  
+         <p> Sometimes it might be worth simplifying the result, or perhaps simplifying before multiplying (if it's easy enough to do so). </p>
 
+         <assemblage>
+          <title>Technique</title>
+          <p>
+            To multiply two rational expressions, multiply the numerators to find the numerator of the product. Then multiply the denominators to find the denominator of the product. 
+
+            <men xml:id="rational-multiply">
+              \frac{a}{b} \times \frac{c}{d}= \frac{ac}{bd}
+            </men>
+where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and/or expressions involving variables.  
+          </p>
+           </assemblage>   
+
+         <example xml:id="ex-multiply">
+          <title>Multiplying rational expressions</title>
+          <statement>
+            <p>
+            Multiply the rational expressions and simplify the answer:
+             <me>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}.</me>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <me>\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}</me>
+            </p>
+            </answer>
+          <solution>
+          <p>
+            Multiply numerators separately, then denominators separately, as described in <xref ref="rational-multiply" />.
+          </p> 
+            <me>
+              \frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}.
+            </me>
+          <p>
+            Note that it is important to use brackets, to show that all of  <m> 3x^2+2 </m> is multiplied by all of <m> x+10 </m> (and similarly for the denominator). Next, expend the brackets and simplify:
+          </p>
+          <md>
+              <mrow>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} &amp;= \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}</mrow>
+              <mrow> 		&amp;= \frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}</mrow>
+            </md>.
+            <p>
+            There is no further simplification that can be made. So the answer is
+            <me>\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}</me>
+            </p>
+          </solution>
+        </example>
+
+        <exercise>
+          <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg"/>
+        </exercise>
+
+        <exercise>
+          <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg"/>
+        </exercise>
+
+        <exercise>
+          <webwork source="Library/ma117DB/set1b/srw1_4_11.pg"/>
+        </exercise>
+
+
+       <p> To divide rational expressions we again use the similar ideas and rules as when working with numerical fractions. Take the reciprocal of the denominator, then muliply.  For example </p>
+       <me> \frac{2}{3} / \frac{5}{7} = \frac{2}{3} \times \frac{7}{5} = \frac{14}{25}</me>  
+       
+       <assemblage>
+        <title>Technique</title>
+        <p>
+          To divide two rational expressions, multiply by the reciprical of the denominator:
+
+          <men xml:id="rational-divide">
+            \frac{a}{b} / \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}
+          </men>
+where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and/or expressions involving variables.  
+        </p>
+         </assemblage>   
+
+       <example xml:id="ex-divide">
+        <title>Dividing rational expressions</title>
+        <statement>
+          <p>
+          Divide the rational expressions and simplify the answer:
+           <me>\frac{3x^2+2}{x^2+2x-3} / \frac{x+10}{x^2-x+2}.</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}</me>
+          </p>
+          </answer>
+        <solution>
+        <p>
+          Multiply numerators separately, then denominators separately, as described in <xref ref="rational-multiply" />.
+        </p> 
+          <me>
+            \frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}.
+          </me>
+        <p>
+          Note that it is important to use brackets, to show that all of  <m> 3x^2+2 </m> is multiplied by all of <m> x+10 </m> (and similarly for the denominator). Next, expend the brackets and simplify:
+        </p>
+        <md>
+            <mrow>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} &amp;= \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}</mrow>
+            <mrow> 		&amp;= \frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}</mrow>
+          </md>.
+          <p>
+          There is no further simplification that can be made. So the answer is
+          <me>\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}</me>
+          </p>
+        </solution>
+      </example>
+
+      <exercise>
+        <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg"/>
+      </exercise>
 
   </subsection>
 
   <subsection>
     <title>Adding and Subtracting rational expressions</title>
 
-      <p> Coming soon.   </p>
+      <p> Let's start by looking at a numerical example of adding two fractions, <m>\frac{5}{6} + \frac{3}{8}</m>.      
+        
+        To add fractions, we need to use a common denominator.    </p>
+      <md>
+        <mrow>\frac{5}{6} + \frac{3}{8} &amp;= \frac{20}{24}+\frac{9}{24}</mrow>
+        <mrow> 		&amp;= \frac{20+9}{24}</mrow>
+        <mrow> 		&amp;= \frac{29}{24}</mrow>
+      </md>.
+
+      <p> The steps for adding rational expressions is the same. Also, the technique is the same for adding and for subtracting.     </p>
+
+      <assemblage>
+        <title>Technique</title>
+        <p>
+          To add or subtract two rational expressions:
+          <ol>
+              <li>
+                Find a common denominator. (It may be useful to factor the denominators.)
+              </li>
+              <li> 
+                Multiply each rational expression to change the denominators to the common denominator.
+              </li>
+              <li>
+                Add or subtract the numerators. 
+              </li>
+              <li>
+                Simplify if needed. 
+              </li>
+            </ol>
+        </p>
+      </assemblage> 
+
+      <example xml:id="ex-subtract">
+        <title>Subtracting rational expressions</title>
+        <statement>
+          <p>
+          Subtract the rational expressions and simplify the answer:
+           <me>\frac{x}{x^2-1} - \frac{2}{x^2+x-2}.</me>
+          </p>
+        </statement>
+        <answer>
+            <me>\boxed{\frac{x}{x^2-1} - \frac{2}{x^2+x-2}=\frac{x^2-2}{(x-1)(x+1)(x+2)}}</me>
+          </answer>
+        <solution>
+        <p>
+          We need find a common denominator. We could use an common denominator. For example we could simply use <m> (x^2-1)\cdot(x^2+x-2) </m>, but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:
+        </p> 
+          <me>
+            x^2-1 = (x-1)(x+1).
+          </me>
+          <me>
+            x^2+x-2 = (x-1)(x+2).
+          </me>
+        <p>
+          This means the LCD is
+        </p>
+        <me>
+          (x-1)(x+1)(x+2).
+        </me>
+        <p>
+          Next, multiply the first rational expression by <m> \frac{x+2}{x+2} </m> and the second rational expression by <m> \frac{x+1}{x+1} </m> so that both are on the same common denominator. Note that multiplying by <m> \frac{x+2}{x+2} </m> is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format. 
+        </p>
+        <md>
+            <mrow>\frac{x}{x^2-1} - \frac{2}{x^2+x-2} &amp;= \frac{x}{(x-1)(x+1)} \cdot \frac{x+2}{x+2} - \frac{2}{(x+2)(x-1)} \cdot \frac{x+1}{x+1}</mrow>
+            <mrow> 		&amp;= \frac{x(x+2)}{(x^2-1)(x+2)}  - \frac{2(x+1)}{(x^2+x-2)(x+1)}</mrow>
+            <mrow> 		&amp;= \frac{x(x+2)- 2(x+1)}{(x-1)(x+1)(x+2)}</mrow>
+            <mrow> 		&amp;= \frac{x^2+2x-2x-2}{(x-1)(x+1)(x+2)}</mrow>
+            <mrow> 		&amp;= \frac{x^2-2}{(x-1)(x+1)(x+2)}</mrow>
+          </md>.
+          <p>
+           So the answer is
+            <me>\boxed{\frac{x}{x^2-1} - \frac{2}{x^2+x-2}=\frac{x^2-2}{(x-1)(x+1)(x+2)}}</me>
+          It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).
+          </p>
+        </solution>
+      </example>
+
+      <exercise>
+        <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg"/>
+      </exercise>
+
+      <exercise>
+        <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg"/>
+      </exercise>
 
 
+      <exercise>
+        <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg"/>
+      </exercise>
   </subsection>
 
   <subsection>
     <title>Complex rational expressions</title>
 
-      <p> Coming soon.   </p>
+      <p> 
+        A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <term> complex rational expression</term>. To simplify a complex rational expression, start by simplifying the numberator, then the denominator, and after that is done you can simplify the overall expression. 
+      </p>
 
+      <example xml:id="ex-complex">
+        <title>Simplifying a complex rational expression</title>
+        <statement>
+          <p>
+          Simplify the complex rational expression:
+           <me>\frac{\frac{x}{y}+1}{1+\frac{2}{x}}.</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>\boxed{\frac{\frac{x}{y}+1}{1+\frac{2}{x}}=\frac{x^2 + xy}{xy+2y}}</me>
+          </p>
+          </answer>
+        <solution>
+        <p>
+          Simplify the numerator to make it a single fraction:
+        </p>
+        <md>
+          <mrow>\frac{x}{y}+1  &amp;= \frac{x}{y}+\frac{y}{y}</mrow>
+          <mrow> 		&amp;= \frac{x+y}{y}</mrow>
+        </md>.
+      <p>
+        Simplify the denominator to make it a single fraction:
+      </p>
+      <md>
+        <mrow>1+\frac{2}{x}  &amp;= \frac{x}{x}+\frac{2}{x}</mrow>
+        <mrow> 		&amp;= \frac{x+2}{x}</mrow>
+      </md>.  
+      <p>      
+        Now we are ready to simplify the complex rational expression. Remember that to divide by a rationl expression, multiply by the reciprocal (see <xref ref="rational-divide"/>). 
+      </p>
+         <md>
+            <mrow>\frac{\frac{x}{y}+1}{1+\frac{2}{x}} &amp;= \frac{\frac{x+y}{y}}{\frac{x+2}{x}}</mrow>
+            <mrow> 		&amp;= \frac{x+y}{y} \cdot \frac{x}{x+2} </mrow>
+            <mrow> 		&amp;= \frac{(x+y)x}{y(x+2)} </mrow>
+            <mrow> 		&amp;= \frac{x^2 + xy}{xy+2y} </mrow>
+          </md>.
+          <p>
+          There is no further simplification that can be made. So the final answer is
+          <me>\boxed{\frac{\frac{x}{y}+1}{1+\frac{2}{x}}=\frac{x^2 + xy}{xy+2y}}</me>
+          </p>
+        </solution>
+      </example>
 
-  </subsection>
+      <p>      
+        Let's summarize the steps we took in <xref ref="ex-complex"/>:
+      </p>
+
+<assemblage>
+  <title>Technique</title>
+  <p>
+    To simplify complex rational expressions:
+    <ol>
+        <li>
+          Simplify the numerator to make it a single rational expression.
+        </li>
+        <li> 
+          Simplify the denominator to make it a single rational expression.
+        </li>
+        <li>
+          Divide the two expressions, by multiplying of the reciprocal of the denominator (as in <xref ref="rational-divide"/>).
+        </li>
+        <li>
+          Simplify if needed. 
+        </li>
+      </ol>
+  </p>
+</assemblage> 
+
+<exercise>
+  <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg" />
+</exercise>
+
+<exercise>
+  <webwork source="Library/ma117DB/set1b/srw1_4_47.pg"/>
+</exercise>
+
+<exercise>
+  <webwork source="Library/ma117DB/set1b/srw1_4_39.pg"/>
+</exercise>
+
+</subsection>
 
   <subsection>
     <title>Additional Examples</title>
 
-      <p> Coming soon. very soon...  </p>
+      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
 
+      <p>
+        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
+        </p>
 
-      <exercise>
-        <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
-      </exercise>
+      <example xml:id="ex-complex2">
+        <title>A complex rational expression with division</title>
+        <statement>
+          <p>
+          Simplify the expression:
+           <me>\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}.</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>\boxed{\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}=\frac{1+x}{4x^4+12x^3}}</me>
+          </p>
+          </answer>
+        <solution>
+          <p>
+            Consider the overall expression. We can use <xref ref="rule2"/> to rewrite this into a simpler expression:
+          </p>  
+          <md>
+            <mrow>\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}  &amp;= \left(\frac{\frac{1}{x}+1}{x^2+3x}\right)\cdot\frac{1}{4x}</mrow>
+            <mrow> 		&amp;= \frac{\left(\frac{1}{x}+1\right) \cdot 1 }{(x^2+3x)\cdot 4x}</mrow>
+            <mrow> 		&amp;= \frac{\left(\frac{1}{x}+1\right)}{4x^3+12x^2}</mrow>
+          </md>       
+        <p>
+          Now simplify the numerator to make it a single fraction:
+        </p>
+        <md>
+          <mrow>\frac{1}{x}+1  &amp;= \frac{1}{x}+\frac{x}{x}</mrow>
+          <mrow> 		&amp;= \frac{1+x}{x}</mrow>
+        </md>
+        <p>
+          Now we have a rational expression where the numerator is a rational expression:
+        <me> \frac{\left(\frac{1}{x}+1\right)}{4x^3+12x^2} = \frac{\left(\frac{1+x}{x}\right)}{4x^3+12x^2} </me> 
+        Again, we use <xref ref="rule2"/> to rewrite this into a simpler expression:
+        </p>
+        <md>
+          <mrow>\frac{\left(\frac{1+x}{x}\right)}{4x^3+12x^2} &amp;= \left(\frac{1+x}{x}\right)\cdot \frac{1}{4x^3+12x^2}</mrow>
+          <mrow> 		&amp;= \frac{(1+x) \cdot 1 }{x\cdot (4x^3+12x^2)}</mrow>
+          <mrow> 		&amp;= \frac{1+x}{4x^4+12x^3}</mrow>
+        </md>.  
 
+        <p>
+          The final answer is
+          <me>\boxed{\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}=\frac{1+x}{4x^4+12x^3}}</me>
+        </p>
+        </solution>
+      </example>
+
+      <example xml:id="ex-complex3">
+        <title>A complex rational expression with two variables</title>
+        <statement>
+          <p>
+          Simplify the expression as much as possible. Assume that any factors you cancel are not zero. 
+           <me>\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1}.</me>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>\boxed{\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1}=\frac{x+y}{x}}</me>
+          </p>
+          </answer>
+        <solution>
+          <p>
+            Both the numerator and denominator are rational expressions. The numerator is already a single rational expression, but the denminator is not, so let's rewrite the denominator on a common denominator:  We can use <xref ref="rule2"/> to rewrite this into a simpler expression:
+          </p>  
+          <md>
+            <mrow>\frac{x}{y}-1  &amp;= \frac{x}{y}-\frac{y}{y}</mrow>
+            <mrow> 		&amp;= \frac{x-y}{y}</mrow>
+          </md>       
+        <p>
+          Now we have a rational expression divided by a rational expression, so we multiply by the reciprocal:
+        </p>
+        <md>
+          <mrow>\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1} &amp;= \frac{\frac{x^2-y^2}{xy}}{\frac{x-y}{y}}</mrow>
+          <mrow> 		&amp;= \frac{x^2-y^2}{xy} \cdot \frac{y}{x-y}</mrow>
+          <mrow> 		&amp;= \frac{(x^2-y^2)y}{xy(x-y)}</mrow>
+        </md>.  
+        <p>
+          We can cancel a common factor of <m>y</m>: 
+        </p>  
+        <md>
+          <mrow>\frac{(x^2-y^2)y}{xy(x-y)} &amp;= \frac{x^2-y^2}{x(x-y)}</mrow>
+        </md>.
+        <p>
+          We could make a note that <m>y\not= 0</m>. (This is because on the left side, <m>y</m> can not be 0 since it would result in division by 0). However, the statement of the question said that we can assume that any factors we cancel are not zero.
+
+          The question also asked to simplify as much as possible. Let's check for more common factors: 
+          <md>
+            <mrow>\frac{x^2-y^2}{x(x-y)} &amp;= \frac{(x-y)(x+y)}{x(x-y)}</mrow>
+            <mrow> 		&amp;= \frac{x+y}{x}</mrow>
+          </md>.
+        </p>
+        <p>
+          Again, we can assume that any factors we cancel are not zero, so we do not need to write <m>x+y\not= 0</m>. The final answer is
+          <me>\boxed{\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1}=\frac{x+y}{x}}</me>
+        </p>
+        </solution>
+      </example>
   </subsection>
 
   <subsection>
     <title>Exercises</title>
 
     <p>
-      1. Coming soon...
+      Note: In all exercises, assume that any factor you cancel is not zero (as in Example <xref ref="ex-complex3"/>).
+    </p>
+    
+    <p>
+      1. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" />
+    </p>
+
+    <p>
+      2. <webwork source="Library/ma117DB/set1b/srw1_4_7.pg" />
+    </p>
+
+    <p>
+      3. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" />
+    </p>
+
+    <p>
+      4. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" />
+    </p>
+
+    <p>
+      5. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" />
+    </p>
+
+
+    <p>
+      6. <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" />
+    </p>
+
+add/subtract:
+
+<p>
+  7. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" />
+</p>
+
+
+<p>
+  8. <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
+</p>
+
+
+
+    <p>
+      9. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" />
+    </p>
+
+    <p>
+      10. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" />
+    </p>
+
+
+    <p>
+      11. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" />
+    </p>
+
+    <p>
+      12. <webwork source="Library/ma117DB/set1b/srw1_4_27.pg" />
+    </p>
+
+ 
+
+    <p>
+      13. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" />
+    </p>
+
+    <p>
+      14. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" />
+    </p>
+
+    <p>
+      15. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" />
+    </p> 
+
+    <p>
+      16. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" />
+    </p>
+
+    <p>
+      17. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" />
+    </p>
+
+ 
+
+    <p>
+      18. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" />
+    </p>
+
+
+
+    <p>
+      19. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" />
+    </p>
+
+    <p>
+      20. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" />
+    </p>
+
+complex:
+
+    <p>
+      21. <webwork source="Library/ma117DB/set1b/srw1_4_41.pg" />
+    </p>
+
+    <p>
+      22. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" />
+    </p>
+
+    <p>
+      23. <webwork source="Library/ma117DB/set1b/srw1_4_45.pg" />
+    </p>
+
+    <p>
+      <alert> The following do not seem to render well - delete. </alert>
+    
+       <webwork source="Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p4.pg" />
+    </p>
+
+    <p>
+      No. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p9.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/srw1_4_29.pg" />
+    </p>
+
+
+    <p>
+      no. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/Test2_3.pg" />
+    </p>
+
+
+<!--
+
+
+    <p>
+      18 yes but do not use. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04-multiple-choice.pg" />
+    </p>  
+
+    <p>
+      26 yes but do not use. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-52.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Mizzou/Intermediate_Algebra/Rational_Expressions_Simplifying/Neg_Powers.pg" />
+    </p>
+
+
+
+    <p>
+      no. <webwork source="Library/ma117DB/set1b/srw1_4_5.pg" />
+    </p>
+
+
+
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-16-Algebraic-fractions.pg" />
+    </p>
+
+       <p>
+      no. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-18.pg" />
+    </p>
+
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p16.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-52-Algebraic-fractions.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/srw1_4_20.pg" />
+    </p>
+
+
+
+    <p>
+      no. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/srw1_4_55-59.pg" />
+    </p>
+
+    <p>
+      no - Rochester. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/srw1_4_13.pg" />
+    </p>
+    <p>
+      yes but don't use?. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-20.pg" />
+    </p>
+
+    <p>
+      25 yesLoyola Chicago. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-54.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/LoyolaChicago/Precalc/Chap9Review/Q17.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p1.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p26.pg" />
+    </p>
+
+ 
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p12.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set14_Review/s14p24.pg"/>
+    </p>
+
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-04-Algebraic-fractions.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-12-Algebraic-fractions.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-60-Algebraic-fractions.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-06-Algebraic-fractions.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Utah/Trigonometry/set2_Algebra/s2p3.pg" />
+    </p>   
+
+    <p>
+      no. <webwork source="Library/Utah/Trigonometry/set2_Algebra/s2p2.pg" />
+    </p>   
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p9.pg" />
+    </p>   
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p14.pg" />
+    </p>   
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p11.pg" />
+    </p>   
+
+    <p>
+      no. (error warning...) <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p15.pg" />
+    </p>   
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p1.pg" />
+    </p>   
+
+    <p>
+      no. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/srw1_4_1.pg" />
+    </p>
+    <p>
+      no. <webwork source="Library/FortLewis/Algebra/2-4-Algebraic-fractions/MCH1-2-4-20-Algebraic-fractions.pg" />
+    </p>
+
+
+    <p>
+      no. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-35.pg" />
+    </p>
+    <p>
+      no. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-11.pg" />
+    </p>
+
+
+  
+    <p>
+      no. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-36.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-19.pg" />
+    </p>
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p12.pg" />
+    </p>  
+
+    <p>
+      no. <webwork source="Library/Utah/Intermediate_Algebra/set14_Review/s14p24.pg" />
+    </p> 
+
+    <p>
+      no. <webwork source="Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p2.pg" />
     </p>
  
-    <p>
-      2. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
-    </p>
 
-    <p>
-      3. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
-    </p>
+    <exercise>
+      <webwork source="Library/Mizzou/Intermediate_Algebra/Rational_Expressions_Simplifying/Multiply_Diff_Squares_01.pg"/>
+    </exercise>
 
-    <p>
-      4. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
-    </p>
+    <exercise>
+      <webwork source="Library/Mizzou/Intermediate_Algebra/Rational_Expressions_Simplifying/Multiply_Group_01.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/Mizzou/Algebra/rational_expressions_mult_div/multiply_01.pg"/>
+    </exercise>
+
+    <exercise>
+      <webwork source="Library/LoyolaChicago/Precalc/Chap9Tools/Connally3-9-Tools-20.pg"/>
+    </exercise>
+
+-->
 
   </subsection>
 </section>
