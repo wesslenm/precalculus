@@ -1,0 +1,1769 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg">
+      <statement><p>Simplify the rational expression.  
+<me>\frac{2x+6}{x^{2}-2x-15}</me>
+Answer:  <fillin name="AnSwEr0001" characters="30"/></p>
+</statement>
+      <answer>
+        <p>No correct answer specified</p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2" source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg">
+      <statement><p>Simplify the rational expression
+<me>\frac{12 a b^{4}}{21 b^{6}}</me>
+in the form <m>\frac{A}{B}.</m></p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4a</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7b^{2}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3" source="Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg">
+      <statement><p>Evaluate the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{6}{x} \cdot \frac{5}{y} =</m> <fillin name="AnSwEr0001" characters="25"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>Numerators / Denominators</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{30}{xy}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg">
+      <statement><p>Multiply and simplify your answer.
+<me>\frac{x^{2}+7x+10}{x^{2}+6x+5} \cdot \frac{x^{2}-1}{x^{2}+2x-3}</me></p>
+<p>Answer:  <fillin name="AnSwEr0001" characters="30"/></p>
+</statement>
+      <answer>
+        <p>No correct answer specified</p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5" source="Library/ma117DB/set1b/srw1_4_11.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{x^2+7 x+10}{x^2+7 x+6}\cdot
+\frac{x^2+4 x+3}{x^2+8 x+12}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(x+5\right)\!\left(x+3\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(x+6\right)\!\left(x+6\right)</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_11.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_11.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6" source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg">
+      <statement><p>Evaluate the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{8}{y^2} \div \frac{5}{2y} =</m> <fillin name="AnSwEr0001" characters="25"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>Reciprocal</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{16}{5y}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7" source="Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg">
+      <statement><p>Evaluate the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{9}{x} - \frac{9}{y} =</m> <fillin name="AnSwEr0001" characters="25"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>First you will need to get a common denominator by finding the least common multiple.</p>
+<p>The common denominator is <m>x y</m> but you will need to put parenthesis around the denominator so that you divide it all.</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{9y-9x}{xy}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg">
+      <statement><p>Find the least common denominator (LCD) of the rational expressions:  
+<me>\frac{2y}{y^{2}-25} \mbox{ and } \frac{4}{y^{2}-5y}</me></p>
+<p>LCD:  <fillin name="AnSwEr0001" characters="25"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>y\!\left(y-5\right)\!\left(y+5\right)</m>
+        </p>
+      </answer>
+      <solution><p>The factors of the denominators are</p>
+<p><m>y^{2}-25 = \left(y-5\right)\!\left(y+5\right)</m></p>
+<p><m>y^{2}-5y = y\!\left(y-5\right)</m></p>
+<p>Hence, the LCD is <m>y\!\left(y-5\right)\!\left(y+5\right)</m>.</p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg">
+      <statement><p>Perform the indicated operation.  Note that the denominators
+are the same.  Simplify the result, if possible.
+<me>\frac{y^{2}}{y^{2}-25} + \frac{25-10y}{y^{2}-25}</me></p>
+<p>Answer:  <fillin name="AnSwEr0001" characters="25"/></p>
+<p><url>help(entering your answer)</url></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{y-5}{y+5}</m>
+        </p>
+      </answer>
+      <solution><p>The denominators are equal.  Add the numerators. Factor and reduce.
+<me>\begin{aligned}
+\frac{y^{2}}{y^{2}-25} + \frac{25-10y}{y^{2}-25}  \amp  = \frac{y^2 + 25 - 10 y}{y^2 - 25} \amp  \\
+                \amp  = \frac{y^2 - 10 y + 25}{y^2 - 25}  \amp  \\
+                \amp  = \frac{(y - 5)(y - 5)}{(y + 5)(y - 5)} \amp  \mbox{Reduce common factors}\\
+                \amp  = \frac{y-5}{y+5}
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg">
+      <statement><p>Simplify the complex fraction
+<me>{
+\frac{\displaystyle \; \frac{1}{x}+\frac{5}{x^2}\;}{\displaystyle \frac{10}{y}+\frac{11}{y^2}}
+}</me>
+in the form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>y^{2}\!\left(1x+5\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{2}\!\left(10y+11\right)</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11" source="Library/ma117DB/set1b/srw1_4_47.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{\frac{2}{a+h}-\frac{2}{a}}{h}</me> 
+and give your answer in the form of
+<me>\frac{A}{B}.</me></p>
+<p>Your answer for <m>A</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for <m>B</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(a+h\right)a</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_47.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_47.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12" source="Library/ma117DB/set1b/srw1_4_39.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{1+\frac{2}{c-2}}{1-\frac{2}{c-2}}</me> 
+and give your answer in the form of
+<me>\frac{f(c)}{g(c)}.</me></p>
+<p>Your answer for the function <m>f(c)</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for the function <m>g(c)</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>c</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>c-4</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_39.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_39.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg">
+      <statement><p>Simplify the rational expression.  
+<me>\frac{x^{2}+2x-3}{x^{2}-9}</me>
+Answer:  <fillin name="AnSwEr0001" characters="30"/></p>
+</statement>
+      <answer>
+        <p>No correct answer specified</p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14" source="Library/ma117DB/set1b/srw1_4_7.pg">
+      <statement><p>Simplify the expression
+<me>\frac{5 x^3-6 x^2-8 x}{2 x^2-7 x+6}</me>
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}</me>
+where <m>f(x)</m> and <m>g(x)</m> are polynomials with no common factors.</p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin name="AnSwEr0001" characters="10"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin name="AnSwEr0002" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x\!\left(5x+4\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2x-3</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_7.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15" source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg">
+      <statement><p>Simplify the rational expression
+<me>\frac{7(xy^{5}+y^{6})}{x^2-y^2}</me>
+in the form <m>\frac{A}{B}.</m></p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7y^{5}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x-y</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg">
+      <statement><p>Multiply the two rational expressions 
+<me>\frac{12 x^{4}}{25 y^{4}} \cdot \frac{15 xy}{9 x^{4}y^2}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4x</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5y^{5}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg">
+      <statement><p>Select <alert>all</alert> expressions that are equivalent to 
+<me>\frac{x-3}{5 x} \cdot  \frac{x}{x^2-9}</me>
+There may be more than one correct answer.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>\displaystyle \frac{-1}{5 x-3}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{1}{5} \cdot \frac{1}{x+3}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{1}{5(x+3)}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{-1}{5(x-3)}</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18" source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg">
+      <statement><p>Evaluate the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{10}{2x} \div \frac{10}{3y} =</m> <fillin name="AnSwEr0001" characters="25"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>Reciprocal</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{30y}{20x}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg">
+      <statement><p>Divide the two rational expressions 
+<me>- \frac{24 a b^{6}}{7 c} \div - \frac{9 a^2 c}{b^{3}c^{6}}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8b^{9}c^{4}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>21a</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20" source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg">
+      <statement><p>Add the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{5}{x} + \frac{6}{y} =</m> <fillin name="AnSwEr0001" characters="25"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>First you will need to get a common denominator by finding the least common multiple.</p>
+<p>The common denominator is <m>x y</m> but you will need to put parenthesis around the denominator so that you divide it all.</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{5y+6x}{xy}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg">
+      <statement><p>Simplify the rational expression
+<me>\frac{1}{x^{2}} + \frac{1}{x^{4}}</me>
+in the form <m>\frac{A}{B}</m>.  Express the final result in a single fraction using positive exponents only.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x^{2}+1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{2+2}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{2x-3}{x-2}+ \frac{3-x}{x-2}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x-2</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg">
+      <statement><p>Add the two rational expressions
+<me>\frac{2x-1}{3x^{2}} + \frac{3\!\left(x-2\right)}{3x^{2}}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(2+3\right)x-2\cdot 3-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3x^{2}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24" source="Library/ma117DB/set1b/srw1_4_27.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{4}{x^2} + \frac{4}{x^2+x}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8x+4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{2}\!\left(x+1\right)</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_27.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_27.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{1}{x+4}- \frac{1}{x+6}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(x+4\right)\!\left(x+6\right)</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg">
+      <statement><p>Subtract the two rational expressions
+<me>\frac{6x}{4x+1} - \frac{5}{4x+1}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6x-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4x+1</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg">
+      <statement><p>Find the least common denominator (LCD) of the rational expressions:  
+<me>\frac{t+4}{25t^{2}-4} \mbox{ and } \frac{6t+1}{25t^{2}+20t+4}</me></p>
+<p>LCD:  <fillin name="AnSwEr0001" characters="25"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(5t-2\right)\!\left(5t+2\right)^{2}</m>
+        </p>
+      </answer>
+      <solution><p>The factors of the denominators are</p>
+<p><m>25t^{2}-4 = \left(5t+2\right)\!\left(5t-2\right)</m></p>
+<p><m>25t^{2}+20t+4= \left(5t+2\right)^{2}</m></p>
+<p>Hence, the LCD is <m>\left(5t-2\right)\!\left(5t+2\right)^{2}</m>.</p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg">
+      <statement><p>Write <m>\displaystyle \frac{m}{2} + \frac{m}{3}</m> 
+as a single fraction.  
+<fillin name="AnSwEr0001" characters="20"/></p>
+<p>Note: Your answer should be a completely simplified fraction.
+Unsimplified answers and decimals will not be accepted.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{5m}{6}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg">
+      <statement><p>Perform the indicated operation.  Simplify the result, if possible.
+ <me>3 - \frac{1}{5\cdot 2x}</me></p>
+<p>Answer:  <fillin name="AnSwEr0001" characters="25"/></p>
+<p><url>help(entering your answer)</url></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{6x+14}{2x+5}</m>
+        </p>
+      </answer>
+      <solution><p>The LCD is <m>2x5</m>.
+<me>\begin{aligned} 
+3 - \frac{1}{5\cdot 2x} \amp  = \frac{3}{1} \cdot \frac{2x5}{2x5} - \frac{1}{5\cdot 2x} \\
+          \amp  = \frac{6x15}{2x5} - \frac{1}{2x5} \\
+          \amp  = \frac{6x+14}{2x+5}               
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg">
+      <statement><p>Perform the indicated operations on the three expressions
+<me>x + \frac{4}{x^{2}-16} - \frac{x^{2}}{x+4}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4x^{2}-4^{2}x+4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{2}-4\cdot 4</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg">
+      <statement><p>Perform the indicated operations involving the three rational expressions 
+<me>\frac{4xy^{3}}{5x} \cdot \frac{10xy^{5}}{26y} \div \frac{5y^{2}z}{13x^{2}}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4x^{3}y^{5}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5z^{1}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg">
+      <statement><p>Select <alert>all</alert> expressions that are equivalent to  
+<me>\displaystyle y + \frac{y}{4} + \frac{4}{y}.</me>  
+There may be more than one correct answer.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>\displaystyle \frac{2y + 4}{4 + y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{5 y^2 + 16}{4 y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{5 y}{4} + \frac{4}{y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle y + 4</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{y^2 + 16}{4 y }</m></p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33" source="Library/ma117DB/set1b/srw1_4_41.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{\frac{5}{x-1}-\frac{2}{x+1}}{\frac{x}{x-1}+\frac{1}{x+1}}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3x+5+2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{2}+2x-1</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_41.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_41.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg">
+      <statement><p>Simplify the complex fraction
+<me>1+\frac{\displaystyle \; 1 \;}{\displaystyle  \; 1+\frac{1}{\displaystyle \; 1+ \frac{1}{x}\;}}</me>
+in the form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>B =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3x+2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2x+1</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-35" ww-id="webwork-35">
+    <static seed="35" source="Library/ma117DB/set1b/srw1_4_45.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{1}{1+x^n} + \frac{1}{1+x^{-n}}.</me></p>
+<p>Your answer is : <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/ma117DB/set1b/srw1_4_45.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_45.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-36" ww-id="webwork-36">
+    <static seed="36" source="Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p4.pg" failure="statement">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p4.pg with seed 36 does not have a statement tag 
+  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-37" ww-id="webwork-37">
+    <static seed="37" source="Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p9.pg" failure="statement">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p9.pg with seed 37 does not have a statement tag 
+  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-38" ww-id="webwork-38">
+    <static seed="38" source="Library/Rochester/setAlgebra05RationalExpressions/srw1_4_29.pg" failure="statement">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Rochester/setAlgebra05RationalExpressions/srw1_4_29.pg with seed 38 does not have a statement tag 
+  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-39" ww-id="webwork-39">
+    <static seed="39" source="Library/Rochester/setAlgebra05RationalExpressions/Test2_3.pg" failure="statement">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Rochester/setAlgebra05RationalExpressions/Test2_3.pg with seed 39 does not have a statement tag 
+  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-40" ww-id="webwork-40">
+    <static seed="40" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+      <statement><p>Use the properties of exponents to simplify the following</p>
+<p><m>{y^{10}}\cdot{y^{5}} =</m>
+<fillin name="AnSwEr0001" characters="12"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>y^{15}</m>
+        </p>
+      </answer>
+      <solution><p>We <em>add</em> the exponents as follows</p>
+<p><m>\begin{aligned}
+           y^{10}\cdot y^{5}\amp =y^{10+5}\\
+                             \amp =y^{15}
+       \end{aligned}</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-41" ww-id="webwork-41">
+    <static seed="41" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg">
+      <statement><p>Evaluate: <m>\displaystyle \frac{ 2^{6} }{ 2^{4} } =</m>
+<fillin name="AnSwEr0001" characters="20"/></p>
+<p>Note: Your answer should be completely simplified.
+Unsimplified answers will not be accepted.</p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-42" ww-id="webwork-42">
+    <static seed="42" source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg">
+      <statement><p>Simplify the following expression, and write your answer using only <em>positive</em> exponents.</p>
+<p><m>\displaystyle\frac{-9r^{8}}{13r^{27}}=</m><fillin name="AnSwEr0001" characters="12"/></p>
+<p>Note that you may have to be careful with grouping parenthesis in this problem; 1/2r
+is not the same as 1/(2r).</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-9}{13r^{19}}</m>
+        </p>
+      </answer>
+      <solution><p>We use the properties of exponents to help us here, remembering that <m>\displaystyle{\frac{a^m}{a^n} = a^{m-n}}</m></p>
+<p><m>\displaystyle{           \begin{aligned}
+                 \displaystyle\frac{-9r^{8}}{13r^{27}} \amp = \frac{-9}{13}r^{8-27}\\
+                                                       \amp  =\frac{-9}{13}r^{-19}\\
+                                    \amp  = -\frac{9}{13 r^{19}}
+           \end{aligned}
+    }</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/negExp36.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-43" ww-id="webwork-43">
+    <static seed="43" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg">
+      <statement><p>Rewrite the following using a single exponent.</p>
+<p><m>\displaystyle \frac{8^a 3^a}{24^b} = 24^x</m> for <m>x</m> = <fillin name="AnSwEr0001" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>a-b</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-44" ww-id="webwork-44">
+    <static seed="44" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg">
+      <statement><p>Simplify the expression:</p>
+<p><m>(5 x^{4} )(-4 x^{-9})</m> =  <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-\frac{20}{x^{5}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-45" ww-id="webwork-45">
+    <static seed="45" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg">
+      <statement><p>Evaluate the following without a calculator.
+Simplify your answers as much as possible.</p>
+<p>(a) <m>9^{3/2} =</m>
+<fillin name="AnSwEr0001" characters="10"/></p>
+<p>(b) <m>25^{3/2} =</m>
+<fillin name="AnSwEr0002" characters="10"/></p>
+<p>(c) <m>100^{7 / 2} =</m>
+<fillin name="AnSwEr0003" characters="10"/></p>
+<p>(d) <m>\sqrt[3]{-125} =</m>
+<fillin name="AnSwEr0004" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>27</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>125</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1\times 10^{7}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+      <solution><alert> SOLUTION </alert>
+
+
+
+(a) <m>9^{3/2} = 3^3 = 27</m>.
+
+
+
+(b) <m>25^{3/2} = 5^3 = 125</m>.
+
+
+
+(c) <m>100^{7 / 2} = 10^{7} = 1\times 10^{7}</m>.
+
+
+
+(d) <m>\sqrt[3]{-125} = -5</m>.
+
+
+
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-46" ww-id="webwork-46">
+    <static seed="46" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg">
+      <statement><p>Find the product
+<me>( -9 \sqrt{3})( 2 \sqrt{5} )</me>
+and express your answer in simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are integers.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>C =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-9\cdot 2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>15</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-47" ww-id="webwork-47">
+    <static seed="47" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_16.pg">
+      <statement><p>Find the product
+<me>\sqrt{3} \left( \sqrt{13} + \sqrt{5}  \right)</me>
+and express your answer in the form <m>A \sqrt{B} + C \sqrt{D},</m> <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all integers and <m>B &gt; D.</m></p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="15"/>, <m>B =</m> <fillin name="AnSwEr0002" characters="15"/>, <m>C =</m> <fillin name="AnSwEr0003" characters="15"/>, and <m>D =</m> <fillin name="AnSwEr0004" characters="15"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3\cdot 13</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3\cdot 5</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_16.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_16.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-48" ww-id="webwork-48">
+    <static seed="48" source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-04-Fractional-exponents.pg">
+      <statement><p>Evaluate the following expression without using
+a calculator.  Simplify your answer as much
+as possible, and enter your answer as a fraction.</p>
+<p><m>\displaystyle \left( \frac{8}{27} \right)^{-1/3}</m> 
+= <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{3}{2}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-04-Fractional-exponents.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-04-Fractional-exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-49" ww-id="webwork-49">
+    <static seed="49" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg">
+      <statement><p>Simplify and write the following in exponential notation. If</p>
+<p><me>\left( x^{ \frac{4}{5} } \cdot p^{\frac{4}{5} } \right)^{\frac{4}{3}} = x^{m} \cdot p^n</me></p>
+<p>then</p>
+<p><m>m =</m> <fillin name="AnSwEr0001" characters="20"/>
+    and    
+<m>n =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{16}{15}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\frac{16}{15}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-50" ww-id="webwork-50">
+    <static seed="50" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg">
+      <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle  \left( \frac{20 x^{4}y^{4}}{5 x^{6}y^{-3}}\right)^{4}</m> =  <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{256y^{28}}{x^{8}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-51" ww-id="webwork-51">
+    <static seed="51" source="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg">
+      <statement><p>Simplify.  Assume that all expressions under radicals represent nonnegative numbers.</p>
+<p><m>\left(\sqrt{2 a}  - 9 c\right)^2 =</m>  <fillin name="AnSwEr0001" characters="20"/></p>
+<p>Write your answer using radical notation if necessary.</p>
+<p><alert>Help:</alert></p>
+</statement>
+      <answer>
+        <p>
+          <m>81c^{2}+2a-18c\sqrt{2a}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-52" ww-id="webwork-52">
+    <static seed="52" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg">
+      <statement><p>Evaluate the following expressions for <m>x = 2</m>,
+<m>y = -2</m>, and <m>z = -5</m> without using
+a calculator.  Simplify your answers as much
+as possible, and enter your answers as fractions.</p>
+<tabular>
+<row>
+<cell><m>y^x</m></cell>
+<cell><m>=</m></cell>
+<cell><fillin name="AnSwEr0001" characters="20"/></cell>
+</row>
+<row>
+<cell><m>\displaystyle \left( \frac{y}{z} \right)^x</m></cell>
+<cell><m>=</m></cell>
+<cell><fillin name="AnSwEr0002" characters="20"/></cell>
+</row>
+<row>
+<cell><m>x^{-z}</m></cell>
+<cell><m>=</m></cell>
+<cell><fillin name="AnSwEr0003" characters="20"/></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\frac{4}{25}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>32</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-53" ww-id="webwork-53">
+    <static seed="53" source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg">
+      <statement><p>Simplify the following expression.</p>
+<p><m>\displaystyle{ {-2p^{2}c^{5}\!\left(-2p^{2}c^{2}\right)^{5}}=}</m><fillin name="AnSwEr0001" characters="14"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>64p^{12}c^{15}</m>
+        </p>
+      </answer>
+      <solution><p><m>\displaystyle{ 
+\begin{aligned}
+   {-2p^{2}c^{5}\!\left(-2p^{2}c^{2}\right)^{5}}
+   \amp = {-2p^{2}c^{5}}(-2)^{5}({p^{2}})^{5}({c^{2}})^{5} \\
+   \amp = {-2p^{2}c^{5}}(-32)(p^{10})(c^{10}) \\
+   \amp = {64p^{12}c^{15}} \\
+\end{aligned}
+    }</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-54" ww-id="webwork-54">
+    <static seed="54" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
+      <statement><p>Simplify and write the following as a single rational exponent of <m>z</m>. If</p>
+<p><me>\displaystyle \frac{z^{3/4}}{z^{5/3}} = z^m</me></p>
+<p>then</p>
+<p><m>m =</m> <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-{\frac{11}{12}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-55" ww-id="webwork-55">
+    <static seed="55" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg">
+      <statement><p>Evaluate the following without a calculator.
+Simplify your answers as much as possible.</p>
+<p>(a) <m>\sqrt{ (-4)^2 } =</m>
+<fillin name="AnSwEr0001" characters="10"/></p>
+<p>(b) <m>(-1)^{7} \cdot \sqrt{81} =</m>
+<fillin name="AnSwEr0002" characters="10"/></p>
+<p>(c) <m>(0.49)^{1/2} =</m>
+<fillin name="AnSwEr0003" characters="10"/></p>
+<p>(d) <m>(-125)^{2/3} =</m>
+<fillin name="AnSwEr0004" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-9</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>25</m>
+        </p>
+      </answer>
+      <solution><alert> SOLUTION </alert>
+
+
+
+(a) <m>\sqrt{ (-4)^2 } = \sqrt{16} = 4</m>.
+
+
+
+(b) <m>(-1)^{7} \cdot \sqrt{81} = -1\sqrt{9^2} = -9</m>.
+
+
+
+(c) <m>(0.49)^{1/2} = \left(\frac{49}{100}\right)^{1/2} = \frac{7}{10} = 0.7</m>.
+
+
+
+(d) <m>(-125)^{2/3} = (-5)^2 = 25</m>.
+
+
+
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-56" ww-id="webwork-56">
+    <static seed="56" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
+      <statement><p>Simplify each expression as much as possible
+and leave it without radicals.</p>
+<p>(a) <m>\sqrt{ w^{2} x^{6} } =</m>
+<fillin name="AnSwEr0001" characters="10"/></p>
+<p>(b) <m>\sqrt[3]{ 8 w^{9} } =</m>
+<fillin name="AnSwEr0002" characters="10"/></p>
+<p>(c) <m>\sqrt{25 x^{6} y^{4} } =</m>
+<fillin name="AnSwEr0003" characters="10"/></p>
+<p>(d) <m>\sqrt{ 8 w^{9} y^{8} } \sqrt{ 2 y^{2} w^{7} } =</m>
+<fillin name="AnSwEr0004" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>w^{1}x^{3}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2w^{3}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5x^{3}y^{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4w^{8}y^{5}</m>
+        </p>
+      </answer>
+      <solution><alert> SOLUTION </alert>
+
+
+
+(a) <m>\sqrt{ w^{2} x^{6} } = (w^{2} x^{6})^{1/2} =
+       w^{2/2} x^{6/2} = w^{1}x^{3}</m>.
+
+
+
+(b) <m>\sqrt[3]{ 8 w^{9} } = (8 w^{9})^{1/3} = 8^{1/3} w^{9/3} =
+       2w^{3}</m>.
+
+
+
+(c) <m>\sqrt{25 x^{6} y^{4} } = (25 x^{6} y^{4})^{1/2} =
+       5x^{3}y^{2}</m>.
+
+
+
+(d) <m>\sqrt{ 8 w^{9} y^{8} } \sqrt{ 2 y^{2} w^{7} } =
+       \sqrt{ (8 w^{9} y^{8})\cdot (2 y^{2} w^{7}) } =
+       ( 16 w^{16} y^{10} )^{1/2} =
+       4w^{8}y^{5}</m>.
+
+
+
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-57" ww-id="webwork-57">
+    <static seed="57" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg">
+      <statement><p>Express the number
+<me>\left( \frac{2^{-5}}{3^{-3}} \right)^{-1}</me>
+as a reduced fraction.</p>
+<p>Answer: <fillin name="AnSwEr0001" characters="20"/></p>
+<p><alert>Note:</alert> <em>You cannot use any operations except division (/) and negation (-).</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>1 {\textstyle\frac{5}{27}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-58" ww-id="webwork-58">
+    <static seed="58" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg">
+      <statement><p>Evaluate: <m>\displaystyle \left( \frac{ -4^{3} }{ -2^{3} } \right)^2 =</m>
+<fillin name="AnSwEr0001" characters="20"/></p>
+<p>Note: Your answer should be completely simplified.
+Unsimplified answers will not be accepted.</p>
+</statement>
+      <answer>
+        <p>
+          <m>64</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-59" ww-id="webwork-59">
+    <static seed="59" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg">
+      <statement><p>Find the product
+<me>( 7 \sqrt[3]{6})( 3 \sqrt[3]{9} )</me>
+and express your answer in simplest radical form <m>A \sqrt[3]{C}</m>, 
+where <m>A</m> and <m>C</m> are integers.</p>
+<p><m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>C =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3\cdot 7\cdot 3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-60" ww-id="webwork-60">
+    <static seed="60" source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg">
+      <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle  ( - \frac{1}{4}x^{-3}y^{5})(24 x^{-2}y^{-2})</m> =  <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-\frac{6y^{3}}{x^{5}}</m>
+        </p>
+      </answer>
+      <solution><m>-\frac{6y^{3}}{x^{5}}</m>
+
+
+
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-61" ww-id="webwork-61">
+    <static seed="61" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg">
+      <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle   \frac{30x^{-1}y^{5}}{-5 x^{-9}y^{-3}}</m> =  <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-6x^{8}y^{8}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-62" ww-id="webwork-62">
+    <static seed="62" source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg">
+      <statement><p>Simplify the numerical expression <m>-\sqrt{100}</m>.</p>
+<p>Answer: <fillin name="AnSwEr0001" characters="20"/></p>
+<p><alert>Note:</alert> <em>You cannot use any operations except negation (-).</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>-10</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-63" ww-id="webwork-63">
+    <static seed="63" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg">
+      <statement><p>Simplify the expression
+<me>\sqrt{192 y^{2}}</me>
+into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.  Assume <m>y\geq 0</m>.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>C =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8y</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-64" ww-id="webwork-64">
+    <static seed="64" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg">
+      <statement><p>Assume that <m>a</m> and <m>b</m> represent positive real numbers.  Simplify the expression
+<me>-6 \sqrt{28 a^{5} b^{4}}</me>
+into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/> and <m>C =</m> <fillin name="AnSwEr0002" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\cdot \left(-6\right)a^{\frac{5-1}{2}}b^{\frac{4}{2}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7a</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-65" ww-id="webwork-65">
+    <static seed="65" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg">
+      <statement><p>Find the product
+<me>2 \sqrt{2} \left( 4 \sqrt{12} + 7 \sqrt{6}  \right)</me>
+and express your answer in the form <m>A \sqrt{B} + C \sqrt{D},</m> <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all integers and <m>B &gt; D.</m></p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="15"/>, <m>B =</m> <fillin name="AnSwEr0002" characters="15"/>, <m>C =</m> <fillin name="AnSwEr0003" characters="15"/>, and <m>D =</m> <fillin name="AnSwEr0004" characters="15"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\cdot 2\cdot 4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2\cdot 2\cdot 7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-66" ww-id="webwork-66">
+    <static seed="66" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg">
+      <statement><p>Simplify the expression
+<me>2 \sqrt[3]{2} \left( 4 \sqrt[3]{4} + 5 \sqrt[3]{7} \right)</me>
+and express your answer in the simplest radical form <m>A+ B \sqrt[3]{C},</m> where <m>A,</m> <m>B,</m> and <m>C</m> are integers.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="20"/>, <m>B =</m> <fillin name="AnSwEr0002" characters="20"/>, and <m>C =</m> <fillin name="AnSwEr0003" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4\cdot 2\cdot 2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2\cdot 5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7\cdot 2</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-67" ww-id="webwork-67">
+    <static seed="67" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg">
+      <statement><p>Simplify the expression as much as possible 
+and leave it without radicals.</p>
+<p><m>\big( 27 L^{3 / 4} P \big)^{4 / 3} \big( P \big)^{-4 / 3} =</m> 
+<fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>81L</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-68" ww-id="webwork-68">
+    <static seed="68" source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg">
+      <statement><p>Simplify and write the following using a single rational exponent of <m>v</m>. If</p>
+<p><me>\dfrac{ \sqrt{v^{5}}  \sqrt[4]{v^{3}}   }{~ \sqrt[3]{v^{10}} ~}   = v^m</me></p>
+<p>then</p>
+<p><m>m =</m> <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-{\frac{1}{12}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-69" ww-id="webwork-69">
+    <static seed="69" source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg">
+      <statement><p>Combine radicals, if possible.  Simplify your 
+answer as much as possible.</p>
+<p><m>\sqrt[3]{5 x} + 8 \sqrt[3]{5 x} - 2 \sqrt[3]{5 x}</m> = <fillin name="AnSwEr0001" characters="20"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7\!\left(5x\right)^{\frac{1}{3}}</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-70" ww-id="webwork-70">
+    <static seed="70" source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg">
+      <statement><p>Change the radical
+<me>\sqrt{\frac{7}{8}\;}</me>
+into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>, and <m>C</m> are all integers.</p>
+<p>Answer: <m>A =</m> <fillin name="AnSwEr0001" characters="15"/>, <m>B =</m> <fillin name="AnSwEr0002" characters="15"/>, and <m>C =</m> <fillin name="AnSwEr0003" characters="15"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>14</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-71" ww-id="webwork-71">
+    <static seed="71" source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg">
+      <statement><p>Find <m>x</m> if
+<m>\displaystyle{  \frac{(5.5)^x (5.5)^-1}{(5.5)^{0}}=(5.5)^{4} }</m></p>
+<p><m>x =</m><fillin name="AnSwEr0001" characters="3"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-72" ww-id="webwork-72">
+    <static seed="72" source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg">
+      <statement><p>Simplify the following expression (do not factor)</p>
+<p><m>\displaystyle\frac{{-117x^{15}y^{22}+99x^{13}y^{18}-72x^{13}y^{17}}}{{-9x^{5}y^{2}}}=</m><fillin name="AnSwEr0001" characters="32"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>13x^{10}y^{20}-11x^{8}y^{16}+8x^{8}y^{15}</m>
+        </p>
+      </answer>
+      <solution><p>We divide each term by <m>{-9x^{5}y^{2}}</m> as follows</p>
+<p><m>\begin{aligned}
+    \displaystyle\frac{{-117x^{15}y^{22}+99x^{13}y^{18}-72x^{13}y^{17}}}{{-9x^{5}y^{2}}}  
+    \amp  = \frac{-117x^{15}y^{22}}{-9x^5y^2}+\frac{99x^{13}y^{18}}{-9x^5y^2}+\frac{-72x^{13}y^{17}}{-9x^5y^2}\\
+     \amp  = {\left({\frac{117}{9}}\right)x^{10}y^{20}+\left(-{\frac{99}{9}}\right)x^{8}y^{16}+\left({\frac{72}{9}}\right)x^{8}y^{15}}\\
+     \amp  = {13x^{10}y^{20}-11x^{8}y^{16}+8x^{8}y^{15}}\\
+    \end{aligned}</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-73" ww-id="webwork-73">
+    <static seed="73" source="Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg" failure="statement">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg with seed 73 does not have a statement tag 
+  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-74" ww-id="webwork-74">
+    <static seed="74" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+      <statement><p>Use the properties of exponents to simplify the following</p>
+<p><m>{r^{5}}\cdot{r^{9}} =</m>
+<fillin name="AnSwEr0001" characters="12"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>r^{14}</m>
+        </p>
+      </answer>
+      <solution><p>We <em>add</em> the exponents as follows</p>
+<p><m>\begin{aligned}
+           r^{5}\cdot r^{9}\amp =r^{5+9}\\
+                             \amp =r^{14}
+       \end{aligned}</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-75" ww-id="webwork-75">
+    <static seed="75" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+      <statement><p>Use the properties of exponents to simplify the following</p>
+<p><m>{x^{7}}\cdot{x^{2}} =</m>
+<fillin name="AnSwEr0001" characters="12"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x^{9}</m>
+        </p>
+      </answer>
+      <solution><p>We <em>add</em> the exponents as follows</p>
+<p><m>\begin{aligned}
+           x^{7}\cdot x^{2}\amp =x^{7+2}\\
+                             \amp =x^{9}
+       \end{aligned}</m></p>
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-76" ww-id="webwork-76">
+    <static seed="76" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
+      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{5}</m> and the angle <m>\theta</m> is in the first quadrant.
+Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
+<p>(a)  <m>\cos( \theta )</m> = <fillin name="AnSwEr0001" characters="35"/></p>
+<p>(b)  <m>\tan( \theta )</m> = <fillin name="AnSwEr0002" characters="35"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\sqrt{1-\frac{x^{2}}{5^{2}}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{x}{\sqrt{5^{2}-x^{2}}}</m>
+        </p>
+      </answer>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
+<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{5} \right)^2 = \frac{ 25 - x^2}{25}.</me>
+Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 25 - x^2}{25} }</m>
+
+
+
+(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{5}}{\sqrt{\frac{ 25 - x^2}{25}} } = \frac{x}{\sqrt{25 - x^2}}</m>
+
+
+
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-77" ww-id="webwork-77">
+    <static seed="77" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
+      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{6}</m> and the angle <m>\theta</m> is in the first quadrant.
+Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
+<p>(a)  <m>\cos( \theta )</m> = <fillin name="AnSwEr0001" characters="35"/></p>
+<p>(b)  <m>\tan( \theta )</m> = <fillin name="AnSwEr0002" characters="35"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\sqrt{1-\frac{x^{2}}{6^{2}}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{x}{\sqrt{6^{2}-x^{2}}}</m>
+        </p>
+      </answer>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
+<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{6} \right)^2 = \frac{ 36 - x^2}{36}.</me>
+Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 36 - x^2}{36} }</m>
+
+
+
+(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{6}}{\sqrt{\frac{ 36 - x^2}{36}} } = \frac{x}{\sqrt{36 - x^2}}</m>
+
+
+
+</solution>
+    </static>
+    <server-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-78" ww-id="webwork-78">
+    <static seed="78" source="Library/UMN/calculusStewartCCC/s_1_6_26.pg">
+      <statement><p>Find a formula for the inverse of the function <m>\displaystyle g(x) = \frac{e^x}{7+4 e^x}.</m></p>
+<p>Answer: <m>g^{-1}(x) =</m> <fillin name="AnSwEr0001" characters="30"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\ln\!\left(7x\right)-\ln\!\left(1-4x\right)</m>
+        </p>
+      </answer>
+    </static>
+    <server-data sourceFilePath="Library/UMN/calculusStewartCCC/s_1_6_26.pg" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_1_6_26.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-79" ww-id="webwork-79">
+    <static seed="79">
+      <statement><p><m>1+2=</m><fillin name="AnSwEr0001" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKW2AxKzI9YF1bX117JzMnfXs1fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2024-10-21T16:38:32Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+[`1+2=`][_]{'3'}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+</webwork-representations>

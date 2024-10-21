@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Rational Expressions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus review for UTM students">
+<meta property="book:author" content="Maria Wesslen">
+<meta property="book:author" content="Contributing Editors: Micheal Pawliuk and Ivan Khatchatourian">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_red_blue.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-alg-rational-5-12-1-4-1 { counter-set: sec-alg-rational-5-12-1-4-1 0; }
+#sec-alg-rational-5-12-1-4-1 > li::marker { content: ""counter(sec-alg-rational-5-12-1-4-1,decimal)"."; }
+#sec-alg-rational-5-12-1-4-1 > li { counter-increment: sec-alg-rational-5-12-1-4-1; }
+#sec-alg-rational-7-5-2-1 { counter-set: sec-alg-rational-7-5-2-1 0; }
+#sec-alg-rational-7-5-2-1 > li::marker { content: ""counter(sec-alg-rational-7-5-2-1,decimal)"."; }
+#sec-alg-rational-7-5-2-1 > li { counter-increment: sec-alg-rational-7-5-2-1; }
+#sec-alg-rational-8-5-2-1 { counter-set: sec-alg-rational-8-5-2-1 0; }
+#sec-alg-rational-8-5-2-1 > li::marker { content: ""counter(sec-alg-rational-8-5-2-1,decimal)"."; }
+#sec-alg-rational-8-5-2-1 > li { counter-increment: sec-alg-rational-8-5-2-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Precalculus review for UTM students</span></a></h1>
+<p class="byline">Maria Wesslen, Contributing Editors: Micheal Pawliuk and Ivan Khatchatourian</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-alg-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-algebra.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-alg-rationaleq.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Welcome!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Feedback</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">1</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Algebra</span></a></div></li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-alg-rational.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-5" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Common factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-6" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Multiplying and dividing rational expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-7" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Adding and Subtracting rational expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-8" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Complex rational expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-9" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-10" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-alg-rationaleq.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rational Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-func-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Basic Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exp.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponents and Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Exponential Rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-5" class="internal"><span class="codenumber">3.1.1</span> <span class="title">The First Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-6" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-7" class="internal"><span class="codenumber">3.1.3</span> <span class="title">More exponential rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-8" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-9" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-10" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Mixed Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exp-functions.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponential Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-trig.html" class="internal"><span class="codenumber">4</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-trig-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Trigonometry</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">5</span> <span class="title">General test chapter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Random trial chapter</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-alg-rational"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Rational Expressions</span>
+</h2>
+<article class="objectives goal-like" id="sec-alg-rational-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="sec-alg-rational-2-1">
+<li id="sec-alg-rational-2-1-1"><div class="para" id="sec-alg-rational-2-1-1-1">Simplify and re-work rational expressions.</div></li>
+<li id="sec-alg-rational-2-1-2"><div class="para" id="sec-alg-rational-2-1-2-1">Simplify and work with fractions.</div></li>
+<li id="sec-alg-rational-2-1-3"><div class="para" id="sec-alg-rational-2-1-3-1">Add, subtract, multiply and divide rational expressions.</div></li>
+<li id="sec-alg-rational-2-1-4"><div class="para" id="sec-alg-rational-2-1-4-1">Simplify and rewrite complex fractions and complex rational expressions.</div></li>
+</ul></article><article class="assemblage assemblage-like" id="rational-use"><h3 class="heading"><span class="title">Where will this be used in calculus?</span></h3>
+<div class="para" id="rational-use-2">Here are several specific calculus examples where working with rational expressions will be useful:</div>
+<div class="para logical" id="rational-use-3"><ul class="disc" id="rational-use-3-1">
+<li id="rational-use-3-1-1"><div class="para" id="rational-use-3-1-1-1">After using rules to differentiate a function (especially the quotient rule) the result is often a rational expression or complex rational expression which needs to be simplified.</div></li>
+<li id="rational-use-3-1-2"><div class="para" id="rational-use-3-1-2-1">When using implicit differentiation the process often involves working with and simplifying complex rational expressions.</div></li>
+<li id="rational-use-3-1-3"><div class="para" id="rational-use-3-1-3-1">Integration using the technique called Partial Fractions, involves rational expressions.</div></li>
+<li id="rational-use-3-1-4"><div class="para" id="rational-use-3-1-4-1">In Sequences and Series, using the Limit Comparison Test and the Ratio Test often involves working with multiple complex rational expressions.</div></li>
+</ul></div></article><section class="introduction" id="sec-alg-rational-4"><div class="para" id="sec-alg-rational-4-1">The quotient of two polynomials is called a <dfn class="terminology">rational expression</dfn>. For example, lets look at the following rational expression:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^3+3x^2}{x^2+2x-3}
+\end{equation*}
+</div>
+<div class="para" id="sec-alg-rational-4-3">Here, <span class="process-math">\(x^3+3x^2\)</span> is the <dfn class="terminology">numerator</dfn>, and <span class="process-math">\(x^2+2x-3\)</span> is the <dfn class="terminology">denominator</dfn>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as simplifying <span class="process-math">\(\frac{3}{4} - \frac{1}{5}\)</span>).</div></section><section class="subsection" id="sec-alg-rational-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Common factors</span>
+</h3>
+<div class="para" id="sec-alg-rational-5-2">Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator.</div>
+<div class="para" id="sec-alg-rational-5-3">A <dfn class="terminology">factor</dfn> is part of an expression which is <em class="emphasis">multiplied</em> by the rest of the expression.</div>
+<details id="ex-common" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Common factor.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-common-2-1">
+<div class="para">Simplify the rational epression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^3+3x^2}{x^2+2x-3}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-common-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="ex-common-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}}
+\end{equation*}
+</div></div></div></details><details id="ex-common-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="ex-common-4-1">
+<div class="para">Let’s factor both the numerator and the denominator to see if there are any common factors.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^3+3x^2 = x^2(x+3)
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^2+2x-3= (x-1)(x+3).
+\end{equation*}
+</div>
+<div class="para">Next, lets look at the expression in the question and cancel any common factors:</div>
+</div>
+<div class="displaymath process-math" id="ex-common-4-2">
+\begin{align*}
+\frac{x^3+3x^2}{x^2+2x-3} &amp;= \frac{x^2(x+3)}{(x-1)(x+3)}\\
+&amp;= \frac{x^2}{x-1}\text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-common-4-3">
+<div class="para">So, in the end, we see that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}}
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article></details><details id="sec-alg-rational-5-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-1" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="1" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-1')">Activate</button></div>
+<div class="problem-contents"><div class="para logical" id="extracted-webwork-1-1-1-1">
+<div class="para">Simplify the rational expression.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2x+6}{x^{2}-2x-15}
+\end{equation*}
+</div>
+<div class="para">Answer:  <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span>
+</div>
+</div></div>
+</div></article></details><div class="para" id="sec-alg-rational-5-6">The cancelation in <a href="sec-alg-rational.html#ex-common" class="xref" data-knowl="./knowl/xref/ex-common.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1: Common factor">Example 1.1</a> is based on the following rule, which says that if both the numerator and the denominator has the same <em class="emphasis">FACTOR</em>, it can be cancelled. Note that what you are canceling must be multiplied (or divided) by the rest of the numerator and denominator, NOT added or subtracted.</div>
+<article class="assemblage assemblage-like" id="rational-factor"><h4 class="heading"><span class="title">Rule.</span></h4>
+<div class="para logical" id="rational-factor-2">
+<div class="para">For any real numbers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(c\)</span> and <span class="process-math">\(k\)</span> where <span class="process-math">\(b\not= 0\)</span> and <span class="process-math">\(c\not= 0\text{,}\)</span> it is true that</div>
+<div class="displaymath process-math" id="rule">
+\begin{equation}
+\frac{ac}{bc}=\frac{a}{b}\tag{1.2.1}
+\end{equation}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" id="rule2">
+\begin{equation}
+\frac{ak}{b}=\frac{a}{b} \cdot k\tag{1.2.2}
+\end{equation}
+</div>
+<div class="para">This is true both if <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(c\)</span> and <span class="process-math">\(k\)</span> are be constants (numbers) and/or expressions involving variables.</div>
+</div></article><article class="assemblage assemblage-like" id="rational-error"><h4 class="heading"><span class="title">Common Error.</span></h4>
+<div class="para logical" id="rational-error-2">
+<div class="para">In general, the following are not true.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{a+c}{b+c}\not=\frac{a}{b}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{a-c}{b-c}\not=\frac{a}{b}
+\end{equation*}
+</div>
+</div></article><div class="para" id="sec-alg-rational-5-9">Note that <a href="sec-alg-rational.html#rule" class="xref" data-knowl="./knowl/xref/rule.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.1">(1.2.1)</a> can be useful in ``both directions’’. Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.</div>
+<details id="ex-rat" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-2-1-1-1">
+<div class="para">Simplify the rational expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{12 a b^{4}}{21 b^{6}}
+\end{equation*}
+</div>
+<div class="para">in the form <span class="process-math">\(\frac{A}{B}.\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-2-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div></article></details><div class="para" id="sec-alg-rational-5-11">Note: If you are unsure of how to work with exponents, you could have a look at section <a href="sec-exp-intro.html" class="internal" title="Section 3.1: Exponential Rules">Section 3.1</a> before working on <a href="sec-alg-rational.html#ex-rat" class="xref" data-knowl="./knowl/xref/ex-rat.html" data-reveal-label="Reveal" data-close-label="Close" title="Checkpoint 1.3">Checkpoint 1.3</a>.</div>
+<details id="sec-alg-rational-5-12" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content">For each of the following, determine if the statement is True or False, for all real numbers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(c\text{?}\)</span> Whenever there is division, assume that all denominators are non-zero. Make sure to try these yourself first before looking at the answers! <div class="para logical" id="sec-alg-rational-5-12-1-4"><ol class="decimal" id="sec-alg-rational-5-12-1-4-1">
+<li id="sec-alg-rational-5-12-1-4-1-1"><div class="para" id="p-derived-sec-alg-rational-5-12-1-4-1-1">
+<span class="process-math">\(\frac{x^2+3}{x^2+5} = \frac{3}{5} \)</span> (True or False?)</div></li>
+<li id="sec-alg-rational-5-12-1-4-1-2"><div class="para" id="p-derived-sec-alg-rational-5-12-1-4-1-2">
+<span class="process-math">\(\frac{a-b}{c-d} = \frac{b-a}{c-d}\)</span> (True or False?)</div></li>
+<li id="sec-alg-rational-5-12-1-4-1-3"><div class="para" id="p-derived-sec-alg-rational-5-12-1-4-1-3">
+<span class="process-math">\(\frac{x^2-3x}{x^2-7} = \frac{3x-x^2}{7-x^2}\)</span> (True or False?)</div></li>
+<li id="sec-alg-rational-5-12-1-4-1-4"><div class="para" id="p-derived-sec-alg-rational-5-12-1-4-1-4">
+<span class="process-math">\(\frac{ab+ac}{a} = b+c\)</span> (True or False?)</div></li>
+<li id="sec-alg-rational-5-12-1-4-1-5"><div class="para" id="p-derived-sec-alg-rational-5-12-1-4-1-5">
+<span class="process-math">\(\frac{x^2+1}{x^2+6} = \frac{3x^2+1}{3x^2+6}\)</span> (True or False?)</div></li>
+</ol></div>
+<div class="solutions"><details id="sec-alg-rational-5-12-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-alg-rational-5-12-2-1">1-False, 2-False,  3-True, 4-True, 5-False</div></div></details></div></article></details></section><section class="subsection" id="sec-alg-rational-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="space"> </span><span class="title">Multiplying and dividing rational expressions</span>
+</h3>
+<div class="para" id="sec-alg-rational-6-2">To multiplying rational expressions we use the same ideas and rules as when multiplying numerical fractions. The numerators are multipled, and the denominators are multiplied. For example</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-multiply.html ./knowl/xref/rational-multiply.html">
+\begin{equation*}
+\frac{2}{3}\times \frac{5}{7} = \frac{10}{21}
+\end{equation*}
+</div>
+<div class="para" id="sec-alg-rational-6-4">Sometimes it might be worth simplifying the result, or perhaps simplifying before multiplying (if it’s easy enough to do so).</div>
+<article class="assemblage assemblage-like" id="sec-alg-rational-6-5"><h4 class="heading"><span class="title">Technique.</span></h4>
+<div class="para logical" id="sec-alg-rational-6-5-2">
+<div class="para">To multiply two rational expressions, multiply the numerators to find the numerator of the product. Then multiply the denominators to find the denominator of the product.</div>
+<div class="displaymath process-math" id="rational-multiply">
+\begin{equation}
+\frac{a}{b} \times \frac{c}{d}= \frac{ac}{bd}\tag{1.2.3}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(c\)</span> and <span class="process-math">\(d\)</span> could be constants (numbers) and/or expressions involving variables.</div>
+</div></article><details id="ex-multiply" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplying rational expressions.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-multiply-2-1">
+<div class="para">Multiply the rational expressions and simplify the answer:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-multiply-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="ex-multiply-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}
+\end{equation*}
+</div></div></div></details><details id="ex-multiply-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex-multiply-4-1">Multiply numerators separately, then denominators separately, as described in <a href="sec-alg-rational.html#rational-multiply" class="xref" data-knowl="./knowl/xref/rational-multiply.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.3">(1.2.3)</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-multiply.html">
+\begin{equation*}
+\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}.
+\end{equation*}
+</div>
+<div class="para" id="ex-multiply-4-3">Note that it is important to use brackets, to show that all of  <span class="process-math">\(3x^2+2 \)</span> is multiplied by all of <span class="process-math">\(x+10 \)</span> (and similarly for the denominator). Next, expend the brackets and simplify:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-multiply.html" id="ex-multiply-4-4">
+\begin{align*}
+\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} &amp;= \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}\\
+&amp;= \frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}\text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-multiply-4-5">
+<div class="para">There is no further simplification that can be made. So the answer is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article></details><details id="sec-alg-rational-6-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.6</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-3" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="3" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-3')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-3-1-1-1">Evaluate the following and express your answer as a single fraction.</div> <div class="para" id="extracted-webwork-3-1-1-2">
+<span class="process-math">\(\displaystyle\frac{6}{x} \cdot \frac{5}{y} =\)</span> <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-3-1-1-3"><em class="emphasis">You might want to do a preview before submitting your answer to be certain it has been entered correctly.</em></div>
+<div class="solutions"><details id="extracted-webwork-3-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="extracted-webwork-3-1-2-1">Numerators / Denominators</div></div></details></div>
+</div>
+</div></article></details><details id="sec-alg-rational-6-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.7</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-4" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="4" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-4')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-4-1-1-1">
+<div class="para">Multiply and simplify your answer.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^{2}+7x+10}{x^{2}+6x+5} \cdot \frac{x^{2}-1}{x^{2}+2x-3}
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-4-1-1-2">Answer:  <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span>
+</div>
+</div>
+</div></article></details><details id="sec-alg-rational-6-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.8</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-5" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="5" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_11.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-5')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-5-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^2+7 x+10}{x^2+7 x+6}\cdot
+\frac{x^2+4 x+3}{x^2+8 x+12}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(x)}{g(x)}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-5-1-1-2">Your answer for the function <span class="process-math">\(f(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-5-1-1-3">Your answer for the function <span class="process-math">\(g(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div></article></details><div class="para" id="sec-alg-rational-6-10">To divide rational expressions we again use the similar ideas and rules as when working with numerical fractions. Take the reciprocal of the denominator, then muliply.  For example</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-multiply.html ./knowl/xref/rational-multiply.html">
+\begin{equation*}
+\frac{2}{3} / \frac{5}{7} = \frac{2}{3} \times \frac{7}{5} = \frac{14}{25}
+\end{equation*}
+</div>
+<article class="assemblage assemblage-like" id="sec-alg-rational-6-12"><h4 class="heading"><span class="title">Technique.</span></h4>
+<div class="para logical" id="sec-alg-rational-6-12-2">
+<div class="para">To divide two rational expressions, multiply by the reciprical of the denominator:</div>
+<div class="displaymath process-math" id="rational-divide">
+\begin{equation}
+\frac{a}{b} / \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}\tag{1.2.4}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> <span class="process-math">\(c\)</span> and <span class="process-math">\(d\)</span> could be constants (numbers) and/or expressions involving variables.</div>
+</div></article><details id="ex-divide" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Dividing rational expressions.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-divide-2-1">
+<div class="para">Divide the rational expressions and simplify the answer:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{3x^2+2}{x^2+2x-3} / \frac{x+10}{x^2-x+2}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-divide-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="ex-divide-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}
+\end{equation*}
+</div></div></div></details><details id="ex-divide-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex-divide-4-1">Multiply numerators separately, then denominators separately, as described in <a href="sec-alg-rational.html#rational-multiply" class="xref" data-knowl="./knowl/xref/rational-multiply.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.3">(1.2.3)</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-multiply.html">
+\begin{equation*}
+\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}.
+\end{equation*}
+</div>
+<div class="para" id="ex-divide-4-3">Note that it is important to use brackets, to show that all of  <span class="process-math">\(3x^2+2 \)</span> is multiplied by all of <span class="process-math">\(x+10 \)</span> (and similarly for the denominator). Next, expend the brackets and simplify:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-multiply.html" id="ex-divide-4-4">
+\begin{align*}
+\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} &amp;= \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}\\
+&amp;= \frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}\text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-divide-4-5">
+<div class="para">There is no further simplification that can be made. So the answer is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article></details><details id="sec-alg-rational-6-14" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.10</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-6" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="6" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-6')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-6-1-1-1">Evaluate the following and express your answer as a single fraction.</div> <div class="para" id="extracted-webwork-6-1-1-2">
+<span class="process-math">\(\displaystyle\frac{8}{y^2} \div \frac{5}{2y} =\)</span> <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-6-1-1-3"><em class="emphasis">You might want to do a preview before submitting your answer to be certain it has been entered correctly.</em></div>
+<div class="solutions"><details id="extracted-webwork-6-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="extracted-webwork-6-1-2-1">Reciprocal</div></div></details></div>
+</div>
+</div></article></details></section><section class="subsection" id="sec-alg-rational-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="space"> </span><span class="title">Adding and Subtracting rational expressions</span>
+</h3>
+<div class="para" id="sec-alg-rational-7-2">Let’s start by looking at a numerical example of adding two fractions, <span class="process-math">\(\frac{5}{6} + \frac{3}{8}\text{.}\)</span> To add fractions, we need to use a common denominator.</div>
+<div class="displaymath process-math" id="sec-alg-rational-7-3">
+\begin{align*}
+\frac{5}{6} + \frac{3}{8} &amp;= \frac{20}{24}+\frac{9}{24}\\
+&amp;= \frac{20+9}{24}\\
+&amp;= \frac{29}{24}\text{.}
+\end{align*}
+</div>
+<div class="para" id="sec-alg-rational-7-4">The steps for adding rational expressions is the same. Also, the technique is the same for adding and for subtracting.</div>
+<article class="assemblage assemblage-like" id="sec-alg-rational-7-5"><h4 class="heading"><span class="title">Technique.</span></h4>
+<div class="para logical" id="sec-alg-rational-7-5-2">
+<div class="para">To add or subtract two rational expressions:</div>
+<ol class="decimal" id="sec-alg-rational-7-5-2-1">
+<li id="sec-alg-rational-7-5-2-1-1"><div class="para" id="p-derived-sec-alg-rational-7-5-2-1-1">Find a common denominator. (It may be useful to factor the denominators.)</div></li>
+<li id="sec-alg-rational-7-5-2-1-2"><div class="para" id="p-derived-sec-alg-rational-7-5-2-1-2">Multiply each rational expression to change the denominators to the common denominator.</div></li>
+<li id="sec-alg-rational-7-5-2-1-3"><div class="para" id="p-derived-sec-alg-rational-7-5-2-1-3">Add or subtract the numerators.</div></li>
+<li id="sec-alg-rational-7-5-2-1-4"><div class="para" id="p-derived-sec-alg-rational-7-5-2-1-4">Simplify if needed.</div></li>
+</ol>
+</div></article><details id="ex-subtract" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.11</span><span class="period">.</span><span class="space"> </span><span class="title">Subtracting rational expressions.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-subtract-2-1">
+<div class="para">Subtract the rational expressions and simplify the answer:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x}{x^2-1} - \frac{2}{x^2+x-2}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-subtract-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{x}{x^2-1} - \frac{2}{x^2+x-2}=\frac{x^2-2}{(x-1)(x+1)(x+2)}}
+\end{equation*}
+</div></div></details><details id="ex-subtract-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex-subtract-4-1">We need find a common denominator. We could use an common denominator. For example we could simply use <span class="process-math">\((x^2-1)\cdot(x^2+x-2) \text{,}\)</span> but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^2-1 = (x-1)(x+1).
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^2+x-2 = (x-1)(x+2).
+\end{equation*}
+</div>
+<div class="para" id="ex-subtract-4-4">This means the LCD is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(x-1)(x+1)(x+2).
+\end{equation*}
+</div>
+<div class="para" id="ex-subtract-4-6">Next, multiply the first rational expression by <span class="process-math">\(\frac{x+2}{x+2} \)</span> and the second rational expression by <span class="process-math">\(\frac{x+1}{x+1} \)</span> so that both are on the same common denominator. Note that multiplying by <span class="process-math">\(\frac{x+2}{x+2} \)</span> is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format.</div>
+<div class="displaymath process-math" id="ex-subtract-4-7">
+\begin{align*}
+\frac{x}{x^2-1} - \frac{2}{x^2+x-2} &amp;= \frac{x}{(x-1)(x+1)} \cdot \frac{x+2}{x+2} - \frac{2}{(x+2)(x-1)} \cdot \frac{x+1}{x+1}\\
+&amp;= \frac{x(x+2)}{(x^2-1)(x+2)}  - \frac{2(x+1)}{(x^2+x-2)(x+1)}\\
+&amp;= \frac{x(x+2)- 2(x+1)}{(x-1)(x+1)(x+2)}\\
+&amp;= \frac{x^2+2x-2x-2}{(x-1)(x+1)(x+2)}\\
+&amp;= \frac{x^2-2}{(x-1)(x+1)(x+2)}\text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-subtract-4-8">
+<div class="para">So the answer is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{x}{x^2-1} - \frac{2}{x^2+x-2}=\frac{x^2-2}{(x-1)(x+1)(x+2)}}
+\end{equation*}
+</div>
+<div class="para">It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).</div>
+</div>
+</div></details>
+</div></article></details><details id="sec-alg-rational-7-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.12</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-7" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="7" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-7')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-7-1-1-1">Evaluate the following and express your answer as a single fraction.</div> <div class="para" id="extracted-webwork-7-1-1-2">
+<span class="process-math">\(\displaystyle\frac{9}{x} - \frac{9}{y} =\)</span> <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-7-1-1-3"><em class="emphasis">You might want to do a preview before submitting your answer to be certain it has been entered correctly.</em></div>
+<div class="solutions"><details id="extracted-webwork-7-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="extracted-webwork-7-1-2-1">First you will need to get a common denominator by finding the least common multiple.</div>
+<div class="para" id="extracted-webwork-7-1-2-2">The common denominator is <span class="process-math">\(x y\)</span> but you will need to put parenthesis around the denominator so that you divide it all.</div>
+</div></details></div>
+</div>
+</div></article></details><details id="sec-alg-rational-7-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.13</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-8" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="8" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-8')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-8-1-1-1">
+<div class="para">Find the least common denominator (LCD) of the rational expressions:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2y}{y^{2}-25} \mbox{ and } \frac{4}{y^{2}-5y}
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-8-1-1-2">LCD:  <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div>
+</div>
+</div></article></details><details id="sec-alg-rational-7-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.14</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-9" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="9" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-9')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-9-1-1-1">
+<div class="para">Perform the indicated operation.  Note that the denominators are the same.  Simplify the result, if possible.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{y^{2}}{y^{2}-25} + \frac{25-10y}{y^{2}-25}
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-9-1-1-2">Answer:  <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-9-1-1-3">
+<a class="external" href="" target="_blank">help(entering your answer)</a><details class="ptx-footnote" aria-live="polite" id="extracted-webwork-9-1-1-3-2"><summary class="ptx-footnote__number" title="Footnote 1.14.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="extracted-webwork-9-1-1-3-2"><code class="code-inline tex2jax_ignore"></code></div></details>
+</div>
+</div>
+</div></article></details></section><section class="subsection" id="sec-alg-rational-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="space"> </span><span class="title">Complex rational expressions</span>
+</h3>
+<div class="para" id="sec-alg-rational-8-2">A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <dfn class="terminology">complex rational expression</dfn>. To simplify a complex rational expression, start by simplifying the numberator, then the denominator, and after that is done you can simplify the overall expression.</div>
+<details id="ex-complex" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.15</span><span class="period">.</span><span class="space"> </span><span class="title">Simplifying a complex rational expression.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-complex-2-1">
+<div class="para">Simplify the complex rational expression:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\frac{x}{y}+1}{1+\frac{2}{x}}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-complex-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="ex-complex-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{\frac{x}{y}+1}{1+\frac{2}{x}}=\frac{x^2 + xy}{xy+2y}}
+\end{equation*}
+</div></div></div></details><details id="ex-complex-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex-complex-4-1">Simplify the numerator to make it a single fraction:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-divide.html" id="ex-complex-4-2">
+\begin{align*}
+\frac{x}{y}+1  &amp;= \frac{x}{y}+\frac{y}{y}\\
+&amp;= \frac{x+y}{y}\text{.}
+\end{align*}
+</div>
+<div class="para" id="ex-complex-4-3">Simplify the denominator to make it a single fraction:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-divide.html" id="ex-complex-4-4">
+\begin{align*}
+1+\frac{2}{x}  &amp;= \frac{x}{x}+\frac{2}{x}\\
+&amp;= \frac{x+2}{x}\text{.}
+\end{align*}
+</div>
+<div class="para" id="ex-complex-4-5">Now we are ready to simplify the complex rational expression. Remember that to divide by a rationl expression, multiply by the reciprocal (see <a href="sec-alg-rational.html#rational-divide" class="xref" data-knowl="./knowl/xref/rational-divide.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.4">(1.2.4)</a>).</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rational-divide.html" id="ex-complex-4-6">
+\begin{align*}
+\frac{\frac{x}{y}+1}{1+\frac{2}{x}} &amp;= \frac{\frac{x+y}{y}}{\frac{x+2}{x}}\\
+&amp;= \frac{x+y}{y} \cdot \frac{x}{x+2} \\
+&amp;= \frac{(x+y)x}{y(x+2)} \\
+&amp;= \frac{x^2 + xy}{xy+2y} \text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-complex-4-7">
+<div class="para">There is no further simplification that can be made. So the final answer is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{\frac{x}{y}+1}{1+\frac{2}{x}}=\frac{x^2 + xy}{xy+2y}}
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article></details><div class="para" id="sec-alg-rational-8-4">Let’s summarize the steps we took in <a href="sec-alg-rational.html#ex-complex" class="xref" data-knowl="./knowl/xref/ex-complex.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.15: Simplifying a complex rational expression">Example 1.15</a>:</div>
+<article class="assemblage assemblage-like" id="sec-alg-rational-8-5"><h4 class="heading"><span class="title">Technique.</span></h4>
+<div class="para logical" id="sec-alg-rational-8-5-2">
+<div class="para">To simplify complex rational expressions:</div>
+<ol class="decimal" id="sec-alg-rational-8-5-2-1">
+<li id="sec-alg-rational-8-5-2-1-1"><div class="para" id="p-derived-sec-alg-rational-8-5-2-1-1">Simplify the numerator to make it a single rational expression.</div></li>
+<li id="sec-alg-rational-8-5-2-1-2"><div class="para" id="p-derived-sec-alg-rational-8-5-2-1-2">Simplify the denominator to make it a single rational expression.</div></li>
+<li id="sec-alg-rational-8-5-2-1-3"><div class="para" id="p-derived-sec-alg-rational-8-5-2-1-3">Divide the two expressions, by multiplying of the reciprocal of the denominator (as in <a href="sec-alg-rational.html#rational-divide" class="xref" data-knowl="./knowl/xref/rational-divide.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.4">(1.2.4)</a>).</div></li>
+<li id="sec-alg-rational-8-5-2-1-4"><div class="para" id="p-derived-sec-alg-rational-8-5-2-1-4">Simplify if needed.</div></li>
+</ol>
+</div></article><details id="sec-alg-rational-8-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.16</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-10" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="10" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-10')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-10-1-1-1">
+<div class="para">Simplify the complex fraction</div>
+<div class="displaymath process-math">
+\begin{equation*}
+{
+\frac{\displaystyle \; \frac{1}{x}+\frac{5}{x^2}\;}{\displaystyle \frac{10}{y}+\frac{11}{y^2}}
+}
+\end{equation*}
+</div>
+<div class="para">in the form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-10-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div></article></details><details id="sec-alg-rational-8-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.17</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-11" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="11" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_47.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-11')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-11-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\frac{2}{a+h}-\frac{2}{a}}{h}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{A}{B}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-11-1-1-2">Your answer for <span class="process-math">\(A\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-11-1-1-3">Your answer for <span class="process-math">\(B\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div></article></details><details id="sec-alg-rational-8-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.18</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-12" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="12" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_39.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-12')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-12-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1+\frac{2}{c-2}}{1-\frac{2}{c-2}}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(c)}{g(c)}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-12-1-1-2">Your answer for the function <span class="process-math">\(f(c)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-12-1-1-3">Your answer for the function <span class="process-math">\(g(c)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div></article></details></section><section class="subsection" id="sec-alg-rational-9"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="space"> </span><span class="title">Additional Examples</span>
+</h3>
+<div class="para" id="sec-alg-rational-9-2">Here are a few examples that use several of the techniques and rules seen above.</div>
+<div class="para" id="sec-alg-rational-9-3"><em class="alert">You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</em></div>
+<details id="ex-complex2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.19</span><span class="period">.</span><span class="space"> </span><span class="title">A complex rational expression with division.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-complex2-2-1">
+<div class="para">Simplify the expression:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-complex2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="ex-complex2-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}=\frac{1+x}{4x^4+12x^3}}
+\end{equation*}
+</div></div></div></details><details id="ex-complex2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex-complex2-4-1">Consider the overall expression. We can use <a href="sec-alg-rational.html#rule2" class="xref" data-knowl="./knowl/xref/rule2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.2">(1.2.2)</a> to rewrite this into a simpler expression:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html ./knowl/xref/rule2.html" id="ex-complex2-4-2">
+\begin{align*}
+\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}  &amp;= \left(\frac{\frac{1}{x}+1}{x^2+3x}\right)\cdot\frac{1}{4x}\\
+&amp;= \frac{\left(\frac{1}{x}+1\right) \cdot 1 }{(x^2+3x)\cdot 4x}\\
+&amp;= \frac{\left(\frac{1}{x}+1\right)}{4x^3+12x^2}
+\end{align*}
+</div>
+<div class="para" id="ex-complex2-4-3">Now simplify the numerator to make it a single fraction:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html ./knowl/xref/rule2.html" id="ex-complex2-4-4">
+\begin{align*}
+\frac{1}{x}+1  &amp;= \frac{1}{x}+\frac{x}{x}\\
+&amp;= \frac{1+x}{x}
+\end{align*}
+</div>
+<div class="para logical" id="ex-complex2-4-5">
+<div class="para">Now we have a rational expression where the numerator is a rational expression:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html">
+\begin{equation*}
+\frac{\left(\frac{1}{x}+1\right)}{4x^3+12x^2} = \frac{\left(\frac{1+x}{x}\right)}{4x^3+12x^2} 
+\end{equation*}
+</div>
+<div class="para">Again, we use <a href="sec-alg-rational.html#rule2" class="xref" data-knowl="./knowl/xref/rule2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.2">(1.2.2)</a> to rewrite this into a simpler expression:</div>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html ./knowl/xref/rule2.html" id="ex-complex2-4-6">
+\begin{align*}
+\frac{\left(\frac{1+x}{x}\right)}{4x^3+12x^2} &amp;= \left(\frac{1+x}{x}\right)\cdot \frac{1}{4x^3+12x^2}\\
+&amp;= \frac{(1+x) \cdot 1 }{x\cdot (4x^3+12x^2)}\\
+&amp;= \frac{1+x}{4x^4+12x^3}\text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-complex2-4-7">
+<div class="para">The final answer is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{\left(\frac{\frac{1}{x}+1}{x^2+3x}\right)}{4x}=\frac{1+x}{4x^4+12x^3}}
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article></details><details id="ex-complex3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.20</span><span class="period">.</span><span class="space"> </span><span class="title">A complex rational expression with two variables.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="ex-complex3-2-1">
+<div class="para">Simplify the expression as much as possible. Assume that any factors you cancel are not zero.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1}.
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="ex-complex3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para logical" id="ex-complex3-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1}=\frac{x+y}{x}}
+\end{equation*}
+</div></div></div></details><details id="ex-complex3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="ex-complex3-4-1">Both the numerator and denominator are rational expressions. The numerator is already a single rational expression, but the denminator is not, so let’s rewrite the denominator on a common denominator:  We can use <a href="sec-alg-rational.html#rule2" class="xref" data-knowl="./knowl/xref/rule2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2.2">(1.2.2)</a> to rewrite this into a simpler expression:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html" id="ex-complex3-4-2">
+\begin{align*}
+\frac{x}{y}-1  &amp;= \frac{x}{y}-\frac{y}{y}\\
+&amp;= \frac{x-y}{y}
+\end{align*}
+</div>
+<div class="para" id="ex-complex3-4-3">Now we have a rational expression divided by a rational expression, so we multiply by the reciprocal:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html" id="ex-complex3-4-4">
+\begin{align*}
+\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1} &amp;= \frac{\frac{x^2-y^2}{xy}}{\frac{x-y}{y}}\\
+&amp;= \frac{x^2-y^2}{xy} \cdot \frac{y}{x-y}\\
+&amp;= \frac{(x^2-y^2)y}{xy(x-y)}\text{.}
+\end{align*}
+</div>
+<div class="para" id="ex-complex3-4-5">We can cancel a common factor of <span class="process-math">\(y\text{:}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rule2.html" id="ex-complex3-4-6">
+\begin{align*}
+\frac{(x^2-y^2)y}{xy(x-y)} &amp;= \frac{x^2-y^2}{x(x-y)}\text{.}
+\end{align*}
+</div>
+<div class="para logical" id="ex-complex3-4-7">
+<div class="para">We could make a note that <span class="process-math">\(y\not= 0\text{.}\)</span> (This is because on the left side, <span class="process-math">\(y\)</span> can not be 0 since it would result in division by 0). However, the statement of the question said that we can assume that any factors we cancel are not zero. The question also asked to simplify as much as possible. Let’s check for more common factors:</div>
+<div class="displaymath process-math" id="ex-complex3-4-7-3">
+\begin{align*}
+\frac{x^2-y^2}{x(x-y)} &amp;= \frac{(x-y)(x+y)}{x(x-y)}\\
+&amp;= \frac{x+y}{x}\text{.}
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="ex-complex3-4-8">
+<div class="para">Again, we can assume that any factors we cancel are not zero, so we do not need to write <span class="process-math">\(x+y\not= 0\text{.}\)</span> The final answer is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\boxed{\frac{\frac{x^2-y^2}{xy}}{\frac{x}{y}-1}=\frac{x+y}{x}}
+\end{equation*}
+</div>
+</div>
+</div></details>
+</div></article></details></section><section class="subsection" id="sec-alg-rational-10"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<div class="para" id="sec-alg-rational-10-2">Note: In all exercises, assume that any factor you cancel is not zero (as in Example <a href="sec-alg-rational.html#ex-complex3" class="xref" data-knowl="./knowl/xref/ex-complex3.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.20: A complex rational expression with two variables">Example 1.20</a>).</div>
+<div class="para" id="sec-alg-rational-10-3">1. <div id="webwork-13" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="13" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-13')">Activate</button></div>
+<div class="problem-contents"><div class="para logical" id="extracted-webwork-13-1-1-1">
+<div class="para">Simplify the rational expression.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^{2}+2x-3}{x^{2}-9}
+\end{equation*}
+</div>
+<div class="para">Answer:  <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span>
+</div>
+</div></div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-4">2. <div id="webwork-14" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="14" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_7.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-14')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-14-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{5 x^3-6 x^2-8 x}{2 x^2-7 x+6}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(x)}{g(x)}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\)</span> are polynomials with no common factors.</div>
+</div> <div class="para" id="extracted-webwork-14-1-1-2">Your answer for the function <span class="process-math">\(f(x)\)</span> is : <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div> <div class="para" id="extracted-webwork-14-1-1-3">Your answer for the function <span class="process-math">\(g(x)\)</span> is : <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-5">3. <div id="webwork-15" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="15" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-15')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-15-1-1-1">
+<div class="para">Simplify the rational expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{7(xy^{5}+y^{6})}{x^2-y^2}
+\end{equation*}
+</div>
+<div class="para">in the form <span class="process-math">\(\frac{A}{B}.\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-15-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-6">4. <div id="webwork-16" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="16" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-16')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-16-1-1-1">
+<div class="para">Multiply the two rational expressions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{12 x^{4}}{25 y^{4}} \cdot \frac{15 xy}{9 x^{4}y^2}.
+\end{equation*}
+</div>
+<div class="para">Express your answer in simplest form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-16-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-7">5. <div id="webwork-17" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="17" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-17')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-17-1-1-1">
+<div class="para">Select <em class="alert">all</em> expressions that are equivalent to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x-3}{5 x} \cdot  \frac{x}{x^2-9}
+\end{equation*}
+</div>
+<div class="para">There may be more than one correct answer.</div>
+</div> <div class="para" id="extracted-webwork-17-1-1-2">
+<li id="extracted-webwork-17-1-1-2-1-1"><div class="para" id="extracted-webwork-17-1-1-2-1-1-1"><span class="process-math">\(\displaystyle \displaystyle \frac{-1}{5 x-3}\)</span></div></li> <li id="extracted-webwork-17-1-1-2-1-2"><div class="para" id="extracted-webwork-17-1-1-2-1-2-1"><span class="process-math">\(\displaystyle \displaystyle \frac{1}{5} \cdot \frac{1}{x+3}\)</span></div></li> <li id="extracted-webwork-17-1-1-2-1-3"><div class="para" id="extracted-webwork-17-1-1-2-1-3-1"><span class="process-math">\(\displaystyle \displaystyle \frac{1}{5(x+3)}\)</span></div></li> <li id="extracted-webwork-17-1-1-2-1-4"><div class="para" id="extracted-webwork-17-1-1-2-1-4-1"><span class="process-math">\(\displaystyle \displaystyle \frac{-1}{5(x-3)}\)</span></div></li> <li id="extracted-webwork-17-1-1-2-1-5"><div class="para" id="extracted-webwork-17-1-1-2-1-5-1">None of the above</div></li>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-8">6. <div id="webwork-18" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="18" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-18')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-18-1-1-1">Evaluate the following and express your answer as a single fraction.</div> <div class="para" id="extracted-webwork-18-1-1-2">
+<span class="process-math">\(\displaystyle\frac{10}{2x} \div \frac{10}{3y} =\)</span> <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-18-1-1-3"><em class="emphasis">You might want to do a preview before submitting your answer to be certain it has been entered correctly.</em></div>
+<div class="solutions"><details id="extracted-webwork-18-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="extracted-webwork-18-1-2-1">Reciprocal</div></div></details></div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-9">7. <div id="webwork-19" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="19" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-19')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-19-1-1-1">
+<div class="para">Divide the two rational expressions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+- \frac{24 a b^{6}}{7 c} \div - \frac{9 a^2 c}{b^{3}c^{6}}.
+\end{equation*}
+</div>
+<div class="para">Express your answer in simplest form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-19-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-10">8. <div id="webwork-20" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="20" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-20')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-20-1-1-1">Add the following and express your answer as a single fraction.</div> <div class="para" id="extracted-webwork-20-1-1-2">
+<span class="process-math">\(\displaystyle\frac{5}{x} + \frac{6}{y} =\)</span> <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-20-1-1-3"><em class="emphasis">You might want to do a preview before submitting your answer to be certain it has been entered correctly.</em></div>
+<div class="solutions"><details id="extracted-webwork-20-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="extracted-webwork-20-1-2-1">First you will need to get a common denominator by finding the least common multiple.</div>
+<div class="para" id="extracted-webwork-20-1-2-2">The common denominator is <span class="process-math">\(x y\)</span> but you will need to put parenthesis around the denominator so that you divide it all.</div>
+</div></details></div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-11">9. <div id="webwork-21" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="21" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-21')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-21-1-1-1">
+<div class="para">Simplify the rational expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{x^{2}} + \frac{1}{x^{4}}
+\end{equation*}
+</div>
+<div class="para">in the form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>  Express the final result in a single fraction using positive exponents only.</div>
+</div> <div class="para" id="extracted-webwork-21-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-12">10. <div id="webwork-22" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="22" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-22')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-22-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2x-3}{x-2}+ \frac{3-x}{x-2}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(x)}{g(x)}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-22-1-1-2">Your answer for the function <span class="process-math">\(f(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-22-1-1-3">Your answer for the function <span class="process-math">\(g(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-13">11. <div id="webwork-23" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="23" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-23')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-23-1-1-1">
+<div class="para">Add the two rational expressions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2x-1}{3x^{2}} + \frac{3\!\left(x-2\right)}{3x^{2}}.
+\end{equation*}
+</div>
+<div class="para">Express your answer in simplest form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-23-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-14">12. <div id="webwork-24" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="24" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_27.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-24')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-24-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{4}{x^2} + \frac{4}{x^2+x}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(x)}{g(x)}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-24-1-1-2">Your answer for the function <span class="process-math">\(f(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-24-1-1-3">Your answer for the function <span class="process-math">\(g(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-15">13. <div id="webwork-25" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="25" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-25')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-25-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{x+4}- \frac{1}{x+6}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(x)}{g(x)}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-25-1-1-2">Your answer for the function <span class="process-math">\(f(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-25-1-1-3">Your answer for the function <span class="process-math">\(g(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-16">14. <div id="webwork-26" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="26" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-26')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-26-1-1-1">
+<div class="para">Subtract the two rational expressions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{6x}{4x+1} - \frac{5}{4x+1}.
+\end{equation*}
+</div>
+<div class="para">Express your answer in simplest form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-26-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-17">15. <div id="webwork-27" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="27" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-27')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-27-1-1-1">
+<div class="para">Find the least common denominator (LCD) of the rational expressions:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{t+4}{25t^{2}-4} \mbox{ and } \frac{6t+1}{25t^{2}+20t+4}
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-27-1-1-2">LCD:  <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-18">16. <div id="webwork-28" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="28" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-28')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-28-1-1-1">Write <span class="process-math">\(\displaystyle \frac{m}{2} + \frac{m}{3}\)</span> as a single fraction. <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-28-1-1-2">Note: Your answer should be a completely simplified fraction. Unsimplified answers and decimals will not be accepted.</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-19">17. <div id="webwork-29" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="29" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-29')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-29-1-1-1">
+<div class="para">Perform the indicated operation.  Simplify the result, if possible.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3 - \frac{1}{5\cdot 2x}
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-29-1-1-2">Answer:  <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>
+</div> <div class="para" id="extracted-webwork-29-1-1-3">
+<a class="external" href="" target="_blank">help(entering your answer)</a><details class="ptx-footnote" aria-live="polite" id="extracted-webwork-29-1-1-3-2"><summary class="ptx-footnote__number" title="Footnote 2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="extracted-webwork-29-1-1-3-2"><code class="code-inline tex2jax_ignore"></code></div></details>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-20">18. <div id="webwork-30" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="30" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-30')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-30-1-1-1">
+<div class="para">Perform the indicated operations on the three expressions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x + \frac{4}{x^{2}-16} - \frac{x^{2}}{x+4}.
+\end{equation*}
+</div>
+<div class="para">Express your answer in simplest form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-30-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-21">19. <div id="webwork-31" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="31" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-31')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-31-1-1-1">
+<div class="para">Perform the indicated operations involving the three rational expressions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{4xy^{3}}{5x} \cdot \frac{10xy^{5}}{26y} \div \frac{5y^{2}z}{13x^{2}}.
+\end{equation*}
+</div>
+<div class="para">Express your answer in simplest form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-31-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-22">20. <div id="webwork-32" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="32" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-32')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-32-1-1-1">
+<div class="para">Select <em class="alert">all</em> expressions that are equivalent to</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\displaystyle y + \frac{y}{4} + \frac{4}{y}.
+\end{equation*}
+</div>
+<div class="para">There may be more than one correct answer.</div>
+</div> <div class="para" id="extracted-webwork-32-1-1-2">
+<li id="extracted-webwork-32-1-1-2-1-1"><div class="para" id="extracted-webwork-32-1-1-2-1-1-1"><span class="process-math">\(\displaystyle \displaystyle \frac{2y + 4}{4 + y}\)</span></div></li> <li id="extracted-webwork-32-1-1-2-1-2"><div class="para" id="extracted-webwork-32-1-1-2-1-2-1"><span class="process-math">\(\displaystyle \displaystyle \frac{5 y^2 + 16}{4 y}\)</span></div></li> <li id="extracted-webwork-32-1-1-2-1-3"><div class="para" id="extracted-webwork-32-1-1-2-1-3-1"><span class="process-math">\(\displaystyle \displaystyle \frac{5 y}{4} + \frac{4}{y}\)</span></div></li> <li id="extracted-webwork-32-1-1-2-1-4"><div class="para" id="extracted-webwork-32-1-1-2-1-4-1"><span class="process-math">\(\displaystyle \displaystyle y + 4\)</span></div></li> <li id="extracted-webwork-32-1-1-2-1-5"><div class="para" id="extracted-webwork-32-1-1-2-1-5-1"><span class="process-math">\(\displaystyle \displaystyle \frac{y^2 + 16}{4 y }\)</span></div></li>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-23">21. <div id="webwork-33" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="33" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_41.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-33')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-33-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\frac{5}{x-1}-\frac{2}{x+1}}{\frac{x}{x-1}+\frac{1}{x+1}}
+\end{equation*}
+</div>
+<div class="para">and give your answer in the form of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{f(x)}{g(x)}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-33-1-1-2">Your answer for the function <span class="process-math">\(f(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div> <div class="para" id="extracted-webwork-33-1-1-3">Your answer for the function <span class="process-math">\(g(x)\)</span> is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-24">22. <div id="webwork-34" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="34" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-34')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-34-1-1-1">
+<div class="para">Simplify the complex fraction</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1+\frac{\displaystyle \; 1 \;}{\displaystyle  \; 1+\frac{1}{\displaystyle \; 1+ \frac{1}{x}\;}}
+\end{equation*}
+</div>
+<div class="para">in the form <span class="process-math">\(\frac{A}{B}\text{.}\)</span>
+</div>
+</div> <div class="para" id="extracted-webwork-34-1-1-2">Answer: <span class="process-math">\(A =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> and <span class="process-math">\(B =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-25">23. <div id="webwork-35" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="35" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/ma117DB/set1b/srw1_4_45.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-35')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-35-1-1-1">
+<div class="para">Simplify the expression</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{1+x^n} + \frac{1}{1+x^{-n}}.
+\end{equation*}
+</div>
+</div> <div class="para" id="extracted-webwork-35-1-1-2">Your answer is : <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-26">
+<em class="alert">The following do not seem to render well - delete.</em> <div id="webwork-36" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="36" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-courseID="" data-userID="" data-coursePassword="" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-36')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-36-1-1-1">PTX:ERROR: WeBWorK problem Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p4.pg with seed 36 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content</div></div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-27">No. <div id="webwork-37" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="37" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-courseID="" data-userID="" data-coursePassword="" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-37')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-37-1-1-1">PTX:ERROR: WeBWorK problem Library/Utah/Intermediate_Algebra/set11_Rational_Expressions_Equations_and_Functions/s11p9.pg with seed 37 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content</div></div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-28">no. <div id="webwork-38" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="38" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-courseID="" data-userID="" data-coursePassword="" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-38')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-38-1-1-1">PTX:ERROR: WeBWorK problem Library/Rochester/setAlgebra05RationalExpressions/srw1_4_29.pg with seed 38 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content</div></div>
+</div>
+</div>
+<div class="para" id="sec-alg-rational-10-29">no. <div id="webwork-39" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="39" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-courseID="" data-userID="" data-coursePassword="" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-39')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-39-1-1-1">PTX:ERROR: WeBWorK problem Library/Rochester/setAlgebra05RationalExpressions/Test2_3.pg with seed 39 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content</div></div>
+</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-alg-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-alg-rationaleq.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
