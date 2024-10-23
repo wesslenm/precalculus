@@ -36,7 +36,7 @@
 		</li>
 		<li>
 			<p>
-				After using rules to differentiate a function (for example the product rule or quotient rule) the result is often a messy complicated looking expression which needs to be simplified. 
+				After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy complicated looking expression which needs to be simplified. 
 			</p>
 		</li>
 	</ul>
@@ -45,10 +45,14 @@
 
  
   <introduction>
-  <p> Before we dive into the different rules, we need to have a solid understanding of what exponents are and what they mean.   </p>
+    <!--<p> Before we dive into the different rules, we need to have a solid understanding of what exponents are and what they mean.   </p>
+	<p>
+		When we first start learning math, we often start with addition. We then quickly see that repeated addition can be useful. We run into problems like: ``You have 4 dogs and want to give each dog 3 treats. How many treats do you need?'' We solve these with repeated addition: <m>3+3+3+3 = 12</m>, or three treats for each of the four dogs. We then learn that repeated addition happens often, so we develop a new notation, multiplication. For our example problem, we would do <m>3 \times 4</m> to say we need to add three, four times. Exponents take this one step further. When we need to do repeated multiplication, like if we need to find the volume of a cube, we can shorten the notation by using exponents. To find our volume, we would multiply the side length by itself three times to get length times width times height, but with a cube these lengths are all the same. We can write <m>V(x) = (x)(x)(x)=x^3</m>. Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent. But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them. 
+	</p>
+   -->
 
   <p>
-    When we first start learning math, we often start with addition. We then quickly see that repeated addition can be useful. We run into problems like: ``You have 4 dogs and want to give each dog 3 treats. How many treats do you need?'' We solve these with repeated addition: <m>3+3+3+3 = 12</m>, or three treats for each of the four dogs. We then learn that repeated addition happens often, so we develop a new notation, multiplication. For our example problem, we would do <m>3 \times 4</m> to say we need to add three, four times. Exponents take this one step further. When we need to do repeated multiplication, like if we need to find the volume of a cube, we can shorten the notation by using exponents. To find our volume, we would multiply the side length by itself three times to get length times width times height, but with a cube these lengths are all the same. We can write <m>V(x) = (x)(x)(x)=x^3</m>. Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent. But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them. 
+   As an instroduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length <m> x </m>, we would multiply <m> x </m> by itself three times to get length times width times height. We can write <m>V(x) = (x)(x)(x)=x^3</m>. Here, the exponent tells us how many times to do the multiplication. The concept can later be <em> exanded to include non-integer values of the exponent </em>. But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them. 
   </p>
 </introduction>
 
@@ -85,9 +89,11 @@
   This rule builds off of our previous rule. If we have <m>x^5x^{-2}</m>, rule <xref ref="rule-one" /> tells us that we really have <m>x^{5+(-2)} = x^{5-2} = x^3</m>. We went from having <m>x</m> multiplied 5 times to having <m>x</m> multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division: 
   </p>
 
-<me> 
-	\frac{x^5}{x^2} = \frac{(x)(x)(x)(x)(x)}{(x)(x)} = (x)(x)(x) = x^3 
-</me>
+  <md>
+	<mrow>\frac{x^5}{x^2} &amp;= \frac{(x)(x)(x)(x)(x)}{(x)(x)}</mrow>
+	<mrow> 		&amp;= (x)(x)(x)</mrow>
+	<mrow> 		&amp;= x^3.</mrow>
+</md>
 
 <p>
   A negative exponent tells us we have division rather than multiplication. 
@@ -133,7 +139,7 @@ Again, all of the above is true for all real numbers <m>a</m> and <m>b</m>, and 
   </exercise>
 
   <p>
-If there are several different base numbers we need to collect those with the same base, as in the following example:
+If there are several different base numbers we need to collect those with the same base, as in the following example.
   </p>
 
   <example>
@@ -283,7 +289,12 @@ If there are several different base numbers we need to collect those with the sa
   This rule builds directly off of our first rule as well. As a example when <m>a</m> and <m>b</m> are integers, <m>(x^a)^b</m> tells us we need to multiply <m>x^a</m> by itself <m>b</m> times. Since <m>x^a</m> multiplies <m>x</m> by itself <m>a</m> times, <m>(x^a)^b</m> tells us to multiply <m>x</m> by itself a total of <m>ab</m> times. For example, 
 </p>
 
-<me>(x^2)^3 = (x^2)(x^2)(x^2) = x^{2+2+2} = x^{(2)(3)} = x^6.</me>
+<md>
+	<mrow>(x^2)^3 &amp;= (x^2)(x^2)(x^2)</mrow>
+	<mrow> 		&amp;= x^{2+2+2}</mrow>
+	<mrow> 		&amp;= x^{2  \times 3}</mrow>
+	<mrow> 		&amp;= x^6</mrow>
+</md>
 
 <p> 
 	We can also use this rule when there is a product or quotient inside the parentheses, but not if there is an addition or subtraction. 
@@ -295,7 +306,7 @@ If there are several different base numbers we need to collect those with the sa
 	  </equation>	
 	  <equation>
 		<men xml:id="rule-five">
-			(xy)^{a} = x^{a}y^{a}
+			\left(\frac{x}{y}\right)^{a} = \frac{x^{a}}{y^{a}}
 		</men>
 	  </equation>	
 However,
@@ -309,10 +320,42 @@ However,
 <example>
 	<title>Double exponents</title>
 	<statement>	
-		For example, we can say that <me>(x^2y^3)^2 = (x^2)^2(y^3)^2 = x^4 y^6,</me> and that 
-		<me> \Bigg (\frac{3x^2}{y^3}\Bigg) ^2 = \frac{(3x^2)^2}{(y^3)^2} = \frac{3^2(x^2)^2}{(y^3)^2} =\frac{9x^4}{y^6}.</me>
-		But it is important to note that <m>(x^2+y^3)^2 \not= x^4+y^6</m>. 
+		Simplify <me>(x^2y^3)^2</me> and 
+		<me> \Bigg(\frac{3x^2}{y^3}\Bigg) ^2</me>
 	</statement>
+	<answer>
+	<p>
+		<me>
+			\boxed{(x^2y^3)^2 =x^4 y^6}
+		</me>
+		and 		<me>
+			\boxed{(\Bigg(\frac{3x^2}{y^3}\Bigg) ^2 =\frac{9x^4}{y^6}}
+		</me>
+	  </p>
+	</answer>
+	<solution>	
+		Using the rules we have seen above, we have that:
+		<md>
+			<mrow>(x^2y^3)^2 &amp;= (x^2)^2(y^3)^2 </mrow>
+			<mrow> 		&amp;= x^4 y^6</mrow>
+		</md>
+		and 
+		<md>
+			<mrow>\Bigg (\frac{3x^2}{y^3}\Bigg) ^2 &amp;= \frac{(3x^2)^2}{(y^3)^2}</mrow>
+			<mrow> 		&amp;= \frac{3^2(x^2)^2}{(y^3)^2}</mrow>
+			<mrow> 		&amp;= \frac{9x^4}{y^6}</mrow>
+		</md>
+	</solution>
+</example>
+
+<example xml:id="ex-add">
+	<title>Exponents and addition</title>
+	<statement>	
+		Are <m>(x^2+y^3)^2</m> and <m> x^4+y^6</m> equal of different? 
+	</statement>
+	<solution>	
+		They are different. <m>(x^2+y^3)^2\not= x^4+y^6</m> in general. We can test this by chosing some values for <m>x</m> and <m>y</m>, then checking what the expressions are. For example, let <m>x=2</m> and <m> y=1</m>. Then <m>(x^2+y^3)^2=25</m> and <m> x^4+y^6 = 17</m> so they are not equal.
+	</solution>
 </example>
 
 <example>
@@ -332,7 +375,7 @@ However,
 	  <answer>
 	  <p>
 		<me>
-			\boxed{(x^2+y^3)^2} = x^4 + 2x^2y^3 + y^6}
+			\boxed{(x^2+y^3)^2 = x^4 + 2x^2y^3 + y^6}
 		</me>
 	  </p>
 	</answer>
@@ -348,7 +391,7 @@ However,
 	</md>
 
 		<me>
-			\boxed{(x^2+y^3)^2} = x^4 + 2x^2y^3 + y^6}
+			\boxed{(x^2+y^3)^2 = x^4 + 2x^2y^3 + y^6}
 		</me>
 	</solution>
 </example>
@@ -360,10 +403,6 @@ However,
 	<exercise>
 		<webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
 	  </exercise> 
-
-
-
-
 
 	  <exercise xml:id="ex-exp-div2">
 		<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg" />
@@ -494,7 +533,7 @@ Let's look at a few examples of working with exponent rules. The examples use on
 	<title>Simplifying exponents</title>
 	<statement>
 		<p>
-		Simplify <me> \Bigg( \frac{x^2 y^4}{x\sqrt{y}}\Bigg)^2.</me>
+		Simplify <me> \Bigg( \frac{x^2 y^4}{x\sqrt{y}}\Bigg)^2</me>
 		</p>
 	</statement>
 	<answer>
@@ -503,31 +542,31 @@ Let's look at a few examples of working with exponent rules. The examples use on
 		</p>
 	  </answer>
 	<solution>
+		<p>
 		Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.
+		</p>
 		<me>
 			\Bigg( \frac{x^2 y^4}{x\sqrt{y}}\Bigg)^2 = \Bigg( \frac{x^2 y^4}{xy^{1/2}}\Bigg)^2
 		</me>
+		<p>
 		Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.
-
+		</p>
 		<md>
 			<mrow>\Bigg( \frac{x^2 y^4}{xy^{1/2}}\Bigg)^2 &amp;= \Big( x^2 y^4 x^{-1} y^{-1/2} \Big)^2</mrow>
 			<mrow> 		&amp;= \Big( x^2 x^{-1} y^4 y^{-1/2} \Big)^2</mrow>
 			<mrow> 		&amp;= \Big( x^{2-1} y^{4-1/2} \Big)^2</mrow>
 			<mrow> 		&amp;= \Big( x^1 y^{8/2-1/2}\Big)^2</mrow>
 			<mrow> 		&amp;= \Big( x y^{7/2})^2</mrow>	
-		</md>.
-
-
+		</md>
 		<p>
-		Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Our third rule says that <m>(x^a)^b = x^{ab}</m>>. We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us
+		Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule <xref ref="rule-three"/> says that <m>(x^a)^b = x^{ab}</m>. We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us
 		</p>
 
 		<md>
 			<mrow>\Big( x y^{7/2}\Big)^2 &amp;= (x)^2 (y^{7/2})^2</mrow>
 			<mrow> 		&amp;= x^2 y^{14/2}</mrow>
 			<mrow> 		&amp;= x^2y^7</mrow>
-		</md>.
-
+		</md>
 
 		<p>
 		So, in the end, we get that
@@ -581,7 +620,7 @@ Let's look at a few examples of working with exponent rules. The examples use on
 <subsection>
 	<title>Mixed Exercises</title>
 <p>
-	1. Look at each of the "common errors" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal.
+	1. Look at each of the "common errors" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of <xref ref="ex-add"/>. 
 </p>
 
 <p>

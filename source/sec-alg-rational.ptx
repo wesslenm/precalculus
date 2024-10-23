@@ -69,7 +69,7 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
     </me>
 
     <p>
-      Here, <m>x^3+3x^2</m> is the <term>numerator</term>, and <m>x^2+2x-3</m> is the <term>denominator</term>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as simplifying <m>\frac{3}{4} - \frac{1}{5}</m>).
+      Here, <m>x^3+3x^2</m> is the <term>numerator</term>, and <m>x^2+2x-3</m> is the <term>denominator</term>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as for example simplifying <m>\frac{3}{4} - \frac{1}{5}</m>).
     </p>
   </introduction>
   
@@ -232,7 +232,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
           <statement>
             <p>
             Multiply the rational expressions and simplify the answer:
-             <me>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}.</me>
+             <me>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}</me>
             </p>
           </statement>
           <answer>
@@ -245,7 +245,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
             Multiply numerators separately, then denominators separately, as described in <xref ref="rational-multiply" />.
           </p> 
             <me>
-              \frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}.
+              \frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}
             </me>
           <p>
             Note that it is important to use brackets, to show that all of  <m> 3x^2+2 </m> is multiplied by all of <m> x+10 </m> (and similarly for the denominator). Next, expend the brackets and simplify:
@@ -253,7 +253,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
           <md>
               <mrow>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} &amp;= \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}</mrow>
               <mrow> 		&amp;= \frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}</mrow>
-            </md>.
+            </md>
             <p>
             There is no further simplification that can be made. So the answer is
             <me>\boxed{\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2}=\frac{3x^3+ 30x^2 +2x+20}{x^4+x^3-3x^2+7x-6}}</me>
@@ -280,21 +280,26 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
        <assemblage>
         <title>Technique</title>
         <p>
-          To divide two rational expressions, multiply by the reciprical of the denominator:
+          To divide two rational expressions, multiply by the reciprocal of the denominator:
 
           <men xml:id="rational-divide">
-            \frac{a}{b} / \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}
+            \frac{a}{b} / \frac{c}{d}=  \frac{a}{b}  \cdot \frac{d}{c}
           </men>
 where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and/or expressions involving variables.  
         </p>
          </assemblage>   
+
+         <xref ref="rational-multiply" /> can be writen in more detail:
+         <me>
+          \frac{a}{b} / \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}
+        </me>
 
        <example xml:id="ex-divide">
         <title>Dividing rational expressions</title>
         <statement>
           <p>
           Divide the rational expressions and simplify the answer:
-           <me>\frac{3x^2+2}{x^2+2x-3} / \frac{x+10}{x^2-x+2}.</me>
+           <me>\frac{3x^2+2}{x^2+2x-3} / \frac{x+10}{x^2-x+2}</me>
           </p>
         </statement>
         <answer>
@@ -307,10 +312,10 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
           Multiply numerators separately, then denominators separately, as described in <xref ref="rational-multiply" />.
         </p> 
           <me>
-            \frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}.
+            \frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} = \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}
           </me>
         <p>
-          Note that it is important to use brackets, to show that all of  <m> 3x^2+2 </m> is multiplied by all of <m> x+10 </m> (and similarly for the denominator). Next, expend the brackets and simplify:
+          Note that it is important to use brackets, to show that all of  <m> 3x^2+2 </m> is multiplied by all of <m> x+10 </m> (and similarly for the denominator). Next, expand the brackets and simplify:
         </p>
         <md>
             <mrow>\frac{3x^2+2}{x^2+2x-3} \cdot \frac{x+10}{x^2-x+2} &amp;= \frac{(3x^2+2)(x+10)}{(x^2+2x-3)(x^2-x+2)}</mrow>
@@ -332,16 +337,16 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
   <subsection>
     <title>Adding and Subtracting rational expressions</title>
 
-      <p> Let's start by looking at a numerical example of adding two fractions, <m>\frac{5}{6} + \frac{3}{8}</m>.      
+      <p> Let's start by looking at a numerical example of adding two fractions, for example <m>\frac{5}{6} + \frac{3}{8}</m>.      
         
-        To add fractions, we need to use a common denominator.    </p>
+        To add fractions, we need to use a common denominator, then add the resulting numerators. The least common multiple of 6 and 8 is 24, so let's use that as the common denominator in this case:    </p>
       <md>
         <mrow>\frac{5}{6} + \frac{3}{8} &amp;= \frac{20}{24}+\frac{9}{24}</mrow>
         <mrow> 		&amp;= \frac{20+9}{24}</mrow>
         <mrow> 		&amp;= \frac{29}{24}</mrow>
-      </md>.
+      </md>
 
-      <p> The steps for adding rational expressions is the same. Also, the technique is the same for adding and for subtracting.     </p>
+      <p> The general steps for adding rational expressions are the same. Also, the technique is the same for adding and for subtracting.     </p>
 
       <assemblage>
         <title>Technique</title>
@@ -369,7 +374,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         <statement>
           <p>
           Subtract the rational expressions and simplify the answer:
-           <me>\frac{x}{x^2-1} - \frac{2}{x^2+x-2}.</me>
+           <me>\frac{x}{x^2-1} - \frac{2}{x^2+x-2}</me>
           </p>
         </statement>
         <answer>
@@ -377,7 +382,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
           </answer>
         <solution>
         <p>
-          We need find a common denominator. We could use an common denominator. For example we could simply use <m> (x^2-1)\cdot(x^2+x-2) </m>, but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:
+          We need find a common denominator. We could use any common denominator. For example we could simply use <me> (x^2-1)\cdot(x^2+x-2) </me> but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:
         </p> 
           <me>
             x^2-1 = (x-1)(x+1).
@@ -466,7 +471,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
             <mrow> 		&amp;= \frac{x+y}{y} \cdot \frac{x}{x+2} </mrow>
             <mrow> 		&amp;= \frac{(x+y)x}{y(x+2)} </mrow>
             <mrow> 		&amp;= \frac{x^2 + xy}{xy+2y} </mrow>
-          </md>.
+          </md>
           <p>
           There is no further simplification that can be made. So the final answer is
           <me>\boxed{\frac{\frac{x}{y}+1}{1+\frac{2}{x}}=\frac{x^2 + xy}{xy+2y}}</me>
