@@ -1,9 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-trig-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometry</title>
+  <title>Trigonometic definitions and basic facts</title>
 
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+    </ul>
+  </objectives>
+   
+  <assemblage>
+    <title>Where will this be used in calculus?</title>
+    <p>
+      ....
+    </p>
+    <p>
+    <ul>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage>
+
+  <introduction>
+    <p>    
+      In this section, we will work with trigonometric functions. We will examine relationships between the 6 trigonometric functions and will discuss how to evaluate them for commonly used inputs.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Radian angle measurements and terminology</title>
+  <p> We will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  </p>
+  
+  <p>
+[INSERT RADIAN-DEGREE CONVERSION CHART]
+  <alert> Correspondence between radian and degree measures in some common angles.  </alert>
+</p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Use radians as much as possible and try to develop a feel for their size. Try to delop a feel from how large e.g. <m>\frac{\pi}{3}</m> radians is, withough needing to convert it to degrees. If you use a calculator to check your answers, make sure it is set to radian mode. 
+    </p>
+  </aside>
+
+  <p>
+    An angle placed on the coordinate system is in <term>standard position</term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  See [FIGURE]. A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.
+  </p>
+  <p>
+    [INSERT FIGURE]
+      <alert> Angles in standard position. </alert>
+    </p>
+
+    <p>
+      We often (but not always) use Greek letters to represent angles. For example, <m>\theta</m> (theta), <m>\alpha</m> (alpha) and <m>\beta</m> (beta) are commonly used to represent angles. 
+    </p>
+
+    <assemblage>
+      <title>Greek letters</title>
+      <p>
+        For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. 
+      <md>
+        <mrow> \alpha  &amp;- alpha</mrow>
+        <mrow> \beta		&amp;- beta</mrow>
+        <mrow> \gamma		&amp;- gamma \mbox{ (upper case } \Gamma) </mrow>
+        <mrow> \delta		&amp;- delta \mbox{ (upper case } \Delta)</mrow>
+        <mrow> \epsilon		&amp;- epsilon</mrow>
+        <mrow> \theta		&amp;- theta</mrow>
+        <mrow> \lambda		&amp;- lambda</mrow>
+        <mrow> \mu		&amp;- mu</mrow>
+        <mrow> \pi		&amp;- pi</mrow>
+        <mrow> \sigma		&amp;- sigma \mbox{ (upper case } \Sigma)</mrow>
+        <mrow> \tau		&amp;- tau</mrow>
+        <mrow> \omega		&amp;- omega \mbox{ (upper case } \Omega)</mrow>
+      </md>
+
+      (This is not a full list of the Greek alphabet.)
+    </p>
+    </assemblage>
+
+</subsection>
+
+
+  <subsection>
+    <title>Definitions</title>
+  <p> We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Evaluating using special triangles</title>
   <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Evaluating using the unit circle</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Any other topics?</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Additional Examples</title>
+      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
+
+      <p>
+        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
+      </p>
+  </subsection>
+
+  <subsection>
+    <title>Exercises</title>
+
+    <p>
+      Note: 
+    </p>
+    
+    <p>
+      1. <webwork source="...." />
+    </p>
+  </subsection>
 
 
 

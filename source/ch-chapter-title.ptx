@@ -4,7 +4,7 @@
   <title>General test chapter</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> Text before the first section of the chapter. </p>
   </introduction>
 
   <!-- include sections -->

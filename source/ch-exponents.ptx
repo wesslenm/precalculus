@@ -18,5 +18,6 @@
   <!-- include sections -->
   <xi:include href="sec-exp-intro.ptx" />
   <xi:include href="sec-exp-functions.ptx" />
+  <xi:include href="sec-exp-log.ptx" />
 
 </chapter>

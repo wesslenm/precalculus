@@ -14,21 +14,11 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-algebra.ptx" />
-
-    <!-- Include chapters -->
     <xi:include href="./ch-functions.ptx" />
-
-    <!-- Include chapters -->
     <xi:include href="./ch-exponents.ptx" />
-
-    <!-- Include chapters -->
     <xi:include href="./ch-trig.ptx" />
-
-    <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />
 
-
-    <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
   </book>

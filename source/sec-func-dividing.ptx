@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-func-dividing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dividing polynomials</title>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+    </ul>
+  </objectives>
+   
+  <assemblage>
+    <title>Where will this be used in calculus?</title>
+    <p>
+      ....
+    </p>
+    <p>
+    <ul>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage>
+
+  <introduction>
+    <p>    
+....
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>....</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Long division of polynomials</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>....</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Any other topics?</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+  <subsection>
+    <title>Additional Examples</title>
+      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
+
+      <p>
+        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
+      </p>
+  </subsection>
+
+  <subsection>
+    <title>Exercises</title>
+
+    <p>
+      Note: 
+    </p>
+    
+    <p>
+      1. <webwork source="...." />
+    </p>
+  </subsection>
+
+
+
+</section>

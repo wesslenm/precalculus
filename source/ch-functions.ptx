@@ -9,5 +9,9 @@
 
   <!-- include sections -->
   <xi:include href="sec-func-intro.ptx" />
+  <xi:include href="sec-func-poly.ptx" />
+  <xi:include href="sec-func-graphs.ptx" />
+  <xi:include href="sec-func-absolute.ptx" />
+ <!--  <xi:include href="sec-func-dividing.ptx" />  MOVE TO ALGEBRA CHAPTER?-->
 
 </chapter>

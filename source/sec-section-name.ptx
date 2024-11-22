@@ -3,7 +3,43 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Random trial chapter </title>
 
-  <p> For testing things out.... Some  text here. Adding more.  </p>
+  <p> For testing things out.... Also for keeping samples of types of code, for easy copy/pasting. </p>
+
+
+  <example xml:id="CHANGE">
+    <title>Description of example</title>
+    <statement>
+      <p>
+      ....
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Use radians as much as possible and try to develop a feel for their size. Try to delop an feel from how large e.g. <m>\frac{\pi}{3}</m> radians is, withough needing to convert it to degrees. If you use a calculator to check your answers, make sure it is set to radian mode. 
+    </p>
+  </aside>
+
+
+
+
+
 
   <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
 
