@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-trig-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometic graphs</title>
+  <title>Trigonometric graphs</title>
 
   <objectives>
     <ul>
       <li>
         <p>
-          ....
+          Recognize and be able to sketch trigonometric graphs.
         </p>
       </li>
       <li>
         <p>
-          ....
+          Use the graphs of trigonometric functions to read off important information. 
         </p>
       </li>
       <li>
         <p>
-          ......
+          Determine symmetries of trigonometric functions. 
         </p>
       </li>
       <li>
         <p>
-          ......
+          Determine amplitude, period and phase shift. 
         </p>
       </li>
     </ul>
@@ -31,28 +31,18 @@
   <assemblage>
     <title>Where will this be used in calculus?</title>
     <p>
-      ....
+      Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          ....
+          Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.  
         </p>
       </li>
       <li>
         <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
+          Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled. 
         </p>
       </li>
     </ul>
@@ -61,44 +51,510 @@
 
   <introduction>
     <p>    
-....
+In this section we discuss the graphs of trigonometric functions, and some properties of the graphs. 
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="triggraphs">
     <title>Graphs</title>
-  <p> Coming soon.  </p>
+  <p> The graphs of the trigonometric functions are given below. </p>
+  
+  <p> INSERT 6 GRAPHS.....  </p>
+
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      You should memorize the graphs of <m>y=\sin \theta</m>, <m>y=\cos \theta</m> and <m>y=\tan \theta</m>. A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts. 
+    </p>
+  </aside>
+  
+  <p>
+  All 6 trigonometric functions are <term>periodic</term>, which means that they repeat after a certain interval, called the <term>period</term>. The periods for the 6 functions are as follows:  
+  </p>
+<table>
+  <title>Periods of trigonometric functions.</title>
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Function</cell>
+      <cell>Period</cell>
+    </row>
+    <row>
+      <cell><m>y=\sin x</m></cell>
+      <cell><m>2\pi</m></cell>
+    </row>
+    <row>
+      <cell><m>y=\cos x</m></cell>
+      <cell><m>2\pi</m></cell>
+    </row>
+    <row>
+      <cell><m>y=\tan x</m></cell>
+      <cell><m>\pi</m></cell>
+    </row>
+    <row>
+      <cell><m>y=\cot x</m></cell>
+      <cell><m>\pi</m></cell>
+    </row>
+    <row>
+      <cell><m>y=\sec x</m></cell>
+      <cell><m>2\pi</m></cell>
+    </row>
+    <row>
+      <cell><m>y=\csc x</m></cell>
+      <cell><m>2\pi</m></cell>
+    </row>
+  </tabular>
+</table>
+
+ 
   </subsection>
 
   <subsection>
-    <title>Properties from graphs</title>
-  <p> Coming soon.  </p>
-  </subsection>
+    <title>Properties and symmetries</title>
+  <p> One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.     </p>
 
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Additional Examples</title>
-      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
+<aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Try answering the questions in <xref ref="graph1" /> yourself before looking at the solution. 
+    </p>
+  </aside>
 
       <p>
-        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
+     <example xml:id="graph1">
+    <title>Properties from graphs</title>
+    <statement>
+      <p>
+      Use the graphs of trigonometric functions to find the following information:
+      <nl>
+      <li>
+        <p>
+          (a) <m>\tan 0</m>
+        </p>
+      </li>
+      <li>
+        <p>
+        (b) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin x = 0</m>. 
+        </p>
+      </li>
+      <li>
+        <p>
+        (c) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\tan x</m> is undefined.
+        </p>
+      </li>
+    </nl>
       </p>
+    </statement>
+    <solution>
+      <p>
+      Looking at the graphs given earlier in this section, we can easily find the information. 
+      </p>
+      <p>
+      (a) <m>\tan 0 = 0</m>, as seen from the graph of <m>y=\tan \theta</m>. 
+      </p>
+      <p>
+      (b) Looking at the graph of <m>y=\sin \theta</m>, we can see that it crosses the <m>x</m>-axis 5 times in the inteval <m>[-2\pi, 2\pi]</m>, namely at the <m>x</m>-values <m>x=-2\pi, x=-\pi,  x=0, x=\pi</m> and <m>x=2\pi</m>. 
+      </p>
+     <p>
+      (c) Looking at the graph of <m>y=\tan \theta</m>, we can see that it is undefined 4 times in the inteval <m>[-2\pi, 2\pi]</m>, namely at the <m>x</m>-values <m>x=-\frac{3\pi}{2}, x=-\frac{\pi}{2},  x=\frac{\pi}{2}</m> and <m>x=\frac{3\pi}{2}</m>. 
+      </p>
+    </solution>
+  </example>
+</p>
+
+  <exercise>
+<title>Properties from graphs</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("1")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("0")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("-pi/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );          
+    </pg-code>
+
+    <statement>
+      <p>Use the graphs of trigonometric functions to find the following information. </p>
+        <p>
+          (a) <m>\cos 0 = </m> <var name="$ans1" width="6"/>
+        </p>
+        <p>
+        (b) <m>\tan \pi = </m> <var name="$ans2" width="6"/>
+        </p>
+        <p>
+        (c) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin x = -1</m>. <var name="$ans3" width="6"/>
+        </p>
+    </statement>
+  </webwork>
+</exercise>
+
+<p> 
+Graphs also illustrate symmetries. For example, <m>y=\sin \theta</m> and <m>y=\tan \theta</m> are odd functions, while <m>y=\cos \theta</m> is an even function.
+</p>
+<p>
+Recall that a function <m>f(x)</m> is an <term>odd function</term> if <m>f(-x)=-f(x)</m> for all <m>x</m> in the domain of <m>f</m>. Visually, this means that the graph has 180 degree symmetry about the origin.
+</p>
+<p>
+ Also, <m>f(x)</m> is an <term>even function</term> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
+</p>
+
+   <p>
+     <example xml:id="graph2">
+    <title>Symmetries</title>
+    <statement>
+      <p>
+      Which of the following statements are true, and which are false? 
+      </p>
+      <p>
+      <nl>
+      <li>
+        <p>
+          (a) <m>y=\tan x</m> is an odd function. 
+        </p>
+      </li>
+      <li>
+        <p>
+          (b) <m>y=\sec x</m> is an odd function. 
+        </p>
+      </li>
+      <li>
+        <p>
+        (c) <m>\sin \left(\frac{3}{8}\right) = - \sin \left(-\frac{3}{8}\right)</m>
+        </p>
+      </li>
+    </nl>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        (a) True
+      </p>
+      <p>
+        (b) False
+      </p>      
+      <p>
+        (c) True
+      </p>      
+    </answer>
+    <solution>
+       <p>
+        (a) This is true. Looking at the graph we see that it is symmetric about the origin. 
+      </p>
+      <p>
+        (b) This is false. Looking at the graph we see that it is symmetric about the <m>y</m>-axis, so this is an even function, not odd. 
+      </p>      
+      <p>
+        (c) This is true. This is a property of odd functions and <m>y=\sin x </m> is an odd function. 
+      </p>    
+    </solution>
+  </example>
+     </p>
+
+  <exercise>
+<title>Symmetries and properties from graphs</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("0")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("1")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );      
+    </pg-code>
+
+    <statement>
+      <p>
+        Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  
+      </p>
+        <p>
+        (a) <m>y=\csc x</m> is an odd function. <var name="$ans2" width="6"/>
+        </p>
+       <p>
+        (b) <m>\sec \left( 3 \right) = \tan \left( -3 \right)</m>  <var name="$ans2" width="6"/>
+        </p> 
+        <p>
+          (c) <m>\tan \left( \frac{3\pi}{2} \right) = -\tan \left( -\frac{3\pi}{2} \right)</m> <var name="$ans1" width="6"/> 
+        </p>        
+        <p>
+          (d) <m>\tan \left( 2 \right) = -\tan \left( -2 \right)</m> <var name="$ans2" width="6"/> 
+        </p>
+
+    </statement>
+  </webwork>
+</exercise>
+
+
+
+ 
   </subsection>
+
+
+  <subsection>
+    <title>Transformations of graphs</title>
+  <p> 
+    Transformations of graphs in general are reviewed in <xref ref="sec-func-graphs" />. Here we discuss some transformations specifically in terms of trigonometric functions. 
+    
+    <example xml:id="trans1">
+    <title>Basic transformations GRAPHS NEEDED</title>
+    <statement>
+      <p>
+      Use a graphing tool to graph <m>y=2\cos x</m> and <m>y=\cos (2x)</m>. How are they different from the graph of <m>y=\cos x</m>?
+      </p>
+    </statement>
+    <solution>
+      <p>
+INSERT GRAPHS
+      </p>
+      <p>
+      Looking at the graph of <m>y=2\cos x</m>, we see that it looks very similar to the graph of <m>y=\cos x</m>, except that the <m>y</m>-values range between -2 and 2, instead of -1 and 1. 
+      </p>
+      <p>
+      Looking at the graph of <m>y=\cos (2x))</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except this time the persiod is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur `twice as fast' compared to the graph of <m>y=\cos x)</m>.
+      </p>
+    </solution>
+  </example>
+    </p>
+      <p>
+Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0</m>) oscillates between <m>A</m> and <m>-A</m>. Similarly for the graph of <m>y=A \sin x</m>. The value <m>A</m> is called the <term>amplitude</term> of the sine or cosine curve. 
+       </p>
+             <p>
+The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) have periods of <m>2\pi /k</m>. This is because compared to <m>y=\cos x</m> and <m>y=\sin x</m>, the graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m> are compressed horizontally by a factor of <m>k</m>.
+  </p>
+
+        <p>
+Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. Here, <m>c</m> is called the <term>phase shift</term>. 
+       </p>
+
+  <p>
+     <example xml:id="graph3">
+    <title>Amplitude, period, phase shift</title>
+    <statement>
+      <p>
+      Find the amplitude, period and phase shift for the curve
+      <me>
+        y = 3 \sin (4x-7)
+      </me>
+      </p>
+    </statement>
+    <answer>
+        <p>
+          The amplitude is <m>3</m>.
+        </p>
+        <p>
+          The period is <m>\frac{\pi}{2}</m>.
+        </p>
+        <p>
+          The phase shift is <m>\frac{7}{4}</m>.
+        </p>
+    </answer>
+    <solution>
+       <p>
+        The amplitude is given by the constant multiplied by <m>sin \theta</m>, in this case 3. 
+       </p>
+<p>
+  To find the period, notice that compared to <m>y=\sin x</m>, the graph of <m>y = 3 \sin (4x-7)</m> is compressed by a factor of <m>4</m>. This means the period is divided by <m>4</m>. The period of <m>y=\sin x</m> is <m>2\pi</m>, which means the persiod of <m>y = 3 \sin (4x-7)</m> is <m>\frac{2\pi}{4}= \frac{\pi}{2}</m>.
+</p>
+
+<p>
+  To find the phase shift, we need to consider <m>(4x-7)</m>. It is easier to see the phase shift if we first factor the <m>4</m>:
+  <me>
+    y = 3 \sin (4x-7) =  3 \sin \left(4\left(x-\frac{7}{4}\right)\right)
+  </me>
+  Now we see that the curve has been shifted <m>\frac{7}{4}</m> units to the right, so the phase shift is <m>\frac{7}{4}</m>. 
+</p>
+    </solution>
+  </example>
+     </p>
+
+
+
+  <exercise>
+<title>Determining period</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("2*pi/$a")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    </pg-code>
+
+    <statement>
+      <p>Compared to the graph of <m>y=\tan x</m>, the graph of <m>y=\tan (<var name="$a"/>x)</m> is compressed horizontally by a factor of <m><var name="$a"/></m>. </p>
+      <p> What is the period of <m> \tan \left(<var name="$a"/>x\right)</m>? <var name="$ans1" width="6"/></p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise xml:id="ex-trig-graph1">
+<title>Amplitude, period, phase shift from graph</title>
+	<webwork source="Library/MC/Trigonometry/Graphing03.pg" />
+</exercise>
+
+<exercise xml:id="ex-trig-graph2">
+<title>Amplitude, period, phase shift from expression</title>
+	<webwork source="Library/MC/Trigonometry/Graphing02.pg" />
+</exercise>
+  </subsection>
+
 
   <subsection>
     <title>Exercises</title>
 
-    <p>
-      Note: 
+  <p> 1. Check to see if you remember (or can findout with out any help) the following facts about trigonometric graphs. Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
     </p>
-    
+  <aside>
     <p>
-      1. <webwork source="...." />
+      <alert> Study tip: </alert>
     </p>
+    <p>  
+      These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc. 
+    </p>
+  </aside>
+ <p>
+    <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = random(2,9,1);
+      $b = random(2,9,1);
+      $c = random(2,9,1);
+      $ans1 = Compute("2*pi/$b")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("0")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );         
+      $ans3 = Compute("1")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+             
+    </pg-code>
+
+    <statement>
+      <p> (a) Sketch a few periods of the graph of <m>y=\sin x</m>. </p>
+      <p> (b) Sketch a few periods of the graph of <m>y=3\cos x</m>. </p>
+      <p> (c) Sketch a few periods of the graph of <m>y=\tan (x-\pi)</m>. </p>
+      <p> (d) It is true or false that <m>\tan (x-\pi) = \tan x</m>? <var name="$ans3" width="6"/> (Enter 1 for TRUE and 0 for FALSE.)  </p>                
+      <p> (e) What is the period of <m>y=<var name="$a"/> \sin (<var name="$b"/> x-<var name="$c"/>)</m>? <var name="$ans1" width="6"/></p>
+      <p> (f) What is <m> \tan 0</m>? <var name="$ans2" width="6"/></p>
+      <p> (g) What is <m> \cos 0</m>? <var name="$ans3" width="6"/></p>
+      <p> (h) What is <m> \sin (-\pi)</m>? <var name="$ans2" width="6"/></p>    
+    </statement>
+  </webwork>
+    </p>
+
+
+
+    <p>
+      2.   <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = random(2,9,1);
+      $b = random(2,9,1);
+      $c = random(2,9,1);
+      $ans1 = Compute("2*pi/$b")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("$a")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );         
+      $ans3 = Compute("0")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+    </pg-code>
+
+    <statement>
+      <p>Find the following for the function <m> y=<var name="$a"/>\cos \left(<var name="$b"/>x\right)</m></p>
+      <p> (a) What is the period of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans1" width="6"/></p>
+      <p> (b) What is the amplitude of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans2" width="6"/></p>
+      <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+    </statement>
+  </webwork>
+    </p>
+
+    <p>
+     3.   <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = random(2,9,1);
+      $b = random(2,9,1);
+      $c = random(2,9,1);
+      $ans1 = Compute("2*pi/$b")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("$a")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );         
+      $ans3 = Compute("$c")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+    </pg-code>
+
+    <statement>
+      <p>Find the following for the function <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)</m></p>
+      <p> (a) What is the period of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans1" width="6"/></p>
+      <p> (b) What is the amplitude of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans2" width="6"/></p>
+      <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+    </statement>
+  </webwork>
+    </p>
+
+    <p>
+      4. <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" />
+    </p>
+
+    <p>
+      5. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" />
+    </p>
+
+    <p>
+      6. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" />
+    </p>
+
+        <p>
+      7. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
+    </p>
+
+    <p>
+      8. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" />
+    </p>
+
+
+        <p>
+      9. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" />
+    </p>
+
+    <p>
+      10. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" />
+    </p>
+
+    <p>
+      11. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
+    </p>
+
+    <p>
+      12. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
+    </p>
+
   </subsection>
 
 

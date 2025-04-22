@@ -17,7 +17,7 @@
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project). Some examples:                                            -->
     <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
-    <exercise-divisional statement="yes" hint="yes" />
+    <exercise-divisional statement="yes" hint="yes" answer="no" solution="no"/>
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
     <!-- You can set a watermark: -->
@@ -94,7 +94,7 @@
       listing="no"
       list="no"
       exercise-inline="yes"
-      exercise-divisional="no"
+      exercise-divisional="yes"
       exercise-worksheet="no"
       exercise-readingquestion="no"
     />
@@ -123,7 +123,7 @@
     <!-- Control behavior of online WeBWorK, per type: -->
     <webwork
       inline="dynamic"
-      divisional="static"
+      divisional="dynamic"
       reading="static"
       worksheet="static"
       project="dynamic"

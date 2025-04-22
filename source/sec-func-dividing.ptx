@@ -7,22 +7,17 @@
     <ul>
       <li>
         <p>
-          ....
+         Use long division to divide a polynomial by another polynomial.
         </p>
       </li>
       <li>
         <p>
-          ....
+          Interpret the results of long division of polynomials. 
         </p>
       </li>
       <li>
         <p>
-          ......
-        </p>
-      </li>
-      <li>
-        <p>
-          ......
+          Validate results (check answer).  
         </p>
       </li>
     </ul>
@@ -31,28 +26,18 @@
   <assemblage>
     <title>Where will this be used in calculus?</title>
     <p>
-      ....
+      Some specific examples of where long division of polynomials is used are:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          ....
+          Long division of polynomials can be useful when looking for certain types of asymptotes, which is important in graph sketching. 
         </p>
       </li>
       <li>
         <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
+          Long division of polynomials can be useful when factoring polynomials, for example when using the integration technique `partial fractions'. 
         </p>
       </li>
     </ul>
@@ -61,51 +46,2311 @@
 
   <introduction>
     <p>    
-....
+You may remember long division of large numbers, for example 5781 divided by 25. In this section we review how the technique of long division can be used to divide a polynomial by another polynomial. 
     </p>
   </introduction>
 
-  <subsection>
-    <title>....</title>
-  <p> Coming soon.  </p>
+<subsection>
+    <title>Notation</title>
+  <p> 
+   Suppose we want to divide the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>. (We will actually do this later in <xref ref="longdiv1" />.) The notation we will use is as follows:
+  </p>
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+  </tabular>
+  <p> 
+  If dividing the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>, then <m>2x^3-7x^2+2x+7</m> is called the <term> dividend </term> and <m>2x+1</m> is called the <term> divisor </term>. The answer to the division is called the <term> quotient </term>. When done, the quotient will appear at the top of the long division: 
+  </p>
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell bottom="medium">quotient</cell>
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell right="medium">divisor</cell>
+      <cell>dividend</cell>
+    </row>
+  </tabular>
+
+  <p> 
+  Sometimes there is a <term> remainder </term> if the dividend is not evenly divided by the divisor. For an example see <xref ref="longdiv1" />. 
+  </p>
   </subsection>
 
   <subsection>
     <title>Long division of polynomials</title>
-  <p> Coming soon.  </p>
-  </subsection>
+  <p> 
+    Let's start with a small example. Let's divide <m>x^2+5x+6</m> by <m>x+3</m>. (You may be able to easily find out the answer by factoring <m>x^2+5x+6</m>, but instead let's practice long division on this simple example.)
+  </p>
 
-  <subsection>
-    <title>....</title>
-  <p> Coming soon.  </p>
-  </subsection>
+ 
+<example xml:id="longdiv2">
+    <title>Polynomial long division</title>
+    <statement>
+       <p> 
+   Use long division to divide the polynomial <m>x^2+5x+6</m> by <m>x+3</m>. 
+  </p>
+    </statement>
+    <answer>
+      <p>
+        <me>
+          \frac{x^2+5x+6}{x+3} = x+2
+        </me>
+      </p>
+      </answer>
+      <solution>
+<p>
+  Step 1. 
+</p>
+<p>
+ Setup:
+</p>
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+  </tabular>
 
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
+<p>
+  Step 2. 
+</p>
+<p>
+  Question: <m>x</m> times what gives <m>x^2 </m>?
+</p>
+<p>
+  Answer: <m>x</m>. So write <m>x</m> at the top.  (<m>x</m> will be part of the final answer.)
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium"><m>x</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 3. 
+</p>
+<p>
+  Multiply <m>x+3</m> (the divisor) by <m>x </m>. 
+</p>
+<p>
+  <m>x(x+3) = x^2 + 3x</m>. Write this under the dividend.
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium"><m>x</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>x^2</m></cell>
+      <cell ><m>+</m></cell>
+      <cell ><m>3x</m></cell>
+      <cell />
+      <cell />
+    </row>
+  </tabular>
+
+<p>
+  Step 4. 
+</p>
+<p>
+  Subtract <m>x^2+3x</m> from <m>x^2 + 5x +6</m>. 
+</p>
+<p>
+  Bring down the <m>+6</m>.
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium"><m>x</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(x^2</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3x)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 5. 
+</p>
+<p>
+  Now repeat the process. 
+</p>
+<p>
+  Question: <m>x</m> times what equals <m>2x </m>?
+</p>
+<p>
+  Answer: <m>2</m>. Therefore write <m>2</m> at the top. 
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium"><m>x</m></cell>
+      <cell bottom="medium"><m>+</m></cell>
+      <cell bottom="medium"><m>2</m></cell>
+     <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(x^2</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3x)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+  </tabular>
+
+
+<p>
+  Step 6. 
+</p>
+<p>
+  Multiply <m>x+3</m> (the divisor) by <m>2 </m>. 
+</p>
+<p>
+  <m>2(x+3) = 2x + 6</m>. Write this under the dividend.
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium"><m>x</m></cell>
+      <cell bottom="medium"><m>+</m></cell>
+      <cell bottom="medium"><m>2</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(x^2</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3x)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 7. 
+</p>
+<p>
+  Subtract <m>2x+6</m> from <m>2x+6</m>. 
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium"><m>x</m></cell>
+      <cell bottom="medium"><m>+</m></cell>
+      <cell bottom="medium"><m>2</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>3</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>5x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(x^2</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3x)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>6</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor" ><m>-(2x</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>6)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>0</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 8. 
+</p>
+<p>
+  Now we read off the answer. The answer is <m>x+2</m>. 
+  <me>
+    \frac{x^2+5x+6}{x+3}=x+2
+  </me>
+</p>
+</solution> 
+</example>
+
+
+
+<p>
+  If the last step in the long division is not zero, we say that there is a remainder. 
+</p>
+<p>  
+When a polynomial <m>f(x)</m> is divided by a polynomial <m>g(x)</m>, with quotient <m>q(x)</m> and remainder <m>r(x)</m>, then the result can be written in the form:
+</p>
+
+<men xml:id="long-result">
+  \frac{f(x)}{g(x)} = q(x) + \frac{r(x)}{d(x)}
+</men>
+
+
+
+<example xml:id="longdiv5">
+    <title>Interpreting the result</title>
+    <statement>
+       <p> 
+        Suppose Nika has used long division to divide <m>6x^2 -23x + 9</m> by <m>3x-1</m>. Nika found that the quotient is <m>2x-7</m> and the remainder is <m>2</m>. Write the result in the format of <xref ref="long-result" />. 
+  </p>
+    </statement>
+    <answer>
+      <p>
+        <me>
+          \boxed{\frac{6x^2 -23x + 9}{3x-1} = 2x-7 + \frac{2}{3x-1}}
+        </me>
+      </p>
+      </answer>
+      <solution>
+<p>
+  The format in <xref ref="long-result" /> is
+  <me>
+  \frac{f(x)}{g(x)} = q(x) + \frac{r(x)}{d(x)}
+</me>
+In this example we have:
+<me>
+  f(x) = 6x^2 -23x + 9
+</me>
+<me>
+  g(x) = 3x-1
+</me>
+<me>
+  q(x) = 2x-7
+</me>
+<me>
+  r(x) = 2
+</me>
+Therefore the result can be stated as:
+<me>
+          \boxed{\frac{6x^2 -23x + 9}{3x-1} = 2x-7 + \frac{2}{3x-1}}
+        </me>
+
+</p>
+
+ </solution>
+ </example>
+
+
+<exercise>
+    <title>Interpreting the result</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("7x-10");
+        Context("Numeric");
+        $remainder = Formula("15");
+                Context("Numeric");
+        $f = Formula("7x^2 -3x + 5");
+                        Context("Numeric");
+        $g = Formula("x+1");
+       </pg-code>
+      <statement>
+<p> 
+        Suppose you have used long division to divide the polynomial <m>7x^2 -3x + 5</m> by <m>x+1</m>. Suppose you found that the remainder is <m>15</m> and the quotient  is <m>7x-10</m>. Write the result in the format of <xref ref="long-result" />. 
+  </p>
+           <p> 
+             <var name="$f" width="10"/> / 
+            <var name="$g" width="10"/> = <var name="$quot" width="10"/> + <var name="$remainder" width="10"/> / <var name="$g" width="10"/>
+            </p>    
+      </statement>
+    </webwork>
+  </exercise>
+
+  <p>
+  </p>
+
+<example xml:id="longdiv1">
+    <title>Polynomial long division with remainder</title>
+    <statement>
+       <p> 
+   Use long division to divide the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>. Find the quotient and the remainder (if there is one). 
+  </p>
+    </statement>
+    <answer>
+      <p>
+        <me>
+          \frac{2x^3-7x^2+2x+7}{2x+1} = x^2-4x+3 + \frac{4}{2x+1}
+        </me>
+        Quotient: <m>x^2-4x+3</m>. 
+      </p>
+      <p>
+        Remainder: 4
+      </p>
+      </answer>
+      <solution>
+        <p>
+      Here is the worked out long division. In "Solution 2" you will find a breakdown of all the steps within the same long division. 
+      </p>
+
+      <tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ><m>+</m></cell>
+      <cell bottom="medium" ><m>3</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-8x^2</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>7</m></cell>
+    </row>
+    <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(6x</m></cell>
+<cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ></cell>
+      <cell ></cell>
+      <cell ><m>4</m></cell>
+    </row>
+  </tabular>
+      
+      <p>
+        This means that:
+        <me>
+          \frac{2x^3-7x^2+2x+7}{2x+1} = x^2-4x+3 + \frac{4}{2x+1}
+        </me>
+        Quotient: <m>x^2-4x+3</m>. 
+      </p>
+      <p>
+        Remainder: 4
+      </p>
+      </solution>
+    <solution>
+  <p>
+ This is a detailed solution with the steps outlined. Let's follow a similar procedure to above.   
+</p>
+<p>
+ Step 1. Setup:
+</p>
+  <tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+  </tabular>
+<p>
+  Step 2. 
+</p>
+<p>
+  Question: <m>2x</m> times what gives <m>2x^3 </m>?
+</p>
+<p>
+  Answer: <m>x^2</m>. So write <m>x^2</m> at the top  (as part of the quotient).
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 3. 
+</p>
+<p>
+  Multiply <m>x^2</m> by <m>2x+1</m>. 
+</p>
+<p>
+  <m>x^2(2x+1) = 2x^3 + x^2</m>. Write this under the dividend.
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>2x^3</m></cell>
+      <cell ><m>+</m></cell>
+      <cell ><m>x^2</m></cell>
+      <cell />
+      <cell />
+    </row>
+  </tabular>
+
+<p>
+  Step 4. 
+</p>
+<p>
+  Subtract <m>2x^3+x^2</m>. 
+</p>
+<p>
+  And bring down the next term: <m>2x</m>.
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 5. 
+</p>
+<p>
+  Now repeat the process. 
+</p>
+<p>
+  Question: <m>2x</m> times what equals <m>-8x^2 </m>?
+</p>
+<p>
+  Answer: <m>-4x</m>. Therefore write <m>-4x</m> at the top. 
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+  </tabular>
+
+
+<p>
+  Step 6. 
+</p>
+<p>
+  Multiply <m>-4x</m> by <m>2x+1 </m>. 
+</p>
+<p>
+  <m>-4x(2x+1) = -8x^2-4x</m>. Write this under the last line. Make sure that like terms line up (place <m>x^2</m>-terms below <m>x^2</m>-terms etc.)
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>-8x^2</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>4x</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 7. 
+</p>
+<p>
+  Subtract <m>-8x^2-4x</m>. Remember that <m>-(-8x^2-4x)= 8x^2+4x</m>. 
+</p>
+<p>
+  Then bring down the 7. 
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-8x^2</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>7</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 8. 
+</p>
+<p>
+  Repeat the process again. 
+</p>
+<p>
+  Question: <m>2x</m> times what equals <m>6x </m>?
+</p>
+<p>
+  Answer: <m>3</m>. Therefore write <m>3</m> at the top. 
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ><m>+</m></cell>
+      <cell bottom="medium" ><m>3</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-8x^2</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>7</m></cell>
+    </row>
+  </tabular>
+
+
+<p>
+  Step 9.
+</p>
+<p>
+  Multiply <m>3</m> by <m>2x+1 </m>. 
+</p>
+<p>
+  <m>3(2x+1) = 6x+3</m>. Write this under the last line. Again, make sure that like terms line up.
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ><m>+</m></cell>
+      <cell bottom="medium" ><m>3</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-8x^2</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>7</m></cell>
+    </row>
+    <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>3</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 10. 
+</p>
+<p>
+  Subtract <m>6x+3</m>. 
+</p>
+
+<tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ><m>+</m></cell>
+      <cell bottom="medium" ><m>3</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-8x^2</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>7</m></cell>
+    </row>
+    <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(6x</m></cell>
+<cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ></cell>
+      <cell ></cell>
+      <cell ><m>4</m></cell>
+    </row>
+  </tabular>
+
+<p>
+  Step 11. 
+</p>
+<p>
+  Now the degree of the 4 (on the last line) is lower than the degree of the divisor (<m>2x+1</m>). Therefore we stop here, and read off the answer. The answer is <m>x^2-4x+3</m>, with remainder 4. This means that:
+  <me>
+    \frac{x^2+5x+6}{x+3}=x+2
+  </me>
+</p>
+    <p>
+        <me>
+          \frac{2x^3-7x^2+2x+7}{2x+1} = x^2-4x+3 + \frac{4}{2x+1}
+        </me>
+        Quotient: <m>x^2-4x+3</m>. 
+    </p>
+    <p>
+        Remainder: 4
+    </p>
+    </solution>
+  </example>
+
+<p>
+</p>
+
+<exercise xml:id="longdivex1">
+    <title>Set-up and notation</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+        <introduction>
+      <p>
+        <p>
+          Suppose someone has written down the following long division. 
+        </p>  
+          
+     <tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x^2</m></cell>
+      <cell><m>-</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>4x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>3x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(4x^3</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell></cell>
+      <cell></cell>
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+  </tabular>
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+        $popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+        Context("Numeric");
+        $quotient = Formula("4x");
+        Context("Numeric");
+        $remainder = Formula("x+7");
+      </pg-code>
+      <statement>
+  
+        <p>        
+          <ol>
+            <li>
+              <p>
+                Then <m>x^2-1</m> is called the <var name="$popup" form="popup"/>. 
+              </p>   
+            </li>
+            <li>
+              <p>
+                Then <m>4x^3-3x+7</m> is called the <var name="$popup2" form="popup"/>. 
+              </p>   
+            </li>   
+          <li>
+              <p>
+                The quotient is <var name="$quotient" width="10"/> 
+              </p>   
+            </li>              
+          <li>
+              <p>
+                The remainder is <var name="$remainder" width="10"/>
+              </p>   
+            </li>  
+
+
+          </ol>
+        </p>
+
+     </statement>
+    </webwork>
+  </exercise>
+  
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Try the long division in <xref ref="longdivex1" /> without looking at the worked out steps given there. Then compare your answer to what is given in <xref ref="longdivex1" />. 
+    </p>
+  </aside>
+
+ 
+
+<exercise>
+    <title>Long division with quadratic dividend</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("2x+11");
+        Context("Numeric");
+        $remainder = Formula("30");
+       </pg-code>
+      <statement>
+        <p>
+          Use long division to find the quotient and remainder when 
+          <me>
+            2x^2+5x-3
+          </me>
+           is divided by 
+           <me>
+            x-3.
+           </me>
+           </p>
+           <p> 
+            The quotient is <var name="$quot" width="10"/>
+            </p> 
+            <p> 
+            The remainder is <var name="$remainder" width="10"/>
+            </p>    
+      </statement>
+    </webwork>
+  </exercise>
+
+
+<exercise>
+    <title>Long division with cubic dividend</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("4x^2-6x+9");
+        Context("Numeric");
+        $remainder = Formula("0");
+       </pg-code>
+      <statement>
+        <p>
+          Use long division to find the quotient and remainder when 
+          <me>
+            8x^3+27          </me>
+           is divided by 
+           <me>
+            2x+3.
+           </me>
+           </p>
+           <p> 
+            The quotient is <var name="$quot" width="10"/>
+            </p> 
+            <p> 
+            The remainder is <var name="$remainder" width="10"/>
+            </p>    
+      </statement>
+    </webwork>
+  </exercise>
+
+ 
+
+ </subsection>
+
+ 
 
   <subsection>
     <title>Additional Examples</title>
-      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
+      <p> Here are a few additional examples. </p>
 
       <p>
         <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
       </p>
+
+<example xml:id="longdiv3">
+    <title>Polynomial long division with "missing" terms</title>
+    <statement>
+       <p> 
+   Use long division to divide the polynomial <m>3x^4+2x^3+x^2+4</m> by <m>x^2+1</m>. Find the quotient and the remainder (if there is one). 
+  </p>
+    </statement>
+    <answer>
+      <p>
+        <me>
+          \frac{3x^4+2x^3+x^2+4}{x^2+1} = 3x^2+2x-2 + \frac{-2x+6}{x^2+1}
+        </me>
+        Quotient: <m>3x^2+2x-2</m>
+      </p>
+      <p>
+        Remainder: <m>-2x+6</m>
+      </p>
+      </answer>
+      <solution>
+        <p>
+      Because there is no <m>x</m>-term, let's insert <m>0x</m> as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed.   Here is the worked out long division. 
+      </p>
+      
+      <tabular halign="right">
+    <row>
+      <cell />
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell right="medium"><m>x^2+0x+1</m></cell>
+      <cell><m>3x^4</m></cell>
+      <cell><m>+ \ \ \ 2x^3</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>0x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>4</m></cell>
+    </row>
+  </tabular>
+     <p>
+      Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution. 
+        </p>
+      </solution>
+  <solution>
+      <tabular halign="right">
+    <row>
+      <cell />
+      <cell bottom="medium" ><m>3x^2</m></cell>
+      <cell bottom="medium" ><m>+ \ \ \ \ 2x</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>2</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell right="medium"><m>x^2+0x+1</m></cell>
+      <cell><m>3x^4</m></cell>
+      <cell><m>+ \ \ \ 2x^3</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>0x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>4</m></cell>
+    </row>
+        <row>
+      <cell />
+      <cell bottom="minor"><m>-(3x^4</m></cell>
+      <cell bottom="minor"><m>+ \ \ \ 0x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>2x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>0x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>0x^2</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>2x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>-2x^2</m></cell>
+<cell ><m>-</m></cell>
+      <cell ><m>2x</m></cell>
+      <cell ><m>+</m></cell>
+      <cell ><m>4</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-2x^2</m></cell>
+<cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>0x</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>-2x</m></cell>
+      <cell ><m>+</m></cell>
+      <cell ><m>6</m></cell>
+    </row>
+  </tabular>
+      
+      <p>
+        This means that:
+         <me>
+          \frac{3x^4+2x^3+x^2+4}{x^2+1} = 3x^2+2x-2 + \frac{-2x+6}{x^2+1}
+        </me>
+        Quotient: <m>3x^2+2x-2</m>
+      </p>
+      <p>
+        Remainder: <m>-2x+6</m>
+      </p>
+      </solution>
+    </example>
+
+<p>
+</p>
+
+<exercise>
+<title>Polynomial long division with "missing" terms</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("x^2+1");
+        Context("Numeric");
+        $remainder = Formula("-24");
+       </pg-code>
+      <statement>
+        <p>
+          Use long division to find the quotient and remainder when 
+          <me>
+            x^4 -25          </me>
+           is divided by 
+           <me>
+            x^2-1.
+           </me>
+           </p>
+           <p> 
+            The quotient is <var name="$quot" width="10"/>
+            </p> 
+            <p> 
+            The remainder is <var name="$remainder" width="10"/>
+            </p>    
+      </statement>
+    </webwork>
+  </exercise>
+
+<exercise>
+<title>Polynomial long division with "missing" terms</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("2x^2-9");
+        Context("Numeric");
+        $remainder = Formula("x+20");
+                Context("Numeric");
+        $f = Formula("2x^4+x^2+x-25");
+                Context("Numeric");
+        $g = Formula("x^2+5");
+       </pg-code>
+      <statement>
+        <p>
+          Use long division to find the quotient and remainder when 
+          <me>
+             2x^4+x^2+x-25         </me>
+           is divided by 
+           <me>
+            x^2+5.
+           </me>
+           Write the answer in the format of <xref ref="long-result" />
+           </p>
+              <p> 
+             <var name="$f" width="10"/> / 
+            <var name="$g" width="10"/> = <var name="$quot" width="10"/> + <var name="$remainder" width="10"/> / <var name="$g" width="10"/>
+            </p> 
+      </statement>
+    </webwork>
+  </exercise>
+
   </subsection>
 
-  <subsection>
+  <exercises>
     <title>Exercises</title>
 
-    <p>
-      Note: 
-    </p>
-    
-    <p>
-      1. <webwork source="...." />
-    </p>
-  </subsection>
+
+<exercise>
+<title>True or False</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+<webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup1 = PopUp(['?','True','False'],1);
+        $popup2 = PopUp(['?','True','False'],1);
+        $popup3 = PopUp(['?','True','False'],1);
+        $popup4 = PopUp(['?','True','False'],2);
+      </pg-code>
+      <statement>
+        <p>  
+          Which of the following statements are true and which are false?
+        </p>
+
+          <ol>
+            <li>
+              <p>
+                If the remainder is zero, then the divisor is a factor of the dividend. <var name="$popup1" form="popup"/>
+              </p>   
+            </li>        
+            <li>
+              <p>
+                If the remainder is NOT zero, then the divisor is NOT a factor of the dividend. <var name="$popup2" form="popup"/>
+              </p> 
+            </li>   
+          <li>
+               <p>
+                If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial. <var name="$popup3" form="popup"/>
+              </p>
+            </li>              
+          <li>
+              <p>
+                If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial. <var name="$popup4" form="popup"/>
+              </p>  
+            </li>  
+          </ol>
 
 
+      </statement>
+    </webwork>
+</exercise>
+
+
+<exercise>
+<title>Set-up</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <introduction>
+      <p>
+       Lennie wants to use long division to divide <m>3x^2-2x-85</m> by <m>x+5</m>, in other words Lennie wants to simplify <m>\dfrac{3x^2-2x-85}{x+5}</m>. 
+      </p>     
+       <p>
+       Lennie starts by setting up the problem like this:
+             </p>     
+       <p>
+               <tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>5</m></cell>
+      <cell><m>3x^2</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>85</m></cell>
+    </row>
+    </tabular>
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("3x-17");
+        $popup = PopUp(['?','dividend','divisor','quotient','remainder'],1);
+        $popup2 = PopUp(['?','dividend','divisor','quotient','divisor'],2);
+        $radio = RadioButtons([
+          'Yes, it is a correct start',
+          'No, it is not a correct start',
+        ],1);
+       </pg-code>
+      <statement>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Here <m>3x^2-2x-85</m> is called the <var name="$popup" form="popup"/>. 
+              </p>   
+            </li>
+            <li>
+              <p>
+                Here <m>x+5</m> is called the <var name="$popup2" form="popup"/>. 
+              </p>   
+            </li>           
+            <li>
+              <p>
+                Did Lennie set up the problem correctly? 
+              </p>
+              <p>
+                <var name="$radio" form="buttons"/>
+              </p>
+            </li>
+                 <li>
+              <p>
+                Now finish the long division and find the quotient and remainder (if there is one). 
+              </p>
+              <p>
+              <m> \dfrac{3x^2-2x-85}{x+5} = </m> <var name="$quot" width="10"/>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+
+<exercise>
+<title>Interpreting results</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+        <introduction>
+      <p>
+        <p>
+          Suppose someone has written down the following long division. 
+        </p>  
+          
+     <tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>x^2</m></cell>
+      <cell bottom="medium" ><m>-</m></cell>
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ><m>+</m></cell>
+      <cell bottom="medium" ><m>3</m></cell>
+      <cell bottom="medium" />
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>2x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>7x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(2x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>x^2)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell><m>0</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>8x^2</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>2x</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(-8x^2</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+            <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ><m>6x</m></cell>
+<cell ><m>+</m></cell>
+      <cell ><m>7</m></cell>
+    </row>
+    <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(6x</m></cell>
+<cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>3)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell ></cell>
+      <cell ></cell>
+      <cell ><m>4</m></cell>
+    </row>
+  </tabular>
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+        $popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],3); 
+        $popup3 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+        Context("Numeric");
+        $remainder = Formula("4");
+          $radio = RadioButtons([
+          'Yes, it is correct ',
+          'No, there is one error',
+          'No, there are several errors',
+        ],0);
+      </pg-code>
+      <statement>
+  
+        <p>        
+          <ol>
+            <li>
+              <p>
+                Then <m>2x+1</m> is called the <var name="$popup" form="popup"/>. 
+              </p>   
+            </li>
+            <li>
+              <p>
+                Then <m>x^2-4x+3</m> is called the <var name="$popup2" form="popup"/>. 
+              </p>   
+            </li>   
+          <li>
+              <p>
+                Then <m>2x^3-7x^2+2x+7</m> is called the <var name="$popup3" form="popup"/>. 
+              </p>   
+            </li>              
+          <li>
+              <p>
+                The remainder is <var name="$remainder" width="10"/>
+              </p>   
+            </li>  
+          <li>
+              <p>
+                Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)
+                <var name="$radio" form="buttons"/>
+              </p>
+            </li>  
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+
+    <exercise>
+<title>Interpreting results</title>    
+        <introduction>
+        <p>
+          Suppose someone has written down the following long division. 
+        </p>  
+          
+     <tabular halign="right">
+    <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="medium" ><m>4x</m></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" ></cell>
+      <cell bottom="medium" />
+    </row>
+    <row>
+      <cell />
+      <cell><m>x^2</m></cell>
+      <cell><m>-</m></cell>
+      <cell right="medium"><m>1</m></cell>
+      <cell><m>4x^3</m></cell>
+      <cell><m>-</m></cell>
+      <cell><m>3x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+        <row>
+      <cell />     
+      <cell />
+      <cell />
+      <cell />
+      <cell bottom="minor"><m>-(4x^3</m></cell>
+      <cell bottom="minor"><m>-</m></cell>
+      <cell bottom="minor"><m>4x)</m></cell>
+    </row>
+        <row>   
+      <cell />
+      <cell />
+      <cell />
+      <cell />
+      <cell></cell>
+      <cell></cell>
+      <cell><m>x</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>7</m></cell>
+    </row>
+  </tabular>
+  </introduction>
+
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+        $popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+        Context("Numeric");
+        $quotient = Formula("4x");
+        Context("Numeric");
+        $remainder = Formula("x+7");
+        $dividend = Formula("4x^3-3x+7");
+        $divisor = Formula("x^2-1");
+        $f = Formula("4x^3-3x+7");
+        $g = Formula("x^2-1");
+        $h = Formula("4x");
+        $m = Formula("x+7");
+        $n = Formula("x^2-1");
+      </pg-code>
+      <statement>
+        <p>        
+          <ol>
+            <li>
+              <p>
+                The dividend is <var name="$dividend" width="10"/>.  
+              </p>   
+            </li>
+            <li>
+              <p>
+                The divisor is <var name="$divisor" width="10"/>.  
+              </p>   
+            </li>   
+          <li>
+              <p>
+                The quotient is <var name="$quotient" width="10"/>. 
+              </p>   
+            </li>              
+          <li>
+              <p>
+                The remainder is <var name="$remainder" width="10"/>.
+              </p>   
+            </li>  
+          <li>
+              <p>
+                The result of the long division can be written in the following format
+                <me>
+                  \frac{f(x)}{g(x)} = h(x) + \frac{m(x)}{n(x)}
+                </me>
+                What are each of the polynomials in this example?
+                </p>
+                <p>
+                <m>f(x) = </m> <var name="$f" width="10"/>
+              </p>  
+                <p>
+                <m>g(x) = </m> <var name="$g" width="10"/>
+              </p>  
+                <p>
+                <m>h(x) = </m> <var name="$h" width="10"/>
+              </p>  
+                 <p>
+                <m>m(x) = </m> <var name="$m" width="10"/>
+              </p>  
+                <p>
+                <m>n(x) = </m> <var name="$n" width="10"/>
+              </p>  
+            </li>  
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+
+
+
+
+    <exercise>
+<title>Quotient and remainder, degree 3</title> 
+   <p>
+      <webwork source="Library/ASU-topics/setPolynomialDivision/jj3.pg" />
+    </p>
+  </exercise>
+
+    <exercise>
+<title>Quotient and remainder, degree 4</title> 
+   <p>
+      <webwork source="Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg" />
+    </p>
+  </exercise>
+
+     <exercise>
+<title>Quotient and remainder, degree 5</title>  
+   <p>
+     <webwork source="Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg" />
+    </p>
+  </exercise>
+
+    <exercise>
+<title>Quotient and remainder, degree 3</title> 
+   <p>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg" />
+    </p>
+  </exercise>
+
+<exercise>
+<title>Quotient and remainder, degree 5</title> 
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("x^4+2x^3+8x^2+18x+36");
+        Context("Numeric");
+        $remainder = Formula("71");
+       </pg-code>
+      <statement>
+        <p>
+          Use long division to find the quotient and remainder when 
+          <me>
+            x^5+4x^3+2x^2-1          </me>
+           is divided by 
+           <me>
+            x-2.
+           </me>
+           </p>
+           <p> 
+            The quotient is <var name="$quot" width="10"/>
+            </p> 
+            <p> 
+            The remainder is <var name="$remainder" width="10"/>
+            </p>    
+      </statement>
+    </webwork>
+  </exercise>
+
+<exercise>
+<title>Specific result format</title> 
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $quot = Formula("-2x^2-3x-9");
+        Context("Numeric");
+        $remainder = Formula("-27x^2+3x+9");
+                Context("Numeric");
+        $f = Formula("-2x^5+3x^4-2x^2");
+                Context("Numeric");
+        $g = Formula("x^3-3x^2+1");
+       </pg-code>
+      <statement>
+        <p>
+          Use long division to find the quotient and remainder when 
+          <me>
+             -2x^5+3x^4-2x^2         </me>
+           is divided by 
+           <me>
+            x^3-3x^2+1.
+           </me>
+           Write the answer in the format of <xref ref="long-result" />
+           </p>
+              <p> 
+             <var name="$f" width="10"/> / 
+            <var name="$g" width="10"/> = <var name="$quot" width="10"/> + <var name="$remainder" width="10"/> / <var name="$g" width="10"/>
+            </p> 
+      </statement>
+    </webwork>
+  </exercise>
+
+
+  </exercises>
 
 </section>

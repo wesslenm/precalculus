@@ -6,6 +6,20 @@
   <p> For testing things out.... Also for keeping samples of types of code, for easy copy/pasting. </p>
 
 
+<p>
+  Cross-reference: <xref ref="rule-one" />
+
+A new term: <term>radical</term>
+
+
+ \amp "and" 
+ \lt "less than" 
+ \gt "greater than"
+</p>
+
+
+
+
   <example xml:id="CHANGE">
     <title>Description of example</title>
     <statement>
@@ -65,5 +79,211 @@
       </statement>
     </webwork>
   </exercise>
+
+<exercise>
+<title>Simplifying </title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+
+
+<exercise>
+  <webwork>
+    <pg-code>
+      Context("LimitedNumeric");
+      $a = Compute(random(1, 9, 1)); %produces a random number between 1 and 9 inclusive, with step 1
+      $b = Compute(random(1, 9, 1));
+      $c = $a + $b;
+    </pg-code>
+
+    <statement>
+      <p>Compute <m><var name="$a"/> + <var name="$b"/></m>.</p>
+      <instruction>Type your answer without using the <c>+</c> sign.</instruction>
+      <p>The sum is <var name="$c" width="6"/>.</p>
+    </statement>
+
+    <solution>
+      <p><m><var name="$a"/> + <var name="$b"/> = <var name="$c"/></m>.</p>
+    </solution>
+  </webwork>
+</exercise>
+
+
+
+
+
+<exercise>
+<title>Answer does not accept rounded numbers</title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("2/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("1/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \sec \left(\frac{\pi}{6}\right) =</m>  <var name="$ans1" width="6"/>.</p>
+      <p> (b) <m> \csc \left(\frac{\pi}{4}\right) =</m>  <var name="$ans2" width="6"/>.</p>
+      <p> (c) <m> \cot \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+
+
+<p>
+  Referencing an assemblage or similar:
+  such as those listed in <xref ref="trig-common" text="title"/>.
+  This gives the title of the assemblage. Can also try text="custom".
+</p>
+
+
+
+<table>
+  <title>A simple table</title>
+  <tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Variable <m>x</m></cell>
+      <cell>Variable <m>y</m></cell>
+      <cell>Conjunction <m>x\wedge y</m></cell>
+      <cell>Disjunction <m>x\vee y</m></cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>T</cell>
+      <cell>F</cell>
+      <cell>T</cell>
+    </row>
+    <row>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+      <cell>F</cell>
+    </row>
+  </tabular>
+
+</table>
+
+<exercise>
+    <title>Answer Type Variety</title>
+    <idx><h><webwork/></h><h>answer types</h></idx>
+    <introduction>
+      <p>
+        This problem demonstrates that <webwork/> can process many kinds of answers.
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        $derivative = Formula("1/(2sqrt(x))");
+        $popup = PopUp(['?','power','exponential','linear','quadratic'],1);
+        $radio = RadioButtons([
+          'It shares ancestry with "radius", as in the radius of a circle.',
+          'It shares ancestry with "radish", a vegetable.',
+          'Math mode does not seem to work within radio buttons.',
+        ],1);
+        Context("LimitedRadical");
+        $a = Formula("2sqrt(3)");
+        Context("LimitedNumeric");
+        $b = Real(sqrt(12));
+        Context("Interval");
+        $domain = Interval("[0,inf)");
+        Context("Point");
+        $point = Point("(4,2)");
+        Context("RestrictedDomains");
+        $restricted = Formula("x, x >= 0");
+      </pg-code>
+      <statement>
+        <p>
+          Consider the function <m>f</m> defined by <m>f(x)=<var name="$f"/></m>.
+          <ol>
+            <li>
+              <p>
+                The exact value of <m>f(12)</m> is <var name="$a" width="10"/>
+                and a decimal approximation for this is <var name="$b" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The domain of this function, in interval notation, is <var name="$domain" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The graph of <m>y=<var name="$f"/></m> intersects the graph of <m>y=6-x</m> at <var name="$point" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\frac{d}{dx}<var name="$f"/>={}</m> <var name="$derivative" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The formula for <m>f(x)^2</m>, including its restricted domain, is <var name="$restricted" width="20"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f</m> is a <var name="$popup" form="popup"/> function.
+              </p>
+            </li>
+            <li>
+              <p>
+                Which is true of the word <q>radical</q>?
+              </p>
+              <p>
+                <var name="$radio" form="buttons"/>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+
+
 
 </section>

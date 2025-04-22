@@ -626,7 +626,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
       </example>
   </subsection>
 
-  <subsection>
+  <exercises>
     <title>Exercises</title>
 
     <p>
@@ -634,11 +634,15 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
     </p>
     
     <p>
+      <exercise>
       1. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" />
-    </p>
+      </exercise>
+       </p>
 
     <p>
+        <exercise>
       2. <webwork source="Library/ma117DB/set1b/srw1_4_7.pg" />
+        </exercise>
     </p>
 
     <p>
@@ -740,6 +744,8 @@ complex:
       23. <webwork source="Library/ma117DB/set1b/srw1_4_45.pg" />
     </p>
 
+
+<!--
     <p>
       <alert> The following do not seem to render well - delete. </alert>
     
@@ -760,7 +766,7 @@ complex:
     </p>
 
 
-<!--
+
 
 
     <p>
@@ -943,5 +949,5 @@ complex:
 
 -->
 
-  </subsection>
+  </exercises>
 </section>

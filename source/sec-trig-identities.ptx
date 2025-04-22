@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-trig-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometic identities</title>
+  <title>Trigonometric identities</title>
 
   <objectives>
     <ul>
@@ -42,7 +42,8 @@
       </li>
       <li>
         <p>
-          ....
+        Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions. [also used in basic trig SECTION....................]
+
         </p>
       </li>
       <li>

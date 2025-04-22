@@ -25,10 +25,13 @@
   <preface>
     <title>Welcome!</title>
     <p>
-      Welcome to this Precalculus review resource to UTM students.  
+      Welcome to this Precalculus review resource for UTM students.  
     </p>
     <p>
-      [Add a longer message about how to use this resource.] 
+      This resource is intended for students studying differential and/or integral calculus who would like to review relevant precalculus topics. You have most likely seen all or most of the material before, and this resource is meant as a review.
+    </p>
+    <p>
+      Read the short introductions, have a look at the worked out examples, and try the interactive exercises. Note that for some of the exercises and checkpoints, you can try a new randomized version as many times as you like. Ask the instructors or TAs in your course if you have any questions, or want help.  
     </p>
   </preface>
 
@@ -38,7 +41,7 @@
       Please direct any feedback and error reports to maria.wesslen@utoronto.ca. 
     </p>
     <p>
-      [Add a longer message about how this is an ongoing project, and there may be errors at first(?). Students might also suggest topics they would like more material on?] 
+      Creating this resource is a work in progress. We are still working on adding more material. If you have suggestions of what you would like to see in this resource, feel free to email maria.wesslen@utoronto.ca or any of the editors. We would be happy to hear from you! We would also love to hear more about what you like or don't like about this resource, and how you use it. 
     </p>
   </preface> 
 
@@ -53,7 +56,7 @@
       </p>
 
       <p>
-      Some (but not all) parts of the text are based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> The text has been modified, built upon, and interactive exercises have been added. 
+      A few sections of the text are based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> The text has been modified, built upon, and interactive exercises have been added. 
       </p>
   
   </acknowledgement>

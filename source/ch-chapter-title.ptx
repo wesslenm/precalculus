@@ -4,7 +4,7 @@
   <title>General test chapter</title>
 
   <introduction>
-    <p> Text before the first section of the chapter. </p>
+    <p> This chapter should be DELETED or hidden before publishing the document. </p>
   </introduction>
 
   <!-- include sections -->
