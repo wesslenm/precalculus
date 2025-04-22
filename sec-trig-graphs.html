@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Trigonometric graphs</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus review for UTM students">
+<meta property="book:author" content="Maria Wesslen">
+<meta property="book:author" content="Contributing Editors: Micheal Pawliuk and Ivan Khatchatourian">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="_static/pretext/js/pretext-webwork/2.17/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_red_blue.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-alg-rational-5-12-1-4-1 { counter-set: sec-alg-rational-5-12-1-4-1 0; }
+#sec-alg-rational-5-12-1-4-1 > li::marker { content: ""counter(sec-alg-rational-5-12-1-4-1,decimal)"."; }
+#sec-alg-rational-5-12-1-4-1 > li { counter-increment: sec-alg-rational-5-12-1-4-1; }
+#sec-alg-rational-7-5-2-1 { counter-set: sec-alg-rational-7-5-2-1 0; }
+#sec-alg-rational-7-5-2-1 > li::marker { content: ""counter(sec-alg-rational-7-5-2-1,decimal)"."; }
+#sec-alg-rational-7-5-2-1 > li { counter-increment: sec-alg-rational-7-5-2-1; }
+#sec-alg-rational-8-5-2-1 { counter-set: sec-alg-rational-8-5-2-1 0; }
+#sec-alg-rational-8-5-2-1 > li::marker { content: ""counter(sec-alg-rational-8-5-2-1,decimal)"."; }
+#sec-alg-rational-8-5-2-1 > li { counter-increment: sec-alg-rational-8-5-2-1; }
+#extracted-webwork-41-1-1-1-1 { counter-set: extracted-webwork-41-1-1-1-1 0; }
+#extracted-webwork-41-1-1-1-1 > li::marker { content: ""counter(extracted-webwork-41-1-1-1-1,lower-alpha)"."; }
+#extracted-webwork-41-1-1-1-1 > li { counter-increment: extracted-webwork-41-1-1-1-1; }
+#extracted-webwork-51-1-1-2-1 { counter-set: extracted-webwork-51-1-1-2-1 0; }
+#extracted-webwork-51-1-1-2-1 > li::marker { content: ""counter(extracted-webwork-51-1-1-2-1,lower-alpha)"."; }
+#extracted-webwork-51-1-1-2-1 > li { counter-increment: extracted-webwork-51-1-1-2-1; }
+#extracted-webwork-53-1-1-1-1 { counter-set: extracted-webwork-53-1-1-1-1 0; }
+#extracted-webwork-53-1-1-1-1 > li::marker { content: ""counter(extracted-webwork-53-1-1-1-1,lower-alpha)"."; }
+#extracted-webwork-53-1-1-1-1 > li { counter-increment: extracted-webwork-53-1-1-1-1; }
+#extracted-webwork-55-1-1-1-1 { counter-set: extracted-webwork-55-1-1-1-1 0; }
+#extracted-webwork-55-1-1-1-1 > li::marker { content: ""counter(extracted-webwork-55-1-1-1-1,lower-alpha)"."; }
+#extracted-webwork-55-1-1-1-1 > li { counter-increment: extracted-webwork-55-1-1-1-1; }
+#extracted-webwork-56-1-1-1-1 { counter-set: extracted-webwork-56-1-1-1-1 0; }
+#extracted-webwork-56-1-1-1-1 > li::marker { content: ""counter(extracted-webwork-56-1-1-1-1,lower-alpha)"."; }
+#extracted-webwork-56-1-1-1-1 > li { counter-increment: extracted-webwork-56-1-1-1-1; }
+#extracted-webwork-196-1-1-1-3 { counter-set: extracted-webwork-196-1-1-1-3 0; }
+#extracted-webwork-196-1-1-1-3 > li::marker { content: ""counter(extracted-webwork-196-1-1-1-3,lower-alpha)"."; }
+#extracted-webwork-196-1-1-1-3 > li { counter-increment: extracted-webwork-196-1-1-1-3; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Precalculus review for UTM students</span></a></h1>
+<p class="byline">Maria Wesslen, Contributing Editors: Micheal Pawliuk and Ivan Khatchatourian</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-trig-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-trig.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-trig-identities.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}  \newcommand{\longdiv}{\smash{\mkern-0.43mu\vstretch{1.31}{\hstretch{.7}{)}}\mkern-5.2mu\vstretch{1.31}{\hstretch{.7}{)}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Welcome!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Feedback</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">1</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-alg-factoring.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Factoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-factoring.html#sec-alg-factoring-5" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Common factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-factoring.html#sec-alg-factoring-6" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-factoring.html#sec-alg-factoring-7" class="internal"><span class="codenumber">1.1.3</span> <span class="title">....?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-factoring.html#sec-alg-factoring-8" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-factoring.html#sec-alg-factoring-9" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-factoring.html#sec-alg-factoring-10" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-alg-rational.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-5" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Common factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-6" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Multiplying and dividing rational expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-7" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Adding and Subtracting rational expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-8" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Complex rational expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-9" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-10" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-alg-rationaleq.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Rational Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rationaleq.html#sec-alg-rationaleq-5" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rationaleq.html#sec-alg-rationaleq-6" class="internal"><span class="codenumber">1.3.2</span> <span class="title">subsection 1....</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rationaleq.html#sec-alg-rationaleq-7" class="internal"><span class="codenumber">1.3.3</span> <span class="title">subsection 2....</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rationaleq.html#sec-alg-rationaleq-8" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rationaleq.html#sec-alg-rationaleq-9" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rationaleq.html#sec-alg-rationaleq-10" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-func-dividing.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Dividing polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-5" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-6" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Long division of polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-7" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-8" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-alg-inequalities.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Solving inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-inequalities.html#sec-alg-inequalities-5" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-inequalities.html#sec-alg-inequalities-6" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Rational and polynomial inequalities (??)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-inequalities.html#sec-alg-inequalities-7" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Absolute value inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-inequalities.html#sec-alg-inequalities-8" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-inequalities.html#sec-alg-inequalities-9" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-inequalities.html#sec-alg-inequalities-10" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-alg-completing.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Completing the square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-completing.html#sec-alg-completing-5" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-completing.html#sec-alg-completing-6" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Evaluating using special triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-completing.html#sec-alg-completing-7" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Evaluating using the unit circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-completing.html#sec-alg-completing-8" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-completing.html#sec-alg-completing-9" class="internal"><span class="codenumber">1.6.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-completing.html#sec-alg-completing-10" class="internal"><span class="codenumber">1.6.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Numbers and Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-func-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Basic Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-func-poly.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Polynomial functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-poly.html#sec-func-poly-5" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Linear functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-poly.html#sec-func-poly-6" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Quadratic functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-poly.html#sec-func-poly-7" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Other polynomial functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-poly.html#sec-func-poly-8" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Roots of polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-poly.html#sec-func-poly-9" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-poly.html#sec-func-poly-10" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-func-graphs.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Graphs of common functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-graphs.html#sec-func-graphs-5" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Graphs of basic functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-graphs.html#sec-func-graphs-6" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Graphs of exponential and logarithmic functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-graphs.html#sec-func-graphs-7" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Graphs of trigonometric functons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-graphs.html#sec-func-graphs-8" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Any other topics? Basic transformations??</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-graphs.html#sec-func-graphs-9" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-graphs.html#sec-func-graphs-10" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-func-absolute.html" class="internal"><span class="codenumber">2.4</span> <span class="title">The absolute value function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-absolute.html#sec-func-absolute-5" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-absolute.html#sec-func-absolute-6" class="internal"><span class="codenumber">2.4.2</span> <span class="title">subsection 1....</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-absolute.html#sec-func-absolute-7" class="internal"><span class="codenumber">2.4.3</span> <span class="title">subsection 2...</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-absolute.html#sec-func-absolute-8" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-absolute.html#sec-func-absolute-9" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-absolute.html#sec-func-absolute-10" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exp.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponents and Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Exponential Rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-5" class="internal"><span class="codenumber">3.1.1</span> <span class="title">The First Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-6" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-7" class="internal"><span class="codenumber">3.1.3</span> <span class="title">More exponential rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-8" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-9" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-10" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Mixed Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-exp-functions.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-log.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Logarithmic functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-5" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-6" class="internal"><span class="codenumber">3.3.2</span> <span class="title">subsection 1....</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-7" class="internal"><span class="codenumber">3.3.3</span> <span class="title">subsection 2 .....</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-8" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-9" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-10" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-trig.html" class="internal"><span class="codenumber">4</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Trigonometric definitions and basic facts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-intro-5" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Angle notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#trig-def" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-special" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Evaluating using special triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-circle" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Evaluating using the coordinate system</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-right" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Evaluating at <span class="process-math">\(0, \pi/2, \pi\)</span> etc.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-summary" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-intro-13" class="internal"><span class="codenumber">4.1.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-trig-graphs.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Trigonometric graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#triggraphs" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#sec-trig-graphs-6" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Properties and symmetries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#sec-trig-graphs-7" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Transformations of graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#sec-trig-graphs-8" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-identities.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Trigonometric identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-5" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Basic identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-6" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Additional identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-7" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-8" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-9" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-inverse.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Inverse trigonometric functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-5" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Arcsine - the inverse sine function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-6" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Arccos - the inverse cosine function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-7" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Arctan - the inverse tangent function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-8" class="internal"><span class="codenumber">4.4.4</span> <span class="title">The remaining three inverse trigonometric functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-9" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-10" class="internal"><span class="codenumber">4.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">5</span> <span class="title">General test chapter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Random trial chapter</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-trig-graphs"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Trigonometric graphs</span>
+</h2>
+<article class="objectives goal-like" id="sec-trig-graphs-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="sec-trig-graphs-2-1">
+<li id="sec-trig-graphs-2-1-1"><div class="para" id="sec-trig-graphs-2-1-1-1">Recognize and be able to sketch trigonometric graphs.</div></li>
+<li id="sec-trig-graphs-2-1-2"><div class="para" id="sec-trig-graphs-2-1-2-1">Use the graphs of trigonometric functions to read off important information.</div></li>
+<li id="sec-trig-graphs-2-1-3"><div class="para" id="sec-trig-graphs-2-1-3-1">Determine symmetries of trigonometric functions.</div></li>
+<li id="sec-trig-graphs-2-1-4"><div class="para" id="sec-trig-graphs-2-1-4-1">Determine amplitude, period and phase shift.</div></li>
+</ul></article><article class="assemblage assemblage-like" id="sec-trig-graphs-3"><h3 class="heading"><span class="title">Where will this be used in calculus?</span></h3>
+<div class="para" id="sec-trig-graphs-3-2">Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:</div>
+<div class="para logical" id="sec-trig-graphs-3-3"><ul class="disc" id="sec-trig-graphs-3-3-1">
+<li id="sec-trig-graphs-3-3-1-1"><div class="para" id="sec-trig-graphs-3-3-1-1-1">Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.</div></li>
+<li id="sec-trig-graphs-3-3-1-2"><div class="para" id="sec-trig-graphs-3-3-1-2-1">Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.</div></li>
+</ul></div></article><section class="introduction" id="sec-trig-graphs-4"><div class="para" id="sec-trig-graphs-4-1">In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.</div></section><section class="subsection" id="triggraphs"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="space"> </span><span class="title">Graphs</span>
+</h3>
+<div class="para" id="triggraphs-2">The graphs of the trigonometric functions are given below.</div>
+<div class="para" id="triggraphs-3">INSERT 6 GRAPHS.....</div>
+<aside class="aside aside-like" id="triggraphs-4"><div class="para" id="triggraphs-4-1"><em class="alert">Study tip:</em></div>
+<div class="para" id="triggraphs-4-2">You should memorize the graphs of <span class="process-math">\(y=\sin \theta\text{,}\)</span> <span class="process-math">\(y=\cos \theta\)</span> and <span class="process-math">\(y=\tan \theta\text{.}\)</span> A lot of information can be seen quickly in a graph, and for most people it’s easier to memorize a graph than a long list of facts.</div></aside><div class="para" id="triggraphs-5">All 6 trigonometric functions are <dfn class="terminology">periodic</dfn>, which means that they repeat after a certain interval, called the <dfn class="terminology">period</dfn>. The periods for the 6 functions are as follows:</div>
+<figure class="table table-like" id="triggraphs-6"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.20<span class="period">.</span></span><span class="space"> </span>Periods of trigonometric functions.</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r0 l0 t0 lines">Function</th>
+<th scope="col" class="c m b1 r0 l0 t0 lines">Period</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y=\sin x\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(2\pi\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y=\cos x\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(2\pi\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y=\tan x\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\pi\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y=\cot x\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(\pi\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y=\sec x\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(2\pi\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y=\csc x\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(2\pi\)</span></td>
+</tr>
+</table></div></figure></section><section class="subsection" id="sec-trig-graphs-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Properties and symmetries</span>
+</h3>
+<div class="para" id="sec-trig-graphs-6-2">One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.</div>
+<aside class="aside aside-like" id="sec-trig-graphs-6-3"><div class="para" id="sec-trig-graphs-6-3-1"><em class="alert">Study tip:</em></div>
+<div class="para" id="sec-trig-graphs-6-3-2">Try answering the questions in <a href="sec-trig-graphs.html#graph1" class="xref" data-knowl="./knowl/xref/graph1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.21: Properties from graphs">Example 4.21</a> yourself before looking at the solution.</div></aside><div class="para" id="sec-trig-graphs-6-4"><details id="graph1" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.21</span><span class="period">.</span><span class="space"> </span><span class="title">Properties from graphs.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="graph1-2-1">Use the graphs of trigonometric functions to find the following information: 
+        <div class="para" id="graph1-2-1-1-1-1">(a) <span class="process-math">\(\tan 0\)</span>
+</div>
+       
+        <div class="para" id="graph1-2-1-1-2-1">(b) All values of <span class="process-math">\(x\)</span> in the interval <span class="process-math">\([-2\pi, 2\pi]\)</span> where <span class="process-math">\(\sin x = 0\text{.}\)</span>
+</div>
+       
+        <div class="para" id="graph1-2-1-1-3-1">(c) All values of <span class="process-math">\(x\)</span> in the interval <span class="process-math">\([-2\pi, 2\pi]\)</span> where <span class="process-math">\(\tan x\)</span> is undefined.</div>
+      </div>
+<div class="solutions"><details id="graph1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="graph1-3-1">Looking at the graphs given earlier in this section, we can easily find the information.</div>
+<div class="para" id="graph1-3-2">(a) <span class="process-math">\(\tan 0 = 0\text{,}\)</span> as seen from the graph of <span class="process-math">\(y=\tan \theta\text{.}\)</span>
+</div>
+<div class="para" id="graph1-3-3">(b) Looking at the graph of <span class="process-math">\(y=\sin \theta\text{,}\)</span> we can see that it crosses the <span class="process-math">\(x\)</span>-axis 5 times in the inteval <span class="process-math">\([-2\pi, 2\pi]\text{,}\)</span> namely at the <span class="process-math">\(x\)</span>-values <span class="process-math">\(x=-2\pi, x=-\pi,  x=0, x=\pi\)</span> and <span class="process-math">\(x=2\pi\text{.}\)</span>
+</div>
+<div class="para" id="graph1-3-4">(c) Looking at the graph of <span class="process-math">\(y=\tan \theta\text{,}\)</span> we can see that it is undefined 4 times in the inteval <span class="process-math">\([-2\pi, 2\pi]\text{,}\)</span> namely at the <span class="process-math">\(x\)</span>-values <span class="process-math">\(x=-\frac{3\pi}{2}, x=-\frac{\pi}{2},  x=\frac{\pi}{2}\)</span> and <span class="process-math">\(x=\frac{3\pi}{2}\text{.}\)</span>
+</div>
+</div></details></div></article></details></div>
+<details id="sec-trig-graphs-6-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.22</span><span class="period">.</span><span class="space"> </span><span class="title">Properties from graphs.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-131" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="131" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIk51bWVyaWMiKTsKCiRhID0gcmFuZG9tKDIsOSwxKTsKJGFuczEgPSBDb21wdXRlKCIxIiktPndpdGgoCiAgICAgICAgIHRvbFR5cGUgPT4gJ2Fic29sdXRlJywKICAgICAgICAgdG9sZXJhbmNlID0+IC4wMDAwMDAwMDAwMDAwMDAwMDAwMDEsICAgKTsKJGFuczIgPSBDb21wdXRlKCIwIiktPndpdGgoCiAgICAgICAgIHRvbFR5cGUgPT4gJ2Fic29sdXRlJywKICAgICAgICAgdG9sZXJhbmNlID0+IC4wMDAwMDAwMDAwMDAwMDAwMDAwMDEsICAgKTsKJGFuczMgPSBDb21wdXRlKCItcGkvMiIpLT53aXRoKAogICAgICAgICB0b2xUeXBlID0+ICdhYnNvbHV0ZScsCiAgICAgICAgIHRvbGVyYW5jZSA9PiAuMDAwMDAwMDAwMDAwMDAwMDAwMDAxLCAgICk7CgpCRUdJTl9QR01MClVzZSB0aGUgZ3JhcGhzIG9mIHRyaWdvbm9tZXRyaWMgZnVuY3Rpb25zIHRvIGZpbmQgdGhlIGZvbGxvd2luZyBpbmZvcm1hdGlvbi4KCihhKSBbYFxjb3MgMCA9IGBdIFtfXXskYW5zMX17Nn0KCihiKSBbYFx0YW4gXHBpID0gYF0gW19deyRhbnMyfXs2fQoKKGMpIEFsbCB2YWx1ZXMgb2YgW2B4YF0gaW4gdGhlIGludGVydmFsIFtgWy0yXHBpLCAyXHBpXWBdIHdoZXJlIFtgXHNpbiB4ID0gLTFcdGV4dHsufWBdIFtfXXskYW5zM317Nn0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-131')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-131-1-1-1">Use the graphs of trigonometric functions to find the following information.</div> <div class="para" id="extracted-webwork-131-1-1-2">(a) <span class="process-math">\(\cos 0 =\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-131-1-1-3">(b) <span class="process-math">\(\tan \pi =\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-131-1-1-4">(c) All values of <span class="process-math">\(x\)</span> in the interval <span class="process-math">\([-2\pi, 2\pi]\)</span> where <span class="process-math">\(\sin x = -1\text{.}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div>
+</div>
+</div></article></details><div class="para" id="sec-trig-graphs-6-6">Graphs also illustrate symmetries. For example, <span class="process-math">\(y=\sin \theta\)</span> and <span class="process-math">\(y=\tan \theta\)</span> are odd functions, while <span class="process-math">\(y=\cos \theta\)</span> is an even function.</div>
+<div class="para" id="sec-trig-graphs-6-7">Recall that a function <span class="process-math">\(f(x)\)</span> is an <dfn class="terminology">odd function</dfn> if <span class="process-math">\(f(-x)=-f(x)\)</span> for all <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\text{.}\)</span> Visually, this means that the graph has 180 degree symmetry about the origin.</div>
+<div class="para" id="sec-trig-graphs-6-8">Also, <span class="process-math">\(f(x)\)</span> is an <dfn class="terminology">even function</dfn> if <span class="process-math">\(f(-x)=f(x)\)</span> for all <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\text{.}\)</span> This means that the graph of <span class="process-math">\(f\)</span> has reflective symmetry about the <span class="process-math">\(y\)</span>-axis.</div>
+<div class="para" id="sec-trig-graphs-6-9"><details id="graph2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.23</span><span class="period">.</span><span class="space"> </span><span class="title">Symmetries.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="graph2-2-1">Which of the following statements are true, and which are false?</div> <div class="para" id="graph2-2-2">
+        <div class="para" id="graph2-2-2-1-1-1">(a) <span class="process-math">\(y=\tan x\)</span> is an odd function.</div>
+       
+        <div class="para" id="graph2-2-2-1-2-1">(b) <span class="process-math">\(y=\sec x\)</span> is an odd function.</div>
+       
+        <div class="para" id="graph2-2-2-1-3-1">(c) <span class="process-math">\(\sin \left(\frac{3}{8}\right) = - \sin \left(-\frac{3}{8}\right)\)</span>
+</div>
+      </div>
+<div class="solutions">
+<details id="graph2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="graph2-3-1">(a) True</div>
+<div class="para" id="graph2-3-2">(b) False</div>
+<div class="para" id="graph2-3-3">(c) True</div>
+</div></details><details id="graph2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="graph2-4-1">(a) This is true. Looking at the graph we see that it is symmetric about the origin.</div>
+<div class="para" id="graph2-4-2">(b) This is false. Looking at the graph we see that it is symmetric about the <span class="process-math">\(y\)</span>-axis, so this is an even function, not odd.</div>
+<div class="para" id="graph2-4-3">(c) This is true. This is a property of odd functions and <span class="process-math">\(y=\sin x \)</span> is an odd function.</div>
+</div></details>
+</div></article></details></div>
+<details id="sec-trig-graphs-6-10" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.24</span><span class="period">.</span><span class="space"> </span><span class="title">Symmetries and properties from graphs.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-132" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="132" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIk51bWVyaWMiKTsKCiRhID0gcmFuZG9tKDIsOSwxKTsKJGFuczEgPSBDb21wdXRlKCIwIiktPndpdGgoCiAgICAgICAgIHRvbFR5cGUgPT4gJ2Fic29sdXRlJywKICAgICAgICAgdG9sZXJhbmNlID0+IC4wMDAwMDAwMDAwMDAwMDAwMDAwMDEsICAgKTsKJGFuczIgPSBDb21wdXRlKCIxIiktPndpdGgoCiAgICAgICAgIHRvbFR5cGUgPT4gJ2Fic29sdXRlJywKICAgICAgICAgdG9sZXJhbmNlID0+IC4wMDAwMDAwMDAwMDAwMDAwMDAwMDEsICAgKTsKCkJFR0lOX1BHTUwKV2hpY2ggb2YgdGhlIGZvbGxvd2luZyBzdGF0ZW1lbnRzIGFyZSB0cnVlLCBhbmQgd2hpY2ggYXJlIGZhbHNlPyBFbnRlciAxIGZvciBUUlVFIGFuZCAwIGZvciBGQUxTRS4KCihhKSBbYHk9XGNzYyB4YF0gaXMgYW4gb2RkIGZ1bmN0aW9uLiBbX117JGFuczJ9ezZ9CgooYikgW2Bcc2VjIFxsZWZ0KCAzIFxyaWdodCkgPSBcdGFuIFxsZWZ0KCAtMyBccmlnaHQpYF0gIFtfXXskYW5zMn17Nn0KCihjKSBbYFx0YW4gXGxlZnQoIFxmcmFjezNccGl9ezJ9IFxyaWdodCkgPSAtXHRhbiBcbGVmdCggLVxmcmFjezNccGl9ezJ9IFxyaWdodClgXSBbX117JGFuczF9ezZ9CgooZCkgW2BcdGFuIFxsZWZ0KCAyIFxyaWdodCkgPSAtXHRhbiBcbGVmdCggLTIgXHJpZ2h0KWBdIFtfXXskYW5zMn17Nn0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-132')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-132-1-1-1">Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.</div> <div class="para" id="extracted-webwork-132-1-1-2">(a) <span class="process-math">\(y=\csc x\)</span> is an odd function. <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-132-1-1-3">(b) <span class="process-math">\(\sec \left( 3 \right) = \tan \left( -3 \right)\)</span>  <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-132-1-1-4">(c) <span class="process-math">\(\tan \left( \frac{3\pi}{2} \right) = -\tan \left( -\frac{3\pi}{2} \right)\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-132-1-1-5">(d) <span class="process-math">\(\tan \left( 2 \right) = -\tan \left( -2 \right)\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div>
+</div>
+</div></article></details></section><section class="subsection" id="sec-trig-graphs-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Transformations of graphs</span>
+</h3>
+<div class="para" id="sec-trig-graphs-7-2">Transformations of graphs in general are reviewed in <a href="sec-func-graphs.html" class="internal" title="Section 2.3: Graphs of common functions">Section 2.3</a>. Here we discuss some transformations specifically in terms of trigonometric functions. <details id="trans1" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.25</span><span class="period">.</span><span class="space"> </span><span class="title">Basic transformations GRAPHS NEEDED.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="trans1-2-1">Use a graphing tool to graph <span class="process-math">\(y=2\cos x\)</span> and <span class="process-math">\(y=\cos (2x)\text{.}\)</span> How are they different from the graph of <span class="process-math">\(y=\cos x\text{?}\)</span>
+</div>
+<div class="solutions"><details id="trans1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="trans1-3-1">INSERT GRAPHS</div>
+<div class="para" id="trans1-3-2">Looking at the graph of <span class="process-math">\(y=2\cos x\text{,}\)</span> we see that it looks very similar to the graph of <span class="process-math">\(y=\cos x\text{,}\)</span> except that the <span class="process-math">\(y\)</span>-values range between -2 and 2, instead of -1 and 1.</div>
+<div class="para" id="trans1-3-3">Looking at the graph of <span class="process-math">\(y=\cos (2x))\text{,}\)</span> we see that it again looks similar to the graph of <span class="process-math">\(y=\cos x\text{,}\)</span> except this time the persiod is <span class="process-math">\(\pi\)</span> instead of <span class="process-math">\(2\pi\text{.}\)</span> The oscillations occur `twice as fast’ compared to the graph of <span class="process-math">\(y=\cos x)\text{.}\)</span>
+</div>
+</div></details></div></article></details>
+</div>
+<div class="para" id="sec-trig-graphs-7-3">Generalizing what we saw in <a href="sec-trig-graphs.html#trans1" class="xref" data-knowl="./knowl/xref/trans1.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.25: Basic transformations GRAPHS NEEDED">Example 4.25</a>, the graph of <span class="process-math">\(y=A \cos x\)</span>  (for <span class="process-math">\(A \not= 0\)</span>) oscillates between <span class="process-math">\(A\)</span> and <span class="process-math">\(-A\text{.}\)</span> Similarly for the graph of <span class="process-math">\(y=A \sin x\text{.}\)</span> The value <span class="process-math">\(A\)</span> is called the <dfn class="terminology">amplitude</dfn> of the sine or cosine curve.</div>
+<div class="para" id="sec-trig-graphs-7-4">The graphs of <span class="process-math">\(y=\cos (kx)\)</span> and <span class="process-math">\(y=\sin (kx)\)</span>  (for <span class="process-math">\(k \not= 0\)</span>) have periods of <span class="process-math">\(2\pi /k\text{.}\)</span> This is because compared to <span class="process-math">\(y=\cos x\)</span> and <span class="process-math">\(y=\sin x\text{,}\)</span> the graphs of <span class="process-math">\(y=\cos (kx)\)</span> and <span class="process-math">\(y=\sin (kx)\)</span> are compressed horizontally by a factor of <span class="process-math">\(k\text{.}\)</span>
+</div>
+<div class="para" id="sec-trig-graphs-7-5">Compared to <span class="process-math">\(y=\cos x\text{,}\)</span> the graph of <span class="process-math">\(y=\cos (x+c)\)</span> is shifted <span class="process-math">\(c\)</span> units left if <span class="process-math">\(c &gt; 0\)</span> and right if <span class="process-math">\(c\)</span> is less than 0. Here, <span class="process-math">\(c\)</span> is called the <dfn class="terminology">phase shift</dfn>.</div>
+<div class="para" id="sec-trig-graphs-7-6"><details id="graph3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.26</span><span class="period">.</span><span class="space"> </span><span class="title">Amplitude, period, phase shift.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="graph3-2-1">
+<div class="para">Find the amplitude, period and phase shift for the curve</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = 3 \sin (4x-7)
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<details id="graph3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="graph3-3-1">The amplitude is <span class="process-math">\(3\text{.}\)</span>
+</div>
+<div class="para" id="graph3-3-2">The period is <span class="process-math">\(\frac{\pi}{2}\text{.}\)</span>
+</div>
+<div class="para" id="graph3-3-3">The phase shift is <span class="process-math">\(\frac{7}{4}\text{.}\)</span>
+</div>
+</div></details><details id="graph3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="graph3-4-1">The amplitude is given by the constant multiplied by <span class="process-math">\(sin \theta\text{,}\)</span> in this case 3.</div>
+<div class="para" id="graph3-4-2">To find the period, notice that compared to <span class="process-math">\(y=\sin x\text{,}\)</span> the graph of <span class="process-math">\(y = 3 \sin (4x-7)\)</span> is compressed by a factor of <span class="process-math">\(4\text{.}\)</span> This means the period is divided by <span class="process-math">\(4\text{.}\)</span> The period of <span class="process-math">\(y=\sin x\)</span> is <span class="process-math">\(2\pi\text{,}\)</span> which means the persiod of <span class="process-math">\(y = 3 \sin (4x-7)\)</span> is <span class="process-math">\(\frac{2\pi}{4}= \frac{\pi}{2}\text{.}\)</span>
+</div>
+<div class="para logical" id="graph3-4-3">
+<div class="para">To find the phase shift, we need to consider <span class="process-math">\((4x-7)\text{.}\)</span> It is easier to see the phase shift if we first factor the <span class="process-math">\(4\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = 3 \sin (4x-7) =  3 \sin \left(4\left(x-\frac{7}{4}\right)\right)
+\end{equation*}
+</div>
+<div class="para">Now we see that the curve has been shifted <span class="process-math">\(\frac{7}{4}\)</span> units to the right, so the phase shift is <span class="process-math">\(\frac{7}{4}\text{.}\)</span>
+</div>
+</div>
+</div></details>
+</div></article></details></div>
+<details id="sec-trig-graphs-7-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.27</span><span class="period">.</span><span class="space"> </span><span class="title">Determining period.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-133" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="133" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIk51bWVyaWMiKTsKCiRhID0gcmFuZG9tKDIsOSwxKTsKJGFuczEgPSBDb21wdXRlKCIyKnBpLyRhIiktPndpdGgoCiAgICAgICAgIHRvbFR5cGUgPT4gJ2Fic29sdXRlJywKICAgICAgICAgdG9sZXJhbmNlID0+IC4wMDAwMDAwMDAwMDAwMDAwMDAwMDEsICAgKTsKCkJFR0lOX1BHTUwKQ29tcGFyZWQgdG8gdGhlIGdyYXBoIG9mIFtgeT1cdGFuIHhcdGV4dHssfWBdIHRoZSBncmFwaCBvZiBbYHk9XHRhbiAoWyRhXXgpYF0gaXMgY29tcHJlc3NlZCBob3Jpem9udGFsbHkgYnkgYSBmYWN0b3Igb2YgW2BbJGFdXHRleHR7Ln1gXQoKV2hhdCBpcyB0aGUgcGVyaW9kIG9mIFtgIFx0YW4gXGxlZnQoWyRhXXhccmlnaHQpXHRleHR7P31gXSBbX117JGFuczF9ezZ9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-133')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-133-1-1-1">Compared to the graph of <span class="process-math">\(y=\tan x\text{,}\)</span> the graph of <span class="process-math">\(y=\tan (7x)\)</span> is compressed horizontally by a factor of <span class="process-math">\(7\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-133-1-1-2">What is the period of <span class="process-math">\(\tan \left(7x\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div>
+</div>
+</div></article></details><details id="ex-trig-graph1" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.28</span><span class="period">.</span><span class="space"> </span><span class="title">Amplitude, period, phase shift from graph.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-134" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="134" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/Trigonometry/Graphing03.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-134')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-134-1-1-1">The graph below illustrates one complete cycle for <span class="process-math">\(y = A\cos(Bx+c)\)</span> with <span class="process-math">\(A\)</span> positive.</div> <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-134-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-134-1-1-3">Amplitude = <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</div> <div class="para" id="extracted-webwork-134-1-1-4">Period = <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>;</div> <div class="para" id="extracted-webwork-134-1-1-5">Phase shift = <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>;</div>
+</div>
+</div></article></details><details id="ex-trig-graph2" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.29</span><span class="period">.</span><span class="space"> </span><span class="title">Amplitude, period, phase shift from expression.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div id="webwork-135" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="135" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/MC/Trigonometry/Graphing02.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-135')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-135-1-1-1">For the curve</div> <div class="para" id="extracted-webwork-135-1-1-2"><span class="process-math">\(y = - 24 \tan(2 x - 3 )\)</span></div> <div class="para" id="extracted-webwork-135-1-1-3">determine each of the following:</div> <div class="para" id="extracted-webwork-135-1-1-4">Period = <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>
+</div> <div class="para" id="extracted-webwork-135-1-1-5">Phase shift =  <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>
+</div> <div class="para" id="extracted-webwork-135-1-1-6"><em class="emphasis">Note:  Use a negative for a shift to the left.</em></div>
+<div class="solutions"><details id="extracted-webwork-135-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="extracted-webwork-135-1-2-1">The normal period for the tangent curve is <span class="process-math">\(\pi\text{.}\)</span>  For a curve of the form <span class="process-math">\(\tan(Bx)\)</span> the period is found using the formula <span class="process-math">\(\pi/B\text{.}\)</span>
+</div>
+<div class="para" id="extracted-webwork-135-1-2-2">To determine the appropriate phase shift, it is often easier to determine by factoring <span class="process-math">\(\tan(Bx+C) = \tan(B(x+\frac{C}{B})\text{.}\)</span>
+</div>
+</div></details></div>
+</div>
+</div></article></details></section><section class="subsection" id="sec-trig-graphs-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<div class="para" id="sec-trig-graphs-8-2">1. Check to see if you remember (or can findout with out any help) the following facts about trigonometric graphs. Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).</div>
+<aside class="aside aside-like" id="sec-trig-graphs-8-3"><div class="para" id="sec-trig-graphs-8-3-1"><em class="alert">Study tip:</em></div>
+<div class="para" id="sec-trig-graphs-8-3-2">These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.</div></aside><div class="para" id="sec-trig-graphs-8-4"><div id="webwork-136" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="136" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIk51bWVyaWMiKTsKCiRhID0gcmFuZG9tKDIsOSwxKTsKJGIgPSByYW5kb20oMiw5LDEpOwokYyA9IHJhbmRvbSgyLDksMSk7CiRhbnMxID0gQ29tcHV0ZSgiMipwaS8kYiIpLT53aXRoKAogICAgICAgICB0b2xUeXBlID0+ICdhYnNvbHV0ZScsCiAgICAgICAgIHRvbGVyYW5jZSA9PiAuMDAwMDAwMDAwMDAwMDAwMDAwMDAxLCAgICk7CiRhbnMyID0gQ29tcHV0ZSgiMCIpLT53aXRoKAogICAgICAgICB0b2xUeXBlID0+ICdhYnNvbHV0ZScsCiAgICAgICAgIHRvbGVyYW5jZSA9PiAuMDAwMDAwMDAwMDAwMDAwMDAwMDAxLCAgICk7ICAgICAgICAgCiRhbnMzID0gQ29tcHV0ZSgiMSIpLT53aXRoKAogICAgICAgICB0b2xUeXBlID0+ICdhYnNvbHV0ZScsCiAgICAgICAgIHRvbGVyYW5jZSA9PiAuMDAwMDAwMDAwMDAwMDAwMDAwMDAxLCAgICk7CgpCRUdJTl9QR01MCihhKSBTa2V0Y2ggYSBmZXcgcGVyaW9kcyBvZiB0aGUgZ3JhcGggb2YgW2B5PVxzaW4geFx0ZXh0ey59YF0KCihiKSBTa2V0Y2ggYSBmZXcgcGVyaW9kcyBvZiB0aGUgZ3JhcGggb2YgW2B5PTNcY29zIHhcdGV4dHsufWBdCgooYykgU2tldGNoIGEgZmV3IHBlcmlvZHMgb2YgdGhlIGdyYXBoIG9mIFtgeT1cdGFuICh4LVxwaSlcdGV4dHsufWBdCgooZCkgSXQgaXMgdHJ1ZSBvciBmYWxzZSB0aGF0IFtgXHRhbiAoeC1ccGkpID0gXHRhbiB4XHRleHR7P31gXSBbX117JGFuczN9ezZ9IChFbnRlciAxIGZvciBUUlVFIGFuZCAwIGZvciBGQUxTRS4pCgooZSkgV2hhdCBpcyB0aGUgcGVyaW9kIG9mIFtgeT1bJGFdIFxzaW4gKFskYl0geC1bJGNdKVx0ZXh0ez99YF0gW19deyRhbnMxfXs2fQoKKGYpIFdoYXQgaXMgW2AgXHRhbiAwXHRleHR7P31gXSBbX117JGFuczJ9ezZ9CgooZykgV2hhdCBpcyBbYCBcY29zIDBcdGV4dHs/fWBdIFtfXXskYW5zM317Nn0KCihoKSBXaGF0IGlzIFtgIFxzaW4gKC1ccGkpXHRleHR7P31gXSBbX117JGFuczJ9ezZ9CgoKRU5EX1BHTUwKCkVORERPQ1VNRU5UKCk7" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-136')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-136-1-1-1">(a) Sketch a few periods of the graph of <span class="process-math">\(y=\sin x\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-136-1-1-2">(b) Sketch a few periods of the graph of <span class="process-math">\(y=3\cos x\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-136-1-1-3">(c) Sketch a few periods of the graph of <span class="process-math">\(y=\tan (x-\pi)\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-136-1-1-4">(d) It is true or false that <span class="process-math">\(\tan (x-\pi) = \tan x\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span> (Enter 1 for TRUE and 0 for FALSE.)</div> <div class="para" id="extracted-webwork-136-1-1-5">(e) What is the period of <span class="process-math">\(y=2 \sin (8 x-5)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-136-1-1-6">(f) What is <span class="process-math">\(\tan 0\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-136-1-1-7">(g) What is <span class="process-math">\(\cos 0\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-136-1-1-8">(h) What is <span class="process-math">\(\sin (-\pi)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div>
+</div>
+</div></div>
+<div class="para" id="sec-trig-graphs-8-5">2.   <div id="webwork-137" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="137" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIk51bWVyaWMiKTsKCiRhID0gcmFuZG9tKDIsOSwxKTsKJGIgPSByYW5kb20oMiw5LDEpOwokYyA9IHJhbmRvbSgyLDksMSk7CiRhbnMxID0gQ29tcHV0ZSgiMipwaS8kYiIpLT53aXRoKAogICAgICAgICB0b2xUeXBlID0+ICdhYnNvbHV0ZScsCiAgICAgICAgIHRvbGVyYW5jZSA9PiAuMDAwMDAwMDAwMDAwMDAwMDAwMDAxLCAgICk7CiRhbnMyID0gQ29tcHV0ZSgiJGEiKS0+d2l0aCgKICAgICAgICAgdG9sVHlwZSA9PiAnYWJzb2x1dGUnLAogICAgICAgICB0b2xlcmFuY2UgPT4gLjAwMDAwMDAwMDAwMDAwMDAwMDAwMSwgICApOyAgICAgICAgIAokYW5zMyA9IENvbXB1dGUoIjAiKS0+d2l0aCgKICAgICAgICAgdG9sVHlwZSA9PiAnYWJzb2x1dGUnLAogICAgICAgICB0b2xlcmFuY2UgPT4gLjAwMDAwMDAwMDAwMDAwMDAwMDAwMSwgICApOwoKQkVHSU5fUEdNTApGaW5kIHRoZSBmb2xsb3dpbmcgZm9yIHRoZSBmdW5jdGlvbiBbYCB5PVskYV1cY29zIFxsZWZ0KFskYl14XHJpZ2h0KWBdCgooYSkgV2hhdCBpcyB0aGUgcGVyaW9kIG9mIFtgIHk9WyRhXVxzaW4gXGxlZnQoWyRiXXgrWyRjXVxyaWdodClcdGV4dHs/fWBdIFtfXXskYW5zMX17Nn0KCihiKSBXaGF0IGlzIHRoZSBhbXBsaXR1ZGUgb2YgW2AgeT1bJGFdXHNpbiBcbGVmdChbJGJdeCtbJGNdXHJpZ2h0KVx0ZXh0ez99YF0gW19deyRhbnMyfXs2fQoKKGMpIFdoYXQgaXMgdGhlIHBoYXNlIHNoaWZ0IG9mIFtgIHk9WyRhXVxzaW4gXGxlZnQoWyRiXXgrWyRjXVxyaWdodClcdGV4dHs/fWBdIFtfXXskYW5zM317Nn0gKFVzZSBhIHBvc2l0aXZlIG51bWJlciBmb3IgYSBzaGlmdCB0byB0aGUgcmlnaHQsIGFuZCBuZWdhdGl2ZSBmb3IgdG8gdGhlIGxlZnQuKQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-137')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-137-1-1-1">Find the following for the function <span class="process-math">\(y=3\cos \left(5x\right)\)</span>
+</div> <div class="para" id="extracted-webwork-137-1-1-2">(a) What is the period of <span class="process-math">\(y=3\sin \left(5x+9\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-137-1-1-3">(b) What is the amplitude of <span class="process-math">\(y=3\sin \left(5x+9\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-137-1-1-4">(c) What is the phase shift of <span class="process-math">\(y=3\sin \left(5x+9\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span> (Use a positive number for a shift to the right, and negative for to the left.)</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-6">3.   <div id="webwork-138" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="138" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIk51bWVyaWMiKTsKCiRhID0gcmFuZG9tKDIsOSwxKTsKJGIgPSByYW5kb20oMiw5LDEpOwokYyA9IHJhbmRvbSgyLDksMSk7CiRhbnMxID0gQ29tcHV0ZSgiMipwaS8kYiIpLT53aXRoKAogICAgICAgICB0b2xUeXBlID0+ICdhYnNvbHV0ZScsCiAgICAgICAgIHRvbGVyYW5jZSA9PiAuMDAwMDAwMDAwMDAwMDAwMDAwMDAxLCAgICk7CiRhbnMyID0gQ29tcHV0ZSgiJGEiKS0+d2l0aCgKICAgICAgICAgdG9sVHlwZSA9PiAnYWJzb2x1dGUnLAogICAgICAgICB0b2xlcmFuY2UgPT4gLjAwMDAwMDAwMDAwMDAwMDAwMDAwMSwgICApOyAgICAgICAgIAokYW5zMyA9IENvbXB1dGUoIiRjIiktPndpdGgoCiAgICAgICAgIHRvbFR5cGUgPT4gJ2Fic29sdXRlJywKICAgICAgICAgdG9sZXJhbmNlID0+IC4wMDAwMDAwMDAwMDAwMDAwMDAwMDEsICAgKTsKCkJFR0lOX1BHTUwKRmluZCB0aGUgZm9sbG93aW5nIGZvciB0aGUgZnVuY3Rpb24gW2AgeT1bJGFdXHNpbiBcbGVmdChbJGJdeC1bJGNdXHJpZ2h0KWBdCgooYSkgV2hhdCBpcyB0aGUgcGVyaW9kIG9mIFtgIHk9WyRhXVxzaW4gXGxlZnQoWyRiXXgrWyRjXVxyaWdodClcdGV4dHs/fWBdIFtfXXskYW5zMX17Nn0KCihiKSBXaGF0IGlzIHRoZSBhbXBsaXR1ZGUgb2YgW2AgeT1bJGFdXHNpbiBcbGVmdChbJGJdeCtbJGNdXHJpZ2h0KVx0ZXh0ez99YF0gW19deyRhbnMyfXs2fQoKKGMpIFdoYXQgaXMgdGhlIHBoYXNlIHNoaWZ0IG9mIFtgIHk9WyRhXVxzaW4gXGxlZnQoWyRiXXgrWyRjXVxyaWdodClcdGV4dHs/fWBdIFtfXXskYW5zM317Nn0gKFVzZSBhIHBvc2l0aXZlIG51bWJlciBmb3IgYSBzaGlmdCB0byB0aGUgcmlnaHQsIGFuZCBuZWdhdGl2ZSBmb3IgdG8gdGhlIGxlZnQuKQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-138')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-138-1-1-1">Find the following for the function <span class="process-math">\(y=4\sin \left(3x-4\right)\)</span>
+</div> <div class="para" id="extracted-webwork-138-1-1-2">(a) What is the period of <span class="process-math">\(y=4\sin \left(3x+4\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-138-1-1-3">(b) What is the amplitude of <span class="process-math">\(y=4\sin \left(3x+4\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span>
+</div> <div class="para" id="extracted-webwork-138-1-1-4">(c) What is the phase shift of <span class="process-math">\(y=4\sin \left(3x+4\right)\text{?}\)</span> <span class="fillin underline" role="img" aria-label="6-character blank" style="width: 2.727272727272727em;"></span> (Use a positive number for a shift to the right, and negative for to the left.)</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-7">4. <div id="webwork-139" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="139" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-139')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-139-1-1-1">Which function is described by the plot below?</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/webwork/images/webwork-139-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-139-1-1-3">
+<li id="extracted-webwork-139-1-1-3-1-1"><div class="para" id="extracted-webwork-139-1-1-3-1-1-1">
+<em class="alert">A</em>. <span class="process-math">\(y = 2 \cos(0.5x - 1) + 1 \)</span>
+</div></li> <li id="extracted-webwork-139-1-1-3-1-2"><div class="para" id="extracted-webwork-139-1-1-3-1-2-1">
+<em class="alert">B</em>. <span class="process-math">\(y =0.5 \sin(2x - 1) + 1 \)</span>
+</div></li> <li id="extracted-webwork-139-1-1-3-1-3"><div class="para" id="extracted-webwork-139-1-1-3-1-3-1">
+<em class="alert">C</em>. <span class="process-math">\(y = 2 \cos(2x - 1) + 1 \)</span>
+</div></li> <li id="extracted-webwork-139-1-1-3-1-4"><div class="para" id="extracted-webwork-139-1-1-3-1-4-1">
+<em class="alert">D</em>. <span class="process-math">\(y = 2 \sin(0.5x - 1) - 1 \)</span>
+</div></li> <li id="extracted-webwork-139-1-1-3-1-5"><div class="para" id="extracted-webwork-139-1-1-3-1-5-1">
+<em class="alert">E</em>. <span class="process-math">\(y = \sin(2x + 1) + 1 \)</span>
+</div></li> <li id="extracted-webwork-139-1-1-3-1-6"><div class="para" id="extracted-webwork-139-1-1-3-1-6-1">
+<em class="alert">F</em>. none of the above</div></li>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-8">5. <div id="webwork-140" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="140" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-140')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-140-1-1-1">Below is the graph of the function <span class="process-math">\(f(x) = 10 \sin{ \left( \frac{\pi}{5} x \right)}\)</span> in blue, and a second sinusoidal function <span class="process-math">\(y = g(x)\)</span> in red, which is a horizontal shift of <span class="process-math">\(y = f(x)\text{.}\)</span>  Find a formula for the function <span class="process-math">\(g(x)\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-140-1-1-2">
+<span class="process-math">\(g(x) =\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span>
+</div> <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-140-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-140-1-1-4"><em class="emphasis">(Click on graph to enlarge)</em></div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-9">6. <div id="webwork-141" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="141" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-141')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-141-1-1-1">Find a formula for the trigonometric function graphed below. Use <span class="process-math">\(x\)</span> as the independent variable in your formula.</div> <div class="para" id="extracted-webwork-141-1-1-2">
+<span class="process-math">\(f(x) =\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span>
+</div> <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-141-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-141-1-1-4"><em class="emphasis">(Click on graph to enlarge)</em></div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-10">7. <div id="webwork-142" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="142" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-142')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-142-1-1-1">Find a formula for the trigonometric function graphed below. Use <span class="process-math">\(x\)</span> as the independent variable in your formula.</div> <div class="para" id="extracted-webwork-142-1-1-2">
+<span class="process-math">\(f(x) =\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span>
+</div> <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-142-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-142-1-1-4"><em class="emphasis">(Click on graph to enlarge)</em></div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-11">8. <div id="webwork-143" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="143" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-143')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-143-1-1-1">Suppose <span class="process-math">\(y = -2 \cos{ (8 t + 15 )} + 1\text{.}\)</span> In your answers, enter <em class="emphasis">pi</em> for <span class="process-math">\(\pi\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-143-1-1-2">(a) What is the phase shift? <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div> <div class="para" id="extracted-webwork-143-1-1-3">(b) What is the horizontal shift? <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-12">9. <div id="webwork-144" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="144" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-144')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-144-1-1-1">Suppose <span class="process-math">\(y = 4 \cos{ (9 t + 7 )} - 3\text{.}\)</span> In your answers, enter <em class="emphasis">pi</em> for <span class="process-math">\(\pi\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-144-1-1-2">What is the horizontal shift? <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-13">10. <div id="webwork-145" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="145" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-145')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-145-1-1-1">Without a calculator, sketch the first two periods of the graph of the function <span class="process-math">\(f(x) = -5 - 6 \cos{( 20 \pi x)}\text{.}\)</span>
+</div> <div class="para" id="extracted-webwork-145-1-1-2">Which graph below A-E matches your sketch? <li id="extracted-webwork-145-1-1-2-1-1"><div class="para" id="extracted-webwork-145-1-1-2-1-1-1">Choose</div></li> <li id="extracted-webwork-145-1-1-2-1-2"><div class="para" id="extracted-webwork-145-1-1-2-1-2-1">A</div></li> <li id="extracted-webwork-145-1-1-2-1-3"><div class="para" id="extracted-webwork-145-1-1-2-1-3-1">B</div></li> <li id="extracted-webwork-145-1-1-2-1-4"><div class="para" id="extracted-webwork-145-1-1-2-1-4-1">C</div></li> <li id="extracted-webwork-145-1-1-2-1-5"><div class="para" id="extracted-webwork-145-1-1-2-1-5-1">D</div></li> <li id="extracted-webwork-145-1-1-2-1-6"><div class="para" id="extracted-webwork-145-1-1-2-1-6-1">E</div></li>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b r l t lines"><div class="image-box" style="width: 41.6666666666667%; margin-left: 29.1666666666667%; margin-right: 29.1666666666667%;"><img src="generated/webwork/images/webwork-145-image-1.png" class="contained"></div></td>
+<td class="c m b r l0 t lines"><div class="image-box" style="width: 41.6666666666667%; margin-left: 29.1666666666667%; margin-right: 29.1666666666667%;"><img src="generated/webwork/images/webwork-145-image-2.png" class="contained"></div></td>
+</tr>
+<tr>
+<td class="c m b r l t0 lines">A</td>
+<td class="c m b r l0 t0 lines">B</td>
+</tr>
+<tr>
+<td class="c m b r l t0 lines"><div class="image-box" style="width: 41.6666666666667%; margin-left: 29.1666666666667%; margin-right: 29.1666666666667%;"><img src="generated/webwork/images/webwork-145-image-3.png" class="contained"></div></td>
+<td class="c m b r l0 t0 lines"><div class="image-box" style="width: 41.6666666666667%; margin-left: 29.1666666666667%; margin-right: 29.1666666666667%;"><img src="generated/webwork/images/webwork-145-image-4.png" class="contained"></div></td>
+</tr>
+<tr>
+<td class="c m b r l t0 lines">C</td>
+<td class="c m b r l0 t0 lines">D</td>
+</tr>
+<tr>
+<td class="c m b r l t0 lines"><div class="image-box" style="width: 41.6666666666667%; margin-left: 29.1666666666667%; margin-right: 29.1666666666667%;"><img src="generated/webwork/images/webwork-145-image-5.png" class="contained"></div></td>
+<td class="c m b r l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b r l t0 lines">E</td>
+<td class="c m b r l0 t0 lines"></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-145-1-1-4">(Click on a graph to enlarge it)</div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-14">11. <div id="webwork-146" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="146" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-146')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-146-1-1-1">Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank.  If the graph does not appear to be periodic enter NONE.</div> <div class="para" id="extracted-webwork-146-1-1-2">The period is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> (Enter NONE if not periodic.)</div> <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-146-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-146-1-1-4"><em class="emphasis">(Click on graph to enlarge)</em></div>
+</div>
+</div>
+</div>
+<div class="para" id="sec-trig-graphs-8-15">12. <div id="webwork-147" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="147" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-147')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-147-1-1-1">Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank.  If the graph does not appear to be periodic enter NONE.</div> <div class="para" id="extracted-webwork-147-1-1-2">The period is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> (Enter NONE if not periodic.)</div> <div class="image-box" style="width: 66.6666666666667%; margin-left: 16.6666666666667%; margin-right: 16.6666666666667%;"><img src="generated/webwork/images/webwork-147-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-147-1-1-4"><em class="emphasis">(Click on graph to enlarge)</em></div>
+</div>
+</div>
+</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-trig-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-trig-identities.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
