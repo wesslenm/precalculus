@@ -178,7 +178,7 @@
    <assemblage>
     <title>Definitions of trigonometric functions - right angled triangles</title>
     <p>
-      Consider a right angled triangle, where one of the non-right angles is <m>\theta </m>. This means <m>0 \less \theta \less \frac{\pi}{2}</m>. Then the trigonometric functions are defined as follows:
+      Consider a right angled triangle, where one of the non-right angles is <m>\theta </m>. This means <m>0 \lt \theta \lt \frac{\pi}{2}</m>. Then the trigonometric functions are defined as follows:
     </p>
     <p>
     <ul>
