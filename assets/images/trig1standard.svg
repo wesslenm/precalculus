@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="802.5"
+   height="636.80981"
+   id="svg32"
+   sodipodi:docname="trig1standard.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.815"
+     inkscape:cx="399.3865"
+     inkscape:cy="398.77301"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg32" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath32">
+      <rect
+         style="opacity:0.65;fill:#000000;stroke-width:0.5"
+         id="rect33"
+         width="397.54602"
+         height="317.17792"
+         x="2.4539878"
+         y="0.61349696" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath34">
+      <rect
+         style="opacity:0.65;fill:#000000;stroke-width:0.5"
+         id="rect35"
+         width="400.61349"
+         height="319.6319"
+         x="0.61349702"
+         y="-0.61349696" />
+    </clipPath>
+  </defs>
+  <g
+     transform="matrix(2,0,0,2,0,-1.2269939)"
+     id="g32">
+    <g
+       id="background-6868918e">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="0"
+         y="0"
+         width="400"
+         height="400"
+         class="dcg-svg-background"
+         id="rect1"
+         clip-path="url(#clipPath32)" />
+    </g>
+    <g
+       id="graphpaper-6868918e">
+      <g
+         id="axis-6868918e">
+        <g
+           id="yaxis-6868918e">
+          <title
+             id="title1">y</title>
+          <g
+             id="g3">
+            <path
+               fill="none"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="fill stroke markers"
+               d="M 164,3 V 400"
+               stroke-opacity="0.9"
+               stroke-miterlimit="10"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               id="path1"
+               clip-path="url(#clipPath34)" />
+            <g
+               class="dcg-svg-axis-line"
+               id="g2">
+              <path
+                 fill="#000000"
+                 stroke="#000000"
+                 class="dcg-svg-axis-line"
+                 paint-order="stroke fill markers"
+                 d="m 164,1.5 3.10583,11.59111 h -6.21166 L 164,1.5 l 3.10583,11.59111"
+                 stroke-opacity="0.9"
+                 stroke-linejoin="round"
+                 stroke-miterlimit="10"
+                 stroke-width="1.5"
+                 stroke-dasharray="none"
+                 fill-opacity="0.9"
+                 id="path2" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xaxis-6868918e">
+          <title
+             id="title3">x</title>
+          <g
+             id="g5">
+            <path
+               fill="none"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="fill stroke markers"
+               d="M 0,190 H 397"
+               stroke-opacity="0.9"
+               stroke-miterlimit="10"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               id="path3" />
+            <g
+               class="dcg-svg-axis-line"
+               id="g4">
+              <path
+                 fill="#000000"
+                 stroke="#000000"
+                 class="dcg-svg-axis-line"
+                 paint-order="stroke fill markers"
+                 d="m 398.5,190 -11.59111,3.10583 v -6.21166 L 398.5,190 l -11.59111,3.10583"
+                 stroke-opacity="0.9"
+                 stroke-linejoin="round"
+                 stroke-miterlimit="10"
+                 stroke-width="1.5"
+                 stroke-dasharray="none"
+                 fill-opacity="0.9"
+                 id="path4" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="g7">
+          <g
+             id="g6">
+            <path
+               fill="none"
+               stroke="#000000"
+               class="dcg-svg-tickmark"
+               paint-order="fill stroke markers"
+               d=""
+               stroke-opacity="0.9"
+               stroke-miterlimit="2"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               id="path5" />
+          </g>
+        </g>
+        <g
+           class="dcg-svg-axis-label"
+           id="g8">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Times"
+             font-size="20px"
+             font-style="italic"
+             font-weight="normal"
+             text-decoration="normal"
+             x="376.12305"
+             y="205.4949"
+             text-anchor="start"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text7">x</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Times"
+             font-size="20px"
+             font-style="italic"
+             font-weight="normal"
+             text-decoration="normal"
+             x="376.12305"
+             y="205.4949"
+             text-anchor="start"
+             id="text8">x</text>
+        </g>
+        <g
+           class="dcg-svg-axis-label"
+           transform="translate(149.23651,29)"
+           id="g10">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Times"
+             font-size="20px"
+             font-style="italic"
+             font-weight="normal"
+             text-decoration="normal"
+             x="0"
+             y="0"
+             text-anchor="start"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text9">y</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Times"
+             font-size="20px"
+             font-style="italic"
+             font-weight="normal"
+             text-decoration="normal"
+             x="0"
+             y="0"
+             text-anchor="start"
+             id="text10">y</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="expressions-6868918e">
+      <g
+         id="sketch-6868918e">
+        <title
+           id="title10">theta</title>
+      </g>
+      <g
+         id="g14">
+        <title
+           id="title11">Expression 3</title>
+        <path
+           fill="#c74440"
+           stroke="none"
+           paint-order="stroke fill markers"
+           d=""
+           fill-opacity="0.4"
+           id="path11" />
+        <path
+           fill="#c74440"
+           stroke="none"
+           paint-order="stroke fill markers"
+           d=""
+           fill-opacity="0.4"
+           id="path12" />
+        <g
+           id="g13">
+          <path
+             fill="none"
+             stroke="#c74440"
+             class="dcg-svg-curve"
+             paint-order="fill stroke markers"
+             d="m 212.76266,161.15833 v 0 l 1.92581,3.46096 1.6598,3.53945 1.36689,3.51498 1.07399,3.3956 0.87871,3.54756 0.58582,3.18 0.39054,3.07193 0.19527,2.53785 0.084,3.08824"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="2.5"
+             stroke-dasharray="none"
+             id="path13" />
+        </g>
+      </g>
+      <g
+         id="g16">
+        <title
+           id="title14">Expression 4</title>
+        <path
+           fill="#c74440"
+           stroke="none"
+           paint-order="stroke fill markers"
+           d=""
+           fill-opacity="0.4"
+           id="path14" />
+        <g
+           id="g15">
+          <path
+             fill="none"
+             stroke="#c74440"
+             class="dcg-svg-curve"
+             paint-order="fill stroke markers"
+             d="m 164.11346,190.4949 v 0 L 400,48.962978"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="2.5"
+             stroke-dasharray="none"
+             id="path15" />
+        </g>
+      </g>
+      <g
+         id="g18">
+        <title
+           id="title16">Expression 7</title>
+        <path
+           fill="#c74440"
+           stroke="none"
+           paint-order="stroke fill markers"
+           d=""
+           fill-opacity="0.4"
+           id="path16" />
+        <g
+           id="g17">
+          <path
+             fill="none"
+             stroke="#c74440"
+             class="dcg-svg-curve"
+             paint-order="fill stroke markers"
+             d="m 164.11346,190.4949 v 0 H 400"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="2.5"
+             stroke-dasharray="none"
+             id="path17" />
+        </g>
+      </g>
+      <g
+         id="g19">
+        <title
+           id="title18">Initial side</title>
+      </g>
+      <g
+         id="g20">
+        <title
+           id="title19">Terminal side</title>
+      </g>
+      <g
+         id="g22">
+        <title
+           id="title20">Expression 12</title>
+        <path
+           fill="#c74440"
+           stroke="none"
+           paint-order="stroke fill markers"
+           d=""
+           fill-opacity="0.4"
+           id="path20" />
+        <g
+           id="g21">
+          <path
+             fill="none"
+             stroke="#c74440"
+             class="dcg-svg-curve"
+             paint-order="fill stroke markers"
+             d="m 212.88551,161.15833 v 0 l 6.23402,6.23402"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="2.5"
+             stroke-dasharray="none"
+             id="path21" />
+        </g>
+      </g>
+      <g
+         id="g24">
+        <title
+           id="title22">Expression 13</title>
+        <path
+           fill="#c74440"
+           stroke="none"
+           paint-order="stroke fill markers"
+           d=""
+           fill-opacity="0.4"
+           id="path22" />
+        <g
+           id="g23">
+          <path
+             fill="none"
+             stroke="#c74440"
+             class="dcg-svg-curve"
+             paint-order="fill stroke markers"
+             d="m 212.81217,161.15833 v 0 l 0.8801,8.80097"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="2.5"
+             stroke-dasharray="none"
+             id="path23" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="labels-6868918e">
+      <g
+         transform="translate(230.5,165)"
+         id="g26">
+        <g
+           class="dcg-svg-label"
+           id="g25">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="'Times New Roman', Symbola, serif"
+             font-size="17.71px"
+             font-style="italic"
+             font-weight="400"
+             text-decoration="normal"
+             x="2"
+             y="15.46212"
+             text-anchor="start"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text24">θ</text>
+          <text
+             fill="#c74440"
+             stroke="none"
+             font-family="'Times New Roman', Symbola, serif"
+             font-size="17.71px"
+             font-style="italic"
+             font-weight="400"
+             text-decoration="normal"
+             x="2"
+             y="15.46212"
+             text-anchor="start"
+             id="text25">θ</text>
+        </g>
+      </g>
+      <g
+         transform="translate(246,196)"
+         id="g28">
+        <g
+           class="dcg-svg-label"
+           id="g27">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="arial, sans-serif"
+             font-size="15.4px"
+             font-style="normal"
+             font-weight="400"
+             text-decoration="normal"
+             x="0"
+             y="13.9888"
+             text-anchor="start"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text26">Initial side</text>
+          <text
+             fill="#c74440"
+             stroke="none"
+             font-family="arial, sans-serif"
+             font-size="15.4px"
+             font-style="normal"
+             font-weight="400"
+             text-decoration="normal"
+             x="0"
+             y="13.9888"
+             text-anchor="start"
+             id="text27">Initial side</text>
+        </g>
+      </g>
+      <g
+         transform="translate(228.5,71)"
+         id="g30">
+        <g
+           class="dcg-svg-label"
+           id="g29">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="arial, sans-serif"
+             font-size="15.4px"
+             font-style="normal"
+             font-weight="400"
+             text-decoration="normal"
+             x="0"
+             y="13.9888"
+             text-anchor="start"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text28">Terminal side</text>
+          <text
+             fill="#c74440"
+             stroke="none"
+             font-family="arial, sans-serif"
+             font-size="15.4px"
+             font-style="normal"
+             font-weight="400"
+             text-decoration="normal"
+             x="0"
+             y="13.9888"
+             text-anchor="start"
+             id="text29">Terminal side</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g31" />
+  </g>
+</svg>

@@ -6,6 +6,40 @@
   <p> For testing things out.... Also for keeping samples of types of code, for easy copy/pasting. </p>
 
 
+
+
+
+
+<figure>
+  <caption>Special triangle</caption>
+  <title>Special triangle</title>
+  <image source="images/trigintro1" width="70%">
+      <shortdescription>
+          Special triangle.
+        </shortdescription>
+      <description>
+          <p>
+              Right angled triangle. The length of hypothenuse is <m>\sqrt{2}</m>. The length of both other sides are <m>1</m>.   
+          </p>
+      </description>
+  </image>
+</figure>
+
+<exercise>
+<title>A MyOpenMath problem</title>
+<myopenmath problem="15958" params= "hidescoreval=1, showansafter=0, showhints=0, submitall=1">
+</myopenmath>
+</exercise>
+
+
+
+
+
+
+
+
+
+
 <p>
   Cross-reference: <xref ref="rule-one" />
 

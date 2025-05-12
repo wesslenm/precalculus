@@ -131,12 +131,38 @@
   </aside>
 
   <p>
-    An angle placed on the coordinate system is in <term>standard position</term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  See [FIGURE]. A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.
+    An angle placed on the coordinate system is in <term>standard position</term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  See <xref ref="fig-trig-intro1" />. A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.
   </p>
+
+<figure xml:id="fig-trig-intro1">
+    <caption>Angles in standard position</caption>
+  <title>Angles in standard position</title>
+  <image source="images/trig1standard" width="60%">
+      <shortdescription>
+          Angles in standard position.
+        </shortdescription>
+  </image>
+</figure>
+
+
   <p>
-    [INSERT FIGURE]
-      <alert> Angles in standard position. </alert>
-    </p>
+  The unit circle can be used to define trigonometric functions. <term>The unit circle</term> is a circle with centre at the origin, and radius 1, as shown in <xref ref="fig-trig-intro2"/>. 
+  The point <m>P(x,y)</m> in <xref ref="fig-trig-intro2"/> is the <term>terminal point</term>. 
+  The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The <m>x</m> and <m>y</m> values of the point <m>P(x,y)</m> will be important in the definitions of the trigonometric functions. 
+  </p>
+
+<figure xml:id="fig-trig-intro2">
+    <caption>A point on the unit circle</caption>
+  <title>A point on the unit circle</title>
+  <image source="images/trig1unit" width="70%">
+      <shortdescription>
+          A point on the unit circle.
+        </shortdescription>
+  </image>
+</figure>
+
+<p>
+</p>
 
 <exercise xml:id="ex-trig-intro1">
 	<webwork source="Library/MC/Trigonometry/RadianTerminalPoint.pg" />
@@ -321,14 +347,49 @@
 
   <subsection xml:id="sec-trig-special">
     <title>Evaluating using special triangles</title>
-    <p>
-      NEEDS A FIGURE
-    </p>
-  <p> Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special angles.   </p>
- <p>
-    [INSERT FIGURE]
-      <alert> The two special triangles. </alert>
-    </p>
+  <p> 
+    Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.   
+  </p>
+
+  <!-- 
+        <figure>
+            <caption><m>\pi/4, \pi/4</m> special triangle</caption>
+             <title>Special triangle</title>
+            <image source="images/trigintro1" width="50%">
+                <shortdescription>Special triangle, <m>\pi/4, \pi/4</m>.</shortdescription>
+            </image>
+        </figure>
+
+        <figure>
+            <caption><m>\pi/3, \pi/6</m> special triangle</caption>
+            <title>Special triangle</title>
+            <image source="images/trigintro2" width="50%">
+                <shortdescription>Special triangle, <m>\pi/3, \pi/6</m>.</shortdescription>
+            </image>
+        </figure>
+-->
+
+<figure>
+    <caption>The two special triangles</caption>
+    <title>Two special triangles</title>
+    <sidebyside>
+        <figure>
+            <caption><m>\pi/4, \pi/4</m> special triangle</caption>
+            <image source="images/trigintro1" width="40%">
+                <shortdescription>Special triangle, <m>\pi/4, \pi/4</m>.</shortdescription>
+            </image>
+        </figure>
+        <figure>
+            <caption><m>\pi/3, \pi/6</m> special triangle</caption>
+            <image source="images/trigintro2" width="50%">
+                <shortdescription>Special triangle, <m>\pi/3, \pi/6</m>.</shortdescription>
+            </image>
+        </figure>
+    </sidebyside>
+</figure>
+
+
+
    <aside>
     <p>
       <alert> Study tip: </alert>
