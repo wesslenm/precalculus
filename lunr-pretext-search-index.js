@@ -871,7 +871,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Trigonometric definitions and basic facts",
-  "body": " Trigonometric definitions and basic facts     Be familiar with radian measure of angles, and standard notation related to angles.    Use the right angled triangle definitions and the general definitions of the 6 trigonometric functions, and interchange between the two.    Be familiar with basic relationships between trigonometric functions.    Evaluate the 6 trigonometric functions without a calculator, for common angles such as those listed in .      Where will this be used in calculus?  Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:     Trigonometric functions are used in many modeling contexts, for example when modeling wave motions.    A technique called trigonometric substitution allows us to solve integration problems such as for example .    Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions.       In this section, we will work with trigonometric functions. We will examine relationships between the 6 trigonometric functions and will discuss how to evaluate them for commonly used inputs.    Angle notation  In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).   Correspondence between radian and degree measures in some common angles.    Degree  Radian    0  0                                               Study tip:   Use radians as much as possible and try to develop a feel for their size. Try to develop a feel for how large for example radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode.   An angle placed on the coordinate system is in standard position when its vertex is at the origin and its initial side is on the positive -axis. See . A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.   Angles in standard position  Angles in standard position   Angles in standard position.    The unit circle can be used to define trigonometric functions. The unit circle is a circle with centre at the origin, and radius 1, as shown in . The point in is the terminal point . The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The and values of the point will be important in the definitions of the trigonometric functions.   A point on the unit circle  A point on the unit circle   A point on the unit circle.        For the given values of an angle , find the terminal point on the unit circle.  (a) If , then  and  ;  (b) If , then  and  ;  (c) If , then  and  ;  (d) If , then  and  ;  (e) If , then  and  ;  (f) If , then  and  ;   For each given value of , draw a unit circle and the angle in standard position. The point desired is where the terminal side of the angle intersects the unit circle. Use geometric ideas to determine and in a manner similar to what was done in earlier sections of this course.                                                                   We often (but not always) use Greek letters to represent angles. For example, (theta), (alpha) and (beta) are commonly used to represent angles.   Greek letters  For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. (This is not a full list of the Greek alphabet.)     Definitions  We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   Definitions of trigonometric functions - right angled triangles  Consider a right angled triangle, where one of the non-right angles is . This means . Then the trigonometric functions are defined as follows:     Sine: Opposite \/ Hypothenuse    Cosine: Adjacent \/ Hypothenuse    Tangent: Opposite \/ Adjacent        Study tip:   You should memorize all defitions of trigonometric functions, if you don't know them already. It is important to know both the definitions in terms of right angled triangles AND the definitions in terms of the circle.    Definitions of trigonometric functions - general definition  Let be any angle in standard position in a circle centered at . With and as in , we make the following definitions:                       Trigonometric functions - relationships  The following relationships are all important.                             Study tip:   You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already.    Definitions of , and Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of in a circle.  We know that . Therefore, in terms of right angled triangles, . Now do the same for secant and cotangent.  In terms of , we see that . Now do the same for secant and cotangent.   Simplifying   Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or             Evaluating using special triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.    Evaluating using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the apecial triangle we see that   The final result is:     Evaluating using special triangles 1   Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      Evaluating using special triangles 2   Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      Evaluating using special triangles 3   Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating using the coordinate system  THIS PART NEEDS FIGURES.  If an angle is not in the first quadrant it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.   Evaluating at NEEDS A FIGURE  Find exact values for and without using a calculator.        By placing the second special triangle in quadrant II as in FIGURE XXXX, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continuing the example   Use the work from Example 4.9 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluating at NEEDS A FIGURE  Find exact values for and without using a calculator.        By placing the second special triangle in quadrant IV as in FIGURE YYY, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                           Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  THIS PART NEEDS FIGURES. COULD USE A FIGURE IN THE EXAMPLE SOLUTION. COULD ADD A SECTION ON \"IF COS (THETA) = 4\/7, WHAT ARE THE OTHER TRIG FUNCTIONS?\"  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed more in , but you may already remember the graphs of and :    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   [INSERT FIGURE] Graphs of and .    Evaluating   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle. For the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .      Evaluating   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .     Evaluating    Evaluate without using a calculator.             Evaluating sine at multiples of    Evaluate without using a calculator.   .            Evaluating cosine at multiples of    Evaluate without using a calculator.   .            Evaluating trig at multiples of NEEDS FIXING, DOES NOT ACCEPT DNE   Evaluate the following without using a calculator.   .   .   .   .   .   .                                       Summary  The types of angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all 6 trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )        Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  1. (Randomized. Feel free to practice several times.)   An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:              2. (Randomized.)   An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:           3. (Not randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       4. (Not randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  5. (Not randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  6. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             7. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      8. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  9. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  10. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  11. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             12. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             9. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             10. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
+  "body": " Trigonometric definitions and basic facts     Be familiar with radian measure of angles, and standard notation related to angles.    Use the right angled triangle definitions and the general definitions of the 6 trigonometric functions, and interchange between the two.    Be familiar with basic relationships between trigonometric functions.    Evaluate the 6 trigonometric functions without a calculator, for common angles such as those listed in .      Where will this be used in calculus?  Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:     Trigonometric functions are used in many modeling contexts, for example when modeling wave motions.    A technique called trigonometric substitution allows us to solve integration problems such as for example .    Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions.       In this section, we will work with trigonometric functions. We will examine relationships between the 6 trigonometric functions and will discuss how to evaluate them for commonly used inputs.    Angle notation  In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).   Correspondence between radian and degree measures in some common angles.    Degree  Radian    0  0                                               Study tip:   Use radians as much as possible and try to develop a feel for their size. Try to develop a feel for how large for example radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode.   An angle placed on the coordinate system is in standard position when its vertex is at the origin and its initial side is on the positive -axis. See . A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.   Angles in standard position  Angles in standard position   Angles in standard position.    The unit circle can be used to define trigonometric functions. The unit circle is a circle with centre at the origin, and radius 1, as shown in . The point in is the terminal point . The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The and values of the point will be important in the definitions of the trigonometric functions.   A point on the unit circle  A point on the unit circle   A point on the unit circle.        For the given values of an angle , find the terminal point on the unit circle.  (a) If , then  and  ;  (b) If , then  and  ;  (c) If , then  and  ;  (d) If , then  and  ;  (e) If , then  and  ;  (f) If , then  and  ;   For each given value of , draw a unit circle and the angle in standard position. The point desired is where the terminal side of the angle intersects the unit circle. Use geometric ideas to determine and in a manner similar to what was done in earlier sections of this course.                                                                   We often (but not always) use Greek letters to represent angles. For example, (theta), (alpha) and (beta) are commonly used to represent angles.   Greek letters  For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. (This is not a full list of the Greek alphabet.)     Definitions  We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   Definitions of trigonometric functions - right angled triangles  Consider a right angled triangle, where one of the non-right angles is . This means . Then the trigonometric functions are defined as follows:     Sine: Opposite \/ Hypothenuse    Cosine: Adjacent \/ Hypothenuse    Tangent: Opposite \/ Adjacent        Study tip:   You should memorize all defitions of trigonometric functions, if you don't know them already. It is important to know both the definitions in terms of right angled triangles AND the definitions in terms of the circle.    Definitions of trigonometric functions - general definition  Let be any angle in standard position in a circle centered at . With and as in , we make the following definitions:                       Trigonometric functions - relationships  The following relationships are all important.                             Study tip:   You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already.      Definitions of , and Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of in a circle.  We know that . Therefore, in terms of right angled triangles, . Now do the same for secant and cotangent.  In terms of , we see that . Now do the same for secant and cotangent.   Simplifying   Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or             Evaluating using special triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.    Evaluating using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the apecial triangle we see that   The final result is:     Evaluating using special triangles 1   Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      Evaluating using special triangles 2   Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      Evaluating using special triangles 3   Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating using the coordinate system  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.     Evaluating at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is . Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continuing the example   Use the work from Example 4.9 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                         Evaluating at  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                           Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed more in , but you may already remember the graphs of and :    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Evaluating   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .      Evaluating   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .      Study tip:   Evaluating    Evaluate without using a calculator.             Evaluating sine at multiples of    Evaluate without using a calculator.   .            Evaluating cosine at multiples of    Evaluate without using a calculator.   .            Evaluating trig at multiples of NEEDS FIXING, DOES NOT ACCEPT DNE   Evaluate the following without using a calculator.   .   .   .   .   .   .                                       Summary  The types of angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all 6 trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )        Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  1. (Randomized. Feel free to practice several times.)   An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:              2. (Randomized.)   An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:           3. (Not randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       4. (Not randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  5. (Not randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  6. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             7. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      8. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  9. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  10. (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  11. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             12. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             9. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             10. (Randomized.)   Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
 },
 {
   "id": "sec-trig-intro-2",
@@ -946,18 +946,18 @@ var ptx_lunr_docs = [
   "body": "Definitions of , and Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of in a circle.  We know that . Therefore, in terms of right angled triangles, . Now do the same for secant and cotangent.  In terms of , we see that . Now do the same for secant and cotangent.  "
 },
 {
-  "id": "sec-trig-intro-8",
+  "id": "sec-trig-intro-9",
   "level": "2",
-  "url": "sec-trig-intro.html#sec-trig-intro-8",
+  "url": "sec-trig-intro.html#sec-trig-intro-9",
   "type": "Checkpoint",
   "number": "4.6",
   "title": "Simplifying.",
   "body": "Simplifying   Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or           "
 },
 {
-  "id": "sec-trig-special-3",
+  "id": "fig-special",
   "level": "2",
-  "url": "sec-trig-intro.html#sec-trig-special-3",
+  "url": "sec-trig-intro.html#fig-special",
   "type": "Figure",
   "number": "4.7",
   "title": "Two special triangles",
@@ -1005,8 +1005,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#trig-intro-ex4",
   "type": "Example",
   "number": "4.12",
-  "title": "Evaluating at <span class=\"process-math\">\\(\\frac{2\\pi}{3}\\)<\/span> NEEDS A FIGURE.",
-  "body": " Evaluating at NEEDS A FIGURE  Find exact values for and without using a calculator.        By placing the second special triangle in quadrant II as in FIGURE XXXX, we see that for the angle we can take: Then, using the definitions in , we have the following:      "
+  "title": "Evaluating at <span class=\"process-math\">\\(\\frac{2\\pi}{3}\\)<\/span>.",
+  "body": " Evaluating at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is . Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:      "
 },
 {
   "id": "sec-trig-circle-5",
@@ -1023,78 +1023,96 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#trig-intro-ex5",
   "type": "Example",
   "number": "4.14",
-  "title": "Evaluating at <span class=\"process-math\">\\(-\\frac{\\pi}{6}\\)<\/span> NEEDS A FIGURE.",
-  "body": " Evaluating at NEEDS A FIGURE  Find exact values for and without using a calculator.        By placing the second special triangle in quadrant IV as in FIGURE YYY, we see that for the angle we can take: Then, using the definitions in , we have the following:      "
-},
-{
-  "id": "sec-trig-circle-7",
-  "level": "2",
-  "url": "sec-trig-intro.html#sec-trig-circle-7",
-  "type": "Checkpoint",
-  "number": "4.15",
-  "title": "Evaluating at <span class=\"process-math\">\\(\\frac{3\\pi}{4}\\)<\/span>.",
-  "body": "Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                          "
+  "title": "Evaluating at <span class=\"process-math\">\\(-\\frac{\\pi}{6}\\)<\/span>.",
+  "body": " Evaluating at  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:      "
 },
 {
   "id": "sec-trig-circle-8",
   "level": "2",
   "url": "sec-trig-intro.html#sec-trig-circle-8",
   "type": "Checkpoint",
+  "number": "4.15",
+  "title": "Evaluating at <span class=\"process-math\">\\(\\frac{3\\pi}{4}\\)<\/span>.",
+  "body": "Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                          "
+},
+{
+  "id": "sec-trig-circle-9",
+  "level": "2",
+  "url": "sec-trig-intro.html#sec-trig-circle-9",
+  "type": "Checkpoint",
   "number": "4.16",
   "title": "Evaluating at <span class=\"process-math\">\\(-\\frac{5\\pi}{6}\\)<\/span>.",
   "body": "Evaluating at   Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                          "
+},
+{
+  "id": "sec-trig-right-4",
+  "level": "2",
+  "url": "sec-trig-intro.html#sec-trig-right-4",
+  "type": "Figure",
+  "number": "4.17",
+  "title": "Graph of <span class=\"process-math\">\\(y=\\sin \\theta\\)<\/span>",
+  "body": " Graph of  Graph of   Graph of .   "
+},
+{
+  "id": "sec-trig-right-5",
+  "level": "2",
+  "url": "sec-trig-intro.html#sec-trig-right-5",
+  "type": "Figure",
+  "number": "4.18",
+  "title": "Graph of <span class=\"process-math\">\\(y=\\cos \\theta\\)<\/span>",
+  "body": " Graph of  Graph of   Graph of .   "
 },
 {
   "id": "trig-intro-ex2",
   "level": "2",
   "url": "sec-trig-intro.html#trig-intro-ex2",
   "type": "Example",
-  "number": "4.17",
+  "number": "4.19",
   "title": "Evaluating <span class=\"process-math\">\\(\\cos \\left(\\frac{3\\pi}{2}\\right)\\)<\/span>.",
-  "body": " Evaluating   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle. For the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .    "
+  "body": " Evaluating   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .    "
 },
 {
   "id": "trig-intro-ex3",
   "level": "2",
   "url": "sec-trig-intro.html#trig-intro-ex3",
   "type": "Example",
-  "number": "4.18",
+  "number": "4.20",
   "title": "Evaluating <span class=\"process-math\">\\(\\sec \\left(4\\pi\\right)\\)<\/span>.",
   "body": " Evaluating   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .    "
-},
-{
-  "id": "sec-trig-right-8",
-  "level": "2",
-  "url": "sec-trig-intro.html#sec-trig-right-8",
-  "type": "Checkpoint",
-  "number": "4.19",
-  "title": "Evaluating <span class=\"process-math\">\\(\\sin \\left(\\frac{3\\pi}{2}\\right)\\)<\/span>.",
-  "body": "Evaluating    Evaluate without using a calculator.            "
 },
 {
   "id": "sec-trig-right-9",
   "level": "2",
   "url": "sec-trig-intro.html#sec-trig-right-9",
   "type": "Checkpoint",
-  "number": "4.20",
-  "title": "Evaluating sine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span>.",
-  "body": "Evaluating sine at multiples of    Evaluate without using a calculator.   .           "
+  "number": "4.21",
+  "title": "Evaluating <span class=\"process-math\">\\(\\sin \\left(\\frac{3\\pi}{2}\\right)\\)<\/span>.",
+  "body": "Evaluating    Evaluate without using a calculator.            "
 },
 {
   "id": "sec-trig-right-10",
   "level": "2",
   "url": "sec-trig-intro.html#sec-trig-right-10",
   "type": "Checkpoint",
-  "number": "4.21",
-  "title": "Evaluating cosine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span>.",
-  "body": "Evaluating cosine at multiples of    Evaluate without using a calculator.   .           "
+  "number": "4.22",
+  "title": "Evaluating sine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span>.",
+  "body": "Evaluating sine at multiples of    Evaluate without using a calculator.   .           "
 },
 {
   "id": "sec-trig-right-11",
   "level": "2",
   "url": "sec-trig-intro.html#sec-trig-right-11",
   "type": "Checkpoint",
-  "number": "4.22",
+  "number": "4.23",
+  "title": "Evaluating cosine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span>.",
+  "body": "Evaluating cosine at multiples of    Evaluate without using a calculator.   .           "
+},
+{
+  "id": "sec-trig-right-12",
+  "level": "2",
+  "url": "sec-trig-intro.html#sec-trig-right-12",
+  "type": "Checkpoint",
+  "number": "4.24",
   "title": "Evaluating trig at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span> NEEDS FIXING, DOES NOT ACCEPT DNE.",
   "body": "Evaluating trig at multiples of NEEDS FIXING, DOES NOT ACCEPT DNE   Evaluate the following without using a calculator.   .   .   .   .   .   .                                    "
 },
@@ -1130,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#triggraphs-6",
   "type": "Table",
-  "number": "4.23",
+  "number": "4.25",
   "title": "Periods of trigonometric functions.",
   "body": " Periods of trigonometric functions.    Function  Period                            "
 },
@@ -1139,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#graph1",
   "type": "Example",
-  "number": "4.24",
+  "number": "4.26",
   "title": "Properties from graphs.",
   "body": " Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .   "
 },
@@ -1148,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#sec-trig-graphs-6-5",
   "type": "Checkpoint",
-  "number": "4.25",
+  "number": "4.27",
   "title": "Properties from graphs.",
   "body": "Properties from graphs   Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                      "
 },
@@ -1175,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#graph2",
   "type": "Example",
-  "number": "4.26",
+  "number": "4.28",
   "title": "Symmetries.",
   "body": " Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.   "
 },
@@ -1184,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#sec-trig-graphs-6-10",
   "type": "Checkpoint",
-  "number": "4.27",
+  "number": "4.29",
   "title": "Symmetries and properties from graphs.",
   "body": "Symmetries and properties from graphs   Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                           "
 },
@@ -1193,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#trans1",
   "type": "Example",
-  "number": "4.28",
+  "number": "4.30",
   "title": "Basic transformations GRAPHS NEEDED.",
   "body": " Basic transformations GRAPHS NEEDED   Use a graphing tool to graph and . How are they different from the graph of ?    INSERT GRAPHS  Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1.  Looking at the graph of , we see that it again looks similar to the graph of , except this time the persiod is instead of . The oscillations occur `twice as fast' compared to the graph of .   "
 },
@@ -1220,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#graph3",
   "type": "Example",
-  "number": "4.29",
+  "number": "4.31",
   "title": "Amplitude, period, phase shift.",
   "body": " Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .   "
 },
@@ -1229,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#sec-trig-graphs-7-7",
   "type": "Checkpoint",
-  "number": "4.30",
+  "number": "4.32",
   "title": "Determining period.",
   "body": "Determining period   Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of            "
 },
@@ -1238,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#ex-trig-graph1",
   "type": "Checkpoint",
-  "number": "4.31",
+  "number": "4.33",
   "title": "Amplitude, period, phase shift from graph.",
   "body": "Amplitude, period, phase shift from graph   The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                     "
 },
@@ -1247,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-graphs.html#ex-trig-graph2",
   "type": "Checkpoint",
-  "number": "4.32",
+  "number": "4.34",
   "title": "Amplitude, period, phase shift from expression.",
   "body": "Amplitude, period, phase shift from expression   For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                "
 },
@@ -1310,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse1",
   "type": "Example",
-  "number": "4.33",
+  "number": "4.35",
   "title": "Evaluating arcsine.",
   "body": " Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Using the special triangles in , we notice that , and also is in the interval .   Therefore .    "
 },
@@ -1319,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse2",
   "type": "Example",
-  "number": "4.34",
+  "number": "4.36",
   "title": "Evaluating arcsine- ADD FIGURE?",
   "body": " Evaluating arcsine- ADD FIGURE?   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is negative in Quadrant VI (but not in Quadrant I). (And we want a negative value since .)    Using the special triangles in , we can draw one o them in Quadrant IV, and see that , and also is in the interval .   Therefore .    "
 },
@@ -1328,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse3",
   "type": "Example",
-  "number": "4.35",
+  "number": "4.37",
   "title": "Inverse properties.",
   "body": " Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
 },
@@ -1337,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse4",
   "type": "Example",
-  "number": "4.36",
+  "number": "4.38",
   "title": "Inverse properties.",
   "body": " Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , we first see that . So we ned to evaluate . Similar to the solutions in and , this means we need to look for a in the interval such that . We easily see that this means .    "
 },
@@ -1346,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-15",
   "type": "Checkpoint",
-  "number": "4.37",
+  "number": "4.39",
   "title": "Evaluating arcsine.",
   "body": "Evaluating arcsine   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1355,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-16",
   "type": "Checkpoint",
-  "number": "4.38",
+  "number": "4.40",
   "title": "Evaluating arcsine.",
   "body": "Evaluating arcsine   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1364,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-17",
   "type": "Checkpoint",
-  "number": "4.39",
+  "number": "4.41",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1373,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-18",
   "type": "Checkpoint",
-  "number": "4.40",
+  "number": "4.42",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1400,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse5",
   "type": "Example",
-  "number": "4.41",
+  "number": "4.43",
   "title": "Evaluating arccos.",
   "body": " Evaluating arccos   Evaluate .         Let's use the notation . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I).    Using the special triangles in , we notice that . To get a negative value, we look in Quadrant II. We see that , and also is in the interval .   Therefore .    "
 },
@@ -1409,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse6",
   "type": "Example",
-  "number": "4.42",
+  "number": "4.44",
   "title": "Evaluating arccos.",
   "body": " Evaluating arccos   Evaluate .         Start by writing write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? The easiest way to answer that might be to look at the graph of (see ).  From the graph of we see that , and is in the interval .  Therefore .    "
 },
@@ -1418,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse7",
   "type": "Example",
-  "number": "4.43",
+  "number": "4.45",
   "title": "Inverse properties.",
   "body": " Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
 },
@@ -1427,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse8",
   "type": "Example",
-  "number": "4.44",
+  "number": "4.46",
   "title": "Inverse properties - ADD FIGURES??",
   "body": " Inverse properties - ADD FIGURES??   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , one option is to find another angle in the interval with the same cosine value. Looking at the unit circle, we see that . Therefore: The last step above is true because is in the interval so now the identity can be used.    "
 },
@@ -1436,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-13",
   "type": "Checkpoint",
-  "number": "4.45",
+  "number": "4.47",
   "title": "Evaluating arccos.",
   "body": "Evaluating arccos   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1445,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-14",
   "type": "Checkpoint",
-  "number": "4.46",
+  "number": "4.48",
   "title": "Evaluating arccos.",
   "body": "Evaluating arccos   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1454,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-15",
   "type": "Checkpoint",
-  "number": "4.47",
+  "number": "4.49",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1463,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-16",
   "type": "Checkpoint",
-  "number": "4.48",
+  "number": "4.50",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1490,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse9",
   "type": "Example",
-  "number": "4.49",
+  "number": "4.51",
   "title": "Evaluating arctan.",
   "body": " Evaluating arctan   Evaluate .         Let . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a tangent value of ? Consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Using the special triangles in , we notice that . Also, is in the interval .   Therefore .    "
 },
@@ -1499,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-7-9",
   "type": "Checkpoint",
-  "number": "4.50",
+  "number": "4.52",
   "title": "Evaluating arctan.",
   "body": "Evaluating arctan   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1508,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse10",
   "type": "Example",
-  "number": "4.51",
+  "number": "4.53",
   "title": "Evaluating arccot.",
   "body": " Evaluating arccot   Evaluate arccot .         Let . This means and .  Which value of in the interval corresponds to a cotangent value of ?   The interval means that is in Quadrant I or Quadrant II.     is positive in Quadrant I (but not in Quadrant II).    Using the special triangles in , we notice that and is in the interval .   Therefore .    "
 },
@@ -1517,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-8-5",
   "type": "Checkpoint",
-  "number": "4.52",
+  "number": "4.54",
   "title": "Evaluating arcsec.",
   "body": "Evaluating arcsec   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1526,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-8-6",
   "type": "Checkpoint",
-  "number": "4.53",
+  "number": "4.55",
   "title": "Evaluating arccsc.",
   "body": "Evaluating arccsc   Evaluate without using a calculator. Answer with an exact value.   .           "
 },
@@ -1535,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse11",
   "type": "Example",
-  "number": "4.54",
+  "number": "4.56",
   "title": "Evaluating arccos.",
   "body": " Evaluating arccos   Evaluate .         Let . The range of is (you should memorize that!). Therefore we have need to find a such that and .  Consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I), so we are looking for a value on Quadrant II.    Using the special triangles in , we notice that . Also, is in the interval .   Therefore .    "
 },
@@ -1544,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse12",
   "type": "Example",
-  "number": "4.55",
+  "number": "4.57",
   "title": "Correct or incorrect?",
   "body": " Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Recall that for . Since this means .    It is incorrect.    The `solution' is incorrect. The range of is so the identity holds for (not for ).   "
 },
@@ -1553,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse13",
   "type": "Example",
-  "number": "4.56",
+  "number": "4.58",
   "title": "Correct or incorrect?",
   "body": " Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Now, let so that and . By using a special triangle in Quadrant IV, we see that and .  Therefore so then     It is incorrect.    The `solution' is incorrect. The first line is incorrect, because Instead, solve the problrm similarly to . The correct final answer is    "
 },
