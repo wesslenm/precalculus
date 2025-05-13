@@ -62,8 +62,7 @@
 
   <subsection>
     <title>Angle notation</title>
-  <p> THIS PART NEEDS IMAGES </p>
-  <p> In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  </p>
+   <p> In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  </p>
   
   
 <table>
@@ -239,7 +238,7 @@
 <assemblage>
     <title>Definitions of trigonometric functions - general definition</title>
     <p>
-      Let <m> \theta </m> be any angle in standard position in a circle centered at <m>(0,0)</m>. 
+      Let <m> \theta </m> be any angle in standard position in a circle centered at <m>(0,0)</m>. With <m>x, y</m> and <m>r</m> as in <xref ref="fig-trig-intro2"/>, we make the following definitions: 
     </p>
     <p>
     <ul>
@@ -375,7 +374,7 @@
     <sidebyside>
         <figure>
             <caption><m>\pi/4, \pi/4</m> special triangle</caption>
-            <image source="images/trigintro1" width="40%">
+            <image source="images/trigintro1" width="10%">
                 <shortdescription>Special triangle, <m>\pi/4, \pi/4</m>.</shortdescription>
             </image>
         </figure>
