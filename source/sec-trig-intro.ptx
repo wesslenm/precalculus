@@ -301,6 +301,9 @@
   </aside>
   </subsection>
 
+<p> 
+</p>
+
   <exercise xml:id="trig-intro-CP1">
   <title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m></title>
   <hint>
@@ -368,7 +371,7 @@
         </figure>
 -->
 
-<figure>
+<figure xml:id="fig-special">
     <caption>The two special triangles</caption>
     <title>Two special triangles</title>
     <sidebyside>
@@ -397,6 +400,7 @@
       You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.  
     </p>
   </aside>
+
   <example xml:id="trig-intro-ex1">
   <title>Evaluating using special triangles</title>
 	<statement>
@@ -518,11 +522,12 @@
 
   <subsection xml:id="sec-trig-circle">
     <title>Evaluating using the coordinate system</title>
-    <p> THIS PART NEEDS FIGURES. </p>
-  <p> If an angle is not in the first quadrant it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.   </p>
+  <p> If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.   </p>
+	  <p>
+	  </p>
 
  <example xml:id="trig-intro-ex4">
-  <title>Evaluating at <m>\frac{2\pi}{3}</m> NEEDS A FIGURE</title>
+  <title>Evaluating at <m>\frac{2\pi}{3}</m></title>
 	<statement>
       Find exact values for <m> \sin \left(\frac{2\pi}{3}\right), \ \cos \left(\frac{2\pi}{3}\right) </m> and <m>\tan \left(\frac{2\pi}{3}\right)</m> without using a calculator.
 	</statement>
@@ -534,7 +539,25 @@
 	  </p>
 	</answer>
   	<solution>
-	  <p>By placing the second special triangle in quadrant II as in FIGURE XXXX, we see that for the angle <m>\theta= \frac{2\pi}{3} </m> we can take: 
+	  <p>
+      Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle <m>\theta= \frac{2\pi}{3} </m> in standard position (see <xref ref="fig-trig-intro1" />).  
+    </p>
+<image source="images/trig1ex1" width="50%">
+      <shortdescription>
+          Angle <m>\frac{2\pi}{3} </m> in standard position.
+        </shortdescription>
+  </image>
+   <p> 
+      The part of angle <m>\frac{2\pi}{3} </m> which is in quadrant II, is <m>\frac{2\pi}{3}</m>. Therefore, place the special triangle with <m>\frac{\pi}{6}</m> (see <xref ref="fig-special"/>) in quadrant II: 
+    </p>
+<image source="images/trig1ex2" width="50%">
+      <shortdescription>
+          The special triangle with <m>\frac{\pi}{6}</m> in quadrant II.
+        </shortdescription>
+  </image>
+
+    <p>  
+      Reading from the figure, we see that for the angle <m>\theta= \frac{2\pi}{3} </m> we can take:  
 		<me>
 			x = -1,  y = \sqrt{3},  r = 2.
 		</me>
@@ -581,8 +604,11 @@
   </webwork>
 </exercise>
 
+	  <p>
+	  </p>
+
 <example xml:id="trig-intro-ex5">
-  <title>Evaluating at <m>-\frac{\pi}{6}</m> NEEDS A FIGURE</title>
+  <title>Evaluating at <m>-\frac{\pi}{6}</m></title>
 	<statement>
       Find exact values for <m> \sin \left(-\frac{\pi}{6}\right), \ \cos \left(-\frac{\pi}{6}\right) </m> and <m>\sec \left(-\frac{\pi}{6}\right)</m> without using a calculator.
 	</statement>
@@ -594,11 +620,29 @@
 	  </p>
 	</answer>
   	<solution>
-	  <p>By placing the second special triangle in quadrant IV as in FIGURE YYY, we see that for the angle <m>\theta= -\frac{\pi}{6} </m> we can take: 
+	  <p>
+      We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle <m>\theta= -\frac{\pi}{6} </m> in standard position (see <xref ref="fig-trig-intro1" />). Because it is a negative angle, it is in the clockwise direction.   
+    </p>
+<image source="images/trig1ex3" width="50%">
+      <shortdescription>
+          Angle <m>-\frac{\pi}{6}</m> in standard position.
+        </shortdescription>
+  </image>
+   <p> 
+      Place the special triangle with <m>\frac{\pi}{6}</m> (see <xref ref="fig-special"/>) in quadrant IV: 
+    </p>
+<image source="images/trig1ex4" width="50%">
+      <shortdescription>
+          The special triangle with <m>\frac{\pi}{6}</m> in quadrant IV.
+        </shortdescription>
+  </image>
+
+    <p>  
+      Reading from the figure, we see that for the angle <m>\theta= -\frac{\pi}{6}</m> we can take:  
 		<me>
 			x = \sqrt{3},  y = -1,  r = 2.
 		</me>
-    Then, using the definitions in <xref ref="trig-def" />, we have the following:
+    Then, using the definitions in <xref ref="trig-def"/>, we have the following:
     <me>
 			\sin \left(-\frac{\pi}{6}\right) = \frac{y}{r} =  -\frac{1}{2}
 		</me>
@@ -611,7 +655,6 @@
     </p>
 	</solution>
   </example>
-
 
 <exercise>
 <title>Evaluating at <m>\frac{3\pi}{4}</m></title>
@@ -679,13 +722,10 @@
   </webwork>
 </exercise>
 
-
-
   </subsection>
 
   <subsection xml:id="sec-trig-right">
     <title>Evaluating at <m>0, \pi/2, \pi</m> etc. </title>
-    <p> THIS PART NEEDS FIGURES. COULD USE A FIGURE IN THE EXAMPLE SOLUTION. COULD ADD A SECTION ON "IF COS (THETA) = 4/7, WHAT ARE THE OTHER TRIG FUNCTIONS?"  </p>
   <p> If you know the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>, then it is easy to find the values of all trigonometric functions for any multiple of <m>\frac{\pi}{2}</m>. 
   Trigonometic graphs are discussed more in <xref ref="sec-trig-graphs" />, but you may already remember the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>:
    </p>
@@ -699,12 +739,25 @@
     </p>
   </aside>
 
-   <p>
-    [INSERT FIGURE]
-      <alert> Graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>. </alert>
-    </p>
+<figure>
+  <caption>Graph of <m>y=\sin \theta</m></caption>
+  <title>Graph of <m>y=\sin \theta</m></title>
+  <image source="images/trig1sin" width="70%">
+      <shortdescription>
+          Graph of <m>y=\sin \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
 
-
+<figure>
+  <caption>Graph of <m>y=\cos \theta</m></caption>
+  <title>Graph of <m>y=\cos \theta</m></title>
+  <image source="images/trig1cos" width="70%">
+      <shortdescription>
+          Graph of <m>y=\cos \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
 
 
  <example xml:id="trig-intro-ex2">
@@ -724,7 +777,16 @@
 		<me>
 			\boxed{\cos \left(\frac{3\pi}{2}\right)= 0}
 		</me>
-    Option 2: Another option would be to look at angles on the unit circle. For the angle <m>\theta =\frac{3\pi}{2}</m>, we have <m>x=0</m>, <m>y=-1</m> and <m>r=1</m> (<m>r</m> is always 1 on the unit circle). Also, <m>y=\cos \theta = \frac{x}{r}</m> (recall from <xref ref="trig-def" />). This means <m>y=\cos \left(\frac{3\pi}{2}\right) = \frac{0}{1}= 0</m>.
+    Option 2: Another option would be to look at angles on the unit circle (in standard position, see <xref ref="fig-trig-intro1"/>). 
+    	  </p>
+    <image source="images/trig1ex5" width="70%">
+      <shortdescription>
+          The angle <m>\theta= \frac{3\pi}{2}</m>.
+        </shortdescription>
+  </image>
+
+    <p>
+    From the figure we see that for the angle <m>\theta =\frac{3\pi}{2}</m>, we have <m>x=0</m>, <m>y=-1</m> and <m>r=1</m> (<m>r</m> is always 1 on the unit circle). Also, <m>y=\cos \theta = \frac{x}{r}</m> (recall from <xref ref="trig-def" />). This means <m>y=\cos \left(\frac{3\pi}{2}\right) = \frac{0}{1}= 0</m>.
 		<me>
 			\boxed{\cos \left(\frac{3\pi}{2}\right)= 0}
 		</me>
@@ -754,6 +816,10 @@
 	</solution>
   </example>
 
+     <p>
+      <alert> Study tip: </alert>
+    </p>
+    
 <exercise>
 <title>Evaluating <m>\sin \left(\frac{3\pi}{2}\right)</m> </title>
   <webwork>
