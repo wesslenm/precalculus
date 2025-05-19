@@ -10,7 +10,7 @@
   <!-- include sections -->
   <xi:include href="sec-trig-intro.ptx" />
   <xi:include href="sec-trig-graphs.ptx" />
-  <xi:include href="sec-trig-identities.ptx" />
+  <!-- xi:include href="sec-trig-identities.ptx" /> -->
   <xi:include href="sec-trig-inverse.ptx" />
 
 </chapter>

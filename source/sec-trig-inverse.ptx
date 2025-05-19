@@ -71,9 +71,26 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
     <title>Arcsine - the inverse sine function</title>
   <p>Let's start with a reminder regarding inverse function in general:  </p>
       <p>A function <m>y=f(x)</m> has an inverse if and only if <m>y=f(x)</m> is one-to-one. An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes the horizontal line test (meaning, no horizontal line crosses the curve more than once). </p>
-        <p>Looking at the graph of <m>y=\sin x</m>, we see that it does NOT pass the horizontal line test, so therefore <m>y=\sin x</m> is not invertible. </p>
-   <p>INSERT GRAPH </p>
-   <p>However, this difficulty can be solved by restricting the domain. If we restrict the domain of <m>y=\sin x</m> to the interval <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>, then the restricted function is one-to-one. We call the inverse of the restricted sine function, <term>the inverse sine function</term> <m>y=\arcsin x</m>.  </p>
+        
+    <figure xml:id="fig3-sin">
+  <caption>Graph of <m>y=\sin \theta</m>.</caption>
+  <title>Graph of <m>y=\sin \theta</m></title>
+  <image source="images/trig1sin" width="70%">
+      <shortdescription>
+          Graph of <m>y=\sin \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+      
+      <p>
+        Looking at the graph of <m>y=\sin x</m> in <xref ref="fig3-sin"/>, we see that it does NOT pass the horizontal line test, so therefore <m>y=\sin x</m> is not invertible. 
+      </p>
+   
+     
+   
+        <p>
+          However, this difficulty can be solved by restricting the domain. If we restrict the domain of <m>y=\sin x</m> to the interval <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>, then the restricted function is one-to-one. We call the inverse of the restricted sine function, <term>the inverse sine function</term> <m>y=\arcsin x</m>.  
+        </p>
   
       <aside>
     <p>
@@ -130,7 +147,15 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
         </p>
       </li>    
     </ul>
+
+    The graph of <m>y = \arcsin x </m> is:
   </p>
+
+  <image source="images/trig3arcsin" width="50%">
+      <shortdescription>
+          Graph of <m>y = \arcsin x </m>.
+        </shortdescription>
+  </image>
   </assemblage>
   
     <aside>
@@ -169,15 +194,24 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
       </li>
       <li>
         <p>
-          <m>sin x</m> is positive in Quadrant I (but not in Quadrant IV).
+          <m>\sin x</m> is positive in Quadrant I (but not in Quadrant IV).
         </p>
       </li>
        <li>
         <p>
-          Using the special triangles in <xref ref="sec-trig-special" />, we notice that <m>\sin \left(\frac{\pi}{3} \right) = \frac{\sqrt{3}}{2} </m>, and also <m>\frac{\pi}{3}</m> is in the interval <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m>. 
+          Now place one of the special triangles (see <xref ref="fig-special" />) in Quadrant I. Choose the triangle and the location that corresponds with <m>\sin \theta = \frac{\sqrt{3}}{2} </m>.
         </p>
       </li>          
     </ul>
+      </p>
+    <image source="images/trig3ex1" width="50%">
+      <shortdescription>
+          A special triangle in Quadrant IV. 
+        </shortdescription>
+  </image>
+
+            <p>
+    We notice that <m>\sin \left(\frac{\pi}{3} \right) = \frac{\sqrt{3}}{2} </m>. Also <m>\frac{\pi}{3}</m> is in the interval <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m>. 
 Therefore <m>\theta = \frac{\pi}{3}</m>. 
 
 
@@ -187,7 +221,7 @@ Therefore <m>\theta = \frac{\pi}{3}</m>.
   </example>
 
  <example xml:id="inverse2">
-    <title>Evaluating arcsine- ADD FIGURE?</title>
+    <title>Evaluating arcsine</title>
     <statement>
       <p>
       Evaluate <m>\arcsin \left(-\frac{1}{2}\right) </m>.
@@ -218,14 +252,24 @@ Therefore <m>\theta = \frac{\pi}{3}</m>.
       </li>
        <li>
         <p>
-          Using the special triangles in <xref ref="sec-trig-special" />, we can draw one o them in Quadrant IV, and see that <m>\sin \left(-\frac{\pi}{6} \right) = - \frac{1}{2} </m>, and also <m>-\frac{\pi}{6}</m> is in the interval <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m>. 
+          Now place one of the special triangles (see <xref ref="fig-special" />) in Quadrant IV. (see below). 
         </p>
       </li>          
     </ul>
-Therefore <m>\theta = -\frac{\pi}{6}</m>. 
+
+  <image source="images/trig1ex4" width="50%">
+      <shortdescription>
+          A special triangle in Quadrant IV. 
+        </shortdescription>
+  </image>
 
 
-        <me>\boxed{\arcsin \left(-\frac{1}{2}\right) = -\frac{\pi}{6}}</me>
+We see that <m>\sin \left(-\frac{\pi}{6} \right) = - \frac{1}{2} </m>. Also <m>-\frac{\pi}{6}</m> is in the interval <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m>.  Therefore <m>\theta = -\frac{\pi}{6}</m>. 
+
+
+        <me>
+          \boxed{\arcsin \left(-\frac{1}{2}\right) = -\frac{\pi}{6}}
+        </me>
       </p>
     </solution>
   </example>
@@ -321,11 +365,6 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
   </webwork>
 </exercise>
 
-
-
-
-
-
 <exercise>
 <title>Inverse properties</title>
   <webwork>
@@ -372,9 +411,23 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
 
 <subsection>
     <title>Arccos - the inverse cosine function</title>
-       <p>Looking at the graph of <m>y=\cos x</m>, we see that it also does NOT pass the horizontal line test, so therefore <m>y=\cos x</m> is not invertible. </p>
-   <p>INSERT GRAPH </p>
-   <p>If we restrict the domain of <m>y=\cos x</m> in the same way as <m>y=\sin x</m> (namely <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>), it is still not oe-to-one. However, we can choose a different interval. The interval we will restrict <m>y=\cos x</m> to, to make it one-to-one is <m>\left[0, \pi\right]</m>. Then the restricted function is one-to-one. We call the inverse of the restricted cosine function, <term>the inverse cosine function</term> <m>y=\arccos x</m>.  </p>
+       <p>
+        Looking at the graph of <m>y=\cos x</m> in <xref ref="fig3-cos"/>, we see that it also does NOT pass the horizontal line test, so therefore <m>y=\cos x</m> is not invertible. 
+      </p>
+  
+       <figure xml:id="fig3-cos">
+  <caption>Graph of <m>y=\cos \theta</m></caption>
+  <title>Graph of <m>y=\cos \theta</m></title>
+  <image source="images/trig1cos" width="70%">
+      <shortdescription>
+          Graph of <m>y=\cos \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+   <p>
+    If we restrict the domain of <m>y=\cos x</m> in exactly the same way as <m>y=\sin x</m> (namely restrict the domain to <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>), then it is still not oe-to-one. However, we can choose a different interval. The interval we will restrict <m>y=\cos x</m> to, to make it one-to-one is <m>\left[0, \pi\right]</m>. Then the restricted function is one-to-one. We call the inverse of the restricted cosine function, <term>the inverse cosine function</term> <m>y=\arccos x</m>.  
+  </p>
   
       <aside>
     <p>
@@ -431,7 +484,14 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
         </p>
       </li>    
     </ul>
+      The graph of <m>y = \arccos x </m> is:
   </p>
+
+  <image source="images/trig3arccos" width="50%">
+      <shortdescription>
+          Graph of <m>y = \arccos x </m>.
+        </shortdescription>
+  </image>
   </assemblage>
   
     <aside>
@@ -470,12 +530,12 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
       </li>
       <li>
         <p>
-          <m>cos x</m> is negative in Quadrant II (but not in Quadrant I).
+          <m>\cos x</m> is negative in Quadrant II (but not in Quadrant I).
         </p>
       </li>
        <li>
         <p>
-          Using the special triangles in <xref ref="sec-trig-special" />, we notice that <m>\cos \left(\frac{\pi}{4} \right) = \frac{1}{\sqrt{2}} </m>. To get a negative value, we look in Quadrant II. We see that <m>\cos \left(\frac{3\pi}{4} \right) = -\frac{1}{\sqrt{2}} </m>, and also <m>\frac{3\pi}{4}</m> is in the interval <m>0 \leq \theta \leq \pi</m>. 
+          Using the special triangles (see <xref ref="fig-special" />), we notice that <m>\cos \left(\frac{\pi}{4} \right) = \frac{1}{\sqrt{2}} </m>. To get a negative value, we look in Quadrant II. We see that <m>\cos \left(\frac{3\pi}{4} \right) = -\frac{1}{\sqrt{2}} </m>, and also <m>\frac{3\pi}{4}</m> is in the interval <m>0 \leq \theta \leq \pi</m>. 
         </p>
       </li>          
     </ul>
@@ -496,7 +556,7 @@ Therefore <m>\theta = \frac{3\pi}{4}</m>.
     </statement>
     <answer>
       <p>
-        <me>\boxed{\arccos 0 = \frac{\pi}{2}</me>
+        <me>\boxed{\arccos 0 = \frac{\pi}{2}}</me>
       </p>
       </answer>
    <solution>
@@ -513,7 +573,7 @@ Therefore <m>\theta = \frac{3\pi}{4}</m>.
   <p>
 Therefore <m>\theta = \frac{\pi}{2}</m>. 
 
-        <me>\boxed{\arccos 0 = \frac{\pi}{2}</me>
+        <me>\boxed{\arccos 0 = \frac{\pi}{2}}</me>
       </p>
     </solution>
   </example>
@@ -556,23 +616,35 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </answer>
     <solution>
       <p>
-The following is a COMMON ERROR: <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. We can not use <m>\arccos \left(\cos \left(x\right)\right)=x </m> with <m>x=\frac{4\pi}{3}</m>, because <m>\frac{4\pi}{3}</m> is not in the required interval (we need <m>0 \leq x \leq \pi</m>).
+         following is a COMMON ERROR: <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. We can not use <m>\arccos \left(\cos \left(x\right)\right)=x </m> with <m>x=\frac{4\pi}{3}</m>, because <m>\frac{4\pi}{3}</m> is not in the required interval (we need <m>0 \leq x \leq \pi</m>).
       </p>
       <p>
-CORRECT SOLUTION: To evaluate <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right)</m>, one option is to find another angle in the interval <m>0 \leq x \leq \pi</m> with the same cosine value. Looking at the unit circle, we see that <m>\cos \left(\frac{4\pi}{3}\right) = \cos \left(\frac{2\pi}{3}\right)</m>. Therefore:
-<me>
-  \arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) = \arccos \left(\cos \left(\frac{2\pi}{3}\right)\right) = \frac{2\pi}{3}
-</me>
-The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so now the identity <m>\arccos \left(\cos \left(x\right)\right)=x </m> can be used. 
+         CORRECT SOLUTION: To evaluate <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right)</m>, one option is to draw <m>\frac{4\pi}{3}</m> on the unit cirle (in standard position) and find another angle in the interval <m>0 \leq x \leq \pi</m> with the same cosine value as <m>\cos \left(\frac{4\pi}{3}\right)</m>. 
+         Looking at the unit circle, we see that <m>\cos \left(\frac{4\pi}{3}\right) = \cos \left(\frac{2\pi}{3}\right)</m>. (See the figure.) This is because by definition, we know that <m>\cos \theta = \frac{x}{r}</m>, and both <m>x</m> and <m>r</m> are the same for the two angles. 
+      </p>
 
 
-        <me>\boxed{\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) = \frac{2\pi}{3}}</me>
+      <image source="images/trig3ex2" width="70%">
+          <shortdescription>
+              Two angles with the same cosine value. 
+          </shortdescription>
+      </image>
+      <p>
+        Therefore:
+        <me>
+          \arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) = \arccos \left(\cos \left(\frac{2\pi}{3}\right)\right) = \frac{2\pi}{3}
+        </me>
+        The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so now the identity <m>\arccos \left(\cos \left(x\right)\right)=x </m> can be used. 
+        <me>
+          \boxed{\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) = \frac{2\pi}{3}}
+        </me>
       </p>
     </solution>
   </example>
-<p>
 
+  <p>
 </p>
+
 <exercise>
 <title>Evaluating arccos</title>
   <webwork>
@@ -657,9 +729,19 @@ The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so 
 
   <subsection>
     <title>Arctan - the inverse tangent function</title>
-       <p>Just like <m>y=\sin x</m> and <m>y=\cos x</m> are not one-to-one, we see that the graph of <m>y=\tan x</m> also does NOT pass the horizontal line test, so therefore <m>y=\cos x</m> is not invertible. </p>
-   <p>INSERT GRAPH </p>
-   <p>This time, we can restrict the domain to <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m> then <m>y=\tan x</m> is one-to-one on that domain. We call the inverse of the restricted tangent function, <term>the inverse tangent function</term> <m>y=\arctan x</m>.  </p>
+       <p>Just like <m>y=\sin x</m> and <m>y=\cos x</m> are not one-to-one, we see that the graph of <m>y=\tan x</m> also does NOT pass the horizontal line test, so therefore <m>y=\tan x</m> is also not invertible on its full domain. </p>
+   
+   <figure>
+  <caption>Graph of <m>y=\tan \theta</m></caption>
+  <title>Graph of <m>y=\tan \theta</m></title>
+  <image source="images/trig2tan" width="70%">
+      <shortdescription>
+          Graph of <m>y=\tan \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+   <p>This time, if we restrict the domain to <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m> then <m>y=\tan x</m> is one-to-one on that domain. We call the inverse of the restricted tangent function, <term>the inverse tangent function</term> <m>y=\arctan x</m>.  </p>
   
       <aside>
     <p>
@@ -678,7 +760,7 @@ The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so 
       <men xml:id="arctan">
         y = \arctan x \mbox{ means} \tan y = x
       </men>
-      where <m>-\infty \leq x \leq \infty</m> and <m>-\frac{\pi}{2} \less y \less \frac{\pi}{2}</m>.
+      where <m>-\infty \lt x \lt \infty</m> and <m>-\frac{\pi}{2} \lt y \lt \frac{\pi}{2}</m>.
     </p>
     <p>  
       Some properties of arctan:  
@@ -702,7 +784,7 @@ The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so 
       </li> 
        <li>
         <p>
-          <m>\arctan (\tan x) = x </m> for  <m>\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>.
+          <m>\arctan (\tan x) = x </m> for <m>\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>.
         </p>
       </li>       
        <li>
@@ -716,7 +798,14 @@ The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so 
         </p>
       </li>    
     </ul>
+     The graph of <m>y = \arctan x </m> is:
   </p>
+
+  <image source="images/trig3arctan" width="70%">
+      <shortdescription>
+          Graph of <m>y = \arctan x </m>.
+        </shortdescription>
+  </image>
   </assemblage>
   
     <aside>
@@ -724,7 +813,7 @@ The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so 
       <alert> Study tip: </alert>
     </p>
     <p>  
-      It is important to memorize the ranges of <m>\arctan x, \arcsin x</m> and <m>\arccos x</m> (or remember how to find them). 
+      It is important to memorize the ranges of <m>\arctan x, \arcsin x</m> and <m>\arccos x</m> (or remember how to find them). The graph of <m>y=\arctan x</m> also comes up often, and you should memorize it, including the values of the asymptotes (<m>y=\frac{\pi}{2}</m> and <m>y=-\frac{\pi}{2}</m>).
     </p>
   </aside>
   
@@ -755,16 +844,16 @@ The last step above is true because <m>\frac{2\pi}{3}</m> is in the interval so 
       </li>
       <li>
         <p>
-          <m>tan x</m> is positive in Quadrant I (but not in Quadrant IV).
+          <m>\tan x</m> is positive in Quadrant I (but not in Quadrant IV).
         </p>
       </li>
        <li>
         <p>
-          Using the special triangles in <xref ref="sec-trig-special" />, we notice that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{\pi}{3}</m> is in the interval <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m>. 
+          Therefore, place a special triangle (see <xref ref="rule-one"/>) in Quadrant IV as in <xref ref="sec-trig-special" />. 
         </p>
       </li>          
     </ul>
-Therefore <m>\theta = \frac{\pi}{3}</m>. 
+We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{\pi}{3}</m> is in the interval <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m>. Therefore <m>\theta = \frac{\pi}{3}</m>. 
 
 
         <me>\boxed{\arctan \left(\sqrt{3}\right) = \frac{\pi}{3}}</me>
@@ -845,9 +934,6 @@ Therefore <m>\theta = \frac{\pi}{3}</m>.
          <p>
           Range: <m>\left(0,\pi \right) </m>
         </p>
-                 <p>
-          INSERT GRAPH??
-        </p>
       </li>
       <li>
         <p>
@@ -859,9 +945,6 @@ Therefore <m>\theta = \frac{\pi}{3}</m>.
          <p>
           Range: <m>\left[0,\frac{\pi}{2}\right) \cup \left(\frac{\pi}{2}, \pi \right] </m>
         </p>
-                 <p>
-          INSERT GRAPH??
-        </p>
       </li>
       <li>
         <p>
@@ -872,9 +955,6 @@ Therefore <m>\theta = \frac{\pi}{3}</m>.
         </p>
          <p>
           Range: <m>\left[-\frac{\pi}{2},0\right) \cup \left(0, \frac{\pi}{2} \right] </m>
-        </p>
-                 <p>
-          INSERT GRAPH??
         </p>
       </li> 
     </ul>

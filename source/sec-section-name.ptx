@@ -6,8 +6,19 @@
   <p> For testing things out.... Also for keeping samples of types of code, for easy copy/pasting. </p>
 
 
-
-
+<figure>
+    <caption>RNA Codons Table, by Florian Hollandt</caption>
+    <image xml:id="rna-codons-table" width="50%">
+        <description>A test diagram using TikZ.</description>
+        <latex-image>
+        \begin{tikzpicture}
+                \draw[step=1cm,gray,very thin] (-1.9,-1.9) grid (5.9,5.9);
+                \draw[thick,->] (-1.9,0) -- (4.5,0) node[anchor=north west] {x axis};
+                \draw[thick,->] (0,-1.9) -- (0,4.5) node[anchor=south east] {y axis};
+        \end{tikzpicture}
+</latex-image>
+    </image>
+</figure>
 
 
 <figure>
@@ -41,7 +52,7 @@
 
 
 <p>
-  Cross-reference: <xref ref="rule-one" />
+  Cross-reference: <xref ref="rule-one"/>
 
 A new term: <term>radical</term>
 

@@ -59,7 +59,68 @@ In this section we discuss the graphs of trigonometric functions, and some prope
     <title>Graphs</title>
   <p> The graphs of the trigonometric functions are given below. </p>
   
-  <p> INSERT 6 GRAPHS.....  </p>
+ <figure>
+  <caption>Graph of <m>y=\sin \theta</m></caption>
+  <title>Graph of <m>y=\sin \theta</m></title>
+  <image source="images/trig1sin" width="70%">
+      <shortdescription>
+          Graph of <m>y=\sin \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+<figure>
+  <caption>Graph of <m>y=\cos \theta</m></caption>
+  <title>Graph of <m>y=\cos \theta</m></title>
+  <image source="images/trig1cos" width="70%">
+      <shortdescription>
+          Graph of <m>y=\cos \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+<figure>
+  <caption>Graph of <m>y=\tan \theta</m></caption>
+  <title>Graph of <m>y=\tan \theta</m></title>
+  <image source="images/trig2tan" width="70%">
+      <shortdescription>
+          Graph of <m>y=\tan \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+<figure>
+  <caption>Graph of <m>y=\cot \theta</m></caption>
+  <title>Graph of <m>y=\cot \theta</m></title>
+  <image source="images/trig2cot" width="70%">
+      <shortdescription>
+          Graph of <m>y=\cot \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+<figure>
+  <caption>Graph of <m>y=\sec \theta</m></caption>
+  <title>Graph of <m>y=\sec \theta</m></title>
+  <image source="images/trig2sec" width="70%">
+      <shortdescription>
+          Graph of <m>y=\sec \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+<figure>
+  <caption>Graph of <m>y=\csc \theta</m></caption>
+  <title>Graph of <m>y=\csc \theta</m></title>
+  <image source="images/trig2csc" width="70%">
+      <shortdescription>
+          Graph of <m>y=\csc \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+
+
 
 
   <aside>
@@ -306,30 +367,45 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term> if <m>f(-x)=-
   <subsection>
     <title>Transformations of graphs</title>
   <p> 
-    Transformations of graphs in general are reviewed in <xref ref="sec-func-graphs" />. Here we discuss some transformations specifically in terms of trigonometric functions. 
+    Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions. 
     
     <example xml:id="trans1">
-    <title>Basic transformations GRAPHS NEEDED</title>
+    <title>Basic transformations</title>
     <statement>
       <p>
-      Use a graphing tool to graph <m>y=2\cos x</m> and <m>y=\cos (2x)</m>. How are they different from the graph of <m>y=\cos x</m>?
+      Use a graphing tool (for example DESMOS) to graph first <m>y=2\cos x</m> and then <m>y=\cos (2x)</m>. How are each of them different from the graph of <m>y=\cos x</m>?
       </p>
     </statement>
     <solution>
       <p>
-INSERT GRAPHS
+Let's start by looking at the graphs of <m>y=2\cos x</m> and <m>y=\cos x</m> together. 
       </p>
+  <image source="images/trig2ex1" width="70%">
+      <shortdescription>
+          The graphs of <m>y=2\cos x</m> and <m>y=\cos x</m>.
+        </shortdescription>
+  </image>
+
       <p>
-      Looking at the graph of <m>y=2\cos x</m>, we see that it looks very similar to the graph of <m>y=\cos x</m>, except that the <m>y</m>-values range between -2 and 2, instead of -1 and 1. 
+      Looking at the graph of <m>y=2\cos x</m>, we see that it looks very similar to the graph of <m>y=\cos x</m>, except that the <m>y</m>-values range between -2 and 2, instead of -1 and 1. The graph of <m>y=2\cos x</m> is streched vertically by a factor of 2, compared to the graph of <m>y=\cos x</m>. This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of <m>y=\cos x</m>). 
       </p>
+
+         <p>
+Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>: 
+      </p>   
+  <image source="images/trig2ex2" width="70%">
+      <shortdescription>
+          The graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>.
+        </shortdescription>
+  </image>
       <p>
-      Looking at the graph of <m>y=\cos (2x))</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except this time the persiod is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur `twice as fast' compared to the graph of <m>y=\cos x)</m>.
+      Looking at the graph of <m>y=\cos (2x))</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except its period is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur `twice as fast' compared to the graph of <m>y=\cos x</m>. The graph of <m>y=\cos (2x)</m> is compressed horizontally by a factor of 2, compared to the graph of <m>y=\cos x</m>.
       </p>
     </solution>
   </example>
     </p>
       <p>
-Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0</m>) oscillates between <m>A</m> and <m>-A</m>. Similarly for the graph of <m>y=A \sin x</m>. The value <m>A</m> is called the <term>amplitude</term> of the sine or cosine curve. 
+Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). Similarly for the graph of <m>y=A \sin x</m>. The value <m>A</m> is called the <term>amplitude</term> of the sine or cosine curve. 
        </p>
              <p>
 The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) have periods of <m>2\pi /k</m>. This is because compared to <m>y=\cos x</m> and <m>y=\sin x</m>, the graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m> are compressed horizontally by a factor of <m>k</m>.

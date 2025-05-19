@@ -9,11 +9,11 @@
 
   <!-- include sections -->
  <!-- <xi:include href="sec-alg-intro.ptx" /> Do not include?-->
-  <xi:include href="sec-alg-factoring.ptx" />
+ <!-- <xi:include href="sec-alg-factoring.ptx" /> -->
   <xi:include href="sec-alg-rational.ptx" />
-  <xi:include href="sec-alg-rationaleq.ptx" />
+ <!-- <xi:include href="sec-alg-rationaleq.ptx" /> -->
   <xi:include href="sec-func-dividing.ptx" />
-  <xi:include href="sec-alg-inequalities.ptx" />
-  <xi:include href="sec-alg-completing.ptx" />
+  <!-- <xi:include href="sec-alg-inequalities.ptx" />
+  <xi:include href="sec-alg-completing.ptx" />-->
 
 </chapter>

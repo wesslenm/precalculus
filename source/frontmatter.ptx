@@ -41,7 +41,10 @@
       Please direct any feedback and error reports to maria.wesslen@utoronto.ca. 
     </p>
     <p>
-      Creating this resource is a work in progress. We are still working on adding more material. If you have suggestions of what you would like to see in this resource, feel free to email maria.wesslen@utoronto.ca or any of the editors. We would be happy to hear from you! We would also love to hear more about what you like or don't like about this resource, and how you use it. 
+      Creating this resource is a work in progress. We are still working on adding more material. 
+    </p>
+    <p>
+      <alert>If you have suggestions of what you would like to see in this resource, feel free to email maria.wesslen@utoronto.ca or any of the editors.</alert> We would be happy to hear from you! For example, you may suggest topics to include. We would also love to hear more about what you like or don't like about this resource, and how you use it. 
     </p>
   </preface> 
 
@@ -70,6 +73,7 @@
       </shortlicense>
       <minilicense>CC BY-NC-SA 4.0 License</minilicense>
     </copyright>
+    <p> This book was authored in <pretext />. </p>
   </colophon>
 
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-style" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Style Conventions</title>
+
+ <p>
+    We could use this section to write down some style conventions for writing. 
+ </p>
+
+  <p>
+    We could also use it to keep copies of code that follow that style (which can simply be copy-pasted...)
+ </p>
+
+<subsection xml:id="sec-File">
+    <title>File names and organization</title>
+
+   <p>
+    Image files names are made as follows: xxxxnyyy where "xxxx" is short for the chapter (e.g. trig), and "n" is the section number (trig1 for section 3.1 for example). Then "yyyy" is some description of the image. For example "trig1unit" for an image of the unit circle in the first section in the trig chapter. 
+   </p>
+</subsection>
+
+<subsection xml:id="sec-images">
+    <title>Images</title>
+    <p>
+    Some conventions regarding images:
+    </p>
+
+    <ul>
+        <li>
+            <p>
+            An image or graph should generally be placed inside "figure" so that it gets a caption and a figure number. However, a graph inside of an example would generally not have a figure number. 
+            </p>
+        </li>
+    </ul>
+</subsection>
+
+</section>
