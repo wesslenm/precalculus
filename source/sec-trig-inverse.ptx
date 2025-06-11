@@ -616,7 +616,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </answer>
     <solution>
       <p>
-         following is a COMMON ERROR: <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. We can not use <m>\arccos \left(\cos \left(x\right)\right)=x </m> with <m>x=\frac{4\pi}{3}</m>, because <m>\frac{4\pi}{3}</m> is not in the required interval (we need <m>0 \leq x \leq \pi</m>).
+         The following is a COMMON ERROR: <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. We can not use <m>\arccos \left(\cos \left(x\right)\right)=x </m> with <m>x=\frac{4\pi}{3}</m>, because <m>\frac{4\pi}{3}</m> is not in the required interval (we need <m>0 \leq x \leq \pi</m>).
       </p>
       <p>
          CORRECT SOLUTION: To evaluate <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right)</m>, one option is to draw <m>\frac{4\pi}{3}</m> on the unit cirle (in standard position) and find another angle in the interval <m>0 \leq x \leq \pi</m> with the same cosine value as <m>\cos \left(\frac{4\pi}{3}\right)</m>. 
