@@ -1,0 +1,99 @@
+openDate          = 04/29/2026 at 12:00am
+dueDate           = 10/29/2026 at 10:00pm
+answerDate        = 10/29/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/1_1-Rational_Expressions_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/1_1-Rational_Expressions_Exercises.pg
+description       = Rational Expressions
+problemListV2
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_7.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_27.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_41.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_45.pg
+problem_id = 
+problem_end

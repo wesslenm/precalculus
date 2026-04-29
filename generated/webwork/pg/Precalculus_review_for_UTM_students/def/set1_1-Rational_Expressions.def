@@ -1,0 +1,55 @@
+openDate          = 04/29/2026 at 12:00am
+dueDate           = 10/29/2026 at 10:00pm
+answerDate        = 10/29/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/1_1-Rational_Expressions.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/1_1-Rational_Expressions.pg
+description       = Rational Expressions
+problemListV2
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_11.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_47.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/ma117DB/set1b/srw1_4_39.pg
+problem_id = 18
+problem_end

@@ -1,0 +1,31 @@
+openDate          = 04/29/2026 at 12:00am
+dueDate           = 10/29/2026 at 10:00pm
+answerDate        = 10/29/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/1_2-Dividing_polynomials.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/1_2-Dividing_polynomials.pg
+description       = Dividing polynomials
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_23-Interpreting_the_result.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_25-Setup_and_notation.pg
+problem_id = 25
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_26-Long_division_with_quadratic_dividend.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_27-Long_division_with_cubic_dividend.pg
+problem_id = 27
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_29-Polynomial_long_division_with_missing_terms.pg
+problem_id = 29
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_30-Polynomial_long_division_with_missing_terms.pg
+problem_id = 30
+problem_end

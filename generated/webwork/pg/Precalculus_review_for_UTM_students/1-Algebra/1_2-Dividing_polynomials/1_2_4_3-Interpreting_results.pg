@@ -1,0 +1,81 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-04-29T02:40:32Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.4.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "parserRadioButtons.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],3); 
+$popup3 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+Context("Numeric");
+$remainder = Formula("4");
+  $radio = RadioButtons([
+  'Yes, it is correct ',
+  'No, there is one error',
+  'No, there are several errors',
+],0);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  Then [`2x+1`] is called the [_]{$popup}{5}.
+
+a.  Then [`x^2-4x+3`] is called the [_]{$popup2}{5}.
+
+a.  Then [`2x^3-7x^2+2x+7`] is called the [_]{$popup3}{5}.
+
+a.  The remainder is [_]{$remainder}{10}
+
+a.  Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.) [_]{$radio}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

@@ -1,0 +1,55 @@
+openDate          = 04/29/2026 at 12:00am
+dueDate           = 10/29/2026 at 10:00pm
+answerDate        = 10/29/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_2-Trigonometric_graphs_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Trigonometric_graphs_Exercises.pg
+description       = Trigonometric graphs
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_1-Fact_Check.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_2-xxxxx.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-yyyyy.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg
+problem_id = 
+problem_end

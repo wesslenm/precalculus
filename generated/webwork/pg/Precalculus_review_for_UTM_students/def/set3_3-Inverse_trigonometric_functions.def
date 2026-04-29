@@ -1,0 +1,151 @@
+openDate          = 04/29/2026 at 12:00am
+dueDate           = 10/29/2026 at 10:00pm
+answerDate        = 10/29/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_3-Inverse_trigonometric_functions.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_3-Inverse_trigonometric_functions.pg
+description       = Inverse trigonometric functions
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_46-Evaluating_arcsine.pg
+problem_id = 46
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_47-Evaluating_arcsine.pg
+problem_id = 47
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_48-Inverse_properties.pg
+problem_id = 48
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_49-Inverse_properties.pg
+problem_id = 49
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_55-Evaluating_arccos.pg
+problem_id = 55
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_56-Evaluating_arccos.pg
+problem_id = 56
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_57-Inverse_properties.pg
+problem_id = 57
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_58-Inverse_properties.pg
+problem_id = 58
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_61-Evaluating_arctan.pg
+problem_id = 61
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_63-Evaluating_arcsec.pg
+problem_id = 63
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_64-Evaluating_arccsc.pg
+problem_id = 64
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/.pg
+problem_id = 
+problem_end

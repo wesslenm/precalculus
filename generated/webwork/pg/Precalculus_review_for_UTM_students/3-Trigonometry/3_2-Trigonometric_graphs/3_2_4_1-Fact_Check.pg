@@ -1,0 +1,87 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-04-29T02:40:32Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.2.4.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = random(2,9,1);
+$b = random(2,9,1);
+$c = random(2,9,1);
+$ans1 = Compute("2*pi/$b")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("0")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );         
+$ans3 = Compute("1")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+(a) Sketch a few periods of the graph of [`y=\sin x\text{.}`]
+
+(b) Sketch a few periods of the graph of [`y=3\cos x\text{.}`]
+
+(c) Sketch a few periods of the graph of [`y=\tan (x-\pi)\text{.}`]
+
+(d) It is true or false that [`\tan (x-\pi) = \tan x\text{?}`] [_]{$ans3}{6} (Enter 1 for TRUE and 0 for FALSE.)
+
+(e) What is the period of [`y=[$a] \sin ([$b] x-[$c])\text{?}`] [_]{$ans1}{6}
+
+(f) What is [` \tan 0\text{?}`] [_]{$ans2}{6}
+
+(g) What is [` \cos 0\text{?}`] [_]{$ans3}{6}
+
+(h) What is [` \sin (-\pi)\text{?}`] [_]{$ans2}{6}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
