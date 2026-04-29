@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Rational Expressions",
-  "body": " Rational Expressions     Simplify and re-work rational expressions.    Simplify and work with fractions.    Add, subtract, multiply and divide rational expressions.    Simplify and rewrite complex fractions and complex rational expressions.      Where will this be used in calculus?  Here are several specific calculus examples where working with rational expressions will be useful:     After using rules to differentiate a function (especially the quotient rule) the result is often a rational expression or complex rational expression which needs to be simplified.    When using implicit differentiation the process often involves working with and simplifying complex rational expressions.    Integration using the technique called Partial Fractions, involves rational expressions.    In Sequences and Series, using the Limit Comparison Test and the Ratio Test often involves working with multiple complex rational expressions.       The quotient of two polynomials is called a rational expression . For example, lets look at the following rational expression:   Here, is the numerator , and is the denominator . In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as for example simplifying ).    Common factors  Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator.  A factor is part of an expression which is multiplied by the rest of the expression.   Common factor   Simplify the rational epression          Let's factor both the numerator and the denominator to see if there are any common factors. and Next, lets look at the expression in the question and cancel any common factors:  . So, in the end, we see that        Simplify the rational expression. Answer:    No correct answer specified        The cancelation in is based on the following rule, which says that if both the numerator and the denominator has the same FACTOR , it can be cancelled. Note that what you are canceling must be multiplied (or divided) by the rest of the numerator and denominator, NOT added or subtracted.   Rule  For any real numbers , , and where and , it is true that and This is true both if , , and are be constants (numbers) and\/or expressions involving variables.    Common Error  In general, the following are not true.     Note that can be useful in ``both directions''. Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.     Simplify the rational expression in the form  Answer:  and                   Note: If you are unsure of how to work with exponents, you could have a look at section before working on .   For each of the following, determine if the statement is True or False, for all real numbers , , ? Whenever there is division, assume that all denominators are non-zero. Make sure to try these yourself first before looking at the answers!    (True or False?)   (True or False?)   (True or False?)   (True or False?)   (True or False?)      1-False, 2-False, 3-True, 4-True, 5-False      Multiplying and dividing rational expressions  To multiplying rational expressions we use the same ideas and rules as when multiplying numerical fractions. The numerators are multipled, and the denominators are multiplied. For example   Sometimes it might be worth simplifying the result, or perhaps simplifying before multiplying (if it's easy enough to do so).   Technique  To multiply two rational expressions, multiply the numerators to find the numerator of the product. Then multiply the denominators to find the denominator of the product. where , , and could be constants (numbers) and\/or expressions involving variables.    Multiplying rational expressions   Multiply the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expend the brackets and simplify:   There is no further simplification that can be made. So the answer is        Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Numerators \/ Denominators                Multiply and simplify your answer.  Answer:    No correct answer specified           Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                  To divide rational expressions we again use the similar ideas and rules as when working with numerical fractions. Take the reciprocal of the denominator, then muliply. For example    Technique  To divide two rational expressions, multiply by the reciprocal of the denominator: where , , and could be constants (numbers) and\/or expressions involving variables.   can be writen in more detail:   Dividing rational expressions   Divide the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expand the brackets and simplify:  . There is no further simplification that can be made. So the answer is        Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Reciprocal               Adding and Subtracting rational expressions  Let's start by looking at a numerical example of adding two fractions, for example . To add fractions, we need to use a common denominator, then add the resulting numerators. The least common multiple of 6 and 8 is 24, so let's use that as the common denominator in this case:   The general steps for adding rational expressions are the same. Also, the technique is the same for adding and for subtracting.   Technique  To add or subtract two rational expressions:  Find a common denominator. (It may be useful to factor the denominators.)  Multiply each rational expression to change the denominators to the common denominator.  Add or subtract the numerators.  Simplify if needed.      Subtracting rational expressions   Subtract the rational expressions and simplify the answer:        We need find a common denominator. We could use any common denominator. For example we could simply use but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:    This means the LCD is   Next, multiply the first rational expression by and the second rational expression by so that both are on the same common denominator. Note that multiplying by is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format.  . So the answer is It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).       Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.                Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .           Perform the indicated operation. Note that the denominators are the same. Simplify the result, if possible.  Answer:  help(entering your answer)        The denominators are equal. Add the numerators. Factor and reduce.          Complex rational expressions  A rational expression that contains a rational expression within the numerator or denominator (or both), is called a complex rational expression . To simplify a complex rational expression, start by simplifying the numberator, then the denominator, and after that is done you can simplify the overall expression.   Simplifying a complex rational expression   Simplify the complex rational expression:          Simplify the numerator to make it a single fraction:  . Simplify the denominator to make it a single fraction:  . Now we are ready to simplify the complex rational expression. Remember that to divide by a rationl expression, multiply by the reciprocal (see ).   There is no further simplification that can be made. So the final answer is     Let's summarize the steps we took in :   Technique  To simplify complex rational expressions:  Simplify the numerator to make it a single rational expression.  Simplify the denominator to make it a single rational expression.  Divide the two expressions, by multiplying of the reciprocal of the denominator (as in ).  Simplify if needed.        Simplify the complex fraction in the form .  Answer:  and                      Simplify the expression and give your answer in the form of  Your answer for is :  Your answer for is :                     Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                    Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    A complex rational expression with division   Simplify the expression:          Consider the overall expression. We can use to rewrite this into a simpler expression:   Now simplify the numerator to make it a single fraction:   Now we have a rational expression where the numerator is a rational expression: Again, we use to rewrite this into a simpler expression:  . The final answer is      A complex rational expression with two variables   Simplify the expression as much as possible. Assume that any factors you cancel are not zero.          Both the numerator and denominator are rational expressions. The numerator is already a single rational expression, but the denminator is not, so let's rewrite the denominator on a common denominator: We can use to rewrite this into a simpler expression:   Now we have a rational expression divided by a rational expression, so we multiply by the reciprocal:  . We can cancel a common factor of :  . We could make a note that . (This is because on the left side, can not be 0 since it would result in division by 0). However, the statement of the question said that we can assume that any factors we cancel are not zero. The question also asked to simplify as much as possible. Let's check for more common factors: .  Again, we can assume that any factors we cancel are not zero, so we do not need to write . The final answer is       Exercises  Note: In all exercises, assume that any factor you cancel is not zero (as in Example ).   1.   Simplify the rational expression. Answer:    No correct answer specified          2.   Simplify the expression and give your answer in the form of where and are polynomials with no common factors.  Your answer for the function is :  Your answer for the function is :                   3.    4.    5.    6.   add\/subtract: 7.    8.    9.    10.    11.    12.    13.    14.    15.    16.    17.    18.    19.    20.   complex: 21.    22.    23.      "
+  "body": " Rational Expressions     Simplify and re-work rational expressions.    Simplify and work with fractions.    Add, subtract, multiply and divide rational expressions.    Simplify and rewrite complex fractions and complex rational expressions.     Where will this be used in calculus?  Here are several specific calculus examples where working with rational expressions will be useful:     After using rules to differentiate a function (especially the quotient rule) the result is often a rational expression or complex rational expression which needs to be simplified.    When using implicit differentiation the process often involves working with and simplifying complex rational expressions.    Integration using the technique called Partial Fractions, involves rational expressions.    In Sequences and Series, using the Limit Comparison Test and the Ratio Test often involves working with multiple complex rational expressions.       The quotient of two polynomials is called a rational expression . For example, lets look at the following rational expression:   Here, is the numerator , and is the denominator . In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as for example simplifying ).   Common factors  Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator.  A factor is part of an expression which is multiplied by the rest of the expression.  Common factor   Simplify the rational epression          Let's factor both the numerator and the denominator to see if there are any common factors. and Next, lets look at the expression in the question and cancel any common factors:  . So, in the end, we see that     Common factor - FROM WEBWORK    Simplify the rational expression. Answer:    No correct answer specified        The cancelation in is based on the following rule, which says that if both the numerator and the denominator has the same FACTOR , it can be cancelled. Note that what you are canceling must be multiplied (or divided) by the rest of the numerator and denominator, NOT added or subtracted.  Rule  For any real numbers , , and where and , it is true that and This is true both if , , and are be constants (numbers) and\/or expressions involving variables.   Common Error  In general, the following are not true.     Note that can be useful in ``both directions''. Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.  Simplify - FROM WEBWORK    Simplify the rational expression in the form  Answer:  and                   Note: If you are unsure of how to work with exponents, you could have a look at section before working on .  True or False?  For each of the following, determine if the statement is True or False, for all real numbers , , ? Whenever there is division, assume that all denominators are non-zero. Make sure to try these yourself first before looking at the answers!    (True or False?)   (True or False?)   (True or False?)   (True or False?)   (True or False?)      1-False, 2-False, 3-True, 4-True, 5-False      Multiplying and dividing rational expressions  To multiplying rational expressions we use the same ideas and rules as when multiplying numerical fractions. The numerators are multipled, and the denominators are multiplied. For example   Sometimes it might be worth simplifying the result, or perhaps simplifying before multiplying (if it's easy enough to do so).  Technique  To multiply two rational expressions, multiply the numerators to find the numerator of the product. Then multiply the denominators to find the denominator of the product. where , , and could be constants (numbers) and\/or expressions involving variables.   Multiply rational expressions   Multiply the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expend the brackets and simplify:   There is no further simplification that can be made. So the answer is     Multiply rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Numerators \/ Denominators             Multiply rational expressions - FROM WEBWORK    Multiply and simplify your answer.  Answer:    No correct answer specified        Multiply rational expressions - FROM WEBWORK    Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                  To divide rational expressions we again use the similar ideas and rules as when working with numerical fractions. Take the reciprocal of the denominator, then muliply. For example   Technique  To divide two rational expressions, multiply by the reciprocal of the denominator: where , , and could be constants (numbers) and\/or expressions involving variables.   The rule can be writen in more detail:   Divide rational expressions   Divide the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expand the brackets and simplify:  . There is no further simplification that can be made. So the answer is     Divide rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Reciprocal              Adding and Subtracting rational expressions  Let's start by looking at a numerical example of adding two fractions, for example . To add fractions, we need to use a common denominator, then add the resulting numerators. The least common multiple of 6 and 8 is 24, so let's use that as the common denominator in this case:   The general steps for adding rational expressions are the same. Also, the technique is the same for adding and for subtracting.   Technique  To add or subtract two rational expressions:  Find a common denominator. (It may be useful to factor the denominators.)  Multiply each rational expression to change the denominators to the common denominator.  Add or subtract the numerators.  Simplify if needed.     Subtracting rational expressions   Subtract the rational expressions and simplify the answer:        We need find a common denominator. We could use any common denominator. For example we could simply use but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:    This means the LCD is   Next, multiply the first rational expression by and the second rational expression by so that both are on the same common denominator. Note that multiplying by is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format.  . So the answer is It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).    Subtract rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.             Divide rational expressions - FROM WEBWORK    Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .        Find the least common denominator (LCD) - FROM WEBWORK    Perform the indicated operation. Note that the denominators are the same. Simplify the result, if possible.  Answer:  help(entering your answer)        The denominators are equal. Add the numerators. Factor and reduce.         Complex rational expressions  A rational expression that contains a rational expression within the numerator or denominator (or both), is called a complex rational expression . To simplify a complex rational expression, start by simplifying the numberator, then the denominator, and after that is done you can simplify the overall expression.   Simplify a complex rational expression   Simplify the complex rational expression:          Simplify the numerator to make it a single fraction:  . Simplify the denominator to make it a single fraction:  . Now we are ready to simplify the complex rational expression. Remember that to divide by a rationl expression, multiply by the reciprocal (see ).   There is no further simplification that can be made. So the final answer is     Let's summarize the steps we took in :   Technique  To simplify complex rational expressions:  Simplify the numerator to make it a single rational expression.  Simplify the denominator to make it a single rational expression.  Divide the two expressions, by multiplying of the reciprocal of the denominator (as in ).  Simplify if needed.        Simplify the complex fraction in the form .  Answer:  and                      Simplify the expression and give your answer in the form of  Your answer for is :  Your answer for is :                     Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                   Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    A complex rational expression with division   Simplify the expression:          Consider the overall expression. We can use to rewrite this into a simpler expression:   Now simplify the numerator to make it a single fraction:   Now we have a rational expression where the numerator is a rational expression: Again, we use to rewrite this into a simpler expression:  . The final answer is      A complex rational expression with two variables   Simplify the expression as much as possible. Assume that any factors you cancel are not zero.          Both the numerator and denominator are rational expressions. The numerator is already a single rational expression, but the denminator is not, so let's rewrite the denominator on a common denominator: We can use to rewrite this into a simpler expression:   Now we have a rational expression divided by a rational expression, so we multiply by the reciprocal:  . We can cancel a common factor of :  . We could make a note that . (This is because on the left side, can not be 0 since it would result in division by 0). However, the statement of the question said that we can assume that any factors we cancel are not zero. The question also asked to simplify as much as possible. Let's check for more common factors: .  Again, we can assume that any factors we cancel are not zero, so we do not need to write . The final answer is      Exercises  Note: In all exercises, assume that any factor you cancel is not zero (as in Example ).  Simplify a rational expression - FROM WEBWORK    Simplify the rational expression. Answer:    No correct answer specified        Simplify a rational expression - FROM WEBWORK    Simplify the expression and give your answer in the form of where and are polynomials with no common factors.  Your answer for the function is :  Your answer for the function is :                  Simplify a rational expression - FROM WEBWORK    Simplify the rational expression in the form  Answer:  and                   Multiply two rational expressions - FROM WEBWORK    Multiply the two rational expressions Express your answer in simplest form .  Answer:  and                   Multiply two rational expressions - FROM WEBWORK    Select all expressions that are equivalent to There may be more than one correct answer.                None of the above          Divide two rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Reciprocal             Divide two rational expressions - FROM WEBWORK    Divide the two rational expressions Express your answer in simplest form .  Answer:  and                   Adding and subtracting fractions:  Add two rational expressions - FROM WEBWORK    Add the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.             Add two rational expressions - FROM WEBWORK    Simplify the rational expression in the form . Express the final result in a single fraction using positive exponents only.  Answer:  and                   Add two rational expressions - FROM WEBWORK    Simplify the expression .  The answer has the form of where  = and  =                    Add two rational expressions - FROM WEBWORK    Add the two rational expressions Express your answer in simplest form .  Answer:  and                   Add two rational expressions - FROM WEBWORK    Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                  Subtract two rational expressions - FROM WEBWORK    Simplify the expression  The answer has the form of where  = and  =             Subtracting fractions is easy when they have a common denominator, so first get a common denominator, then subtract:        Subtract two rational expressions - FROM WEBWORK    Subtract the two rational expressions Express your answer in simplest form .  Answer:  and                   Find an LCD - FROM WEBWORK    Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .        Add two rational expressions - FROM WEBWORK    Write as a single fraction.  Note: Your answer should be a completely simplified fraction. Unsimplified answers and decimals will not be accepted.             Subtract a rational expression from an integer - FROM WEBWORK    Perform the indicated operation. Simplify the result, if possible.  Answer:  help(entering your answer)        The LCD is .        Add and subtract rational expressions - FROM WEBWORK    Perform the indicated operations on the three expressions Express your answer in simplest form .  Answer:  and                   Multiply and divide rational expressions - FROM WEBWORK    Perform the indicated operations involving the three rational expressions Express your answer in simplest form .  Answer:  and                   Add three rational expressions - FROM WEBWORK    Select all expressions that are equivalent to There may be more than one correct answer.                         Complex fractions:  Simplify a complex rational expression - FROM WEBWORK    Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                  Simplify a complex rational expression - FROM WEBWORK    Simplify the complex fraction in the form .  Answer:  and                   Simplify a complex rational expression - FROM WEBWORK    Simplify the expression  Your answer is :               "
 },
 {
   "id": "sec-alg-rational-2",
@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1",
   "title": "Common factor.",
-  "body": " Common factor   Simplify the rational epression          Let's factor both the numerator and the denominator to see if there are any common factors. and Next, lets look at the expression in the question and cancel any common factors:  . So, in the end, we see that    "
+  "body": "Common factor   Simplify the rational epression          Let's factor both the numerator and the denominator to see if there are any common factors. and Next, lets look at the expression in the question and cancel any common factors:  . So, in the end, we see that    "
 },
 {
   "id": "sec-alg-rational-5-5",
@@ -96,8 +96,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-5-5",
   "type": "Checkpoint",
   "number": "1.2",
-  "title": "",
-  "body": "   Simplify the rational expression. Answer:    No correct answer specified       "
+  "title": "Common factor - FROM WEBWORK.",
+  "body": "Common factor - FROM WEBWORK    Simplify the rational expression. Answer:    No correct answer specified       "
 },
 {
   "id": "ex-rat",
@@ -105,8 +105,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#ex-rat",
   "type": "Checkpoint",
   "number": "1.3",
-  "title": "",
-  "body": "   Simplify the rational expression in the form  Answer:  and                  "
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the rational expression in the form  Answer:  and                  "
 },
 {
   "id": "sec-alg-rational-5-12",
@@ -114,8 +114,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-5-12",
   "type": "Example",
   "number": "1.4",
-  "title": "",
-  "body": " For each of the following, determine if the statement is True or False, for all real numbers , , ? Whenever there is division, assume that all denominators are non-zero. Make sure to try these yourself first before looking at the answers!    (True or False?)   (True or False?)   (True or False?)   (True or False?)   (True or False?)      1-False, 2-False, 3-True, 4-True, 5-False   "
+  "title": "True or False?",
+  "body": "True or False?  For each of the following, determine if the statement is True or False, for all real numbers , , ? Whenever there is division, assume that all denominators are non-zero. Make sure to try these yourself first before looking at the answers!    (True or False?)   (True or False?)   (True or False?)   (True or False?)   (True or False?)      1-False, 2-False, 3-True, 4-True, 5-False   "
 },
 {
   "id": "ex-multiply",
@@ -123,8 +123,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#ex-multiply",
   "type": "Example",
   "number": "1.5",
-  "title": "Multiplying rational expressions.",
-  "body": " Multiplying rational expressions   Multiply the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expend the brackets and simplify:   There is no further simplification that can be made. So the answer is    "
+  "title": "Multiply rational expressions.",
+  "body": "Multiply rational expressions   Multiply the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expend the brackets and simplify:   There is no further simplification that can be made. So the answer is    "
 },
 {
   "id": "sec-alg-rational-6-7",
@@ -132,8 +132,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-6-7",
   "type": "Checkpoint",
   "number": "1.6",
-  "title": "",
-  "body": "   Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Numerators \/ Denominators            "
+  "title": "Multiply rational expressions - FROM WEBWORK.",
+  "body": "Multiply rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Numerators \/ Denominators            "
 },
 {
   "id": "sec-alg-rational-6-8",
@@ -141,8 +141,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-6-8",
   "type": "Checkpoint",
   "number": "1.7",
-  "title": "",
-  "body": "   Multiply and simplify your answer.  Answer:    No correct answer specified       "
+  "title": "Multiply rational expressions - FROM WEBWORK.",
+  "body": "Multiply rational expressions - FROM WEBWORK    Multiply and simplify your answer.  Answer:    No correct answer specified       "
 },
 {
   "id": "sec-alg-rational-6-9",
@@ -150,8 +150,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-6-9",
   "type": "Checkpoint",
   "number": "1.8",
-  "title": "",
-  "body": "   Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                 "
+  "title": "Multiply rational expressions - FROM WEBWORK.",
+  "body": "Multiply rational expressions - FROM WEBWORK    Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                 "
 },
 {
   "id": "ex-divide",
@@ -159,17 +159,17 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#ex-divide",
   "type": "Example",
   "number": "1.9",
-  "title": "Dividing rational expressions.",
-  "body": " Dividing rational expressions   Divide the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expand the brackets and simplify:  . There is no further simplification that can be made. So the answer is    "
+  "title": "Divide rational expressions.",
+  "body": "Divide rational expressions   Divide the rational expressions and simplify the answer:          Multiply numerators separately, then denominators separately, as described in .   Note that it is important to use brackets, to show that all of is multiplied by all of (and similarly for the denominator). Next, expand the brackets and simplify:  . There is no further simplification that can be made. So the answer is    "
 },
 {
-  "id": "sec-alg-rational-6-16",
+  "id": "sec-alg-rational-6-15",
   "level": "2",
-  "url": "sec-alg-rational.html#sec-alg-rational-6-16",
+  "url": "sec-alg-rational.html#sec-alg-rational-6-15",
   "type": "Checkpoint",
   "number": "1.10",
-  "title": "",
-  "body": "   Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Reciprocal            "
+  "title": "Divide rational expressions - FROM WEBWORK.",
+  "body": "Divide rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Reciprocal            "
 },
 {
   "id": "ex-subtract",
@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.11",
   "title": "Subtracting rational expressions.",
-  "body": " Subtracting rational expressions   Subtract the rational expressions and simplify the answer:        We need find a common denominator. We could use any common denominator. For example we could simply use but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:    This means the LCD is   Next, multiply the first rational expression by and the second rational expression by so that both are on the same common denominator. Note that multiplying by is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format.  . So the answer is It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).   "
+  "body": "Subtracting rational expressions   Subtract the rational expressions and simplify the answer:        We need find a common denominator. We could use any common denominator. For example we could simply use but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:    This means the LCD is   Next, multiply the first rational expression by and the second rational expression by so that both are on the same common denominator. Note that multiplying by is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format.  . So the answer is It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).   "
 },
 {
   "id": "sec-alg-rational-7-7",
@@ -186,8 +186,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-7-7",
   "type": "Checkpoint",
   "number": "1.12",
-  "title": "",
-  "body": "   Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.            "
+  "title": "Subtract rational expressions - FROM WEBWORK.",
+  "body": "Subtract rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.            "
 },
 {
   "id": "sec-alg-rational-7-8",
@@ -195,8 +195,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-7-8",
   "type": "Checkpoint",
   "number": "1.13",
-  "title": "",
-  "body": "   Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .       "
+  "title": "Divide rational expressions - FROM WEBWORK.",
+  "body": "Divide rational expressions - FROM WEBWORK    Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .       "
 },
 {
   "id": "sec-alg-rational-7-9",
@@ -204,8 +204,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#sec-alg-rational-7-9",
   "type": "Checkpoint",
   "number": "1.14",
-  "title": "",
-  "body": "   Perform the indicated operation. Note that the denominators are the same. Simplify the result, if possible.  Answer:  help(entering your answer)        The denominators are equal. Add the numerators. Factor and reduce.       "
+  "title": "Find the least common denominator (LCD) - FROM WEBWORK.",
+  "body": "Find the least common denominator (LCD) - FROM WEBWORK    Perform the indicated operation. Note that the denominators are the same. Simplify the result, if possible.  Answer:  help(entering your answer)        The denominators are equal. Add the numerators. Factor and reduce.       "
 },
 {
   "id": "sec-alg-rational-8-2",
@@ -222,8 +222,8 @@ var ptx_lunr_docs = [
   "url": "sec-alg-rational.html#ex-complex",
   "type": "Example",
   "number": "1.15",
-  "title": "Simplifying a complex rational expression.",
-  "body": " Simplifying a complex rational expression   Simplify the complex rational expression:          Simplify the numerator to make it a single fraction:  . Simplify the denominator to make it a single fraction:  . Now we are ready to simplify the complex rational expression. Remember that to divide by a rationl expression, multiply by the reciprocal (see ).   There is no further simplification that can be made. So the final answer is    "
+  "title": "Simplify a complex rational expression.",
+  "body": " Simplify a complex rational expression   Simplify the complex rational expression:          Simplify the numerator to make it a single fraction:  . Simplify the denominator to make it a single fraction:  . Now we are ready to simplify the complex rational expression. Remember that to divide by a rationl expression, multiply by the reciprocal (see ).   There is no further simplification that can be made. So the final answer is    "
 },
 {
   "id": "sec-alg-rational-8-6",
@@ -271,22 +271,211 @@ var ptx_lunr_docs = [
   "body": " A complex rational expression with two variables   Simplify the expression as much as possible. Assume that any factors you cancel are not zero.          Both the numerator and denominator are rational expressions. The numerator is already a single rational expression, but the denminator is not, so let's rewrite the denominator on a common denominator: We can use to rewrite this into a simpler expression:   Now we have a rational expression divided by a rational expression, so we multiply by the reciprocal:  . We can cancel a common factor of :  . We could make a note that . (This is because on the left side, can not be 0 since it would result in division by 0). However, the statement of the question said that we can assume that any factors we cancel are not zero. The question also asked to simplify as much as possible. Let's check for more common factors: .  Again, we can assume that any factors we cancel are not zero, so we do not need to write . The final answer is    "
 },
 {
-  "id": "sec-alg-rational-10-3-1",
+  "id": "sec-alg-rational-10-3",
   "level": "2",
-  "url": "sec-alg-rational.html#sec-alg-rational-10-3-1",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-3",
   "type": "Exercise",
   "number": "1.1.6.1",
-  "title": "",
-  "body": "1.   Simplify the rational expression. Answer:    No correct answer specified       "
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the rational expression. Answer:    No correct answer specified       "
 },
 {
-  "id": "sec-alg-rational-10-4-1",
+  "id": "sec-alg-rational-10-4",
   "level": "2",
-  "url": "sec-alg-rational.html#sec-alg-rational-10-4-1",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-4",
   "type": "Exercise",
   "number": "1.1.6.2",
-  "title": "",
-  "body": "2.   Simplify the expression and give your answer in the form of where and are polynomials with no common factors.  Your answer for the function is :  Your answer for the function is :                 "
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the expression and give your answer in the form of where and are polynomials with no common factors.  Your answer for the function is :  Your answer for the function is :                 "
+},
+{
+  "id": "sec-alg-rational-10-5",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-5",
+  "type": "Exercise",
+  "number": "1.1.6.3",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the rational expression in the form  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-6",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-6",
+  "type": "Exercise",
+  "number": "1.1.6.4",
+  "title": "Multiply two rational expressions - FROM WEBWORK.",
+  "body": "Multiply two rational expressions - FROM WEBWORK    Multiply the two rational expressions Express your answer in simplest form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-7",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-7",
+  "type": "Exercise",
+  "number": "1.1.6.5",
+  "title": "Multiply two rational expressions - FROM WEBWORK.",
+  "body": "Multiply two rational expressions - FROM WEBWORK    Select all expressions that are equivalent to There may be more than one correct answer.                None of the above         "
+},
+{
+  "id": "sec-alg-rational-10-8",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-8",
+  "type": "Exercise",
+  "number": "1.1.6.6",
+  "title": "Divide two rational expressions - FROM WEBWORK.",
+  "body": "Divide two rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   Reciprocal            "
+},
+{
+  "id": "sec-alg-rational-10-9",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-9",
+  "type": "Exercise",
+  "number": "1.1.6.7",
+  "title": "Divide two rational expressions - FROM WEBWORK.",
+  "body": "Divide two rational expressions - FROM WEBWORK    Divide the two rational expressions Express your answer in simplest form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-11",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-11",
+  "type": "Exercise",
+  "number": "1.1.6.8",
+  "title": "Add two rational expressions - FROM WEBWORK.",
+  "body": "Add two rational expressions - FROM WEBWORK    Add the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.            "
+},
+{
+  "id": "sec-alg-rational-10-12",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-12",
+  "type": "Exercise",
+  "number": "1.1.6.9",
+  "title": "Add two rational expressions - FROM WEBWORK.",
+  "body": "Add two rational expressions - FROM WEBWORK    Simplify the rational expression in the form . Express the final result in a single fraction using positive exponents only.  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-13",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-13",
+  "type": "Exercise",
+  "number": "1.1.6.10",
+  "title": "Add two rational expressions - FROM WEBWORK.",
+  "body": "Add two rational expressions - FROM WEBWORK    Simplify the expression .  The answer has the form of where  = and  =                   "
+},
+{
+  "id": "sec-alg-rational-10-14",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-14",
+  "type": "Exercise",
+  "number": "1.1.6.11",
+  "title": "Add two rational expressions - FROM WEBWORK.",
+  "body": "Add two rational expressions - FROM WEBWORK    Add the two rational expressions Express your answer in simplest form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-15",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-15",
+  "type": "Exercise",
+  "number": "1.1.6.12",
+  "title": "Add two rational expressions - FROM WEBWORK.",
+  "body": "Add two rational expressions - FROM WEBWORK    Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                 "
+},
+{
+  "id": "sec-alg-rational-10-16",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-16",
+  "type": "Exercise",
+  "number": "1.1.6.13",
+  "title": "Subtract two rational expressions - FROM WEBWORK.",
+  "body": "Subtract two rational expressions - FROM WEBWORK    Simplify the expression  The answer has the form of where  = and  =             Subtracting fractions is easy when they have a common denominator, so first get a common denominator, then subtract:       "
+},
+{
+  "id": "sec-alg-rational-10-17",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-17",
+  "type": "Exercise",
+  "number": "1.1.6.14",
+  "title": "Subtract two rational expressions - FROM WEBWORK.",
+  "body": "Subtract two rational expressions - FROM WEBWORK    Subtract the two rational expressions Express your answer in simplest form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-18",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-18",
+  "type": "Exercise",
+  "number": "1.1.6.15",
+  "title": "Find an LCD - FROM WEBWORK.",
+  "body": "Find an LCD - FROM WEBWORK    Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .       "
+},
+{
+  "id": "sec-alg-rational-10-19",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-19",
+  "type": "Exercise",
+  "number": "1.1.6.16",
+  "title": "Add two rational expressions - FROM WEBWORK.",
+  "body": "Add two rational expressions - FROM WEBWORK    Write as a single fraction.  Note: Your answer should be a completely simplified fraction. Unsimplified answers and decimals will not be accepted.            "
+},
+{
+  "id": "sec-alg-rational-10-20",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-20",
+  "type": "Exercise",
+  "number": "1.1.6.17",
+  "title": "Subtract a rational expression from an integer - FROM WEBWORK.",
+  "body": "Subtract a rational expression from an integer - FROM WEBWORK    Perform the indicated operation. Simplify the result, if possible.  Answer:  help(entering your answer)        The LCD is .       "
+},
+{
+  "id": "sec-alg-rational-10-21",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-21",
+  "type": "Exercise",
+  "number": "1.1.6.18",
+  "title": "Add and subtract rational expressions - FROM WEBWORK.",
+  "body": "Add and subtract rational expressions - FROM WEBWORK    Perform the indicated operations on the three expressions Express your answer in simplest form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-22",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-22",
+  "type": "Exercise",
+  "number": "1.1.6.19",
+  "title": "Multiply and divide rational expressions - FROM WEBWORK.",
+  "body": "Multiply and divide rational expressions - FROM WEBWORK    Perform the indicated operations involving the three rational expressions Express your answer in simplest form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-23",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-23",
+  "type": "Exercise",
+  "number": "1.1.6.20",
+  "title": "Add three rational expressions - FROM WEBWORK.",
+  "body": "Add three rational expressions - FROM WEBWORK    Select all expressions that are equivalent to There may be more than one correct answer.                        "
+},
+{
+  "id": "sec-alg-rational-10-25",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-25",
+  "type": "Exercise",
+  "number": "1.1.6.21",
+  "title": "Simplify a complex rational expression - FROM WEBWORK.",
+  "body": "Simplify a complex rational expression - FROM WEBWORK    Simplify the expression and give your answer in the form of  Your answer for the function is :  Your answer for the function is :                 "
+},
+{
+  "id": "sec-alg-rational-10-26",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-26",
+  "type": "Exercise",
+  "number": "1.1.6.22",
+  "title": "Simplify a complex rational expression - FROM WEBWORK.",
+  "body": "Simplify a complex rational expression - FROM WEBWORK    Simplify the complex fraction in the form .  Answer:  and                  "
+},
+{
+  "id": "sec-alg-rational-10-27",
+  "level": "2",
+  "url": "sec-alg-rational.html#sec-alg-rational-10-27",
+  "type": "Exercise",
+  "number": "1.1.6.23",
+  "title": "Simplify a complex rational expression - FROM WEBWORK.",
+  "body": "Simplify a complex rational expression - FROM WEBWORK    Simplify the expression  Your answer is :            "
 },
 {
   "id": "sec-func-dividing",
@@ -295,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Dividing polynomials",
-  "body": " Dividing polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results (check answer).      Where will this be used in calculus?  Some specific examples of where long division of polynomials is used are:     Long division of polynomials can be useful when looking for certain types of asymptotes, which is important in graph sketching.    Long division of polynomials can be useful when factoring polynomials, for example when using the integration technique `partial fractions'.       You may remember long division of large numbers, for example 5781 divided by 25. In this section we review how the technique of long division can be used to divide a polynomial by another polynomial.    Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend and is called the divisor . The answer to the division is called the quotient . When done, the quotient will appear at the top of the long division:      quotient      divisor  dividend    Sometimes there is a remainder if the dividend is not evenly divided by the divisor. For an example see .    Long division of polynomials  Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)   Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the final answer.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:    Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:      Interpreting the result  WeBWorK answer types    Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/                                    Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure to above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract .  And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .   . Write this under the last line. Make sure that like terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4       Set-up and notation  WeBWorK answer types    Suppose someone has written down the following long division.                                                    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                                Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .    Long division with quadratic dividend  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                   Long division with cubic dividend  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:        Polynomial long division with \"missing\" terms  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                   Polynomial long division with \"missing\" terms  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                   Exercises   True or False  WeBWorK answer types    Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                                Set-up  WeBWorK answer types   Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   divisor  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).                                 Interpreting results  WeBWorK answer types    Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors                                      Interpreting results   Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?                                                                  Quotient and remainder, degree 3        Quotient and remainder, degree 4        Quotient and remainder, degree 5        Quotient and remainder, degree 3        Quotient and remainder, degree 5  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                   Specific result format  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
+  "body": " Dividing polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results (check answer).      Where will this be used in calculus?  Some specific examples of where long division of polynomials is used are:     Long division of polynomials can be useful when looking for certain types of asymptotes, which is important in graph sketching.    Long division of polynomials can be useful when factoring polynomials, for example when using the integration technique `partial fractions'.       You may remember long division of large numbers, for example 5781 divided by 25. In this section we review how the technique of long division can be used to divide a polynomial by another polynomial.    Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend and is called the divisor . The answer to the division is called the quotient . When done, the quotient will appear at the top of the long division:      quotient      divisor  dividend    Sometimes there is a remainder if the dividend is not evenly divided by the divisor. For an example see .    Long division of polynomials  Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)   Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the final answer.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:    Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:      Interpreting the result  WeBWorK answer types    Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/                                    Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure to above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract .  And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .   . Write this under the last line. Make sure that like terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4       Set-up and notation  WeBWorK answer types    Suppose someone has written down the following long division.                                                    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                                Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .    Long division with quadratic dividend  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                   Long division with cubic dividend  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:        Polynomial long division with \"missing\" terms  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                   Polynomial long division with \"missing\" terms  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                   Exercises  True or False - HOMEMADE  WeBWorK answer types    Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE  WeBWorK answer types   Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   divisor  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).                                Interpreting results - HOMEMADE  WeBWorK answer types    Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors                                     Interpreting results - HOMEMADE   Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?                                                                 Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
 },
 {
   "id": "sec-func-dividing-2",
@@ -420,8 +609,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-2",
   "type": "Exercise",
   "number": "1.2.4.1",
-  "title": "True or False.",
-  "body": " True or False  WeBWorK answer types    Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                              "
+  "title": "True or False - HOMEMADE.",
+  "body": "True or False - HOMEMADE  WeBWorK answer types    Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                              "
 },
 {
   "id": "sec-func-dividing-8-3",
@@ -429,8 +618,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-3",
   "type": "Exercise",
   "number": "1.2.4.2",
-  "title": "Set-up.",
-  "body": " Set-up  WeBWorK answer types   Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   divisor  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).                               "
+  "title": "Set-up - HOMEMADE.",
+  "body": "Set-up - HOMEMADE  WeBWorK answer types   Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   divisor  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).                               "
 },
 {
   "id": "sec-func-dividing-8-4",
@@ -438,8 +627,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-4",
   "type": "Exercise",
   "number": "1.2.4.3",
-  "title": "Interpreting results.",
-  "body": " Interpreting results  WeBWorK answer types    Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors                                    "
+  "title": "Interpreting results - HOMEMADE.",
+  "body": "Interpreting results - HOMEMADE  WeBWorK answer types    Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors                                    "
 },
 {
   "id": "sec-func-dividing-8-5",
@@ -447,8 +636,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-5",
   "type": "Exercise",
   "number": "1.2.4.4",
-  "title": "Interpreting results.",
-  "body": " Interpreting results   Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?                                                                "
+  "title": "Interpreting results - HOMEMADE.",
+  "body": "Interpreting results - HOMEMADE   Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?                                                                "
 },
 {
   "id": "sec-func-dividing-8-6",
@@ -456,8 +645,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-6",
   "type": "Exercise",
   "number": "1.2.4.5",
-  "title": "Quotient and remainder, degree 3.",
-  "body": " Quotient and remainder, degree 3      "
+  "title": "Quotient and remainder, degree 3 - FROM WEBWORK.",
+  "body": "Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                 "
 },
 {
   "id": "sec-func-dividing-8-7",
@@ -465,8 +654,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-7",
   "type": "Exercise",
   "number": "1.2.4.6",
-  "title": "Quotient and remainder, degree 4.",
-  "body": " Quotient and remainder, degree 4      "
+  "title": "Quotient and remainder, degree 4 - FROM WEBWORK.",
+  "body": "Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                 "
 },
 {
   "id": "sec-func-dividing-8-8",
@@ -474,8 +663,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-8",
   "type": "Exercise",
   "number": "1.2.4.7",
-  "title": "Quotient and remainder, degree 5.",
-  "body": " Quotient and remainder, degree 5      "
+  "title": "Quotient and remainder, degree 5 - FROM WEBWORK.",
+  "body": "Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                 "
 },
 {
   "id": "sec-func-dividing-8-9",
@@ -483,8 +672,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-9",
   "type": "Exercise",
   "number": "1.2.4.8",
-  "title": "Quotient and remainder, degree 3.",
-  "body": " Quotient and remainder, degree 3      "
+  "title": "Quotient and remainder, degree 3 - FROM WEBWORK.",
+  "body": "Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                    "
 },
 {
   "id": "sec-func-dividing-8-10",
@@ -492,8 +681,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-10",
   "type": "Exercise",
   "number": "1.2.4.9",
-  "title": "Quotient and remainder, degree 5.",
-  "body": " Quotient and remainder, degree 5  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
+  "title": "Quotient and remainder, degree 5 - HOMEMADE.",
+  "body": "Quotient and remainder, degree 5 - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
 {
   "id": "sec-func-dividing-8-11",
@@ -501,8 +690,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html#sec-func-dividing-8-11",
   "type": "Exercise",
   "number": "1.2.4.10",
-  "title": "Specific result format.",
-  "body": " Specific result format  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
+  "title": "Specific result format - HOMEMADE.",
+  "body": "Specific result format - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
 },
 {
   "id": "sec-exp-intro",
@@ -511,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Exponential Rules",
-  "body": " Exponential Rules     Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.      Where will this be used in calculus?  Rewriting and simplifying exponentials and radicals is usefully in most computational areas of mathematics, including calculus. Here are two specific calculus examples:   When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting as will make it easier to differentiate or integrate.    After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy complicated looking expression which needs to be simplified.        As an instroduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length , we would multiply by itself three times to get length times width times height. We can write . Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent . But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them.    The First Rules  The first exponent rule we will examine is   Here, the first term, tells us to multiply by itself times and the second term tells us to multiply it times. Together, that says we need to multiply a total of times, giving us . As an example, .     Use the properties of exponents to simplify the following          We add the exponents as follows         Note that is true for all real numbers and (they do not need to be integers), and all positive values of .  Next, let's look at   This rule builds off of our previous rule. If we have , rule tells us that we really have . We went from having multiplied 5 times to having multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division:   A negative exponent tells us we have division rather than multiplication.  A more general version of the rule is the following: We can see this from previous rules: Again, all of the above is true for all real numbers and , and all positive values of .     Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.                Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that            Rewrite the following using a single exponent.  for =             If there are several different base numbers we need to collect those with the same base, as in the following example.   Simplifying exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:        Simplify the expression:  =               Roots  Before we continue with more exponent rules, let's look at the inverse function, or how to ``undo'' an exponent. These are root functions. A square root ``undoes'' squaring and a cube root ``undoes'' cubing. In general, we have   and   (Both of the above are examples of rule , which we will look more at soon.)  Often, you will see written as . Mathematicians call the radical form and the exponential form. Both have the same meaning. Anytime you see , you can replace it with and vice versa. Even more generally, we have: which is true for all real numbers and , and all positive values of .  Sometimes it is useful to be able to simplify radicals or fractional exponents by hand. Let's take a look at how we can evaluate these types of terms.   Evaluating radicals  Evaluate without using a calculator.       As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite this as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor . If we use the second version, , we would start by finding the cube root of 8. When we factor, we get , which show us that . This gives us , so our final answer is        Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .          Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                      Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                               More exponential rules  The next rule we will discuss is     This rule builds directly off of our first rule as well. As a example when and are integers, tells us we need to multiply by itself times. Since multiplies by itself times, tells us to multiply by itself a total of times. For example,   We can also use this rule when there is a product or quotient inside the parentheses, but not if there is an addition or subtraction.      However,      Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and     Exponents and addition  Are and equal of different?  They are different. in general. We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.    Addition inside a bracket   Simpliy the expression .    To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.         Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =                Simplify and write the following in exponential notation.  If then  and                        Simplify the expression:  =                Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:               Summary  The rules we have just seen will all be quite handy in calculus (and many other fields of mathematics, of course). In both integral and differential calculus, we will have rules that work well when we have a power function (a function of the form ), but won't work for other forms of functions. By being able to rewrite functions like , in power function form ( in this case), other calculations will be simplified.  Our rules are summarized below.   Exponential Rules  The following are true for all positive numbers and , and any real numbers and :                                                             Notation  Suppose is any positive number , and and are integers, with . Then:             It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:   Common Errors  The following expressions are not equal, in general.          Additional Examples  Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Simplifying exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that      Simplifying exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is       Mixed Exercises  1. Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of .  2.    3.    4.    5.    6.    7.    8.    9.    10.    11.    12.    13. Note: A monomial is a term of the form for some constants and .    14.    15.    16.    17.    18.    19.    20.    21.    22.    23. The rest do not seem to render properly...     9.        "
+  "body": " Exponential Rules     Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.     Where will this be used in calculus?  Rewriting and simplifying exponentials and radicals is usefully in most computational areas of mathematics, including calculus. Here are two specific calculus examples:   When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting as will make it easier to differentiate or integrate.    After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy complicated looking expression which needs to be simplified.        As an instroduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length , we would multiply by itself three times to get length times width times height. We can write . Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent . But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them.   The First Rules  The first exponent rule we will examine is   Here, the first term, tells us to multiply by itself times and the second term tells us to multiply it times. Together, that says we need to multiply a total of times, giving us . As an example, .  Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows         Note that is true for all real numbers and (they do not need to be integers), and all positive values of .  Next, let's look at   This rule builds off of our previous rule. If we have , rule tells us that we really have . We went from having multiplied 5 times to having multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division:   A negative exponent tells us we have division rather than multiplication.  A more general version of the rule is the following: We can see this from previous rules: Again, all of the above is true for all real numbers and , and all positive values of .  Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that         Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =             If there are several different base numbers we need to collect those with the same base, as in the following example.  Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:     Simplify - FROM WEBWORK    Simplify the expression:  =               Roots  Before we continue with more exponent rules, let's look at the inverse function, or how to ``undo'' an exponent. These are root functions. A square root ``undoes'' squaring and a cube root ``undoes'' cubing. In general, we have   and   (Both of the above are examples of rule , which we will look more at soon.)  Often, you will see written as . Mathematicians call the radical form and the exponential form. Both have the same meaning. Anytime you see , you can replace it with and vice versa. Even more generally, we have: which is true for all real numbers and , and all positive values of .  Sometimes it is useful to be able to simplify radicals or fractional exponents by hand. Let's take a look at how we can evaluate these types of terms.  Evaluate radicals  Evaluate without using a calculator.       As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite this as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor . If we use the second version, , we would start by finding the cube root of 8. When we factor, we get , which show us that . This gives us , so our final answer is     Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                               More exponential rules  The next rule we will discuss is     This rule builds directly off of our first rule as well. As a example when and are integers, tells us we need to multiply by itself times. Since multiplies by itself times, tells us to multiply by itself a total of times. For example,   We can also use this rule when there is a product or quotient inside the parentheses, but not if there is an addition or subtraction.      However,     Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and    Exponents and addition  Are and equal of different?  They are different. in general. We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.   Addition inside a bracket   Simpliy the expression .    To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.      Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                     Double exponents - FROM WEBWORK    Simplify the expression:  =             Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:               Summary  The rules we have just seen will all be quite handy in calculus (and many other fields of mathematics, of course). In both integral and differential calculus, we will have rules that work well when we have a power function (a function of the form ), but won't work for other forms of functions. By being able to rewrite functions like , in power function form ( in this case), other calculations will be simplified.  Our rules are summarized below.  Exponential Rules  The following are true for all positive numbers and , and any real numbers and :                                                            Notation  Suppose is any positive number , and and are integers, with . Then:             It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:  Common Errors  The following expressions are not equal, in general.         Additional Examples  Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that     Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is      Exercises  Check Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of .  Evaluate a rational expression - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                        Simplify a rational expression - FROM WEBWORK    Simplify the following expression.                Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .        Evaluate rational expressions - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify rational expressions - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify a rational expression - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).             Simplify a rational expression - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Multiply rational expressions - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                   Multiply rational expressions - FROM WEBWORK    Simplify the expression:  =               Multiply and divide rational expressions - FROM WEBWORK    Simplify the expression:  =             Simplify a rational expression - FROM WEBWORK    Simplify the numerical expression .  Answer:  Note:  You cannot use any operations except negation (-).             Simplify a rational expression - FROM WEBWORK  Note: A monomial is a term of the form for some constants and .    Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                   Simplify a rational expression - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                   Simplify a rational expression - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Simplify a rational expression - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                        Simplify a rational expression - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.               Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,        Add and subtract a rational expression - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =             Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                        Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .        Simplify a rational expression - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows         23. The rest do not seem to render properly...     9.        "
 },
 {
   "id": "sec-exp-intro-2",
@@ -528,8 +717,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-CP1",
   "type": "Checkpoint",
   "number": "2.1",
-  "title": "",
-  "body": "   Use the properties of exponents to simplify the following          We add the exponents as follows        "
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows        "
 },
 {
   "id": "ex-exp-numbers",
@@ -537,8 +726,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-numbers",
   "type": "Checkpoint",
   "number": "2.2",
-  "title": "",
-  "body": "   Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
 },
 {
   "id": "ex-exp-div",
@@ -546,8 +735,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-div",
   "type": "Checkpoint",
   "number": "2.3",
-  "title": "",
-  "body": "   Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that        "
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that        "
 },
 {
   "id": "ex-exp-multdiv",
@@ -555,8 +744,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-multdiv",
   "type": "Checkpoint",
   "number": "2.4",
-  "title": "",
-  "body": "   Rewrite the following using a single exponent.  for =            "
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =            "
 },
 {
   "id": "sec-exp-intro-5-16",
@@ -564,8 +753,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#sec-exp-intro-5-16",
   "type": "Example",
   "number": "2.5",
-  "title": "Simplifying exponents with several bases.",
-  "body": " Simplifying exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:    "
+  "title": "Simplify exponents with several bases.",
+  "body": "Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:    "
 },
 {
   "id": "ex-exp-mult2",
@@ -573,8 +762,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-mult2",
   "type": "Checkpoint",
   "number": "2.6",
-  "title": "",
-  "body": "   Simplify the expression:  =            "
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the expression:  =            "
 },
 {
   "id": "sec-exp-intro-6-7",
@@ -591,8 +780,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#sec-exp-intro-6-9",
   "type": "Example",
   "number": "2.7",
-  "title": "Evaluating radicals.",
-  "body": " Evaluating radicals  Evaluate without using a calculator.       As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite this as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor . If we use the second version, , we would start by finding the cube root of 8. When we factor, we get , which show us that . This gives us , so our final answer is    "
+  "title": "Evaluate radicals.",
+  "body": "Evaluate radicals  Evaluate without using a calculator.       As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite this as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor . If we use the second version, , we would start by finding the cube root of 8. When we factor, we get , which show us that . This gives us , so our final answer is    "
 },
 {
   "id": "ex-exp-root",
@@ -600,8 +789,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-root",
   "type": "Checkpoint",
   "number": "2.8",
-  "title": "",
-  "body": "   Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+  "title": "Evaluate radicals - FROM WEBWORK.",
+  "body": "Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
 },
 {
   "id": "sec-exp-intro-6-11",
@@ -609,8 +798,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#sec-exp-intro-6-11",
   "type": "Checkpoint",
   "number": "2.9",
-  "title": "",
-  "body": "   Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                  "
+  "title": "Multiply radicals - FROM WEBWORK.",
+  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                  "
 },
 {
   "id": "ex-exp-root3",
@@ -618,8 +807,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-root3",
   "type": "Checkpoint",
   "number": "2.10",
-  "title": "",
-  "body": "   Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
+  "title": "Multiply radicals - FROM WEBWORK.",
+  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
 },
 {
   "id": "sec-exp-intro-7-7",
@@ -628,7 +817,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.11",
   "title": "Double exponents.",
-  "body": " Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and   "
+  "body": "Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and   "
 },
 {
   "id": "ex-add",
@@ -637,7 +826,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.12",
   "title": "Exponents and addition.",
-  "body": " Exponents and addition  Are and equal of different?  They are different. in general. We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.  "
+  "body": "Exponents and addition  Are and equal of different?  They are different. in general. We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.  "
 },
 {
   "id": "sec-exp-intro-7-9",
@@ -646,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.13",
   "title": "Addition inside a bracket.",
-  "body": " Addition inside a bracket   Simpliy the expression .    To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.     "
+  "body": "Addition inside a bracket   Simpliy the expression .    To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.     "
 },
 {
   "id": "ex-exp-radical2",
@@ -654,8 +843,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-radical2",
   "type": "Checkpoint",
   "number": "2.14",
-  "title": "",
-  "body": "   Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =            "
+  "title": "Simplify radicals - FROM WEBWORK.",
+  "body": "Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =            "
 },
 {
   "id": "sec-exp-intro-7-11",
@@ -663,8 +852,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#sec-exp-intro-7-11",
   "type": "Checkpoint",
   "number": "2.15",
-  "title": "",
-  "body": "   Simplify and write the following in exponential notation.  If then  and                    "
+  "title": "Double exponents - FROM WEBWORK.",
+  "body": "Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                    "
 },
 {
   "id": "ex-exp-div2",
@@ -672,8 +861,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-div2",
   "type": "Checkpoint",
   "number": "2.16",
-  "title": "",
-  "body": "   Simplify the expression:  =            "
+  "title": "Double exponents - FROM WEBWORK.",
+  "body": "Double exponents - FROM WEBWORK    Simplify the expression:  =            "
 },
 {
   "id": "ex-exp-radical3",
@@ -681,8 +870,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#ex-exp-radical3",
   "type": "Checkpoint",
   "number": "2.17",
-  "title": "",
-  "body": "   Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:            "
+  "title": "Addition inside a bracket - FROM WEBWORK.",
+  "body": "Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:            "
 },
 {
   "id": "sec-exp-intro-9-4",
@@ -690,8 +879,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#sec-exp-intro-9-4",
   "type": "Example",
   "number": "2.18",
-  "title": "Simplifying exponents.",
-  "body": " Simplifying exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that    "
+  "title": "Simplify exponents.",
+  "body": "Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that    "
 },
 {
   "id": "sec-exp-intro-9-5",
@@ -699,8 +888,206 @@ var ptx_lunr_docs = [
   "url": "sec-exp-intro.html#sec-exp-intro-9-5",
   "type": "Example",
   "number": "2.19",
-  "title": "Simplifying exponents involving addition.",
-  "body": " Simplifying exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is    "
+  "title": "Simplify exponents involving addition.",
+  "body": "Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is    "
+},
+{
+  "id": "sec-exp-intro-10-2",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-2",
+  "type": "Exercise",
+  "number": "2.1.6.1",
+  "title": "Check.",
+  "body": "Check Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of . "
+},
+{
+  "id": "sec-exp-intro-10-3",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-3",
+  "type": "Exercise",
+  "number": "2.1.6.2",
+  "title": "Evaluate a rational expression - FROM WEBWORK.",
+  "body": "Evaluate a rational expression - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                       "
+},
+{
+  "id": "sec-exp-intro-10-4",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-4",
+  "type": "Exercise",
+  "number": "2.1.6.3",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the following expression.               "
+},
+{
+  "id": "sec-exp-intro-10-5",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-5",
+  "type": "Exercise",
+  "number": "2.1.6.4",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .       "
+},
+{
+  "id": "sec-exp-intro-10-6",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-6",
+  "type": "Exercise",
+  "number": "2.1.6.5",
+  "title": "Evaluate rational expressions - FROM WEBWORK.",
+  "body": "Evaluate rational expressions - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+},
+{
+  "id": "sec-exp-intro-10-7",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-7",
+  "type": "Exercise",
+  "number": "2.1.6.6",
+  "title": "Simplify rational expressions - FROM WEBWORK.",
+  "body": "Simplify rational expressions - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+},
+{
+  "id": "sec-exp-intro-10-8",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-8",
+  "type": "Exercise",
+  "number": "2.1.6.7",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).            "
+},
+{
+  "id": "sec-exp-intro-10-9",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-9",
+  "type": "Exercise",
+  "number": "2.1.6.8",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
+},
+{
+  "id": "sec-exp-intro-10-10",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-10",
+  "type": "Exercise",
+  "number": "2.1.6.9",
+  "title": "Multiply rational expressions - FROM WEBWORK.",
+  "body": "Multiply rational expressions - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                  "
+},
+{
+  "id": "sec-exp-intro-10-11",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-11",
+  "type": "Exercise",
+  "number": "2.1.6.10",
+  "title": "Multiply rational expressions - FROM WEBWORK.",
+  "body": "Multiply rational expressions - FROM WEBWORK    Simplify the expression:  =              "
+},
+{
+  "id": "sec-exp-intro-10-12",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-12",
+  "type": "Exercise",
+  "number": "2.1.6.11",
+  "title": "Multiply and divide rational expressions - FROM WEBWORK.",
+  "body": "Multiply and divide rational expressions - FROM WEBWORK    Simplify the expression:  =            "
+},
+{
+  "id": "sec-exp-intro-10-13",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-13",
+  "type": "Exercise",
+  "number": "2.1.6.12",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the numerical expression .  Answer:  Note:  You cannot use any operations except negation (-).            "
+},
+{
+  "id": "sec-exp-intro-10-14",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-14",
+  "type": "Exercise",
+  "number": "2.1.6.13",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK  Note: A monomial is a term of the form for some constants and .    Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                  "
+},
+{
+  "id": "sec-exp-intro-10-15",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-15",
+  "type": "Exercise",
+  "number": "2.1.6.14",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                  "
+},
+{
+  "id": "sec-exp-intro-10-16",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-16",
+  "type": "Exercise",
+  "number": "2.1.6.15",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
+},
+{
+  "id": "sec-exp-intro-10-17",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-17",
+  "type": "Exercise",
+  "number": "2.1.6.16",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                       "
+},
+{
+  "id": "sec-exp-intro-10-18",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-18",
+  "type": "Exercise",
+  "number": "2.1.6.17",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.              "
+},
+{
+  "id": "sec-exp-intro-10-19",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-19",
+  "type": "Exercise",
+  "number": "2.1.6.18",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,       "
+},
+{
+  "id": "sec-exp-intro-10-20",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-20",
+  "type": "Exercise",
+  "number": "2.1.6.19",
+  "title": "Add and subtract a rational expression - FROM WEBWORK.",
+  "body": "Add and subtract a rational expression - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =            "
+},
+{
+  "id": "sec-exp-intro-10-21",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-21",
+  "type": "Exercise",
+  "number": "2.1.6.20",
+  "title": "Simplest radical form - FROM WEBWORK.",
+  "body": "Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                       "
+},
+{
+  "id": "sec-exp-intro-10-22",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-22",
+  "type": "Exercise",
+  "number": "2.1.6.21",
+  "title": "Solve - FROM WEBWORK.",
+  "body": "Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .       "
+},
+{
+  "id": "sec-exp-intro-10-23",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-23",
+  "type": "Exercise",
+  "number": "2.1.6.22",
+  "title": "Simplify a rational expression - FROM WEBWORK.",
+  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows        "
 },
 {
   "id": "sec-exp-functions",
@@ -1681,7 +2068,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Style Conventions",
-  "body": " Style Conventions  We could use this section to write down some style conventions for writing.  We could also use it to keep copies of code that follow that style (which can simply be copy-pasted...)   File names and organization  Image files names are made as follows: xxxxnyyy where \"xxxx\" is short for the chapter (e.g. trig), and \"n\" is the section number (trig1 for section 3.1 for example). Then \"yyyy\" is some description of the image. For example \"trig1unit\" for an image of the unit circle in the first section in the trig chapter.    Images  Some conventions regarding images:    An image or graph should generally be placed inside \"figure\" so that it gets a caption and a figure number. However, a graph inside of an example would generally not have a figure number.     "
+  "body": " Style Conventions  We could use this section to write down some style conventions for writing.  We could also use it to keep copies of code that follow that style (which can simply be copy-pasted...)   General notes  Capitalize all words in titles  All examples, excerices AND prep-checks should be in knowls, and should have a TITLE.  In exercise, checkpoint and example titles, use the imperative form for exercise titles (e.g., ‘Simplify the expression,’ ‘Solve the equation,’ ‘Factor the polynomial’).” Avoid -ing forms like ‘Simplifying the expression.’    File names and organization  Image files names are made as follows: xxxxnyyy where \"xxxx\" is short for the chapter (e.g. trig), and \"n\" is the section number (trig1 for section 3.1 for example). Then \"yyyy\" is some description of the image. For example \"trig1unit\" for an image of the unit circle in the first section in the trig chapter.    Images  Some conventions regarding images:    An image or graph should generally be placed inside \"figure\" so that it gets a caption and a figure number. However, a graph inside of an example would generally not have a figure number.     "
 }
 ]
 

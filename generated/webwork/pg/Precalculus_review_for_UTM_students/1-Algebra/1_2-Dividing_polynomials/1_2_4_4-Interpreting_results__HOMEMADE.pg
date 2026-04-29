@@ -16,7 +16,7 @@
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(4.11)
+## Problem1(1.2.4.4)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -30,7 +30,8 @@ loadMacros(
   "PGstandard.pl",
   "PGML.pl",
   "AnswerFormatHelp.pl",
-  "PCCmacros.pl",
+  "parserPopUp.pl",
+  "contextForm.pl",
   "PGcourse.pl",
 );
 COMMENT('Authored in PreTeXt');
@@ -43,32 +44,53 @@ TEXT(beginproblem());
 ############################################################
 # PG Setup Code
 ############################################################
-Context("LimitedNumeric");
-$a = Compute(random(1, 9, 1)); %produces a random number between 1 and 9 inclusive, with step 1
-$b = Compute(random(1, 9, 1));
-$c = $a + $b;
+Context("Numeric");
+$popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+Context("Numeric");
+$quotient = Formula("4x");
+Context("Numeric");
+$remainder = Formula("x+7");
+$dividend = Formula("4x^3-3x+7");
+$divisor = Formula("x^2-1");
+$f = Formula("4x^3-3x+7");
+$g = Formula("x^2-1");
+$h = Formula("4x");
+$m = Formula("x+7");
+$n = Formula("x^2-1");
 
 ############################################################
 # Body
 ############################################################
 
 BEGIN_PGML
-Compute [`[$a] + [$b]\text{.}`]
+a.  The dividend is [_]{$dividend}{10}.
 
-[@KeyboardInstructions('Type your answer without using the [|+|]* sign.')@]**
+a.  The divisor is [_]{$divisor}{10}.
 
-The sum is [_]{$c}{6}.
+a.  The quotient is [_]{$quotient}{10}.
+
+a.  The remainder is [_]{$remainder}{10}.
+
+a.  The result of the long division can be written in the following format
+
+    [```
+                  \frac{f(x)}{g(x)} = h(x) + \frac{m(x)}{n(x)}
+                ```]
+
+    What are each of the polynomials in this example?
+
+    [`f(x) = `] [_]{$f}{10}
+
+    [`g(x) = `] [_]{$g}{10}
+
+    [`h(x) = `] [_]{$h}{10}
+
+    [`m(x) = `] [_]{$m}{10}
+
+    [`n(x) = `] [_]{$n}{10}
 
 END_PGML
-
-############################################################
-# Solution
-############################################################
-
-BEGIN_PGML_SOLUTION
-[`[$a] + [$b] = [$c]\text{.}`]
-
-END_PGML_SOLUTION
 
 ############################################################
 # End Problem
