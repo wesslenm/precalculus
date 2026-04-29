@@ -490,9 +490,11 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </subsection>
 
 
-  <subsection>
+  <exercises>
     <title>Exercises</title>
 
+    <exercise>
+<title>Fact Check - MISSING INSTRUCTIONS</title>
   <p> 1. Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
     </p>
   <aside>
@@ -503,7 +505,6 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc. 
     </p>
   </aside>
- <p>
     <webwork>
     <pg-code>
       Context("Numeric");
@@ -534,12 +535,11 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       <p> (h) What is <m> \sin (-\pi)</m>? <var name="$ans2" width="6"/></p>    
     </statement>
   </webwork>
-    </p>
+  </exercise>
 
-
-
-    <p>
-      2.   <webwork>
+<exercise>
+<title>xxxxx</title>
+    <webwork>
     <pg-code>
       Context("Numeric");
 
@@ -564,10 +564,11 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
     </statement>
   </webwork>
-    </p>
+  </exercise>
 
-    <p>
-     3.   <webwork>
+   <exercise>
+<title>yyyyy</title>
+       <webwork>
     <pg-code>
       Context("Numeric");
 
@@ -592,7 +593,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
     </statement>
   </webwork>
-    </p>
+</exercise>
 
     <p>
       4. <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" />
@@ -631,7 +632,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       12. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
     </p>
 
-  </subsection>
+  </exercises>
 
 
 
