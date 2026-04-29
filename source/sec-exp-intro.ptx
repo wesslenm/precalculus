@@ -23,8 +23,7 @@
 	</ul>
 </objectives>
  
-<assemblage xml:id="exp-use">
-	<title>Where will this be used in calculus?</title>
+<assemblage xml:id="exp-use"><title>Where will this be used in calculus?</title>
 	<p>
 		Rewriting and simplifying exponentials and radicals is usefully in most computational areas of mathematics, including calculus. Here are two specific calculus examples: 
 
@@ -56,8 +55,7 @@
   </p>
 </introduction>
 
-  <subsection>
-	<title>The First Rules</title>
+  <subsection><title>The First Rules</title>
   <p>
   The first exponent rule we will examine is
   </p>
@@ -69,15 +67,13 @@
   Here, the first term, <m>x^a</m> tells us to multiply <m>x</m> by itself <m>a</m> times and the second term tells us to multiply it <m>b</m> times. Together, that says we need to multiply <m>x</m> a total of <m>a+b</m> times, giving us <m>x^{a+b}</m>. As an example, <m>x^2x^3 = x^{2+3} = x^5</m>. 
   </p>
   
-  <exercise xml:id="ex-exp-CP1">
+  <exercise xml:id="ex-exp-CP1"><title>Simplify - FROM WEBWORK</title>
 	<webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
   </exercise>
 
   <p> 
 	Note that <xref ref="rule-one" /> is true for all real numbers <m>a</m> and <m>b</m> (they do not need to be integers), and all positive values of <m>x</m>.
   </p> 
-
-
 
   <p>  
   Next, let's look at
@@ -128,13 +124,13 @@ We can see this from previous rules:
 Again, all of the above is true for all real numbers <m>a</m> and <m>b</m>, and all positive values of <m>x</m>. 
 </p>
 
-  <exercise xml:id="ex-exp-numbers">
+  <exercise xml:id="ex-exp-numbers"><title>Simplify - FROM WEBWORK</title>
 	<webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg" />
   </exercise>
-  <exercise xml:id="ex-exp-div">
+  <exercise xml:id="ex-exp-div"><title>Simplify - FROM WEBWORK</title>
 	<webwork source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg" />
   </exercise>
-  <exercise xml:id="ex-exp-multdiv">
+  <exercise xml:id="ex-exp-multdiv"><title>Simplify - FROM WEBWORK</title>
 	<webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" />
   </exercise>
 
@@ -142,8 +138,7 @@ Again, all of the above is true for all real numbers <m>a</m> and <m>b</m>, and 
 If there are several different base numbers we need to collect those with the same base, as in the following example.
   </p>
 
-  <example>
-	<title>Simplifying exponents with several bases</title>
+  <example><title>Simplify exponents with several bases</title>
 	<statement>
 		Simplify the expression <m>(11x^5u^2)(7u^3x^4)</m>.
 	</statement>
@@ -179,10 +174,7 @@ If there are several different base numbers we need to collect those with the sa
 	</solution>
 </example>
 
-
-
-
-  <exercise xml:id="ex-exp-mult2">
+  <exercise xml:id="ex-exp-mult2"><title>Simplify - FROM WEBWORK</title>
 	<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg" />
   </exercise>
 </subsection>
@@ -233,8 +225,7 @@ If there are several different base numbers we need to collect those with the sa
 		</p>
 		
 	
-	<example>
-		<title>Evaluating radicals</title>
+	<example><title>Evaluate radicals</title>
 		<statement>
 			Evaluate <m>8^{2/3}</m> without using a calculator.
 		</statement>
@@ -257,17 +248,15 @@ If there are several different base numbers we need to collect those with the sa
 		</solution>
 	</example>
 	
-
-
-	  <exercise xml:id="ex-exp-root">
+	  <exercise xml:id="ex-exp-root"><title>Evaluate radicals - FROM WEBWORK</title>   
 		<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg" />
 	  </exercise> 
 
-	  <exercise>
+	  <exercise><title>Multiply radicals - FROM WEBWORK</title> 
 		<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg" />
 	  </exercise> 
 
-	  <exercise xml:id="ex-exp-root3">
+	  <exercise xml:id="ex-exp-root3"><title>Multiply radicals - FROM WEBWORK</title> 
 		<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_16.pg" />
 	  </exercise> 
  
@@ -317,8 +306,7 @@ However,
   </equation>
 </p>
 
-<example>
-	<title>Double exponents</title>
+<example><title>Double exponents</title>
 	<statement>	
 		Simplify <me>(x^2y^3)^2</me> and 
 		<me> \Bigg(\frac{3x^2}{y^3}\Bigg) ^2</me>
@@ -348,8 +336,7 @@ However,
 	</solution>
 </example>
 
-<example xml:id="ex-add">
-	<title>Exponents and addition</title>
+<example xml:id="ex-add"><title>Exponents and addition</title>
 	<statement>	
 		Are <m>(x^2+y^3)^2</m> and <m> x^4+y^6</m> equal of different? 
 	</statement>
@@ -358,8 +345,7 @@ However,
 	</solution>
 </example>
 
-<example>
-	<title>Addition inside a bracket</title>
+<example><title>Addition inside a bracket</title>
 	<statement>
 	<p>
 		Simpliy the expression <m>(x^2+y^3)^2</m>. 
@@ -396,19 +382,19 @@ However,
 	</solution>
 </example>
 
-<exercise xml:id="ex-exp-radical2">
+<exercise xml:id="ex-exp-radical2"><title>Simplify radicals - FROM WEBWORK</title> 
 	<webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-04-Fractional-exponents.pg" />
   </exercise> 
 
-	<exercise>
+	<exercise><title>Double exponents - FROM WEBWORK</title> 
 		<webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
 	  </exercise> 
 
-	  <exercise xml:id="ex-exp-div2">
+	  <exercise xml:id="ex-exp-div2"><title>Double exponents - FROM WEBWORK</title> 
 		<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg" />
 	  </exercise> 
 
-	  <exercise xml:id="ex-exp-radical3">
+	  <exercise xml:id="ex-exp-radical3"><title>Addition inside a bracket - FROM WEBWORK</title> 
 		<webwork source="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg" />
 	  </exercise> 
 
@@ -423,8 +409,7 @@ The rules we have just seen will all be quite handy in calculus (and many other 
 Our rules are summarized below.
 </p>
 
-<assemblage xml:id="exp-rules">
-	<title>Exponential Rules</title>
+<assemblage xml:id="exp-rules"><title>Exponential Rules</title>
 	<p>
 		The following are true for all positive numbers <m>x</m> and <m>y</m>, and any real numbers <m>a</m> and <m>b</m>:
 		<tabular>
@@ -488,8 +473,7 @@ Our rules are summarized below.
 
 </assemblage>
 
-<assemblage xml:id="exp-notation">
-	<title>Notation</title>
+<assemblage xml:id="exp-notation"><title>Notation</title>
 	<p>
 		Suppose <m>x</m> is any positive number <m>x</m>, and <m>a</m> and <m>b</m> are integers, with <m>a>0</m>. Then:
 			<ul>
@@ -506,8 +490,7 @@ Our rules are summarized below.
 	It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:
 </p>
 
-<assemblage>
-	<title>Common Errors</title>
+<assemblage><title>Common Errors</title>
 	<p>
 		The following expressions are not equal, in general.
 		<men xml:id="error-one">(x+y)^2 \not= x^2 + y^2</men>
@@ -519,8 +502,7 @@ Our rules are summarized below.
 </assemblage>
 </subsection>
 
-<subsection>
-	<title>Additional Examples</title>
+<subsection><title>Additional Examples</title>
 <p>
 Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above. 
 </p>
@@ -529,8 +511,7 @@ Let's look at a few examples of working with exponent rules. The examples use on
 <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
 </p>
 
-<example>
-	<title>Simplifying exponents</title>
+<example><title>Simplify exponents</title>
 	<statement>
 		<p>
 		Simplify <me> \Bigg( \frac{x^2 y^4}{x\sqrt{y}}\Bigg)^2</me>
@@ -575,8 +556,7 @@ Let's look at a few examples of working with exponent rules. The examples use on
 	</solution>
 </example>
 
-<example>
-	<title>Simplifying exponents involving addition</title>
+<example><title>Simplify exponents involving addition</title>
 	<statement>
 		Simplify <me>\displaystyle \Big( \sqrt{y} + \sqrt{x}\Big)^2.</me>
 	</statement>
@@ -614,102 +594,99 @@ Let's look at a few examples of working with exponent rules. The examples use on
 </example>
 </subsection>
 
+<exercises><title>Exercises</title>
+<exercise><title>Check</title>
+	<p>
+	Look at each of the "common errors" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of <xref ref="ex-add"/>. 
+	</p>
+</exercise>
 
+<exercise><title>Evaluate a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg" />
+</exercise>
 
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
+</exercise>
 
-<subsection>
-	<title>Mixed Exercises</title>
-<p>
-	1. Look at each of the "common errors" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of <xref ref="ex-add"/>. 
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	 <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
+</exercise>
 
-<p>
-	2. <webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg" />
-</p>
+<exercise><title>Evaluate rational expressions - FROM WEBWORK</title>
+	<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" />
+</exercise>
 
-<p>
-	3.	<webwork source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
-</p>
+<exercise><title>Simplify rational expressions - FROM WEBWORK</title>
+	<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
+</exercise>
 
-<p>
-	4. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" />
+</exercise>
 
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" />
+</exercise>
 
-<p>
-	5. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" />
-</p>
-	
-<p>
-	6. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
-</p>
+<exercise><title>Multiply rational expressions - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" />
+</exercise>
 
-<p>
-	7. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" />
-</p>
+<exercise><title>Multiply rational expressions - FROM WEBWORK</title>
+	<webwork source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" />
+</exercise>
 
-<p>
-	8. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" />
-</p>
+<exercise><title>Multiply and divide rational expressions - FROM WEBWORK</title>
+	<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" />
+</exercise>
 
-<p>
-	9. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" />
+</exercise>
 
-<p>
-	10. <webwork source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" />
-</p>
-
-<p>
-	11. <webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" />
-</p>
-
-<p>
-	12. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" />
-</p>
-
-<p>
-	13. Note: A monomial is a term of the form <m>ay^b</m> for some constants <m>a</m> and <m>b</m>.  
-	
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<p>
+		Note: A monomial is a term of the form <m>ay^b</m> for some constants <m>a</m> and <m>b</m>.  
+	</p>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" />
-</p>
+</exercise>
 
-<p>
-	14. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" />
+</exercise>
 
-<p>
-	15. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" />
-</p>
-	
-<p>
-	16. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" />
+</exercise>
 
-<p>
-	17. <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" />
+</exercise>
 
-<p>
-	18. <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" />
+</exercise>
 
-<p>
-	19. <webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
-</p>
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" />
+</exercise>
 
-<p>
-	20. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" />
-</p>
+<exercise><title>Add and subtract a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
+</exercise>
 
-<p>
-	21. <webwork source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" />
-</p>
-	
-<p>
-	22. <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" />
-</p>
+<exercise><title>Simplest radical form - FROM WEBWORK</title>
+	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" />
+</exercise>
 
+<exercise><title>Solve - FROM WEBWORK</title>
+	<webwork source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" />
+</exercise>
+
+<exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+	<webwork source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" />
+</exercise>
 
 <p>
 23. <alert> The rest do not seem to render properly...</alert>  <webwork source="Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg" />
@@ -755,5 +732,5 @@ Let's look at a few examples of working with exponent rules. The examples use on
 </p>
 --> 
 
-</subsection>
+</exercises>
 </section>

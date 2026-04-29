@@ -1843,8 +1843,7 @@ Therefore the result can be stated as:
     <title>Exercises</title>
 
 
-<exercise>
-<title>True or False</title>
+<exercise><title>True or False - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
 <webwork>
       <pg-code>
@@ -1888,8 +1887,7 @@ Therefore the result can be stated as:
 </exercise>
 
 
-<exercise>
-<title>Set-up</title>
+<exercise><title>Set-up - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <introduction>
       <p>
@@ -1972,8 +1970,7 @@ Therefore the result can be stated as:
   </exercise>
 
 
-<exercise>
-<title>Interpreting results</title>
+<exercise><title>Interpreting results - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
         <introduction>
       <p>
@@ -2132,8 +2129,7 @@ Therefore the result can be stated as:
   </exercise>
 
 
-    <exercise>
-<title>Interpreting results</title>    
+    <exercise><title>Interpreting results - HOMEMADE</title>    
         <introduction>
         <p>
           Suppose someone has written down the following long division. 
@@ -2255,40 +2251,23 @@ Therefore the result can be stated as:
     </webwork>
   </exercise>
 
-
-
-
-
-    <exercise>
-<title>Quotient and remainder, degree 3</title> 
-   <p>
+    <exercise><title>Quotient and remainder, degree 3 - FROM WEBWORK</title> 
       <webwork source="Library/ASU-topics/setPolynomialDivision/jj3.pg" />
-    </p>
   </exercise>
 
-    <exercise>
-<title>Quotient and remainder, degree 4</title> 
-   <p>
+    <exercise><title>Quotient and remainder, degree 4 - FROM WEBWORK</title> 
       <webwork source="Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg" />
-    </p>
   </exercise>
 
-     <exercise>
-<title>Quotient and remainder, degree 5</title>  
-   <p>
+     <exercise><title>Quotient and remainder, degree 5 - FROM WEBWORK</title>  
      <webwork source="Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg" />
-    </p>
   </exercise>
 
-    <exercise>
-<title>Quotient and remainder, degree 3</title> 
-   <p>
+    <exercise><title>Quotient and remainder, degree 3 - FROM WEBWORK</title> 
       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg" />
-    </p>
   </exercise>
 
-<exercise>
-<title>Quotient and remainder, degree 5</title> 
+<exercise><title>Quotient and remainder, degree 5 - HOMEMADE</title> 
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
@@ -2317,8 +2296,7 @@ Therefore the result can be stated as:
     </webwork>
   </exercise>
 
-<exercise>
-<title>Specific result format</title> 
+<exercise><title>Specific result format - HOMEMADE</title> 
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
@@ -2349,8 +2327,5 @@ Therefore the result can be stated as:
       </statement>
     </webwork>
   </exercise>
-
-
   </exercises>
-
 </section>

@@ -28,8 +28,7 @@
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
       Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:
     </p>
@@ -64,9 +63,7 @@
     <title>Angle notation</title>
    <p> In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  </p>
   
-  
-<table>
-  <title>Correspondence between radian and degree measures in some common angles.</title>
+<table><title>Correspondence between radian and degree measures in some common angles.</title>
   <tabular halign="center">
     <row header="yes" bottom="minor" >
       <cell>Degree </cell>      
@@ -163,7 +160,7 @@
 <p>
 </p>
 
-<exercise xml:id="ex-trig-intro1">
+<exercise xml:id="ex-trig-intro1"><title>Unit circle - FROM WEBWORK</title>
 	<webwork source="Library/MC/Trigonometry/RadianTerminalPoint.pg" />
 </exercise>
 
@@ -171,8 +168,7 @@
       We often (but not always) use Greek letters to represent angles. For example, <m>\theta</m> (theta), <m>\alpha</m> (alpha) and <m>\beta</m> (beta) are commonly used to represent angles. 
     </p>
 
-    <assemblage>
-      <title>Greek letters</title>
+    <assemblage><title>Greek letters</title>
       <p>
         For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. 
       <md>
@@ -196,8 +192,7 @@
 </subsection>
 
 
-  <subsection xml:id="trig-def">
-    <title>Definitions</title>
+  <subsection xml:id="trig-def"><title>Definitions</title>
   <p>We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   </p>
   
    <assemblage>
@@ -304,8 +299,7 @@
 <p> 
 </p>
 
-  <exercise xml:id="trig-intro-CP1">
-  <title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m></title>
+  <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m></title>
   <hint>
     <p>
       We know that <m>\csc \theta = \frac{1}{\sin \theta}</m>. Therefore, in terms of right angled triangles, <m>\csc \theta = \frac{1}{opp/hyp} = \frac{hyp}{opp}</m>. Now do the same for secant and cotangent. 
@@ -319,8 +313,7 @@
     </p>
   </exercise>
   
-<exercise>
-<title>Simplifying </title>
+<exercise><title>Simplify - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -344,8 +337,6 @@
 
   </webwork>
 </exercise>
-
-
 
   <subsection xml:id="sec-trig-special">
     <title>Evaluating using special triangles</title>
@@ -390,8 +381,6 @@
     </sidebyside>
 </figure>
 
-
-
    <aside>
     <p>
       <alert> Study tip: </alert>
@@ -401,8 +390,7 @@
     </p>
   </aside>
 
-  <example xml:id="trig-intro-ex1">
-  <title>Evaluating using special triangles</title>
+  <example xml:id="trig-intro-ex1"><title>Evaluate using special triangles</title>
 	<statement>
       Use the special triangles to find the value of <m> \cos \left(\frac{\pi}{3}\right) </m>.
 	</statement>
@@ -429,8 +417,7 @@
 	</solution>
   </example>
 
-  <exercise>
-<title>Evaluating using special triangles 1</title>
+  <exercise><title>Evaluate using special triangles 1 - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -459,8 +446,7 @@
   </webwork>
 </exercise>
 
- <exercise>
-<title>Evaluating using special triangles 2</title>
+ <exercise><title>Evaluate using special triangles 2 - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -489,8 +475,7 @@
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating using special triangles 3</title>
+<exercise><title>Evaluate using special triangles 3 - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -520,14 +505,12 @@
 </exercise>
   </subsection>
 
-  <subsection xml:id="sec-trig-circle">
-    <title>Evaluating using the coordinate system</title>
+  <subsection xml:id="sec-trig-circle"><title>Evaluating using the coordinate system</title>
   <p> If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.   </p>
 	  <p>
 	  </p>
 
- <example xml:id="trig-intro-ex4">
-  <title>Evaluating at <m>\frac{2\pi}{3}</m></title>
+ <example xml:id="trig-intro-ex4"><title>Evaluate at <m>\frac{2\pi}{3}</m></title>
 	<statement>
       Find exact values for <m> \sin \left(\frac{2\pi}{3}\right), \ \cos \left(\frac{2\pi}{3}\right) </m> and <m>\tan \left(\frac{2\pi}{3}\right)</m> without using a calculator.
 	</statement>
@@ -575,8 +558,7 @@
 	</solution>
   </example>
 
-<exercise>
-<title>Continuing the example</title>
+<exercise><title>Continue the example</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -607,8 +589,7 @@
 	  <p>
 	  </p>
 
-<example xml:id="trig-intro-ex5">
-  <title>Evaluating at <m>-\frac{\pi}{6}</m></title>
+<example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m></title>
 	<statement>
       Find exact values for <m> \sin \left(-\frac{\pi}{6}\right), \ \cos \left(-\frac{\pi}{6}\right) </m> and <m>\sec \left(-\frac{\pi}{6}\right)</m> without using a calculator.
 	</statement>
@@ -656,8 +637,7 @@
 	</solution>
   </example>
 
-<exercise>
-<title>Evaluating at <m>\frac{3\pi}{4}</m></title>
+<exercise><title>Evaluate at <m>\frac{3\pi}{4}</m></title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -689,8 +669,7 @@
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating at <m>-\frac{5\pi}{6}</m></title>
+<exercise><title>Evaluate at <m>-\frac{5\pi}{6}</m></title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -724,8 +703,7 @@
 
   </subsection>
 
-  <subsection xml:id="sec-trig-right">
-    <title>Evaluating at <m>0, \pi/2, \pi</m> etc. </title>
+  <subsection xml:id="sec-trig-right"><title>Evaluating at <m>0, \pi/2, \pi</m> etc. </title>
   <p> If you know the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>, then it is easy to find the values of all trigonometric functions for any multiple of <m>\frac{\pi}{2}</m>. 
   Trigonometic graphs are discussed more in <xref ref="sec-trig-graphs" />, but you may already remember the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>:
    </p>
@@ -760,8 +738,7 @@
 </figure>
 
 
- <example xml:id="trig-intro-ex2">
-  <title>Evaluating <m>\cos \left(\frac{3\pi}{2}\right)</m> </title>
+ <example xml:id="trig-intro-ex2"><title>Evaluate <m>\cos \left(\frac{3\pi}{2}\right)</m> </title>
 	<statement>
       Evaluate <m> \cos \left(\frac{3\pi}{2}\right) </m> without using a calculator.
 	</statement>
@@ -795,7 +772,7 @@
   </example>
 
  <example xml:id="trig-intro-ex3">
-  <title>Evaluating <m>\sec \left(4\pi\right)</m> </title>
+  <title>Evaluate <m>\sec \left(4\pi\right)</m> </title>
 	<statement>
       Evaluate <m> \sec \left(4\pi\right)</m> without using a calculator.
 	</statement>
@@ -820,7 +797,7 @@
      </p>
     
 <exercise>
-<title>Evaluating <m>\sin \left(\frac{3\pi}{2}\right)</m> </title>
+<title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> </title>
   <webwork>
     <statement>
       <p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
@@ -829,8 +806,7 @@
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating sine at multiples of <m>\frac{\pi}{2}</m> </title>
+<exercise><title>Evaluate sine at multiples of <m>\frac{\pi}{2}</m>  - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -847,8 +823,7 @@
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating cosine at multiples of <m>\frac{\pi}{2}</m> </title>
+<exercise><title>Evaluate cosine at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE </title>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -865,8 +840,7 @@
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating trig at multiples of <m>\frac{\pi}{2}</m> NEEDS FIXING, DOES NOT ACCEPT DNE</title>
+<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -896,8 +870,7 @@
 
   </subsection>
 
-  <subsection xml:id="sec-trig-summary">
-    <title>Summary</title>
+  <subsection xml:id="sec-trig-summary"><title>Summary</title>
   <p> The types of angles we have evaluated trigonometric functions at, are summarized here.    </p>
 
  <assemblage xml:id="trig-common">
@@ -932,20 +905,29 @@
   </assemblage> 
 </subsection>
 
-<subsection>
-  <title>Exercises</title>
+<exercises><title>Exercises</title>
+
 
     <p>
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
     </p>
 
-  <p>
-	1. (Randomized. Feel free to practice several times.) <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
-  </p>
 
-  <p>
-  2. (Randomized.) <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
-  </p>
+
+
+<exercise><title>Title here - FROM WEBWORK</title>
+   <!-- </p>
+	 (Randomized. Feel free to practice several times.) 
+    </p> -->
+    <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
+</exercise>
+
+<exercise><title>Title here - FROM WEBWORK</title>
+   </p>
+	 (Randomized.)
+   </p>
+   <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
+  </exercise>
 
 <p>
 3. (Not randomized.)
@@ -1154,7 +1136,7 @@
 
 
 
-  </subsection>
+</exercises>
 
 
 

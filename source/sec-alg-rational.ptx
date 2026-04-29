@@ -27,8 +27,7 @@
     </ul>
   </objectives>
    
-  <assemblage xml:id="rational-use">
-    <title>Where will this be used in calculus?</title>
+  <assemblage xml:id="rational-use"><title>Where will this be used in calculus?</title>
     <p>
       Here are several specific calculus examples where working with rational expressions will be useful: 
     </p>
@@ -73,8 +72,7 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
     </p>
   </introduction>
   
-  <subsection>
-    <title>Common factors</title>
+  <subsection><title>Common factors</title>
     <p>
     Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator. 
     </p>
@@ -83,8 +81,7 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
       A <term>factor</term> is part of an expression which is <em>multiplied</em> by the rest of the expression. 
     </p>
 
-    <example xml:id="ex-common">
-      <title>Common factor</title>
+    <example xml:id="ex-common"><title>Common factor</title>
       <statement>
         <p>
         Simplify the rational epression <me>\frac{x^3+3x^2}{x^2+2x-3}.</me>
@@ -119,7 +116,7 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
       </solution>
     </example>
 
-    <exercise>
+    <exercise><title>Common factor - FROM WEBWORK</title>
       <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" />
     </exercise>
 
@@ -131,8 +128,7 @@ The cancelation in <xref ref="ex-common" /> is based on the following rule, whic
 Note that what you are canceling must be multiplied (or divided) by the rest of the numerator and denominator, NOT added or subtracted. 
     </p>
 
-    <assemblage xml:id="rational-factor">
-      <title>Rule</title>
+    <assemblage xml:id="rational-factor"><title>Rule</title>
       <p>
         For any real numbers <m>a</m>, <m>b</m>, <m>c</m> and <m>k</m> where <m>b\not= 0</m> and <m>c\not= 0</m>, it is true that
         <men xml:id="rule">\frac{ac}{bc}=\frac{a}{b}</men>
@@ -142,8 +138,7 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
       </p>
        </assemblage>
 
-       <assemblage xml:id="rational-error">
-        <title>Common Error</title>
+       <assemblage xml:id="rational-error"><title>Common Error</title>
         <p>
           In general, the following are not true. 
 
@@ -156,14 +151,14 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
           Note that <xref ref="rule" /> can be useful in ``both directions''. Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.
          </p>
 
-         <exercise xml:id="ex-rat">    
+         <exercise xml:id="ex-rat"><title>Simplify - FROM WEBWORK</title>    
           <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg"/>
         </exercise>
 
         <p>
           Note: If you are unsure of how to work with exponents, you could have a look at section <xref ref="sec-exp-intro"/> before working on <xref ref="ex-rat" />.
         </p>   
-        <example>
+        <example><title>True or False?</title>  
           <statement>
                        For each of the following, determine if the statement is True or False, for all real numbers <m>a</m>, <m>b</m>, <m>c</m>? 
                        Whenever there is division, assume that all denominators are non-zero.
@@ -215,8 +210,7 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
          <me> \frac{2}{3}\times \frac{5}{7} = \frac{10}{21}</me>  
          <p> Sometimes it might be worth simplifying the result, or perhaps simplifying before multiplying (if it's easy enough to do so). </p>
 
-         <assemblage>
-          <title>Technique</title>
+         <assemblage><title>Technique</title>
           <p>
             To multiply two rational expressions, multiply the numerators to find the numerator of the product. Then multiply the denominators to find the denominator of the product. 
 
@@ -227,8 +221,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
           </p>
            </assemblage>   
 
-         <example xml:id="ex-multiply">
-          <title>Multiplying rational expressions</title>
+         <example xml:id="ex-multiply"><title>Multiply rational expressions</title>
           <statement>
             <p>
             Multiply the rational expressions and simplify the answer:
@@ -261,15 +254,15 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
           </solution>
         </example>
 
-        <exercise>
+        <exercise><title>Multiply rational expressions - FROM WEBWORK</title>  
           <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/MultiplyingFractions03.pg"/>
         </exercise>
 
-        <exercise>
+        <exercise><title>Multiply rational expressions - FROM WEBWORK</title>  
           <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg"/>
         </exercise>
 
-        <exercise>
+        <exercise><title>Multiply rational expressions - FROM WEBWORK</title>  
           <webwork source="Library/ma117DB/set1b/srw1_4_11.pg"/>
         </exercise>
 
@@ -277,8 +270,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
        <p> To divide rational expressions we again use the similar ideas and rules as when working with numerical fractions. Take the reciprocal of the denominator, then muliply.  For example </p>
        <me> \frac{2}{3} / \frac{5}{7} = \frac{2}{3} \times \frac{7}{5} = \frac{14}{25}</me>  
        
-       <assemblage>
-        <title>Technique</title>
+       <assemblage><title>Technique</title>
         <p>
           To divide two rational expressions, multiply by the reciprocal of the denominator:
 
@@ -289,13 +281,14 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         </p>
          </assemblage>   
 
-         <xref ref="rational-multiply" /> can be writen in more detail:
+      <p>
+        The rule <xref ref="rational-divide" /> can be writen in more detail:
          <me>
           \frac{a}{b} / \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}
         </me>
+      </p>
 
-       <example xml:id="ex-divide">
-        <title>Dividing rational expressions</title>
+       <example xml:id="ex-divide"><title>Divide rational expressions</title>
         <statement>
           <p>
           Divide the rational expressions and simplify the answer:
@@ -328,14 +321,13 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         </solution>
       </example>
 
-      <exercise>
+      <exercise><title>Divide rational expressions - FROM WEBWORK</title>  
         <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions04.pg"/>
       </exercise>
 
   </subsection>
 
-  <subsection>
-    <title>Adding and Subtracting rational expressions</title>
+  <subsection><title>Adding and Subtracting rational expressions</title>
 
       <p> Let's start by looking at a numerical example of adding two fractions, for example <m>\frac{5}{6} + \frac{3}{8}</m>.      
         
@@ -369,8 +361,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         </p>
       </assemblage> 
 
-      <example xml:id="ex-subtract">
-        <title>Subtracting rational expressions</title>
+      <example xml:id="ex-subtract"><title>Subtracting rational expressions</title>
         <statement>
           <p>
           Subtract the rational expressions and simplify the answer:
@@ -414,29 +405,28 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         </solution>
       </example>
 
-      <exercise>
+      <exercise><title>Subtract rational expressions - FROM WEBWORK</title>
         <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions03.pg"/>
       </exercise>
 
-      <exercise>
+      <exercise><title>Divide rational expressions - FROM WEBWORK</title>
         <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg"/>
       </exercise>
 
 
-      <exercise>
+      <exercise><title>Find the least common denominator (LCD) - FROM WEBWORK</title>
         <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg"/>
       </exercise>
   </subsection>
 
-  <subsection>
-    <title>Complex rational expressions</title>
+  <subsection><title>Complex rational expressions</title>
 
       <p> 
         A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <term> complex rational expression</term>. To simplify a complex rational expression, start by simplifying the numberator, then the denominator, and after that is done you can simplify the overall expression. 
       </p>
 
       <example xml:id="ex-complex">
-        <title>Simplifying a complex rational expression</title>
+        <title>Simplify a complex rational expression</title>
         <statement>
           <p>
           Simplify the complex rational expression:
@@ -518,8 +508,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
 
 </subsection>
 
-  <subsection>
-    <title>Additional Examples</title>
+  <subsection><title>Additional Examples</title>
 
       <p> Here are a few examples that use several of the techniques and rules seen above. </p>
 
@@ -626,123 +615,118 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
       </example>
   </subsection>
 
-  <exercises>
-    <title>Exercises</title>
+  <exercises><title>Exercises</title>
 
     <p>
       Note: In all exercises, assume that any factor you cancel is not zero (as in Example <xref ref="ex-complex3"/>).
     </p>
     
-    <p>
-      <exercise>
-      1. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" />
+      <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" />
       </exercise>
-       </p>
 
-    <p>
-        <exercise>
-      2. <webwork source="Library/ma117DB/set1b/srw1_4_7.pg" />
+      <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+      <webwork source="Library/ma117DB/set1b/srw1_4_7.pg" />
+      </exercise>
+
+
+    <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+     <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" />
+    </exercise>
+
+    <exercise><title>Multiply two rational expressions - FROM WEBWORK</title>
+     <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" />
+       </exercise>
+
+    <exercise><title>Multiply two rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" />
+      </exercise>
+
+
+   <exercise><title>Divide two rational expressions - FROM WEBWORK</title>
+     <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" />
+      </exercise>
+
+
+
+   <exercise><title>Divide two rational expressions - FROM WEBWORK</title>
+  <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" />
+      </exercise>
+
+        <p>
+Adding and subtracting fractions:
+  </p>
+
+   <exercise><title>Add two rational expressions - FROM WEBWORK</title>
+   <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
+      </exercise>
+
+
+
+   <exercise><title>Add two rational expressions - FROM WEBWORK</title>
+     <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" />
+      </exercise>
+
+   <exercise><title>Add two rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" />
+       </exercise>
+
+
+    <exercise><title>Add two rational expressions - FROM WEBWORK</title>
+     <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" />
+      </exercise>
+
+   <exercise><title>Add two rational expressions - FROM WEBWORK</title>
+       <webwork source="Library/ma117DB/set1b/srw1_4_27.pg" />
         </exercise>
-    </p>
 
-    <p>
-      3. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" />
-    </p>
+   <exercise><title>Subtract two rational expressions - FROM WEBWORK</title>
+     <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" />
+      </exercise>
 
-    <p>
-      4. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" />
-    </p>
+   <exercise><title>Subtract two rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" />
+       </exercise>
 
-    <p>
-      5. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" />
-    </p>
+   <exercise><title>Find an LCD - FROM WEBWORK</title>
+     <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" />
+       </exercise>
 
+   <exercise><title>Add two rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" />
+      </exercise>
 
-    <p>
-      6. <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" />
-    </p>
+   <exercise><title>Subtract a rational expression from an integer - FROM WEBWORK</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" />
+       </exercise>
 
-add/subtract:
+   <exercise><title>Add and subtract rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" />
+      </exercise>
 
-<p>
-  7. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" />
-</p>
+   <exercise><title>Multiply and divide rational expressions - FROM WEBWORK</title>
+       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" />
+      </exercise>
 
+   <exercise><title>Add three rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" />
+      </exercise>
 
-<p>
-  8. <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
-</p>
+  <p>
+Complex fractions:
+  </p>
 
+   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
+      <webwork source="Library/ma117DB/set1b/srw1_4_41.pg" />
+      </exercise>
 
+   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" />
+      </exercise>
 
-    <p>
-      9. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" />
-    </p>
-
-    <p>
-      10. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" />
-    </p>
-
-
-    <p>
-      11. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" />
-    </p>
-
-    <p>
-      12. <webwork source="Library/ma117DB/set1b/srw1_4_27.pg" />
-    </p>
-
- 
-
-    <p>
-      13. <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" />
-    </p>
-
-    <p>
-      14. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" />
-    </p>
-
-    <p>
-      15. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" />
-    </p> 
-
-    <p>
-      16. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" />
-    </p>
-
-    <p>
-      17. <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" />
-    </p>
-
- 
-
-    <p>
-      18. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" />
-    </p>
-
-
-
-    <p>
-      19. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" />
-    </p>
-
-    <p>
-      20. <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" />
-    </p>
-
-complex:
-
-    <p>
-      21. <webwork source="Library/ma117DB/set1b/srw1_4_41.pg" />
-    </p>
-
-    <p>
-      22. <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" />
-    </p>
-
-    <p>
-      23. <webwork source="Library/ma117DB/set1b/srw1_4_45.pg" />
-    </p>
+   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
+      <webwork source="Library/ma117DB/set1b/srw1_4_45.pg" />
+      </exercise>
 
 
 <!--
