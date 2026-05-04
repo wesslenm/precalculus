@@ -191,7 +191,6 @@
     </assemblage>
 </subsection>
 
-
   <subsection xml:id="trig-def"><title>Definitions</title>
   <p>We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   </p>
   
@@ -294,12 +293,12 @@
       You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already. 
     </p>
   </aside>
-  </subsection>
+  
 
 <p> 
 </p>
 
-  <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m></title>
+  <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE</title>
   <hint>
     <p>
       We know that <m>\csc \theta = \frac{1}{\sin \theta}</m>. Therefore, in terms of right angled triangles, <m>\csc \theta = \frac{1}{opp/hyp} = \frac{hyp}{opp}</m>. Now do the same for secant and cotangent. 
@@ -337,6 +336,7 @@
 
   </webwork>
 </exercise>
+</subsection>
 
   <subsection xml:id="sec-trig-special">
     <title>Evaluating using special triangles</title>
@@ -558,7 +558,7 @@
 	</solution>
   </example>
 
-<exercise><title>Continue the example</title>
+<exercise><title>Continue the previous example - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -589,7 +589,7 @@
 	  <p>
 	  </p>
 
-<example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m></title>
+<example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m> - HOMEMADE</title>
 	<statement>
       Find exact values for <m> \sin \left(-\frac{\pi}{6}\right), \ \cos \left(-\frac{\pi}{6}\right) </m> and <m>\sec \left(-\frac{\pi}{6}\right)</m> without using a calculator.
 	</statement>
@@ -637,7 +637,7 @@
 	</solution>
   </example>
 
-<exercise><title>Evaluate at <m>\frac{3\pi}{4}</m></title>
+<exercise><title>Evaluate at <m>\frac{3\pi}{4}</m> - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -669,7 +669,7 @@
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate at <m>-\frac{5\pi}{6}</m></title>
+<exercise><title>Evaluate at <m>-\frac{5\pi}{6}</m> - HOMEMADE </title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -796,8 +796,7 @@
      <p>
      </p>
     
-<exercise>
-<title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> </title>
+<exercise><title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> - HOMEMADE </title>
   <webwork>
     <statement>
       <p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
@@ -906,14 +905,9 @@
 </subsection>
 
 <exercises><title>Exercises</title>
-
-
     <p>
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
     </p>
-
-
-
 
 <exercise><title>Title here - FROM WEBWORK</title>
    <!-- </p>
@@ -923,14 +917,16 @@
 </exercise>
 
 <exercise><title>Title here - FROM WEBWORK</title>
-   </p>
+   <p>
 	 (Randomized.)
    </p>
    <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
   </exercise>
 
-<p>
-3. (Not randomized.)
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Not randomized.)
+   </p>
 <webwork>
     <pg-code>
       Context("Fraction");
@@ -956,10 +952,12 @@
       <p> (c) <m> \sec \left(\frac{\pi}{6}\right) =</m>  <var name="$ans3" width="10"/>.</p>
     </statement>
   </webwork>
-</p>
+  </exercise>
 
-<p>
-4. (Not randomized.)
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Not randomized.)
+   </p>
 <webwork>
     <pg-code>
       Context("Fraction");
@@ -981,10 +979,12 @@
       <p> (b) <m> \tan \left(-\frac{\pi}{3}\right) =</m>  <var name="$ans2" width="10"/>.</p>
     </statement>
   </webwork>
-</p>
+  </exercise>
 
-<p>
-5. (Not randomized.)
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Not randomized.)
+   </p>
 <webwork>
     <pg-code>
       Context("Fraction");
@@ -1006,10 +1006,12 @@
       <p> (b) <m> \cot \left(\frac{7\pi}{6}\right) =</m>  <var name="$ans2" width="10"/>.</p>
     </statement>
   </webwork>
-</p>
+  </exercise>
 
-<p>
- 6. (Randomized.) 
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Randomized.)
+   </p>
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -1024,42 +1026,40 @@
     </statement>
 
   </webwork>
-</p>
+  </exercise>
 
-    <p>
-      7. (Not randomized.)
-      <p>
-      Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
-      </p>  
+<exercise><title>Title here - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg" />
-    </p>
+   </exercise>
 
-    <p>
-      8. (Not randomized.)
-      <p>
-      Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.         
-      </p>  
+<exercise><title>Title here - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p> 
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
-    </p>
+ </exercise>
 
-    <p>
-      9. (Not randomized.)
-      <p>
-      Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.          
-      </p>  
+<exercise><title>Title here - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
-    </p>
+  </exercise>
 
-    <p>
-      10. (Not randomized.)
-      <p>
-      Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.             
-      </p>  
-      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
-    </p>        
+<exercise><title>Title here - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
+    <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
+ </exercise>
 
-<p>
-11. (Randomized.) 
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+    </p> 
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -1074,10 +1074,12 @@
     </statement>
 
   </webwork>
-</p>
+ </exercise>
 
-<p>
- 12. (Randomized.) 
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+    </p> 
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -1092,10 +1094,12 @@
     </statement>
 
   </webwork>
-</p>
+ </exercise>
 
-<p>
- 9. (Randomized.) 
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+   </p> 
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -1110,10 +1114,12 @@
     </statement>
 
   </webwork>
-</p>
+ </exercise>
 
-<p>
- 10. (Randomized.) 
+<exercise><title>Title here - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+   </p> 
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -1128,7 +1134,7 @@
     </statement>
 
   </webwork>
-</p>
+ </exercise>
 
 
 

@@ -520,8 +520,7 @@ When a polynomial <m>f(x)</m> is divided by a polynomial <m>g(x)</m>, with quoti
 
 
 
-<example xml:id="longdiv5">
-    <title>Interpreting the result</title>
+<example xml:id="longdiv5"><title>Interpreting the result</title>
     <statement>
        <p> 
         Suppose Nika has used long division to divide <m>6x^2 -23x + 9</m> by <m>3x-1</m>. Nika found that the quotient is <m>2x-7</m> and the remainder is <m>2</m>. Write the result in the format of <xref ref="long-result" />. 
@@ -564,8 +563,7 @@ Therefore the result can be stated as:
  </example>
 
 
-<exercise>
-    <title>Interpreting the result</title>
+<exercise><title>Interpreting the result - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
@@ -593,8 +591,7 @@ Therefore the result can be stated as:
   <p>
   </p>
 
-<example xml:id="longdiv1">
-    <title>Polynomial long division with remainder</title>
+<example xml:id="longdiv1"><title>Polynomial long division with remainder</title>
     <statement>
        <p> 
    Use long division to divide the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>. Find the quotient and the remainder (if there is one). 
@@ -1438,8 +1435,7 @@ Therefore the result can be stated as:
 <p>
 </p>
 
-<exercise xml:id="longdivex1">
-    <title>Set-up and notation</title>
+<exercise xml:id="longdivex1"><title>Set-up and notation - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
         <introduction>
       <p>
@@ -1547,8 +1543,7 @@ Therefore the result can be stated as:
 
  
 
-<exercise>
-    <title>Long division with quadratic dividend</title>
+<exercise><title>Long division with quadratic dividend - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
@@ -1579,8 +1574,7 @@ Therefore the result can be stated as:
   </exercise>
 
 
-<exercise>
-    <title>Long division with cubic dividend</title>
+<exercise><title>Long division with cubic dividend - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
@@ -1623,8 +1617,7 @@ Therefore the result can be stated as:
         <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
       </p>
 
-<example xml:id="longdiv3">
-    <title>Polynomial long division with "missing" terms</title>
+<example xml:id="longdiv3"><title>Polynomial long division with "missing" terms</title>
     <statement>
        <p> 
    Use long division to divide the polynomial <m>3x^4+2x^3+x^2+4</m> by <m>x^2+1</m>. Find the quotient and the remainder (if there is one). 
@@ -1771,11 +1764,7 @@ Therefore the result can be stated as:
       </solution>
     </example>
 
-<p>
-</p>
-
-<exercise>
-<title>Polynomial long division with "missing" terms</title>
+<exercise><title>Polynomial long division with "missing" terms - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
@@ -1804,8 +1793,7 @@ Therefore the result can be stated as:
     </webwork>
   </exercise>
 
-<exercise>
-<title>Polynomial long division with "missing" terms</title>
+<exercise><title>Polynomial long division with "missing" terms - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
