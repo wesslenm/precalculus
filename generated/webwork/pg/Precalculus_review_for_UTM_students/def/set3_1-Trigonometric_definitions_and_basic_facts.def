@@ -1,6 +1,6 @@
-openDate          = 04/29/2026 at 12:00am
-dueDate           = 10/29/2026 at 10:00pm
-answerDate        = 10/29/2026 at 10:00pm
+openDate          = 05/04/2026 at 12:00am
+dueDate           = 11/04/2026 at 10:00pm
+answerDate        = 11/04/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_1-Trigonometric_definitions_and_basic_facts.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_1-Trigonometric_definitions_and_basic_facts.pg
 description       = Trigonometric definitions and basic facts
@@ -10,102 +10,46 @@ source_file = Library/MC/Trigonometry/RadianTerminalPoint.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_6-Simplifying.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_6-Simplify__HOMEMADE.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_9-Evaluating_using_special_triangles_1.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_9-Evaluate_using_special_triangles_1__HOMEMADE.pg
 problem_id = 9
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_10-Evaluating_using_special_triangles_2.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_10-Evaluate_using_special_triangles_2__HOMEMADE.pg
 problem_id = 10
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_11-Evaluating_using_special_triangles_3.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_11-Evaluate_using_special_triangles_3__HOMEMADE.pg
 problem_id = 11
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_13-Continuing_the_example.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_13-Continue_the_previous_example__HOMEMADE.pg
 problem_id = 13
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_15-Evaluating_at_frac3pi4.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_15-Evaluate_at_frac3pi4__HOMEMADE.pg
 problem_id = 15
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_16-Evaluating_at_frac5pi6.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_16-Evaluate_at_frac5pi6__HOMEMADE.pg
 problem_id = 16
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_21-Evaluating_sin_leftfrac3pi2right.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_21-Evaluate_sin_leftfrac3pi2right__HOMEMADE.pg
 problem_id = 21
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_22-Evaluating_sine_at_multiples_of_fracpi2.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_22-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg
 problem_id = 22
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_23-Evaluating_cosine_at_multiples_of_fracpi2.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_23-Evaluate_cosine_at_multiples_of_fracpi2__HOMEMADE.pg
 problem_id = 23
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_24-Evaluating_trig_at_multiples_of_fracpi2_NEEDS_FIXING_DOES_NOT_ACCEPT_DNE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_24-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NEEDS_FIXING_DOES_NOT_ACCEPT_DNE.pg
 problem_id = 24
-problem_end
-problem_start
-source_file = Library/MC/Trigonometry/trig_defn-01.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Library/MC/Trigonometry/trig_defn-06.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_23.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_13.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_9.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_5.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg
-problem_id = 
 problem_end

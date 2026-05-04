@@ -769,11 +769,11 @@ in the form <m>\frac{A}{B}</m>.</p>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_23-Interpreting_the_result.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_23-Interpreting_the_result__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -901,11 +901,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_25-Setup_and_notation.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_25-Setup_and_notation__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -999,11 +999,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_26-Long_division_with_quadratic_dividend.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_26-Long_division_with_quadratic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1101,11 +1101,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_27-Long_division_with_cubic_dividend.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_27-Long_division_with_cubic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1202,11 +1202,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_29-Polynomial_long_division_with_missing_terms.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_29-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1318,11 +1318,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_30-Polynomial_long_division_with_missing_terms.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_30-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1470,7 +1470,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1614,7 +1614,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1784,7 +1784,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1942,7 +1942,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2150,7 +2150,7 @@ Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters=
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2266,7 +2266,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3274,11 +3274,11 @@ into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_6-Simplifying.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_6-Simplify__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3378,11 +3378,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_9-Evaluating_using_special_triangles_1.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_9-Evaluate_using_special_triangles_1__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3486,11 +3486,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_10-Evaluating_using_special_triangles_2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_10-Evaluate_using_special_triangles_2__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3594,11 +3594,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_11-Evaluating_using_special_triangles_3.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_11-Evaluate_using_special_triangles_3__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3702,11 +3702,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_13-Continuing_the_example.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_13-Continue_the_previous_example__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3815,11 +3815,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_15-Evaluating_at_frac3pi4.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_15-Evaluate_at_frac3pi4__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3933,11 +3933,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_16-Evaluating_at_frac5pi6.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_16-Evaluate_at_frac5pi6__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4033,11 +4033,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_21-Evaluating_sin_leftfrac3pi2right.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_21-Evaluate_sin_leftfrac3pi2right__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4110,11 +4110,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_22-Evaluating_sine_at_multiples_of_fracpi2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_22-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4190,11 +4190,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_23-Evaluating_cosine_at_multiples_of_fracpi2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_23-Evaluate_cosine_at_multiples_of_fracpi2__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4300,11 +4300,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_24-Evaluating_trig_at_multiples_of_fracpi2_NEEDS_FIXING_DOES_NOT_ACCEPT_DNE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_24-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NEEDS_FIXING_DOES_NOT_ACCEPT_DNE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4501,11 +4501,11 @@ Plug into the definition:</p>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_3-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4521,6 +4521,7 @@ Plug into the definition:</p>
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.3)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4601,11 +4602,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_4-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4621,6 +4622,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.4)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4696,11 +4698,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_5-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4716,6 +4718,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.5)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4785,11 +4788,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_6-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4805,6 +4808,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.6)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4962,11 +4966,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_11-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4982,6 +4986,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.11)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5041,11 +5046,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_12-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5061,6 +5066,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.12)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5120,11 +5126,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_13-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5140,6 +5146,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.13)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5199,11 +5206,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_14-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5219,6 +5226,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
+## Problem1(3.1.7.14)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5294,7 +5302,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5404,7 +5412,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5495,7 +5503,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5658,7 +5666,7 @@ Note:  Use a negative for a shift to the left.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5772,7 +5780,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5878,7 +5886,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6153,19 +6161,19 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 <p>Which graph below A-E matches your sketch?
 <var form="popup">
 <li>
+<p>C</p>
+</li>
+<li>
 <p>E</p>
 </li>
 <li>
 <p>A</p>
 </li>
 <li>
-<p>C</p>
+<p>Choose</p>
 </li>
 <li>
 <p>D</p>
-</li>
-<li>
-<p>Choose</p>
 </li>
 <li>
 <p>B</p>
@@ -6294,7 +6302,7 @@ This appears to be a periodic function.  It repeats regularly with period 1.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6376,7 +6384,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6458,7 +6466,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6540,7 +6548,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6622,7 +6630,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6704,7 +6712,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6786,7 +6794,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6868,7 +6876,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6950,7 +6958,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7032,7 +7040,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7114,7 +7122,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7270,7 +7278,7 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7353,7 +7361,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7436,7 +7444,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7519,7 +7527,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7602,7 +7610,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7685,7 +7693,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7768,7 +7776,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7849,7 +7857,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7932,7 +7940,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8015,7 +8023,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8098,7 +8106,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8181,7 +8189,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8264,7 +8272,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8347,7 +8355,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8430,7 +8438,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8513,7 +8521,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8596,7 +8604,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8679,7 +8687,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8762,7 +8770,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8845,7 +8853,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8928,7 +8936,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9009,7 +9017,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9090,7 +9098,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9171,7 +9179,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9381,7 +9389,7 @@ Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \g
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9456,7 +9464,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9559,7 +9567,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9733,7 +9741,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-04-29T17:46:50Z       
+###       on 2026-05-04T20:01:52Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

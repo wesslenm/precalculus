@@ -1,0 +1,99 @@
+openDate          = 05/04/2026 at 12:00am
+dueDate           = 11/04/2026 at 10:00pm
+answerDate        = 11/04/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_1-Exponential_Rules_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_1-Exponential_Rules_Exercises.pg
+description       = Exponential Rules
+problemListV2
+problem_start
+source_file = Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg
+problem_id = 
+problem_end
+problem_start
+source_file = Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p16.pg
+problem_id = 
+problem_end

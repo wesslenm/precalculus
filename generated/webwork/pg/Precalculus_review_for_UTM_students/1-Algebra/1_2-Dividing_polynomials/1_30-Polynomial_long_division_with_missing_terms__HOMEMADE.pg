@@ -1,0 +1,81 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-04T20:01:53Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.30)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$quot = Formula("2x^2-9");
+Context("Numeric");
+$remainder = Formula("x+20");
+        Context("Numeric");
+$f = Formula("2x^4+x^2+x-25");
+        Context("Numeric");
+$g = Formula("x^2+5");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use long division to find the quotient and remainder when
+
+[```
+             2x^4+x^2+x-25         ```]
+
+is divided by
+
+[```
+            x^2+5.
+           ```]
+
+Write the answer in the format of (1.2.1)
+
+[_]{$f}{10} / [_]{$g}{10} = [_]{$quot}{10} \+ [_]{$remainder}{10} / [_]{$g}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
