@@ -512,7 +512,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
   </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Find period, amplitude, phase shift - HOMEMADE</title>
     <webwork>
     <pg-code>
       Context("Numeric");
@@ -540,7 +540,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
   </exercise>
 
-  <exercise><title>Title here - HOMEMADE</title>
+  <exercise><title>Find period, amplitude, phase shift - HOMEMADE</title>
        <webwork>
     <pg-code>
       Context("Numeric");
@@ -568,39 +568,39 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
 </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Which function - FROM WEBWORK</title>
      <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" />
 </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Find the function - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" />
   </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Find the function - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" />
  </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Find the function - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
  </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Find the shifts - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" />
  </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Find the shift - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" />
 </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Sketch the graph - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" />
  </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Periodic? - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
  </exercise>
 
-  <exercise><title>Title here - FROM WEBWORK</title>
+  <exercise><title>Periodic? - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
  </exercise>
  

@@ -909,21 +909,21 @@
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
     </p>
 
-<exercise><title>Title here - FROM WEBWORK</title>
-   <!-- </p>
-	 (Randomized. Feel free to practice several times.) 
-    </p> -->
+<exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
+   <p>
+	 (Randomized. Feel free to practice the problem several times.) 
+    </p>
     <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
 </exercise>
 
-<exercise><title>Title here - FROM WEBWORK</title>
+<exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
    <p>
 	 (Randomized.)
    </p>
    <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
   </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
    <p>
 	 (Not randomized.)
    </p>
@@ -954,7 +954,7 @@
   </webwork>
   </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
    <p>
 	 (Not randomized.)
    </p>
@@ -981,7 +981,7 @@
   </webwork>
   </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
    <p>
 	 (Not randomized.)
    </p>
@@ -1008,7 +1008,7 @@
   </webwork>
   </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - HOMEMADE</title>
    <p>
 	 (Randomized.)
    </p>
@@ -1028,35 +1028,35 @@
   </webwork>
   </exercise>
 
-<exercise><title>Title here - FROM WEBWORK</title>
+<exercise><title>Evaluate trig without a calculator - FROM WEBWORK</title>
    <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
     </p>  
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg" />
    </exercise>
 
-<exercise><title>Title here - FROM WEBWORK</title>
+<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
    <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
     </p> 
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
  </exercise>
 
-<exercise><title>Title here - FROM WEBWORK</title>
+<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
    <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
     </p>  
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
   </exercise>
 
-<exercise><title>Title here - FROM WEBWORK</title>
+<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
    <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
     </p>  
     <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
  </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
    <p>
 	 (Randomized.) 
     </p> 
@@ -1076,7 +1076,7 @@
   </webwork>
  </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m>\tan \theta </m> without a calculator  - HOMEMADE</title>
    <p>
 	 (Randomized.) 
     </p> 
@@ -1096,7 +1096,7 @@
   </webwork>
  </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
    <p>
 	 (Randomized.) 
    </p> 
@@ -1116,7 +1116,7 @@
   </webwork>
  </exercise>
 
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m>\sin \theta </m> without a calculator - HOMEMADE</title>
    <p>
 	 (Randomized.) 
    </p> 
@@ -1135,8 +1135,6 @@
 
   </webwork>
  </exercise>
-
-
 
 </exercises>
 

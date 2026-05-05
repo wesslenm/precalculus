@@ -1180,11 +1180,11 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
 
   <exercises><title>Exercises</title>
  
-<exercise><title>Title here - FROM WEBWORK</title>
+<exercise><title>Domain and range - FROM WEBWORK</title>
          <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" />
 </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
         <webwork>
     <pg-code>
       Context("Numeric");
@@ -1204,7 +1204,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1224,7 +1224,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccos \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1244,7 +1244,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
 </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1264,7 +1264,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1284,7 +1284,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin (-1) </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1304,7 +1304,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin (0)) </m> - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1322,7 +1322,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccos (-1) </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1342,7 +1342,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1362,7 +1362,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1382,7 +1382,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1402,7 +1402,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccot \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1422,7 +1422,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccot \theta </m> - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1442,7 +1442,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsec \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1462,7 +1462,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccsc \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1482,7 +1482,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsec \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1502,7 +1502,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1522,7 +1522,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1542,7 +1542,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1562,7 +1562,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1582,7 +1582,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1601,7 +1601,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
 </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1620,7 +1620,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
 </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1639,7 +1639,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Title here - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
