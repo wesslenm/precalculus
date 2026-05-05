@@ -135,8 +135,7 @@ In this section we discuss the graphs of trigonometric functions, and some prope
   <p>
   All 6 trigonometric functions are <term>periodic</term>, which means that they repeat after a certain interval, called the <term>period</term>. The periods for the 6 functions are as follows:  
   </p>
-<table>
-  <title>Periods of trigonometric functions.</title>
+<table><title>Periods of trigonometric functions.</title>
   <tabular halign="center">
     <row header="yes" bottom="minor" >
       <cell>Function</cell>
@@ -168,12 +167,9 @@ In this section we discuss the graphs of trigonometric functions, and some prope
     </row>
   </tabular>
 </table>
-
- 
   </subsection>
 
-  <subsection>
-    <title>Properties and symmetries</title>
+  <subsection><title>Properties and symmetries</title>
   <p> One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.     </p>
 
 <aside>
@@ -185,9 +181,8 @@ In this section we discuss the graphs of trigonometric functions, and some prope
     </p>
   </aside>
 
-      <p>
-     <example xml:id="graph1">
-    <title>Properties from graphs</title>
+
+  <example xml:id="graph1"><title>Properties from graphs</title>
     <statement>
       <p>
       Use the graphs of trigonometric functions to find the following information:
@@ -225,10 +220,8 @@ In this section we discuss the graphs of trigonometric functions, and some prope
       </p>
     </solution>
   </example>
-</p>
 
-  <exercise>
-<title>Properties from graphs</title>
+  <exercise><title>Properties from graphs - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -270,7 +263,6 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term> if <m>f(-x)=-
  Also, <m>f(x)</m> is an <term>even function</term> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
 </p>
 
-   <p>
      <example xml:id="graph2">
     <title>Symmetries</title>
     <statement>
@@ -320,10 +312,8 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term> if <m>f(-x)=-
       </p>    
     </solution>
   </example>
-     </p>
 
-  <exercise>
-<title>Symmetries and properties from graphs</title>
+<exercise><title>Symmetries and properties from graphs - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -357,15 +347,9 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term> if <m>f(-x)=-
     </statement>
   </webwork>
 </exercise>
-
-
-
- 
   </subsection>
 
-
-  <subsection>
-    <title>Transformations of graphs</title>
+  <subsection><title>Transformations of graphs</title>
   <p> 
     Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions. 
     
@@ -415,9 +399,7 @@ The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) 
 Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. Here, <m>c</m> is called the <term>phase shift</term>. 
        </p>
 
-  <p>
-     <example xml:id="graph3">
-    <title>Amplitude, period, phase shift</title>
+     <example xml:id="graph3"><title>Amplitude, period, phase shift</title>
     <statement>
       <p>
       Find the amplitude, period and phase shift for the curve
@@ -454,12 +436,8 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
 </p>
     </solution>
   </example>
-     </p>
 
-
-
-  <exercise>
-<title>Determining period</title>
+  <exercise><title>Determining period - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -478,24 +456,21 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
 </exercise>
 
-<exercise xml:id="ex-trig-graph1">
-<title>Amplitude, period, phase shift from graph</title>
+<exercise xml:id="ex-trig-graph1"><title>Amplitude, period, phase shift from graph - WEBWORK</title>
 	<webwork source="Library/MC/Trigonometry/Graphing03.pg" />
 </exercise>
 
-<exercise xml:id="ex-trig-graph2">
-<title>Amplitude, period, phase shift from expression</title>
+<exercise xml:id="ex-trig-graph2"><title>Amplitude, period, phase shift from expression - WEBWORK</title>
 	<webwork source="Library/MC/Trigonometry/Graphing02.pg" />
 </exercise>
   </subsection>
 
-
   <exercises>
     <title>Exercises</title>
 
-    <exercise>
-<title>Fact Check - MISSING INSTRUCTIONS</title>
-  <p> 1. Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
+    <exercise><title>Fact Check - MISSING INSTRUCTIONS, NEED TO FIX</title>
+  <p> 
+    Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
     </p>
   <aside>
     <p>
@@ -537,8 +512,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
   </exercise>
 
-<exercise>
-<title>xxxxx</title>
+<exercise><title>Title here - HOMEMADE</title>
     <webwork>
     <pg-code>
       Context("Numeric");
@@ -566,8 +540,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
   </exercise>
 
-   <exercise>
-<title>yyyyy</title>
+  <exercise><title>Title here - HOMEMADE</title>
        <webwork>
     <pg-code>
       Context("Numeric");
@@ -595,43 +568,42 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
 </exercise>
 
-    <p>
-      4. <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+     <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" />
+</exercise>
 
-    <p>
-      5. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" />
+  </exercise>
 
-    <p>
-      6. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" />
+ </exercise>
 
-        <p>
-      7. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
+ </exercise>
 
-    <p>
-      8. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" />
+ </exercise>
 
+  <exercise><title>Title here - FROM WEBWORK</title>
+     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" />
+</exercise>
 
-        <p>
-      9. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" />
+ </exercise>
 
-    <p>
-      10. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" />
-    </p>
+  <exercise><title>Title here - FROM WEBWORK</title>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
+ </exercise>
 
-    <p>
-      11. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
-    </p>
-
-    <p>
-      12. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
-    </p>
-
+  <exercise><title>Title here - FROM WEBWORK</title>
+     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
+ </exercise>
+ 
   </exercises>
 
 

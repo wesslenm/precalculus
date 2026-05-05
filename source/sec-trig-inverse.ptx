@@ -67,8 +67,7 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
     </p>  
   </introduction>
 
-  <subsection>
-    <title>Arcsine - the inverse sine function</title>
+  <subsection><title>Arcsine - the inverse sine function</title>
   <p>Let's start with a reminder regarding inverse function in general:  </p>
       <p>A function <m>y=f(x)</m> has an inverse if and only if <m>y=f(x)</m> is one-to-one. An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes the horizontal line test (meaning, no horizontal line crosses the curve more than once). </p>
         
@@ -86,8 +85,6 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
         Looking at the graph of <m>y=\sin x</m> in <xref ref="fig3-sin"/>, we see that it does NOT pass the horizontal line test, so therefore <m>y=\sin x</m> is not invertible. 
       </p>
    
-     
-   
         <p>
           However, this difficulty can be solved by restricting the domain. If we restrict the domain of <m>y=\sin x</m> to the interval <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>, then the restricted function is one-to-one. We call the inverse of the restricted sine function, <term>the inverse sine function</term> <m>y=\arcsin x</m>.  
         </p>
@@ -102,8 +99,7 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
     </p>
   </aside>
 
-  <assemblage>
-    <title>The Inverse Sine Function</title>
+  <assemblage><title>The Inverse Sine Function</title>
     <p>
       The inverse sine function, also called <term>arcsine</term> is defined as follows:
       <men xml:id="arcsin">
@@ -167,8 +163,7 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
     </p>
   </aside>
   
-  <example xml:id="inverse1">
-    <title>Evaluating arcsine</title>
+  <example xml:id="inverse1"><title>Evaluating arcsine</title>
     <statement>
       <p>
       Evaluate <m>\arcsin \left(\frac{\sqrt{3}}{2}\right) </m>.
@@ -220,8 +215,7 @@ Therefore <m>\theta = \frac{\pi}{3}</m>.
     </solution>
   </example>
 
- <example xml:id="inverse2">
-    <title>Evaluating arcsine</title>
+ <example xml:id="inverse2"><title>Evaluating arcsine</title>
     <statement>
       <p>
       Evaluate <m>\arcsin \left(-\frac{1}{2}\right) </m>.
@@ -274,8 +268,7 @@ We see that <m>\sin \left(-\frac{\pi}{6} \right) = - \frac{1}{2} </m>. Also <m>-
     </solution>
   </example>
 
- <example xml:id="inverse3">
-    <title>Inverse properties</title>
+ <example xml:id="inverse3"><title>Inverse properties</title>
     <statement>
       <p>
       Evaluate <m>\sin \left(\arcsin \left(\frac{1}{\sqrt{2}}\right)\right) </m>.
@@ -298,8 +291,7 @@ We see that <m>\sin \left(-\frac{\pi}{6} \right) = - \frac{1}{2} </m>. Also <m>-
     </solution>
   </example>
 
-<example xml:id="inverse4">
-    <title>Inverse properties</title>
+<example xml:id="inverse4"><title>Inverse properties</title>
     <statement>
       <p>
       Evaluate <m>\arcsin \left(\sin \left(\pi\right)\right) </m>.
@@ -322,11 +314,8 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
       </p>
     </solution>
   </example>
-<p>
-  
-</p>
-<exercise>
-<title>Evaluating arcsine</title>
+
+<exercise><title>Evaluating arcsine - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -345,8 +334,7 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating arcsine</title>
+<exercise><title>Evaluating arcsine - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -365,8 +353,7 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
   </webwork>
 </exercise>
 
-<exercise>
-<title>Inverse properties</title>
+<exercise><title>Inverse properties - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -385,8 +372,7 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
   </webwork>
 </exercise>
 
-<exercise>
-<title>Inverse properties</title>
+<exercise><title>Inverse properties - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -547,8 +533,7 @@ Therefore <m>\theta = \frac{3\pi}{4}</m>.
     </solution>
   </example>
 
- <example xml:id="inverse6">
-    <title>Evaluating arccos</title>
+ <example xml:id="inverse6"><title>Evaluating arccos</title>
     <statement>
       <p>
       Evaluate <m>\arccos 0 </m>.
@@ -578,8 +563,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     </solution>
   </example>
 
- <example xml:id="inverse7">
-    <title>Inverse properties</title>
+ <example xml:id="inverse7"><title>Inverse properties</title>
     <statement>
       <p>
       Evaluate <m>\cos \left(\arccos \left(-\frac{1}{4}\right)\right) </m>.
@@ -602,8 +586,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     </solution>
   </example>
 
-<example xml:id="inverse8">
-    <title>Inverse properties</title>
+<example xml:id="inverse8"><title>Inverse properties</title>
     <statement>
       <p>
       Evaluate <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) </m>.
@@ -645,8 +628,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   <p>
 </p>
 
-<exercise>
-<title>Evaluating arccos</title>
+<exercise><title>Evaluating arccos - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -665,8 +647,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </webwork>
 </exercise>
 
-<exercise>
-<title>Evaluating arccos</title>
+<exercise><title>Evaluating arccos - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -686,8 +667,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
 </exercise>
 
 
-<exercise>
-<title>Inverse properties</title>
+<exercise><title>Inverse properties - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -706,8 +686,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </webwork>
 </exercise>
 
-<exercise>
-<title>Inverse properties</title>
+<exercise><title>Inverse properties - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -727,8 +706,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
 </exercise>
   </subsection>
 
-  <subsection>
-    <title>Arctan - the inverse tangent function</title>
+  <subsection><title>Arctan - the inverse tangent function</title>
        <p>Just like <m>y=\sin x</m> and <m>y=\cos x</m> are not one-to-one, we see that the graph of <m>y=\tan x</m> also does NOT pass the horizontal line test, so therefore <m>y=\tan x</m> is also not invertible on its full domain. </p>
    
    <figure>
@@ -753,8 +731,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     </p>
   </aside>
 
-  <assemblage>
-    <title>The Inverse Tangent Function</title>
+  <assemblage><title>The Inverse Tangent Function</title>
     <p>
       The inverse tangent function, also called <term>arctan</term>, is defined as follows:
       <men xml:id="arctan">
@@ -817,8 +794,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     </p>
   </aside>
   
-  <example xml:id="inverse9">
-    <title>Evaluating arctan</title>
+  <example xml:id="inverse9"><title>Evaluating arctan</title>
     <statement>
       <p>
       Evaluate <m>\arctan \left(\sqrt{3}\right) </m>.
@@ -861,8 +837,7 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
     </solution>
   </example>
 
-<exercise>
-<title>Evaluating arctan</title>
+<exercise><title>Evaluating arctan - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -883,12 +858,10 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
   </subsection>
 
 
-  <subsection>
-    <title>The remaining three inverse trigonometric functions </title>
+<subsection><title>The remaining three inverse trigonometric functions</title>
   <p> Similarly to <m>y=\sin x, y=\cos x</m> and <m>y=\tan x</m>, we can see by looking at their graphs that none of <m>y=\csc x, y=\sec x</m> and <m>y=\cot x</m> are invertible either. Again we need to restrict their domains to create invertible functions. The definitions are similar to what we have seen in the previous sectiobs. Let's summarize the results here.    </p>
   
-  <assemblage>
-    <title>Summary of all 6 inverse trigonometric functions</title>
+  <assemblage><title>Summary of all 6 inverse trigonometric functions</title>
    <p>
     <ul>
       <li>
@@ -961,8 +934,7 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
   </p>
   </assemblage>
   
-   <example xml:id="inverse10">
-    <title>Evaluating arccot </title>
+   <example xml:id="inverse10"><title>Evaluating arccot </title>
     <statement>
       <p>
       Evaluate arccot <m> \left(\sqrt{3}\right) </m>.
@@ -1005,8 +977,7 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
     </solution>
   </example>
   
- <exercise>
-<title>Evaluating arcsec</title>
+ <exercise><title>Evaluating arcsec - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1025,8 +996,7 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
   </webwork>
 </exercise> 
   
- <exercise>
-<title>Evaluating arccsc</title>
+ <exercise><title>Evaluating arccsc - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1065,8 +1035,7 @@ The box below shows the corresponding correct identities <xref ref="inv1" />, <x
   </p>
 </assemblage>
 
-<assemblage>
-    <title>Inverse identities</title>
+<assemblage><title>Inverse identities</title>
    <p>
 The following identities hold. 
   <men xml:id="inv1">
@@ -1095,8 +1064,7 @@ The following identities hold.
 
   </subsection>
 
-  <subsection>
-    <title>Additional Examples</title>
+  <subsection><title>Additional Examples</title>
       <p> 
         Here are a additional few examples based on the topics seen above. 
       </p>
@@ -1210,16 +1178,14 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
 
   </subsection>
 
-  <subsection>
-    <title>Exercises</title>
-
-    
-    <p>
-      1. <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" />
-    </p>
-
-<p>
-  2. <webwork>
+  <exercises><title>Exercises</title>
+ 
+<exercise><title>Title here - FROM WEBWORK</title>
+         <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" />
+</exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+        <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1236,10 +1202,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
-<p>
-  3. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1256,10 +1222,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arcsin \left(\frac{1}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
-<p>
-  4. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1276,10 +1242,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arccos \left(\frac{1}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
-<p>
-  5. <webwork>
+</exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1296,10 +1262,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
-<p>
-  6. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1316,10 +1282,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arctan \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p> 
-
-<p>
-  7. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1336,10 +1302,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arcsin \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
-<p>
-  8. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+  <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1354,10 +1320,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\sin^{-1} \left(0 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
-<p>
-  9. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1374,10 +1340,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arccos \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
-<p>
-  10. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1394,10 +1360,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arcsin \left(\frac{1}{\sqrt{2}}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
- <p>
-  11. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1414,10 +1380,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
- <p>
-  12. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1434,10 +1400,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\tan^{-1} \left(-\sqrt{3}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
- <p>
-  13. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1454,10 +1420,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\mbox{arcot} \left(\sqrt{3}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>  
-
- <p>
-  14. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+  <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1474,10 +1440,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\mbox{arcot} \left(0\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p> 
-
- <p>
-  15. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1494,10 +1460,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\mbox{arsec} \left(-1\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p> 
-
- <p>
-  16. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1514,10 +1480,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\mbox{arccsc} \left(-\sqrt{2} \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p> 
-
- <p>
-  17. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1534,10 +1500,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p> 
-
- <p>
-  18. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1554,10 +1520,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
- <p>
-  19. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1574,10 +1540,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
- <p>
-  20. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1594,10 +1560,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
-<p>
-  21. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1614,10 +1580,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
- </p>
-
-<p>
-  22. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1633,10 +1599,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </statement>
 
   </webwork>
- </p>
-
-<p>
-  23. <webwork>
+</exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1652,10 +1618,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </statement>
 
   </webwork>
- </p>
-
-<p>
-  24. <webwork>
+</exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+  <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1671,10 +1637,10 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </statement>
 
   </webwork>
- </p>
-
-<p>
-  25. <webwork>
+ </exercise>
+      
+<exercise><title>Title here - HOMEMADE</title>
+   <webwork>
     <pg-code>
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
@@ -1692,13 +1658,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </statement>
 
   </webwork>
- </p>
-
-
-
-
-  </subsection>
-
-
-
+ </exercise>
+      
+  </exercises>
 </section>
