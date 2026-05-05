@@ -1123,7 +1123,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Trigonometric definitions and basic facts",
-  "body": " Trigonometric definitions and basic facts     Be familiar with radian measure of angles, and standard notation related to angles.    Use the right angled triangle definitions and the general definitions of the 6 trigonometric functions, and interchange between the two.    Be familiar with basic relationships between trigonometric functions.    Evaluate the 6 trigonometric functions without a calculator, for common angles such as those listed in .     Where will this be used in calculus?  Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:     Trigonometric functions are used in many modeling contexts, for example when modeling wave motions.    A technique called trigonometric substitution allows us to solve integration problems such as for example .    Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions.       In this section, we will work with trigonometric functions. We will examine relationships between the 6 trigonometric functions and will discuss how to evaluate them for commonly used inputs.    Angle notation  In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  Correspondence between radian and degree measures in some common angles.    Degree  Radian    0  0                                               Study tip:   Use radians as much as possible and try to develop a feel for their size. Try to develop a feel for how large for example radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode.   An angle placed on the coordinate system is in standard position when its vertex is at the origin and its initial side is on the positive -axis. See . A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.   Angles in standard position  Angles in standard position   Angles in standard position.    The unit circle can be used to define trigonometric functions. The unit circle is a circle with centre at the origin, and radius 1, as shown in . The point in is the terminal point . The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The and values of the point will be important in the definitions of the trigonometric functions.   A point on the unit circle  A point on the unit circle   A point on the unit circle.      Unit circle - FROM WEBWORK    For the given values of an angle , find the terminal point on the unit circle.  (a) If , then  and  ;  (b) If , then  and  ;  (c) If , then  and  ;  (d) If , then  and  ;  (e) If , then  and  ;  (f) If , then  and  ;   For each given value of , draw a unit circle and the angle in standard position. The point desired is where the terminal side of the angle intersects the unit circle. Use geometric ideas to determine and in a manner similar to what was done in earlier sections of this course.                                                                    We often (but not always) use Greek letters to represent angles. For example, (theta), (alpha) and (beta) are commonly used to represent angles.  Greek letters  For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. (This is not a full list of the Greek alphabet.)    Definitions  We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   Definitions of trigonometric functions - right angled triangles  Consider a right angled triangle, where one of the non-right angles is . This means . Then the trigonometric functions are defined as follows:     Sine: Opposite \/ Hypothenuse    Cosine: Adjacent \/ Hypothenuse    Tangent: Opposite \/ Adjacent        Study tip:   You should memorize all defitions of trigonometric functions, if you don't know them already. It is important to know both the definitions in terms of right angled triangles AND the definitions in terms of the circle.    Definitions of trigonometric functions - general definition  Let be any angle in standard position in a circle centered at . With and as in , we make the following definitions:                       Trigonometric functions - relationships  The following relationships are all important.                             Study tip:   You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already.     Definitions of , and - HOMEMADE   We know that . Therefore, in terms of right angled triangles, . Now do the same for secant and cotangent.  In terms of , we see that . Now do the same for secant and cotangent.   Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of in a circle.   Simplify - HOMEMADE    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or               Evaluating using special triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.   Evaluate using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the apecial triangle we see that   The final result is:     Evaluate using special triangles 1 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 2 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 3 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating using the coordinate system  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.    Evaluate at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is . Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continue the previous example - HOMEMADE    Use the work from Example 3.12 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                         Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                            Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed more in , but you may already remember the graphs of and :    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .    Evaluate   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .      Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .       Evaluate - HOMEMADE    Evaluate without using a calculator.              Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate trig at multiples of - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE    Evaluate the following without using a calculator.   .   .   .   .   .   .                                       Summary  The types of angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all 6 trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )       Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Title here - FROM WEBWORK     An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:              Title here - FROM WEBWORK  (Randomized.)    An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:           Title here - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       Title here - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Title here - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
+  "body": " Trigonometric definitions and basic facts     Be familiar with radian measure of angles, and standard notation related to angles.    Use the right angled triangle definitions and the general definitions of the 6 trigonometric functions, and interchange between the two.    Be familiar with basic relationships between trigonometric functions.    Evaluate the 6 trigonometric functions without a calculator, for common angles such as those listed in .     Where will this be used in calculus?  Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:     Trigonometric functions are used in many modeling contexts, for example when modeling wave motions.    A technique called trigonometric substitution allows us to solve integration problems such as for example .    Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions.       In this section, we will work with trigonometric functions. We will examine relationships between the 6 trigonometric functions and will discuss how to evaluate them for commonly used inputs.    Angle notation  In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  Correspondence between radian and degree measures in some common angles.    Degree  Radian    0  0                                               Study tip:   Use radians as much as possible and try to develop a feel for their size. Try to develop a feel for how large for example radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode.   An angle placed on the coordinate system is in standard position when its vertex is at the origin and its initial side is on the positive -axis. See . A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.   Angles in standard position  Angles in standard position   Angles in standard position.    The unit circle can be used to define trigonometric functions. The unit circle is a circle with centre at the origin, and radius 1, as shown in . The point in is the terminal point . The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The and values of the point will be important in the definitions of the trigonometric functions.   A point on the unit circle  A point on the unit circle   A point on the unit circle.      Unit circle - FROM WEBWORK    For the given values of an angle , find the terminal point on the unit circle.  (a) If , then  and  ;  (b) If , then  and  ;  (c) If , then  and  ;  (d) If , then  and  ;  (e) If , then  and  ;  (f) If , then  and  ;   For each given value of , draw a unit circle and the angle in standard position. The point desired is where the terminal side of the angle intersects the unit circle. Use geometric ideas to determine and in a manner similar to what was done in earlier sections of this course.                                                                    We often (but not always) use Greek letters to represent angles. For example, (theta), (alpha) and (beta) are commonly used to represent angles.  Greek letters  For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. (This is not a full list of the Greek alphabet.)    Definitions  We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   Definitions of trigonometric functions - right angled triangles  Consider a right angled triangle, where one of the non-right angles is . This means . Then the trigonometric functions are defined as follows:     Sine: Opposite \/ Hypothenuse    Cosine: Adjacent \/ Hypothenuse    Tangent: Opposite \/ Adjacent        Study tip:   You should memorize all defitions of trigonometric functions, if you don't know them already. It is important to know both the definitions in terms of right angled triangles AND the definitions in terms of the circle.    Definitions of trigonometric functions - general definition  Let be any angle in standard position in a circle centered at . With and as in , we make the following definitions:                       Trigonometric functions - relationships  The following relationships are all important.                             Study tip:   You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already.     Definitions of , and - HOMEMADE   We know that . Therefore, in terms of right angled triangles, . Now do the same for secant and cotangent.  In terms of , we see that . Now do the same for secant and cotangent.   Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of in a circle.   Simplify - HOMEMADE    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or               Evaluating using special triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.   Evaluate using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the apecial triangle we see that   The final result is:     Evaluate using special triangles 1 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 2 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 3 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating using the coordinate system  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.    Evaluate at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is . Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continue the previous example - HOMEMADE    Use the work from Example 3.12 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                         Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                            Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed more in , but you may already remember the graphs of and :    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .    Evaluate   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .      Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .       Evaluate - HOMEMADE    Evaluate without using a calculator.              Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate trig at multiples of - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE    Evaluate the following without using a calculator.   .   .   .   .   .   .                                       Summary  The types of angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all 6 trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )       Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Evaluate trig given an angle in standard position - FROM WEBWORK  (Randomized. Feel free to practice the problem several times.)    An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:              Evaluate trig given an angle in standard position - FROM WEBWORK  (Randomized.)    An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:           Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
 },
 {
   "id": "sec-trig-intro-2",
@@ -1374,8 +1374,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-3",
   "type": "Exercise",
   "number": "3.1.7.1",
-  "title": "Title here - FROM WEBWORK.",
-  "body": "Title here - FROM WEBWORK     An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:             "
+  "title": "Evaluate trig given an angle in standard position - FROM WEBWORK.",
+  "body": "Evaluate trig given an angle in standard position - FROM WEBWORK  (Randomized. Feel free to practice the problem several times.)    An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:             "
 },
 {
   "id": "sec-trig-intro-11-4",
@@ -1383,8 +1383,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-4",
   "type": "Exercise",
   "number": "3.1.7.2",
-  "title": "Title here - FROM WEBWORK.",
-  "body": "Title here - FROM WEBWORK  (Randomized.)    An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:          "
+  "title": "Evaluate trig given an angle in standard position - FROM WEBWORK.",
+  "body": "Evaluate trig given an angle in standard position - FROM WEBWORK  (Randomized.)    An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:          "
 },
 {
   "id": "sec-trig-intro-11-5",
@@ -1392,8 +1392,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-5",
   "type": "Exercise",
   "number": "3.1.7.3",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                      "
+  "title": "Evaluate trig without a calculator - HOMEMADE.",
+  "body": "Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                      "
 },
 {
   "id": "sec-trig-intro-11-6",
@@ -1401,8 +1401,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-6",
   "type": "Exercise",
   "number": "3.1.7.4",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
+  "title": "Evaluate trig without a calculator - HOMEMADE.",
+  "body": "Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
 },
 {
   "id": "sec-trig-intro-11-7",
@@ -1410,8 +1410,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-7",
   "type": "Exercise",
   "number": "3.1.7.5",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
+  "title": "Evaluate trig without a calculator - HOMEMADE.",
+  "body": "Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
 },
 {
   "id": "sec-trig-intro-11-8",
@@ -1419,8 +1419,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-8",
   "type": "Exercise",
   "number": "3.1.7.6",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-intro-11-9",
@@ -1428,8 +1428,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-9",
   "type": "Exercise",
   "number": "3.1.7.7",
-  "title": "Title here - FROM WEBWORK.",
-  "body": "Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                     "
+  "title": "Evaluate trig without a calculator - FROM WEBWORK.",
+  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                     "
 },
 {
   "id": "sec-trig-intro-11-10",
@@ -1437,8 +1437,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-10",
   "type": "Exercise",
   "number": "3.1.7.8",
-  "title": "Title here - FROM WEBWORK.",
-  "body": "Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
+  "title": "Evaluate trig without a calculator  - FROM WEBWORK.",
+  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
 },
 {
   "id": "sec-trig-intro-11-11",
@@ -1446,8 +1446,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-11",
   "type": "Exercise",
   "number": "3.1.7.9",
-  "title": "Title here - FROM WEBWORK.",
-  "body": "Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
+  "title": "Evaluate trig without a calculator  - FROM WEBWORK.",
+  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
 },
 {
   "id": "sec-trig-intro-11-12",
@@ -1455,8 +1455,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-12",
   "type": "Exercise",
   "number": "3.1.7.10",
-  "title": "Title here - FROM WEBWORK.",
-  "body": "Title here - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
+  "title": "Evaluate trig without a calculator  - FROM WEBWORK.",
+  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
 },
 {
   "id": "sec-trig-intro-11-13",
@@ -1464,8 +1464,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-13",
   "type": "Exercise",
   "number": "3.1.7.11",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator  - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-intro-11-14",
@@ -1473,8 +1473,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-14",
   "type": "Exercise",
   "number": "3.1.7.12",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\tan \\theta \\)<\/span> without a calculator  - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-intro-11-15",
@@ -1482,8 +1482,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-15",
   "type": "Exercise",
   "number": "3.1.7.13",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator  - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-intro-11-16",
@@ -1491,8 +1491,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-11-16",
   "type": "Exercise",
   "number": "3.1.7.14",
-  "title": "Title here - HOMEMADE.",
-  "body": "Title here - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-graphs",
@@ -1501,7 +1501,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Trigonometric graphs",
-  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic , which means that they repeat after a certain interval, called the period . The periods for the 6 functions are as follows:   Periods of trigonometric functions.    Function  Period                               Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.     Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .      Properties from graphs    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.    Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.      Symmetries and properties from graphs    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                               Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift .    Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .      Determining period    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of               Amplitude, period, phase shift from graph    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                        Amplitude, period, phase shift from expression    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises   Fact Check - MISSING INSTRUCTIONS  1. Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                   xxxxx    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                        yyyyy    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       4.    5.    6.    7.    8.    9.    10.    11.    12.     "
+  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic , which means that they repeat after a certain interval, called the period . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - MISSING INSTRUCTIONS, NEED TO FIX  Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   C    E    A    D    Choose    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph B .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 1.        "
 },
 {
   "id": "sec-trig-graphs-2",
@@ -1582,7 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Table",
   "number": "3.31",
   "title": "Periods of trigonometric functions.",
-  "body": " Periods of trigonometric functions.    Function  Period                            "
+  "body": "Periods of trigonometric functions.    Function  Period                            "
 },
 {
   "id": "graph1",
@@ -1591,7 +1591,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.32",
   "title": "Properties from graphs.",
-  "body": " Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .   "
+  "body": "Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .   "
 },
 {
   "id": "sec-trig-graphs-6-5",
@@ -1599,8 +1599,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-6-5",
   "type": "Checkpoint",
   "number": "3.33",
-  "title": "Properties from graphs.",
-  "body": " Properties from graphs    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                       "
+  "title": "Properties from graphs - HOMEMADE.",
+  "body": "Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                       "
 },
 {
   "id": "sec-trig-graphs-6-7",
@@ -1635,8 +1635,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-6-10",
   "type": "Checkpoint",
   "number": "3.35",
-  "title": "Symmetries and properties from graphs.",
-  "body": " Symmetries and properties from graphs    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                            "
+  "title": "Symmetries and properties from graphs - HOMEMADE.",
+  "body": "Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                            "
 },
 {
   "id": "trans1",
@@ -1672,7 +1672,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.37",
   "title": "Amplitude, period, phase shift.",
-  "body": " Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .   "
+  "body": "Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .   "
 },
 {
   "id": "sec-trig-graphs-7-7",
@@ -1680,8 +1680,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-7-7",
   "type": "Checkpoint",
   "number": "3.38",
-  "title": "Determining period.",
-  "body": " Determining period    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of             "
+  "title": "Determining period - HOMEMADE.",
+  "body": "Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of             "
 },
 {
   "id": "ex-trig-graph1",
@@ -1689,8 +1689,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#ex-trig-graph1",
   "type": "Checkpoint",
   "number": "3.39",
-  "title": "Amplitude, period, phase shift from graph.",
-  "body": " Amplitude, period, phase shift from graph    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                      "
+  "title": "Amplitude, period, phase shift from graph - WEBWORK.",
+  "body": "Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                      "
 },
 {
   "id": "ex-trig-graph2",
@@ -1698,8 +1698,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#ex-trig-graph2",
   "type": "Checkpoint",
   "number": "3.40",
-  "title": "Amplitude, period, phase shift from expression.",
-  "body": " Amplitude, period, phase shift from expression    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                 "
+  "title": "Amplitude, period, phase shift from expression - WEBWORK.",
+  "body": "Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                 "
 },
 {
   "id": "sec-trig-graphs-8-2",
@@ -1707,8 +1707,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-8-2",
   "type": "Exercise",
   "number": "3.2.4.1",
-  "title": "Fact Check - MISSING INSTRUCTIONS.",
-  "body": " Fact Check - MISSING INSTRUCTIONS  1. Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                 "
+  "title": "Fact Check - MISSING INSTRUCTIONS, NEED TO FIX.",
+  "body": "Fact Check - MISSING INSTRUCTIONS, NEED TO FIX  Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                 "
 },
 {
   "id": "sec-trig-graphs-8-3",
@@ -1716,8 +1716,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-8-3",
   "type": "Exercise",
   "number": "3.2.4.2",
-  "title": "xxxxx.",
-  "body": " xxxxx    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                      "
+  "title": "Find period, amplitude, phase shift - HOMEMADE.",
+  "body": "Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                      "
 },
 {
   "id": "sec-trig-graphs-8-4",
@@ -1725,8 +1725,89 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-8-4",
   "type": "Exercise",
   "number": "3.2.4.3",
-  "title": "yyyyy.",
-  "body": " yyyyy    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                      "
+  "title": "Find period, amplitude, phase shift - HOMEMADE.",
+  "body": "Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                      "
+},
+{
+  "id": "sec-trig-graphs-8-5",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-5",
+  "type": "Exercise",
+  "number": "3.2.4.4",
+  "title": "Which function - FROM WEBWORK.",
+  "body": "Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above              "
+},
+{
+  "id": "sec-trig-graphs-8-6",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-6",
+  "type": "Exercise",
+  "number": "3.2.4.5",
+  "title": "Find the function - FROM WEBWORK.",
+  "body": "Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:       "
+},
+{
+  "id": "sec-trig-graphs-8-7",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-7",
+  "type": "Exercise",
+  "number": "3.2.4.6",
+  "title": "Find the function - FROM WEBWORK.",
+  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
+},
+{
+  "id": "sec-trig-graphs-8-8",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-8",
+  "type": "Exercise",
+  "number": "3.2.4.7",
+  "title": "Find the function - FROM WEBWORK.",
+  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
+},
+{
+  "id": "sec-trig-graphs-8-9",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-9",
+  "type": "Exercise",
+  "number": "3.2.4.8",
+  "title": "Find the shifts - FROM WEBWORK.",
+  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .      "
+},
+{
+  "id": "sec-trig-graphs-8-10",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-10",
+  "type": "Exercise",
+  "number": "3.2.4.9",
+  "title": "Find the shift - FROM WEBWORK.",
+  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .      "
+},
+{
+  "id": "sec-trig-graphs-8-11",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-11",
+  "type": "Exercise",
+  "number": "3.2.4.10",
+  "title": "Sketch the graph - FROM WEBWORK.",
+  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   C    E    A    D    Choose    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph B .      "
+},
+{
+  "id": "sec-trig-graphs-8-12",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-12",
+  "type": "Exercise",
+  "number": "3.2.4.11",
+  "title": "Periodic? - FROM WEBWORK.",
+  "body": "Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.      "
+},
+{
+  "id": "sec-trig-graphs-8-13",
+  "level": "2",
+  "url": "sec-trig-graphs.html#sec-trig-graphs-8-13",
+  "type": "Exercise",
+  "number": "3.2.4.12",
+  "title": "Periodic? - FROM WEBWORK.",
+  "body": "Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 1.      "
 },
 {
   "id": "sec-trig-inverse",
@@ -1735,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Inverse trigonometric functions",
-  "body": " Inverse trigonometric functions     Evaluate inverse trigonometric functions at common values.    Use the correct domain restrictions, and the correct ranges for and .    Use properties of inverse trigonometric functions to simplify\/evaluate expressions.    Use correct notation and avoid common mistakes regarding inverse trigonometric functions.      Where will this be used in calculus?  Inverse trigonometric functions (and evaluating them) is present in all areas of calculus, such as derivatives, integrals, limits, Taylor series expansion etc. Here are a few examples in calculus and beyond:     Derivatives of inverse trigonometric functions appear in physics, particularly in problems involving angles of motion, such as kinematics (certain types of motion), optics (refraction angles) and electrical engineering (arctan functions appear in circuit analysis).    Inverse trigonometric functions are used in robotics and computer animation, for example in inverse kinematics used to control robot arms and other manipulators to perform tasks.    The derivatives of inverse trigonometric functions are frequently used in implicit differentiation and chain rule applications.    Inverse trigonometric functions often appear in integrals involving rational expressions, especially when the denominator is of a certain form.       In this section we study inverse trigonometric functions. Inverse trigonometric are useful in solving problems involving trigonometric functions, and they are also useful as an additional set of functions (and graphs) which can be used to model and analyze various phenomena.    Arcsine - the inverse sine function  Let's start with a reminder regarding inverse function in general:  A function has an inverse if and only if is one-to-one. An equavalent way of saying this is that a function has an inverse if and only if the graph of passes the horizontal line test (meaning, no horizontal line crosses the curve more than once).   Graph of .  Graph of   Graph of .    Looking at the graph of in , we see that it does NOT pass the horizontal line test, so therefore is not invertible.  However, this difficulty can be solved by restricting the domain. If we restrict the domain of to the interval , then the restricted function is one-to-one. We call the inverse of the restricted sine function, the inverse sine function  .    Study tip:   It is very important to note that .    The Inverse Sine Function  The inverse sine function, also called arcsine is defined as follows: where and .  Some properties of arcsine:      is the same as .    The domain of is .    The range of is .     for .     for .     is an odd function (symmetric about the origin), and is also an odd function.   The graph of is:   Graph of .      Study tip:   Think of the definition as: if , then is the angle between and for which . Notice that trigonometric functions take angle measures and output real numbers. Inverse trigonometric functions take real numbers and output angle measures.    Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Now place one of the special triangles (see ) in Quadrant I. Choose the triangle and the location that corresponds with .      A special triangle in Quadrant IV.   We notice that . Also is in the interval . Therefore .      Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is negative in Quadrant VI (but not in Quadrant I). (And we want a negative value since .)    Now place one of the special triangles (see ) in Quadrant IV. (see below).     A special triangle in Quadrant IV.  We see that . Also is in the interval . Therefore .      Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means       Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , we first see that . So we ned to evaluate . Similar to the solutions in and , this means we need to look for a in the interval such that . We easily see that this means .        Evaluating arcsine    Evaluate without using a calculator. Answer with an exact value.   .              Evaluating arcsine    Evaluate without using a calculator. Answer with an exact value.   .              Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .              Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .               Arccos - the inverse cosine function  Looking at the graph of in , we see that it also does NOT pass the horizontal line test, so therefore is not invertible.   Graph of  Graph of   Graph of .    If we restrict the domain of in exactly the same way as (namely restrict the domain to ), then it is still not oe-to-one. However, we can choose a different interval. The interval we will restrict to, to make it one-to-one is . Then the restricted function is one-to-one. We call the inverse of the restricted cosine function, the inverse cosine function  .    Study tip:   Again .    The Inverse Cosine Function  The inverse cosine function, also called arccos , is defined as follows: where and .  Some properties of arccos:      is the same as .    The domain of is .    The range of is .     for .     for .     is neither even nor odd.   The graph of is:   Graph of .      Study tip:   Notice that the ranges of and are not the same. (They are and respectively). It is important to memorize these intervals (or remember how to find them).    Evaluating arccos   Evaluate .         Let's use the notation . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I).    Using the special triangles (see ), we notice that . To get a negative value, we look in Quadrant II. We see that , and also is in the interval .   Therefore .      Evaluating arccos   Evaluate .         Start by writing write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? The easiest way to answer that might be to look at the graph of (see ).  From the graph of we see that , and is in the interval .  Therefore .      Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means       Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , one option is to draw on the unit cirle (in standard position) and find another angle in the interval with the same cosine value as . Looking at the unit circle, we see that . (See the figure.) This is because by definition, we know that , and both and are the same for the two angles.   Two angles with the same cosine value.   Therefore: The last step above is true because is in the interval so now the identity can be used.        Evaluating arccos    Evaluate without using a calculator. Answer with an exact value.   .              Evaluating arccos    Evaluate without using a calculator. Answer with an exact value.   .              Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .              Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .               Arctan - the inverse tangent function  Just like and are not one-to-one, we see that the graph of also does NOT pass the horizontal line test, so therefore is also not invertible on its full domain.   Graph of  Graph of   Graph of .    This time, if we restrict the domain to then is one-to-one on that domain. We call the inverse of the restricted tangent function, the inverse tangent function  .    Study tip:   Again .    The Inverse Tangent Function  The inverse tangent function, also called arctan , is defined as follows: where and .  Some properties of arctan:      is the same as .    The domain of is .    The range of is .     for .     for all real .     is an odd function.   The graph of is:   Graph of .      Study tip:   It is important to memorize the ranges of and (or remember how to find them). The graph of also comes up often, and you should memorize it, including the values of the asymptotes ( and ).    Evaluating arctan   Evaluate .         Let . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a tangent value of ? Consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Therefore, place a special triangle (see ) in Quadrant IV as in .   We see that . Also, is in the interval . Therefore .      Evaluating arctan    Evaluate without using a calculator. Answer with an exact value.   .               The remaining three inverse trigonometric functions  Similarly to and , we can see by looking at their graphs that none of and are invertible either. Again we need to restrict their domains to create invertible functions. The definitions are similar to what we have seen in the previous sectiobs. Let's summarize the results here.   Summary of all 6 inverse trigonometric functions     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:        Evaluating arccot   Evaluate arccot .         Let . This means and .  Which value of in the interval corresponds to a cotangent value of ?   The interval means that is in Quadrant I or Quadrant II.     is positive in Quadrant I (but not in Quadrant II).    Using the special triangles in , we notice that and is in the interval .   Therefore .      Evaluating arcsec    Evaluate without using a calculator. Answer with an exact value.   .              Evaluating arccsc    Evaluate without using a calculator. Answer with an exact value.   .              Common errors  Be careful to not make the following errors. It is true that but note that:   The box below shows the corresponding correct identities , and .    Inverse identities  The following identities hold.        Study tip:   Most mathematicians do not memorize these identities, but may look them up if needed.     Additional Examples  Here are a additional few examples based on the topics seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Evaluating arccos   Evaluate .         Let . The range of is (you should memorize that!). Therefore we have need to find a such that and .  Consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I), so we are looking for a value on Quadrant II.    Using the special triangles in , we notice that . Also, is in the interval .   Therefore .      Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Recall that for . Since this means .    It is incorrect.    The `solution' is incorrect. The range of is so the identity holds for (not for ).     Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Now, let so that and . By using a special triangle in Quadrant IV, we see that and .  Therefore so then     It is incorrect.    The `solution' is incorrect. The first line is incorrect, because Instead, solve the problrm similarly to . The correct final answer is       Exercises  1.    2.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"-pi\/3\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     3.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/6\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     4.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/3\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     5.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"5*pi\/6\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     6.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"-pi\/4\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     7.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"-pi\/2\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     8.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(0); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     9.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     10.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/4\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     11.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/6\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     12.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"-pi\/3\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     13.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/6\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     14.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/2\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     15.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     16.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"-pi\/4\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     17.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/6\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     18.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"5*pi\/12\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     19.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/6\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     20.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/3\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     21.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"pi\/3\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value, in radians.   .     22.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute($b\/$a); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value.   .     23.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(-1); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value.   .     24.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(0); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value.   .     25.  Context(\"Numeric\"); $a = Compute(random(2, 12, 1)); $b = Compute($a-1); $ans = Compute(\"-sqrt(2)\")->with( tolType => 'absolute', tolerance => .000000000000000000001, ); Context()->functions->disable('trig');   Evaluate without using a calculator. Answer with an exact value.   .      "
+  "body": " Inverse trigonometric functions     Evaluate inverse trigonometric functions at common values.    Use the correct domain restrictions, and the correct ranges for and .    Use properties of inverse trigonometric functions to simplify\/evaluate expressions.    Use correct notation and avoid common mistakes regarding inverse trigonometric functions.      Where will this be used in calculus?  Inverse trigonometric functions (and evaluating them) is present in all areas of calculus, such as derivatives, integrals, limits, Taylor series expansion etc. Here are a few examples in calculus and beyond:     Derivatives of inverse trigonometric functions appear in physics, particularly in problems involving angles of motion, such as kinematics (certain types of motion), optics (refraction angles) and electrical engineering (arctan functions appear in circuit analysis).    Inverse trigonometric functions are used in robotics and computer animation, for example in inverse kinematics used to control robot arms and other manipulators to perform tasks.    The derivatives of inverse trigonometric functions are frequently used in implicit differentiation and chain rule applications.    Inverse trigonometric functions often appear in integrals involving rational expressions, especially when the denominator is of a certain form.       In this section we study inverse trigonometric functions. Inverse trigonometric are useful in solving problems involving trigonometric functions, and they are also useful as an additional set of functions (and graphs) which can be used to model and analyze various phenomena.   Arcsine - the inverse sine function  Let's start with a reminder regarding inverse function in general:  A function has an inverse if and only if is one-to-one. An equavalent way of saying this is that a function has an inverse if and only if the graph of passes the horizontal line test (meaning, no horizontal line crosses the curve more than once).   Graph of .  Graph of   Graph of .    Looking at the graph of in , we see that it does NOT pass the horizontal line test, so therefore is not invertible.  However, this difficulty can be solved by restricting the domain. If we restrict the domain of to the interval , then the restricted function is one-to-one. We call the inverse of the restricted sine function, the inverse sine function  .    Study tip:   It is very important to note that .   The Inverse Sine Function  The inverse sine function, also called arcsine is defined as follows: where and .  Some properties of arcsine:      is the same as .    The domain of is .    The range of is .     for .     for .     is an odd function (symmetric about the origin), and is also an odd function.   The graph of is:   Graph of .      Study tip:   Think of the definition as: if , then is the angle between and for which . Notice that trigonometric functions take angle measures and output real numbers. Inverse trigonometric functions take real numbers and output angle measures.   Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Now place one of the special triangles (see ) in Quadrant I. Choose the triangle and the location that corresponds with .      A special triangle in Quadrant IV.   We notice that . Also is in the interval . Therefore .     Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is negative in Quadrant VI (but not in Quadrant I). (And we want a negative value since .)    Now place one of the special triangles (see ) in Quadrant IV. (see below).     A special triangle in Quadrant IV.  We see that . Also is in the interval . Therefore .     Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means      Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , we first see that . So we ned to evaluate . Similar to the solutions in and , this means we need to look for a in the interval such that . We easily see that this means .     Evaluating arcsine - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Evaluating arcsine - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .               Arccos - the inverse cosine function  Looking at the graph of in , we see that it also does NOT pass the horizontal line test, so therefore is not invertible.   Graph of  Graph of   Graph of .    If we restrict the domain of in exactly the same way as (namely restrict the domain to ), then it is still not oe-to-one. However, we can choose a different interval. The interval we will restrict to, to make it one-to-one is . Then the restricted function is one-to-one. We call the inverse of the restricted cosine function, the inverse cosine function  .    Study tip:   Again .    The Inverse Cosine Function  The inverse cosine function, also called arccos , is defined as follows: where and .  Some properties of arccos:      is the same as .    The domain of is .    The range of is .     for .     for .     is neither even nor odd.   The graph of is:   Graph of .      Study tip:   Notice that the ranges of and are not the same. (They are and respectively). It is important to memorize these intervals (or remember how to find them).    Evaluating arccos   Evaluate .         Let's use the notation . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I).    Using the special triangles (see ), we notice that . To get a negative value, we look in Quadrant II. We see that , and also is in the interval .   Therefore .     Evaluating arccos   Evaluate .         Start by writing write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? The easiest way to answer that might be to look at the graph of (see ).  From the graph of we see that , and is in the interval .  Therefore .     Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means      Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , one option is to draw on the unit cirle (in standard position) and find another angle in the interval with the same cosine value as . Looking at the unit circle, we see that . (See the figure.) This is because by definition, we know that , and both and are the same for the two angles.   Two angles with the same cosine value.   Therefore: The last step above is true because is in the interval so now the identity can be used.       Evaluating arccos - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Evaluating arccos - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .              Arctan - the inverse tangent function  Just like and are not one-to-one, we see that the graph of also does NOT pass the horizontal line test, so therefore is also not invertible on its full domain.   Graph of  Graph of   Graph of .    This time, if we restrict the domain to then is one-to-one on that domain. We call the inverse of the restricted tangent function, the inverse tangent function  .    Study tip:   Again .   The Inverse Tangent Function  The inverse tangent function, also called arctan , is defined as follows: where and .  Some properties of arctan:      is the same as .    The domain of is .    The range of is .     for .     for all real .     is an odd function.   The graph of is:   Graph of .      Study tip:   It is important to memorize the ranges of and (or remember how to find them). The graph of also comes up often, and you should memorize it, including the values of the asymptotes ( and ).   Evaluating arctan   Evaluate .         Let . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a tangent value of ? Consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Therefore, place a special triangle (see ) in Quadrant IV as in .   We see that . Also, is in the interval . Therefore .     Evaluating arctan - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .              The remaining three inverse trigonometric functions  Similarly to and , we can see by looking at their graphs that none of and are invertible either. Again we need to restrict their domains to create invertible functions. The definitions are similar to what we have seen in the previous sectiobs. Let's summarize the results here.  Summary of all 6 inverse trigonometric functions     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:     Inverse function:   Domain:   Range:       Evaluating arccot   Evaluate arccot .         Let . This means and .  Which value of in the interval corresponds to a cotangent value of ?   The interval means that is in Quadrant I or Quadrant II.     is positive in Quadrant I (but not in Quadrant II).    Using the special triangles in , we notice that and is in the interval .   Therefore .     Evaluating arcsec - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Evaluating arccsc - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .              Common errors  Be careful to not make the following errors. It is true that but note that:   The box below shows the corresponding correct identities , and .   Inverse identities  The following identities hold.        Study tip:   Most mathematicians do not memorize these identities, but may look them up if needed.    Additional Examples  Here are a additional few examples based on the topics seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Evaluating arccos   Evaluate .         Let . The range of is (you should memorize that!). Therefore we have need to find a such that and .  Consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I), so we are looking for a value on Quadrant II.    Using the special triangles in , we notice that . Also, is in the interval .   Therefore .      Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Recall that for . Since this means .    It is incorrect.    The `solution' is incorrect. The range of is so the identity holds for (not for ).     Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Now, let so that and . By using a special triangle in Quadrant IV, we see that and .  Therefore so then     It is incorrect.    The `solution' is incorrect. The first line is incorrect, because Instead, solve the problrm similarly to . The correct final answer is      Exercises  Domain and range - FROM WEBWORK    State the domain and range of each of the following functions:  (Enter your answers as inequalities: . Your domains should be inequalities in and ranges, in . As always, type pi for . If you wish to enter , type infinity .)  (a) has  Domain:  Range:  (b) has  Domain:  Range:  (c) has  Domain:  Range:                                 SOLUTION (a) The domain of is , so is defined only if is between and inclusive. The range is between and inclusive. (b) The domain of is , so is defined only if is between and inclusive. The range is between and inclusive. (c) The domain of is all real numbers, so is defined for all values of . The range is between but not including and .       Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .             Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .              "
 },
 {
   "id": "sec-trig-inverse-2",
@@ -1780,7 +1861,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.42",
   "title": "Evaluating arcsine.",
-  "body": " Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Now place one of the special triangles (see ) in Quadrant I. Choose the triangle and the location that corresponds with .      A special triangle in Quadrant IV.   We notice that . Also is in the interval . Therefore .    "
+  "body": "Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Now place one of the special triangles (see ) in Quadrant I. Choose the triangle and the location that corresponds with .      A special triangle in Quadrant IV.   We notice that . Also is in the interval . Therefore .    "
 },
 {
   "id": "inverse2",
@@ -1789,7 +1870,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.43",
   "title": "Evaluating arcsine.",
-  "body": " Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is negative in Quadrant VI (but not in Quadrant I). (And we want a negative value since .)    Now place one of the special triangles (see ) in Quadrant IV. (see below).     A special triangle in Quadrant IV.  We see that . Also is in the interval . Therefore .    "
+  "body": "Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is negative in Quadrant VI (but not in Quadrant I). (And we want a negative value since .)    Now place one of the special triangles (see ) in Quadrant IV. (see below).     A special triangle in Quadrant IV.  We see that . Also is in the interval . Therefore .    "
 },
 {
   "id": "inverse3",
@@ -1798,7 +1879,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.44",
   "title": "Inverse properties.",
-  "body": " Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
+  "body": "Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
 },
 {
   "id": "inverse4",
@@ -1807,43 +1888,43 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.45",
   "title": "Inverse properties.",
-  "body": " Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , we first see that . So we ned to evaluate . Similar to the solutions in and , this means we need to look for a in the interval such that . We easily see that this means .    "
+  "body": "Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , we first see that . So we ned to evaluate . Similar to the solutions in and , this means we need to look for a in the interval such that . We easily see that this means .    "
+},
+{
+  "id": "sec-trig-inverse-5-14",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-5-14",
+  "type": "Checkpoint",
+  "number": "3.46",
+  "title": "Evaluating arcsine - HOMEMADE.",
+  "body": "Evaluating arcsine - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-5-15",
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-15",
   "type": "Checkpoint",
-  "number": "3.46",
-  "title": "Evaluating arcsine.",
-  "body": " Evaluating arcsine    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "number": "3.47",
+  "title": "Evaluating arcsine - HOMEMADE.",
+  "body": "Evaluating arcsine - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-5-16",
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-16",
   "type": "Checkpoint",
-  "number": "3.47",
-  "title": "Evaluating arcsine.",
-  "body": " Evaluating arcsine    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "number": "3.48",
+  "title": "Inverse properties - HOMEMADE.",
+  "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-5-17",
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-17",
   "type": "Checkpoint",
-  "number": "3.48",
-  "title": "Inverse properties.",
-  "body": " Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .            "
-},
-{
-  "id": "sec-trig-inverse-5-18",
-  "level": "2",
-  "url": "sec-trig-inverse.html#sec-trig-inverse-5-18",
-  "type": "Checkpoint",
   "number": "3.49",
-  "title": "Inverse properties.",
-  "body": " Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Inverse properties - HOMEMADE.",
+  "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "fig3-cos",
@@ -1888,7 +1969,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.52",
   "title": "Evaluating arccos.",
-  "body": " Evaluating arccos   Evaluate .         Start by writing write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? The easiest way to answer that might be to look at the graph of (see ).  From the graph of we see that , and is in the interval .  Therefore .    "
+  "body": "Evaluating arccos   Evaluate .         Start by writing write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? The easiest way to answer that might be to look at the graph of (see ).  From the graph of we see that , and is in the interval .  Therefore .    "
 },
 {
   "id": "inverse7",
@@ -1897,7 +1978,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.53",
   "title": "Inverse properties.",
-  "body": " Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
+  "body": "Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
 },
 {
   "id": "inverse8",
@@ -1906,7 +1987,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.54",
   "title": "Inverse properties.",
-  "body": " Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , one option is to draw on the unit cirle (in standard position) and find another angle in the interval with the same cosine value as . Looking at the unit circle, we see that . (See the figure.) This is because by definition, we know that , and both and are the same for the two angles.   Two angles with the same cosine value.   Therefore: The last step above is true because is in the interval so now the identity can be used.    "
+  "body": "Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , one option is to draw on the unit cirle (in standard position) and find another angle in the interval with the same cosine value as . Looking at the unit circle, we see that . (See the figure.) This is because by definition, we know that , and both and are the same for the two angles.   Two angles with the same cosine value.   Therefore: The last step above is true because is in the interval so now the identity can be used.    "
 },
 {
   "id": "sec-trig-inverse-6-13",
@@ -1914,8 +1995,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-13",
   "type": "Checkpoint",
   "number": "3.55",
-  "title": "Evaluating arccos.",
-  "body": " Evaluating arccos    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Evaluating arccos - HOMEMADE.",
+  "body": "Evaluating arccos - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-6-14",
@@ -1923,8 +2004,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-14",
   "type": "Checkpoint",
   "number": "3.56",
-  "title": "Evaluating arccos.",
-  "body": " Evaluating arccos    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Evaluating arccos - HOMEMADE.",
+  "body": "Evaluating arccos - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-6-15",
@@ -1932,8 +2013,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-15",
   "type": "Checkpoint",
   "number": "3.57",
-  "title": "Inverse properties.",
-  "body": " Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Inverse properties - HOMEMADE.",
+  "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-6-16",
@@ -1941,8 +2022,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-16",
   "type": "Checkpoint",
   "number": "3.58",
-  "title": "Inverse properties.",
-  "body": " Inverse properties    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Inverse properties - HOMEMADE.",
+  "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-7-3",
@@ -1978,7 +2059,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.60",
   "title": "Evaluating arctan.",
-  "body": " Evaluating arctan   Evaluate .         Let . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a tangent value of ? Consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Therefore, place a special triangle (see ) in Quadrant IV as in .   We see that . Also, is in the interval . Therefore .    "
+  "body": "Evaluating arctan   Evaluate .         Let . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a tangent value of ? Consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Therefore, place a special triangle (see ) in Quadrant IV as in .   We see that . Also, is in the interval . Therefore .    "
 },
 {
   "id": "sec-trig-inverse-7-9",
@@ -1986,8 +2067,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-7-9",
   "type": "Checkpoint",
   "number": "3.61",
-  "title": "Evaluating arctan.",
-  "body": " Evaluating arctan    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Evaluating arctan - HOMEMADE.",
+  "body": "Evaluating arctan - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "inverse10",
@@ -1996,7 +2077,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.62",
   "title": "Evaluating arccot.",
-  "body": " Evaluating arccot   Evaluate arccot .         Let . This means and .  Which value of in the interval corresponds to a cotangent value of ?   The interval means that is in Quadrant I or Quadrant II.     is positive in Quadrant I (but not in Quadrant II).    Using the special triangles in , we notice that and is in the interval .   Therefore .    "
+  "body": "Evaluating arccot   Evaluate arccot .         Let . This means and .  Which value of in the interval corresponds to a cotangent value of ?   The interval means that is in Quadrant I or Quadrant II.     is positive in Quadrant I (but not in Quadrant II).    Using the special triangles in , we notice that and is in the interval .   Therefore .    "
 },
 {
   "id": "sec-trig-inverse-8-5",
@@ -2004,8 +2085,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-8-5",
   "type": "Checkpoint",
   "number": "3.63",
-  "title": "Evaluating arcsec.",
-  "body": " Evaluating arcsec    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Evaluating arcsec - HOMEMADE.",
+  "body": "Evaluating arcsec - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-trig-inverse-8-6",
@@ -2013,8 +2094,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-inverse.html#sec-trig-inverse-8-6",
   "type": "Checkpoint",
   "number": "3.64",
-  "title": "Evaluating arccsc.",
-  "body": " Evaluating arccsc    Evaluate without using a calculator. Answer with an exact value.   .            "
+  "title": "Evaluating arccsc - HOMEMADE.",
+  "body": "Evaluating arccsc - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "inverse11",
@@ -2042,6 +2123,231 @@ var ptx_lunr_docs = [
   "number": "3.67",
   "title": "Correct or incorrect?",
   "body": " Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Now, let so that and . By using a special triangle in Quadrant IV, we see that and .  Therefore so then     It is incorrect.    The `solution' is incorrect. The first line is incorrect, because Instead, solve the problrm similarly to . The correct final answer is    "
+},
+{
+  "id": "sec-trig-inverse-10-2",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-2",
+  "type": "Exercise",
+  "number": "3.3.6.1",
+  "title": "Domain and range - FROM WEBWORK.",
+  "body": "Domain and range - FROM WEBWORK    State the domain and range of each of the following functions:  (Enter your answers as inequalities: . Your domains should be inequalities in and ranges, in . As always, type pi for . If you wish to enter , type infinity .)  (a) has  Domain:  Range:  (b) has  Domain:  Range:  (c) has  Domain:  Range:                                 SOLUTION (a) The domain of is , so is defined only if is between and inclusive. The range is between and inclusive. (b) The domain of is , so is defined only if is between and inclusive. The range is between and inclusive. (c) The domain of is all real numbers, so is defined for all values of . The range is between but not including and .      "
+},
+{
+  "id": "sec-trig-inverse-10-3",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-3",
+  "type": "Exercise",
+  "number": "3.3.6.2",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-4",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-4",
+  "type": "Exercise",
+  "number": "3.3.6.3",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-5",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-5",
+  "type": "Exercise",
+  "number": "3.3.6.4",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arccos \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-6",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-6",
+  "type": "Exercise",
+  "number": "3.3.6.5",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-7",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-7",
+  "type": "Exercise",
+  "number": "3.3.6.6",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arctan \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-8",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-8",
+  "type": "Exercise",
+  "number": "3.3.6.7",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsin (-1) \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-9",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-9",
+  "type": "Exercise",
+  "number": "3.3.6.8",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsin (0)) \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-10",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-10",
+  "type": "Exercise",
+  "number": "3.3.6.9",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arccos (-1) \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-11",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-11",
+  "type": "Exercise",
+  "number": "3.3.6.10",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-12",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-12",
+  "type": "Exercise",
+  "number": "3.3.6.11",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arctan \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-13",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-13",
+  "type": "Exercise",
+  "number": "3.3.6.12",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arctan \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-14",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-14",
+  "type": "Exercise",
+  "number": "3.3.6.13",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arccot \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-15",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-15",
+  "type": "Exercise",
+  "number": "3.3.6.14",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arccot \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-16",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-16",
+  "type": "Exercise",
+  "number": "3.3.6.15",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsec \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-17",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-17",
+  "type": "Exercise",
+  "number": "3.3.6.16",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arccsc \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-18",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-18",
+  "type": "Exercise",
+  "number": "3.3.6.17",
+  "title": "Evaluate <span class=\"process-math\">\\(\\arcsec \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-19",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-19",
+  "type": "Exercise",
+  "number": "3.3.6.18",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-20",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-20",
+  "type": "Exercise",
+  "number": "3.3.6.19",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-21",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-21",
+  "type": "Exercise",
+  "number": "3.3.6.20",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-22",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-22",
+  "type": "Exercise",
+  "number": "3.3.6.21",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value, in radians.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-23",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-23",
+  "type": "Exercise",
+  "number": "3.3.6.22",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-24",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-24",
+  "type": "Exercise",
+  "number": "3.3.6.23",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-25",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-25",
+  "type": "Exercise",
+  "number": "3.3.6.24",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
+},
+{
+  "id": "sec-trig-inverse-10-26",
+  "level": "2",
+  "url": "sec-trig-inverse.html#sec-trig-inverse-10-26",
+  "type": "Exercise",
+  "number": "3.3.6.25",
+  "title": "Evaluate a composition of trig and inverse trig - HOMEMADE.",
+  "body": "Evaluate a composition of trig and inverse trig - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
 {
   "id": "sec-section-name",
