@@ -6,15 +6,15 @@
     <ul>
       <li>
         <p>
-          Simplify and re-work rational expressions.
-        </p>
-      </li>
-      <li>
-        <p>
           Simplify and work with fractions.
         </p>
       </li>
       <li>
+        <p>
+          Simplify and re-write rational expressions in various forms.
+        </p>
+      </li>
+       <li>
         <p>
           Add, subtract, multiply and divide rational expressions.
         </p>
@@ -29,28 +29,28 @@
    
   <assemblage xml:id="rational-use"><title>Where will this be used in calculus?</title>
     <p>
-      Here are several specific calculus examples where working with rational expressions will be useful: 
+      There will be many circumstances throughout the study of calculus that will require the simplification of rational expressions in order to understand our result and/or make it easier to work with. Some specific examples of such cases include:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          After using rules to differentiate a function (especially the quotient rule) the result is often a rational expression or complex rational expression which needs to be simplified. 
+          Differentiating a function using the Quotient Rule. 
         </p>
       </li>
       <li>
         <p>
-          When using implicit differentiation the process often involves working with and simplifying complex rational expressions.
+          Differentiating a function using Implicit Differentiation.
         </p>
       </li>
       <li>
         <p>
-          Integration using the technique called Partial Fractions, involves rational expressions.
+          Integrating a function using Partial Fraction Decomposition. 
         </p>
       </li>
       <li>
         <p>
-          In Sequences and Series, using the Limit Comparison Test and the Ratio Test often involves working with multiple complex rational expressions.
+          Using the Limit Comparison Test and the Ratio Test for testing the convergence of an infinite series. 
         </p>
       </li>
     </ul>
@@ -60,7 +60,7 @@
    
     <introduction>
     <p>    
-The quotient of two polynomials is called a <term>rational expression</term>. For example, lets look at the following rational expression:
+The quotient of two polynomials is called a <term>rational expression</term>. For example, let's look at the following rational expression:
     </p>
   
     <me>
@@ -68,28 +68,39 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
     </me>
 
     <p>
-      Here, <m>x^3+3x^2</m> is the <term>numerator</term>, and <m>x^2+2x-3</m> is the <term>denominator</term>. In this section we will see how to add, subtract, multiply, divide and simplify rational expressions. The rules we will follow are similar to rules regarding working with fractions (such as for example simplifying <m>\frac{3}{4} - \frac{1}{5}</m>).
+      <!-- Here, <m>x^3+3x^2</m> is the <term>numerator</term>, and <m>x^2+2x-3</m> is the <term>denominator</term>.  -->
+      In this section we will see how to add, subtract, multiply, divide, and simplify rational expressions. The rules we will follow are similar to rules regarding how to work with fractions (for example, simplifying <m>\frac{3}{4} - \frac{1}{5}</m>).
     </p>
   </introduction>
   
-  <subsection><title>Common factors</title>
-    <p>
-    Cancelling common factors is one way to simplify a rational expression. Not all expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator. 
-    </p>
-
+  <subsection><title>Common Factors</title>
     <p>
       A <term>factor</term> is part of an expression which is <em>multiplied</em> by the rest of the expression. 
     </p>
+    <p>
+    Cancelling common factors is one way to simplify a rational expression. Not all rational expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator. 
+    </p>
+
+
+
+     <aside>
+    <p>
+      <alert> A note about holes: </alert>
+    </p>
+    <p>  
+      In <xref ref="ex-common"/>, the original expression was not defined at <m>x=-3</m> because <m>x=-3</m> would cause division by zero. Sometimes it is useful to specify with the simiplified expression that <m>x\not=-3</m> (meaning that it is not defined when <m>x=-3).</m> Sometimes mathematitians take that as implicitly understood, and do not explicitly write out <m>x\not=-3</m>. 
+    </p>
+  </aside>
 
     <example xml:id="ex-common"><title>Common factor</title>
       <statement>
         <p>
-        Simplify the rational epression <me>\frac{x^3+3x^2}{x^2+2x-3}.</me>
+        Simplify the rational expression <me>\frac{x^3+3x^2}{x^2+2x-3}.</me>
         </p>
       </statement>
       <answer>
         <p>
-          <me>\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}}</me>
+          <me>\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1} \mbox{ where } x\not=-3}</me>
         </p>
         </answer>
       <solution>
@@ -111,16 +122,16 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
 
         <p>
         So, in the end, we see that
-        <me>\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}}</me>
+        <me>\boxed{\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1} \mbox{ where } x\not=-3}</me>
+
+        Note that <m>\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}</m> is not defined at <m>x=-3</m> because <m>x=-3</m> would cause division by zero. (The function <m>y=\frac{x^3+3x^2}{x^2+2x-3}=\frac{x^2}{x-1}</m> has a hole at <m>x=-3</m>.) To make the two sides equal, we specify that <m>x\not=-3</m>. 
         </p>
       </solution>
-    </example>
+      </example>
 
     <exercise><title>Common factor - FROM WEBWORK</title>
       <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" />
     </exercise>
-
-
 
 <p>
 The cancelation in <xref ref="ex-common" /> is based on the following rule, which says that if both the numerator and the denominator has the same <em> FACTOR </em>, it can be cancelled.  
@@ -134,13 +145,25 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
         <men xml:id="rule">\frac{ac}{bc}=\frac{a}{b}</men>
         and 
         <men xml:id="rule2">\frac{ak}{b}=\frac{a}{b} \cdot k</men>
-        This is true both if <m>a</m>, <m>b</m>, <m>c</m> and <m>k</m> are be constants (numbers) and/or expressions involving variables.  
+        This is true both if <m>a</m>, <m>b</m>, <m>c</m> and <m>k</m> are constants (numbers) and/or expressions involving variables.  
       </p>
        </assemblage>
 
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Check with numbers, for example
+
+      <m>frac{1+2}{3+2} = frac{3}{5}</m> and this is not the same as <m>frac{1}{3}</m>. So this illustrates that <m>\frac{a+c}{b+c}\not=\frac{a}{b}</m> in general.
+    </p>
+  </aside>
+
        <assemblage xml:id="rational-error"><title>Common Error</title>
         <p>
-          In general, the following are not true. 
+          Be careful to not apply ``rules'' that are not true. For example, note that:
 
           <me>\frac{a+c}{b+c}\not=\frac{a}{b}</me>
           <me>\frac{a-c}{b-c}\not=\frac{a}{b}</me>
@@ -148,7 +171,7 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
          </assemblage>   
        
          <p>
-          Note that <xref ref="rule" /> can be useful in ``both directions''. Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.
+          Note that <xref ref="rule" /> can be useful in ``both directions.'' Sometimes it is useful to multiply both numerator and denominator in a fraction. You can do that, as long as you multiply both numerator and denominator by the same expression. We will see examples of that later.
          </p>
 
          <exercise xml:id="ex-rat"><title>Simplify - FROM WEBWORK</title>    
@@ -156,7 +179,7 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
         </exercise>
 
         <p>
-          Note: If you are unsure of how to work with exponents, you could have a look at section <xref ref="sec-exp-intro"/> before working on <xref ref="ex-rat" />.
+          If you are unsure of how to work with exponents, you could have a look at section <xref ref="sec-exp-intro"/> before working on <xref ref="ex-rat" />.
         </p>   
         <example><title>True or False?</title>  
           <statement>
@@ -204,11 +227,13 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
   </subsection>
 
   <subsection>
-    <title>Multiplying and dividing rational expressions</title>
+    <title>Multiplying and Dividing Rational Expressions</title>
 
-      <p> To multiplying rational expressions we use the same ideas and rules as when multiplying numerical fractions. The numerators are multipled, and the denominators are multiplied. For example </p>
+      <p> 
+        To multiply rational expressions, we use the same ideas and rules as when we multiply numerical fractions. The numerators are multipled, and the denominators are multiplied. For example: 
+      </p>
          <me> \frac{2}{3}\times \frac{5}{7} = \frac{10}{21}</me>  
-         <p> Sometimes it might be worth simplifying the result, or perhaps simplifying before multiplying (if it's easy enough to do so). </p>
+         <p> Sometimes, it might be worth simplifying the result, or perhaps simplifying before multiplying (if it's easy enough to do so). </p>
 
          <assemblage><title>Technique</title>
           <p>
@@ -267,15 +292,17 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         </exercise>
 
 
-       <p> To divide rational expressions we again use the similar ideas and rules as when working with numerical fractions. Take the reciprocal of the denominator, then muliply.  For example </p>
-       <me> \frac{2}{3} / \frac{5}{7} = \frac{2}{3} \times \frac{7}{5} = \frac{14}{25}</me>  
+       <p> 
+        To divide rational expressions, we again use the similar ideas and rules as when we divide numerical fractions: take the reciprocal of the denominator, then muliply.  For example:
+       </p>
+       <me> \frac{2}{3} \div \frac{5}{7} = \frac{2}{3} \times \frac{7}{5} = \frac{14}{25}</me>  
        
        <assemblage><title>Technique</title>
         <p>
           To divide two rational expressions, multiply by the reciprocal of the denominator:
 
           <men xml:id="rational-divide">
-            \frac{a}{b} / \frac{c}{d}=  \frac{a}{b}  \cdot \frac{d}{c}
+            \frac{a}{b} \div \frac{c}{d}=  \frac{a}{b}  \cdot \frac{d}{c}
           </men>
 where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and/or expressions involving variables.  
         </p>
@@ -284,7 +311,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
       <p>
         The rule <xref ref="rational-divide" /> can be writen in more detail:
          <me>
-          \frac{a}{b} / \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}
+          \frac{a}{b} \div \frac{c}{d}= \frac{a}{b} \cdot \frac{1}{\frac{c}{d}} = \frac{a}{b}  \cdot \frac{d}{c}= \frac{ad}{bc}
         </me>
       </p>
 
@@ -327,9 +354,9 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
 
   </subsection>
 
-  <subsection><title>Adding and Subtracting rational expressions</title>
+  <subsection><title>Adding and Subtracting Rational Expressions</title>
 
-      <p> Let's start by looking at a numerical example of adding two fractions, for example <m>\frac{5}{6} + \frac{3}{8}</m>.      
+      <p> Let's start by looking at a numerical example of adding two fractions, like <m>\frac{5}{6} + \frac{3}{8}</m>.      
         
         To add fractions, we need to use a common denominator, then add the resulting numerators. The least common multiple of 6 and 8 is 24, so let's use that as the common denominator in this case:    </p>
       <md>
@@ -338,18 +365,19 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         <mrow> 		&amp;= \frac{29}{24}</mrow>
       </md>
 
-      <p> The general steps for adding rational expressions are the same. Also, the technique is the same for adding and for subtracting.     </p>
+      <p> 
+        The general steps for adding and subtracting rational expressions are the same as the steps above.
+      </p>
 
-      <assemblage>
-        <title>Technique</title>
+      <assemblage><title>Technique</title>
         <p>
           To add or subtract two rational expressions:
           <ol>
               <li>
-                Find a common denominator. (It may be useful to factor the denominators.)
+                Find a common denominator. (It may be useful to factor the expressions.)
               </li>
               <li> 
-                Multiply each rational expression to change the denominators to the common denominator.
+                Multiply both the numerator and denominator of each rational expression to change the denominators to the common denominator.
               </li>
               <li>
                 Add or subtract the numerators. 
@@ -419,11 +447,48 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
       </exercise>
   </subsection>
 
-  <subsection><title>Complex rational expressions</title>
+  <subsection><title>Complex Rational Expressions</title>
 
       <p> 
-        A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <term> complex rational expression</term>. To simplify a complex rational expression, start by simplifying the numberator, then the denominator, and after that is done you can simplify the overall expression. 
+         A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <term> complex rational expression</term>. 
+         <!--To simplify a complex rational expression, start by simplifying the numerator, then the denominator, and after that is done you can simplify the overall expression.  -->
       </p>
+
+  <aside>
+    <p>
+      <alert> Notation: </alert>
+    </p>
+    <p>  
+      The word ``complex'' can have many different meanings in different contexts. In this case in means basically "fractions within fractions". It has nothing to do with ``complex numbers'' and ``imaginary numbers''. 
+    </p>
+  </aside>
+
+
+
+      <!-- <p>      
+        Let's summarize the steps we took in <xref ref="ex-complex"/>:
+      </p> -->
+
+<assemblage>
+  <title>Technique</title>
+  <p>
+    To simplify complex rational expressions:
+    <ol>
+        <li>
+          Simplify the numerator to make it a single rational expression.
+        </li>
+        <li> 
+          Simplify the denominator to make it a single rational expression.
+        </li>
+        <li>
+          Divide the two expressions, by multiplying of the reciprocal of the denominator (as in <xref ref="rational-divide"/>).
+        </li>
+        <li>
+          Simplify if needed. 
+        </li>
+      </ol>
+  </p>
+</assemblage> 
 
       <example xml:id="ex-complex">
         <title>Simplify a complex rational expression</title>
@@ -469,30 +534,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
         </solution>
       </example>
 
-      <p>      
-        Let's summarize the steps we took in <xref ref="ex-complex"/>:
-      </p>
 
-<assemblage>
-  <title>Technique</title>
-  <p>
-    To simplify complex rational expressions:
-    <ol>
-        <li>
-          Simplify the numerator to make it a single rational expression.
-        </li>
-        <li> 
-          Simplify the denominator to make it a single rational expression.
-        </li>
-        <li>
-          Divide the two expressions, by multiplying of the reciprocal of the denominator (as in <xref ref="rational-divide"/>).
-        </li>
-        <li>
-          Simplify if needed. 
-        </li>
-      </ol>
-  </p>
-</assemblage> 
 
 <exercise>
   <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_48.pg" />

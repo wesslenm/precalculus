@@ -52,7 +52,7 @@
 
 
 <p>
-  Cross-reference: <xref ref="rule-one"/>
+  Cross-reference: See <xref ref="rule-one"/> for ...   Note: The word "example" or "Checkpoint" etc. is included automatically, so do not type it up. 
 
 A new term: <term>radical</term>
 
@@ -65,8 +65,7 @@ A new term: <term>radical</term>
 
 
 
-  <example xml:id="CHANGE">
-    <title>Description of example</title>
+  <example xml:id="CHANGE"><title>Description of example</title>
     <statement>
       <p>
       ....
@@ -91,7 +90,7 @@ A new term: <term>radical</term>
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Use radians as much as possible and try to develop a feel for their size. Try to delop an feel from how large e.g. <m>\frac{\pi}{3}</m> radians is, withough needing to convert it to degrees. If you use a calculator to check your answers, make sure it is set to radian mode. 
+      Notes here.....
     </p>
   </aside>
 
