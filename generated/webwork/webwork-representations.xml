@@ -244,22 +244,9 @@ and give your answer in the form of
     <pg source="Library/ma117DB/set1b/srw1_4_39.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-13" ww-id="webwork-13">
-    <static seed="13" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg">
-      <statement><p>Simplify the rational expression.  
-<me>\frac{x^{2}+2x-3}{x^{2}-9}</me>
-Answer:  <fillin characters="30" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>No correct answer specified</p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-14" ww-id="webwork-14">
-    <static seed="14" source="Library/ma117DB/set1b/srw1_4_7.pg">
+    <static seed="13" source="Library/ma117DB/set1b/srw1_4_7.pg">
       <statement><p>Simplify the expression
-<me>\frac{5 x^3-6 x^2-8 x}{2 x^2-7 x+6}</me>
+<me>\frac{5 x^3-8 x^2-4 x}{4 x^2-12 x+8}</me>
 and give your answer in the form of
 <me>\frac{f(x)}{g(x)}</me>
 where <m>f(x)</m> and <m>g(x)</m> are polynomials with no common factors.</p>
@@ -268,77 +255,56 @@ where <m>f(x)</m> and <m>g(x)</m> are polynomials with no common factors.</p>
 </statement>
       <answer>
         <p>
-          <m>x\mathopen{}\left(5x+4\right)</m>
+          <m>x\mathopen{}\left(5x+2\right)</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>2x-3</m>
+          <m>4x-4</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_7.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ma117DB/set1b/srw1_4_7.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-15" ww-id="webwork-15">
-    <static seed="15" source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg">
-      <statement><p>Simplify the rational expression
-<me>\frac{7(xy^{5}+y^{6})}{x^2-y^2}</me>
-in the form <m>\frac{A}{B}.</m></p>
-<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>7y^{5}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>x-y</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-16" ww-id="webwork-16">
-    <static seed="16" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg">
       <statement><p>Multiply the two rational expressions 
-<me>\frac{12 x^{4}}{25 y^{4}} \cdot \frac{15 xy}{9 x^{4}y^2}.</me>
+<me>\frac{9 x^{2}}{35 y^{2}} \cdot \frac{15 xy}{3 x^{2}y^2}.</me>
 Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
 <p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>4x</m>
+          <m>9x</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>5y^{5}</m>
+          <m>7y^{3}</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-17" ww-id="webwork-17">
-    <static seed="17" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg">
       <statement><p>Select <alert>all</alert> expressions that are equivalent to 
-<me>\frac{x-3}{5 x} \cdot  \frac{x}{x^2-9}</me>
+<me>\frac{x-2}{7 x} \cdot  \frac{x}{x^2-4}</me>
 There may be more than one correct answer.</p>
 <p><var form="checkboxes">
 <li>
-<p><m>\displaystyle \frac{-1}{5 x-3}</m></p>
+<p><m>\displaystyle \frac{1}{7(x+2)}</m></p>
 </li>
 <li>
-<p><m>\displaystyle \frac{1}{5} \cdot \frac{1}{x+3}</m></p>
+<p><m>\displaystyle \frac{-1}{7(x-2)}</m></p>
 </li>
 <li>
-<p><m>\displaystyle \frac{1}{5(x+3)}</m></p>
+<p><m>\displaystyle \frac{-1}{7 x-2}</m></p>
 </li>
 <li>
-<p><m>\displaystyle \frac{-1}{5(x-3)}</m></p>
+<p><m>\displaystyle \frac{1}{7} \cdot \frac{1}{x+2}</m></p>
 </li>
 <li>
 <p>None of the above</p>
@@ -349,340 +315,103 @@ There may be more than one correct answer.</p>
     <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-18" ww-id="webwork-18">
-    <static seed="18" source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg">
-      <statement><p>Evaluate the following and express your answer as a single fraction.</p>
-<p><m>\displaystyle\frac{10}{2x} \div \frac{10}{3y} =</m> <fillin characters="25" name="AnSwEr0001"/></p>
-<p><em>
-You might want to do a preview before submitting your answer to be certain it has been entered correctly.
-</em></p>
-</statement>
-      <hint><p>Reciprocal</p>
-</hint>
-      <answer>
-        <p>
-          <m>\frac{30y}{20x}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-19" ww-id="webwork-19">
-    <static seed="19" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg">
       <statement><p>Divide the two rational expressions 
-<me>- \frac{24 a b^{6}}{7 c} \div - \frac{9 a^2 c}{b^{3}c^{6}}.</me>
+<me>- \frac{30 a b^{6}}{7 c} \div - \frac{3 a^2 c}{b^{3}c^{6}}.</me>
 Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
 <p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>8b^{9}c^{4}</m>
+          <m>10b^{9}c^{4}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>21a</m>
+          <m>7a</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-20" ww-id="webwork-20">
-    <static seed="20" source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg">
-      <statement><p>Add the following and express your answer as a single fraction.</p>
-<p><m>\displaystyle\frac{5}{x} + \frac{6}{y} =</m> <fillin characters="25" name="AnSwEr0001"/></p>
-<p><em>
-You might want to do a preview before submitting your answer to be certain it has been entered correctly.
-</em></p>
-</statement>
-      <hint><p>First you will need to get a common denominator by finding the least common multiple.</p>
-<p>The common denominator is <m>x y</m> but you will need to put parenthesis around the denominator so that you divide it all.</p>
-</hint>
-      <answer>
-        <p>
-          <m>\frac{5y+6x}{xy}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-21" ww-id="webwork-21">
-    <static seed="21" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg">
-      <statement><p>Simplify the rational expression
-<me>\frac{1}{x^{2}} + \frac{1}{x^{4}}</me>
-in the form <m>\frac{A}{B}</m>.  Express the final result in a single fraction using positive exponents only.</p>
-<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>x^{2}+1</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>x^{2+2}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-22" ww-id="webwork-22">
-    <static seed="22" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg">
-      <statement><p>Simplify the expression  <m>\displaystyle{\ \frac{2x-3}{x-2}+ \frac{3-x}{x-2}\ }</m>.</p>
-<p>The answer has the form of <m>\displaystyle{\frac{f(x)}{g(x)}}</m> where</p>
-<p><m>f(x)</m> = <fillin characters="20" name="AnSwEr0001"/> and</p>
-<p><m>g(x)</m> = <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>x</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>x-2</m>
-        </p>
-      </answer>
-      <solution><p><m>\displaystyle{\begin{aligned}\frac{2x-3}{x-2}+ \frac{3-x}{x-2} 
-    \amp = \frac{(2x-3)+(3-x)}{x-2}\\
-    \amp =\frac{{x}}{{x-2}} \end{aligned}}</m></p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-23" ww-id="webwork-23">
-    <static seed="23" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg">
-      <statement><p>Add the two rational expressions
-<me>\frac{2x-1}{3x^{2}} + \frac{3\mathopen{}\left(x-2\right)}{3x^{2}}.</me>
-Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
-<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left(2+3\right)x-2\cdot 3-1</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>3x^{2}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-24" ww-id="webwork-24">
-    <static seed="24" source="Library/ma117DB/set1b/srw1_4_27.pg">
-      <statement><p>Simplify the expression 
-<me>\frac{4}{x^2} + \frac{4}{x^2+x}</me> 
-and give your answer in the form of
-<me>\frac{f(x)}{g(x)}.</me></p>
-<p>Your answer for the function <m>f(x)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
-<p>Your answer for the function <m>g(x)</m> is : <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>8x+4</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>x^{2}\mathopen{}\left(x+1\right)</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_27.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/ma117DB/set1b/srw1_4_27.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-25" ww-id="webwork-25">
-    <static seed="25" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg">
-      <statement><p>Simplify the expression <m>\displaystyle{\ \frac{1}{x+4}- \frac{1}{x+6}}</m></p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg">
+      <statement><p>Simplify the expression <m>\displaystyle{\ \frac{1}{x+5}- \frac{1}{x+6}}</m></p>
 <p>The answer has the form of <m>\displaystyle{\ \frac{f(x)}{g(x)}\ }</m> where</p>
 <p><m>f(x)</m> = <fillin characters="15" name="AnSwEr0001"/> and</p>
 <p><m>g(x)</m> = <fillin characters="15" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>2</m>
+          <m>1</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\left(x+4\right)\mathopen{}\left(x+6\right)</m>
+          <m>\left(x+5\right)\mathopen{}\left(x+6\right)</m>
         </p>
       </answer>
       <solution><p>Subtracting fractions is easy when they have a common denominator, so first get a common denominator, then subtract:    
 <m>\displaystyle{\begin{aligned}
-    \frac{1}{x+4}-\frac{1}{x+6} 
-    \amp =\frac{x+6}{(x+4)(x+6)} 
-     -\frac{x+4}{(x+4)(x+6)}\\
-    \amp =\frac{(x+6)-(x+4)}{(x+4)(x+6)}\\
-    \amp =\frac{2}{(x+4)(x+6)} 
+    \frac{1}{x+5}-\frac{1}{x+6} 
+    \amp =\frac{x+6}{(x+5)(x+6)} 
+     -\frac{x+5}{(x+5)(x+6)}\\
+    \amp =\frac{(x+6)-(x+5)}{(x+5)(x+6)}\\
+    \amp =\frac{1}{(x+5)(x+6)} 
     \end{aligned} }</m></p>
 </solution>
     </static>
     <rendering-data sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-26" ww-id="webwork-26">
-    <static seed="26" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg">
-      <statement><p>Subtract the two rational expressions
-<me>\frac{6x}{4x+1} - \frac{5}{4x+1}.</me>
-Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
-<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>6x-5</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>4x+1</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-27" ww-id="webwork-27">
-    <static seed="27" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg">
-      <statement><p>Find the least common denominator (LCD) of the rational expressions:  
-<me>\frac{t+4}{25t^{2}-4} \mbox{ and } \frac{6t+1}{25t^{2}+20t+4}</me></p>
-<p>LCD:  <fillin characters="25" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left(5t-2\right)\mathopen{}\left(5t+2\right)^{2}</m>
-        </p>
-      </answer>
-      <solution><p>The factors of the denominators are</p>
-<p><m>25t^{2}-4 = \left(5t+2\right)\mathopen{}\left(5t-2\right)</m></p>
-<p><m>25t^{2}+20t+4= \left(5t+2\right)^{2}</m></p>
-<p>Hence, the LCD is <m>\left(5t-2\right)\mathopen{}\left(5t+2\right)^{2}</m>.</p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-28" ww-id="webwork-28">
-    <static seed="28" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg">
-      <statement><p>Write <m>\displaystyle \frac{m}{2} + \frac{m}{3}</m> 
-as a single fraction.  
-<fillin characters="20" name="AnSwEr0001"/></p>
-<p>Note: Your answer should be a completely simplified fraction.
-Unsimplified answers and decimals will not be accepted.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{5m}{6}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-29" ww-id="webwork-29">
-    <static seed="29" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg">
-      <statement><p>Perform the indicated operation.  Simplify the result, if possible.
- <me>3 - \frac{1}{10x}</me></p>
-<p>Answer:  <fillin characters="25" name="AnSwEr0001"/></p>
-<p><url>help(entering your answer)</url></p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{6x+14}{2x+5}</m>
-        </p>
-      </answer>
-      <solution><p>The LCD is <m>2x5</m>.
-<me>\begin{aligned} 
-3 - \frac{1}{10x} \amp  = \frac{3}{1} \cdot \frac{2x5}{2x5} - \frac{1}{10x} \\
-          \amp  = \frac{6x15}{2x5} - \frac{1}{2x5} \\
-          \amp  = \frac{6x+14}{2x+5}               
-\end{aligned}</me></p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
-    <static seed="30" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg">
       <statement><p>Perform the indicated operations on the three expressions
-<me>x + \frac{4}{x^{2}-16} - \frac{x^{2}}{x+4}.</me>
+<me>x + \frac{7}{x^{2}-49} - \frac{x^{2}}{x+7}.</me>
 Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
 <p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>4x^{2}-4^{2}x+4</m>
+          <m>7x^{2}-7^{2}x+7</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>x^{2}-4\cdot 4</m>
+          <m>x^{2}-7\cdot 7</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
-    <static seed="31" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg">
       <statement><p>Perform the indicated operations involving the three rational expressions 
-<me>\frac{4xy^{3}}{5x} \cdot \frac{10xy^{5}}{26y} \div \frac{5y^{2}z}{13x^{2}}.</me>
+<me>\frac{6xy^{4}}{3x} \cdot \frac{6xy^{6}}{26y} \div \frac{3y^{2}z}{13x^{3}}.</me>
 Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
 <p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>4x^{3}y^{5}</m>
+          <m>2x^{4}y^{7}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>5z^{1}</m>
+          <m>1z^{1}</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
-    <static seed="32" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg">
-      <statement><p>Select <alert>all</alert> expressions that are equivalent to  
-<me>\displaystyle y + \frac{y}{4} + \frac{4}{y}.</me>  
-There may be more than one correct answer.</p>
-<p><var form="checkboxes">
-<li>
-<p><m>\displaystyle \frac{2y + 4}{4 + y}</m></p>
-</li>
-<li>
-<p><m>\displaystyle \frac{5 y^2 + 16}{4 y}</m></p>
-</li>
-<li>
-<p><m>\displaystyle \frac{5 y}{4} + \frac{4}{y}</m></p>
-</li>
-<li>
-<p><m>\displaystyle y + 4</m></p>
-</li>
-<li>
-<p><m>\displaystyle \frac{y^2 + 16}{4 y }</m></p>
-</li>
-</var></p>
-</statement>
-    </static>
-    <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
-    <static seed="33" source="Library/ma117DB/set1b/srw1_4_41.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20" source="Library/ma117DB/set1b/srw1_4_41.pg">
       <statement><p>Simplify the expression 
-<me>\frac{\frac{5}{x-1}-\frac{2}{x+1}}{\frac{x}{x-1}+\frac{1}{x+1}}</me> 
+<me>\frac{\frac{4}{x-1}-\frac{1}{x+1}}{\frac{x}{x-1}+\frac{1}{x+1}}</me> 
 and give your answer in the form of
 <me>\frac{f(x)}{g(x)}.</me></p>
 <p>Your answer for the function <m>f(x)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
@@ -690,7 +419,7 @@ and give your answer in the form of
 </statement>
       <answer>
         <p>
-          <m>3x+5+2</m>
+          <m>3x+4+1</m>
         </p>
       </answer>
       <answer>
@@ -702,8 +431,8 @@ and give your answer in the form of
     <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_41.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ma117DB/set1b/srw1_4_41.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
-    <static seed="34" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg">
       <statement><p>Simplify the complex fraction
 <me>1+\frac{\displaystyle \; 1 \;}{\displaystyle  \; 1+\frac{1}{\displaystyle \; 1+ \frac{1}{x}\;}}</me>
 in the form <m>\frac{A}{B}</m>.</p>
@@ -723,8 +452,8 @@ in the form <m>\frac{A}{B}</m>.</p>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-35" ww-id="webwork-35">
-    <static seed="35" source="Library/ma117DB/set1b/srw1_4_45.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22" source="Library/ma117DB/set1b/srw1_4_45.pg">
       <statement><p>Simplify the expression 
 <me>\frac{1}{1+x^n} + \frac{1}{1+x^{-n}}.</me></p>
 <p>Your answer is : <fillin characters="20" name="AnSwEr0001"/></p>
@@ -737,6 +466,277 @@ in the form <m>\frac{A}{B}</m>.</p>
     </static>
     <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_45.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ma117DB/set1b/srw1_4_45.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg">
+      <statement><p>Simplify the rational expression.  
+<me>\frac{x^{2}+2x+1}{x^{2}-1}</me>
+Answer:  <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>No correct answer specified</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24" source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg">
+      <statement><p>Simplify the rational expression
+<me>\frac{7(xy^{5}+y^{6})}{x^2-y^2}</me>
+in the form <m>\frac{A}{B}.</m></p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7y^{5}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x-y</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25" source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg">
+      <statement><p>Evaluate the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{9}{2x} \div \frac{7}{3y} =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>Reciprocal</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{27y}{14x}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26" source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg">
+      <statement><p>Add the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{10}{x} + \frac{5}{y} =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+      <hint><p>First you will need to get a common denominator by finding the least common multiple.</p>
+<p>The common denominator is <m>x y</m> but you will need to put parenthesis around the denominator so that you divide it all.</p>
+</hint>
+      <answer>
+        <p>
+          <m>\frac{10y+5x}{xy}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg">
+      <statement><p>Simplify the rational expression
+<me>\frac{1}{x^{4}} + \frac{1}{x^{6}}</me>
+in the form <m>\frac{A}{B}</m>.  Express the final result in a single fraction using positive exponents only.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x^{2}+1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{4+2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg">
+      <statement><p>Simplify the expression  <m>\displaystyle{\ \frac{2x-1}{x-2}+ \frac{1-x}{x-2}\ }</m>.</p>
+<p>The answer has the form of <m>\displaystyle{\frac{f(x)}{g(x)}}</m> where</p>
+<p><m>f(x)</m> = <fillin characters="20" name="AnSwEr0001"/> and</p>
+<p><m>g(x)</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x-2</m>
+        </p>
+      </answer>
+      <solution><p><m>\displaystyle{\begin{aligned}\frac{2x-1}{x-2}+ \frac{1-x}{x-2} 
+    \amp = \frac{(2x-1)+(1-x)}{x-2}\\
+    \amp =\frac{{x}}{{x-2}} \end{aligned}}</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg">
+      <statement><p>Add the two rational expressions
+<me>\frac{2x-1}{2x^{2}} + \frac{5\mathopen{}\left(x-2\right)}{2x^{2}}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(2+5\right)x-2\cdot 5-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2x^{2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30" source="Library/ma117DB/set1b/srw1_4_27.pg">
+      <statement><p>Simplify the expression 
+<me>\frac{2}{x^2} + \frac{4}{x^2+x}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6x+2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>x^{2}\mathopen{}\left(x+1\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_27.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma117DB/set1b/srw1_4_27.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg">
+      <statement><p>Subtract the two rational expressions
+<me>\frac{7x}{3x+1} - \frac{5}{3x+1}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7x-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3x+1</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg">
+      <statement><p>Find the least common denominator (LCD) of the rational expressions:  
+<me>\frac{6t+1}{16t^{2}+24t+9} \mbox{ and } \frac{2t+3}{16t^{2}-9}</me></p>
+<p>LCD:  <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(4t-3\right)\mathopen{}\left(4t+3\right)^{2}</m>
+        </p>
+      </answer>
+      <solution><p>The factors of the denominators are</p>
+<p><m>16t^{2}+24t+9 = \left(4t+3\right)^{2}</m></p>
+<p><m>16t^{2}-9= \left(4t+3\right)\mathopen{}\left(4t-3\right)</m></p>
+<p>Hence, the LCD is <m>\left(4t-3\right)\mathopen{}\left(4t+3\right)^{2}</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg">
+      <statement><p>Write <m>\displaystyle \frac{m}{2} + \frac{m}{3}</m> 
+as a single fraction.  
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>Note: Your answer should be a completely simplified fraction.
+Unsimplified answers and decimals will not be accepted.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{5m}{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg">
+      <statement><p>Perform the indicated operation.  Simplify the result, if possible.
+ <me>11 - \frac{5}{15x}</me></p>
+<p>Answer:  <fillin characters="25" name="AnSwEr0001"/></p>
+<p><url>help(entering your answer)</url></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{33x+50}{3x+5}</m>
+        </p>
+      </answer>
+      <solution><p>The LCD is <m>3x5</m>.
+<me>\begin{aligned} 
+11 - \frac{5}{15x} \amp  = \frac{11}{1} \cdot \frac{3x5}{3x5} - \frac{5}{15x} \\
+          \amp  = \frac{33x55}{3x5} - \frac{5}{3x5} \\
+          \amp  = \frac{33x+50}{3x+5}               
+\end{aligned}</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-35" ww-id="webwork-35">
+    <static seed="35" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg">
+      <statement><p>Select <alert>all</alert> expressions that are equivalent to  
+<me>\displaystyle y + \frac{y}{5} + \frac{5}{y}.</me>  
+There may be more than one correct answer.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>\displaystyle \frac{6 y^2 + 25}{5 y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle y + 5</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{2y + 5}{5 + y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{6 y}{5} + \frac{5}{y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{y^2 + 25}{5 y }</m></p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-37" ww-id="webwork-37">
     <static seed="37">
@@ -773,7 +773,7 @@ in the form <m>\frac{A}{B}</m>.</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -905,7 +905,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1003,7 +1003,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1105,7 +1105,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1206,7 +1206,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1322,7 +1322,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1470,7 +1470,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1614,7 +1614,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1784,7 +1784,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1942,7 +1942,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2150,7 +2150,7 @@ Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters=
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2266,7 +2266,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3278,7 +3278,7 @@ into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3382,7 +3382,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3490,7 +3490,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3598,7 +3598,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3706,7 +3706,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3819,7 +3819,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3937,7 +3937,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4037,7 +4037,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4114,7 +4114,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4194,7 +4194,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4304,7 +4304,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4501,11 +4501,11 @@ Plug into the definition:</p>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_3-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_3-Evaluate_trig_without_a_calculator__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4602,11 +4602,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_4-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_4-Evaluate_trig_without_a_calculator__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4698,11 +4698,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_5-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_5-Evaluate_trig_without_a_calculator__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4788,11 +4788,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_6-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_6-Evaluate_cos_theta__without_a_calculator__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4966,11 +4966,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_11-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_11-Evaluate_sin_theta__without_a_calculator___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5046,11 +5046,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_12-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_12-Evaluate_tan_theta__without_a_calculator___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5126,11 +5126,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_13-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_13-Evaluate_sin_theta__without_a_calculator___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5206,11 +5206,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_14-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Trigonometric_definitions_and_basic_facts/3_1_7_14-Evaluate_sin_theta__without_a_calculator__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5302,7 +5302,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5412,7 +5412,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5503,7 +5503,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5666,7 +5666,7 @@ Note:  Use a negative for a shift to the left.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5776,11 +5776,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_2-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_2-Find_period_amplitude_phase_shift__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5882,11 +5882,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-Find_period_amplitude_phase_shift__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6161,19 +6161,19 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 <p>Which graph below A-E matches your sketch?
 <var form="popup">
 <li>
-<p>C</p>
+<p>A</p>
 </li>
 <li>
 <p>E</p>
 </li>
 <li>
-<p>A</p>
-</li>
-<li>
-<p>D</p>
+<p>C</p>
 </li>
 <li>
 <p>Choose</p>
+</li>
+<li>
+<p>D</p>
 </li>
 <li>
 <p>B</p>
@@ -6302,7 +6302,7 @@ This appears to be a periodic function.  It repeats regularly with period 1.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6384,7 +6384,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6466,7 +6466,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6548,7 +6548,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6630,7 +6630,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6712,7 +6712,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6794,7 +6794,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6876,7 +6876,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6958,7 +6958,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7040,7 +7040,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7122,7 +7122,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7274,11 +7274,11 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_2-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_2-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7358,11 +7358,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_3-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_3-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7442,11 +7442,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_4-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_4-Evaluate__arccos_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7526,11 +7526,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_5-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_5-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7610,11 +7610,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_6-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_6-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7694,11 +7694,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_7-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_7-Evaluate__arcsin_1___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7778,11 +7778,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_8-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_8-Evaluate__arcsin_0___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7860,11 +7860,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_9-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_9-Evaluate__arccos_1___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7944,11 +7944,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_10-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_10-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8028,11 +8028,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_11-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_11-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8112,11 +8112,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_12-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_12-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8196,11 +8196,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_13-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_13-Evaluate__arccot_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8280,11 +8280,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_14-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_14-Evaluate__arccot_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8364,11 +8364,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_15-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_15-Evaluate__arcsec_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8448,11 +8448,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_16-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_16-Evaluate__arccsc_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8532,11 +8532,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_17-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_17-Evaluate__arcsec_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8616,11 +8616,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_18-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_18-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8700,11 +8700,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_19-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_19-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8784,11 +8784,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_20-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_20-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8868,11 +8868,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_21-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_21-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8952,11 +8952,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_22-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_22-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9034,11 +9034,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_23-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_23-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9116,11 +9116,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_24-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_24-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9198,11 +9198,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_25-Title_here__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Inverse_trigonometric_functions/3_3_6_25-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9413,7 +9413,7 @@ Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \g
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9488,7 +9488,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9591,7 +9591,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9765,7 +9765,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-05T17:34:27Z       
+###       on 2026-05-11T18:29:58Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

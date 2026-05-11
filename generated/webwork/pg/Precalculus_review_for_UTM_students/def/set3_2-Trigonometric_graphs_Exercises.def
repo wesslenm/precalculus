@@ -1,6 +1,6 @@
-openDate          = 05/05/2026 at 12:00am
-dueDate           = 11/05/2026 at 10:00pm
-answerDate        = 11/05/2026 at 10:00pm
+openDate          = 05/11/2026 at 12:00am
+dueDate           = 11/11/2026 at 10:00pm
+answerDate        = 11/11/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_2-Trigonometric_graphs_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Trigonometric_graphs_Exercises.pg
 description       = Trigonometric graphs
@@ -10,11 +10,11 @@ source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometr
 problem_id = 1
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_2-Title_here__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_2-Find_period_amplitude_phase_shift__HOMEMADE.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-Title_here__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-Find_period_amplitude_phase_shift__HOMEMADE.pg
 problem_id = 3
 problem_end
 problem_start
