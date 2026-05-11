@@ -728,19 +728,12 @@ expression with positive exponents only.
       </exercise>
 
     <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
-          <p>
-      Note: ......
-    </p>
      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" />
     </exercise>
 
    <exercise><title>Divide two rational expressions - FROM WEBWORK</title>
      <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" />
       </exercise>
-
-<p>
-Adding and subtracting fractions:
-</p>
 
    <exercise><title>Add two rational expressions - FROM WEBWORK</title>
    <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
