@@ -657,53 +657,94 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
       </example>
   </subsection>
 
-  <exercises><title>Exercises</title>
+  <exercises><title>Recommended Exercises</title>
+    <p>
+      For students who want a focused review of the topic, we recommend working on these exercises. 
+      If you find that you want even more practice, there are additional exercises below. 
+      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
+    </p>
 
     <p>
-      Note: In all exercises, assume that any factor you cancel is not zero (as in Example <xref ref="ex-complex3"/>).
+      Note: In all exercises, assume that any factor you cancel is not zero (as in <xref ref="ex-complex3"/>). Answers should be expressed as a rational
+expression with positive exponents only. For example, instead of entering <m>3(x+5)^{-2}</m>, enter <m>\frac{3}{(x+5)^2}</m> (even tough they are equivalent).
     </p>
-    
-      <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
-      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" />
-      </exercise>
 
-      <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+      <exercise><title>Simplify a rational expression - FROM WEBWORK</title> 
       <webwork source="Library/ma117DB/set1b/srw1_4_7.pg" />
       </exercise>
-
-
-    <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
-     <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" />
-    </exercise>
 
     <exercise><title>Multiply two rational expressions - FROM WEBWORK</title>
      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_18.pg" />
        </exercise>
 
-    <exercise><title>Multiply two rational expressions - FROM WEBWORK</title>
+  <exercise><title>Multiply two rational expressions - FROM WEBWORK</title>
       <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" />
       </exercise>
 
+ <exercise><title>Divide two rational expressions - FROM WEBWORK</title>
+  <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" />
+      </exercise>
+
+       <exercise><title>Subtract two rational expressions - FROM WEBWORK</title>
+     <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" />
+      </exercise>
+    
+ 
+   <exercise><title>Add and subtract rational expressions - FROM WEBWORK</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" />
+      </exercise>
+
+
+   <exercise><title>Multiply and divide rational expressions - FROM WEBWORK</title>
+       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" />
+      </exercise>
+
+   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
+      <webwork source="Library/ma117DB/set1b/srw1_4_41.pg" />
+      </exercise>
+
+   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" />
+      </exercise>
+
+   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
+      <webwork source="Library/ma117DB/set1b/srw1_4_45.pg" />
+      </exercise>
+
+ </exercises>
+
+ <exercises xml:id="sec-alg-exercises"><title>Additional Exercises</title>
+  <p>
+For students who want even more problems to practice, here are some additional exercises. 
+  </p>
+
+    <p>
+      Note: In all exercises, assume that any factor you cancel is not zero (as in <xref ref="ex-complex3"/>). Answers should be expressed as a rational
+expression with positive exponents only.
+    </p>
+
+      <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg" />
+      </exercise>
+
+    <exercise><title>Simplify a rational expression - FROM WEBWORK</title>
+          <p>
+      Note: ......
+    </p>
+     <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_20.pg" />
+    </exercise>
 
    <exercise><title>Divide two rational expressions - FROM WEBWORK</title>
      <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" />
       </exercise>
 
-
-
-   <exercise><title>Divide two rational expressions - FROM WEBWORK</title>
-  <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" />
-      </exercise>
-
-        <p>
+<p>
 Adding and subtracting fractions:
-  </p>
+</p>
 
    <exercise><title>Add two rational expressions - FROM WEBWORK</title>
    <webwork source="Library/MC/PreAlgebra/setPreAlgebraC05S03/AddingFractions03.pg"/>
       </exercise>
-
-
 
    <exercise><title>Add two rational expressions - FROM WEBWORK</title>
      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" />
@@ -713,7 +754,6 @@ Adding and subtracting fractions:
       <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_55-56.pg" />
        </exercise>
 
-
     <exercise><title>Add two rational expressions - FROM WEBWORK</title>
      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" />
       </exercise>
@@ -722,9 +762,13 @@ Adding and subtracting fractions:
        <webwork source="Library/ma117DB/set1b/srw1_4_27.pg" />
         </exercise>
 
-   <exercise><title>Subtract two rational expressions - FROM WEBWORK</title>
-     <webwork source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" />
-      </exercise>
+  
+
+
+
+
+
+
 
    <exercise><title>Subtract two rational expressions - FROM WEBWORK</title>
       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" />
@@ -742,33 +786,14 @@ Adding and subtracting fractions:
       <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" />
        </exercise>
 
-   <exercise><title>Add and subtract rational expressions - FROM WEBWORK</title>
-      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" />
-      </exercise>
 
-   <exercise><title>Multiply and divide rational expressions - FROM WEBWORK</title>
-       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_48.pg" />
-      </exercise>
+
 
    <exercise><title>Add three rational expressions - FROM WEBWORK</title>
       <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" />
       </exercise>
 
-  <p>
-Complex fractions:
-  </p>
 
-   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
-      <webwork source="Library/ma117DB/set1b/srw1_4_41.pg" />
-      </exercise>
-
-   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
-      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_60.pg" />
-      </exercise>
-
-   <exercise><title>Simplify a complex rational expression - FROM WEBWORK</title>
-      <webwork source="Library/ma117DB/set1b/srw1_4_45.pg" />
-      </exercise>
 
 
 <!--
@@ -974,6 +999,7 @@ Complex fractions:
     </exercise>
 
 -->
+
 
   </exercises>
 </section>
