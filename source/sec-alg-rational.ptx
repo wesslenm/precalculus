@@ -755,14 +755,6 @@ expression with positive exponents only.
        <webwork source="Library/ma117DB/set1b/srw1_4_27.pg" />
         </exercise>
 
-  
-
-
-
-
-
-
-
    <exercise><title>Subtract two rational expressions - FROM WEBWORK</title>
       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_14.pg" />
        </exercise>
@@ -778,9 +770,6 @@ expression with positive exponents only.
    <exercise><title>Subtract a rational expression from an integer - FROM WEBWORK</title>
       <webwork source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" />
        </exercise>
-
-
-
 
    <exercise><title>Add three rational expressions - FROM WEBWORK</title>
       <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" />
