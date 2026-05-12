@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-func-dividing" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Dividing polynomials</title>
+  <title>Dividing Polynomials</title>
 
   <objectives>
     <ul>
@@ -17,7 +17,7 @@
       </li>
       <li>
         <p>
-          Validate results (check answer).  
+          Validate results of polynomial division.  
         </p>
       </li>
     </ul>
@@ -25,18 +25,23 @@
    
   <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      Some specific examples of where long division of polynomials is used are:
+      Throughout our study of calculus, long division of polynomials can be useful when:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          Long division of polynomials can be useful when looking for certain types of asymptotes, which is important in graph sketching. 
+          Looking for certain types of asymptotes, which is important in graph sketching,
         </p>
       </li>
       <li>
         <p>
-          Long division of polynomials can be useful when factoring polynomials, for example when using the integration technique `partial fractions'. 
+          Polynomials or rational expressions need to be expressed in equivalent ways, such as during an integration technique called Partial Fractions,
+        </p>
+      </li>
+            <li>
+        <p>
+          Finding the anti-derivative of a rational function whose numerator is larger in degree than its denominator, again during an integration technique called Partial Fractions.
         </p>
       </li>
     </ul>
@@ -45,13 +50,15 @@
 
   <introduction>
     <p>    
-You may remember long division of large numbers, for example 5781 divided by 25. In this section we review how the technique of long division can be used to divide a polynomial by another polynomial. 
+You may remember long division of large numbers, such as 5781 divided by 25. 
+In this section, we review how the technique of long division can be used to divide a polynomial by another polynomial of equal or lesser degree. 
     </p>
   </introduction>
 
 <subsection><title>Notation</title>
   <p> 
-   Suppose we want to divide the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>. (We will actually do this later in <xref ref="longdiv1" />.) The notation we will use is as follows:
+   Suppose we want to divide the polynomial <m>(2x^3-7x^2+2x+7)</m> by <m>(2x+1)</m>. (We will actually do this later in <xref ref="longdiv1" />.) 
+   The notation we will use is as follows:
   </p>
 <tabular halign="right">
     <row>
@@ -82,7 +89,8 @@ You may remember long division of large numbers, for example 5781 divided by 25.
     </row>
   </tabular>
   <p> 
-  If dividing the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>, then <m>2x^3-7x^2+2x+7</m> is called the <term> dividend </term> and <m>2x+1</m> is called the <term> divisor </term>. The answer to the division is called the <term> quotient </term>. When done, the quotient will appear at the top of the long division: 
+  If dividing the polynomial <m>(2x^3-7x^2+2x+7)</m> by <m>(2x+1)</m>, then <m>2x^3-7x^2+2x+7</m> is called the <term> dividend </term> and <m>2x+1</m> is called the <term> divisor </term>. 
+  The answer to the division is called the <term> quotient </term>. In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:
   </p>
 <tabular halign="right">
     <row>
@@ -99,13 +107,14 @@ You may remember long division of large numbers, for example 5781 divided by 25.
   </tabular>
 
   <p> 
-  Sometimes there is a <term> remainder </term> if the dividend is not evenly divided by the divisor. For an example see <xref ref="longdiv1" />. 
+  Sometimes there is a <term> remainder </term> if the dividend is not evenly divided by the divisor. For an example, see <xref ref="longdiv1" />. 
   </p>
   </subsection>
 
-  <subsection><title>Long division of polynomials</title>
+  <subsection><title>Long Division of Polynomials</title>
   <p> 
-    Let's start with a small example. Let's divide <m>x^2+5x+6</m> by <m>x+3</m>. (You may be able to easily find out the answer by factoring <m>x^2+5x+6</m>, but instead let's practice long division on this simple example.)
+    Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. 
+    Let's start with a small example. Let's divide <m>(x^2+5x+6)</m> by <m>(x+3)</m>. (You may be able to easily find out the answer by factoring <m>x^2+5x+6</m>, but instead let's practice long division on this simple example.)
   </p>
 
 <example xml:id="longdiv2"><title>Polynomial long division</title>
@@ -160,7 +169,7 @@ You may remember long division of large numbers, for example 5781 divided by 25.
   Question: <m>x</m> times what gives <m>x^2 </m>?
 </p>
 <p>
-  Answer: <m>x</m>. So write <m>x</m> at the top.  (<m>x</m> will be part of the final answer.)
+  Answer: <m>x</m>. So write <m>x</m> at the top.  (<m>x</m> will be part of the quotient.)
 </p>
 
 <tabular halign="right">
@@ -500,8 +509,6 @@ You may remember long division of large numbers, for example 5781 divided by 25.
 </solution> 
 </example>
 
-
-
 <p>
   If the last step in the long division is not zero, we say that there is a remainder. 
 </p>
@@ -510,15 +517,13 @@ When a polynomial <m>f(x)</m> is divided by a polynomial <m>g(x)</m>, with quoti
 </p>
 
 <men xml:id="long-result">
-  \frac{f(x)}{g(x)} = q(x) + \frac{r(x)}{d(x)}
+  \frac{f(x)}{g(x)} = q(x) + \frac{r(x)}{g(x)}
 </men>
-
-
 
 <example xml:id="longdiv5"><title>Interpreting the result</title>
     <statement>
        <p> 
-        Suppose Nika has used long division to divide <m>6x^2 -23x + 9</m> by <m>3x-1</m>. Nika found that the quotient is <m>2x-7</m> and the remainder is <m>2</m>. Write the result in the format of <xref ref="long-result" />. 
+        Suppose Nika has used long division to divide <m>(6x^2 -23x + 9)</m> by <m>(3x-1)</m>. Nika found that the quotient is <m>2x-7</m> and the remainder is <m>2</m>. Write the result in the format of <xref ref="long-result" />. 
   </p>
     </statement>
     <answer>
@@ -532,7 +537,7 @@ When a polynomial <m>f(x)</m> is divided by a polynomial <m>g(x)</m>, with quoti
 <p>
   The format in <xref ref="long-result" /> is
   <me>
-  \frac{f(x)}{g(x)} = q(x) + \frac{r(x)}{d(x)}
+  \frac{f(x)}{g(x)} = q(x) + \frac{r(x)}{g(x)}
 </me>
 In this example we have:
 <me>
@@ -557,7 +562,6 @@ Therefore the result can be stated as:
  </solution>
  </example>
 
-
 <exercise><title>Interpreting the result - HOMEMADE</title>
     <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
@@ -573,12 +577,15 @@ Therefore the result can be stated as:
        </pg-code>
       <statement>
 <p> 
-    (Not randomizable) Suppose you have used long division to divide the polynomial <m>7x^2 -3x + 5</m> by <m>x+1</m>. Suppose you found that the remainder is <m>15</m> and the quotient  is <m>7x-10</m>. Write the result in the format of <xref ref="long-result" />. 
+    (Not randomizable) Suppose you have used long division to divide the polynomial <m>(7x^2 -3x + 5)</m> by <m>(x+1)</m>. Suppose you found that the remainder is <m>15</m> and the quotient  is <m>7x-10</m>. Write the result in the format of <xref ref="long-result" />. 
   </p>
            <p> 
             <var name="$f" width="10"/> /
             <var name="$g" width="10"/> = <var name="$quot" width="10"/> + <var name="$remainder" width="10"/> / <var name="$g" width="10"/>
-            </p>    
+            </p>   
+    <p> 
+     Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
+    </p>          
       </statement>
     </webwork>
   </exercise>
@@ -589,7 +596,7 @@ Therefore the result can be stated as:
 <example xml:id="longdiv1"><title>Polynomial long division with remainder</title>
     <statement>
        <p> 
-   Use long division to divide the polynomial <m>2x^3-7x^2+2x+7</m> by <m>2x+1</m>. Find the quotient and the remainder (if there is one). 
+   Use long division to divide the polynomial <m>(2x^3-7x^2+2x+7)</m> by <m>(2x+1)</m>. Find the quotient and the remainder (if there is one). 
   </p>
     </statement>
     <answer>
@@ -720,7 +727,7 @@ Therefore the result can be stated as:
       </solution>
     <solution>
   <p>
- This is a detailed solution with the steps outlined. Let's follow a similar procedure to above.   
+ This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.   
 </p>
 <p>
  Step 1. Setup:
@@ -847,8 +854,6 @@ Therefore the result can be stated as:
 </p>
 <p>
   Subtract <m>2x^3+x^2</m>. 
-</p>
-<p>
   And bring down the next term: <m>2x</m>.
 </p>
 
@@ -962,8 +967,6 @@ Therefore the result can be stated as:
       <cell><m>2x</m></cell>
     </row>
   </tabular>
-
-
 <p>
   Step 6. 
 </p>
@@ -971,7 +974,7 @@ Therefore the result can be stated as:
   Multiply <m>-4x</m> by <m>2x+1 </m>. 
 </p>
 <p>
-  <m>-4x(2x+1) = -8x^2-4x</m>. Write this under the last line. Make sure that like terms line up (place <m>x^2</m>-terms below <m>x^2</m>-terms etc.)
+  Note that <m>-4x(2x+1) = -8x^2-4x</m>. Write this under the last line. Make sure that like-terms line up (place <m>x^2</m>-terms below <m>x^2</m>-terms etc.)
 </p>
 
 <tabular halign="right">
@@ -1462,6 +1465,8 @@ Therefore the result can be stated as:
       <cell><m>-</m></cell>
       <cell right="medium"><m>1</m></cell>
       <cell><m>4x^3</m></cell>
+      <cell><m>+</m></cell>
+      <cell><m>0x^2</m></cell>
       <cell><m>-</m></cell>
       <cell><m>3x</m></cell>
       <cell><m>+</m></cell>
@@ -1473,6 +1478,8 @@ Therefore the result can be stated as:
       <cell />
       <cell />
       <cell bottom="minor"><m>-(4x^3</m></cell>
+      <cell bottom="minor"><m>+</m></cell>
+      <cell bottom="minor"><m>0x^2</m></cell>
       <cell bottom="minor"><m>-</m></cell>
       <cell bottom="minor"><m>4x)</m></cell>
     </row>
@@ -1481,6 +1488,8 @@ Therefore the result can be stated as:
       <cell />
       <cell />
       <cell />
+      <cell></cell>
+      <cell></cell>
       <cell></cell>
       <cell></cell>
       <cell><m>x</m></cell>
@@ -1563,13 +1572,12 @@ Therefore the result can be stated as:
     </webwork>
   </exercise>
 
-
     <aside>
     <p>
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Note: You may be able to do this without using long division. That's great, but also try answering the question by using long division. 
+      You may be able to do this without using long division. That's great, but you should also try answering the question by using long division (for practice). 
     </p>
   </aside>
 
@@ -1601,6 +1609,12 @@ Therefore the result can be stated as:
       </statement>
     </webwork>
   </exercise>
+<p>
+You may have heard of a technique called <term>synthetic division</term>. It is based onthe same technique and steps as described above, but used in a shorthand notation. 
+The synthetic division notation only applies when divising by a linear divisor of the form <m>(x-c)</m>. 
+If you would like to use synthetic division you can, but we will not go over it here. 
+</p>
+
  </subsection>
 
   <subsection><title>Additional Examples</title>
@@ -1613,7 +1627,7 @@ Therefore the result can be stated as:
 <example xml:id="longdiv3"><title>Polynomial long division with "missing" terms</title>
     <statement>
        <p> 
-   Use long division to divide the polynomial <m>3x^4+2x^3+x^2+4</m> by <m>x^2+1</m>. Find the quotient and the remainder (if there is one). 
+   Use long division to divide the polynomial <m>(3x^4+2x^3+x^2+4)</m> by <m>(x^2+1)</m>. Find the quotient and the remainder (if there is one). 
   </p>
     </statement>
     <answer>
@@ -1872,7 +1886,7 @@ Therefore the result can be stated as:
     <idx><h><webwork/></h><h>answer types</h></idx>
     <introduction>
       <p>
-       (Not randomizable) Lennie wants to use long division to divide <m>3x^2-2x-85</m> by <m>x+5</m>, in other words Lennie wants to simplify <m>\dfrac{3x^2-2x-85}{x+5}</m>. 
+       (Not randomizable) Lennie wants to use long division to divide <m>(3x^2-2x-85)</m> by <m>(x+5)</m>, in other words Lennie wants to simplify <m>\dfrac{3x^2-2x-85}{x+5}</m>. 
       </p>     
        <p>
        Lennie starts by setting up the problem like this:
@@ -2117,7 +2131,7 @@ Therefore the result can be stated as:
   </exercise>
 
 
-    <exercise><title>Interpreting results - HOMEMADE</title>    
+  <exercise><title>Interpreting results - HOMEMADE</title>    
         <introduction>
         <p>
          (Not randomizable) Suppose someone has written down the following long division. 
@@ -2235,11 +2249,14 @@ Therefore the result can be stated as:
             </li>  
           </ol>
         </p>
+      <p>
+          Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons. 
+      </p>
       </statement>
     </webwork>
   </exercise>
 
-    <exercise><title>Quotient and remainder, degree 3 - FROM WEBWORK</title> 
+  <exercise><title>Quotient and remainder, degree 3 - FROM WEBWORK</title> 
       <webwork source="Library/ASU-topics/setPolynomialDivision/jj3.pg" />
   </exercise>
 

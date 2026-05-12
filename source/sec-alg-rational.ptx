@@ -128,7 +128,7 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
       </example>
 
     <exercise><title>Common factor - FROM WEBWORK</title>
-      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" />
+         <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" />
     </exercise>
 
 <p>
