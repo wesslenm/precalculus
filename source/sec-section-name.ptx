@@ -95,11 +95,17 @@ A new term: <term>radical</term>
   </aside>
 
 
-    <p> 
-     Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
-    </p>     
+	<conclusion>
+    	<p> 
+     		Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
+    	</p>   
+	</conclusion>  
 
-
+		<conclusion>
+    	<p> 
+     		Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect. 
+    	</p>   
+	</conclusion>
 
 
   <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
