@@ -1,0 +1,74 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-13T02:27:11Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.25)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+Context("Numeric");
+$quotient = Formula("4x");
+Context("Numeric");
+$remainder = Formula("x+7");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  Then [`x^2-1`] is called the [_]{$popup}{5}.
+
+a.  Then [`4x^3-3x+7`] is called the [_]{$popup2}{5}.
+
+a.  The quotient is [_]{$quotient}{10}
+
+a.  The remainder is [_]{$remainder}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

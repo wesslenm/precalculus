@@ -172,27 +172,27 @@ var ptx_lunr_docs = [
   "body": "Subtracting rational expressions   Subtract the rational expressions and simplify the answer:        We need find a common denominator. We could use any common denominator. For example we could simply use but this means we need to expand these brackets and it would lead to high answers in the answer, which may be difficult to simplify. It is often more efficient to use the Least Common Decominator (LCD). To find the LCD, we first facor both denominators:    This means the LCD is   Next, multiply the first rational expression by and the second rational expression by so that both are on the same common denominator. Note that multiplying by is the same as multiplying by 1. It does not change the value of the expression, it just re-writes it in a different format.  . So the answer is It is ok to leave the answer in this format, or to expand the denominator (or factor the numerator if you prefer).   "
 },
 {
-  "id": "sec-alg-rational-7-7",
+  "id": "rational-add-7",
   "level": "2",
-  "url": "sec-alg-rational.html#sec-alg-rational-7-7",
+  "url": "sec-alg-rational.html#rational-add-7",
   "type": "Checkpoint",
   "number": "1.12",
   "title": "Subtract rational expressions - FROM WEBWORK.",
   "body": "Subtract rational expressions - FROM WEBWORK    Evaluate the following and express your answer as a single fraction.    You might want to do a preview before submitting your answer to be certain it has been entered correctly.   First you will need to get a common denominator by finding the least common multiple.  The common denominator is but you will need to put parenthesis around the denominator so that you divide it all.            "
 },
 {
-  "id": "sec-alg-rational-7-8",
+  "id": "rational-add-8",
   "level": "2",
-  "url": "sec-alg-rational.html#sec-alg-rational-7-8",
+  "url": "sec-alg-rational.html#rational-add-8",
   "type": "Checkpoint",
   "number": "1.13",
   "title": "Divide rational expressions - FROM WEBWORK.",
   "body": "Divide rational expressions - FROM WEBWORK    Find the least common denominator (LCD) of the rational expressions:  LCD:        The factors of the denominators are    Hence, the LCD is .       "
 },
 {
-  "id": "sec-alg-rational-7-9",
+  "id": "rational-add-9",
   "level": "2",
-  "url": "sec-alg-rational.html#sec-alg-rational-7-9",
+  "url": "sec-alg-rational.html#rational-add-9",
   "type": "Checkpoint",
   "number": "1.14",
   "title": "Find the least common denominator (LCD) - FROM WEBWORK.",
@@ -474,8 +474,8 @@ var ptx_lunr_docs = [
   "url": "sec-func-dividing.html",
   "type": "Section",
   "number": "1.2",
-  "title": "Dividing polynomials",
-  "body": " Dividing polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results (check answer).      Where will this be used in calculus?  Some specific examples of where long division of polynomials is used are:     Long division of polynomials can be useful when looking for certain types of asymptotes, which is important in graph sketching.    Long division of polynomials can be useful when factoring polynomials, for example when using the integration technique `partial fractions'.       You may remember long division of large numbers, for example 5781 divided by 25. In this section we review how the technique of long division can be used to divide a polynomial by another polynomial.    Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend and is called the divisor . The answer to the division is called the quotient . When done, the quotient will appear at the top of the long division:      quotient      divisor  dividend    Sometimes there is a remainder if the dividend is not evenly divided by the divisor. For an example see .    Long division of polynomials  Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)   Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the final answer.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:   Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:     Interpreting the result - HOMEMADE  WeBWorK answer types    Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/                                   Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure to above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract .  And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .   . Write this under the last line. Make sure that like terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4      Set-up and notation - HOMEMADE  WeBWorK answer types    Suppose someone has written down the following long division.                                                    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                                Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .   Long division with quadratic dividend - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Long division with cubic dividend - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:     Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                   Exercises  True or False - HOMEMADE  WeBWorK answer types    Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE  WeBWorK answer types   Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   divisor  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).                                Interpreting results - HOMEMADE  WeBWorK answer types    Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors                                     Interpreting results - HOMEMADE   Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?                                                                 Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
+  "title": "Dividing Polynomials",
+  "body": " Dividing Polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.     Where will this be used in calculus?  Throughout our study of calculus, long division of polynomials can be useful when:     Looking for certain types of asymptotes, which is important in graph sketching,    Polynomials or rational expressions need to be expressed in equivalent ways, such as during an integration technique called Partial Fractions,    Finding the anti-derivative of a rational function whose numerator is larger in degree than its denominator, again during an integration technique called Partial Fractions.       You may remember long division of large numbers, such as 5781 divided by 25. In this section, we review how the technique of long division can be used to divide a polynomial by another polynomial of equal or lesser degree.   Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend and is called the divisor . The answer to the division is called the quotient . In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:      quotient      divisor  dividend    Sometimes there is a remainder if the dividend is not evenly divided by the divisor. For an example, see .   Long Division of Polynomials  Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)  Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:   Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:     Interpreting the result - HOMEMADE  WeBWorK answer types    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                   Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4      Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .   Set-up and notation - HOMEMADE  WeBWorK answer types    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                              Long division with quadratic dividend - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Study tip:   You may be able to do this without using long division. That's great, but you should also try answering the question by using long division (for practice).   Long division with cubic dividend - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  You may have heard of a technique called synthetic division . It is based onthe same technique and steps as described above, but used in a shorthand notation. The synthetic division notation only applies when divising by a linear divisor of the form . If you would like to use synthetic division you can, but we will not go over it here.   Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:     Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                   Exercises  True or False - HOMEMADE  WeBWorK answer types    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE  WeBWorK answer types   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                   Interpreting results - HOMEMADE  WeBWorK answer types    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                 Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                     Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
 },
 {
   "id": "sec-func-dividing-2",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.2",
   "title": "",
-  "body": "   Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results (check answer).    "
+  "body": "   Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.    "
 },
 {
   "id": "sec-func-dividing-5-4",
@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.21",
   "title": "Polynomial long division.",
-  "body": " Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the final answer.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .    "
+  "body": "Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .    "
 },
 {
   "id": "longdiv5",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.23",
   "title": "Interpreting the result - HOMEMADE.",
-  "body": "Interpreting the result - HOMEMADE  WeBWorK answer types    Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/                                "
+  "body": "Interpreting the result - HOMEMADE  WeBWorK answer types    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                "
 },
 {
   "id": "longdiv1",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.24",
   "title": "Polynomial long division with remainder.",
-  "body": "Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure to above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract .  And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .   . Write this under the last line. Make sure that like terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4   "
+  "body": "Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4   "
 },
 {
   "id": "longdivex1",
@@ -547,16 +547,16 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.25",
   "title": "Set-up and notation - HOMEMADE.",
-  "body": "Set-up and notation - HOMEMADE  WeBWorK answer types    Suppose someone has written down the following long division.                                                    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                             "
+  "body": "Set-up and notation - HOMEMADE  WeBWorK answer types    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                             "
 },
 {
-  "id": "sec-func-dividing-6-14",
+  "id": "sec-func-dividing-6-13",
   "level": "2",
-  "url": "sec-func-dividing.html#sec-func-dividing-6-14",
+  "url": "sec-func-dividing.html#sec-func-dividing-6-13",
   "type": "Checkpoint",
   "number": "1.26",
   "title": "Long division with quadratic dividend - HOMEMADE.",
-  "body": "Long division with quadratic dividend - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
+  "body": "Long division with quadratic dividend - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
 {
   "id": "sec-func-dividing-6-15",
@@ -565,7 +565,16 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.27",
   "title": "Long division with cubic dividend - HOMEMADE.",
-  "body": "Long division with cubic dividend - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
+  "body": "Long division with cubic dividend - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
+},
+{
+  "id": "sec-func-dividing-6-16",
+  "level": "2",
+  "url": "sec-func-dividing.html#sec-func-dividing-6-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "synthetic division "
 },
 {
   "id": "longdiv3",
@@ -583,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.29",
   "title": "Polynomial long division with \"missing\" terms - HOMEMADE.",
-  "body": "Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
+  "body": "Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
 {
   "id": "sec-func-dividing-7-6",
@@ -592,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.30",
   "title": "Polynomial long division with \"missing\" terms - HOMEMADE.",
-  "body": "Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
+  "body": "Polynomial long division with \"missing\" terms - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
 },
 {
   "id": "sec-func-dividing-8-2",
@@ -601,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.4.1",
   "title": "True or False - HOMEMADE.",
-  "body": "True or False - HOMEMADE  WeBWorK answer types    Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                              "
+  "body": "True or False - HOMEMADE  WeBWorK answer types    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                              "
 },
 {
   "id": "sec-func-dividing-8-3",
@@ -610,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.4.2",
   "title": "Set-up - HOMEMADE.",
-  "body": "Set-up - HOMEMADE  WeBWorK answer types   Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   divisor  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).                               "
+  "body": "Set-up - HOMEMADE  WeBWorK answer types   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                  "
 },
 {
   "id": "sec-func-dividing-8-4",
@@ -619,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.4.3",
   "title": "Interpreting results - HOMEMADE.",
-  "body": "Interpreting results - HOMEMADE  WeBWorK answer types    Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors                                    "
+  "body": "Interpreting results - HOMEMADE  WeBWorK answer types    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                "
 },
 {
   "id": "sec-func-dividing-8-5",
@@ -628,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.4.4",
   "title": "Interpreting results - HOMEMADE.",
-  "body": "Interpreting results - HOMEMADE   Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?                                                                "
+  "body": "Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                    "
 },
 {
   "id": "sec-func-dividing-8-6",
@@ -673,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.4.9",
   "title": "Quotient and remainder, degree 5 - HOMEMADE.",
-  "body": "Quotient and remainder, degree 5 - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
+  "body": "Quotient and remainder, degree 5 - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
 {
   "id": "sec-func-dividing-8-11",
@@ -682,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.2.4.10",
   "title": "Specific result format - HOMEMADE.",
-  "body": "Specific result format - HOMEMADE  WeBWorK answer types    Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
+  "body": "Specific result format - HOMEMADE  WeBWorK answer types    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
 },
 {
   "id": "sec-exp-intro",
@@ -691,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Exponential Rules",
-  "body": " Exponential Rules     Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.     Where will this be used in calculus?  Rewriting and simplifying exponentials and radicals is usefully in most computational areas of mathematics, including calculus. Here are two specific calculus examples:   When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting as will make it easier to differentiate or integrate.    After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy complicated looking expression which needs to be simplified.        As an instroduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length , we would multiply by itself three times to get length times width times height. We can write . Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent . But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them.   The First Rules  The first exponent rule we will examine is   Here, the first term, tells us to multiply by itself times and the second term tells us to multiply it times. Together, that says we need to multiply a total of times, giving us . As an example, .  Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows         Note that is true for all real numbers and (they do not need to be integers), and all positive values of .  Next, let's look at   This rule builds off of our previous rule. If we have , rule tells us that we really have . We went from having multiplied 5 times to having multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division:   A negative exponent tells us we have division rather than multiplication.  A more general version of the rule is the following: We can see this from previous rules: Again, all of the above is true for all real numbers and , and all positive values of .  Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that         Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =             If there are several different base numbers we need to collect those with the same base, as in the following example.  Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:     Simplify - FROM WEBWORK    Simplify the expression:  =               Roots  Before we continue with more exponent rules, let's look at the inverse function, or how to ``undo'' an exponent. These are root functions. A square root ``undoes'' squaring and a cube root ``undoes'' cubing. In general, we have   and   (Both of the above are examples of rule , which we will look more at soon.)  Often, you will see written as . Mathematicians call the radical form and the exponential form. Both have the same meaning. Anytime you see , you can replace it with and vice versa. Even more generally, we have: which is true for all real numbers and , and all positive values of .  Sometimes it is useful to be able to simplify radicals or fractional exponents by hand. Let's take a look at how we can evaluate these types of terms.  Evaluate radicals  Evaluate without using a calculator.       As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite this as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor . If we use the second version, , we would start by finding the cube root of 8. When we factor, we get , which show us that . This gives us , so our final answer is     Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                               More exponential rules  The next rule we will discuss is     This rule builds directly off of our first rule as well. As a example when and are integers, tells us we need to multiply by itself times. Since multiplies by itself times, tells us to multiply by itself a total of times. For example,   We can also use this rule when there is a product or quotient inside the parentheses, but not if there is an addition or subtraction.      However,     Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and    Exponents and addition  Are and equal of different?  They are different. in general. We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.   Addition inside a bracket   Simpliy the expression .    To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.      Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                     Double exponents - FROM WEBWORK    Simplify the expression:  =             Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:               Summary  The rules we have just seen will all be quite handy in calculus (and many other fields of mathematics, of course). In both integral and differential calculus, we will have rules that work well when we have a power function (a function of the form ), but won't work for other forms of functions. By being able to rewrite functions like , in power function form ( in this case), other calculations will be simplified.  Our rules are summarized below.  Exponential Rules  The following are true for all positive numbers and , and any real numbers and :                                                            Notation  Suppose is any positive number , and and are integers, with . Then:             It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:  Common Errors  The following expressions are not equal, in general.         Additional Examples  Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that     Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is      Exercises  Check  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of .   Evaluate a rational expression - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                        Simplify a rational expression - FROM WEBWORK    Simplify the following expression.                Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .        Evaluate rational expressions - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify rational expressions - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify a rational expression - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).             Simplify a rational expression - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Multiply rational expressions - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                   Multiply rational expressions - FROM WEBWORK    Simplify the expression:  =               Multiply and divide rational expressions - FROM WEBWORK    Simplify the expression:  =             Simplify a rational expression - FROM WEBWORK    Simplify the numerical expression .  Answer:  Note:  You cannot use any operations except negation (-).             Simplify a rational expression - FROM WEBWORK  Note: A monomial is a term of the form for some constants and .    Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                   Simplify a rational expression - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                   Simplify a rational expression - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Simplify a rational expression - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                        Simplify a rational expression - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.               Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,        Add and subtract a rational expression - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =             Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                        Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .        Simplify a rational expression - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows         23. The rest do not seem to render properly...     9.        "
+  "body": " Exponential Rules     Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.     Where will this be used in calculus?  Rewriting and simplifying exponentials and radicals is useful in most computational areas of mathematics, including calculus. Here are two specific calculus examples:   When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting as will make it easier to differentiate or integrate.    After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy, complicated-looking expression which needs to be simplified.        As an introduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length , we would multiply by itself three times to get length times width times height. We can write . Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent . But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them.   The First Rules  The first exponent rule we will examine is:   Here, the first term, tells us to multiply by itself times and the second term tells us to multiply it times. Together, that says we need to multiply a total of times, giving us . As an example, .  Note that is true for all positive values of and all real numbers and (they do not need to be integers).  Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows         Next, let's look at negative exponents:   This rule builds off of our previous rule. If we have , rule tells us that we really have . We went from having multiplied 5 times to having multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division:   A negative exponent indicates division rather than multiplication.  A more general version of the rule is the following: which is true for all real numbers and , and all positive values of . We can see this from previous rules:   Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that         Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =             If there are several different base numbers, we need to collect those with the same base, as in the following example.  Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:     Simplify - FROM WEBWORK    Simplify the expression:  =             Note: Write your answer using only positive exponents.      Roots\/Radicals  Before we continue with more exponent rules, let's look at the inverse function, or how to ``undo'' an exponent. These are called root functions. A square root, for example, ``reverses'' squaring and a cube root ``reverses'' cubing. In general, we have   and   (Both of the above are examples of rule , which we will look more at soon.)  Often, you will see written as . Mathematicians call the radical form and the exponential form. Both have the same meaning. Anytime you see , you can replace it with and vice versa. Even more generally, we have: which is true for all real numbers and , and all positive values of .  Sometimes, it is useful to be able to simplify radicals or rational exponents by hand. Let's take a look at how we can evaluate these types of terms.  Evaluate radicals  Evaluate without using a calculator.        As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor .  If we use the second version, we would start by finding the cube root of 8. When we factor, we get , which shows us that . This means that so our final answer is     Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.    Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.      More Exponential Rules  The next rule we will discuss is     This rule builds directly off of our first rule as well. When and are integers, tells us we need to multiply by itself times. Since multiplies by itself times, tells us to multiply by itself a total of times. For example,   We can also use this rule when there is a product or quotient inside the parentheses, but not if there is addition or subtraction. If and , then:      However,     Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and    Exponents and addition  Are and equal or different?   They are different. In general: We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.    Addition inside a bracket   Simpliy the expression .      To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.      Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                     Double exponents - FROM WEBWORK    Simplify the expression:  =             Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.      Summary  The rules we have just seen will all be quite handy in calculus (and many other fields of mathematics, of course). In both integral and differential calculus, we will have rules that work well when we have a power function (a function of the form ), but won't work for other forms of functions. By being able to rewrite functions like , in power function form ( in this case), other calculations will be simplified.  Our rules are summarized below.  Exponential Rules  The following are true for all positive numbers and , and any real numbers and :                                                            Notation  Suppose is any positive number , and and are integers, with . Then:             It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:  Common Errors  The following expressions are not equal, in general.         Additional Examples  Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that     Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is      Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                        Evaluate - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify - FROM WEBWORK    Simplify the following expression.                  Study tip:   If you want to review working with fractions, see .   Simplify - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .        Multiply and divide - FROM WEBWORK    Simplify the expression:  =             Note: Your answer should not include any negative exponents.    Simplify - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.               Simplify - FROM WEBWORK   Note: A monomial is a term of the form for some constants and .     Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                   Simplify - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Simplify - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,        Simplify - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows          Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  Common errors  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal (similar to what we did in the solution of ).   Simplify - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).             Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .        Add and subtract - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =             Multiply - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                   Multiply - FROM WEBWORK    Simplify the expression:  =               Your answer should include no negative exponents.     Simplify - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                   Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                        Simplify - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                            "
 },
 {
   "id": "sec-exp-intro-2",
@@ -754,7 +763,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.6",
   "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the expression:  =            "
+  "body": "Simplify - FROM WEBWORK    Simplify the expression:  =             Note: Write your answer using only positive exponents.   "
 },
 {
   "id": "sec-exp-intro-6-7",
@@ -772,7 +781,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.7",
   "title": "Evaluate radicals.",
-  "body": "Evaluate radicals  Evaluate without using a calculator.       As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite this as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor . If we use the second version, , we would start by finding the cube root of 8. When we factor, we get , which show us that . This gives us , so our final answer is    "
+  "body": "Evaluate radicals  Evaluate without using a calculator.        As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor .  If we use the second version, we would start by finding the cube root of 8. When we factor, we get , which shows us that . This means that so our final answer is    "
 },
 {
   "id": "ex-exp-root",
@@ -790,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.9",
   "title": "Multiply radicals - FROM WEBWORK.",
-  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                  "
+  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.   "
 },
 {
   "id": "ex-exp-root3",
@@ -799,7 +808,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.10",
   "title": "Multiply radicals - FROM WEBWORK.",
-  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
+  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.   "
 },
 {
   "id": "sec-exp-intro-7-7",
@@ -817,7 +826,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.12",
   "title": "Exponents and addition.",
-  "body": "Exponents and addition  Are and equal of different?  They are different. in general. We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.  "
+  "body": "Exponents and addition  Are and equal or different?   They are different. In general: We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.   "
 },
 {
   "id": "sec-exp-intro-7-9",
@@ -826,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.13",
   "title": "Addition inside a bracket.",
-  "body": "Addition inside a bracket   Simpliy the expression .    To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.     "
+  "body": "Addition inside a bracket   Simpliy the expression .      To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.     "
 },
 {
   "id": "ex-exp-radical2",
@@ -835,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.14",
   "title": "Simplify radicals - FROM WEBWORK.",
-  "body": "Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =            "
+  "body": "Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.   "
 },
 {
   "id": "sec-exp-intro-7-11",
@@ -862,7 +871,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "2.17",
   "title": "Addition inside a bracket - FROM WEBWORK.",
-  "body": "Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:            "
+  "body": "Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.   "
 },
 {
   "id": "sec-exp-intro-9-4",
@@ -883,202 +892,193 @@ var ptx_lunr_docs = [
   "body": "Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is    "
 },
 {
-  "id": "sec-exp-intro-10-2",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-2",
-  "type": "Exercise",
-  "number": "2.1.6.1",
-  "title": "Check.",
-  "body": "Check  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal, similar to the solution of .  "
-},
-{
   "id": "sec-exp-intro-10-3",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-3",
   "type": "Exercise",
-  "number": "2.1.6.2",
-  "title": "Evaluate a rational expression - FROM WEBWORK.",
-  "body": "Evaluate a rational expression - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                       "
+  "number": "2.1.6.1",
+  "title": "Evaluate - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                       "
 },
 {
   "id": "sec-exp-intro-10-4",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-4",
   "type": "Exercise",
-  "number": "2.1.6.3",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the following expression.               "
+  "number": "2.1.6.2",
+  "title": "Evaluate - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
 },
 {
   "id": "sec-exp-intro-10-5",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-5",
   "type": "Exercise",
-  "number": "2.1.6.4",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .       "
-},
-{
-  "id": "sec-exp-intro-10-6",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-6",
-  "type": "Exercise",
-  "number": "2.1.6.5",
-  "title": "Evaluate rational expressions - FROM WEBWORK.",
-  "body": "Evaluate rational expressions - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+  "number": "2.1.6.3",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the following expression.               "
 },
 {
   "id": "sec-exp-intro-10-7",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-7",
   "type": "Exercise",
-  "number": "2.1.6.6",
-  "title": "Simplify rational expressions - FROM WEBWORK.",
-  "body": "Simplify rational expressions - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+  "number": "2.1.6.4",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .       "
 },
 {
   "id": "sec-exp-intro-10-8",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-8",
   "type": "Exercise",
-  "number": "2.1.6.7",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).            "
+  "number": "2.1.6.5",
+  "title": "Multiply and divide - FROM WEBWORK.",
+  "body": "Multiply and divide - FROM WEBWORK    Simplify the expression:  =             Note: Your answer should not include any negative exponents.   "
 },
 {
   "id": "sec-exp-intro-10-9",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-9",
   "type": "Exercise",
-  "number": "2.1.6.8",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
+  "number": "2.1.6.6",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.              "
 },
 {
   "id": "sec-exp-intro-10-10",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-10",
   "type": "Exercise",
-  "number": "2.1.6.9",
-  "title": "Multiply rational expressions - FROM WEBWORK.",
-  "body": "Multiply rational expressions - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                  "
+  "number": "2.1.6.7",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK   Note: A monomial is a term of the form for some constants and .     Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                  "
 },
 {
   "id": "sec-exp-intro-10-11",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-11",
   "type": "Exercise",
-  "number": "2.1.6.10",
-  "title": "Multiply rational expressions - FROM WEBWORK.",
-  "body": "Multiply rational expressions - FROM WEBWORK    Simplify the expression:  =              "
+  "number": "2.1.6.8",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
 },
 {
   "id": "sec-exp-intro-10-12",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-12",
   "type": "Exercise",
-  "number": "2.1.6.11",
-  "title": "Multiply and divide rational expressions - FROM WEBWORK.",
-  "body": "Multiply and divide rational expressions - FROM WEBWORK    Simplify the expression:  =            "
+  "number": "2.1.6.9",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,       "
 },
 {
   "id": "sec-exp-intro-10-13",
   "level": "2",
   "url": "sec-exp-intro.html#sec-exp-intro-10-13",
   "type": "Exercise",
-  "number": "2.1.6.12",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the numerical expression .  Answer:  Note:  You cannot use any operations except negation (-).            "
+  "number": "2.1.6.10",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows        "
 },
 {
-  "id": "sec-exp-intro-10-14",
+  "id": "exp-additional-3",
   "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-14",
+  "url": "sec-exp-intro.html#exp-additional-3",
   "type": "Exercise",
-  "number": "2.1.6.13",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK  Note: A monomial is a term of the form for some constants and .    Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                  "
+  "number": "2.1.7.1",
+  "title": "Common errors.",
+  "body": "Common errors  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal (similar to what we did in the solution of ).  "
 },
 {
-  "id": "sec-exp-intro-10-15",
+  "id": "exp-additional-4",
   "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-15",
+  "url": "sec-exp-intro.html#exp-additional-4",
   "type": "Exercise",
-  "number": "2.1.6.14",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                  "
+  "number": "2.1.7.2",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
 },
 {
-  "id": "sec-exp-intro-10-16",
+  "id": "exp-additional-5",
   "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-16",
+  "url": "sec-exp-intro.html#exp-additional-5",
   "type": "Exercise",
-  "number": "2.1.6.15",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
+  "number": "2.1.7.3",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).            "
 },
 {
-  "id": "sec-exp-intro-10-17",
+  "id": "exp-additional-6",
   "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-17",
+  "url": "sec-exp-intro.html#exp-additional-6",
   "type": "Exercise",
-  "number": "2.1.6.16",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                       "
+  "number": "2.1.7.4",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
 },
 {
-  "id": "sec-exp-intro-10-18",
+  "id": "exp-additional-7",
   "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-18",
+  "url": "sec-exp-intro.html#exp-additional-7",
   "type": "Exercise",
-  "number": "2.1.6.17",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.              "
-},
-{
-  "id": "sec-exp-intro-10-19",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-19",
-  "type": "Exercise",
-  "number": "2.1.6.18",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,       "
-},
-{
-  "id": "sec-exp-intro-10-20",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-20",
-  "type": "Exercise",
-  "number": "2.1.6.19",
-  "title": "Add and subtract a rational expression - FROM WEBWORK.",
-  "body": "Add and subtract a rational expression - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =            "
-},
-{
-  "id": "sec-exp-intro-10-21",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-21",
-  "type": "Exercise",
-  "number": "2.1.6.20",
-  "title": "Simplest radical form - FROM WEBWORK.",
-  "body": "Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                       "
-},
-{
-  "id": "sec-exp-intro-10-22",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-22",
-  "type": "Exercise",
-  "number": "2.1.6.21",
+  "number": "2.1.7.5",
   "title": "Solve - FROM WEBWORK.",
   "body": "Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .       "
 },
 {
-  "id": "sec-exp-intro-10-23",
+  "id": "exp-additional-8",
   "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-23",
+  "url": "sec-exp-intro.html#exp-additional-8",
   "type": "Exercise",
-  "number": "2.1.6.22",
-  "title": "Simplify a rational expression - FROM WEBWORK.",
-  "body": "Simplify a rational expression - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows        "
+  "number": "2.1.7.6",
+  "title": "Add and subtract - FROM WEBWORK.",
+  "body": "Add and subtract - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =            "
+},
+{
+  "id": "exp-additional-9",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-9",
+  "type": "Exercise",
+  "number": "2.1.7.7",
+  "title": "Multiply - FROM WEBWORK.",
+  "body": "Multiply - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                  "
+},
+{
+  "id": "exp-additional-10",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-10",
+  "type": "Exercise",
+  "number": "2.1.7.8",
+  "title": "Multiply - FROM WEBWORK.",
+  "body": "Multiply - FROM WEBWORK    Simplify the expression:  =               Your answer should include no negative exponents.   "
+},
+{
+  "id": "exp-additional-11",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-11",
+  "type": "Exercise",
+  "number": "2.1.7.9",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                  "
+},
+{
+  "id": "exp-additional-12",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-12",
+  "type": "Exercise",
+  "number": "2.1.7.10",
+  "title": "Simplest radical form - FROM WEBWORK.",
+  "body": "Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                       "
+},
+{
+  "id": "exp-additional-13",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-13",
+  "type": "Exercise",
+  "number": "2.1.7.11",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                       "
 },
 {
   "id": "sec-exp-functions",
@@ -1492,7 +1492,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Trigonometric graphs",
-  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic , which means that they repeat after a certain interval, called the period . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - MISSING INSTRUCTIONS, NEED TO FIX  Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   A    E    C    Choose    D    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph B .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 1.        "
+  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic , which means that they repeat after a certain interval, called the period . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - MISSING INSTRUCTIONS, NEED TO FIX  Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 8 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 9 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   A    E    C    D    Choose    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph B .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 1.        "
 },
 {
   "id": "sec-trig-graphs-2",
@@ -1744,7 +1744,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.6",
   "title": "Find the function - FROM WEBWORK.",
-  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
+  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
 },
 {
   "id": "sec-trig-graphs-8-8",
@@ -1762,7 +1762,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.8",
   "title": "Find the shifts - FROM WEBWORK.",
-  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 8 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-8-10",
@@ -1771,7 +1771,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.9",
   "title": "Find the shift - FROM WEBWORK.",
-  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 9 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-8-11",
@@ -1780,7 +1780,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.10",
   "title": "Sketch the graph - FROM WEBWORK.",
-  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   A    E    C    Choose    D    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph B .      "
+  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   A    E    C    D    Choose    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph B .      "
 },
 {
   "id": "sec-trig-graphs-8-12",
@@ -2347,7 +2347,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Random trial chapter",
-  "body": " Random trial chapter  For testing things out.... Also for keeping samples of types of code, for easy copy\/pasting.   RNA Codons Table, by Florian Hollandt   A test diagram using TikZ.      Special triangle  Special triangle   Special triangle.   Right angled triangle. The length of hypothenuse is . The length of both other sides are .      A MyOpenMath problem     Cross-reference: See for ... Note: The word \"example\" or \"Checkpoint\" etc. is included automatically, so do not type it up. A new term: radical \\amp \"and\" \\lt \"less than\" \\gt \"greater than\"  Description of example   ....                 Study tip:   Notes here.....        Use the properties of exponents to simplify the following          We add the exponents as follows            Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Find a formula for the inverse of the function  Answer:                              Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .                 PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students\/4-General_test_chapter\/4_1-Random_trial_chapter\/4_11.pg with seed 185 is either empty or failed to compile Use -a to halt with full PG and returned content       Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Referencing an assemblage or similar: such as those listed in . This gives the title of the assemblage. Can also try text=\"custom\".   A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F      Answer Type Variety  WeBWorK answer types   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                    "
+  "body": " Random trial chapter  For testing things out.... Also for keeping samples of types of code, for easy copy\/pasting.   RNA Codons Table, by Florian Hollandt   A test diagram using TikZ.      Special triangle  Special triangle   Special triangle.   Right angled triangle. The length of hypothenuse is . The length of both other sides are .      A MyOpenMath problem     Cross-reference: See for ... Note: The word \"example\" or \"Checkpoint\" etc. is included automatically, so do not type it up. A new term: radical \\amp \"and\" \\lt \"less than\" \\gt \"greater than\"  Description of example   ....                 Study tip:   Notes here.....    Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.        Use the properties of exponents to simplify the following          We add the exponents as follows            Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Find a formula for the inverse of the function  Answer:                              Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .                 PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students\/4-General_test_chapter\/4_1-Random_trial_chapter\/4_11.pg with seed 182 is either empty or failed to compile Use -a to halt with full PG and returned content       Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Referencing an assemblage or similar: such as those listed in . This gives the title of the assemblage. Can also try text=\"custom\".   A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F      Answer Type Variety  WeBWorK answer types   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                    "
 },
 {
   "id": "sec-section-name-3",
@@ -2431,54 +2431,54 @@ var ptx_lunr_docs = [
   "body": "   Find a formula for the inverse of the function  Answer:             "
 },
 {
-  "id": "sec-section-name-14",
+  "id": "sec-section-name-16",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-14",
+  "url": "sec-section-name.html#sec-section-name-16",
   "type": "Checkpoint",
   "number": "4.9",
   "title": "",
   "body": "              "
 },
 {
-  "id": "sec-section-name-15",
+  "id": "sec-section-name-17",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-15",
+  "url": "sec-section-name.html#sec-section-name-17",
   "type": "Checkpoint",
   "number": "4.10",
   "title": "Simplifying.",
   "body": " Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .            "
 },
 {
-  "id": "sec-section-name-16",
+  "id": "sec-section-name-18",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-16",
+  "url": "sec-section-name.html#sec-section-name-18",
   "type": "Checkpoint",
   "number": "4.11",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students\/4-General_test_chapter\/4_1-Random_trial_chapter\/4_11.pg with seed 185 is either empty or failed to compile Use -a to halt with full PG and returned content     "
+  "body": "    PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students\/4-General_test_chapter\/4_1-Random_trial_chapter\/4_11.pg with seed 182 is either empty or failed to compile Use -a to halt with full PG and returned content     "
 },
 {
-  "id": "sec-section-name-17",
+  "id": "sec-section-name-19",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-17",
+  "url": "sec-section-name.html#sec-section-name-19",
   "type": "Checkpoint",
   "number": "4.12",
   "title": "Answer does not accept rounded numbers.",
   "body": " Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      "
 },
 {
-  "id": "sec-section-name-19",
+  "id": "sec-section-name-21",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-19",
+  "url": "sec-section-name.html#sec-section-name-21",
   "type": "Table",
   "number": "4.13",
   "title": "A simple table",
   "body": " A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F    "
 },
 {
-  "id": "sec-section-name-20",
+  "id": "sec-section-name-22",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-20",
+  "url": "sec-section-name.html#sec-section-name-22",
   "type": "Checkpoint",
   "number": "4.14",
   "title": "Answer Type Variety.",

@@ -740,8 +740,9 @@ There may be more than one correct answer.</p>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-37" ww-id="webwork-37">
     <static seed="37">
-      <statement><p>Suppose you have used long division to divide the polynomial <m>7x^2 -3x + 5</m> by <m>x+1\text{.}</m> Suppose you found that the remainder is <m>15</m> and the quotient  is <m>7x-10\text{.}</m> Write the result in the format of (1.2.1).</p>
+      <statement><p>(Not randomizable) Suppose you have used long division to divide the polynomial <m>(7x^2 -3x + 5)</m> by <m>(x+1)\text{.}</m> Suppose you found that the remainder is <m>15</m> and the quotient  is <m>7x-10\text{.}</m> Write the result in the format of (1.2.1).</p>
 <p><fillin characters="10" name="AnSwEr0001"/> / <fillin characters="10" name="AnSwEr0002"/> = <fillin characters="10" name="AnSwEr0003"/> + <fillin characters="10" name="AnSwEr0004"/> / <fillin characters="10" name="AnSwEr0005"/></p>
+<p>Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.</p>
 </statement>
       <answer>
         <p>
@@ -769,11 +770,11 @@ There may be more than one correct answer.</p>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_23-Interpreting_the_result__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_23-Interpreting_the_result__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -830,9 +831,11 @@ $g = Formula("x+1");
 ############################################################
 
 BEGIN_PGML
-Suppose you have used long division to divide the polynomial [`7x^2 -3x + 5`] by [`x+1\text{.}`] Suppose you found that the remainder is [`15`] and the quotient  is [`7x-10\text{.}`] Write the result in the format of (1.2.1).
+(Not randomizable) Suppose you have used long division to divide the polynomial [`(7x^2 -3x + 5)`] by [`(x+1)\text{.}`] Suppose you found that the remainder is [`15`] and the quotient  is [`7x-10\text{.}`] Write the result in the format of (1.2.1).
 
 [_]{$f}{10} / [_]{$g}{10} = [_]{$quot}{10} \+ [_]{$remainder}{10} / [_]{$g}{10}
+
+Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
 
 END_PGML
 
@@ -901,11 +904,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_25-Setup_and_notation__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_25-Setup_and_notation__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -981,7 +984,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-41" ww-id="webwork-41">
     <static seed="41">
-      <statement><p>Use long division to find the quotient and remainder when</p>
+      <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
 <p><me>2x^2+5x-3</me></p>
 <p>is divided by</p>
 <p><me>x-3.</me></p>
@@ -999,11 +1002,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_26-Long_division_with_quadratic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_26-Long_division_with_quadratic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1056,7 +1059,7 @@ $remainder = Formula("30");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable) Use long division to find the quotient and remainder when
 
 [```
             2x^2+5x-3
@@ -1083,7 +1086,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-43" ww-id="webwork-43">
     <static seed="43">
-      <statement><p>Use long division to find the quotient and remainder when</p>
+      <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
 <p><me>8x^3+27</me></p>
 <p>is divided by</p>
 <p><me>2x+3.</me></p>
@@ -1101,11 +1104,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_27-Long_division_with_cubic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_27-Long_division_with_cubic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1158,7 +1161,7 @@ $remainder = Formula("0");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable) Use long division to find the quotient and remainder when
 
 [```
             8x^3+27          ```]
@@ -1184,7 +1187,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-45" ww-id="webwork-45">
     <static seed="45">
-      <statement><p>Use long division to find the quotient and remainder when</p>
+      <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
 <p><me>x^4 -25</me></p>
 <p>is divided by</p>
 <p><me>x^2-1.</me></p>
@@ -1202,11 +1205,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_29-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_29-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1259,7 +1262,7 @@ $remainder = Formula("-24");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable) Use long division to find the quotient and remainder when
 
 [```
             x^4 -25          ```]
@@ -1285,7 +1288,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-47" ww-id="webwork-47">
     <static seed="47">
-      <statement><p>Use long division to find the quotient and remainder when</p>
+      <statement><p>(Not randomizable)  Use long division to find the quotient and remainder when</p>
 <p><me>2x^4+x^2+x-25</me></p>
 <p>is divided by</p>
 <p><me>x^2+5.</me></p>
@@ -1318,11 +1321,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_30-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_30-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1379,7 +1382,7 @@ $g = Formula("x^2+5");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable)  Use long division to find the quotient and remainder when
 
 [```
              2x^4+x^2+x-25         ```]
@@ -1405,7 +1408,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-49" ww-id="webwork-49">
     <static seed="49">
-      <statement><p>Which of the following statements are true and which are false?</p>
+      <statement><p>(Not randomizable)  Which of the following statements are true and which are false?</p>
 <p><ol label="a.">
 <li>
 <p>If the remainder is zero, then the divisor is a factor of the dividend. <ul form="popup" name="AnSwEr0001"><li>
@@ -1466,11 +1469,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_2_4_1-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_1-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1524,7 +1527,7 @@ $popup4 = PopUp(['?','True','False'],2);
 ############################################################
 
 BEGIN_PGML
-Which of the following statements are true and which are false?
+(Not randomizable)  Which of the following statements are true and which are false?
 
 a.  If the remainder is zero, then the divisor is a factor of the dividend. [_]{$popup1}{5}
 
@@ -1569,7 +1572,7 @@ ENDDOCUMENT();
 </li><li>
 <p>quotient</p>
 </li><li>
-<p>divisor</p>
+<p>remainder</p>
 </li></ul>.</p>
 </li>
 <li>
@@ -1585,7 +1588,8 @@ ENDDOCUMENT();
 </li>
 <li>
 <p>Now finish the long division and find the quotient and remainder (if there is one).</p>
-<p><m>\dfrac{3x^2-2x-85}{x+5} =</m> <fillin characters="10" name="AnSwEr0004"/></p>
+<p>Quotient = <fillin characters="10" name="AnSwEr0004"/></p>
+<p>Remainder = <fillin characters="10" name="AnSwEr0005"/></p>
 </li>
 </ol></p>
 </statement>
@@ -1601,7 +1605,7 @@ ENDDOCUMENT();
       </answer>
       <answer>
         <p>
-          <m>\text{No, ... correct start}</m>
+          <m>\text{Yes, ... correct start}</m>
         </p>
       </answer>
       <answer>
@@ -1609,12 +1613,17 @@ ENDDOCUMENT();
           <m>3x-17</m>
         </p>
       </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_2_4_2-Setup__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_2-Setup__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1661,12 +1670,13 @@ TEXT(beginproblem());
 ############################################################
 Context("Numeric");
 $quot = Formula("3x-17");
+$rem = Formula("0");
 $popup = PopUp(['?','dividend','divisor','quotient','remainder'],1);
-$popup2 = PopUp(['?','dividend','divisor','quotient','divisor'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],2);
 $radio = RadioButtons([
   'Yes, it is a correct start',
   'No, it is not a correct start',
-],1);
+],0);
 
 ############################################################
 # Body
@@ -1683,7 +1693,9 @@ a.  Did Lennie set up the problem correctly?
 
 a.  Now finish the long division and find the quotient and remainder (if there is one).
 
-    [` \dfrac{3x^2-2x-85}{x+5} = `] [_]{$quot}{10}
+    Quotient = [_]{$quot}{10}
+
+    Remainder = [_]{$rem}{10}
 
 END_PGML
 
@@ -1753,6 +1765,7 @@ ENDDOCUMENT();
 </ul></p>
 </li>
 </ol></p>
+<p>Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.</p>
 </statement>
       <answer>
         <p>
@@ -1780,11 +1793,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_2_4_3-Interpreting_results__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_3-Interpreting_results__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1856,6 +1869,8 @@ a.  The remainder is [_]{$remainder}{10}
 
 a.  Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.) [_]{$radio}{5}
 
+Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
+
 END_PGML
 
 ############################################################
@@ -1891,6 +1906,7 @@ ENDDOCUMENT();
 <p><m>n(x) =</m> <fillin characters="10" name="AnSwEr0009"/></p>
 </li>
 </ol></p>
+<p>Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.</p>
 </statement>
       <answer>
         <p>
@@ -1938,11 +1954,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_2_4_4-Interpreting_results__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_4-Interpreting_results__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2031,6 +2047,8 @@ a.  The result of the long division can be written in the following format
     [`m(x) = `] [_]{$m}{10}
 
     [`n(x) = `] [_]{$n}{10}
+
+Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
 
 END_PGML
 
@@ -2128,7 +2146,7 @@ Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters=
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-60" ww-id="webwork-60">
     <static seed="60">
-      <statement><p>Use long division to find the quotient and remainder when</p>
+      <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
 <p><me>x^5+4x^3+2x^2-1</me></p>
 <p>is divided by</p>
 <p><me>x-2.</me></p>
@@ -2146,11 +2164,11 @@ Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters=
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_2_4_9-Quotient_and_remainder_degree_5__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_9-Quotient_and_remainder_degree_5__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2203,7 +2221,7 @@ $remainder = Formula("71");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable) Use long division to find the quotient and remainder when
 
 [```
             x^5+4x^3+2x^2-1          ```]
@@ -2229,7 +2247,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-62" ww-id="webwork-62">
     <static seed="62">
-      <statement><p>Use long division to find the quotient and remainder when</p>
+      <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
 <p><me>-2x^5+3x^4-2x^2</me></p>
 <p>is divided by</p>
 <p><me>x^3-3x^2+1.</me></p>
@@ -2262,11 +2280,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_polynomials/1_2_4_10-Specific_result_format__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_10-Specific_result_format__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2323,7 +2341,7 @@ $g = Formula("x^3-3x^2+1");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable) Use long division to find the quotient and remainder when
 
 [```
              -2x^5+3x^4-2x^2         ```]
@@ -2658,75 +2676,31 @@ as possible, and enter your answers as fractions.</p>
     <pg source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-76" ww-id="webwork-76">
-    <static seed="76" source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg">
-      <statement><p>Simplify the following expression.</p>
-<p><m>\displaystyle{ {4bc^{2}\mathopen{}\left(-4b^{5}c\right)^{2}}=}</m><fillin characters="14" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>64b^{11}c^{4}</m>
-        </p>
-      </answer>
-      <solution><p><m>\displaystyle{ 
-\begin{aligned}
-   {4bc^{2}\mathopen{}\left(-4b^{5}c\right)^{2}}
-   \amp = {4bc^{2}}(-4)^{2}({b^{5}})^{2}({c})^{2} \\
-   \amp = {4bc^{2}}(16)(b^{10})(c^{2}) \\
-   \amp = {64b^{11}c^{4}} \\
-\end{aligned}
-    }</m></p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-77" ww-id="webwork-77">
-    <static seed="77" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
-      <statement><p>Simplify and write the following as a power of <m>v</m> with a single rational exponent.</p>
-<p>If <m>\displaystyle \frac{v^{9/4}}{v^{10/7}} = v^m</m> then <m>m =</m> <fillin characters="5" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>{\frac{23}{28}}</m>
-        </p>
-      </answer>
-      <solution><p>Recall that <m>\displaystyle{\frac{x^a}{x^b} = x^{a-b}}</m></p>
-<p>So, in this case we will need to subtract the exponents,</p>
-<p><m>\displaystyle{ \frac{9}{4} - \frac{10}{7} = {{\frac{23}{28}}}}</m>.</p>
-<p>Therefore,</p>
-<p><m>\displaystyle \frac{v^{9/4}}{v^{10/7}} = v^{{{\frac{23}{28}}}}</m></p>
-<p>which  means <m>m = {{\frac{23}{28}}}</m>.</p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-78" ww-id="webwork-78">
-    <static seed="78" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg">
+    <static seed="76" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg">
       <statement><p>Evaluate the following without a calculator.
 Simplify your answers as much as possible.</p>
-<p>(a) <m>\sqrt{ (-7)^2 } =</m>
+<p>(a) <m>\sqrt{ (-6)^2 } =</m>
 <fillin characters="10" name="AnSwEr0001"/></p>
-<p>(b) <m>(-1)^{5} \cdot \sqrt{81} =</m>
+<p>(b) <m>(-1)^{5} \cdot \sqrt{64} =</m>
 <fillin characters="10" name="AnSwEr0002"/></p>
-<p>(c) <m>(0.25)^{1/2} =</m>
+<p>(c) <m>(0.09)^{1/2} =</m>
 <fillin characters="10" name="AnSwEr0003"/></p>
 <p>(d) <m>(-8)^{2/3} =</m>
 <fillin characters="10" name="AnSwEr0004"/></p>
 </statement>
       <answer>
         <p>
-          <m>7</m>
+          <m>6</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-9</m>
+          <m>-8</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>0.5</m>
+          <m>0.3</m>
         </p>
       </answer>
       <answer>
@@ -2738,15 +2712,15 @@ Simplify your answers as much as possible.</p>
 
 
 
-(a) <m>\sqrt{ (-7)^2 } = \sqrt{49} = 7</m>.
+(a) <m>\sqrt{ (-6)^2 } = \sqrt{36} = 6</m>.
 
 
 
-(b) <m>(-1)^{5} \cdot \sqrt{81} = -1\sqrt{9^2} = -9</m>.
+(b) <m>(-1)^{5} \cdot \sqrt{64} = -1\sqrt{8^2} = -8</m>.
 
 
 
-(c) <m>(0.25)^{1/2} = \left(\frac{25}{100}\right)^{1/2} = \frac{5}{10} = 0.5</m>.
+(c) <m>(0.09)^{1/2} = \left(\frac{9}{100}\right)^{1/2} = \frac{3}{10} = 0.3</m>.
 
 
 
@@ -2759,62 +2733,237 @@ Simplify your answers as much as possible.</p>
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-77" ww-id="webwork-77">
+    <static seed="77" source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg">
+      <statement><p>Simplify the following expression.</p>
+<p><m>\displaystyle{ {-3a^{5}p^{2}\mathopen{}\left(4a^{5}p^{5}\right)^{2}}=}</m><fillin characters="14" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-48a^{15}p^{12}</m>
+        </p>
+      </answer>
+      <solution><p><m>\displaystyle{ 
+\begin{aligned}
+   {-3a^{5}p^{2}\mathopen{}\left(4a^{5}p^{5}\right)^{2}}
+   \amp = {-3a^{5}p^{2}}(4)^{2}({a^{5}})^{2}({p^{5}})^{2} \\
+   \amp = {-3a^{5}p^{2}}(16)(a^{10})(p^{10}) \\
+   \amp = {-48a^{15}p^{12}} \\
+\end{aligned}
+    }</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-78" ww-id="webwork-78">
+    <static seed="78" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
+      <statement><p>Simplify and write the following as a power of <m>x</m> with a single rational exponent.</p>
+<p>If <m>\displaystyle \frac{x^{9/7}}{x^{3/4}} = x^m</m> then <m>m =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{15}{28}}</m>
+        </p>
+      </answer>
+      <solution><p>Recall that <m>\displaystyle{\frac{x^a}{x^b} = x^{a-b}}</m></p>
+<p>So, in this case we will need to subtract the exponents,</p>
+<p><m>\displaystyle{ \frac{9}{7} - \frac{3}{4} = {{\frac{15}{28}}}}</m>.</p>
+<p>Therefore,</p>
+<p><m>\displaystyle \frac{x^{9/7}}{x^{3/4}} = x^{{{\frac{15}{28}}}}</m></p>
+<p>which  means <m>m = {{\frac{15}{28}}}</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg"/>
+  </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-79" ww-id="webwork-79">
-    <static seed="79" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
+    <static seed="79" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg">
+      <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle   \frac{20x^{-2}y^{10}}{-5 x^{-6}y^{-3}}</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-4x^{4}y^{13}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-80" ww-id="webwork-80">
+    <static seed="80" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg">
+      <statement><p>Simplify the expression as much as possible 
+and leave it without radicals.</p>
+<p><m>\big( 25 L^{2 / 3} P \big)^{3 / 2} \big( P \big)^{-3 / 2} =</m> 
+<fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>125L</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-81" ww-id="webwork-81">
+    <static seed="81" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg">
+      <statement><p>Simplify the expression
+<me>\sqrt{192 y^{8}}</me>
+into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.  Assume <m>y\geq 0</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8y^{4}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-82" ww-id="webwork-82">
+    <static seed="82" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg">
+      <statement><p>Find the product
+<me>2 \sqrt{2} \left( 4 \sqrt{12} + 7 \sqrt{6}  \right)</me>
+and express your answer in the form <m>A \sqrt{B} + C \sqrt{D},</m> <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all integers and <m>B &gt; D.</m></p>
+<p>Answer: <m>A =</m> <fillin characters="15" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="15" name="AnSwEr0002"/>, <m>C =</m> <fillin characters="15" name="AnSwEr0003"/>, and <m>D =</m> <fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\cdot 2\cdot 4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2\cdot 2\cdot 7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-83" ww-id="webwork-83">
+    <static seed="83" source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg">
+      <statement><p>Simplify and write the following as a power of <m>q</m> using a single rational exponent.</p>
+<p>If <m>\dfrac{ \sqrt{q^{3}}  \sqrt[3]{q^{8}}   }{~ \sqrt[7]{q^{3}} ~}   = q^m</m> then  <m>m =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{157}{42}}</m>
+        </p>
+      </answer>
+      <solution><p>Recall the properties of exponents:</p>
+<p><m>\displaystyle{\frac{x^a}{x^b} = x^{a-b}}</m></p>
+<p><m>\displaystyle{\sqrt[m]{x^n} = x^{\frac{n}{m}}}</m></p>
+<p><m>\displaystyle{x^mx^n = x^{m+n}}</m></p>
+<p>Using those properties, we can simplify the expression:</p>
+<p><m>\begin{aligned}
+  \dfrac{ \sqrt{q^{3}}  \sqrt[3]{q^{8}}   }{~ \sqrt[7]{q^{3}} ~}   \amp = \frac{q^{\frac{3}{2}} q^{\frac{8}{3}}}{q^{\frac{3}{7}}}\\
+\amp =\frac{q^{\frac{3}{2} +\frac{8}{3}}}{q^{\frac{3}{7}}}   \\
+\amp =\frac{q^{{{\frac{25}{6}}}}}{q^{\frac{3}{7}}}\\
+\amp =q^{{{\frac{157}{42}}}}
+\end{aligned}</m></p>
+<p>So, <m>m= {{\frac{157}{42}}}</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-84" ww-id="webwork-84">
+    <static seed="84" source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg">
+      <statement><p>Simplify the following expression (do not factor)</p>
+<p><m>\displaystyle\frac{{-20x^{24}y^{19}+44x^{19}y^{17}+32x^{18}y^{9}}}{{4x^{5}y^{2}}}=</m><fillin characters="32" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-5x^{19}y^{17}+11x^{14}y^{15}+8x^{13}y^{7}</m>
+        </p>
+      </answer>
+      <solution><p>We divide each term by <m>{4x^{5}y^{2}}</m> as follows</p>
+<p><m>\begin{aligned}
+    \displaystyle\frac{{-20x^{24}y^{19}+44x^{19}y^{17}+32x^{18}y^{9}}}{{4x^{5}y^{2}}}  
+    \amp  = \frac{-20x^{24}y^{19}}{4x^5y^2}+\frac{44x^{19}y^{17}}{4x^5y^2}+\frac{32x^{18}y^{9}}{4x^5y^2}\\
+     \amp  = {\left(-{\frac{20}{4}}\right)x^{19}y^{17}+\left({\frac{44}{4}}\right)x^{14}y^{15}+\left({\frac{32}{4}}\right)x^{13}y^{7}}\\
+     \amp  = {-5x^{19}y^{17}+11x^{14}y^{15}+8x^{13}y^{7}}\\
+    \end{aligned}</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-85" ww-id="webwork-85">
+    <static seed="85" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
       <statement><p>Simplify each expression as much as possible
 and leave it without radicals.</p>
-<p>(a) <m>\sqrt{ w^{6} x^{4} } =</m>
+<p>(a) <m>\sqrt{ w^{4} x^{6} } =</m>
 <fillin characters="10" name="AnSwEr0001"/></p>
-<p>(b) <m>\sqrt[3]{ 125 w^{6} } =</m>
+<p>(b) <m>\sqrt[3]{ 8 w^{9} } =</m>
 <fillin characters="10" name="AnSwEr0002"/></p>
-<p>(c) <m>\sqrt{36 x^{6} y^{8} } =</m>
+<p>(c) <m>\sqrt{64 x^{2} y^{8} } =</m>
 <fillin characters="10" name="AnSwEr0003"/></p>
-<p>(d) <m>\sqrt{ 32 w^{5} y^{6} } \sqrt{ 2 y^{8} w^{5} } =</m>
+<p>(d) <m>\sqrt{ 8 w^{7} y^{2} } \sqrt{ 2 y^{4} w^{7} } =</m>
 <fillin characters="10" name="AnSwEr0004"/></p>
 </statement>
       <answer>
         <p>
-          <m>w^{3}x^{2}</m>
+          <m>w^{2}x^{3}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>5w^{2}</m>
+          <m>2w^{3}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>6x^{3}y^{4}</m>
+          <m>8x^{1}y^{4}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>8w^{5}y^{7}</m>
+          <m>4w^{7}y^{3}</m>
         </p>
       </answer>
       <solution><alert> SOLUTION </alert>
 
 
 
-(a) <m>\sqrt{ w^{6} x^{4} } = (w^{6} x^{4})^{1/2} =
-       w^{6/2} x^{4/2} = w^{3}x^{2}</m>.
+(a) <m>\sqrt{ w^{4} x^{6} } = (w^{4} x^{6})^{1/2} =
+       w^{4/2} x^{6/2} = w^{2}x^{3}</m>.
 
 
 
-(b) <m>\sqrt[3]{ 125 w^{6} } = (125 w^{6})^{1/3} = 125^{1/3} w^{6/3} =
-       5w^{2}</m>.
+(b) <m>\sqrt[3]{ 8 w^{9} } = (8 w^{9})^{1/3} = 8^{1/3} w^{9/3} =
+       2w^{3}</m>.
 
 
 
-(c) <m>\sqrt{36 x^{6} y^{8} } = (36 x^{6} y^{8})^{1/2} =
-       6x^{3}y^{4}</m>.
+(c) <m>\sqrt{64 x^{2} y^{8} } = (64 x^{2} y^{8})^{1/2} =
+       8x^{1}y^{4}</m>.
 
 
 
-(d) <m>\sqrt{ 32 w^{5} y^{6} } \sqrt{ 2 y^{8} w^{5} } =
-       \sqrt{ (32 w^{5} y^{6})\cdot (2 y^{8} w^{5}) } =
-       ( 64 w^{10} y^{14} )^{1/2} =
-       8w^{5}y^{7}</m>.
+(d) <m>\sqrt{ 8 w^{7} y^{2} } \sqrt{ 2 y^{4} w^{7} } =
+       \sqrt{ (8 w^{7} y^{2})\cdot (2 y^{4} w^{7}) } =
+       ( 16 w^{14} y^{6} )^{1/2} =
+       4w^{7}y^{3}</m>.
 
 
 
@@ -2823,25 +2972,25 @@ and leave it without radicals.</p>
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-80" ww-id="webwork-80">
-    <static seed="80" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-86" ww-id="webwork-86">
+    <static seed="86" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg">
       <statement><p>Express the number
-<me>\left( \frac{2^{-4}}{5^{-2}} \right)^{-1}</me>
+<me>\left( \frac{2^{-5}}{5^{-3}} \right)^{-1}</me>
 as a reduced fraction.</p>
 <p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
 <p><alert>Note:</alert> <em>You cannot use any operations except division (/) and negation (-).</em></p>
 </statement>
       <answer>
         <p>
-          <m>{\frac{16}{25}}</m>
+          <m>{\frac{32}{125}}</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-81" ww-id="webwork-81">
-    <static seed="81" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-87" ww-id="webwork-87">
+    <static seed="87" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg">
       <statement><p>Evaluate: <m>\displaystyle \left( \frac{ -4^{3} }{ -2^{3} } \right)^2 =</m>
 <fillin characters="20" name="AnSwEr0001"/></p>
 <p>Note: Your answer should be completely simplified.
@@ -2856,17 +3005,51 @@ Unsimplified answers will not be accepted.</p>
     <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-82" ww-id="webwork-82">
-    <static seed="82" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-88" ww-id="webwork-88">
+    <static seed="88" source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg">
+      <statement><p>Find <m>x</m> if <m>\displaystyle{\  \frac{(5)^x (5)^{0}}{(5)^{4}}=(5)^{5} }</m></p>
+<p><m>x =</m><fillin characters="3" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <solution><p>Use properties of exponents to simplify the left side of the equation<m>\displaystyle{\begin{gathered} \frac{(5)^x (5)^{0}}{(5)^{4}} = (5)^{5} \\
+    (5)^x (5)^{0} (5)^{-4} = (5)^{5} \\
+    (5)^{(x+0-4)} = (5)^{5}\ . \end{gathered} }</m> The two sides are equal if and only if the exponents are equal, so 
+<m>\displaystyle{ x+0-4 = 5 }</m>. Solving for <m>x</m> one obtains <m>\displaystyle{ x = {9} }</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-89" ww-id="webwork-89">
+    <static seed="89" source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg">
+      <statement><p>Combine radicals, if possible.  Simplify your 
+answer as much as possible.</p>
+<p><m>\sqrt[3]{7 x} + 9 \sqrt[3]{7 x} - 2 \sqrt[3]{7 x}</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8\mathopen{}\left(7x\right)^{\frac{1}{3}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-90" ww-id="webwork-90">
+    <static seed="90" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg">
       <statement><p>Find the product
-<me>( 5 \sqrt[3]{6})( 3 \sqrt[3]{9} )</me>
+<me>( 9 \sqrt[3]{6})( 4 \sqrt[3]{9} )</me>
 and express your answer in simplest radical form <m>A \sqrt[3]{C}</m>, 
 where <m>A</m> and <m>C</m> are integers.</p>
 <p><m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>3\cdot 5\cdot 3</m>
+          <m>3\cdot 9\cdot 4</m>
         </p>
       </answer>
       <answer>
@@ -2878,17 +3061,17 @@ where <m>A</m> and <m>C</m> are integers.</p>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-83" ww-id="webwork-83">
-    <static seed="83" source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-91" ww-id="webwork-91">
+    <static seed="91" source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg">
       <statement><p>Simplify the expression:</p>
-<p><m>\displaystyle  ( - \frac{1}{2}a^{-3}b^{9})(12 a^{-4}b^{-4})</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>\displaystyle  ( - \frac{1}{2}a^{-2}b^{9})(8 a^{-2}b^{-1})</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>-\frac{6b^{5}}{a^{7}}</m>
+          <m>-\frac{4b^{8}}{a^{4}}</m>
         </p>
       </answer>
-      <solution><m>-\frac{6b^{5}}{a^{7}}</m>
+      <solution><m>-\frac{4b^{8}}{a^{4}}</m>
 
 
 
@@ -2897,191 +3080,26 @@ where <m>A</m> and <m>C</m> are integers.</p>
     <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-84" ww-id="webwork-84">
-    <static seed="84" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg">
-      <statement><p>Simplify the expression:</p>
-<p><m>\displaystyle   \frac{18a^{-1}b^{9}}{-3 a^{-6}b^{-1}}</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>-6a^{5}b^{10}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-85" ww-id="webwork-85">
-    <static seed="85" source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg">
-      <statement><p>Simplify the numerical expression <m>-\sqrt{49}</m>.</p>
-<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
-<p><alert>Note:</alert> <em>You cannot use any operations except negation (-).</em></p>
-</statement>
-      <answer>
-        <p>
-          <m>-7</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-86" ww-id="webwork-86">
-    <static seed="86" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg">
-      <statement><p>Simplify the expression
-<me>\sqrt{108 y^{2}}</me>
-into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.  Assume <m>y\geq 0</m>.</p>
-<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>6y</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>3</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-87" ww-id="webwork-87">
-    <static seed="87" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-92" ww-id="webwork-92">
+    <static seed="92" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg">
       <statement><p>Assume that <m>a</m> and <m>b</m> represent positive real numbers.  Simplify the expression
-<me>2 \sqrt{28 a^{3} b^{2}}</me>
+<me>-5 \sqrt{20 a^{3} b^{6}}</me>
 into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.</p>
 <p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>2\cdot 2a^{\frac{3-1}{2}}b^{\frac{2}{2}}</m>
+          <m>2\cdot \left(-5\right)a^{\frac{3-1}{2}}b^{\frac{6}{2}}</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>7a</m>
+          <m>5a</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-88" ww-id="webwork-88">
-    <static seed="88" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg">
-      <statement><p>Find the product
-<me>4 \sqrt{2} \left( 4 \sqrt{12} + 6 \sqrt{6}  \right)</me>
-and express your answer in the form <m>A \sqrt{B} + C \sqrt{D},</m> <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all integers and <m>B &gt; D.</m></p>
-<p>Answer: <m>A =</m> <fillin characters="15" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="15" name="AnSwEr0002"/>, <m>C =</m> <fillin characters="15" name="AnSwEr0003"/>, and <m>D =</m> <fillin characters="15" name="AnSwEr0004"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>2\cdot 4\cdot 4</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>6</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>2\cdot 4\cdot 6</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>3</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-89" ww-id="webwork-89">
-    <static seed="89" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg">
-      <statement><p>Simplify the expression
-<me>2 \sqrt[3]{4} \left( 4 \sqrt[3]{16} + 7 \sqrt[3]{7} \right)</me>
-and express your answer in the simplest radical form <m>A+ B \sqrt[3]{C},</m> where <m>A,</m> <m>B,</m> and <m>C</m> are integers.</p>
-<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="20" name="AnSwEr0002"/>, and <m>C =</m> <fillin characters="20" name="AnSwEr0003"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>4\cdot 2\cdot 4</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>2\cdot 7</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>7\cdot 4</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-90" ww-id="webwork-90">
-    <static seed="90" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg">
-      <statement><p>Simplify the expression as much as possible 
-and leave it without radicals.</p>
-<p><m>\big( 125 L^{3 / 4} P \big)^{4 / 3} \big( P \big)^{-4 / 3} =</m> 
-<fillin characters="20" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>625L</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-91" ww-id="webwork-91">
-    <static seed="91" source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg">
-      <statement><p>Simplify and write the following as a power of <m>p</m> using a single rational exponent.</p>
-<p>If <m>\dfrac{ \sqrt{p^{3}}  \sqrt[7]{p^{6}}   }{~ \sqrt[6]{p^{5}} ~}   = p^m</m> then  <m>m =</m> <fillin characters="5" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>{\frac{32}{21}}</m>
-        </p>
-      </answer>
-      <solution><p>Recall the properties of exponents:</p>
-<p><m>\displaystyle{\frac{x^a}{x^b} = x^{a-b}}</m></p>
-<p><m>\displaystyle{\sqrt[m]{x^n} = x^{\frac{n}{m}}}</m></p>
-<p><m>\displaystyle{x^mx^n = x^{m+n}}</m></p>
-<p>Using those properties, we can simplify the expression:</p>
-<p><m>\begin{aligned}
-  \dfrac{ \sqrt{p^{3}}  \sqrt[7]{p^{6}}   }{~ \sqrt[6]{p^{5}} ~}   \amp = \frac{p^{\frac{3}{2}} p^{\frac{6}{7}}}{p^{\frac{5}{6}}}\\
-\amp =\frac{p^{\frac{3}{2} +\frac{6}{7}}}{p^{\frac{5}{6}}}   \\
-\amp =\frac{p^{{{\frac{33}{14}}}}}{p^{\frac{5}{6}}}\\
-\amp =p^{{{\frac{32}{21}}}}
-\end{aligned}</m></p>
-<p>So, <m>m= {{\frac{32}{21}}}</m></p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-92" ww-id="webwork-92">
-    <static seed="92" source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg">
-      <statement><p>Combine radicals, if possible.  Simplify your 
-answer as much as possible.</p>
-<p><m>\sqrt[3]{2 x} + 6 \sqrt[3]{2 x} - 2 \sqrt[3]{2 x}</m> = <fillin characters="20" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>5\mathopen{}\left(2x\right)^{\frac{1}{3}}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-93" ww-id="webwork-93">
     <static seed="93" source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg">
@@ -3110,77 +3128,42 @@ into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>
     <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-94" ww-id="webwork-94">
-    <static seed="94" source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg">
-      <statement><p>Find <m>x</m> if <m>\displaystyle{\  \frac{(3.6)^x (3.6)^{-1}}{(3.6)^{-6}}=(3.6)^{9} }</m></p>
-<p><m>x =</m><fillin characters="3" name="AnSwEr0001"/></p>
+    <static seed="94" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg">
+      <statement><p>Simplify the expression
+<me>3 \sqrt[3]{3} \left( 4 \sqrt[3]{9} + 7 \sqrt[3]{7} \right)</me>
+and express your answer in the simplest radical form <m>A+ B \sqrt[3]{C},</m> where <m>A,</m> <m>B,</m> and <m>C</m> are integers.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="20" name="AnSwEr0002"/>, and <m>C =</m> <fillin characters="20" name="AnSwEr0003"/></p>
 </statement>
       <answer>
         <p>
-          <m>4</m>
+          <m>4\cdot 3\cdot 3</m>
         </p>
       </answer>
-      <solution><p>Use properties of exponents to simplify the left side of the equation<m>\displaystyle{\begin{gathered} \frac{(3.6)^x (3.6)^{-1}}{(3.6)^{-6}} = (3.6)^{9} \\
-    (3.6)^x (3.6)^{-1} (3.6)^{ + 6} = (3.6)^{9} \\
-    (3.6)^{(x - 1 + 6)} = (3.6)^{9}\ . \end{gathered} }</m> The two sides are equal if and only if the exponents are equal, so 
-<m>\displaystyle{ x - 1 + 6 = 9 }</m>. Solving for <m>x</m> one obtains <m>\displaystyle{ x = {4} }</m>.</p>
-</solution>
+      <answer>
+        <p>
+          <m>3\cdot 7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7\cdot 3</m>
+        </p>
+      </answer>
     </static>
-    <rendering-data sourceFilePath="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg"/>
+    <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-95" ww-id="webwork-95">
-    <static seed="95" source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg">
-      <statement><p>Simplify the following expression (do not factor)</p>
-<p><m>\displaystyle\frac{{4x^{23}y^{17}-44x^{12}y^{15}-16x^{10}y^{13}}}{{4x^{5}y^{2}}}=</m><fillin characters="32" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>x^{18}y^{15}-11x^{7}y^{13}-4x^{5}y^{11}</m>
-        </p>
-      </answer>
-      <solution><p>We divide each term by <m>{4x^{5}y^{2}}</m> as follows</p>
-<p><m>\begin{aligned}
-    \displaystyle\frac{{4x^{23}y^{17}-44x^{12}y^{15}-16x^{10}y^{13}}}{{4x^{5}y^{2}}}  
-    \amp  = \frac{4x^{23}y^{17}}{4x^5y^2}+\frac{-44x^{12}y^{15}}{4x^5y^2}+\frac{-16x^{10}y^{13}}{4x^5y^2}\\
-     \amp  = {\left({\frac{4}{4}}\right)x^{18}y^{15}+\left(-{\frac{44}{4}}\right)x^{7}y^{13}+\left(-{\frac{16}{4}}\right)x^{5}y^{11}}\\
-     \amp  = {x^{18}y^{15}-11x^{7}y^{13}-4x^{5}y^{11}}\\
-    \end{aligned}</m></p>
-</solution>
+    <static seed="95" source="...." failure="compile">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem .... with seed 95 is either empty or failed to compile  
+  Use -a to halt with returned content
+</p>
+      </statement>
     </static>
-    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-96" ww-id="webwork-96">
-    <static seed="96" source="Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg" failure="statement">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p17.pg with seed 96 does not have a statement tag 
-  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
-  Use -a to halt with returned content
-</p>
-      </statement>
-    </static>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-97" ww-id="webwork-97">
-    <static seed="97" source="Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p16.pg" failure="statement">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/s7p16.pg with seed 97 does not have a statement tag 
-  Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code 
-  Use -a to halt with returned content
-</p>
-      </statement>
-    </static>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-98" ww-id="webwork-98">
-    <static seed="98" source="...." failure="compile">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem .... with seed 98 is either empty or failed to compile  
-  Use -a to halt with returned content
-</p>
-      </statement>
-    </static>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-99" ww-id="webwork-99">
-    <static seed="99" source="Library/MC/Trigonometry/RadianTerminalPoint.pg">
+    <static seed="96" source="Library/MC/Trigonometry/RadianTerminalPoint.pg">
       <statement><p>For the given values of an angle <m>\alpha</m>, find the terminal point <m>P(x,y)</m> on the unit circle.</p>
 <p>(a) If <m>\alpha=\frac{\pi}{2}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0001"/> 
                                and <m>y=</m> <fillin characters="15" name="AnSwEr0002"/>;</p>
@@ -3261,16 +3244,16 @@ into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>
     <rendering-data sourceFilePath="Library/MC/Trigonometry/RadianTerminalPoint.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/MC/Trigonometry/RadianTerminalPoint.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-100" ww-id="webwork-100">
-    <static seed="100">
-      <statement><p>Write the expression <m>\csc x \tan x - 2\sec x</m> in terms of only sine and cosine, and simplify as much as possible.</p>
-<p><m>\csc x \tan x - 2\sec x =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-97" ww-id="webwork-97">
+    <static seed="97">
+      <statement><p>Write the expression <m>\csc x \tan x - 7\sec x</m> in terms of only sine and cosine, and simplify as much as possible.</p>
+<p><m>\csc x \tan x - 7\sec x =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <hint><p>Re-write each of the trigonometric functions in terms of <m>\sin x</m> and <m>\cos x\text{,}</m> then simplify. Remember that your final answer should not use any of the other trigonometric functions, only <m>\sin x</m> and/or <m>\cos x\text{.}</m></p>
 </hint>
       <answer>
         <p>
-          <m>\frac{1-2}{\cos\mathopen{}\left(x\right)}</m>
+          <m>\frac{1-7}{\cos\mathopen{}\left(x\right)}</m>
         </p>
       </answer>
     </static>
@@ -3278,7 +3261,7 @@ into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3355,8 +3338,8 @@ END_PGML_HINT
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-101" ww-id="webwork-101">
-    <static seed="101">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-98" ww-id="webwork-98">
+    <static seed="98">
       <statement><p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\cos \left(\frac{\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\cos \left(\frac{\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
@@ -3382,7 +3365,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3463,8 +3446,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-102" ww-id="webwork-102">
-    <static seed="102">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-99" ww-id="webwork-99">
+    <static seed="99">
       <statement><p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sin \left(\frac{\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\tan \left(\frac{\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
@@ -3490,7 +3473,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3571,8 +3554,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-103" ww-id="webwork-103">
-    <static seed="103">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-100" ww-id="webwork-100">
+    <static seed="100">
       <statement><p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sec \left(\frac{\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\csc \left(\frac{\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
@@ -3598,7 +3581,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3679,8 +3662,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-104" ww-id="webwork-104">
-    <static seed="104">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-101" ww-id="webwork-101">
+    <static seed="101">
       <statement><p>Use the work from Example<nbsp/>3.12 to evaluate the following. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sec \left(\frac{2\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\csc \left(\frac{2\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
@@ -3706,7 +3689,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3786,8 +3769,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-105" ww-id="webwork-105">
-    <static seed="105">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-102" ww-id="webwork-102">
+    <static seed="102">
       <statement><p>Evaluate the following. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sin \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\cos \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
@@ -3819,7 +3802,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3904,8 +3887,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-106" ww-id="webwork-106">
-    <static seed="106">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-103" ww-id="webwork-103">
+    <static seed="103">
       <statement><p>Evaluate the following. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sin \left(-\frac{5\pi}{6}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\cos \left(-\frac{5\pi}{6}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
@@ -3937,7 +3920,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4022,8 +4005,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-107" ww-id="webwork-107">
-    <static seed="107">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-104" ww-id="webwork-104">
+    <static seed="104">
       <statement><p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
 <p><m>\sin \left(\frac{3\pi}{2}\right)=</m><fillin characters="5" name="AnSwEr0001"/></p>
 </statement>
@@ -4037,7 +4020,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4099,10 +4082,10 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-108" ww-id="webwork-108">
-    <static seed="108">
-      <statement><p>Evaluate <m>\sin \left({6}\pi\right)</m> without using a calculator.</p>
-<p><m>\sin \left({6}\pi\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-105" ww-id="webwork-105">
+    <static seed="105">
+      <statement><p>Evaluate <m>\sin \left({2}\pi\right)</m> without using a calculator.</p>
+<p><m>\sin \left({2}\pi\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
@@ -4114,7 +4097,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4179,14 +4162,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-109" ww-id="webwork-109">
-    <static seed="109">
-      <statement><p>Evaluate <m>\cos \left({-4}\pi\right)</m> without using a calculator.</p>
-<p><m>\cos \left({-4}\pi\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-106" ww-id="webwork-106">
+    <static seed="106">
+      <statement><p>Evaluate <m>\cos \left({3.5}\pi\right)</m> without using a calculator.</p>
+<p><m>\cos \left({3.5}\pi\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>1</m>
+          <m>0</m>
         </p>
       </answer>
     </static>
@@ -4194,7 +4177,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4259,19 +4242,19 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-110" ww-id="webwork-110">
-    <static seed="110">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-107" ww-id="webwork-107">
+    <static seed="107">
       <statement><p>Evaluate the following without using a calculator.</p>
-<p><m>\tan \left({-3.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
-<p><m>\cot \left({-3.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
-<p><m>\sin \left({-3.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
-<p><m>\csc \left({-3.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
-<p><m>\cos \left({-3.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0005"/>.</p>
-<p><m>\sec \left({-3.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0006"/>.</p>
+<p><m>\tan \left({5.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
+<p><m>\cot \left({5.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
+<p><m>\sin \left({5.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
+<p><m>\csc \left({5.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
+<p><m>\cos \left({5.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0005"/>.</p>
+<p><m>\sec \left({5.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0006"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>-2.33303\times 10^{15}</m>
+          <m>4.08178\times 10^{14}</m>
         </p>
       </answer>
       <answer>
@@ -4281,12 +4264,12 @@ ENDDOCUMENT();
       </answer>
       <answer>
         <p>
-          <m>1</m>
+          <m>-1</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>1</m>
+          <m>-1</m>
         </p>
       </answer>
       <answer>
@@ -4296,7 +4279,7 @@ ENDDOCUMENT();
       </answer>
       <answer>
         <p>
-          <m>-2.33303\times 10^{15}</m>
+          <m>-4.08178\times 10^{14}</m>
         </p>
       </answer>
     </static>
@@ -4304,7 +4287,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4385,10 +4368,10 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-111" ww-id="webwork-111">
-    <static seed="111" source="Library/MC/Trigonometry/trig_defn-01.pg">
-      <statement><p>An angle <m>\alpha</m> in standard position has a terminal side which passes through the point <m>(-4,-10)</m>.</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-111-image-1.png" width="33%"/>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-108" ww-id="webwork-108">
+    <static seed="108" source="Library/MC/Trigonometry/trig_defn-01.pg">
+      <statement><p>An angle <m>\alpha</m> in standard position has a terminal side which passes through the point <m>(10,1)</m>.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-108-image-1.png" width="33%"/>
 <p>Determine values for the following:</p>
 <p><m>\sin(\alpha)</m>  = <fillin characters="20" name="AnSwEr0001"/>.</p>
 <p><m>\cos(\alpha)</m>  = <fillin characters="20" name="AnSwEr0002"/>.</p>
@@ -4399,53 +4382,53 @@ ENDDOCUMENT();
 </statement>
       <answer>
         <p>
-          <m>-0.928477</m>
+          <m>0.0995037</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-0.371391</m>
+          <m>0.995037</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>2.5</m>
+          <m>0.1</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>0.4</m>
+          <m>10</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-2.69258</m>
+          <m>1.00499</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-1.07703</m>
+          <m>10.0499</m>
         </p>
       </answer>
-      <solution><p>Given the data point <m>(-4,-10)</m> on the terminal side of the angle, use the Pythagorean Theorem.</p>
+      <solution><p>Given the data point <m>(10,1)</m> on the terminal side of the angle, use the Pythagorean Theorem.</p>
 <p>Distance from the origin along the terminal side is 
-<me>\sqrt{(-4)^2+(-10)^2} = \sqrt{116} \approx 10.7703</me>  
+<me>\sqrt{(10)^2+(1)^2} = \sqrt{101} \approx 10.0499</me>  
 Plugging into the definition:</p>
-<p><m>\sin(\alpha) = (-10)/10.7703 = -0.928477</m></p>
-<p><m>\cos(\alpha) = (-4)/10.7703 = -0.371391</m></p>
-<p><m>\tan(\alpha) = (-10)/(-4) = 2.5</m></p>
-<p><m>\cot(\alpha) = (-4)/(-10) = 0.4</m></p>
-<p><m>\sec(\alpha) = 10.7703/(-4) = -2.69258</m></p>
-<p><m>\csc(\alpha) = 10.7703/(-10) = -1.07703</m></p>
+<p><m>\sin(\alpha) = (1)/10.0499 = 0.0995037</m></p>
+<p><m>\cos(\alpha) = (10)/10.0499 = 0.995037</m></p>
+<p><m>\tan(\alpha) = (1)/(10) = 0.1</m></p>
+<p><m>\cot(\alpha) = (10)/(1) = 10</m></p>
+<p><m>\sec(\alpha) = 10.0499/(10) = 1.00499</m></p>
+<p><m>\csc(\alpha) = 10.0499/(1) = 10.0499</m></p>
 </solution>
     </static>
     <rendering-data sourceFilePath="Library/MC/Trigonometry/trig_defn-01.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/MC/Trigonometry/trig_defn-01.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-112" ww-id="webwork-112">
-    <static seed="112" source="Library/MC/Trigonometry/trig_defn-06.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-109" ww-id="webwork-109">
+    <static seed="109" source="Library/MC/Trigonometry/trig_defn-06.pg">
       <statement><p>An angle <m>\alpha</m> in standard position has a terminal side illustrated below.  Click on the picture for a larger version.</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-112-image-1.png" width="50%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-109-image-1.png" width="50%"/>
 <p>Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r.  Using these values, determine reasonable approximations for the following:</p>
 <p><m>\sin(\alpha)</m>  = <fillin characters="20" name="AnSwEr0001"/>.</p>
 <p><m>\cos(\alpha)</m>  = <fillin characters="20" name="AnSwEr0002"/>.</p>
@@ -4453,33 +4436,33 @@ Plugging into the definition:</p>
 </statement>
       <answer>
         <p>
-          <m>-0.961524</m>
+          <m>-0.5547</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-0.274721</m>
+          <m>-0.83205</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>3.5</m>
+          <m>0.666667</m>
         </p>
       </answer>
-      <solution><p>Pick any point, except the origin, on the terminal side of the angle.  I'll pick <m>(-2,-7)</m>. Use the Pythagorean Theorem to find <m>r</m>.</p>
-<p>The distance from <m>(-2,-7)</m> to the origin is 
-<me>r=\sqrt{(-2)^2+(-7)^2} = \sqrt{53} \approx 7.28011</me>  
+      <solution><p>Pick any point, except the origin, on the terminal side of the angle.  I'll pick <m>(-9,-6)</m>. Use the Pythagorean Theorem to find <m>r</m>.</p>
+<p>The distance from <m>(-9,-6)</m> to the origin is 
+<me>r=\sqrt{(-9)^2+(-6)^2} = \sqrt{117} \approx 10.8167</me>  
 Plug into the definition:</p>
-<p><m>\sin(\alpha) = -7/7.28011 = -0.961524</m></p>
-<p><m>\cos(\alpha) = -2/7.28011 = -0.274721</m></p>
-<p><m>\tan(\alpha) = (-7)/(-2) = 3.5</m></p>
+<p><m>\sin(\alpha) = -6/10.8167 = -0.5547</m></p>
+<p><m>\cos(\alpha) = -9/10.8167 = -0.83205</m></p>
+<p><m>\tan(\alpha) = (-6)/(-9) = 0.666667</m></p>
 </solution>
     </static>
     <rendering-data sourceFilePath="Library/MC/Trigonometry/trig_defn-06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/MC/Trigonometry/trig_defn-06.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-113" ww-id="webwork-113">
-    <static seed="113">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-110" ww-id="webwork-110">
+    <static seed="110">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
 <p>(a) <m>\sin \left(\frac{\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\tan \left(\frac{\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
@@ -4505,7 +4488,7 @@ Plug into the definition:</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4585,8 +4568,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-114" ww-id="webwork-114">
-    <static seed="114">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-111" ww-id="webwork-111">
+    <static seed="111">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
 <p>(a) <m>\sin \left(-\frac{\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\tan \left(-\frac{\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
@@ -4606,7 +4589,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4681,8 +4664,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-115" ww-id="webwork-115">
-    <static seed="115">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-112" ww-id="webwork-112">
+    <static seed="112">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
 <p>(a) <m>\cos \left(\frac{7\pi}{6}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\cot \left(\frac{7\pi}{6}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
@@ -4702,7 +4685,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4777,10 +4760,10 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-116" ww-id="webwork-116">
-    <static seed="116">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-113" ww-id="webwork-113">
+    <static seed="113">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
-<p><m>\cos \left(\frac{{9}\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\cos \left(\frac{{3}\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
@@ -4792,7 +4775,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4857,8 +4840,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-117" ww-id="webwork-117">
-    <static seed="117" source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-114" ww-id="webwork-114">
+    <static seed="114" source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg">
       <statement><p>If an answer is undefined, input <em> undefined </em>.</p>
 <p><m>\sin (0) =</m> <fillin characters="15" name="AnSwEr0001"/>;</p>
 <p><m>\cos (0) =</m> <fillin characters="15" name="AnSwEr0002"/>;</p>
@@ -4901,8 +4884,8 @@ ENDDOCUMENT();
     <rendering-data sourceFilePath="Library/ASU-topics/setUnitCircle/srw5_2_23.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-118" ww-id="webwork-118">
-    <static seed="118" source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-115" ww-id="webwork-115">
+    <static seed="115" source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg">
       <statement><p><m>\cos (\pi/3) =</m> <fillin characters="15" name="AnSwEr0001"/> and <m>\cos (-\pi/3) =</m> <fillin characters="15" name="AnSwEr0002"/>.</p>
 </statement>
       <answer>
@@ -4919,8 +4902,8 @@ ENDDOCUMENT();
     <rendering-data sourceFilePath="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-119" ww-id="webwork-119">
-    <static seed="119" source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-116" ww-id="webwork-116">
+    <static seed="116" source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg">
       <statement><p><m>\cos (\pi/2) =</m> <fillin characters="15" name="AnSwEr0001"/> and <m>\cos (5\pi/2) =</m> <fillin characters="15" name="AnSwEr0002"/>.</p>
 </statement>
       <answer>
@@ -4937,8 +4920,8 @@ ENDDOCUMENT();
     <rendering-data sourceFilePath="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-120" ww-id="webwork-120">
-    <static seed="120" source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-117" ww-id="webwork-117">
+    <static seed="117" source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg">
       <statement><p><m>\cos (\pi) =</m> <fillin characters="15" name="AnSwEr0001"/> and <m>\cos (-\pi) =</m> <fillin characters="15" name="AnSwEr0002"/>.</p>
 </statement>
       <answer>
@@ -4955,10 +4938,10 @@ ENDDOCUMENT();
     <rendering-data sourceFilePath="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-121" ww-id="webwork-121">
-    <static seed="121">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-118" ww-id="webwork-118">
+    <static seed="118">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
-<p><m>\sin \left(\frac{{1}\pi}{3}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\sin \left(\frac{{-4}\pi}{3}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
@@ -4970,7 +4953,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5035,14 +5018,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-122" ww-id="webwork-122">
-    <static seed="122">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-119" ww-id="webwork-119">
+    <static seed="119">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
-<p><m>\tan \left(\frac{{3}\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\tan \left(\frac{{-3}\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>-1</m>
+          <m>1</m>
         </p>
       </answer>
     </static>
@@ -5050,7 +5033,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5115,10 +5098,10 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-123" ww-id="webwork-123">
-    <static seed="123">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-120" ww-id="webwork-120">
+    <static seed="120">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
-<p><m>\sin \left(\frac{{5}\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\sin \left(\frac{{-1}\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
@@ -5130,7 +5113,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5195,14 +5178,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-124" ww-id="webwork-124">
-    <static seed="124">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-121" ww-id="webwork-121">
+    <static seed="121">
       <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
-<p><m>\sin \left(\frac{{7}\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\sin \left(\frac{{1}\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>-0.5</m>
+          <m>0.5</m>
         </p>
       </answer>
     </static>
@@ -5210,7 +5193,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5275,8 +5258,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-125" ww-id="webwork-125">
-    <static seed="125">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-122" ww-id="webwork-122">
+    <static seed="122">
       <statement><p>Use the graphs of trigonometric functions to find the following information.</p>
 <p>(a) <m>\cos 0 =</m> <fillin characters="6" name="AnSwEr0001"/></p>
 <p>(b) <m>\tan \pi =</m> <fillin characters="6" name="AnSwEr0002"/></p>
@@ -5302,7 +5285,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5379,8 +5362,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-126" ww-id="webwork-126">
-    <static seed="126">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-123" ww-id="webwork-123">
+    <static seed="123">
       <statement><p>Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.</p>
 <p>(a) <m>y=\csc x</m> is an odd function. <fillin characters="6" name="AnSwEr0001"/></p>
 <p>(b) <m>\sec \left( 3 \right) = \tan \left( -3 \right)</m>  <fillin characters="6" name="AnSwEr0002"/></p>
@@ -5412,7 +5395,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5488,14 +5471,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-127" ww-id="webwork-127">
-    <static seed="127">
-      <statement><p>Compared to the graph of <m>y=\tan x\text{,}</m> the graph of <m>y=\tan (2x)</m> is compressed horizontally by a factor of <m>2\text{.}</m></p>
-<p>What is the period of <m>\tan \left(2x\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-124" ww-id="webwork-124">
+    <static seed="124">
+      <statement><p>Compared to the graph of <m>y=\tan x\text{,}</m> the graph of <m>y=\tan (7x)</m> is compressed horizontally by a factor of <m>7\text{.}</m></p>
+<p>What is the period of <m>\tan \left(7x\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{2\pi }{2}</m>
+          <m>\frac{2\pi }{7}</m>
         </p>
       </answer>
     </static>
@@ -5503,7 +5486,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5570,17 +5553,17 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-128" ww-id="webwork-128">
-    <static seed="128" source="Library/MC/Trigonometry/Graphing03.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-125" ww-id="webwork-125">
+    <static seed="125" source="Library/MC/Trigonometry/Graphing03.pg">
       <statement><p>The graph below illustrates one complete cycle for <m>y = A\cos(Bx+c)</m> with <m>A</m> positive.</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-128-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-125-image-1.png" width="66%"/>
 <p>Amplitude = <fillin characters="5" name="AnSwEr0001"/></p>
 <p>Period = <fillin characters="5" name="AnSwEr0002"/>;</p>
 <p>Phase shift = <fillin characters="5" name="AnSwEr0003"/>;</p>
 </statement>
       <answer>
         <p>
-          <m>2.5</m>
+          <m>4.5</m>
         </p>
       </answer>
       <answer>
@@ -5597,10 +5580,10 @@ ENDDOCUMENT();
     <rendering-data sourceFilePath="Library/MC/Trigonometry/Graphing03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/MC/Trigonometry/Graphing03.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-129" ww-id="webwork-129">
-    <static seed="129" source="Library/MC/Trigonometry/Graphing02.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-126" ww-id="webwork-126">
+    <static seed="126" source="Library/MC/Trigonometry/Graphing02.pg">
       <statement><p>For the curve</p>
-<p><m>y = - 19 \tan(6 x - 3 )</m></p>
+<p><m>y = - 24 \tan(4 x + 4 )</m></p>
 <p>determine each of the following:</p>
 <p>Period = <fillin characters="15" name="AnSwEr0001"/></p>
 <p>Phase shift =  <fillin characters="15" name="AnSwEr0002"/></p>
@@ -5613,25 +5596,25 @@ Note:  Use a negative for a shift to the left.
 </hint>
       <answer>
         <p>
-          <m>0.523598775598299</m>
+          <m>0.785398163397448</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>0.5</m>
+          <m>-1</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/MC/Trigonometry/Graphing02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/MC/Trigonometry/Graphing02.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-130" ww-id="webwork-130">
-    <static seed="130">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-127" ww-id="webwork-127">
+    <static seed="127">
       <statement><p>(a) Sketch a few periods of the graph of <m>y=\sin x\text{.}</m></p>
 <p>(b) Sketch a few periods of the graph of <m>y=3\cos x\text{.}</m></p>
 <p>(c) Sketch a few periods of the graph of <m>y=\tan (x-\pi)\text{.}</m></p>
 <p>(d) It is true or false that <m>\tan (x-\pi) = \tan x\text{?}</m> <fillin characters="6" name="AnSwEr0001"/> (Enter 1 for TRUE and 0 for FALSE.)</p>
-<p>(e) What is the period of <m>y=5 \sin (9 x-9)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
+<p>(e) What is the period of <m>y=2 \sin (9 x-7)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
 <p>(f) What is <m>\tan 0\text{?}</m> <fillin characters="6" name="AnSwEr0003"/></p>
 <p>(g) What is <m>\cos 0\text{?}</m> <fillin characters="6" name="AnSwEr0004"/></p>
 <p>(h) What is <m>\sin (-\pi)\text{?}</m> <fillin characters="6" name="AnSwEr0005"/></p>
@@ -5666,7 +5649,7 @@ Note:  Use a negative for a shift to the left.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5753,12 +5736,12 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-131" ww-id="webwork-131">
-    <static seed="131">
-      <statement><p>Find the following for the function <m>y=6\cos \left(6x\right)</m></p>
-<p>(a) What is the period of <m>y=6\sin \left(6x+5\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
-<p>(b) What is the amplitude of <m>y=6\sin \left(6x+5\right)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
-<p>(c) What is the phase shift of <m>y=6\sin \left(6x+5\right)\text{?}</m> <fillin characters="6" name="AnSwEr0003"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-128" ww-id="webwork-128">
+    <static seed="128">
+      <statement><p>Find the following for the function <m>y=3\cos \left(6x\right)</m></p>
+<p>(a) What is the period of <m>y=3\sin \left(6x+3\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
+<p>(b) What is the amplitude of <m>y=3\sin \left(6x+3\right)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
+<p>(c) What is the phase shift of <m>y=3\sin \left(6x+3\right)\text{?}</m> <fillin characters="6" name="AnSwEr0003"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
 </statement>
       <answer>
         <p>
@@ -5767,7 +5750,7 @@ ENDDOCUMENT();
       </answer>
       <answer>
         <p>
-          <m>6</m>
+          <m>3</m>
         </p>
       </answer>
       <answer>
@@ -5780,7 +5763,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5859,16 +5842,21 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-132" ww-id="webwork-132">
-    <static seed="132">
-      <statement><p>Find the following for the function <m>y=6\sin \left(3x-8\right)</m></p>
-<p>(a) What is the period of <m>y=6\sin \left(3x+8\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
-<p>(b) What is the amplitude of <m>y=6\sin \left(3x+8\right)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
-<p>(c) What is the phase shift of <m>y=6\sin \left(3x+8\right)\text{?}</m> <fillin characters="6" name="AnSwEr0003"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-129" ww-id="webwork-129">
+    <static seed="129">
+      <statement><p>Find the following for the function <m>y=4\sin \left(4x-6\right)</m></p>
+<p>(a) What is the period of <m>y=4\sin \left(4x+6\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
+<p>(b) What is the amplitude of <m>y=4\sin \left(4x+6\right)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
+<p>(c) What is the phase shift of <m>y=4\sin \left(4x+6\right)\text{?}</m> <fillin characters="6" name="AnSwEr0003"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
 </statement>
       <answer>
         <p>
-          <m>\frac{2\pi }{3}</m>
+          <m>\frac{2\pi }{4}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4</m>
         </p>
       </answer>
       <answer>
@@ -5876,17 +5864,12 @@ ENDDOCUMENT();
           <m>6</m>
         </p>
       </answer>
-      <answer>
-        <p>
-          <m>8</m>
-        </p>
-      </answer>
     </static>
     <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-Find_period_amplitude_phase_shift__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5965,22 +5948,22 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-133" ww-id="webwork-133">
-    <static seed="133" source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-130" ww-id="webwork-130">
+    <static seed="130" source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg">
       <statement><p>Which function is described by the plot below?</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-133-image-1.png" width="75%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-130-image-1.png" width="75%"/>
 <p><ol form="buttons" marker="A" name="AnSwEr0001">
 <li>
-<p><m> y = 2 \cos(2x - 1) + 1 </m></p>
+<p><m> y = \sin(2x + 1) + 1 </m></p>
 </li>
 <li>
 <p><m> y = 2 \cos(0.5x - 1) + 1 </m></p>
 </li>
 <li>
-<p><m> y =0.5 \sin(2x - 1) + 1 </m></p>
+<p><m> y = 2 \cos(2x - 1) + 1 </m></p>
 </li>
 <li>
-<p><m> y = \sin(2x + 1) + 1 </m></p>
+<p><m> y =0.5 \sin(2x - 1) + 1 </m></p>
 </li>
 <li>
 <p><m> y = 2 \sin(0.5x - 1) - 1 </m></p>
@@ -5999,28 +5982,28 @@ ENDDOCUMENT();
     <rendering-data sourceFilePath="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-134" ww-id="webwork-134">
-    <static seed="134" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-131" ww-id="webwork-131">
+    <static seed="131" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg">
       <statement><p>Below is the graph of the function
 <m>f(x) = 10 \sin{ \left( \frac{\pi}{5} x \right)}</m> in blue,
 and a second sinusoidal function <m>y = g(x)</m> in red, which is
 a horizontal shift of <m>y = f(x)</m>.  Find a formula for the
 function <m>g(x)</m>.</p>
 <p><m>g(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-134-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-131-image-1.png" width="66%"/>
 <p><em>(Click on graph to enlarge)</em></p>
 </statement>
       <answer>
         <p>
-          <m>10\sin\mathopen{}\left(\frac{\pi }{5}x-\frac{4\pi }{5}\right)</m>
+          <m>10\sin\mathopen{}\left(\frac{\pi }{5}x-\frac{3\pi }{5}\right)</m>
         </p>
       </answer>
       <solution><alert>  SOLUTION </alert>
 
 
 
-Since graph has been shifted by <m>\frac{ 4 }{10}</m> of a period, the phase shift is <m>\phi = (2 \pi ) \cdot  \left( \frac{ 4 }{10} \right) = \frac{4 \pi}{5}</m>.  Therefore the formula for <m>g(x)</m> is:
-<me>g(x) = 10 \sin{ \left( \frac{\pi}{5} \ x - \phi \right) } = 10 \sin{ \left( \frac{\pi}{5} \ x - \frac{4 \pi}{5} \right) }.</me>
+Since graph has been shifted by <m>\frac{ 3 }{10}</m> of a period, the phase shift is <m>\phi = (2 \pi ) \cdot  \left( \frac{ 3 }{10} \right) = \frac{3 \pi}{5}</m>.  Therefore the formula for <m>g(x)</m> is:
+<me>g(x) = 10 \sin{ \left( \frac{\pi}{5} \ x - \phi \right) } = 10 \sin{ \left( \frac{\pi}{5} \ x - \frac{3 \pi}{5} \right) }.</me>
 
 
 
@@ -6029,17 +6012,17 @@ Since graph has been shifted by <m>\frac{ 4 }{10}</m> of a period, the phase shi
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-135" ww-id="webwork-135">
-    <static seed="135" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-132" ww-id="webwork-132">
+    <static seed="132" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg">
       <statement><p>Find a formula for the trigonometric function graphed below.
 Use <m>x</m> as the independent variable in your formula.</p>
 <p><m>f(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-135-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-132-image-1.png" width="66%"/>
 <p><em>(Click on graph to enlarge)</em></p>
 </statement>
       <answer>
         <p>
-          <m>0.8\cos\mathopen{}\left(12x\right)</m>
+          <m>0.6\sin\mathopen{}\left(12x\right)</m>
         </p>
       </answer>
       <solution><alert>  SOLUTION </alert>
@@ -6047,15 +6030,15 @@ Use <m>x</m> as the independent variable in your formula.</p>
 
 
 
-This function resembles a cosine curve in that it attains its maximum when <m>x = 0</m>.
-We know that the smallest value it attains is <m>-0.8</m>, that
-its midline is <m>y = 0</m>, so its amplitude is <m>0.8</m>.  Thus in the
-equation  <m>f(x) = A \cos{(Bx)} + k</m> we know that  <m>A = 0.8</m> and
+This function resembles a sine curve in that the graph is at its midline when <m>x = 0</m>.
+We know that the smallest value it attains is <m>-0.6</m>, that
+its midline is <m>y = 0</m>, so its amplitude is <m>0.6</m>.  Thus in the
+equation  <m>f(x) = A \sin{(Bx)} + k</m> we know that  <m>A = 0.6</m> and
 <m>k = 0</m>. Since the graph has a period of <m>\frac{\pi}{6}</m>,
 the value for
 <m>B = \frac{2 \pi}{\mbox{period}} = \frac{2 \pi}{\pi/6} = 2 \cdot 6 = 12</m>.
 Finally we have a formula:
-<me>f(x) =  0.8 \cos{(12 x)}.</me>
+<me>f(x) =  0.6 \sin{(12 x)}.</me>
 
 
 
@@ -6064,17 +6047,17 @@ Finally we have a formula:
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-136" ww-id="webwork-136">
-    <static seed="136" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-133" ww-id="webwork-133">
+    <static seed="133" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg">
       <statement><p>Find a formula for the trigonometric function graphed below.
 Use <m>x</m> as the independent variable in your formula.</p>
 <p><m>f(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-136-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-133-image-1.png" width="66%"/>
 <p><em>(Click on graph to enlarge)</em></p>
 </statement>
       <answer>
         <p>
-          <m>2-2\cos\mathopen{}\left(\frac{\pi }{11}x\right)</m>
+          <m>12-12\cos\mathopen{}\left(\frac{\pi }{11}x\right)</m>
         </p>
       </answer>
       <solution><alert>  SOLUTION </alert>
@@ -6082,8 +6065,8 @@ Use <m>x</m> as the independent variable in your formula.</p>
 
 
 
-This function resembles a cosine curve in that it attains its minimum (not midline) when <m>x = 0</m>.  Since the value is at its minimum (not maximum) at <m>x = 0</m>, we need to use the formula <m>f(x) = - \cos{(x)}</m>.  We know that the smallest value it attains is <m>0</m>, that its midline is <m>y = 2</m>, so its amplitude is <m>2</m> as well.  Thus in the equation <m>f(x) = -A \cos{(Bx)} + k</m> we know that  <m>A = 2</m> and <m>k = 2</m>. Since the graph has a period of <m>22</m>, the value for <m>B = \frac{2 \pi}{\mbox{period}} = \frac{2 \pi}{22} = \frac{\pi}{11}</m>.  Finally we have a formula:
-<me>f(x) =  2-2 \cos{ \left( \frac{\pi}{11} x \right) }.</me>
+This function resembles a cosine curve in that it attains its minimum (not midline) when <m>x = 0</m>.  Since the value is at its minimum (not maximum) at <m>x = 0</m>, we need to use the formula <m>f(x) = - \cos{(x)}</m>.  We know that the smallest value it attains is <m>0</m>, that its midline is <m>y = 12</m>, so its amplitude is <m>12</m> as well.  Thus in the equation <m>f(x) = -A \cos{(Bx)} + k</m> we know that  <m>A = 12</m> and <m>k = 12</m>. Since the graph has a period of <m>22</m>, the value for <m>B = \frac{2 \pi}{\mbox{period}} = \frac{2 \pi}{22} = \frac{\pi}{11}</m>.  Finally we have a formula:
+<me>f(x) =  12-12 \cos{ \left( \frac{\pi}{11} x \right) }.</me>
 
 
 
@@ -6092,35 +6075,35 @@ This function resembles a cosine curve in that it attains its minimum (not midli
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-137" ww-id="webwork-137">
-    <static seed="137" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg">
-      <statement><p>Suppose <m>y = 6 \cos{ (4 t + 17 )} - 4</m>. In your answers, enter <em>pi</em> for <m>\pi</m>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-134" ww-id="webwork-134">
+    <static seed="134" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg">
+      <statement><p>Suppose <m>y = 2 \cos{ (8 t + 18 )} - 6</m>. In your answers, enter <em>pi</em> for <m>\pi</m>.</p>
 <p>(a) What is the phase shift? <fillin characters="10" name="AnSwEr0001"/></p>
 <p>(b) What is the horizontal shift? <fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>-17</m>
+          <m>-18</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>\frac{-17}{4}</m>
+          <m>\frac{-18}{8}</m>
         </p>
       </answer>
       <solution><alert>  SOLUTION </alert>
 
 
 
-(a) We see that the phase shift is <m>-17</m>, since the function is in a form
+(a) We see that the phase shift is <m>-18</m>, since the function is in a form
 that shows it.
 
 
 
-(b) To find the horizontal shift, we factor out a 4 within the cosine
+(b) To find the horizontal shift, we factor out a 8 within the cosine
 function, giving us
-<me>y = 6 \cos{ (4 t + 17 )} - 4 = 6 \cos{ \big( 4 (t + \frac{17}{4}) \big) } - 4</me>
-Thus, the horizontal shift is  <m>-\frac{17}{4}</m>.
+<me>y = 2 \cos{ (8 t + 18 )} - 6 = 2 \cos{ \big( 8 (t + \frac{9}{4}) \big) } - 6</me>
+Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 
 
 
@@ -6129,23 +6112,23 @@ Thus, the horizontal shift is  <m>-\frac{17}{4}</m>.
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-138" ww-id="webwork-138">
-    <static seed="138" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg">
-      <statement><p>Suppose <m>y = -3 \cos{ (4 t + 9 )} + 6</m>. In your answers, enter <em>pi</em> for <m>\pi</m>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-135" ww-id="webwork-135">
+    <static seed="135" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg">
+      <statement><p>Suppose <m>y = -7 \cos{ (9 t + 10 )} + 4</m>. In your answers, enter <em>pi</em> for <m>\pi</m>.</p>
 <p>What is the horizontal shift? <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>\frac{-9}{4}</m>
+          <m>\frac{-10}{9}</m>
         </p>
       </answer>
       <solution><alert>  SOLUTION </alert>
 
 
 
- To find the horizontal shift, we factor out a 4 within the cosine function, giving us
-<me>y = -3 \cos{ (4 t + 9 )} + 6 = -3 \cos{ \big( 4 (t + \frac{9}{4}) \big) } + 6</me>
-Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
+ To find the horizontal shift, we factor out a 9 within the cosine function, giving us
+<me>y = -7 \cos{ (9 t + 10 )} + 4 = -7 \cos{ \big( 9 (t + \frac{10}{9}) \big) } + 4</me>
+Thus, the horizontal shift is  <m>-\frac{10}{9}</m>.
 
 
 
@@ -6154,10 +6137,10 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-139" ww-id="webwork-139">
-    <static seed="139" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-136" ww-id="webwork-136">
+    <static seed="136" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg">
       <statement><p>Without a calculator, sketch the first two periods of the graph of the function
-<m>f(x) = -1 - 8 \cos{( 70 \pi x)}</m>.</p>
+<m>f(x) = -5 - 8 \cos{( 50 \pi x)}</m>.</p>
 <p>Which graph below A-E matches your sketch?
 <var form="popup">
 <li>
@@ -6170,10 +6153,10 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 <p>C</p>
 </li>
 <li>
-<p>Choose</p>
+<p>D</p>
 </li>
 <li>
-<p>D</p>
+<p>Choose</p>
 </li>
 <li>
 <p>B</p>
@@ -6182,10 +6165,10 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
 <row halign="center" valign="middle">
 <cell>
-<image pi:generated="webwork/images/webwork-139-image-1.png" width="41%"/>
+<image pi:generated="webwork/images/webwork-136-image-1.png" width="41%"/>
 </cell>
 <cell>
-<image pi:generated="webwork/images/webwork-139-image-2.png" width="41%"/>
+<image pi:generated="webwork/images/webwork-136-image-2.png" width="41%"/>
 </cell>
 </row>
 <row halign="center" valign="middle">
@@ -6194,10 +6177,10 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 </row>
 <row halign="center" valign="middle">
 <cell>
-<image pi:generated="webwork/images/webwork-139-image-3.png" width="41%"/>
+<image pi:generated="webwork/images/webwork-136-image-3.png" width="41%"/>
 </cell>
 <cell>
-<image pi:generated="webwork/images/webwork-139-image-4.png" width="41%"/>
+<image pi:generated="webwork/images/webwork-136-image-4.png" width="41%"/>
 </cell>
 </row>
 <row halign="center" valign="middle">
@@ -6206,7 +6189,7 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 </row>
 <row halign="center" valign="middle">
 <cell>
-<image pi:generated="webwork/images/webwork-139-image-5.png" width="41%"/>
+<image pi:generated="webwork/images/webwork-136-image-5.png" width="41%"/>
 <p/></cell>
 <cell> </cell>
 </row>
@@ -6221,8 +6204,8 @@ Thus, the horizontal shift is  <m>-\frac{9}{4}</m>.
 
 
 
-The function <m>f(x) = -1 - 8 \cos{( 70 \pi x)}</m> has midline <m>y = k = -1</m> and amplitude <m>| A | = 8</m>.  Since <m>B = 70 \pi</m>, the period is
-<me>\mbox{period} = \frac{ 2 \pi}{B} = \frac{2 \pi}{70 \pi} = \frac{1}{35}.</me>
+The function <m>f(x) = -5 - 8 \cos{( 50 \pi x)}</m> has midline <m>y = k = -5</m> and amplitude <m>| A | = 8</m>.  Since <m>B = 50 \pi</m>, the period is
+<me>\mbox{period} = \frac{ 2 \pi}{B} = \frac{2 \pi}{50 \pi} = \frac{1}{25}.</me>
 Since this is a cosine function with a negative value for the parameter <m>A = - 8</m>, when <m>x = 0</m> the graph is at its minimum value.  Therefore the correct answer is graph B .
 
 
@@ -6232,13 +6215,13 @@ Since this is a cosine function with a negative value for the parameter <m>A = -
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-140" ww-id="webwork-140">
-    <static seed="140" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-137" ww-id="webwork-137">
+    <static seed="137" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg">
       <statement><p>Decide whether the following graph appears to be a periodic function.
 If so enter the value of its period in the blank.  If the graph does
 not appear to be periodic enter NONE.</p>
 <p>The period is <fillin characters="10" name="AnSwEr0001"/> (Enter NONE if not periodic.)</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-140-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-137-image-1.png" width="66%"/>
 <p><em>(Click on graph to enlarge)</em></p>
 </statement>
       <answer>
@@ -6260,13 +6243,13 @@ repeat, they do not repeat at regular intervals.  Moving away from the origin ho
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-141" ww-id="webwork-141">
-    <static seed="141" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-138" ww-id="webwork-138">
+    <static seed="138" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg">
       <statement><p>Decide whether the following graph appears to be a periodic function.
 If so enter the value of its period in the blank.  If the graph does
 not appear to be periodic enter NONE.</p>
 <p>The period is <fillin characters="10" name="AnSwEr0001"/> (Enter NONE if not periodic.)</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-141-image-1.png" width="66%"/>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-138-image-1.png" width="66%"/>
 <p><em>(Click on graph to enlarge)</em></p>
 </statement>
       <answer>
@@ -6287,8 +6270,8 @@ This appears to be a periodic function.  It repeats regularly with period 1.
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-142" ww-id="webwork-142">
-    <static seed="142">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-139" ww-id="webwork-139">
+    <static seed="139">
       <statement><p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2}\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arcsin \left(-\frac{\sqrt{3}}{2}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -6302,7 +6285,7 @@ This appears to be a periodic function.  It repeats regularly with period 1.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6369,8 +6352,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-143" ww-id="webwork-143">
-    <static seed="143">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-140" ww-id="webwork-140">
+    <static seed="140">
       <statement><p>Evaluate <m>\arcsin \left(\frac{1}{2}\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arcsin \left(\frac{1}{2}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -6384,7 +6367,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6451,14 +6434,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-144" ww-id="webwork-144">
-    <static seed="144">
-      <statement><p>Evaluate <m>\sin \left(\arcsin \left(-\frac{{11}}{{12}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
-<p><m>\sin \left(\arcsin \left(-\frac{{11}}{{12}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-141" ww-id="webwork-141">
+    <static seed="141">
+      <statement><p>Evaluate <m>\sin \left(\arcsin \left(-\frac{{7}}{{8}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+<p><m>\sin \left(\arcsin \left(-\frac{{7}}{{8}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>-0.916667</m>
+          <m>-0.875</m>
         </p>
       </answer>
     </static>
@@ -6466,7 +6449,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6533,8 +6516,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-145" ww-id="webwork-145">
-    <static seed="145">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-142" ww-id="webwork-142">
+    <static seed="142">
       <statement><p>Evaluate <m>\arcsin \left(\sin \left(\frac{5\pi}{6}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arcsin \left(\sin \left(\frac{5\pi}{6}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -6548,7 +6531,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6615,8 +6598,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-146" ww-id="webwork-146">
-    <static seed="146">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-143" ww-id="webwork-143">
+    <static seed="143">
       <statement><p>Evaluate <m>\arccos \left(\frac{1}{\sqrt{2}}\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arccos \left(\frac{1}{\sqrt{2}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -6630,7 +6613,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6697,8 +6680,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-147" ww-id="webwork-147">
-    <static seed="147">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-144" ww-id="webwork-144">
+    <static seed="144">
       <statement><p>Evaluate <m>\arccos 1</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arccos 1=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -6712,7 +6695,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6779,14 +6762,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-148" ww-id="webwork-148">
-    <static seed="148">
-      <statement><p>Evaluate <m>\cos \left(\arccos \left(\frac{{5}}{{6}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
-<p><m>\cos \left(\arccos \left(\frac{{5}}{{6}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-145" ww-id="webwork-145">
+    <static seed="145">
+      <statement><p>Evaluate <m>\cos \left(\arccos \left(\frac{{1}}{{2}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+<p><m>\cos \left(\arccos \left(\frac{{1}}{{2}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>0.833333</m>
+          <m>0.5</m>
         </p>
       </answer>
     </static>
@@ -6794,7 +6777,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6861,14 +6844,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-149" ww-id="webwork-149">
-    <static seed="149">
-      <statement><p>Evaluate <m>\arccos \left(\cos \left(-\frac{\pi}{{7}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
-<p><m>\arccos \left(\cos \left(-\frac{\pi}{{7}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-146" ww-id="webwork-146">
+    <static seed="146">
+      <statement><p>Evaluate <m>\arccos \left(\cos \left(-\frac{\pi}{{3}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+<p><m>\arccos \left(\cos \left(-\frac{\pi}{{3}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>0.448799</m>
+          <m>1.0472</m>
         </p>
       </answer>
     </static>
@@ -6876,7 +6859,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6943,8 +6926,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-150" ww-id="webwork-150">
-    <static seed="150">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-147" ww-id="webwork-147">
+    <static seed="147">
       <statement><p>Evaluate <m>\arctan 1</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arctan 1=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -6958,7 +6941,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7025,8 +7008,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-151" ww-id="webwork-151">
-    <static seed="151">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-148" ww-id="webwork-148">
+    <static seed="148">
       <statement><p>Evaluate <m>\mbox{arcsec} \left(-\sqrt{2} \right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\mbox{arcsec} \left(-\sqrt{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7040,7 +7023,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7107,8 +7090,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-152" ww-id="webwork-152">
-    <static seed="152">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-149" ww-id="webwork-149">
+    <static seed="149">
       <statement><p>Evaluate <m>\mbox{arccsc} \left(\sqrt{2} \right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\mbox{arccsc}\left(\sqrt{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7122,7 +7105,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7189,8 +7172,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-153" ww-id="webwork-153">
-    <static seed="153" source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-150" ww-id="webwork-150">
+    <static seed="150" source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg">
       <statement><p>State the domain and range of each of the following functions:</p>
 <p>(Enter your answers as inequalities: .
 Your domains should be inequalities in <m>x</m> and ranges, in <m>y</m>.
@@ -7263,8 +7246,8 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-154" ww-id="webwork-154">
-    <static seed="154">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-151" ww-id="webwork-151">
+    <static seed="151">
       <statement><p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7278,7 +7261,7 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7347,8 +7330,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-155" ww-id="webwork-155">
-    <static seed="155">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-152" ww-id="webwork-152">
+    <static seed="152">
       <statement><p>Evaluate <m>\arcsin \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7362,7 +7345,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7431,8 +7414,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-156" ww-id="webwork-156">
-    <static seed="156">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-153" ww-id="webwork-153">
+    <static seed="153">
       <statement><p>Evaluate <m>\arccos \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arccos \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7446,7 +7429,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7515,8 +7498,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-157" ww-id="webwork-157">
-    <static seed="157">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-154" ww-id="webwork-154">
+    <static seed="154">
       <statement><p>Evaluate <m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7530,7 +7513,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7599,8 +7582,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-158" ww-id="webwork-158">
-    <static seed="158">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-155" ww-id="webwork-155">
+    <static seed="155">
       <statement><p>Evaluate <m>\arctan \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arctan \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7614,7 +7597,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7683,8 +7666,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-159" ww-id="webwork-159">
-    <static seed="159">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-156" ww-id="webwork-156">
+    <static seed="156">
       <statement><p>Evaluate <m>\arcsin \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7698,7 +7681,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7767,8 +7750,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-160" ww-id="webwork-160">
-    <static seed="160">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-157" ww-id="webwork-157">
+    <static seed="157">
       <statement><p>Evaluate <m>\sin^{-1} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\sin^{-1} \left(0 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7782,7 +7765,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7849,8 +7832,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-161" ww-id="webwork-161">
-    <static seed="161">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-158" ww-id="webwork-158">
+    <static seed="158">
       <statement><p>Evaluate <m>\arccos \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arccos \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7864,7 +7847,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7933,8 +7916,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-162" ww-id="webwork-162">
-    <static seed="162">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-159" ww-id="webwork-159">
+    <static seed="159">
       <statement><p>Evaluate <m>\arcsin \left(\frac{1}{\sqrt{2}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left(\frac{1}{\sqrt{2}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -7948,7 +7931,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8017,8 +8000,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-163" ww-id="webwork-163">
-    <static seed="163">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-160" ww-id="webwork-160">
+    <static seed="160">
       <statement><p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8032,7 +8015,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8101,8 +8084,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-164" ww-id="webwork-164">
-    <static seed="164">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-161" ww-id="webwork-161">
+    <static seed="161">
       <statement><p>Evaluate <m>\tan^{-1} \left(-\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\tan^{-1} \left(-\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8116,7 +8099,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8185,8 +8168,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-165" ww-id="webwork-165">
-    <static seed="165">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-162" ww-id="webwork-162">
+    <static seed="162">
       <statement><p>Evaluate <m>\mbox{arccot} \left(\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arcot} \left(\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8200,7 +8183,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8269,8 +8252,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-166" ww-id="webwork-166">
-    <static seed="166">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-163" ww-id="webwork-163">
+    <static seed="163">
       <statement><p>Evaluate <m>\mbox{arccot} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arcot} \left(0\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8284,7 +8267,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8353,8 +8336,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-167" ww-id="webwork-167">
-    <static seed="167">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-164" ww-id="webwork-164">
+    <static seed="164">
       <statement><p>Evaluate <m>\mbox{arcsec} \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arsec} \left(-1\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8368,7 +8351,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8437,8 +8420,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-168" ww-id="webwork-168">
-    <static seed="168">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-165" ww-id="webwork-165">
+    <static seed="165">
       <statement><p>Evaluate <m>\mbox{arccsc} \left(-\sqrt{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arccsc} \left(-\sqrt{2} \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8452,7 +8435,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8521,8 +8504,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-169" ww-id="webwork-169">
-    <static seed="169">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-166" ww-id="webwork-166">
+    <static seed="166">
       <statement><p>Evaluate <m>\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8536,7 +8519,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8605,8 +8588,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-170" ww-id="webwork-170">
-    <static seed="170">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-167" ww-id="webwork-167">
+    <static seed="167">
       <statement><p>Evaluate <m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8620,7 +8603,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8689,8 +8672,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-171" ww-id="webwork-171">
-    <static seed="171">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-168" ww-id="webwork-168">
+    <static seed="168">
       <statement><p>Evaluate <m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8704,7 +8687,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8773,8 +8756,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-172" ww-id="webwork-172">
-    <static seed="172">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-169" ww-id="webwork-169">
+    <static seed="169">
       <statement><p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8788,7 +8771,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8857,8 +8840,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-173" ww-id="webwork-173">
-    <static seed="173">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-170" ww-id="webwork-170">
+    <static seed="170">
       <statement><p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -8872,7 +8855,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8941,14 +8924,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-174" ww-id="webwork-174">
-    <static seed="174">
-      <statement><p>Evaluate <m>\tan \left(\arctan \left(\frac{{3}}{{4}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
-<p><m>\tan \left(\arctan \left(\frac{{3}}{{4}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-171" ww-id="webwork-171">
+    <static seed="171">
+      <statement><p>Evaluate <m>\tan \left(\arctan \left(\frac{{11}}{{12}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+<p><m>\tan \left(\arctan \left(\frac{{11}}{{12}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>0.75</m>
+          <m>0.916667</m>
         </p>
       </answer>
     </static>
@@ -8956,7 +8939,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9023,8 +9006,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-175" ww-id="webwork-175">
-    <static seed="175">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-172" ww-id="webwork-172">
+    <static seed="172">
       <statement><p>Evaluate <m>\cos \left(2 \arcsin \left(1\right)\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\cos \left(2 \arcsin \left(1\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -9038,7 +9021,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9105,8 +9088,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-176" ww-id="webwork-176">
-    <static seed="176">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-173" ww-id="webwork-173">
+    <static seed="173">
       <statement><p>Evaluate <m>\tan \left(4 \cos^{-1} \left(\frac{1}{\sqrt{2}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\tan \left(4 \cos^{-1} \left(\frac{1}{\sqrt{2}}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -9120,7 +9103,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9187,8 +9170,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-177" ww-id="webwork-177">
-    <static seed="177">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-174" ww-id="webwork-174">
+    <static seed="174">
       <statement><p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -9202,7 +9185,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9271,136 +9254,136 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-178" ww-id="webwork-178">
-    <static seed="178" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-175" ww-id="webwork-175">
+    <static seed="175" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
       <statement><p>Use the properties of exponents to simplify the following</p>
-<p><m>{t^{15}}\cdot{t^{6}} =</m>
+<p><m>{r^{9}}\cdot{r^{7}} =</m>
 <fillin characters="12" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>t^{21}</m>
+          <m>r^{16}</m>
         </p>
       </answer>
       <solution><p>We <em>add</em> the exponents as follows</p>
 <p><m>\begin{aligned}
-           t^{15}\cdot t^{6}\amp =t^{15+6}\\
-                             \amp =t^{21}
+           r^{9}\cdot r^{7}\amp =r^{9+7}\\
+                             \amp =r^{16}
        \end{aligned}</m></p>
 </solution>
     </static>
     <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-176" ww-id="webwork-176">
+    <static seed="176" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+      <statement><p>Use the properties of exponents to simplify the following</p>
+<p><m>{x^{11}}\cdot{x^{19}} =</m>
+<fillin characters="12" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x^{30}</m>
+        </p>
+      </answer>
+      <solution><p>We <em>add</em> the exponents as follows</p>
+<p><m>\begin{aligned}
+           x^{11}\cdot x^{19}\amp =x^{11+19}\\
+                             \amp =x^{30}
+       \end{aligned}</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-177" ww-id="webwork-177">
+    <static seed="177" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
+      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{7}</m> and the angle <m>\theta</m> is in the first quadrant.
+Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
+<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
+<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\sqrt{1-\frac{x^{2}}{7^{2}}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{x}{\sqrt{7^{2}-x^{2}}}</m>
+        </p>
+      </answer>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
+<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{7} \right)^2 = \frac{ 49 - x^2}{49}.</me>
+Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 49 - x^2}{49} }</m>
+
+
+
+(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{7}}{\sqrt{\frac{ 49 - x^2}{49}} } = \frac{x}{\sqrt{49 - x^2}}</m>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-178" ww-id="webwork-178">
+    <static seed="178" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
+      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{7}</m> and the angle <m>\theta</m> is in the first quadrant.
+Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
+<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
+<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\sqrt{1-\frac{x^{2}}{7^{2}}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{x}{\sqrt{7^{2}-x^{2}}}</m>
+        </p>
+      </answer>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
+<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{7} \right)^2 = \frac{ 49 - x^2}{49}.</me>
+Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 49 - x^2}{49} }</m>
+
+
+
+(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{7}}{\sqrt{\frac{ 49 - x^2}{49}} } = \frac{x}{\sqrt{49 - x^2}}</m>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-179" ww-id="webwork-179">
-    <static seed="179" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
-      <statement><p>Use the properties of exponents to simplify the following</p>
-<p><m>{y^{17}}\cdot{y^{18}} =</m>
-<fillin characters="12" name="AnSwEr0001"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>y^{35}</m>
-        </p>
-      </answer>
-      <solution><p>We <em>add</em> the exponents as follows</p>
-<p><m>\begin{aligned}
-           y^{17}\cdot y^{18}\amp =y^{17+18}\\
-                             \amp =y^{35}
-       \end{aligned}</m></p>
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-180" ww-id="webwork-180">
-    <static seed="180" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
-      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{9}</m> and the angle <m>\theta</m> is in the first quadrant.
-Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
-<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
-<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>\sqrt{1-\frac{x^{2}}{9^{2}}}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\frac{x}{\sqrt{9^{2}-x^{2}}}</m>
-        </p>
-      </answer>
-      <solution><alert>  SOLUTION </alert>
-
-
-
-(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
-<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{9} \right)^2 = \frac{ 81 - x^2}{81}.</me>
-Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 81 - x^2}{81} }</m>
-
-
-
-(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{9}}{\sqrt{\frac{ 81 - x^2}{81}} } = \frac{x}{\sqrt{81 - x^2}}</m>
-
-
-
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-181" ww-id="webwork-181">
-    <static seed="181" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
-      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{3}</m> and the angle <m>\theta</m> is in the first quadrant.
-Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
-<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
-<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>\sqrt{1-\frac{x^{2}}{3^{2}}}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\frac{x}{\sqrt{3^{2}-x^{2}}}</m>
-        </p>
-      </answer>
-      <solution><alert>  SOLUTION </alert>
-
-
-
-(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
-<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{3} \right)^2 = \frac{ 9 - x^2}{9}.</me>
-Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 9 - x^2}{9} }</m>
-
-
-
-(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{3}}{\sqrt{\frac{ 9 - x^2}{9}} } = \frac{x}{\sqrt{9 - x^2}}</m>
-
-
-
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-182" ww-id="webwork-182">
-    <static seed="182" source="Library/UMN/calculusStewartCCC/s_1_6_26.pg">
-      <statement><p>Find a formula for the inverse of the function <m>\displaystyle g(x) = \frac{e^x}{1+4 e^x}.</m></p>
+    <static seed="179" source="Library/UMN/calculusStewartCCC/s_1_6_26.pg">
+      <statement><p>Find a formula for the inverse of the function <m>\displaystyle g(x) = \frac{e^x}{9+4 e^x}.</m></p>
 <p>Answer: <m>g^{-1}(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>\ln\mathopen{}\left(1x\right)-\ln\mathopen{}\left(1-4x\right)</m>
+          <m>\ln\mathopen{}\left(9x\right)-\ln\mathopen{}\left(1-4x\right)</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_1_6_26.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/calculusStewartCCC/s_1_6_26.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-183" ww-id="webwork-183">
-    <static seed="183">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-180" ww-id="webwork-180">
+    <static seed="180">
       <statement><p><m>1+2=</m><fillin characters="5" name="AnSwEr0001"/></p>
 </statement>
       <answer>
@@ -9413,7 +9396,7 @@ Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \g
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9473,14 +9456,14 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-184" ww-id="webwork-184">
-    <static seed="184">
-      <statement><p>Write the expression <m>4 \csc \theta \tan \theta - 2\sec \theta</m> in terms of only sine and cosine, and simplify as much as possible.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-181" ww-id="webwork-181">
+    <static seed="181">
+      <statement><p>Write the expression <m>3 \csc \theta \tan \theta - 2\sec \theta</m> in terms of only sine and cosine, and simplify as much as possible.</p>
 <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>4x^{4-1}</m>
+          <m>3x^{3-1}</m>
         </p>
       </answer>
     </static>
@@ -9488,7 +9471,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9555,17 +9538,17 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-185" ww-id="webwork-185">
-    <static seed="185" failure="compile">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-182" ww-id="webwork-182">
+    <static seed="182" failure="compile">
       <statement>
-        <p>PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_11.pg with seed 185 is either empty or failed to compile  
+        <p>PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_11.pg with seed 182 is either empty or failed to compile  
   Use -a to halt with full PG and returned content
 </p>
       </statement>
     </static>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-186" ww-id="webwork-186">
-    <static seed="186">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-183" ww-id="webwork-183">
+    <static seed="183">
       <statement><p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sec \left(\frac{\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\csc \left(\frac{\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
@@ -9591,7 +9574,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9672,8 +9655,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-189" ww-id="webwork-189">
-    <static seed="189">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-186" ww-id="webwork-186">
+    <static seed="186">
       <statement><p>Consider the function <m>f</m> defined by <m>f(x)={\sqrt{x}}\text{.}</m>
 <ol label="a.">
 <li>
@@ -9765,7 +9748,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:58Z       
+###       on 2026-05-13T02:27:10Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

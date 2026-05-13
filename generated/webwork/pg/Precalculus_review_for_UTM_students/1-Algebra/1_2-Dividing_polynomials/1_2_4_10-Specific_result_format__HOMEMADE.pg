@@ -1,6 +1,6 @@
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-11T18:29:59Z       
+###       on 2026-05-11T19:54:03Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -57,7 +57,7 @@ $g = Formula("x^3-3x^2+1");
 ############################################################
 
 BEGIN_PGML
-Use long division to find the quotient and remainder when
+(Not randomizable) Use long division to find the quotient and remainder when
 
 [```
              -2x^5+3x^4-2x^2         ```]

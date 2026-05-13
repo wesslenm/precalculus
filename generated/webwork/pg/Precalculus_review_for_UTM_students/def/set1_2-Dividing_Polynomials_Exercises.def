@@ -1,0 +1,47 @@
+openDate          = 05/13/2026 at 12:00am
+dueDate           = 11/13/2026 at 10:00pm
+answerDate        = 11/13/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/1_2-Dividing_Polynomials_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/1_2-Dividing_Polynomials_Exercises.pg
+description       = Dividing Polynomials
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_1-True_or_False__HOMEMADE.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_2-Setup__HOMEMADE.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_3-Interpreting_results__HOMEMADE.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_4-Interpreting_results__HOMEMADE.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/ASU-topics/setPolynomialDivision/jj3.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_9-Quotient_and_remainder_degree_5__HOMEMADE.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_2-Dividing_Polynomials/1_2_4_10-Specific_result_format__HOMEMADE.pg
+problem_id = 10
+problem_end
