@@ -89,8 +89,8 @@ In this section, we review how the technique of long division can be used to div
     </row>
   </tabular>
   <p> 
-  If dividing the polynomial <m>(2x^3-7x^2+2x+7)</m> by <m>(2x+1)</m>, then <m>2x^3-7x^2+2x+7</m> is called the <term> dividend </term> and <m>2x+1</m> is called the <term> divisor </term>. 
-  The answer to the division is called the <term> quotient </term>. In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:
+  If dividing the polynomial <m>(2x^3-7x^2+2x+7)</m> by <m>(2x+1)</m>, then <m>2x^3-7x^2+2x+7</m> is called the <term> dividend </term> <idx><h>Dividend</h></idx> and <m>2x+1</m> is called the <term> divisor </term> <idx><h>Divisor</h></idx>. 
+  The answer to the division is called the <term> quotient </term> <idx><h>Quotient</h></idx>. In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:
   </p>
 <tabular halign="right">
     <row>
@@ -107,11 +107,11 @@ In this section, we review how the technique of long division can be used to div
   </tabular>
 
   <p> 
-  Sometimes there is a <term> remainder </term> if the dividend is not evenly divided by the divisor. For an example, see <xref ref="longdiv1" />. 
+  Sometimes there is a <term> remainder </term> <idx><h>Remainder</h></idx> if the dividend is not evenly divided by the divisor. For an example, see <xref ref="longdiv1" />. 
   </p>
   </subsection>
 
-  <subsection><title>Long Division of Polynomials</title>
+  <subsection><title>Long Division of Polynomials</title><idx><h>Long division</h></idx>
   <p> 
     Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. 
     Let's start with a small example. Let's divide <m>(x^2+5x+6)</m> by <m>(x+3)</m>. (You may be able to easily find out the answer by factoring <m>x^2+5x+6</m>, but instead let's practice long division on this simple example.)
@@ -563,7 +563,6 @@ Therefore the result can be stated as:
  </example>
 
 <exercise><title>Interpreting the result - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1440,7 +1439,6 @@ Therefore the result can be stated as:
   </aside>
 
 <exercise xml:id="longdivex1"><title>Set-up and notation - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
         <introduction>
       <p>
         <p>
@@ -1543,7 +1541,6 @@ Therefore the result can be stated as:
   </exercise>
 
 <exercise><title>Long division with quadratic dividend - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1582,7 +1579,6 @@ Therefore the result can be stated as:
   </aside>
 
 <exercise><title>Long division with cubic dividend - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1772,7 +1768,6 @@ If you would like to use synthetic division you can, but we will not go over it 
     </example>
 
 <exercise><title>Polynomial long division with "missing" terms - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1801,7 +1796,6 @@ If you would like to use synthetic division you can, but we will not go over it 
   </exercise>
 
 <exercise><title>Polynomial long division with "missing" terms - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");

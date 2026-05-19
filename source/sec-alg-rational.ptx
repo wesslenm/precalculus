@@ -60,7 +60,7 @@
    
     <introduction>
     <p>    
-The quotient of two polynomials is called a <term>rational expression</term>. For example, let's look at the following rational expression:
+The quotient of two polynomials is called a <term>rational expression</term> <idx><h>Rational expression</h></idx>. For example, let's look at the following rational expression:
     </p>
   
     <me>
@@ -75,7 +75,7 @@ The quotient of two polynomials is called a <term>rational expression</term>. Fo
   
   <subsection><title>Common Factors</title>
     <p>
-      A <term>factor</term> is part of an expression which is <em>multiplied</em> by the rest of the expression. 
+      A <term>factor</term> <idx>Factor</idx> <idx>Common Factors</idx> is part of an expression which is <em>multiplied</em> by the rest of the expression. 
     </p>
     <p>
     Cancelling common factors is one way to simplify a rational expression. Not all rational expressions have common factors, but it is often useful to check by factoring both the numerator and the denominator. 
@@ -448,7 +448,7 @@ where <m>a</m>, <m>b</m>, <m>c</m> and <m>d</m> could be constants (numbers) and
   <subsection><title>Complex Rational Expressions</title>
 
       <p> 
-         A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <term> complex rational expression</term>. 
+         A rational expression that contains a rational expression within the numerator or denominator (or both), is called a <term> complex rational expression</term> <idx>Complex rational expression</idx>. 
          <!--To simplify a complex rational expression, start by simplifying the numerator, then the denominator, and after that is done you can simplify the overall expression.  -->
       </p>
 
