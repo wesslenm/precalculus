@@ -19,9 +19,9 @@
     <xi:include href="./ch-trig.ptx" />
     <xi:include href="./ch-chapter-title.ptx" />
 
-    <!-- 
+
     <xi:include href="./backmatter.ptx" />
-    -->
+
    
 
   </book>

@@ -41,7 +41,7 @@
       </li>
       <li>
         <p>
-          A technique called trigonometric substitution allows us to solve integration problems such as for example <m>\int \sqrt{4-x^2} \ dx</m>.
+          A technique called trigonometric substitution allows us to solve integration problems such as <m>\int \sqrt{4-x^2} \ dx</m>.
         </p>
       </li>
       <li>
@@ -59,10 +59,37 @@
     </p>
   </introduction>
 
-  <subsection>
-    <title>Angle notation</title>
-   <p> In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  </p>
+  <subsection><title>Angle Notation</title>
+   <p> 
+    In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  
+  </p>
   
+ <assemblage><title>Radian angles</title>
+    <p>
+      Radians are a measure of the size of an angle. 
+      In a circle, if you take the radius of the circle and lay that length along the circle's edge, the corresponding angle is <term> 1 radian<idx>radian</idx></term>. 
+    </p>
+    <!-- <p>
+<url href="https://en.wikipedia.org/wiki/Radian#/media/File:Circle_radians.gif">Radians Illustration</url>
+    </p> -->
+
+  <image source="images/Circle_radians.gif" width="60%">
+      <shortdescription>
+          Radian angle measure.
+        </shortdescription>
+  </image>
+  <p>Source
+  <fn> 
+    Source: https://commons.wikimedia.org/wiki/File:Circle_radians.gif#/media/File:Circle_radians.gif
+  </fn>
+    </p>
+
+    <p>
+      The circumference <m>C</m> of a circle of radius <m>r</m> is <m>C=2\pi r</m>. This means that the angle corresponding to a full circle (360 degrees) is <m>2\pi</m> radians.
+    </p>
+
+    </assemblage>
+
 <table><title>Correspondence between radian and degree measures in some common angles.</title>
   <tabular halign="center">
     <row header="yes" bottom="minor" >
@@ -122,20 +149,21 @@
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Use radians as much as possible and try to develop a feel for their size. Try to develop a feel for how large for example <m>\frac{\pi}{3}</m> radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode. 
+      Use radians as much as possible and try to develop a feel for their size. For example, try to develop a feel for how large <m>\frac{\pi}{3}</m> radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode. 
     </p>
   </aside>
 
   <p>
-    An angle placed on the coordinate system is in <term>standard position</term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  See <xref ref="fig-trig-intro1" />. A positive angle is in the counterclockwise direction. A negative angle is in the clockwise direction.
+    An angle placed on the coordinate system is in <term>standard position <idx>standard position</idx></term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  
+    See <xref ref="fig-trig-intro1" />. A positive angle is measured in the counterclockwise direction. A negative angle is measured in the clockwise direction.
   </p>
 
 <figure xml:id="fig-trig-intro1">
-    <caption>Angles in standard position</caption>
-  <title>Angles in standard position</title>
+    <caption>Angle in standard position</caption>
+  <title>Angle in standard position</title>
   <image source="images/trig1standard" width="60%">
       <shortdescription>
-          Angles in standard position.
+          Angle in standard position.
         </shortdescription>
   </image>
 </figure>
@@ -160,15 +188,13 @@
 <p>
 </p>
 
-<exercise xml:id="ex-trig-intro1"><title>Unit circle - FROM WEBWORK</title>
-	<webwork source="Library/MC/Trigonometry/RadianTerminalPoint.pg" />
-</exercise>
+
+
+    <assemblage><title>Greek letters</title><idx>Greek letters</idx>
 
     <p>
       We often (but not always) use Greek letters to represent angles. For example, <m>\theta</m> (theta), <m>\alpha</m> (alpha) and <m>\beta</m> (beta) are commonly used to represent angles. 
     </p>
-
-    <assemblage><title>Greek letters</title>
       <p>
         For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. 
       <md>
@@ -189,15 +215,77 @@
       (This is not a full list of the Greek alphabet.)
     </p>
     </assemblage>
+
+ <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Repeat <xref ref="ex-angles"/> with many other angles, until you feel more amiliar with radian angles. For example, locate the following angles on the unit circle:
+    <m>0, \frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3}, \frac{\pi}{2}, \frac{2\pi}{3}, \frac{3\pi}{4}, \frac{5\pi}{6}, \pi, \frac{7\pi}{6}, \frac{5\pi}{4}, \frac{4\pi}{3}, \frac{3\pi}{2}, \frac{5\pi}{3}, \frac{7\pi}{4}, \frac{11\pi}{6}, 2\pi</m>
+   Also look at the negative equivalents of these angles. 
+  </p>
+  </aside>
+
+<example xml:id="ex-angles"><title>Radians on unit circle</title>
+    <statement>
+      <p>
+      Draw the following angles (given in radians) on the unit circle. 
+       <me>\pi, \frac{\pi}{4}, \frac{7\pi}{4}, \frac{-\pi}{6}</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <image source="images/angle-pi" width="70%">  </image>
+          <image source="images/angle-pi4" width="70%">  </image>
+            <image source="images/angle-7pi4" width="70%">  </image>
+              <image source="images/angle-pi6" width="70%">  </image>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <ul>
+          <li>
+            <p>
+              The angle <m>\pi</m> corresponds to half of a full turn (180 degrees). 
+            </p>
+          </li>
+           <li>
+            <p>
+              The angle <m>\frac{\pi}{4}</m> corresponds to a quarter of <m>\pi</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The angle <m>\frac{7\pi}{4}</m> brings us to Quadrant IV because it is only <m>\frac{\pi}{4}</m> smaller than a full turn. 
+            </p>
+          </li>
+           <li>
+            <p>
+               The angle <m>\frac{-\pi}{6}</m> is in the clockwise direction, one 6th of <m>\pi</m> (and <m>\pi</m> corresponds to half of a full turn).
+            </p>
+          </li>                   
+        </ul>
+        <image source="images/angle-pi" width="70%">  </image>
+          <image source="images/angle-pi4" width="70%">  </image>
+            <image source="images/angle-7pi4" width="70%">  </image>
+              <image source="images/angle-pi6" width="70%">  </image>
+      </p>
+    </solution>
+  </example>
+
+<exercise xml:id="ex-trig-intro1"><title>Unit circle - FROM WEBWORK</title>
+	<webwork source="Library/MC/Trigonometry/RadianTerminalPoint.pg" />
+</exercise>
 </subsection>
 
   <subsection xml:id="trig-def"><title>Definitions</title>
   <p>We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   </p>
   
    <assemblage>
-    <title>Definitions of trigonometric functions - right angled triangles</title>
+    <title>Definitions of trigonometric functions - right angled triangles</title><idx>Definitions of trigonometric functions - right angled triangles</idx>
     <p>
-      Consider a right angled triangle, where one of the non-right angles is <m>\theta </m>. This means <m>0 \lt \theta \lt \frac{\pi}{2}</m>. Then the trigonometric functions are defined as follows:
+      Consider a right angled triangle, where one of the accute angles is <m>\theta </m>. This means <m>0 \lt \theta \lt \frac{\pi}{2}</m>. Then the trigonometric functions are defined as follows:
     </p>
     <p>
     <ul>
@@ -230,7 +318,7 @@
   </aside>
 
 <assemblage>
-    <title>Definitions of trigonometric functions - general definition</title>
+    <title>Definitions of trigonometric functions - general definition</title><idx>Definitions of trigonometric functions - general definition</idx>
     <p>
       Let <m> \theta </m> be any angle in standard position in a circle centered at <m>(0,0)</m>. With <m>x, y</m> and <m>r</m> as in <xref ref="fig-trig-intro2"/>, we make the following definitions: 
     </p>
@@ -255,8 +343,7 @@
   </p>
   </assemblage> 
 
-  <assemblage>
-    <title>Trigonometric functions - relationships</title>
+  <assemblage><title>Basic Trigonometric Identities</title>
     <p>
       The following relationships are all important.
     </p>
@@ -298,8 +385,11 @@
 <p> 
 </p>
 
-  <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE</title>
-  <hint>
+  <!-- <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE</title>
+  	<p>  
+      Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle.  
+    </p>
+    <hint>
     <p>
       We know that <m>\csc \theta = \frac{1}{\sin \theta}</m>. Therefore, in terms of right angled triangles, <m>\csc \theta = \frac{1}{opp/hyp} = \frac{hyp}{opp}</m>. Now do the same for secant and cotangent. 
       </p>  
@@ -307,11 +397,75 @@
       In terms of <m>x, y, r</m>, we see that <m>\csc \theta = \frac{1}{\sin \theta} = \frac{1}{y/r} = \frac{r}{y}</m>. Now do the same for secant and cotangent. 
     </p>
   </hint>
-	<p>  
-      Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle.  
-    </p>
-  </exercise>
+    <answer>
+    <p>
+      Does this work? </p>
+  </answer>
+  </exercise> -->
   
+
+<exercise><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE - NEW, PLEASE CHECK</title>
+    <introduction>
+      <p>
+       Use the above basic trigonimtric identities and definitions to find the definitions of secant, cosecant and cotangent. Do this first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle. 
+      </p>      
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup1 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
+        $popup2 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+        $popup3 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
+        $popup4 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
+        $popup5 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
+        $popup6 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+        $popup7 = PopUp(['?','x','y','r'],3);
+        $popup8 = PopUp(['?','x','y','r'],2);
+        $popup9 = PopUp(['?','x','y','r'],3);
+        $popup10 = PopUp(['?','x','y','r'],1);  
+        $popup11 = PopUp(['?','x','y','r'],1);
+        $popup12 = PopUp(['?','x','y','r'],2);     
+       </pg-code>
+      <statement>
+        <p>
+          <ol>
+            <li>
+              <p>
+                We know that <m>\csc \theta = \frac{1}{\sin \theta}</m>. Therefore, in terms of right angled triangles, <m>\csc \theta = \frac{1}{opp/hyp} = </m>. <var name="$popup1" form="popup"/> / <var name="$popup2" form="popup"/>. 
+              </p>   
+            </li>
+            <li>
+              <p>
+                In right angled triangles, <m>\sec \theta =</m> <var name="$popup3" form="popup"/> / <var name="$popup4" form="popup"/>. 
+              </p>   
+            </li>
+            <li>
+              <p>
+                In right angled triangles, <m>\cot \theta =</m> <var name="$popup5" form="popup"/> / <var name="$popup6" form="popup"/>. 
+              </p>   
+            </li>
+            <li>
+            <p>
+              In terms of <m>x, y, r</m> on a circle, we see that <m>\csc \theta = \frac{1}{\sin \theta} = \frac{1}{y/r} = </m> <var name="$popup7" form="popup"/> / <var name="$popup8" form="popup"/>. 
+            </p>   
+            </li>   
+            <li>
+            <p>
+              In terms of <m>x, y, r</m> on a circle,  <m>\sec \theta = </m> <var name="$popup9" form="popup"/> / <var name="$popup10" form="popup"/>. 
+            </p>   
+            </li>          
+            <li>
+            <p>
+              In terms of <m>x, y, r</m> on a circle, we see that <m>\cot \theta = </m> <var name="$popup11" form="popup"/> / <var name="$popup12" form="popup"/>. 
+            </p>   
+            </li>  
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+
 <exercise><title>Simplify - HOMEMADE</title>
   <webwork>
     <pg-code>
@@ -338,8 +492,7 @@
 </exercise>
 </subsection>
 
-  <subsection xml:id="sec-trig-special">
-    <title>Evaluating using special triangles</title>
+  <subsection xml:id="sec-trig-special"><title>Evaluating Using Special Triangles</title>
   <p> 
     Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.   
   </p>
@@ -403,7 +556,9 @@
 	</answer>
 	<solution>
 		<p>
-			We use the special triangle that has the angle <m> \frac{\pi}{3} </m>. We also know from the definition of <m> \cos \theta </m> that <m> \cos \theta = </m> adjacent / hypothenuse. Reading off the values in the apecial triangle we see that 
+			We use the special triangle that has the angle <m> \frac{\pi}{3} </m>. 
+      We also know from the definition of <m> \cos \theta </m> that <m> \cos \theta = </m> adjacent / hypothenuse. 
+      Reading off the values in the special triangle we see that 
 		</p>
 		<me>
 			\cos \left(\frac{\pi}{3}\right) = \frac{adj}{hyp} = \frac{1}{2}
@@ -505,7 +660,7 @@
 </exercise>
   </subsection>
 
-  <subsection xml:id="sec-trig-circle"><title>Evaluating using the coordinate system</title>
+  <subsection xml:id="sec-trig-circle"><title>Evaluating Using the Coordinate System</title>
   <p> If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.   </p>
 	  <p>
 	  </p>
@@ -523,7 +678,8 @@
 	</answer>
   	<solution>
 	  <p>
-      Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle <m>\theta= \frac{2\pi}{3} </m> in standard position (see <xref ref="fig-trig-intro1" />).  
+      Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). 
+      Place the angle <m>\theta= \frac{2\pi}{3} </m> in standard position (see <xref ref="fig-trig-intro1" />).  
     </p>
 <image source="images/trig1ex1" width="50%">
       <shortdescription>
@@ -531,7 +687,8 @@
         </shortdescription>
   </image>
    <p> 
-      The part of angle <m>\frac{2\pi}{3} </m> which is in quadrant II, is <m>\frac{2\pi}{3}</m>. Therefore, place the special triangle with <m>\frac{\pi}{6}</m> (see <xref ref="fig-special"/>) in quadrant II: 
+      The part of angle <m>\frac{2\pi}{3} </m> which is in quadrant II, is <m>\frac{\pi}{6}</m> (because <m>\frac{2\pi}{3} - \frac{\pi}{2} = \frac{\pi}{6}</m>). 
+      Therefore, place the special triangle with <m>\frac{\pi}{6}</m> (see <xref ref="fig-special"/>) in quadrant II: 
     </p>
 <image source="images/trig1ex2" width="50%">
       <shortdescription>
@@ -771,15 +928,14 @@
 	</solution>
   </example>
 
- <example xml:id="trig-intro-ex3">
-  <title>Evaluate <m>\sec \left(4\pi\right)</m> </title>
+ <example xml:id="trig-intro-ex3"><title>Evaluate <m>\sec \left(4\pi\right)</m> </title>
 	<statement>
       Evaluate <m> \sec \left(4\pi\right)</m> without using a calculator.
 	</statement>
 	<answer>
 	  <p>
 		<me>
-			\boxed{\sec (4\pi))= 1}
+			\boxed{\sec (4\pi)= 1}
 		</me>
 	  </p>
 	</answer>
@@ -787,7 +943,7 @@
 	  <p>
 		We know that <m>\sec \theta = \frac{1}{\cos \theta}</m> so therefore <m>\sec \left(4\pi\right) = \frac{1}{\cos \left(4\pi\right)}</m>. We can evaluate <m>\cos (4\pi)</m> by looking at the graph of <m>\cos \theta</m>, or by using the unit circle. Either way, <m>\cos (4\pi)=1</m>. Therefore <m>\sec \left(4\pi\right) = \frac{1}{\cos \left(4\pi\right)} = \frac{1}{1} = 1</m>.
 	  <me>
-			\boxed{\sec (4\pi))= 1}
+			\boxed{\sec (4\pi)= 1}
 		</me>
     </p>
 	</solution>
@@ -870,7 +1026,7 @@
   </subsection>
 
   <subsection xml:id="sec-trig-summary"><title>Summary</title>
-  <p> The types of angles we have evaluated trigonometric functions at, are summarized here.    </p>
+  <p> The common angles we have evaluated trigonometric functions at, are summarized here.    </p>
 
  <assemblage xml:id="trig-common">
     <title>Common angles</title>

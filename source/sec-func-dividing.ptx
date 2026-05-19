@@ -1883,7 +1883,6 @@ If you would like to use synthetic division you can, but we will not go over it 
 
 
 <exercise><title>Set-up - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <introduction>
       <p>
        (Not randomizable) Lennie wants to use long division to divide <m>(3x^2-2x-85)</m> by <m>(x+5)</m>, in other words Lennie wants to simplify <m>\dfrac{3x^2-2x-85}{x+5}</m>. 

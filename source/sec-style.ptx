@@ -45,6 +45,13 @@ Avoid -ing forms like ‘Simplifying the expression.’
             An image or graph should generally be placed inside "figure" so that it gets a caption and a figure number. However, a graph inside of an example would generally not have a figure number. 
             </p>
         </li>
+<li>
+        To specify a sourse of am image or other:  <p>Source
+  <fn> 
+    Source: https://commons.wikimedia.org/wiki/File:Circle_radians.gif#/media/File:Circle_radians.gif
+  </fn>
+    </p>
+</li>
     </ul>
 </subsection>
 
