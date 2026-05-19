@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-general-next" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Next Steps</title>
+Some topics we would like to add when we can:
+
+<ul>
+      <li>
+        <p>
+          Transformations of graphs
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\sqrt{x^2}=|x|</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Solving inequalities (useful when finding the interval of convergence of a power series)
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+    </ul>
+
+
+
+
+
+</section>
