@@ -7,102 +7,829 @@
     <ul>
       <li>
         <p>
-          ....
+          Evaluate trigonomtric functions using special triangles.
         </p>
       </li>
       <li>
         <p>
-          ....
+          Evaluate trigonomtric functions using the coordinate system and the unit circle.
         </p>
       </li>
       <li>
         <p>
-          ......
+          Evaluate trigonomtric functions using graphs.
         </p>
       </li>
-      <li>
+            <li>
         <p>
-          ......
+          Choose an appropriate method to evaluate a trigonomtric function at a given angle.
         </p>
       </li>
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      ....
+      See <xref ref="sec-trig-intro"/> for some notes on where trigonometric functions are used in calculus. Whenever trigonometric functions are used, it may also be useful to be able to evaluate them. 
     </p>
-    <p>
-    <ul>
-      <li>
-        <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-        ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
-        </p>
-      </li>
-    </ul>
-  </p>
   </assemblage>
 
   <introduction>
     <p>    
-.... 
+In this section we review methods for evaluating all six trigonomtric functions at given angles. Which method to use depends on the type of angle that is given. 
     </p>
   </introduction>
 
-  <subsection>
-    <title>Section 1</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Section 2</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Additional Examples</title>
-      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
-
-      <p>
-        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
-      </p>
-  </subsection>
-
- <exercises><title>Recommended Exercises</title>
-    <p>
-      For students who want a focused review of the topic, we recommend working on these exercises. 
-      If you find that you want even more practice, there are additional exercises below. 
-      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
-    </p>
-
-  </exercises>
-
-<exercises><title>Additional Exercises</title>
-  <p>
-For students who want even more problems to practice, here are some additional exercises. 
+  
+  <subsection xml:id="sec-trig-special"><title>Evaluating Using Special Triangles</title>
+  <p> 
+    Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.   
   </p>
 
- 
-  </exercises> 
+  <!-- 
+        <figure>
+            <caption><m>\pi/4, \pi/4</m> special triangle</caption>
+             <title>Special triangle</title>
+            <image source="images/trigintro1" width="50%">
+                <shortdescription>Special triangle, <m>\pi/4, \pi/4</m>.</shortdescription>
+            </image>
+        </figure>
+
+        <figure>
+            <caption><m>\pi/3, \pi/6</m> special triangle</caption>
+            <title>Special triangle</title>
+            <image source="images/trigintro2" width="50%">
+                <shortdescription>Special triangle, <m>\pi/3, \pi/6</m>.</shortdescription>
+            </image>
+        </figure>
+-->
+
+<figure xml:id="fig-special">
+    <caption>The two special triangles</caption>
+    <title>Two special triangles</title>
+    <sidebyside>
+        <figure>
+            <caption><m>\pi/4, \pi/4</m> special triangle</caption>
+            <image source="images/trigintro1" width="10%">
+                <shortdescription>Special triangle, <m>\pi/4, \pi/4</m>.</shortdescription>
+            </image>
+        </figure>
+        <figure>
+            <caption><m>\pi/3, \pi/6</m> special triangle</caption>
+            <image source="images/trigintro2" width="50%">
+                <shortdescription>Special triangle, <m>\pi/3, \pi/6</m>.</shortdescription>
+            </image>
+        </figure>
+    </sidebyside>
+</figure>
+
+   <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.  
+    </p>
+  </aside>
+
+  <example xml:id="trig-intro-ex1"><title>Evaluate using special triangles</title>
+	<statement>
+      Use the special triangles to find the value of <m> \cos \left(\frac{\pi}{3}\right) </m>.
+	</statement>
+	<answer>
+	  <p>
+		<me>
+			\boxed{\cos \left(\frac{\pi}{3}\right)= \frac{1}{2}}
+		</me>
+	  </p>
+	</answer>
+	<solution>
+		<p>
+			We use the special triangle that has the angle <m> \frac{\pi}{3} </m>. 
+      We also know from the definition of <m> \cos \theta </m> that <m> \cos \theta = </m> adjacent / hypothenuse. 
+      Reading off the values in the special triangle we see that 
+		</p>
+		<me>
+			\cos \left(\frac{\pi}{3}\right) = \frac{adj}{hyp} = \frac{1}{2}
+		</me>			
+		<p>
+			The final result is:
+		</p>
+		<me>
+			\boxed{\cos \left(\frac{\pi}{3}\right)= \frac{1}{2}}
+		</me>
+	</solution>
+  </example>
+
+  <exercise><title>Evaluate using special triangles 1 - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("sqrt(3)/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("1/sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("sqrt(3)/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \cos \left(\frac{\pi}{6}\right) =</m>  <var name="$ans1" width="6"/>.</p>
+      <p> (b) <m> \cos \left(\frac{\pi}{4}\right) =</m>  <var name="$ans2" width="6"/>.</p>
+      <p> (c) <m> \sin \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+ <exercise><title>Evaluate using special triangles 2 - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("1/sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("1/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \sin \left(\frac{\pi}{4}\right) =</m>  <var name="$ans1" width="6"/>.</p>
+      <p> (b) <m> \tan \left(\frac{\pi}{6}\right) =</m>  <var name="$ans2" width="6"/>.</p>
+      <p> (c) <m> \tan \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate using special triangles 3 - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("2/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("1/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \sec \left(\frac{\pi}{6}\right) =</m>  <var name="$ans1" width="6"/>.</p>
+      <p> (b) <m> \csc \left(\frac{\pi}{4}\right) =</m>  <var name="$ans2" width="6"/>.</p>
+      <p> (c) <m> \cot \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+  </subsection>
+
+  <subsection xml:id="sec-trig-circle"><title>Evaluating Using the Coordinate System</title>
+  <p> If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.   </p>
+	  <p>
+	  </p>
+
+ <example xml:id="trig-intro-ex4"><title>Evaluate at <m>\frac{2\pi}{3}</m></title>
+	<statement>
+      Find exact values for <m> \sin \left(\frac{2\pi}{3}\right), \ \cos \left(\frac{2\pi}{3}\right) </m> and <m>\tan \left(\frac{2\pi}{3}\right)</m> without using a calculator.
+	</statement>
+	<answer>
+	  <p>
+		<me>
+			\boxed{\sin \left(\frac{2\pi}{3}\right) =  \frac{\sqrt{3}}{2}, \cos \left(\frac{2\pi}{3}\right) =  - \frac{1}{2}, \tan \left(\frac{2\pi}{3}\right) =  - \sqrt{3}}
+		</me>
+	  </p>
+	</answer>
+  	<solution>
+	  <p>
+      Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). 
+      Place the angle <m>\theta= \frac{2\pi}{3} </m> in standard position (see <xref ref="fig-trig-intro1" />).  
+    </p>
+<image source="images/trig1ex1" width="50%">
+      <shortdescription>
+          Angle <m>\frac{2\pi}{3} </m> in standard position.
+        </shortdescription>
+  </image>
+   <p> 
+      The part of angle <m>\frac{2\pi}{3} </m> which is in quadrant II, is <m>\frac{\pi}{6}</m> (because <m>\frac{2\pi}{3} - \frac{\pi}{2} = \frac{\pi}{6}</m>). 
+      Therefore, place the special triangle with <m>\frac{\pi}{6}</m> (see <xref ref="fig-special"/>) in quadrant II: 
+    </p>
+<image source="images/trig1ex2" width="50%">
+      <shortdescription>
+          The special triangle with <m>\frac{\pi}{6}</m> in quadrant II.
+        </shortdescription>
+  </image>
+
+    <p>  
+      Reading from the figure, we see that for the angle <m>\theta= \frac{2\pi}{3} </m> we can take:  
+		<me>
+			x = -1,  y = \sqrt{3},  r = 2.
+		</me>
+    Then, using the definitions in <xref ref="trig-def" />, we have the following:
+    <me>
+			\sin \left(\frac{2\pi}{3}\right) = \frac{y}{r} =  \frac{\sqrt{3}}{2}
+		</me>
+    		<me>
+			\cos \left(\frac{2\pi}{3}\right) = \frac{x}{r} =  - \frac{1}{2}
+		</me>
+    		<me>
+			\tan \left(\frac{2\pi}{3}\right) = \frac{x}{r} =  - \sqrt{3}
+		</me>
+    </p>
+	</solution>
+  </example>
+
+<exercise><title>Continue the previous example - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("-2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("2/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("-1/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Use the work from <xref ref="trig-intro-ex4" /> to evaluate the following. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \sec \left(\frac{2\pi}{3}\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p> (b) <m> \csc \left(\frac{2\pi}{3}\right) =</m>  <var name="$ans2" width="10"/>.</p>
+      <p> (c) <m> \cot \left(\frac{2\pi}{3}\right) =</m>  <var name="$ans3" width="10"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+	  <p>
+	  </p>
+
+<example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m> - HOMEMADE</title>
+	<statement>
+      Find exact values for <m> \sin \left(-\frac{\pi}{6}\right), \ \cos \left(-\frac{\pi}{6}\right) </m> and <m>\sec \left(-\frac{\pi}{6}\right)</m> without using a calculator.
+	</statement>
+	<answer>
+	  <p>
+		<me>
+			\boxed{\sin \left(-\frac{\pi}{6}\right) =  -\frac{1}{2}, \cos \left(-\frac{\pi}{6}\right) =  - \frac{\sqrt{3}}{2}, \sec \left(-\frac{\pi}{6}\right) =  - \frac{2}{\sqrt{3}}}
+		</me>
+	  </p>
+	</answer>
+  	<solution>
+	  <p>
+      We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle <m>\theta= -\frac{\pi}{6} </m> in standard position (see <xref ref="fig-trig-intro1" />). Because it is a negative angle, it is in the clockwise direction.   
+    </p>
+<image source="images/trig1ex3" width="50%">
+      <shortdescription>
+          Angle <m>-\frac{\pi}{6}</m> in standard position.
+        </shortdescription>
+  </image>
+   <p> 
+      Place the special triangle with <m>\frac{\pi}{6}</m> (see <xref ref="fig-special"/>) in quadrant IV: 
+    </p>
+<image source="images/trig1ex4" width="50%">
+      <shortdescription>
+          The special triangle with <m>\frac{\pi}{6}</m> in quadrant IV.
+        </shortdescription>
+  </image>
+
+    <p>  
+      Reading from the figure, we see that for the angle <m>\theta= -\frac{\pi}{6}</m> we can take:  
+		<me>
+			x = \sqrt{3},  y = -1,  r = 2.
+		</me>
+    Then, using the definitions in <xref ref="trig-def"/>, we have the following:
+    <me>
+			\sin \left(-\frac{\pi}{6}\right) = \frac{y}{r} =  -\frac{1}{2}
+		</me>
+    		<me>
+			\cos \left(-\frac{\pi}{6}\right) = \frac{x}{r} =  - \frac{\sqrt{3}}{2}
+		</me>
+    		<me>
+			\sec \left(-\frac{\pi}{6}\right) = \frac{r}{x} =  - \frac{2}{\sqrt{3}}
+		</me>
+    </p>
+	</solution>
+  </example>
+
+<exercise><title>Evaluate at <m>\frac{3\pi}{4}</m> - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("1/sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("-1/sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("-1")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans4 = Compute("-sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );               
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \sin \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p> (b) <m> \cos \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans2" width="10"/>.</p>
+      <p> (c) <m> \tan \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans3" width="10"/>.</p>
+      <p> (d) <m> \sec \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans4" width="10"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate at <m>-\frac{5\pi}{6}</m> - HOMEMADE </title>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("-1/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("-sqrt(3)/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("-sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans4 = Compute("-2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );               
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following. Answer in exact form (using square roots if needed). </p>
+      <p> (a) <m> \sin \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p> (b) <m> \cos \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans2" width="10"/>.</p>
+      <p> (c) <m> \cot \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans3" width="10"/>.</p>
+      <p> (d) <m> \csc \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans4" width="10"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+  </subsection>
+
+  <subsection xml:id="sec-trig-right"><title>Evaluating at <m>0, \pi/2, \pi</m> etc. </title>
+  <p> If you know the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>, then it is easy to find the values of all trigonometric functions for any multiple of <m>\frac{\pi}{2}</m>. 
+  Trigonometic graphs are discussed more in <xref ref="sec-trig-graphs" />, but you may already remember the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>:
+   </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      You should memorize these graphs, and the graph of <m>y=\tan \theta</m>. A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts. 
+    </p>
+  </aside>
+
+<figure>
+  <caption>Graph of <m>y=\sin \theta</m></caption>
+  <title>Graph of <m>y=\sin \theta</m></title>
+  <image source="images/trig1sin" width="70%">
+      <shortdescription>
+          Graph of <m>y=\sin \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+<figure>
+  <caption>Graph of <m>y=\cos \theta</m></caption>
+  <title>Graph of <m>y=\cos \theta</m></title>
+  <image source="images/trig1cos" width="70%">
+      <shortdescription>
+          Graph of <m>y=\cos \theta</m>.
+        </shortdescription>
+  </image>
+</figure>
+
+
+ <example xml:id="trig-intro-ex2"><title>Evaluate <m>\cos \left(\frac{3\pi}{2}\right)</m> </title>
+	<statement>
+      Evaluate <m> \cos \left(\frac{3\pi}{2}\right) </m> without using a calculator.
+	</statement>
+	<answer>
+	  <p>
+		<me>
+			\boxed{\cos \left(\frac{3\pi}{2}\right)= 0}
+		</me>
+	  </p>
+	</answer>
+  	<solution>
+	  <p>Option 1: Looking at the graph of <m>y=\cos \theta</m>, we see that at <m>\frac{3\pi}{2}</m>, the graph crosses the horizontal axis. Therefore the value is <m>0</m>. 
+		<me>
+			\boxed{\cos \left(\frac{3\pi}{2}\right)= 0}
+		</me>
+    Option 2: Another option would be to look at angles on the unit circle (in standard position, see <xref ref="fig-trig-intro1"/>). 
+    	  </p>
+    <image source="images/trig1ex5" width="70%">
+      <shortdescription>
+          The angle <m>\theta= \frac{3\pi}{2}</m>.
+        </shortdescription>
+  </image>
+
+    <p>
+    From the figure we see that for the angle <m>\theta =\frac{3\pi}{2}</m>, we have <m>x=0</m>, <m>y=-1</m> and <m>r=1</m> (<m>r</m> is always 1 on the unit circle). Also, <m>y=\cos \theta = \frac{x}{r}</m> (recall from <xref ref="trig-def" />). This means <m>y=\cos \left(\frac{3\pi}{2}\right) = \frac{0}{1}= 0</m>.
+		<me>
+			\boxed{\cos \left(\frac{3\pi}{2}\right)= 0}
+		</me>
+	  </p>
+	</solution>
+  </example>
+
+ <example xml:id="trig-intro-ex3"><title>Evaluate <m>\sec \left(4\pi\right)</m> </title>
+	<statement>
+      Evaluate <m> \sec \left(4\pi\right)</m> without using a calculator.
+	</statement>
+	<answer>
+	  <p>
+		<me>
+			\boxed{\sec (4\pi)= 1}
+		</me>
+	  </p>
+	</answer>
+  <solution>
+	  <p>
+		We know that <m>\sec \theta = \frac{1}{\cos \theta}</m> so therefore <m>\sec \left(4\pi\right) = \frac{1}{\cos \left(4\pi\right)}</m>. We can evaluate <m>\cos (4\pi)</m> by looking at the graph of <m>\cos \theta</m>, or by using the unit circle. Either way, <m>\cos (4\pi)=1</m>. Therefore <m>\sec \left(4\pi\right) = \frac{1}{\cos \left(4\pi\right)} = \frac{1}{1} = 1</m>.
+	  <me>
+			\boxed{\sec (4\pi)= 1}
+		</me>
+    </p>
+	</solution>
+  </example>
+
+     <p>
+     </p>
+    
+<exercise><title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> - HOMEMADE </title>
+  <webwork>
+    <statement>
+      <p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
+        <p><m>\sin \left(\frac{3\pi}{2}\right)=</m><var name="'-1'" width="5" /></p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate sine at multiples of <m>\frac{\pi}{2}</m>  - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("LimitedNumeric");
+      $a = Compute(random(-9, 12, 1));
+      $b = $a/2;
+      $ans = sin(pi*$a/2);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\sin \left(<var name="$b"/>\pi\right)</m> without using a calculator.</p>
+      <p><m>\sin \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate cosine at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE </title>
+  <webwork>
+    <pg-code>
+      Context("LimitedNumeric");
+      $a = Compute(random(-9, 12, 1));
+      $b = $a/2;
+      $ans = cos(pi*$a/2);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\cos \left(<var name="$b"/>\pi\right)</m> without using a calculator.</p>
+      <p><m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+
+      $a = Compute(random(-12, 15, 1));
+      $b = $a/2;
+      $ans1 = tan(pi*$a/2); 
+      $ans2 = cot(pi*$a/2); 
+      $ans3 = sin(pi*$a/2); 
+      $ans4 = csc(pi*$a/2); 
+      $ans5 = cos(pi*$a/2); 
+      $ans6 = sec(pi*$a/2);       
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator.</p>
+      <p><m>\tan \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p><m>\cot \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans2" width="10"/>.</p>      
+      <p><m>\sin \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans3" width="10"/>.</p>
+      <p><m>\csc \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans4" width="10"/>.</p>   
+      <p><m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans5" width="10"/>.</p>
+      <p><m>\sec \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans6" width="10"/>.</p>                                     
+    </statement>
+
+  </webwork>
+</exercise>
+
+  </subsection>
+
+  <subsection xml:id="sec-trig-summary"><title>Summary</title>
+  <p> The common angles we have evaluated trigonometric functions at, are summarized here.    </p>
+
+ <assemblage xml:id="trig-common">
+    <title>Common angles</title>
+    <p>
+      You should be able to evaluate all 6 trigonometric functions at the following common angles: 
+    </p>
+    <p>
+    <ul>
+        <li>
+        <p>
+          First quadrant: <m>\frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3} </m> (<xref ref="sec-trig-special" />)
+        </p>
+      </li>
+      <li>
+        <p>
+          Corresponding angles in other quadrants, such as <m>\frac{5\pi}{6}, \frac{3\pi}{4}, \frac{5\pi}{3}, </m> etc. (<xref ref="sec-trig-circle" />)
+        </p>
+      </li>
+      <li>
+        <p>
+          Multiples of <m>\frac{\pi}{2}</m>, such as <m>0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}, 2\pi, 3\pi </m> etc. (<xref ref="sec-trig-right" />)
+        </p>
+      </li>
+      <li>
+        <p>
+          Similar negative angles, such as <m>-\frac{\pi}{6}, -\frac{\pi}{2}, -\frac{3\pi}{4} </m> etc. (<xref ref="sec-trig-circle" /> and <xref ref="sec-trig-right" />) 
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage> 
+</subsection>
+
+<exercises><title>Exercises</title>
+    <p>
+      Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
+    </p>
+
+
+<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
+   <p>
+	 (Not randomized.)
+   </p>
+<webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("1/sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p> (a) <m> \sin \left(\frac{\pi}{4}\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p> (b) <m> \tan \left(\frac{\pi}{3}\right) =</m>  <var name="$ans2" width="10"/>.</p>
+      <p> (c) <m> \sec \left(\frac{\pi}{6}\right) =</m>  <var name="$ans3" width="10"/>.</p>
+    </statement>
+  </webwork>
+  </exercise>
+
+<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
+   <p>
+	 (Not randomized.)
+   </p>
+<webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("-sqrt(3)/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("-sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p> (a) <m> \sin \left(-\frac{\pi}{3}\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p> (b) <m> \tan \left(-\frac{\pi}{3}\right) =</m>  <var name="$ans2" width="10"/>.</p>
+    </statement>
+  </webwork>
+  </exercise>
+
+<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
+   <p>
+	 (Not randomized.)
+   </p>
+<webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("-sqrt(3)/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p> (a) <m> \cos \left(\frac{7\pi}{6}\right) =</m>  <var name="$ans1" width="10"/>.</p>
+      <p> (b) <m> \cot \left(\frac{7\pi}{6}\right) =</m>  <var name="$ans2" width="10"/>.</p>
+    </statement>
+  </webwork>
+  </exercise>
+
+<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - HOMEMADE</title>
+   <p>
+	 (Randomized.)
+   </p>
+ <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(-5, 11, 1));
+      $b = $a/6;
+      $ans = cos(pi*$a/6);
+    </pg-code>
+
+    <statement>
+        <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p><m>\cos \left(\frac{<var name="$a"/>\pi}{6}\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+  </exercise>
+
+<exercise><title>Evaluate trig without a calculator - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
+      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg" />
+   </exercise>
+
+<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p> 
+      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
+ </exercise>
+
+<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
+      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
+  </exercise>
+
+<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
+   <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
+    <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
+ </exercise>
+
+<exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+    </p> 
+ <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(-5, 11, 1));
+      $b = $a/3;
+      $ans = sin(pi*$a/3);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p><m>\sin \left(\frac{<var name="$a"/>\pi}{3}\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+ </exercise>
+
+<exercise><title>Evaluate <m>\tan \theta </m> without a calculator  - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+    </p> 
+ <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(-5, 11, 1));
+      $b = $a/4;
+      $ans = tan(pi*$a/4);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p><m>\tan \left(\frac{<var name="$a"/>\pi}{4}\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+ </exercise>
+
+<exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+   </p> 
+ <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(-5, 11, 1));
+      $b = $a/4;
+      $ans = sin(pi*$a/4);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p><m>\sin \left(\frac{<var name="$a"/>\pi}{4}\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+ </exercise>
+
+<exercise><title>Evaluate <m>\sin \theta </m> without a calculator - HOMEMADE</title>
+   <p>
+	 (Randomized.) 
+   </p> 
+ <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(-5, 11, 1));
+      $b = $a/6;
+      $ans = sin(pi*$a/6);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p><m>\sin \left(\frac{<var name="$a"/>\pi}{6}\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+ </exercise>
+
+</exercises>
+
+
+
 </section>

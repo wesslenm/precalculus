@@ -1839,7 +1839,6 @@ If you would like to use synthetic division you can, but we will not go over it 
 
 
 <exercise><title>True or False - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
 <webwork>
       <pg-code>
         Context("Numeric");
@@ -1969,7 +1968,6 @@ If you would like to use synthetic division you can, but we will not go over it 
 
 
 <exercise><title>Interpreting results - HOMEMADE</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
         <introduction>
       <p>
         <p>
@@ -2129,7 +2127,6 @@ If you would like to use synthetic division you can, but we will not go over it 
     </webwork>
   </exercise>
 
-
   <exercise><title>Interpreting results - HOMEMADE</title>    
         <introduction>
         <p>
@@ -2272,7 +2269,6 @@ If you would like to use synthetic division you can, but we will not go over it 
   </exercise>
 
 <exercise><title>Quotient and remainder, degree 5 - HOMEMADE</title> 
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -2301,7 +2297,6 @@ If you would like to use synthetic division you can, but we will not go over it 
   </exercise>
 
 <exercise><title>Specific result format - HOMEMADE</title> 
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <webwork>
       <pg-code>
         Context("Numeric");
