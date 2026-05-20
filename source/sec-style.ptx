@@ -25,6 +25,9 @@
    In exercise, checkpoint and example titles, use the imperative form for exercise titles (e.g., ‘Simplify the expression,’ ‘Solve the equation,’ ‘Factor the polynomial’).”
 Avoid -ing forms like ‘Simplifying the expression.’
     </p>
+    <p>
+    Index: Should be singular, and with capital beginning letter but all other letters lower case. 
+   </p>
 </subsection>
 
 <subsection xml:id="sec-file"><title>File names and organization</title>

@@ -68,7 +68,7 @@
  <assemblage><title>Radian angles</title>
     <p>
       Radians are a measure of the size of an angle. 
-      In a circle, if you take the radius of the circle and lay that length along the circle's edge, the corresponding angle is <term> 1 radian<idx>radian</idx></term>. 
+      In a circle, if you take the radius of the circle and lay that length along the circle's edge, the corresponding angle is <term> 1 radian<idx>Radian</idx></term>. 
     </p>
     <!-- <p>
 <url href="https://en.wikipedia.org/wiki/Radian#/media/File:Circle_radians.gif">Radians Illustration</url>
@@ -155,7 +155,7 @@
   </aside>
 
   <p>
-    An angle placed on the coordinate system is in <term>standard position <idx>Standard Position angle</idx></term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  
+    An angle placed on the coordinate system is in <term>standard position <idx>Standard position angle</idx></term> when its vertex is at the origin and its initial side is on the positive <m>x</m>-axis.  
     See <xref ref="fig-trig-intro1" />. A positive angle is measured in the counterclockwise direction. A negative angle is measured in the clockwise direction.
   </p>
 
@@ -319,7 +319,7 @@
       In the below right angled triangle, there is a right angle and two accute angles labelled <m>\alpha</m> and <m>\beta</m>. 
       The sides are 17, 15 and 8 units long, as indicated. 
       </p>
-      <image source="images/trigintro1" width="50%">
+      <image source="images/SOHCAHTOA" width="50%">
       <shortdescription>
           A right angled triangle with sides 17, 15 and 8.
         </shortdescription>
@@ -554,7 +554,7 @@
 <exercise><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE - NEW, PLEASE CHECK</title>
     <introduction>
       <p>
-       Use the above basic trigonimtric identities and definitions to find the definitions of secant, cosecant and cotangent. Do this first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle. 
+       Use the above basic trigonometric identities and definitions to find the definitions of secant, cosecant and cotangent. Do this first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle. 
       </p>      
     </introduction>
     <webwork>
@@ -620,17 +620,35 @@
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
     </p>
 
-<exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
-   <p>
-	 (Randomized. Feel free to practice the problem several times.) 
+<exercise><title>Anges - LINK</title>
+   <introduction>
+    <p>
+      Knowing where common angles fall on the unit circle is useful when working with trigonometric functions. Here is a game you can play if you like. 
+      Remember that in calculus we will only use radian measures for angles, so they are more important tht the degree values.
     </p>
+    <p>
+      <url href="https://www.purposegames.com/game/b58f83e30d">Angle memorization game</url>
+    </p>
+   </introduction>
+    <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
+</exercise>
+
+
+<exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
+   <introduction>
+    <p>
+      (Randomized. Feel free to practice the problem several times.) 
+    </p>
+   </introduction>
     <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
 </exercise>
 
 <exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
-   <p>
-	 (Randomized.)
-   </p>
+   <introduction>
+    <p>
+     (Randomized.)
+    </p>
+   </introduction>
    <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
   </exercise>
 
