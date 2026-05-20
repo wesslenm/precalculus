@@ -259,7 +259,6 @@ A new term: <term>radical</term>
 
 <exercise>
     <title>Answer Type Variety</title>
-    <idx><h><webwork/></h><h>answer types</h></idx>
     <introduction>
       <p>
         This problem demonstrates that <webwork/> can process many kinds of answers.

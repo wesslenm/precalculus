@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-trig-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Trigonometric Definitions</title>
+  <title>Angles and Trigonometric Definitions</title>
 
   <objectives>
     <ul>
@@ -186,11 +186,6 @@
   </image>
 </figure>
 
-<p>
-</p>
-
-
-
     <assemblage><title>Greek letters</title><idx>Greek letters</idx>
 
     <p>
@@ -283,8 +278,17 @@
   <subsection xml:id="trig-def"><title>Definitions</title>
   <p>We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.   </p>
   
-   <assemblage>
-    <title>Definitions of trigonometric functions - right angled triangles</title><idx>Definitions of trigonometric functions - right angled triangles</idx>
+ <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Some students like the neumonic SOH CAH TOA to help memorize these definitions. ``SOH'' refers to <m>\sin \theta = </m> Opposite / Hypothenuse, and similarly for CAH and TOA. 
+    </p>
+ </aside>
+
+   <assemblage><title>Definitions of trigonometric functions - right angled triangles</title>
+    <idx>Definitions of trigonometric functions - right angled triangles</idx>
     <p>
       Consider a right angled triangle, where one of the accute angles is <m>\theta </m>. This means <m>0 \lt \theta \lt \frac{\pi}{2}</m>. Then the trigonometric functions are defined as follows:
     </p>
@@ -309,6 +313,150 @@
   </p>
   </assemblage> 
   
+ <example><title>Evaluating basic trig</title>
+    <statement>
+      <p>
+      In the below right angled triangle, there is a right angle and two accute angles labelled <m>\alpha</m> and <m>\beta</m>. 
+      The sides are 17, 15 and 8 units long, as indicated. 
+      </p>
+      <image source="images/trigintro1" width="50%">
+      <shortdescription>
+          A right angled triangle with sides 17, 15 and 8.
+        </shortdescription>
+  </image>
+      <p>
+      Evaluate the following trigonometric quanities. Answer with exact values. 
+      </p>
+      <ol>
+      <li>
+          <p>
+            <m>
+        \sin \alpha
+      </m>
+          </p>
+        </li>
+                <li>
+          <p>
+            <m>
+        \sin \beta
+      </m>
+          </p>
+        </li>
+                <li>
+          <p>
+            <m>
+        \tan \beta
+      </m>
+          </p>
+        </li> 
+                <li>
+          <p>
+            <m>
+        \cos \alpha
+      </m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+    <answer>
+        <ol>
+      <li>
+          <p>
+            <m>
+        \sin \alpha = \frac{15}{17}
+      </m>
+          </p>
+        </li>
+                <li>
+          <p>
+            <m>
+        \sin \beta = \frac{8}{17}
+      </m>
+          </p>
+        </li>
+                <li>
+          <p>
+            <m>
+        \tan \beta = \frac{8}{15}
+      </m>
+          </p>
+        </li> 
+                <li>
+          <p>
+            <m>
+        \cos \alpha = \frac{8}{17}
+      </m>
+          </p>
+        </li>
+      </ol>
+      </answer>
+    <solution>
+      <p>
+        The hypthenuse of this triangle is 17. 
+        The `opposite' of angle <m>\alpha</m> is 15, while the `opposite' of angle <m>\beta</m> is 8. The `adjacent' of angle <m>\alpha</m> is 8, while the `adjacent' of angle <m>\beta</m> is 15. Then use the definitions listed above. 
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>Evaluating basic trig - HOMEMADE - NEW, PLEASE CHECK</title>
+    <introduction>
+      <p>
+      In the below right angled triangle, there is a right angle and two accute angles labelled <m>\gamma</m> and <m>\mu</m>. 
+      The sides are 33, 56 and 65 units long, as indicated. 
+      </p>
+      <image source="images/trig9" width="50%">
+      <shortdescription>
+          A right angled triangle with sides 33, 56 and 65.
+        </shortdescription>
+  </image>
+      <p>
+      (Not randomizable) Evaluate the following trigonometric quanities. Answer with exact values. 
+      </p>     
+    </introduction>
+  <webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $a = random(2,9,1);
+      $ans1 = Compute("33/65")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("56/65")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("33/65")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans4 = Compute("56/33")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans5 = Compute("56/65")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans6 = Compute("33/56")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans7 = Compute("1089/4225")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Use the triangle in the image and evaluate the following trigonometric quanities. Answer with exact values. </p>
+      <p> (a) <m> \sin \gamma =</m>  <var name="$ans1" width="6"/>.</p>
+      <p> (b) <m> \cos \gamma =</m>  <var name="$ans2" width="6"/>.</p>
+      <p> (c) <m> \cos \mu =</m>  <var name="$ans3" width="6"/>.</p>
+      <p> (d) <m> \tan \mu =</m>  <var name="$ans4" width="6"/>.</p>
+      <p> (e) <m> \sin \mu =</m>  <var name="$ans5" width="6"/>.</p>
+      <p> (f) <m> \tan \gamma =</m>  <var name="$ans6" width="6"/>.</p>
+      <p> (g) <m> \left(\tan \gamma \right) \left(\cos \mu \right) \left(\sin \mu \right) =</m>  <var name="$ans7" width="6"/>.</p>
+    </statement>
+  </webwork>
+  </exercise>
+
  <aside>
     <p>
       <alert> Study tip: </alert>
@@ -318,8 +466,8 @@
     </p>
   </aside>
 
-<assemblage>
-    <title>Definitions of trigonometric functions - general definition</title><idx>Definitions of trigonometric functions - general definition</idx>
+<assemblage><title>Definitions of trigonometric functions - general definition</title>
+  <idx>Definitions of trigonometric functions - general definition</idx>
     <p>
       Let <m> \theta </m> be any angle in standard position in a circle centered at <m>(0,0)</m>. With <m>x, y</m> and <m>r</m> as in <xref ref="fig-trig-intro2"/>, we make the following definitions: 
     </p>
@@ -373,6 +521,7 @@
     </ul>
   </p>
   </assemblage> 
+
    <aside>
     <p>
       <alert> Study tip: </alert>
@@ -381,10 +530,7 @@
       You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already. 
     </p>
   </aside>
-  
 
-<p> 
-</p>
 
   <!-- <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE</title>
   	<p>  
@@ -432,7 +578,7 @@
           <ol>
             <li>
               <p>
-                We know that <m>\csc \theta = \frac{1}{\sin \theta}</m>. Therefore, in terms of right angled triangles, <m>\csc \theta = \frac{1}{opp/hyp} = </m>. <var name="$popup1" form="popup"/> / <var name="$popup2" form="popup"/>. 
+                We know that <m>\csc \theta = \frac{1}{\sin \theta}</m>. Therefore, in terms of right angled triangles, <m>\csc \theta = \frac{1}{opp/hyp} = </m> <var name="$popup1" form="popup"/> / <var name="$popup2" form="popup"/>. 
               </p>   
             </li>
             <li>
@@ -465,32 +611,6 @@
       </statement>
     </webwork>
   </exercise>
-
-
-<exercise><title>Simplify - HOMEMADE</title>
-  <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = random(2,9,1);
-      $ans = Compute("(1-$a)/cos x");
-
-         Context()->functions->disable('All');
-         Context()->functions->enable('sin','cos');
-    </pg-code>
-
-    <statement>
-      <p>Write the expression <m>  \csc x \tan x - <var name="$a"/>\sec x </m> in terms of only sine and cosine, and simplify as much as possible. </p>
-      <p><m>\csc x \tan x - <var name="$a"/>\sec x =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-
-    <hint>
-      <p>
-        Re-write each of the trigonometric functions in terms of <m>\sin x</m> and <m>\cos x</m>, then simplify. Remember that your final answer should not use any of the other trigonometric functions, only <m>\sin x</m> and/or <m>\cos x</m>. 
-      </p>
-    </hint>
-
-  </webwork>
-</exercise>
 </subsection>
 
 
@@ -515,5 +635,30 @@
   </exercise>
 
   
+<exercise><title>Simplify - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(2,9,1);
+      $ans = Compute("(1-$a)/cos x");
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sin','cos');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m>  \csc x \tan x - <var name="$a"/>\sec x </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc x \tan x - <var name="$a"/>\sec x =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+    <hint>
+      <p>
+        Re-write each of the trigonometric functions in terms of <m>\sin x</m> and <m>\cos x</m>, then simplify. Remember that your final answer should not use any of the other trigonometric functions, only <m>\sin x</m> and/or <m>\cos x</m>. 
+      </p>
+    </hint>
+
+  </webwork>
+</exercise>
+
 </exercises>
 </section>
