@@ -469,7 +469,8 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
     <title>Exercises</title>
 
     <exercise><title>Fact Check - MISSING INSTRUCTIONS, NEED TO FIX</title>
-  <p> 
+  <introduction>
+     <p> 
     Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
     </p>
   <aside>
@@ -480,6 +481,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc. 
     </p>
   </aside>
+   </introduction>
     <webwork>
     <pg-code>
       Context("Numeric");

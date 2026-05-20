@@ -29,9 +29,19 @@
   </objectives>
    
   <assemblage><title>Where will this be used in calculus?</title>
-    <p>
-      See <xref ref="sec-trig-intro"/> for some notes on where trigonometric functions are used in calculus. Whenever trigonometric functions are used, it may also be useful to be able to evaluate them. 
-    </p>
+    <ul>
+      <li>
+        <p>
+          Whenever trigonometric functions are used, it may also be useful to be able to evaluate them. 
+          See <xref ref="sec-trig-intro"/> for some notes on where trigonometric functions are used in calculus.
+        </p>
+      </li>
+      <li>
+        <p>
+          One specific example is when dealing with definite integrals that involve a trigonometric integrand.
+        </p>
+      </li>
+    </ul>
   </assemblage>
 
   <introduction>
@@ -66,7 +76,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 
 <figure xml:id="fig-special">
     <caption>The two special triangles</caption>
-    <title>Two special triangles</title>
+    <title>Two special triangles</title><idx>Special triangles</idx>
     <sidebyside>
         <figure>
             <caption><m>\pi/4, \pi/4</m> special triangle</caption>
@@ -132,7 +142,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
                tolerance => .000000000000000000001,   );
       $ans2 = Compute("1/sqrt(2)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans3 = Compute("sqrt(3)/2")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
@@ -158,10 +168,10 @@ In this section we review methods for evaluating all six trigonomtric functions 
       $a = random(2,9,1);
       $ans1 = Compute("1/sqrt(2)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans2 = Compute("1/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans3 = Compute("sqrt(3)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
@@ -187,13 +197,13 @@ In this section we review methods for evaluating all six trigonomtric functions 
       $a = random(2,9,1);
       $ans1 = Compute("2/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans2 = Compute("sqrt(2)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
       $ans3 = Compute("1/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
 
          Context()->functions->disable('All');
          Context()->functions->enable('sqrt');
@@ -274,10 +284,10 @@ In this section we review methods for evaluating all six trigonomtric functions 
                tolerance => .000000000000000000001,   );
       $ans2 = Compute("2/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans3 = Compute("-1/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
 
          Context()->functions->disable('All');
          Context()->functions->enable('sqrt');
@@ -350,10 +360,10 @@ In this section we review methods for evaluating all six trigonomtric functions 
 
       $ans1 = Compute("1/sqrt(2)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans2 = Compute("-1/sqrt(2)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans3 = Compute("-1")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
@@ -386,7 +396,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
       $ans2 = Compute("-sqrt(3)/2")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
-      $ans3 = Compute("-sqrt(3)")->with(
+      $ans3 = Compute("sqrt(3)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
       $ans4 = Compute("-2")->with(
@@ -580,7 +590,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
  <assemblage xml:id="trig-common">
     <title>Common angles</title>
     <p>
-      You should be able to evaluate all 6 trigonometric functions at the following common angles: 
+      You should be able to evaluate all six trigonometric functions at the following common angles: 
     </p>
     <p>
     <ul>
@@ -625,7 +635,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 
       $ans1 = Compute("1/sqrt(2)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans2 = Compute("sqrt(3)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );

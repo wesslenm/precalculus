@@ -56,7 +56,8 @@
   <introduction>
     <p>    
       In this section, we will work with trigonometric functions. 
-      We will see definitions of the six trigonometric functions both in terms of right angled triangles, and in terms of general angles. We will also examine relationships between the six functions.
+      We will see definitions of the six trigonometric functions both in terms of right angled triangles, and in terms of general angles. 
+      We will also examine relationships between the six functions.
     </p>
   </introduction>
 
@@ -160,24 +161,24 @@
   </p>
 
 <figure xml:id="fig-trig-intro1">
-    <caption>Angle in standard position</caption>
-  <title>Angle in standard position</title>
+    <caption>An angle in standard position</caption>
+  <title>An angle in standard position</title>
   <image source="images/trig1standard" width="60%">
       <shortdescription>
-          Angle in standard position.
+         An angle in standard position.
         </shortdescription>
   </image>
 </figure>
 
 
   <p>
-  The unit circle can be used to define trigonometric functions. <term>The unit circle</term> is a circle with centre at the origin, and radius 1, as shown in <xref ref="fig-trig-intro2"/>. 
-  The point <m>P(x,y)</m> in <xref ref="fig-trig-intro2"/> is the <term>terminal point</term>. 
+  The unit circle can be used to define trigonometric functions. <term>The unit circle</term><idx><h>Unit circle</h></idx> is a circle with centre at the origin, and radius 1, as shown in <xref ref="fig-trig-intro2"/>. 
+  The point <m>P(x,y)</m> in <xref ref="fig-trig-intro2"/> is the <term>terminal point</term><idx><h>Terminal point</h></idx>. 
   The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The <m>x</m> and <m>y</m> values of the point <m>P(x,y)</m> will be important in the definitions of the trigonometric functions. 
   </p>
 
 <figure xml:id="fig-trig-intro2">
-    <caption>A point on the unit circle</caption>
+    <caption>A point on the unit circle.</caption>
   <title>A point on the unit circle</title>
   <image source="images/trig1unit" width="70%">
       <shortdescription>
@@ -208,7 +209,7 @@
         <mrow> \omega		&amp;- omega \mbox{ (upper case } \Omega)</mrow>
       </md>
 
-      (This is not a full list of the Greek alphabet.)
+      This is not a full list of the Greek alphabet, only the letters most commonly used in calculus and related examples.
     </p>
     </assemblage>
 
@@ -226,16 +227,16 @@
 <example xml:id="ex-angles"><title>Radians on unit circle</title>
     <statement>
       <p>
-      Draw the following angles (given in radians) on the unit circle. 
+      Draw the following angles (given in radians) on the unit circle: 
        <me>\pi, \frac{\pi}{4}, \frac{7\pi}{4}, \frac{-\pi}{6}</me>
       </p>
     </statement>
     <answer>
       <p>
-        <image source="images/angle-pi" width="70%">  </image>
-          <image source="images/angle-pi4" width="70%">  </image>
-            <image source="images/angle-7pi4" width="70%">  </image>
-              <image source="images/angle-pi6" width="70%">  </image>
+        <image source="images/angle-pi" width="48%">  </image>
+          <image source="images/angle-pi4" width="48%">  </image>
+            <image source="images/angle-7pi4" width="48%">  </image>
+              <image source="images/angle-pi6" width="48%">  </image>
       </p>
       </answer>
     <solution>
@@ -620,7 +621,7 @@
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
     </p>
 
-<exercise><title>Anges - LINK</title>
+<exercise><title>Angles - LINK</title>
    <introduction>
     <p>
       Knowing where common angles fall on the unit circle is useful when working with trigonometric functions. Here is a game you can play if you like. 
@@ -630,10 +631,9 @@
       <url href="https://www.purposegames.com/game/b58f83e30d">Angle memorization game</url>
     </p>
    </introduction>
-    <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
 </exercise>
 
-
+<!-- Perhaps misleading then way that alpha is labelled.
 <exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
    <introduction>
     <p>
@@ -641,18 +641,17 @@
     </p>
    </introduction>
     <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
-</exercise>
+</exercise> -->
 
 <exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
    <introduction>
     <p>
-     (Randomized.)
+     (Randomized. Feel free to practice the problem several times.)
     </p>
    </introduction>
    <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
   </exercise>
 
-  
 <exercise><title>Simplify - HOMEMADE</title>
   <webwork>
     <pg-code>

@@ -1,1 +1,437 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800"><defs/><g transform="scale(2,2)"><g id="background-844635a1"><rect fill="white" stroke="none" x="0" y="0" width="400" height="400" class="dcg-svg-background"/></g><g id="graphpaper-844635a1"><g id="axis-844635a1"><g id="yaxis-844635a1"><title>y</title><g><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 203 3 L 203 400" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/><g class="dcg-svg-axis-line"><path fill="rgb(0,0,0)" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="stroke fill markers" d=" M 203 1.5 L 206.10582854123024 13.09110991546882 L 199.89417145876976 13.09110991546882 L 203 1.5 L 206.10582854123024 13.09110991546882" stroke-opacity="0.9" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="" fill-opacity="0.9"/></g></g></g><g id="xaxis-844635a1"><title>x</title><g><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="fill stroke markers" d=" M 0 217 L 397 217" stroke-opacity="0.9" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray=""/><g class="dcg-svg-axis-line"><path fill="rgb(0,0,0)" stroke="rgb(0,0,0)" class="dcg-svg-axis-line" paint-order="stroke fill markers" d=" M 398.5 217 L 386.9088900845312 220.10582854123027 L 386.9088900845312 213.89417145876976 L 398.5 217 L 386.9088900845312 220.10582854123027" stroke-opacity="0.9" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="" fill-opacity="0.9"/></g></g></g><g><g><path fill="none" stroke="rgb(0,0,0)" class="dcg-svg-tickmark" paint-order="fill stroke markers" d="" stroke-opacity="0.9" stroke-miterlimit="2" stroke-width="1.5" stroke-dasharray=""/></g></g><g class="dcg-svg-axis-label"><text fill="none" stroke="#ffffff" font-family="Times" font-size="20px" font-style="italic" font-weight="normal" text-decoration="normal" x="376.123046875" y="232.49070346781096" text-anchor="start" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">x</text><text fill="#000000" stroke="none" font-family="Times" font-size="20px" font-style="italic" font-weight="normal" text-decoration="normal" x="376.123046875" y="232.49070346781096" text-anchor="start">x</text></g><g class="dcg-svg-axis-label" transform="translate(188.471280190079,29)"><text fill="none" stroke="#ffffff" font-family="Times" font-size="20px" font-style="italic" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="start" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">y</text><text fill="#000000" stroke="none" font-family="Times" font-size="20px" font-style="italic" font-weight="normal" text-decoration="normal" x="0" y="0" text-anchor="start">y</text></g></g></g><g id="expressions-844635a1"><g id="sketch-844635a1"><title>pi / 4</title></g><g id="sketch-844635a1"><title>Expression 3</title><path fill="#000000" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#000000" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 55.64659857298963 217.49070346781096 L 55.64659857298963 217.49070346781096 L 55.76171875 223.32110860101608 L 56.15234375 229.70311521286143 L 56.73828125 235.41540321315722 L 57.51953125 240.93771947198528 L 58.49609375 246.3633647394093 L 59.66796875 251.7216029592716 L 61.03515625000003 257.02247552212776 L 62.6953125 262.5742788769629 L 64.55078125 267.9985266809298 L 66.60156249999997 273.3129295652892 L 68.94531250000003 278.74123637864506 L 71.58203125 284.22480943193045 L 74.51171875 289.7189903103475 L 77.734375 295.18839651390346 L 81.25 300.60384518933466 L 85.05859375000001 305.9403166780972 L 89.2578125 311.2944815565624 L 93.65234375000001 316.39765326412976 L 98.14453125000001 321.16304296725326 L 102.83203125 325.7139266128353 L 107.71484375 330.0519210597478 L 112.6953125 334.100397975517 L 117.7734375 337.8764469206511 L 123.04687500000001 341.4562823929255 L 128.41796875 344.77474943466717 L 133.88671875 347.83973836953476 L 139.453125 350.6567202997708 L 145.1171875 353.22912179058227 L 150.87890625 355.5585948213884 L 156.73828125 357.64520847559345 L 162.6953125 359.48757996405084 L 168.75 361.0829565908845 L 174.8046875 362.4080554232893 L 180.95703125 363.4852478027493 L 187.109375 364.2969444322477 L 193.26171875 364.84753272731257 L 199.4140625 365.1399337586704 L 205.6640625 365.1741820315005 L 211.81640625 364.9493856558386 L 217.96875 364.46693759207824 L 224.12109375 363.7242877596444 L 230.2734375 362.7174444113638 L 236.328125 361.4632690834044 L 242.3828125 359.94095630486845 L 248.33984375 358.17306873068884 L 254.19921875 356.1627993839791 L 259.9609375 353.91201643010476 L 265.72265625 351.3757447122349 L 271.2890625 348.6387748800543 L 276.7578125 345.65780763022195 L 282.12890625 342.42820175157885 L 287.40234375 338.94307859682857 L 292.578125 335.1928671496345 L 297.55859375 331.2456193712909 L 302.44140625 327.01839851876764 L 307.12890625 322.58753896089553 L 311.62109375 317.95343585512785 L 316.015625 312.9989845559037 L 320.21484375 307.8121752834205 L 324.21875 302.3794017839342 L 327.9296875 296.8332152673247 L 331.25 291.3616110320313 L 334.27734375 285.85254184424593 L 337.01171875 280.33850030170345 L 339.453125 274.8599579942687 L 341.6015625 269.46944791947544 L 343.5546875 263.9441544739226 L 345.21484375 258.5959068998819 L 346.6796875 253.15394990895075 L 347.94921875 247.59598401351167 L 348.92578125 242.44967866194418 L 349.70703125 237.362169758212 L 350.29296875 232.42447839067134 L 350.68359375 227.88610971275835 L 350.9765625 222.14358725683752 L 351.0498680571684 217.49070346781096" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-dasharray=""/></g><path fill="#000000" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#000000" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 55.64659857298963 217.49070346781096 L 55.64659857298963 217.49070346781096 L 55.76171875 211.66029833460584 L 56.15234375 205.27829172276049 L 56.73828125 199.5660037224647 L 57.51953125 194.04368746363664 L 58.49609375 188.61804219621263 L 59.66796875 183.25980397635033 L 61.03515625000003 177.95893141349416 L 62.6953125 172.40712805865903 L 64.55078125 166.98288025469213 L 66.60156249999997 161.66847737033268 L 68.94531250000003 156.24017055697684 L 71.58203125 150.75659750369144 L 74.51171875 145.2624166252744 L 77.734375 139.79301042171846 L 81.25 134.37756174628728 L 85.05859375000001 129.04109025752473 L 89.2578125 123.68692537905952 L 93.65234375000001 118.58375367149216 L 98.14453125000001 113.81836396836866 L 102.83203125 109.26748032278664 L 107.71484375 104.9294858758741 L 112.6953125 100.88100896010491 L 117.7734375 97.1049600149708 L 123.04687500000001 93.52512454269645 L 128.41796875 90.20665750095476 L 133.88671875 87.14166856608713 L 139.453125 84.3246866358511 L 145.1171875 81.75228514503962 L 150.87890625 79.42281211423355 L 156.73828125 77.3361984600285 L 162.6953125 75.49382697157111 L 168.75 73.89845034473737 L 174.8046875 72.57335151233269 L 180.95703125 71.49615913287263 L 187.109375 70.68446250337422 L 193.26171875 70.13387420830932 L 199.4140625 69.8414731769515 L 205.6640625 69.80722490412145 L 211.81640625 70.0320212797833 L 217.96875 70.51446934354371 L 224.12109375 71.25711917597746 L 230.2734375 72.2639625242582 L 236.328125 73.51813785221754 L 242.3828125 75.04045063075344 L 248.33984375 76.80833820493305 L 254.19921875 78.81860755164283 L 259.9609375 81.06939050551713 L 265.72265625 83.60566222338704 L 271.2890625 86.3426320555676 L 276.7578125 89.32359930539997 L 282.12890625 92.55320518404305 L 287.40234375 96.03832833879336 L 292.578125 99.78853978598742 L 297.55859375 103.73578756433103 L 302.44140625 107.96300841685427 L 307.12890625 112.39386797472639 L 311.62109375 117.02797108049405 L 316.015625 121.98242237971823 L 320.21484375 127.16923165220139 L 324.21875 132.60200515168773 L 327.9296875 138.14819166829722 L 331.25 143.6197959035906 L 334.27734375 149.128865091376 L 337.01171875 154.64290663391847 L 339.453125 160.1214489413532 L 341.6015625 165.51195901614648 L 343.5546875 171.0372524616993 L 345.21484375 176.38550003574 L 346.6796875 181.82745702667117 L 347.94921875 187.38542292211025 L 348.92578125 192.53172827367774 L 349.70703125 197.61923717740993 L 350.29296875 202.55692854495058 L 350.68359375 207.09529722286356 L 350.9765625 212.8378196787844 L 351.0498680571684 217.49070346781096" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-dasharray=""/></g></g><g id="sketch-844635a1"><title>Expression 4</title><path fill="#c74440" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><path fill="#c74440" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#c74440" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 219.4605794377043 201.24352364618116 L 219.4605794377043 201.24352364618116 L 221.11914768283253 203.0763650415902 L 222.68142586900868 205.25116853365878 L 223.9507768952768 207.53511469779315 L 224.82955837500086 209.6083673038538 L 225.5130550814529 211.807462684901 L 225.90362462799695 213.63935663159907 L 226.09890940126897 215.04421877484478 L 226.2300721776279 217.49070315655302" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-dasharray=""/></g></g><g id="sketch-844635a1"><title>Expression 5</title><path fill="#c74440" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#c74440" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 203.348233315079 217.49070346781096 L 203.348233315079 217.49070346781096 L 307.9209907124783 112.91794607041194" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-dasharray=""/></g></g><g id="sketch-844635a1"><title>Expression 8</title><path fill="#c74440" stroke="none" paint-order="stroke fill markers" d="" fill-opacity="0.4"/><g><path fill="none" stroke="#c74440" class="dcg-svg-curve" paint-order="fill stroke markers" d=" M 203.348233315079 217.49070346781096 L 203.348233315079 217.49070346781096 L 351.0498680571684 217.49070346781096" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" stroke-dasharray=""/></g></g></g><g id="labels-844635a1"><g transform="rotate(0,0,0) translate(219.5,195)"><g class="dcg-svg-label"><text fill="none" stroke="#ffffff" font-family="&quot;Times New Roman&quot;, Symbola, serif" font-size="17.71px" font-style="normal" font-weight="400" text-decoration="normal" x="2" y="15.462119999999999" text-anchor="start" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">π</text><text fill="none" stroke="#ffffff" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="400" text-decoration="normal" x="10.9453125" y="15.462119999999999" text-anchor="start" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">/</text><text fill="none" stroke="#ffffff" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="400" text-decoration="normal" x="16.0234375" y="15.462119999999999" text-anchor="start" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="3" stroke-dasharray="">4</text><text fill="rgb(199, 68, 64)" stroke="none" font-family="&quot;Times New Roman&quot;, Symbola, serif" font-size="17.71px" font-style="normal" font-weight="400" text-decoration="normal" x="2" y="15.462119999999999" text-anchor="start">π</text><text fill="rgb(199, 68, 64)" stroke="none" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="400" text-decoration="normal" x="10.9453125" y="15.462119999999999" text-anchor="start">/</text><text fill="rgb(199, 68, 64)" stroke="none" font-family="Symbola, &quot;Times New Roman&quot;, serif" font-size="17.71px" font-style="normal" font-weight="400" text-decoration="normal" x="16.0234375" y="15.462119999999999" text-anchor="start">4</text></g></g></g><g id="labels-844635a1"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="740"
+   height="760"
+   id="svg30"
+   sodipodi:docname="angle-pi4.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8075"
+     inkscape:cx="400.6192"
+     inkscape:cy="400"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="1073"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30" />
+  <defs
+     id="defs1" />
+  <g
+     id="axis-844635a1"
+     transform="matrix(2,0,0,2,-76.780187,14.860681)">
+    <g
+       id="yaxis-844635a1">
+      <title
+         id="title1">y</title>
+      <g
+         id="g3">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-axis-line"
+           paint-order="fill stroke markers"
+           d="M 203,3 V 400"
+           stroke-opacity="0.9"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path1" />
+        <g
+           class="dcg-svg-axis-line"
+           id="g2">
+          <path
+             fill="#000000"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="stroke fill markers"
+             d="m 203,1.5 3.10583,11.59111 h -6.21166 L 203,1.5 l 3.10583,11.59111"
+             stroke-opacity="0.9"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             fill-opacity="0.9"
+             id="path2" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="xaxis-844635a1">
+      <title
+         id="title3">x</title>
+      <g
+         id="g5">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-axis-line"
+           paint-order="fill stroke markers"
+           d="M 0,217 H 397"
+           stroke-opacity="0.9"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path3" />
+        <g
+           class="dcg-svg-axis-line"
+           id="g4">
+          <path
+             fill="#000000"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="stroke fill markers"
+             d="m 398.5,217 -11.59111,3.10583 v -6.21166 L 398.5,217 l -11.59111,3.10583"
+             stroke-opacity="0.9"
+             stroke-linejoin="round"
+             stroke-miterlimit="10"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             fill-opacity="0.9"
+             id="path4" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g7">
+      <g
+         id="g6">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-tickmark"
+           paint-order="fill stroke markers"
+           d=""
+           stroke-opacity="0.9"
+           stroke-miterlimit="2"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path5" />
+      </g>
+    </g>
+    <g
+       class="dcg-svg-axis-label"
+       id="g8">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="Times"
+         font-size="20px"
+         font-style="italic"
+         font-weight="normal"
+         text-decoration="normal"
+         x="376.12305"
+         y="232.49071"
+         text-anchor="start"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text7">x</text>
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Times"
+         font-size="20px"
+         font-style="italic"
+         font-weight="normal"
+         text-decoration="normal"
+         x="376.12305"
+         y="232.49071"
+         text-anchor="start"
+         id="text8">x</text>
+    </g>
+    <g
+       class="dcg-svg-axis-label"
+       transform="translate(188.47128,29)"
+       id="g10">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="Times"
+         font-size="20px"
+         font-style="italic"
+         font-weight="normal"
+         text-decoration="normal"
+         x="0"
+         y="0"
+         text-anchor="start"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text9">y</text>
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Times"
+         font-size="20px"
+         font-style="italic"
+         font-weight="normal"
+         text-decoration="normal"
+         x="0"
+         y="0"
+         text-anchor="start"
+         id="text10">y</text>
+    </g>
+  </g>
+  <g
+     id="expressions-844635a1"
+     transform="matrix(2,0,0,2,-76.780187,14.860681)">
+    <g
+       id="sketch-844635a1">
+      <title
+         id="title10">pi / 4</title>
+    </g>
+    <g
+       id="g15">
+      <title
+         id="title11">Expression 3</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path11" />
+      <g
+         id="g12">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 55.646599,217.4907 v 0 l 0.11512,5.83041 0.390625,6.38201 0.585937,5.71228 0.78125,5.52232 0.976563,5.42564 1.171875,5.35824 1.367187,5.30088 1.660156,5.5518 1.855469,5.42425 2.050781,5.3144 2.343751,5.42831 2.636718,5.48357 2.929688,5.49418 3.222656,5.46941 3.515625,5.41545 3.808594,5.33647 4.199218,5.35416 4.394532,5.10317 4.492187,4.76539 4.687499,4.55089 4.88281,4.33799 4.98047,4.04848 5.07813,3.77605 5.27344,3.57983 5.37109,3.31847 5.46875,3.06499 5.5664,2.81698 5.66407,2.5724 5.76172,2.32947 5.85937,2.08662 5.95703,1.84237 6.05469,1.59538 6.05469,1.3251 6.15234,1.07719 6.15234,0.81169 6.15235,0.55059 6.15234,0.2924 6.25,0.0342 6.15235,-0.22479 6.15234,-0.48245 6.15234,-0.74265 6.15235,-1.00685 6.05468,-1.25417 6.05469,-1.52231 5.95703,-1.76789 5.85938,-2.01027 5.76172,-2.25078 5.76172,-2.53628 5.5664,-2.73697 5.46875,-2.98096 5.3711,-3.22961 5.27343,-3.48512 5.17578,-3.75021 4.98047,-3.94725 4.88282,-4.22722 4.6875,-4.43086 4.49218,-4.6341 4.39453,-4.95446 4.19922,-5.1868 4.00391,-5.43278 3.71094,-5.54618 3.32031,-5.47161 3.02734,-5.50907 2.73438,-5.51404 2.4414,-5.47854 2.14844,-5.39051 1.95313,-5.5253 1.66015,-5.34824 1.46485,-5.44196 1.26953,-5.55797 0.97656,-5.1463 0.78125,-5.08751 0.58594,-4.93769 0.39062,-4.53837 0.29297,-5.74252 0.0733,-4.65289"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path12" />
+      </g>
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path13" />
+      <g
+         id="g14">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 55.646599,217.4907 v 0 l 0.11512,-5.8304 0.390625,-6.38201 0.585937,-5.71229 0.78125,-5.52231 0.976563,-5.42565 1.171875,-5.35824 1.367187,-5.30087 1.660156,-5.5518 1.855469,-5.42425 2.050781,-5.3144 2.343751,-5.42831 2.636718,-5.48357 2.929688,-5.49418 3.222656,-5.46941 3.515625,-5.41545 3.808594,-5.33647 4.199218,-5.35416 4.394532,-5.10318 4.492187,-4.76539 4.687499,-4.55088 4.88281,-4.33799 4.98047,-4.04848 5.07813,-3.77605 5.27344,-3.579835 5.37109,-3.318467 5.46875,-3.064989 5.5664,-2.816982 5.66407,-2.572402 5.76172,-2.329473 5.85937,-2.086614 5.95703,-1.842371 6.05469,-1.595377 6.05469,-1.325098 6.15234,-1.077193 6.15234,-0.811696 6.15235,-0.550589 6.15234,-0.292401 6.25,-0.03425 6.15235,0.224796 6.15234,0.482448 6.15234,0.74265 6.15235,1.006844 6.05468,1.254175 6.05469,1.522313 5.95703,1.767887 5.85938,2.01027 5.76172,2.250783 5.76172,2.536271 5.5664,2.73697 5.46875,2.980967 5.3711,3.229606 5.27343,3.485123 5.17578,3.750212 4.98047,3.947252 4.88282,4.22722 4.6875,4.43086 4.49218,4.6341 4.39453,4.95445 4.19922,5.18681 4.00391,5.43278 3.71094,5.54618 3.32031,5.47161 3.02734,5.50907 2.73438,5.51404 2.4414,5.47854 2.14844,5.39051 1.95313,5.52529 1.66015,5.34825 1.46485,5.44196 1.26953,5.55796 0.97656,5.14631 0.78125,5.08751 0.58594,4.93769 0.39062,4.53837 0.29297,5.74252 0.0733,4.65288"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path14" />
+      </g>
+    </g>
+    <g
+       id="g18">
+      <title
+         id="title15">Expression 4</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path15" />
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path16" />
+      <g
+         id="g17">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 219.46058,201.24352 v 0 l 1.65857,1.83285 1.56228,2.1748 1.26935,2.28394 0.87878,2.07326 0.6835,2.19909 0.39056,1.8319 0.19529,1.40486 0.13116,2.44648"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path17" />
+      </g>
+    </g>
+    <g
+       id="g20">
+      <title
+         id="title18">Expression 5</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path18" />
+      <g
+         id="g19">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 203.34823,217.4907 v 0 L 307.92099,112.91795"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path19" />
+      </g>
+    </g>
+    <g
+       id="g22">
+      <title
+         id="title20">Expression 8</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path20" />
+      <g
+         id="g21">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 203.34823,217.4907 v 0 h 147.70164"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path21" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="labels-844635a1"
+     transform="matrix(2,0,0,2,-55.727553,12.383901)">
+    <g
+       transform="translate(219.5,195)"
+       id="g28">
+      <g
+         class="dcg-svg-label"
+         id="g27">
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="'Times New Roman', Symbola, serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="2"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text22">π</text>
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="10.945312"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text23">/</text>
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="16.023438"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text24">4</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="'Times New Roman', Symbola, serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="2"
+           y="15.46212"
+           text-anchor="start"
+           id="text25">π</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="10.945312"
+           y="15.46212"
+           text-anchor="start"
+           id="text26">/</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="16.023438"
+           y="15.46212"
+           text-anchor="start"
+           id="text27">4</text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g29"
+     transform="scale(2)" />
+</svg>
