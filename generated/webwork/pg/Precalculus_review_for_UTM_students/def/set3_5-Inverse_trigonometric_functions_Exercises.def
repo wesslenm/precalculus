@@ -1,0 +1,107 @@
+openDate          = 05/20/2026 at 12:00am
+dueDate           = 11/20/2026 at 10:00pm
+answerDate        = 11/20/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_5-Inverse_trigonometric_functions_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_5-Inverse_trigonometric_functions_Exercises.pg
+description       = Inverse trigonometric functions
+problemListV2
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_2-Evaluate__arcsin_theta___HOMEMADE.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_3-Evaluate__arcsin_theta___HOMEMADE.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_4-Evaluate__arccos_theta___HOMEMADE.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_5-Evaluate__arcsin_theta___HOMEMADE.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_6-Evaluate__arctan_theta___HOMEMADE.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_7-Evaluate__arcsin_1___HOMEMADE.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_8-Evaluate__arcsin_0___HOMEMADE.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_9-Evaluate__arccos_1___HOMEMADE.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_10-Evaluate__arcsin_theta___HOMEMADE.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_11-Evaluate__arctan_theta___HOMEMADE.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_12-Evaluate__arctan_theta___HOMEMADE.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_13-Evaluate__arccot_theta___HOMEMADE.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_14-Evaluate__arccot_theta___HOMEMADE.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_15-Evaluate__arcsec_theta___HOMEMADE.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_16-Evaluate__arccsc_theta___HOMEMADE.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_17-Evaluate__arcsec_theta___HOMEMADE.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_18-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_19-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_20-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_21-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_22-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_23-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_24-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_25-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg
+problem_id = 25
+problem_end

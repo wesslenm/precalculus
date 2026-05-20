@@ -1,0 +1,47 @@
+openDate          = 05/20/2026 at 12:00am
+dueDate           = 11/20/2026 at 10:00pm
+answerDate        = 11/20/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_2-Evaluating_Trigonometric_Functions.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Evaluating_Trigonometric_Functions.pg
+description       = Evaluating Trigonometric Functions
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_11-Evaluate_using_special_triangles_1__HOMEMADE.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_12-Evaluate_using_special_triangles_2__HOMEMADE.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_13-Evaluate_using_special_triangles_3__HOMEMADE.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_15-Continue_the_previous_example__HOMEMADE.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_17-Evaluate_at_frac3pi4__HOMEMADE.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_18-Evaluate_at_frac5pi6__HOMEMADE.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_23-Evaluate_sin_leftfrac3pi2right__HOMEMADE.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_24-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_25-Evaluate_cosine_at_multiples_of_fracpi2__HOMEMADE.pg
+problem_id = 25
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Evaluating_Trigonometric_Functions/3_26-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NEEDS_FIXING_DOES_NOT_ACCEPT_DNE.pg
+problem_id = 26
+problem_end

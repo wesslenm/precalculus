@@ -1,0 +1,81 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-19T19:55:59Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.25)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = Compute(random(-12, 15, 1));
+$b = $a/2;
+$ans1 = tan(pi*$a/2); 
+$ans2 = cot(pi*$a/2); 
+$ans3 = sin(pi*$a/2); 
+$ans4 = csc(pi*$a/2); 
+$ans5 = cos(pi*$a/2); 
+$ans6 = sec(pi*$a/2);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the following without using a calculator.
+
+[`\tan \left([$b]\pi\right) =`]  [_]{$ans1}{10}.
+
+[`\cot \left([$b]\pi\right) =`]  [_]{$ans2}{10}.
+
+[`\sin \left([$b]\pi\right) =`]  [_]{$ans3}{10}.
+
+[`\csc \left([$b]\pi\right) =`]  [_]{$ans4}{10}.
+
+[`\cos \left([$b]\pi\right) =`]  [_]{$ans5}{10}.
+
+[`\sec \left([$b]\pi\right) =`]  [_]{$ans6}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

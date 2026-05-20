@@ -1,0 +1,55 @@
+openDate          = 05/20/2026 at 12:00am
+dueDate           = 11/20/2026 at 10:00pm
+answerDate        = 11/20/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_3-Trigonometric_graphs_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_3-Trigonometric_graphs_Exercises.pg
+description       = Trigonometric graphs
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Trigonometric_graphs/3_3_4_1-Fact_Check__MISSING_INSTRUCTIONS_NEED_TO_FIX.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Trigonometric_graphs/3_3_4_2-Find_period_amplitude_phase_shift__HOMEMADE.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Trigonometric_graphs/3_3_4_3-Find_period_amplitude_phase_shift__HOMEMADE.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg
+problem_id = 12
+problem_end

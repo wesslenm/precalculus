@@ -1,27 +1,27 @@
-openDate          = 05/13/2026 at 12:00am
-dueDate           = 11/13/2026 at 10:00pm
-answerDate        = 11/13/2026 at 10:00pm
+openDate          = 05/20/2026 at 12:00am
+dueDate           = 11/20/2026 at 10:00pm
+answerDate        = 11/20/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_2-Trigonometric_graphs.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Trigonometric_graphs.pg
 description       = Trigonometric graphs
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_33-Properties_from_graphs__HOMEMADE.pg
-problem_id = 33
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_17-Properties_from_graphs__HOMEMADE.pg
+problem_id = 17
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_35-Symmetries_and_properties_from_graphs__HOMEMADE.pg
-problem_id = 35
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_19-Symmetries_and_properties_from_graphs__HOMEMADE.pg
+problem_id = 19
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_38-Determining_period__HOMEMADE.pg
-problem_id = 38
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_22-Determining_period__HOMEMADE.pg
+problem_id = 22
 problem_end
 problem_start
 source_file = Library/MC/Trigonometry/Graphing03.pg
-problem_id = 39
+problem_id = 23
 problem_end
 problem_start
 source_file = Library/MC/Trigonometry/Graphing02.pg
-problem_id = 40
+problem_id = 24
 problem_end

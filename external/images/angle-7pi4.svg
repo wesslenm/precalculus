@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="700"
+   height="700"
+   id="svg36"
+   sodipodi:docname="angle-7pi4.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8075"
+     inkscape:cx="400"
+     inkscape:cy="252.63158"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="1073"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs1" />
+  <g
+     id="graphpaper-d23ce8e4"
+     transform="matrix(2,0,0,2,-105.26316,8.668732)">
+    <g
+       id="axis-d23ce8e4">
+      <g
+         id="yaxis-d23ce8e4">
+        <title
+           id="title1">y</title>
+        <g
+           id="g3">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="fill stroke markers"
+             d="M 219,3 V 400"
+             stroke-opacity="0.9"
+             stroke-miterlimit="10"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             id="path1" />
+          <g
+             class="dcg-svg-axis-line"
+             id="g2">
+            <path
+               fill="#000000"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="stroke fill markers"
+               d="m 219,1.5 3.10583,11.59111 h -6.21166 L 219,1.5 l 3.10583,11.59111"
+               stroke-opacity="0.9"
+               stroke-linejoin="round"
+               stroke-miterlimit="10"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               fill-opacity="0.9"
+               id="path2" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="xaxis-d23ce8e4">
+        <title
+           id="title3">x</title>
+        <g
+           id="g5">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="fill stroke markers"
+             d="M 0,186 H 397"
+             stroke-opacity="0.9"
+             stroke-miterlimit="10"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             id="path3" />
+          <g
+             class="dcg-svg-axis-line"
+             id="g4">
+            <path
+               fill="#000000"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="stroke fill markers"
+               d="m 398.5,186 -11.59111,3.10583 v -6.21166 L 398.5,186 l -11.59111,3.10583"
+               stroke-opacity="0.9"
+               stroke-linejoin="round"
+               stroke-miterlimit="10"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               fill-opacity="0.9"
+               id="path4" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g7">
+        <g
+           id="g6">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-tickmark"
+             paint-order="fill stroke markers"
+             d=""
+             stroke-opacity="0.9"
+             stroke-miterlimit="2"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             id="path5" />
+        </g>
+      </g>
+      <g
+         class="dcg-svg-axis-label"
+         id="g8">
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Times"
+           font-size="20px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="376.12305"
+           y="200.63586"
+           text-anchor="start"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text7">x</text>
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Times"
+           font-size="20px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="376.12305"
+           y="200.63586"
+           text-anchor="start"
+           id="text8">x</text>
+      </g>
+      <g
+         class="dcg-svg-axis-label"
+         transform="translate(204.60031,29)"
+         id="g10">
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Times"
+           font-size="20px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="0"
+           y="0"
+           text-anchor="start"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text9">y</text>
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Times"
+           font-size="20px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="0"
+           y="0"
+           text-anchor="start"
+           id="text10">y</text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="expressions-d23ce8e4"
+     transform="matrix(2,0,0,2,-105.26316,8.668732)">
+    <g
+       id="sketch-d23ce8e4">
+      <title
+         id="title10">7 pi / 4</title>
+    </g>
+    <g
+       id="g15">
+      <title
+         id="title11">Expression 3</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path11" />
+      <g
+         id="g12">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 71.775631,185.63586 v 0 l 0.09937,5.41702 0.292969,5.34142 0.488281,5.34629 0.683594,5.33418 0.878906,5.31435 1.074219,5.2883 1.269531,5.25647 1.5625,5.54249 1.757812,5.42087 1.953125,5.31695 2.246094,5.44626 2.539063,5.5123 2.734375,5.34938 3.027343,5.36512 3.320313,5.34473 3.710937,5.43062 4.003907,5.32977 4.29687,5.20918 4.49219,4.96691 4.58984,4.63947 4.78516,4.42764 4.88281,4.13678 5.07813,3.93672 5.17578,3.66566 5.27344,3.40625 5.46875,3.20999 5.5664,2.95463 5.66407,2.70397 5.76171,2.45604 5.85938,2.2091 5.95703,1.96159 5.95703,1.68666 6.05469,1.4425 6.05469,1.17656 6.15234,0.92974 6.15234,0.66686 6.15235,0.40754 6.15234,0.15037 6.15235,-0.10601 6.15234,-0.36296 6.15234,-0.6218 6.15235,-0.88396 6.05468,-1.13055 6.05469,-1.39523 5.95703,-1.63862 5.95703,-1.9117 5.85938,-2.15779 5.76172,-2.40297 5.66406,-2.64875 5.56641,-2.8968 5.46875,-3.149 5.27343,-3.34266 5.17579,-3.59767 5.07812,-3.86336 4.88281,-4.05849 4.78516,-4.34158 4.58984,-4.54581 4.39453,-4.75103 4.29688,-5.08077 4.10156,-5.32065 3.90625,-5.57793 3.51563,-5.53749 3.22265,-5.6081 2.83203,-5.45499 2.53907,-5.42458 2.34375,-5.59055 2.05078,-5.50567 1.75781,-5.34696 1.5625,-5.44642 1.36719,-5.56773 1.07422,-5.20887 0.8789,-5.19716 0.6836,-5.14405 0.48828,-4.98792 0.29297,-4.46976 0.0976,-2.29601 0.0891,-5.12833"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path12" />
+      </g>
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path13" />
+      <g
+         id="g14">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 71.775631,185.63586 v 0 l 0.09937,-5.41702 0.292969,-5.34141 0.488281,-5.34629 0.683594,-5.33418 0.878906,-5.31435 1.074219,-5.2883 1.269531,-5.25647 1.5625,-5.54249 1.757812,-5.42087 1.953125,-5.31695 2.246094,-5.44627 2.539063,-5.51229 2.734375,-5.34938 3.027343,-5.36512 3.320313,-5.34473 3.710937,-5.430616 4.003907,-5.329773 4.29687,-5.209184 4.49219,-4.966907 4.58984,-4.639474 4.78516,-4.427632 4.88281,-4.13678 5.07813,-3.936726 5.17578,-3.665661 5.27344,-3.406244 5.46875,-3.209992 5.5664,-2.954631 5.66407,-2.70397 5.76171,-2.456037 5.85938,-2.209101 5.95703,-1.961597 5.95703,-1.686658 6.05469,-1.442493 6.05469,-1.176566 6.15234,-0.92974 6.15234,-0.666859 6.15235,-0.407541 6.15234,-0.15037 6.15235,0.106015 6.15234,0.362954 6.15234,0.621802 6.15235,0.883962 6.05468,1.130547 6.05469,1.395227 5.95703,1.638626 5.95703,1.911695 5.85938,2.157791 5.76172,2.402972 5.66406,2.648753 5.56641,2.896801 5.46875,3.149001 5.27343,3.342657 5.17579,3.597664 5.07812,3.863365 4.88281,4.058487 4.78516,4.341579 4.58984,4.545814 4.39453,4.751028 4.29688,5.080772 4.10156,5.320649 3.90625,5.577931 3.51563,5.53749 3.22265,5.6081 2.83203,5.45499 2.53907,5.42458 2.34375,5.59055 2.05078,5.50567 1.75781,5.34696 1.5625,5.44642 1.36719,5.56773 1.07422,5.20887 0.8789,5.19716 0.6836,5.14405 0.48828,4.98792 0.29297,4.46976 0.0976,2.29601 0.0891,5.12832"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path14" />
+      </g>
+    </g>
+    <g
+       id="g18">
+      <title
+         id="title15">Expression 4</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path15" />
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path16" />
+      <g
+         id="g17">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 196.59543,185.63586 v 0 l 0.18191,-2.8796 0.39063,-2.20703 0.58594,-2.10184 0.78125,-2.03143 1.07421,-2.13111 1.36719,-2.11385 1.66016,-2.02625 1.85547,-1.80125 2.05078,-1.58308 2.14844,-1.30484 2.24609,-1.04826 2.34375,-0.79844 2.34375,-0.52825 2.44141,-0.28307 2.4414,-0.0203 2.44141,0.24173 2.34375,0.48646 2.34375,0.75283 2.24609,0.99862 2.14844,1.24848 1.95312,1.43524 1.85547,1.70012 1.66016,1.89693 1.46484,2.10602 1.17188,2.15525 0.8789,2.11182 0.6836,2.26955 0.39062,1.9556 0.19532,1.66186 0.0739,1.83811"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path17" />
+      </g>
+    </g>
+    <g
+       id="g22">
+      <title
+         id="title18">Expression 5</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path18" />
+      <g
+         id="g19">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 196.59543,185.63587 v 0 l 0.1671,2.76034 0.3906,2.26076 0.58589,2.12224 0.78119,2.04254 1.07414,2.13879 1.36709,2.11938 1.66003,2.03046 1.85533,1.8045 2.05062,1.58577 2.14828,1.30709 2.24592,1.05027 2.34358,0.80032 2.34357,0.52999 2.44122,0.28483 3.12477,-0.0185 2.44122,-0.31435 2.34358,-0.55999 2.34357,-0.83325 2.24592,-1.08636 2.05063,-1.27968 1.95298,-1.53147 1.17179,-1.10134"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path19" />
+      </g>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path20" />
+      <g
+         id="g21">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 196.59543,185.63586 v 0 l 0.1671,-2.76034 0.3906,-2.26076 0.58589,-2.12224 0.78119,-2.04254 1.07414,-2.13879 1.36709,-2.11938 1.66003,-2.03046 1.85533,-1.8045 2.05062,-1.58577 2.14828,-1.30709 2.24592,-1.05027 2.34358,-0.80032 2.34357,-0.52999 2.44122,-0.28483 3.12477,0.0185 2.44122,0.31435 2.34358,0.55999 2.34357,0.83325 2.24592,1.08636 2.05063,1.27968 1.95298,1.53147 1.17179,1.10134"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path21" />
+      </g>
+    </g>
+    <g
+       id="g24">
+      <title
+         id="title22">Expression 6</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path22" />
+      <g
+         id="g23">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 219.47727,185.63586 v 0 l 104.57275,104.57276"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path23" />
+      </g>
+    </g>
+    <g
+       id="g26">
+      <title
+         id="title24">Expression 9</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path24" />
+      <g
+         id="g25">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 219.47727,185.63586 v 0 H 367.1789"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path25" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="labels-d23ce8e4"
+     transform="matrix(2,0,0,2,-105.26316,8.668732)">
+    <g
+       transform="translate(159.5,151)"
+       id="g34">
+      <g
+         class="dcg-svg-label"
+         id="g33">
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="2.15625"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text26">7</text>
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="'Times New Roman', Symbola, serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="11.335938"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text27">π</text>
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="20.28125"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text28">/</text>
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="25.359375"
+           y="15.46212"
+           text-anchor="start"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text29">4</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="2.15625"
+           y="15.46212"
+           text-anchor="start"
+           id="text30">7</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="'Times New Roman', Symbola, serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="11.335938"
+           y="15.46212"
+           text-anchor="start"
+           id="text31">π</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="20.28125"
+           y="15.46212"
+           text-anchor="start"
+           id="text32">/</text>
+        <text
+           fill="#c74440"
+           stroke="none"
+           font-family="Symbola, 'Times New Roman', serif"
+           font-size="17.71px"
+           font-style="normal"
+           font-weight="400"
+           text-decoration="normal"
+           x="25.359375"
+           y="15.46212"
+           text-anchor="start"
+           id="text33">4</text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g35"
+     transform="matrix(2,0,0,2,-8.668733,75.541797)" />
+</svg>

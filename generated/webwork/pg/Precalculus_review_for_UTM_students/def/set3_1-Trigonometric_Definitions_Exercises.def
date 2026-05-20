@@ -1,0 +1,15 @@
+openDate          = 05/19/2026 at 12:00am
+dueDate           = 11/19/2026 at 10:00pm
+answerDate        = 11/19/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_1-Trigonometric_Definitions_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_1-Trigonometric_Definitions_Exercises.pg
+description       = Trigonometric Definitions
+problemListV2
+problem_start
+source_file = Library/MC/Trigonometry/trig_defn-01.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/MC/Trigonometry/trig_defn-06.pg
+problem_id = 2
+problem_end

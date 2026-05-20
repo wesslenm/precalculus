@@ -1,0 +1,83 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-20T13:42:49Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup1 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
+$popup2 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+$popup3 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
+$popup4 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
+$popup5 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
+$popup6 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+$popup7 = PopUp(['?','x','y','r'],3);
+$popup8 = PopUp(['?','x','y','r'],2);
+$popup9 = PopUp(['?','x','y','r'],3);
+$popup10 = PopUp(['?','x','y','r'],1);  
+$popup11 = PopUp(['?','x','y','r'],1);
+$popup12 = PopUp(['?','x','y','r'],2);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  We know that [`\csc \theta = \frac{1}{\sin \theta}\text{.}`] Therefore, in terms of right angled triangles, [`\csc \theta = \frac{1}{opp/hyp} = `] [_]{$popup1}{5} / [_]{$popup2}{5}.
+
+a.  In right angled triangles, [`\sec \theta =`] [_]{$popup3}{5} / [_]{$popup4}{5}.
+
+a.  In right angled triangles, [`\cot \theta =`] [_]{$popup5}{5} / [_]{$popup6}{5}.
+
+a.  In terms of [`x, y, r`] on a circle, we see that [`\csc \theta = \frac{1}{\sin \theta} = \frac{1}{y/r} = `] [_]{$popup7}{5} / [_]{$popup8}{5}.
+
+a.  In terms of [`x, y, r`] on a circle,  [`\sec \theta = `] [_]{$popup9}{5} / [_]{$popup10}{5}.
+
+a.  In terms of [`x, y, r`] on a circle, we see that [`\cot \theta = `] [_]{$popup11}{5} / [_]{$popup12}{5}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

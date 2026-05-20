@@ -1,0 +1,75 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-20T13:42:49Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.5.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+
+$ans1 = Compute("-sqrt(3)/2")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("sqrt(3)")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.
+
+(a) [` \cos \left(\frac{7\pi}{6}\right) =`]  [_]{$ans1}{10}.
+
+(b) [` \cot \left(\frac{7\pi}{6}\right) =`]  [_]{$ans2}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

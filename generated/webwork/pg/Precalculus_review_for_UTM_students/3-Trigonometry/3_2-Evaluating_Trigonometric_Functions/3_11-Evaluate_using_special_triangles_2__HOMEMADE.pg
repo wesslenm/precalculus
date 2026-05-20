@@ -1,0 +1,81 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-19T19:55:59Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.11)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+
+$a = random(2,9,1);
+$ans1 = Compute("1/sqrt(2)")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("1/sqrt(3)")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans3 = Compute("sqrt(3)")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the special triangles to find the following values. Answer in exact form (using square roots if needed).
+
+(a) [` \sin \left(\frac{\pi}{4}\right) =`]  [_]{$ans1}{6}.
+
+(b) [` \tan \left(\frac{\pi}{6}\right) =`]  [_]{$ans2}{6}.
+
+(c) [` \tan \left(\frac{\pi}{3}\right) =`]  [_]{$ans3}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

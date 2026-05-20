@@ -1,0 +1,101 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-20T13:42:49Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+
+$a = random(2,9,1);
+$ans1 = Compute("33/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("56/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans3 = Compute("33/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans4 = Compute("56/33")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans5 = Compute("56/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans6 = Compute("33/56")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans7 = Compute("1089/4225")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the triangle in the image and evaluate the following trigonometric quanities. Answer with exact values.
+
+(a) [` \sin \gamma =`]  [_]{$ans1}{6}.
+
+(b) [` \cos \gamma =`]  [_]{$ans2}{6}.
+
+(c) [` \cos \mu =`]  [_]{$ans3}{6}.
+
+(d) [` \tan \mu =`]  [_]{$ans4}{6}.
+
+(e) [` \sin \mu =`]  [_]{$ans5}{6}.
+
+(f) [` \tan \gamma =`]  [_]{$ans6}{6}.
+
+(g) [` \left(\tan \gamma \right) \left(\cos \mu \right) \left(\sin \mu \right) =`]  [_]{$ans7}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

@@ -1,0 +1,19 @@
+openDate          = 05/20/2026 at 12:00am
+dueDate           = 11/20/2026 at 10:00pm
+answerDate        = 11/20/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions.pg
+description       = Angles and Trigonometric Definitions
+problemListV2
+problem_start
+source_file = Library/MC/Trigonometry/RadianTerminalPoint.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_7-Evaluating_basic_trig__HOMEMADE__NEW_PLEASE_CHECK.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_8-Definitions_of_sec_thetatext_csc_theta_and_cot_theta__HOMEMADE__NEW_PLEASE_CHECK.pg
+problem_id = 8
+problem_end

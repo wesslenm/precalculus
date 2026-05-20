@@ -1,0 +1,79 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-20T03:28:19Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.4.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = random(2,9,1);
+$b = random(2,9,1);
+$c = random(2,9,1);
+$ans1 = Compute("2*pi/$b")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("$a")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );         
+$ans3 = Compute("0")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Find the following for the function [` y=[$a]\cos \left([$b]x\right)`]
+
+(a) What is the period of [` y=[$a]\sin \left([$b]x+[$c]\right)\text{?}`] [_]{$ans1}{6}
+
+(b) What is the amplitude of [` y=[$a]\sin \left([$b]x+[$c]\right)\text{?}`] [_]{$ans2}{6}
+
+(c) What is the phase shift of [` y=[$a]\sin \left([$b]x+[$c]\right)\text{?}`] [_]{$ans3}{6} (Use a positive number for a shift to the right, and negative for to the left.)
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
