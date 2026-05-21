@@ -133,7 +133,7 @@ In this section we discuss the graphs of trigonometric functions, and some prope
   </aside>
   
   <p>
-  All 6 trigonometric functions are <term>periodic</term>, which means that they repeat after a certain interval, called the <term>period</term>. The periods for the 6 functions are as follows:  
+  All 6 trigonometric functions are <term>periodic</term><idx><h>Periodic function</h></idx>, which means that they repeat after a certain interval, called the <term>period</term><idx><h>Period of a function</h></idx>. The periods for the 6 functions are as follows:  
   </p>
 <table><title>Periods of trigonometric functions.</title>
   <tabular halign="center">
@@ -257,10 +257,10 @@ In this section we discuss the graphs of trigonometric functions, and some prope
 Graphs also illustrate symmetries. For example, <m>y=\sin \theta</m> and <m>y=\tan \theta</m> are odd functions, while <m>y=\cos \theta</m> is an even function.
 </p>
 <p>
-Recall that a function <m>f(x)</m> is an <term>odd function</term> if <m>f(-x)=-f(x)</m> for all <m>x</m> in the domain of <m>f</m>. Visually, this means that the graph has 180 degree symmetry about the origin.
+Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd function</h></idx> if <m>f(-x)=-f(x)</m> for all <m>x</m> in the domain of <m>f</m>. Visually, this means that the graph has 180 degree symmetry about the origin.
 </p>
 <p>
- Also, <m>f(x)</m> is an <term>even function</term> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
+ Also, <m>f(x)</m> is an <term>even function</term><idx><h>Even function</h></idx> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
 </p>
 
      <example xml:id="graph2">
@@ -389,14 +389,14 @@ Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>:
   </example>
     </p>
       <p>
-Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). Similarly for the graph of <m>y=A \sin x</m>. The value <m>A</m> is called the <term>amplitude</term> of the sine or cosine curve. 
+Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). Similarly for the graph of <m>y=A \sin x</m>. The value <m>A</m> is called the <term>amplitude</term><idx><h>Amplitude</h></idx> of the sine or cosine curve. 
        </p>
              <p>
 The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) have periods of <m>2\pi /k</m>. This is because compared to <m>y=\cos x</m> and <m>y=\sin x</m>, the graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m> are compressed horizontally by a factor of <m>k</m>.
   </p>
 
         <p>
-Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. Here, <m>c</m> is called the <term>phase shift</term>. 
+Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. Here, <m>c</m> is called the <term>phase shift</term><idx><h>Phase shift</h></idx>. 
        </p>
 
      <example xml:id="graph3"><title>Amplitude, period, phase shift</title>
@@ -468,7 +468,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   <exercises>
     <title>Exercises</title>
 
-    <exercise><title>Fact Check - MISSING INSTRUCTIONS, NEED TO FIX</title>
+    <exercise><title>Fact Check - NEW INSTRUCTIONS, PLEASE CHECK</title>
   <introduction>
      <p> 
     Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).

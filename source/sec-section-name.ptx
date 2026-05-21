@@ -133,8 +133,7 @@ A new term: <term>radical</term>
     </webwork>
   </exercise>
 
-<exercise>
-<title>Simplifying </title>
+<exercise><title>Simplifying </title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -155,7 +154,7 @@ A new term: <term>radical</term>
 
 
 
-<exercise>
+<!-- <exercise>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -174,14 +173,13 @@ A new term: <term>radical</term>
       <p><m><var name="$a"/> + <var name="$b"/> = <var name="$c"/></m>.</p>
     </solution>
   </webwork>
-</exercise>
+</exercise> -->
 
 
 
 
 
-<exercise>
-<title>Answer does not accept rounded numbers</title>
+<exercise><title>Answer does not accept rounded numbers</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -189,13 +187,13 @@ A new term: <term>radical</term>
       $a = random(2,9,1);
       $ans1 = Compute("2/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
       $ans2 = Compute("sqrt(2)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
       $ans3 = Compute("1/sqrt(3)")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
+               tolerance => .00000000001,   );
 
          Context()->functions->disable('All');
          Context()->functions->enable('sqrt');
@@ -220,8 +218,7 @@ A new term: <term>radical</term>
 
 
 
-<table>
-  <title>A simple table</title>
+<table><title>A simple table</title>
   <tabular halign="center">
     <row header="yes" bottom="minor" >
       <cell>Variable <m>x</m></cell>
@@ -257,8 +254,7 @@ A new term: <term>radical</term>
 
 </table>
 
-<exercise>
-    <title>Answer Type Variety</title>
+<exercise><title>Answer Type Variety</title>
     <introduction>
       <p>
         This problem demonstrates that <webwork/> can process many kinds of answers.

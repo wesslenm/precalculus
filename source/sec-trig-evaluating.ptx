@@ -29,6 +29,7 @@
   </objectives>
    
   <assemblage><title>Where will this be used in calculus?</title>
+   <p>
     <ul>
       <li>
         <p>
@@ -42,6 +43,7 @@
         </p>
       </li>
     </ul>
+  </p>
   </assemblage>
 
   <introduction>
@@ -302,9 +304,6 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-	  <p>
-	  </p>
-
 <example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m> - HOMEMADE</title>
 	<statement>
       Find exact values for <m> \sin \left(-\frac{\pi}{6}\right), \ \cos \left(-\frac{\pi}{6}\right) </m> and <m>\sec \left(-\frac{\pi}{6}\right)</m> without using a calculator.
@@ -421,7 +420,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 
   <subsection xml:id="sec-trig-right"><title>Evaluating at <m>0, \pi/2, \pi</m> etc. </title>
   <p> If you know the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>, then it is easy to find the values of all trigonometric functions for any multiple of <m>\frac{\pi}{2}</m>. 
-  Trigonometic graphs are discussed more in <xref ref="sec-trig-graphs" />, but you may already remember the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m>:
+  Trigonometic graphs are discussed in <xref ref="sec-trig-graphs" />, but the graphs of <m>y=\sin \theta</m> and <m>y=\cos \theta</m> are also given here for convenience:
    </p>
 
   <aside>
@@ -452,7 +451,6 @@ In this section we review methods for evaluating all six trigonomtric functions 
         </shortdescription>
   </image>
 </figure>
-
 
  <example xml:id="trig-intro-ex2"><title>Evaluate <m>\cos \left(\frac{3\pi}{2}\right)</m> </title>
 	<statement>
@@ -507,9 +505,6 @@ In this section we review methods for evaluating all six trigonomtric functions 
     </p>
 	</solution>
   </example>
-
-     <p>
-     </p>
     
 <exercise><title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> - HOMEMADE </title>
   <webwork>
@@ -537,55 +532,109 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate cosine at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE </title>
-  <webwork>
-    <pg-code>
-      Context("LimitedNumeric");
-      $a = Compute(random(-9, 12, 1));
-      $b = $a/2;
-      $ans = cos(pi*$a/2);
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\cos \left(<var name="$b"/>\pi\right)</m> without using a calculator.</p>
-      <p><m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-
-  </webwork>
-</exercise>
-
-<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE</title>
+<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY</title>
   <webwork>
     <pg-code>
       Context("Numeric");
 
       $a = Compute(random(-12, 15, 1));
       $b = $a/2;
-      $ans1 = tan(pi*$a/2); 
-      $ans2 = cot(pi*$a/2); 
-      $ans3 = sin(pi*$a/2); 
-      $ans4 = csc(pi*$a/2); 
-      $ans5 = cos(pi*$a/2); 
-      $ans6 = sec(pi*$a/2);       
+      $r = $a % 4;
+
+      if ($r == 0) {
+      $ans1 = num_cmp(0);
+    } elsif ($r == 1) {
+      $ans1 = str_cmp("DNE");
+    } elsif ($r == 2) {
+      $ans1 = num_cmp(0);
+    } else {
+      $ans1 = str_cmp("DNE");
+    }  
+      if ($r == 0) {
+      $ans2 = str_cmp("DNE");
+    } elsif ($r == 1) {
+      $ans2 = num_cmp(0);
+    } elsif ($r == 2) {
+      $ans2 = str_cmp("DNE");
+    } else {
+      $ans2 = num_cmp(0);
+    } 
+      if ($r == 0) {
+      $ans3 = num_cmp(0);
+    } elsif ($r == 1) {
+      $ans3 = num_cmp(1);
+    } elsif ($r == 2) {
+      $ans3 = num_cmp(0);
+    } else {
+      $ans3 = num_cmp(-1);
+    } 
+      if ($r == 0 || $r == 2) {
+      $ans4 = str_cmp("DNE");
+    } elsif ($r == 1) {
+      $ans4 = num_cmp(1);
+    } else {
+      $ans4 = num_cmp(-1);
+    } 
+     if ($r == 0) {
+      $ans5 = num_cmp(1);
+    } elsif ($r == 1) {
+      $ans5 = num_cmp(0);
+    } elsif ($r == 2) {
+      $ans5 = num_cmp(-1);
+    } else {
+      $ans5 = num_cmp(0);
+    }
+     if ($r == 1 || $r == 3) {
+      $ans6 = str_cmp("DNE");
+    } elsif ($r == 0) {
+      $ans6 = num_cmp(1);
+    } else {
+      $ans6 = num_cmp(-1);
+    }   
     </pg-code>
 
     <statement>
-      <p>Evaluate the following without using a calculator.</p>
-      <p><m>\tan \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans1" width="10"/>.</p>
-      <p><m>\cot \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans2" width="10"/>.</p>      
-      <p><m>\sin \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans3" width="10"/>.</p>
-      <p><m>\csc \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans4" width="10"/>.</p>   
-      <p><m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans5" width="10"/>.</p>
-      <p><m>\sec \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans6" width="10"/>.</p>                                     
+         <ol>
+        <li>
+          <p>
+          <m>\tan \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans1" width="10"/>.
+      </p>
+        </li>
+        <li>
+          <p>
+      <m>\cot \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans2" width="10"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+           <m>\sin \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans3" width="10"/>.
+          </p>
+        </li>   
+        <li>
+          <p>
+            <m>\csc \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans4" width="10"/>.
+          </p>
+        </li> 
+        <li>
+          <p>
+            <m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans5" width="10"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\sec \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans6" width="10"/>.
+          </p>
+        </li>        
+      </ol>      
     </statement>
-
   </webwork>
 </exercise>
-
   </subsection>
 
   <subsection xml:id="sec-trig-summary"><title>Summary</title>
-  <p> The common angles we have evaluated trigonometric functions at, are summarized here.    </p>
+  <p> 
+    The common angles we have evaluated trigonometric functions at, are summarized here.    
+  </p>
 
  <assemblage xml:id="trig-common">
     <title>Common angles</title>
@@ -619,16 +668,19 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </assemblage> 
 </subsection>
 
-<exercises><title>Exercises</title>
+<exercises><title>Recommended Exercises</title>
     <p>
-      Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
+      For students who want a focused review of the topic, we recommend working on these exercises. 
+      If you find that you want even more practice, there are additional exercises below. 
+      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="trig-eval-additional"/>) and then come back to the Recommended Exercises.
     </p>
-
-
-<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
-   <p>
-	 (Not randomized.)
-   </p>
+  
+<exercise><title>Evaluate at common angles - HOMEMADE</title>
+   <introduction>
+    <p>
+       (Not randomized.)
+    </p>
+   </introduction>
 <webwork>
     <pg-code>
       Context("Fraction");
@@ -656,10 +708,12 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
-   <p>
-	 (Not randomized.)
-   </p>
+<exercise><title>Evaluate at <m>-\frac{\pi}{3}</m> - HOMEMADE</title>
+   <introduction>
+    <p>
+       (Not randomized.)
+    </p>
+   </introduction>
 <webwork>
     <pg-code>
       Context("Fraction");
@@ -683,10 +737,12 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate trig without a calculator - HOMEMADE</title>
-   <p>
-	 (Not randomized.)
-   </p>
+<exercise><title>Evaluate at <m>\frac{7\pi}{6}</m> - HOMEMADE</title>
+   <introduction>
+    <p>
+       (Not randomized.)
+    </p>
+   </introduction>
 <webwork>
     <pg-code>
       Context("Fraction");
@@ -711,9 +767,11 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </exercise>
 
 <exercise><title>Evaluate <m>\cos \theta </m> without a calculator - HOMEMADE</title>
-   <p>
-	 (Randomized.)
-   </p>
+   <introduction>
+    <p>
+       (Randomized.)
+    </p>
+   </introduction>
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -730,58 +788,39 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate trig without a calculator - FROM WEBWORK</title>
-   <p>
-	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
-    </p>  
+<exercise><title>Evaluate at <m>0</m> - FROM WEBWORK</title>
+  <introduction>
+    <p>
+       (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>
+   </introduction>
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_23.pg" />
    </exercise>
 
-<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
-   <p>
-	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
-    </p> 
-      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
- </exercise>
 
-<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
-   <p>
-	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
-    </p>  
-      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
-  </exercise>
-
-<exercise><title>Evaluate trig without a calculator  - FROM WEBWORK</title>
-   <p>
-	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
-    </p>  
-    <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
- </exercise>
-
-<exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
-   <p>
-	 (Randomized.) 
-    </p> 
- <webwork>
+<exercise><title>Evaluate cosine at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE </title>
+  <webwork>
     <pg-code>
-      Context("Numeric");
-      $a = Compute(random(-5, 11, 1));
-      $b = $a/3;
-      $ans = sin(pi*$a/3);
+      Context("LimitedNumeric");
+      $a = Compute(random(-9, 12, 1));
+      $b = $a/2;
+      $ans = cos(pi*$a/2);
     </pg-code>
 
     <statement>
-      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
-      <p><m>\sin \left(\frac{<var name="$a"/>\pi}{3}\right) =</m>  <var name="$ans" width="6"/>.</p>
+      <p>Evaluate <m>\cos \left(<var name="$b"/>\pi\right)</m> without using a calculator.</p>
+      <p><m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
 
   </webwork>
- </exercise>
+</exercise>
 
 <exercise><title>Evaluate <m>\tan \theta </m> without a calculator  - HOMEMADE</title>
-   <p>
-	 (Randomized.) 
-    </p> 
+   <introduction>
+    <p>
+       (Randomized.)
+    </p>
+   </introduction>
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -799,9 +838,11 @@ In this section we review methods for evaluating all six trigonomtric functions 
  </exercise>
 
 <exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
-   <p>
-	 (Randomized.) 
-   </p> 
+   <introduction>
+    <p>
+       (Randomized.)
+    </p>
+   </introduction>
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -819,9 +860,11 @@ In this section we review methods for evaluating all six trigonomtric functions 
  </exercise>
 
 <exercise><title>Evaluate <m>\sin \theta </m> without a calculator - HOMEMADE</title>
-   <p>
-	 (Randomized.) 
-   </p> 
+   <introduction>
+    <p>
+       (Randomized.)
+    </p>
+   </introduction>
  <webwork>
     <pg-code>
       Context("Numeric");
@@ -837,9 +880,65 @@ In this section we review methods for evaluating all six trigonomtric functions 
 
   </webwork>
  </exercise>
+</exercises>
+  
+  <exercises xml:id="trig-eval-additional"><title>Additional Exercises</title>
+  <p>
+For students who want even more problems to practice, here are some additional exercises. 
+  </p>
+  
+  <p>
+      Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
+  </p>
+
+<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - FROM WEBWORK</title>
+   <introduction>
+  <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p> 
+    </introduction>
+      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
+ </exercise>
+
+<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - FROM WEBWORK</title>
+      <introduction>
+        <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>  
+    </introduction>
+      <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
+  </exercise>
+
+<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - FROM WEBWORK</title>
+      <introduction>
+        <p>
+	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
+    </p>
+    </introduction>  
+    <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
+ </exercise>
+
+ <exercise><title>Evaluate <m>\sin \theta </m> without a calculator - HOMEMADE</title>
+   <introduction>
+    <p>
+       (Randomized.)
+    </p>
+   </introduction>
+ <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(-5, 11, 1));
+      $b = $a/3;
+      $ans = sin(pi*$a/3);
+    </pg-code>
+
+    <statement>
+      <p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. </p>
+      <p><m>\sin \left(\frac{<var name="$a"/>\pi}{3}\right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+ </exercise>
 
 </exercises>
-
-
-
 </section>
