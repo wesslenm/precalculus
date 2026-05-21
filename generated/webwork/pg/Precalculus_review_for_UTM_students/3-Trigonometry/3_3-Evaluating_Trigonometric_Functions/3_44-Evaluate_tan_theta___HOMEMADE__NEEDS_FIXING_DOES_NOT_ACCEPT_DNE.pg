@@ -1,0 +1,78 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-21T02:10:13Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.44)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+
+  $a = random(-12, 15, 1);
+  $b = $a/2;
+  $r = $a % 4;
+
+$ans1 = dne_or_num($r == 1 || $r == 3, 0);
+
+$ans2 = dne_or_num($r == 0 || $r == 2, 0);
+  $ans3 = sin(pi*$a/2); 
+  $ans4 = csc(pi*$a/2); 
+  $ans5 = cos(pi*$a/2); 
+  $ans6 = sec(pi*$a/2);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  [`\tan \left([$b]\pi\right) =`]  [_]{$ans1}{10}.
+
+a.  [`\sec \left([$b]\pi\right) =`]  [_]{$ans2}{10}.
+
+a.  [`\tan \left([$b]\pi\right) =`]  [_]{$ans3}{10}.
+
+a.  [`\sec \left([$b]\pi\right) =`]  [_]{$ans4}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

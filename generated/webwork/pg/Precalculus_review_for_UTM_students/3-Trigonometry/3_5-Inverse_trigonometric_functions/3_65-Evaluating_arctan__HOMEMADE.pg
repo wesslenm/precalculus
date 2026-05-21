@@ -1,0 +1,67 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-21T02:46:32Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.65)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute(pi/4);
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arctan 1`] without using a calculator. Answer with an exact value.
+
+[`\arctan 1=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

@@ -1,6 +1,6 @@
-openDate          = 05/20/2026 at 12:00am
-dueDate           = 11/20/2026 at 10:00pm
-answerDate        = 11/20/2026 at 10:00pm
+openDate          = 05/21/2026 at 12:00am
+dueDate           = 11/21/2026 at 10:00pm
+answerDate        = 11/21/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/4_1-Random_trial_chapter.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/4_1-Random_trial_chapter.pg
 description       = Random trial chapter
@@ -34,14 +34,10 @@ source_file = Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Ran
 problem_id = 10
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_11.pg
+source_file = Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_11-Answer_does_not_accept_rounded_numbers.pg
 problem_id = 11
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_12-Answer_does_not_accept_rounded_numbers.pg
-problem_id = 12
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_14-Answer_Type_Variety.pg
-problem_id = 14
+source_file = Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_13-Answer_Type_Variety.pg
+problem_id = 13
 problem_end

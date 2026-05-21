@@ -1,0 +1,125 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-21T03:03:27Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.42)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+
+  $a = Compute(random(-12, 15, 1));
+  $b = $a/2;
+  $r = $a % 4;
+
+  if ($r == 0) {
+  $ans1 = num_cmp(0);
+} elsif ($r == 1) {
+  $ans1 = str_cmp("DNE");
+} elsif ($r == 2) {
+  $ans1 = num_cmp(0);
+} else {
+  $ans1 = str_cmp("DNE");
+}  
+  if ($r == 0) {
+  $ans2 = str_cmp("DNE");
+} elsif ($r == 1) {
+  $ans2 = num_cmp(0);
+} elsif ($r == 2) {
+  $ans2 = str_cmp("DNE");
+} else {
+  $ans2 = num_cmp(0);
+} 
+  if ($r == 0) {
+  $ans3 = num_cmp(0);
+} elsif ($r == 1) {
+  $ans3 = num_cmp(1);
+} elsif ($r == 2) {
+  $ans3 = num_cmp(0);
+} else {
+  $ans3 = num_cmp(-1);
+} 
+  if ($r == 0 || $r == 2) {
+  $ans4 = str_cmp("DNE");
+} elsif ($r == 1) {
+  $ans4 = num_cmp(1);
+} else {
+  $ans4 = num_cmp(-1);
+} 
+ if ($r == 0) {
+  $ans5 = num_cmp(1);
+} elsif ($r == 1) {
+  $ans5 = num_cmp(0);
+} elsif ($r == 2) {
+  $ans5 = num_cmp(-1);
+} else {
+  $ans5 = num_cmp(0);
+}
+ if ($r == 1 || $r == 3) {
+  $ans6 = str_cmp("DNE");
+} elsif ($r == 0) {
+  $ans6 = num_cmp(1);
+} else {
+  $ans6 = num_cmp(-1);
+}
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  [`\tan \left([$b]\pi\right) =`]  [_]{$ans1}{10}.
+
+a.  [`\cot \left([$b]\pi\right) =`]  [_]{$ans2}{10}.
+
+a.  [`\sin \left([$b]\pi\right) =`]  [_]{$ans3}{10}.
+
+a.  [`\csc \left([$b]\pi\right) =`]  [_]{$ans4}{10}.
+
+a.  [`\cos \left([$b]\pi\right) =`]  [_]{$ans5}{10}.
+
+a.  [`\sec \left([$b]\pi\right) =`]  [_]{$ans6}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

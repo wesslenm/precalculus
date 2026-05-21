@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Dividing Polynomials",
-  "body": " Dividing Polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.     Where will this be used in calculus?  Throughout our study of calculus, long division of polynomials can be useful when:     Looking for certain types of asymptotes, which is important in graph sketching,    Polynomials or rational expressions need to be expressed in equivalent ways, such as during an integration technique called Partial Fractions,    Finding the anti-derivative of a rational function whose numerator is larger in degree than its denominator, again during an integration technique called Partial Fractions.       You may remember long division of large numbers, such as 5781 divided by 25. In this section, we review how the technique of long division can be used to divide a polynomial by another polynomial of equal or lesser degree.   Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend  Dividend and is called the divisor  Divisor . The answer to the division is called the quotient  Quotient . In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:      quotient      divisor  dividend    Sometimes there is a remainder  Remainder if the dividend is not evenly divided by the divisor. For an example, see .   Long Division of Polynomials Long division  Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)  Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:   Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:     Interpreting the result - HOMEMADE    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                   Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4      Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .   Set-up and notation - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                              Long division with quadratic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Study tip:   You may be able to do this without using long division. That's great, but you should also try answering the question by using long division (for practice).   Long division with cubic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  You may have heard of a technique called synthetic division . It is based onthe same technique and steps as described above, but used in a shorthand notation. The synthetic division notation only applies when divising by a linear divisor of the form . If you would like to use synthetic division you can, but we will not go over it here.   Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:     Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                   Exercises  True or False - HOMEMADE    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                   Interpreting results - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                 Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                     Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
+  "body": " Dividing Polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.     Where will this be used in calculus?  Throughout our study of calculus, long division of polynomials can be useful when:     Looking for certain types of asymptotes, which is important in graph sketching,    Polynomials or rational expressions need to be expressed in equivalent ways, such as during an integration technique called Partial Fractions,    Finding the anti-derivative of a rational function whose numerator is larger in degree than its denominator, again during an integration technique called Partial Fractions.       You may remember long division of large numbers, such as 5781 divided by 25. In this section, we review how the technique of long division can be used to divide a polynomial by another polynomial of equal or lesser degree.   Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend  Dividend and is called the divisor  Divisor . The answer to the division is called the quotient  Quotient . In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:      quotient      divisor  dividend    Sometimes there is a remainder  Remainder if the dividend is not evenly divided by the divisor. For an example, see .   Long Division of Polynomials Long division  Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)  Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:   Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:     Interpreting the result - HOMEMADE    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                   Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4      Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .   Set-up and notation - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                              Long division with quadratic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Study tip:   You may be able to do this without using long division. That's great, but you should also try answering the question by using long division (for practice).   Long division with cubic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  You may have heard of a technique called synthetic division . It is based onthe same technique and steps as described above, but used in a shorthand notation. The synthetic division notation only applies when divising by a linear divisor of the form . If you would like to use synthetic division you can, but we will not go over it here.   Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:     Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  Exercises  True or False - HOMEMADE    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                   Interpreting results - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                 Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                     Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
 },
 {
   "id": "sec-func-dividing-2",
@@ -1150,7 +1150,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Angles and Trigonometric Definitions",
-  "body": " Angles and Trigonometric Definitions     Be familiar with radian measure of angles, and standard notation related to angles.    Use the right angled triangle definitions and the general definitions of the 6 trigonometric functions, and interchange between the two.    Be familiar with basic relationships between trigonometric functions.    Evaluate the 6 trigonometric functions without a calculator, for common angles such as those listed in .     Where will this be used in calculus?  Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:     Trigonometric functions are used in many modeling contexts, for example when modeling wave motions.    A technique called trigonometric substitution allows us to solve integration problems such as .    Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions.       In this section, we will work with trigonometric functions. We will see definitions of the six trigonometric functions both in terms of right angled triangles, and in terms of general angles. We will also examine relationships between the six functions.   Angle Notation  In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  Radian angles  Radians are a measure of the size of an angle. In a circle, if you take the radius of the circle and lay that length along the circle's edge, the corresponding angle is 1 radian Radian .    Radian angle measure.   Source Source: https:\/\/commons.wikimedia.org\/wiki\/File:Circle_radians.gif#\/media\/File:Circle_radians.gif   The circumference of a circle of radius is . This means that the angle corresponding to a full circle (360 degrees) is radians.   Correspondence between radian and degree measures in some common angles.    Degree  Radian    0  0                                               Study tip:   Use radians as much as possible and try to develop a feel for their size. For example, try to develop a feel for how large radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode.   An angle placed on the coordinate system is in standard position Standard position angle when its vertex is at the origin and its initial side is on the positive -axis. See . A positive angle is measured in the counterclockwise direction. A negative angle is measured in the clockwise direction.   Angle in standard position  Angle in standard position   Angle in standard position.    The unit circle can be used to define trigonometric functions. The unit circle is a circle with centre at the origin, and radius 1, as shown in . The point in is the terminal point . The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The and values of the point will be important in the definitions of the trigonometric functions.   A point on the unit circle  A point on the unit circle   A point on the unit circle.    Greek letters Greek letters  We often (but not always) use Greek letters to represent angles. For example, (theta), (alpha) and (beta) are commonly used to represent angles.  For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. (This is not a full list of the Greek alphabet.)     Study tip:   Repeat with many other angles, until you feel more amiliar with radian angles. For example, locate the following angles on the unit circle: Also look at the negative equivalents of these angles.   Radians on unit circle   Draw the following angles (given in radians) on the unit circle.                    The angle corresponds to half of a full turn (180 degrees).    The angle corresponds to a quarter of .    The angle brings us to Quadrant IV because it is only smaller than a full turn.    The angle is in the clockwise direction, one 6th of (and corresponds to half of a full turn).               Unit circle - FROM WEBWORK    For the given values of an angle , find the terminal point on the unit circle.  (a) If , then  and  ;  (b) If , then  and  ;  (c) If , then  and  ;  (d) If , then  and  ;  (e) If , then  and  ;  (f) If , then  and  ;   For each given value of , draw a unit circle and the angle in standard position. The point desired is where the terminal side of the angle intersects the unit circle. Use geometric ideas to determine and in a manner similar to what was done in earlier sections of this course.                                                                     Definitions  We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.    Study tip:   Some students like the neumonic SOH CAH TOA to help memorize these definitions. ``SOH'' refers to Opposite \/ Hypothenuse, and similarly for CAH and TOA.   Definitions of trigonometric functions - right angled triangles  Definitions of trigonometric functions - right angled triangles  Consider a right angled triangle, where one of the accute angles is . This means . Then the trigonometric functions are defined as follows:     Sine: Opposite \/ Hypothenuse    Cosine: Adjacent \/ Hypothenuse    Tangent: Opposite \/ Adjacent      Evaluating basic trig   In the below right angled triangle, there is a right angle and two accute angles labelled and . The sides are 17, 15 and 8 units long, as indicated.   A right angled triangle with sides 17, 15 and 8.   Evaluate the following trigonometric quanities. Answer with exact values.                                                  The hypthenuse of this triangle is 17. The `opposite' of angle is 15, while the `opposite' of angle is 8. The `adjacent' of angle is 8, while the `adjacent' of angle is 15. Then use the definitions listed above.    Evaluating basic trig - HOMEMADE - NEW, PLEASE CHECK   In the below right angled triangle, there is a right angle and two accute angles labelled and . The sides are 33, 56 and 65 units long, as indicated.   A right angled triangle with sides 33, 56 and 65.   (Not randomizable) Evaluate the following trigonometric quanities. Answer with exact values.     Use the triangle in the image and evaluate the following trigonometric quanities. Answer with exact values.  (a)  .  (b)  .  (c)  .  (d)  .  (e)  .  (f)  .  (g)  .                                             Study tip:   You should memorize all defitions of trigonometric functions, if you don't know them already. It is important to know both the definitions in terms of right angled triangles AND the definitions in terms of the circle.   Definitions of trigonometric functions - general definition  Definitions of trigonometric functions - general definition  Let be any angle in standard position in a circle centered at . With and as in , we make the following definitions:                      Basic Trigonometric Identities  The following relationships are all important.                             Study tip:   You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already.    Definitions of , and - HOMEMADE - NEW, PLEASE CHECK   Use the above basic trigonometric identities and definitions to find the definitions of secant, cosecant and cotangent. Do this first in terms of right angled triangles, then in terms of in a circle.       We know that Therefore, in terms of right angled triangles,   opposite   adjacent   hypothenuse  \/  opposite   adjacent   hypothenuse  .    In right angled triangles,   opposite   adjacent   hypothenuse  \/  opposite   adjacent   hypothenuse  .    In right angled triangles,   opposite   adjacent   hypothenuse  \/  opposite   adjacent   hypothenuse  .    In terms of on a circle, we see that   x   y   r  \/  x   y   r  .    In terms of on a circle,   x   y   r  \/  x   y   r  .    In terms of on a circle, we see that   x   y   r  \/  x   y   r  .                                                                       Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Anges - LINK   Knowing where common angles fall on the unit circle is useful when working with trigonometric functions. Here is a game you can play if you like. Remember that in calculus we will only use radian measures for angles, so they are more important tht the degree values.   Angle memorization game      An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:              Evaluate trig given an angle in standard position - FROM WEBWORK   (Randomized. Feel free to practice the problem several times.)     An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:              Evaluate trig given an angle in standard position - FROM WEBWORK   (Randomized.)     An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:           Simplify - HOMEMADE    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or              "
+  "body": " Angles and Trigonometric Definitions     Be familiar with radian measure of angles, and standard notation related to angles.    Use the right angled triangle definitions and the general definitions of the 6 trigonometric functions, and interchange between the two.    Be familiar with basic relationships between trigonometric functions.    Evaluate the 6 trigonometric functions without a calculator, for common angles such as those listed in .     Where will this be used in calculus?  Trigonometric functions are used extensively throughout calculus. Being able to work with, and evaluate, trigonometric functions is essential in many applications. Here are a few specific examples:     Trigonometric functions are used in many modeling contexts, for example when modeling wave motions.    A technique called trigonometric substitution allows us to solve integration problems such as .    Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions.       In this section, we will work with trigonometric functions. We will see definitions of the six trigonometric functions both in terms of right angled triangles, and in terms of general angles. We will also examine relationships between the six functions.   Angle Notation  In calculus, we will mostly use radians to measure angles. This is because several formulas and techniques in calculus are much easier to work with when using radians (compared to degrees). If you are more familiar with angles measured in degrees, you may want to start by using this conversion chart. However, it is useful to develop a feel for radian measures (rather than converting to degrees each time).  Radian angles  Radians are a measure of the size of an angle. In a circle, if you take the radius of the circle and lay that length along the circle's edge, the corresponding angle is 1 radian Radian .    Radian angle measure.   Source Source: https:\/\/commons.wikimedia.org\/wiki\/File:Circle_radians.gif#\/media\/File:Circle_radians.gif   The circumference of a circle of radius is . This means that the angle corresponding to a full circle (360 degrees) is radians.   Correspondence between radian and degree measures in some common angles.    Degree  Radian    0  0                                               Study tip:   Use radians as much as possible and try to develop a feel for their size. For example, try to develop a feel for how large radians is, withough needing to convert it to degrees. Use degrees as little as possible (or not at all) when you study calculus. If you use a calculator to check your answers, make sure it is set to radian mode.   An angle placed on the coordinate system is in standard position Standard position angle when its vertex is at the origin and its initial side is on the positive -axis. See . A positive angle is measured in the counterclockwise direction. A negative angle is measured in the clockwise direction.   An angle in standard position  An angle in standard position   An angle in standard position.    The unit circle can be used to define trigonometric functions. The unit circle Unit circle is a circle with centre at the origin, and radius 1, as shown in . The point in is the terminal point Terminal point . The terminal point is defined as the point where the terminal side of an angle (in standard position) intersects the unit circle. The and values of the point will be important in the definitions of the trigonometric functions.   A point on the unit circle.  A point on the unit circle   A point on the unit circle.    Greek letters Greek letters  We often (but not always) use Greek letters to represent angles. For example, (theta), (alpha) and (beta) are commonly used to represent angles.  For reference, here is a list of the names of some Greek letters commonly used in calculus, in case you are interested. This is not a full list of the Greek alphabet, only the letters most commonly used in calculus and related examples.     Study tip:   Repeat with many other angles, until you feel more amiliar with radian angles. For example, locate the following angles on the unit circle:    Also look at the negative equivalents of these angles.   Radians on unit circle   Draw the following angles (given in radians) on the unit circle:                    The angle corresponds to half of a full turn (180 degrees).    The angle corresponds to a quarter of .    The angle brings us to Quadrant IV because it is only smaller than a full turn.    The angle is in the clockwise direction, one 6th of (and corresponds to half of a full turn).               Unit circle - FROM WEBWORK    For the given values of an angle , find the terminal point on the unit circle.  (a) If , then  and  ;  (b) If , then  and  ;  (c) If , then  and  ;  (d) If , then  and  ;  (e) If , then  and  ;  (f) If , then  and  ;   For each given value of , draw a unit circle and the angle in standard position. The point desired is where the terminal side of the angle intersects the unit circle. Use geometric ideas to determine and in a manner similar to what was done in earlier sections of this course.                                                                     Definitions  We will focus on six trigonometric functions: sine, cosine, tangent, cosecant, secant, and cotangent. It is important to be familiar with their definitions, both in terms of right angled triangles, and in terms of angles in standard position in a circle.    Study tip:   Some students like the neumonic SOH CAH TOA to help memorize these definitions. ``SOH'' refers to Opposite \/ Hypothenuse, and similarly for CAH and TOA.   Definitions of trigonometric functions - right angled triangles  Definitions of trigonometric functions - right angled triangles  Consider a right angled triangle, where one of the accute angles is . This means . Then the trigonometric functions are defined as follows:     Sine: Opposite \/ Hypothenuse    Cosine: Adjacent \/ Hypothenuse    Tangent: Opposite \/ Adjacent      Evaluating basic trig   In the below right angled triangle, there is a right angle and two accute angles labelled and . The sides are 17, 15 and 8 units long, as indicated.   A right angled triangle with sides 17, 15 and 8.   Evaluate the following trigonometric quanities. Answer with exact values.                                                  The hypthenuse of this triangle is 17. The `opposite' of angle is 15, while the `opposite' of angle is 8. The `adjacent' of angle is 8, while the `adjacent' of angle is 15. Then use the definitions listed above.    Evaluating basic trig - HOMEMADE - NEW, PLEASE CHECK   In the below right angled triangle, there is a right angle and two accute angles labelled and . The sides are 33, 56 and 65 units long, as indicated.   A right angled triangle with sides 33, 56 and 65.   (Not randomizable) Evaluate the following trigonometric quanities. Answer with exact values.     Use the triangle in the image and evaluate the following trigonometric quanities. Answer with exact values.  (a)  .  (b)  .  (c)  .  (d)  .  (e)  .  (f)  .  (g)  .                                             Study tip:   You should memorize all defitions of trigonometric functions, if you don't know them already. It is important to know both the definitions in terms of right angled triangles AND the general definitions (in terms of ).   Definitions of trigonometric functions - general definition  Definitions of trigonometric functions - general definition  Let be any angle in standard position in a circle centered at . With and as in , we make the following definitions:                      Basic Trigonometric Identities  The following relationships are all important.                             Study tip:   You should take the time to memorize all of the listed relationships between trigonometric functions, if you don't know them already.    Definitions of , and - HOMEMADE - NEW, PLEASE CHECK   Use the above basic trigonometric identities and definitions to find the definitions of secant, cosecant and cotangent. Do this first in terms of right angled triangles, then in terms of in a circle.       We know that Therefore, in terms of right angled triangles,   opposite   adjacent   hypothenuse  \/  opposite   adjacent   hypothenuse  .    In right angled triangles,   opposite   adjacent   hypothenuse  \/  opposite   adjacent   hypothenuse  .    In right angled triangles,   opposite   adjacent   hypothenuse  \/  opposite   adjacent   hypothenuse  .    In terms of on a circle, we see that   x   y   r  \/  x   y   r  .    In terms of on a circle,   x   y   r  \/  x   y   r  .    In terms of on a circle, we see that   x   y   r  \/  x   y   r  .                                                                       Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Angles - LINK   Knowing where common angles fall on the unit circle is useful when working with trigonometric functions. Here is a game you can play if you like. Remember that in calculus we will only use radian measures for angles, so they are more important tht the degree values.   Angle memorization game      Evaluate trig given an angle in standard position - FROM WEBWORK   (Randomized. Feel free to practice the problem several times.)     An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:           Simplify - HOMEMADE    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or              "
 },
 {
   "id": "sec-trig-intro-2",
@@ -1194,8 +1194,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#fig-trig-intro1",
   "type": "Figure",
   "number": "3.2",
-  "title": "Angle in standard position",
-  "body": " Angle in standard position  Angle in standard position   Angle in standard position.   "
+  "title": "An angle in standard position",
+  "body": " An angle in standard position  An angle in standard position   An angle in standard position.   "
 },
 {
   "id": "sec-trig-intro-5-8",
@@ -1213,7 +1213,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "3.3",
   "title": "A point on the unit circle",
-  "body": " A point on the unit circle  A point on the unit circle   A point on the unit circle.   "
+  "body": " A point on the unit circle.  A point on the unit circle   A point on the unit circle.   "
 },
 {
   "id": "ex-angles",
@@ -1222,7 +1222,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.4",
   "title": "Radians on unit circle.",
-  "body": "Radians on unit circle   Draw the following angles (given in radians) on the unit circle.                    The angle corresponds to half of a full turn (180 degrees).    The angle corresponds to a quarter of .    The angle brings us to Quadrant IV because it is only smaller than a full turn.    The angle is in the clockwise direction, one 6th of (and corresponds to half of a full turn).              "
+  "body": "Radians on unit circle   Draw the following angles (given in radians) on the unit circle:                    The angle corresponds to half of a full turn (180 degrees).    The angle corresponds to a quarter of .    The angle brings us to Quadrant IV because it is only smaller than a full turn.    The angle is in the clockwise direction, one 6th of (and corresponds to half of a full turn).              "
 },
 {
   "id": "ex-trig-intro1",
@@ -1266,8 +1266,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-7-3",
   "type": "Exercise",
   "number": "3.1.3.1",
-  "title": "Anges - LINK.",
-  "body": "Anges - LINK   Knowing where common angles fall on the unit circle is useful when working with trigonometric functions. Here is a game you can play if you like. Remember that in calculus we will only use radian measures for angles, so they are more important tht the degree values.   Angle memorization game      An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:             "
+  "title": "Angles - LINK.",
+  "body": "Angles - LINK   Knowing where common angles fall on the unit circle is useful when working with trigonometric functions. Here is a game you can play if you like. Remember that in calculus we will only use radian measures for angles, so they are more important tht the degree values.   Angle memorization game    "
 },
 {
   "id": "sec-trig-intro-7-4",
@@ -1276,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.3.2",
   "title": "Evaluate trig given an angle in standard position - FROM WEBWORK.",
-  "body": "Evaluate trig given an angle in standard position - FROM WEBWORK   (Randomized. Feel free to practice the problem several times.)     An angle in standard position has a terminal side which passes through the point .   Determine values for the following:  = .  = .  = .  = .  = .  = .                                 Given the data point on the terminal side of the angle, use the Pythagorean Theorem.  Distance from the origin along the terminal side is Plugging into the definition:             "
+  "body": "Evaluate trig given an angle in standard position - FROM WEBWORK   (Randomized. Feel free to practice the problem several times.)     An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:          "
 },
 {
   "id": "sec-trig-intro-7-5",
@@ -1284,15 +1284,6 @@ var ptx_lunr_docs = [
   "url": "sec-trig-intro.html#sec-trig-intro-7-5",
   "type": "Exercise",
   "number": "3.1.3.3",
-  "title": "Evaluate trig given an angle in standard position - FROM WEBWORK.",
-  "body": "Evaluate trig given an angle in standard position - FROM WEBWORK   (Randomized.)     An angle in standard position has a terminal side illustrated below. Click on the picture for a larger version.   Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r. Using these values, determine reasonable approximations for the following:  = .  = .  = .                  Pick any point, except the origin, on the terminal side of the angle. I'll pick . Use the Pythagorean Theorem to find .  The distance from to the origin is Plug into the definition:          "
-},
-{
-  "id": "sec-trig-intro-7-6",
-  "level": "2",
-  "url": "sec-trig-intro.html#sec-trig-intro-7-6",
-  "type": "Exercise",
-  "number": "3.1.3.4",
   "title": "Simplify - HOMEMADE.",
   "body": "Simplify - HOMEMADE    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .   Re-write each of the trigonometric functions in terms of and then simplify. Remember that your final answer should not use any of the other trigonometric functions, only and\/or            "
 },
@@ -1303,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Trigonometric graphs",
-  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic , which means that they repeat after a certain interval, called the period . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - MISSING INSTRUCTIONS, NEED TO FIX  Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 6 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   D    Choose    B    C    E    A              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph A .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 4.        "
+  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic Periodic function , which means that they repeat after a certain interval, called the period Period of a function . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function Odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function Even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude Amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift Phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - NEW INSTRUCTIONS, PLEASE CHECK   Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.      (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   B    D    Choose    E    A    C              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph C .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 3.        "
 },
 {
   "id": "sec-trig-graphs-2",
@@ -1509,8 +1500,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-graphs.html#sec-trig-graphs-8-2",
   "type": "Exercise",
   "number": "3.2.4.1",
-  "title": "Fact Check - MISSING INSTRUCTIONS, NEED TO FIX.",
-  "body": "Fact Check - MISSING INSTRUCTIONS, NEED TO FIX  Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.     (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                 "
+  "title": "Fact Check - NEW INSTRUCTIONS, PLEASE CHECK.",
+  "body": "Fact Check - NEW INSTRUCTIONS, PLEASE CHECK   Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.      (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                 "
 },
 {
   "id": "sec-trig-graphs-8-3",
@@ -1555,7 +1546,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.6",
   "title": "Find the function - FROM WEBWORK.",
-  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
+  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
 },
 {
   "id": "sec-trig-graphs-8-8",
@@ -1573,7 +1564,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.8",
   "title": "Find the shifts - FROM WEBWORK.",
-  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-8-10",
@@ -1582,7 +1573,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.9",
   "title": "Find the shift - FROM WEBWORK.",
-  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 6 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-8-11",
@@ -1591,7 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.10",
   "title": "Sketch the graph - FROM WEBWORK.",
-  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   D    Choose    B    C    E    A              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph A .      "
+  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   B    D    Choose    E    A    C              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph C .      "
 },
 {
   "id": "sec-trig-graphs-8-12",
@@ -1609,7 +1600,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.12",
   "title": "Periodic? - FROM WEBWORK.",
-  "body": "Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 4.      "
+  "body": "Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 3.      "
 },
 {
   "id": "sec-trig-evaluating",
@@ -1618,7 +1609,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Evaluating Trigonometric Functions",
-  "body": " Evaluating Trigonometric Functions     Evaluate trigonomtric functions using special triangles.    Evaluate trigonomtric functions using the coordinate system and the unit circle.    Evaluate trigonomtric functions using graphs.    Choose an appropriate method to evaluate a trigonomtric function at a given angle.     Where will this be used in calculus?  See for some notes on where trigonometric functions are used in calculus. Whenever trigonometric functions are used, it may also be useful to be able to evaluate them.    In this section we review methods for evaluating all six trigonomtric functions at given angles. Which method to use depends on the type of angle that is given.   Evaluating Using Special Triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.   Evaluate using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the special triangle we see that   The final result is:     Evaluate using special triangles 1 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 2 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 3 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating Using the Coordinate System  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.    Evaluate at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is (because ). Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continue the previous example - HOMEMADE    Use the work from Example 3.30 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                         Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                            Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed more in , but you may already remember the graphs of and :    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .    Evaluate   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .     Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .       Evaluate - HOMEMADE    Evaluate without using a calculator.              Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate trig at multiples of - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE    Evaluate the following without using a calculator.   .   .   .   .   .   .                                       Summary  The common angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all 6 trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )       Exercises  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                  Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
+  "body": " Evaluating Trigonometric Functions     Evaluate trigonomtric functions using special triangles.    Evaluate trigonomtric functions using the coordinate system and the unit circle.    Evaluate trigonomtric functions using graphs.    Choose an appropriate method to evaluate a trigonomtric function at a given angle.     Where will this be used in calculus?     Whenever trigonometric functions are used, it may also be useful to be able to evaluate them. See for some notes on where trigonometric functions are used in calculus.    One specific example is when dealing with definite integrals that involve a trigonometric integrand.       In this section we review methods for evaluating all six trigonomtric functions at given angles. Which method to use depends on the type of angle that is given.   Evaluating Using Special Triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles Special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.   Evaluate using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the special triangle we see that   The final result is:     Evaluate using special triangles 1 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 2 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 3 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating Using the Coordinate System  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.    Evaluate at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is (because ). Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continue the previous example - HOMEMADE    Use the work from Example 3.30 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                            Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed in , but the graphs of and are also given here for convenience:    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .    Evaluate   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .     Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .     Evaluate - HOMEMADE    Evaluate without using a calculator.              Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate trig at multiples of - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY       .     .     .     .     .     .      DNE                        DNE         Summary  The common angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all six trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )       Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate at common angles - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate at - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
 },
 {
   "id": "sec-trig-evaluating-2",
@@ -1636,7 +1627,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "3.25",
   "title": "Two special triangles",
-  "body": " The two special triangles  Two special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .     "
+  "body": " The two special triangles  Two special triangles Special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .     "
 },
 {
   "id": "trig-intro-ex1",
@@ -1702,18 +1693,18 @@ var ptx_lunr_docs = [
   "body": "Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:      "
 },
 {
-  "id": "sec-trig-circle-8",
+  "id": "sec-trig-circle-7",
   "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-circle-8",
+  "url": "sec-trig-evaluating.html#sec-trig-circle-7",
   "type": "Checkpoint",
   "number": "3.33",
   "title": "Evaluate at <span class=\"process-math\">\\(\\frac{3\\pi}{4}\\)<\/span> - HOMEMADE.",
   "body": "Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                           "
 },
 {
-  "id": "sec-trig-circle-9",
+  "id": "sec-trig-circle-8",
   "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-circle-9",
+  "url": "sec-trig-evaluating.html#sec-trig-circle-8",
   "type": "Checkpoint",
   "number": "3.34",
   "title": "Evaluate at <span class=\"process-math\">\\(-\\frac{5\\pi}{6}\\)<\/span> - HOMEMADE.",
@@ -1756,40 +1747,31 @@ var ptx_lunr_docs = [
   "body": "Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .    "
 },
 {
-  "id": "sec-trig-right-9",
+  "id": "sec-trig-right-8",
   "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-right-9",
+  "url": "sec-trig-evaluating.html#sec-trig-right-8",
   "type": "Checkpoint",
   "number": "3.39",
   "title": "Evaluate <span class=\"process-math\">\\(\\sin \\left(\\frac{3\\pi}{2}\\right)\\)<\/span> - HOMEMADE.",
   "body": "Evaluate - HOMEMADE    Evaluate without using a calculator.             "
 },
 {
-  "id": "sec-trig-right-10",
+  "id": "sec-trig-right-9",
   "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-right-10",
+  "url": "sec-trig-evaluating.html#sec-trig-right-9",
   "type": "Checkpoint",
   "number": "3.40",
   "title": "Evaluate sine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span>  - HOMEMADE.",
   "body": "Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .            "
 },
 {
-  "id": "sec-trig-right-11",
+  "id": "sec-trig-right-10",
   "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-right-11",
+  "url": "sec-trig-evaluating.html#sec-trig-right-10",
   "type": "Checkpoint",
   "number": "3.41",
-  "title": "Evaluate cosine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span> - HOMEMADE.",
-  "body": "Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .            "
-},
-{
-  "id": "sec-trig-right-12",
-  "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-right-12",
-  "type": "Checkpoint",
-  "number": "3.42",
-  "title": "Evaluate trig at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span> - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE.",
-  "body": "Evaluate trig at multiples of - HOMEMADE - NEEDS FIXING, DOES NOT ACCEPT DNE    Evaluate the following without using a calculator.   .   .   .   .   .   .                                     "
+  "title": "Evaluate trig at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span> - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY.",
+  "body": "Evaluate trig at multiples of - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY       .     .     .     .     .     .      DNE                        DNE       "
 },
 {
   "id": "sec-trig-evaluating-9-3",
@@ -1797,8 +1779,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-3",
   "type": "Exercise",
   "number": "3.3.5.1",
-  "title": "Evaluate trig without a calculator - HOMEMADE.",
-  "body": "Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                      "
+  "title": "Evaluate at common angles - HOMEMADE.",
+  "body": "Evaluate at common angles - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                      "
 },
 {
   "id": "sec-trig-evaluating-9-4",
@@ -1806,8 +1788,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-4",
   "type": "Exercise",
   "number": "3.3.5.2",
-  "title": "Evaluate trig without a calculator - HOMEMADE.",
-  "body": "Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
+  "title": "Evaluate at <span class=\"process-math\">\\(-\\frac{\\pi}{3}\\)<\/span> - HOMEMADE.",
+  "body": "Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
 },
 {
   "id": "sec-trig-evaluating-9-5",
@@ -1815,8 +1797,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-5",
   "type": "Exercise",
   "number": "3.3.5.3",
-  "title": "Evaluate trig without a calculator - HOMEMADE.",
-  "body": "Evaluate trig without a calculator - HOMEMADE  (Not randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
+  "title": "Evaluate at <span class=\"process-math\">\\(\\frac{7\\pi}{6}\\)<\/span> - HOMEMADE.",
+  "body": "Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                 "
 },
 {
   "id": "sec-trig-evaluating-9-6",
@@ -1825,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.5.4",
   "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-7",
@@ -1833,8 +1815,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-7",
   "type": "Exercise",
   "number": "3.3.5.5",
-  "title": "Evaluate trig without a calculator - FROM WEBWORK.",
-  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.    If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                     "
+  "title": "Evaluate at <span class=\"process-math\">\\(0\\)<\/span> - FROM WEBWORK.",
+  "body": "Evaluate at - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                     "
 },
 {
   "id": "sec-trig-evaluating-9-8",
@@ -1842,8 +1824,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-8",
   "type": "Exercise",
   "number": "3.3.5.6",
-  "title": "Evaluate trig without a calculator  - FROM WEBWORK.",
-  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
+  "title": "Evaluate cosine at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span> - HOMEMADE.",
+  "body": "Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-9",
@@ -1851,8 +1833,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-9",
   "type": "Exercise",
   "number": "3.3.5.7",
-  "title": "Evaluate trig without a calculator  - FROM WEBWORK.",
-  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
+  "title": "Evaluate <span class=\"process-math\">\\(\\tan \\theta \\)<\/span> without a calculator  - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-10",
@@ -1860,8 +1842,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-10",
   "type": "Exercise",
   "number": "3.3.5.8",
-  "title": "Evaluate trig without a calculator  - FROM WEBWORK.",
-  "body": "Evaluate trig without a calculator - FROM WEBWORK  (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     and  .                 "
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator  - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-11",
@@ -1869,35 +1851,44 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-11",
   "type": "Exercise",
   "number": "3.3.5.9",
-  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator  - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
-},
-{
-  "id": "sec-trig-evaluating-9-12",
-  "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-12",
-  "type": "Exercise",
-  "number": "3.3.5.10",
-  "title": "Evaluate <span class=\"process-math\">\\(\\tan \\theta \\)<\/span> without a calculator  - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
-},
-{
-  "id": "sec-trig-evaluating-9-13",
-  "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-13",
-  "type": "Exercise",
-  "number": "3.3.5.11",
-  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator  - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
-},
-{
-  "id": "sec-trig-evaluating-9-14",
-  "level": "2",
-  "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-14",
-  "type": "Exercise",
-  "number": "3.3.5.12",
   "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE  (Randomized.)    Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+},
+{
+  "id": "trig-eval-additional-4",
+  "level": "2",
+  "url": "sec-trig-evaluating.html#trig-eval-additional-4",
+  "type": "Exercise",
+  "number": "3.3.6.1",
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - FROM WEBWORK.",
+  "body": "Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
+},
+{
+  "id": "trig-eval-additional-5",
+  "level": "2",
+  "url": "sec-trig-evaluating.html#trig-eval-additional-5",
+  "type": "Exercise",
+  "number": "3.3.6.2",
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - FROM WEBWORK.",
+  "body": "Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
+},
+{
+  "id": "trig-eval-additional-6",
+  "level": "2",
+  "url": "sec-trig-evaluating.html#trig-eval-additional-6",
+  "type": "Exercise",
+  "number": "3.3.6.3",
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - FROM WEBWORK.",
+  "body": "Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
+},
+{
+  "id": "trig-eval-additional-7",
+  "level": "2",
+  "url": "sec-trig-evaluating.html#trig-eval-additional-7",
+  "type": "Exercise",
+  "number": "3.3.6.4",
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator - HOMEMADE.",
+  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-identities",
@@ -1940,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#fig3-sin",
   "type": "Figure",
-  "number": "3.43",
+  "number": "3.42",
   "title": "Graph of <span class=\"process-math\">\\(y=\\sin \\theta\\)<\/span>",
   "body": " Graph of .  Graph of   Graph of .   "
 },
@@ -1967,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse1",
   "type": "Example",
-  "number": "3.44",
+  "number": "3.43",
   "title": "Evaluating arcsine.",
   "body": "Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Now place one of the special triangles (see ) in Quadrant I. Choose the triangle and the location that corresponds with .      A special triangle in Quadrant IV.   We notice that . Also is in the interval . Therefore .    "
 },
@@ -1976,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse2",
   "type": "Example",
-  "number": "3.45",
+  "number": "3.44",
   "title": "Evaluating arcsine.",
   "body": "Evaluating arcsine   Evaluate .         Let's write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a sine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is negative in Quadrant VI (but not in Quadrant I). (And we want a negative value since .)    Now place one of the special triangles (see ) in Quadrant IV. (see below).     A special triangle in Quadrant IV.  We see that . Also is in the interval . Therefore .    "
 },
@@ -1985,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse3",
   "type": "Example",
-  "number": "3.46",
+  "number": "3.45",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
 },
@@ -1994,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse4",
   "type": "Example",
-  "number": "3.47",
+  "number": "3.46",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , we first see that . So we ned to evaluate . Similar to the solutions in and , this means we need to look for a in the interval such that . We easily see that this means .    "
 },
@@ -2003,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-14",
   "type": "Checkpoint",
-  "number": "3.48",
+  "number": "3.47",
   "title": "Evaluating arcsine - HOMEMADE.",
   "body": "Evaluating arcsine - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2012,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-15",
   "type": "Checkpoint",
-  "number": "3.49",
+  "number": "3.48",
   "title": "Evaluating arcsine - HOMEMADE.",
   "body": "Evaluating arcsine - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2021,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-16",
   "type": "Checkpoint",
-  "number": "3.50",
+  "number": "3.49",
   "title": "Inverse properties - HOMEMADE.",
   "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2030,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-5-17",
   "type": "Checkpoint",
-  "number": "3.51",
+  "number": "3.50",
   "title": "Inverse properties - HOMEMADE.",
   "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2039,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#fig3-cos",
   "type": "Figure",
-  "number": "3.52",
+  "number": "3.51",
   "title": "Graph of <span class=\"process-math\">\\(y=\\cos \\theta\\)<\/span>",
   "body": " Graph of  Graph of   Graph of .   "
 },
@@ -2066,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse5",
   "type": "Example",
-  "number": "3.53",
+  "number": "3.52",
   "title": "Evaluating arccos.",
   "body": " Evaluating arccos   Evaluate .         Let's use the notation . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? To answer that, we consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I).    Using the special triangles (see ), we notice that . To get a negative value, we look in Quadrant II. We see that , and also is in the interval .   Therefore .    "
 },
@@ -2075,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse6",
   "type": "Example",
-  "number": "3.54",
+  "number": "3.53",
   "title": "Evaluating arccos.",
   "body": "Evaluating arccos   Evaluate .         Start by writing write . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a cosine value of ? The easiest way to answer that might be to look at the graph of (see ).  From the graph of we see that , and is in the interval .  Therefore .    "
 },
@@ -2084,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse7",
   "type": "Example",
-  "number": "3.55",
+  "number": "3.54",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate .         Remember that for .  Let . Since the domain restriction is met ( is in the interval ), this means     "
 },
@@ -2093,7 +2084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse8",
   "type": "Example",
-  "number": "3.56",
+  "number": "3.55",
   "title": "Inverse properties.",
   "body": "Inverse properties   Evaluate .         The following is a COMMON ERROR: . We can not use with , because is not in the required interval (we need ).  CORRECT SOLUTION: To evaluate , one option is to draw on the unit cirle (in standard position) and find another angle in the interval with the same cosine value as . Looking at the unit circle, we see that . (See the figure.) This is because by definition, we know that , and both and are the same for the two angles.   Two angles with the same cosine value.   Therefore: The last step above is true because is in the interval so now the identity can be used.    "
 },
@@ -2102,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-13",
   "type": "Checkpoint",
-  "number": "3.57",
+  "number": "3.56",
   "title": "Evaluating arccos - HOMEMADE.",
   "body": "Evaluating arccos - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2111,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-14",
   "type": "Checkpoint",
-  "number": "3.58",
+  "number": "3.57",
   "title": "Evaluating arccos - HOMEMADE.",
   "body": "Evaluating arccos - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2120,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-15",
   "type": "Checkpoint",
-  "number": "3.59",
+  "number": "3.58",
   "title": "Inverse properties - HOMEMADE.",
   "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2129,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-6-16",
   "type": "Checkpoint",
-  "number": "3.60",
+  "number": "3.59",
   "title": "Inverse properties - HOMEMADE.",
   "body": "Inverse properties - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2138,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-7-3",
   "type": "Figure",
-  "number": "3.61",
+  "number": "3.60",
   "title": "Graph of <span class=\"process-math\">\\(y=\\tan \\theta\\)<\/span>",
   "body": " Graph of  Graph of   Graph of .   "
 },
@@ -2165,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse9",
   "type": "Example",
-  "number": "3.62",
+  "number": "3.61",
   "title": "Evaluating arctan.",
   "body": "Evaluating arctan   Evaluate .         Let . From the definition in , this means and .  Question to consider: Which value of in the interval corresponds to a tangent value of ? Consider the following:   The interval means that is in Quadrant I or Quadrant IV.     is positive in Quadrant I (but not in Quadrant IV).    Therefore, place a special triangle (see ) in Quadrant IV as in .   We see that . Also, is in the interval . Therefore .    "
 },
@@ -2174,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-7-9",
   "type": "Checkpoint",
-  "number": "3.63",
+  "number": "3.62",
   "title": "Evaluating arctan - HOMEMADE.",
   "body": "Evaluating arctan - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2183,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse10",
   "type": "Example",
-  "number": "3.64",
+  "number": "3.63",
   "title": "Evaluating arccot.",
   "body": "Evaluating arccot   Evaluate arccot .         Let . This means and .  Which value of in the interval corresponds to a cotangent value of ?   The interval means that is in Quadrant I or Quadrant II.     is positive in Quadrant I (but not in Quadrant II).    Using the special triangles in , we notice that and is in the interval .   Therefore .    "
 },
@@ -2192,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-8-5",
   "type": "Checkpoint",
-  "number": "3.65",
+  "number": "3.64",
   "title": "Evaluating arcsec - HOMEMADE.",
   "body": "Evaluating arcsec - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2201,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#sec-trig-inverse-8-6",
   "type": "Checkpoint",
-  "number": "3.66",
+  "number": "3.65",
   "title": "Evaluating arccsc - HOMEMADE.",
   "body": "Evaluating arccsc - HOMEMADE    Evaluate without using a calculator. Answer with an exact value.   .            "
 },
@@ -2210,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse11",
   "type": "Example",
-  "number": "3.67",
+  "number": "3.66",
   "title": "Evaluating arccos.",
   "body": " Evaluating arccos   Evaluate .         Let . The range of is (you should memorize that!). Therefore we have need to find a such that and .  Consider the following:   The interval means that is in Quadrant I or Quadrant II.     is negative in Quadrant II (but not in Quadrant I), so we are looking for a value on Quadrant II.    Using the special triangles in , we notice that . Also, is in the interval .   Therefore .    "
 },
@@ -2219,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse12",
   "type": "Example",
-  "number": "3.68",
+  "number": "3.67",
   "title": "Correct or incorrect?",
   "body": " Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Recall that for . Since this means .    It is incorrect.    The `solution' is incorrect. The range of is so the identity holds for (not for ).   "
 },
@@ -2228,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-trig-inverse.html#inverse13",
   "type": "Example",
-  "number": "3.69",
+  "number": "3.68",
   "title": "Correct or incorrect?",
   "body": " Correct or incorrect?   Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes.  Question: Evaluate   `Solution': Now, let so that and . By using a special triangle in Quadrant IV, we see that and .  Therefore so then     It is incorrect.    The `solution' is incorrect. The first line is incorrect, because Instead, solve the problrm similarly to . The correct final answer is    "
 },
@@ -2464,7 +2455,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Random trial chapter",
-  "body": " Random trial chapter  For testing things out.... Also for keeping samples of types of code, for easy copy\/pasting.   RNA Codons Table, by Florian Hollandt   A test diagram using TikZ.      Special triangle  Special triangle   Special triangle.   Right angled triangle. The length of hypothenuse is . The length of both other sides are .      A MyOpenMath problem     Cross-reference: See for ... Note: The word \"example\" or \"Checkpoint\" etc. is included automatically, so do not type it up. A new term: radical \\amp \"and\" \\lt \"less than\" \\gt \"greater than\"  Description of example   ....                 Study tip:   Notes here.....    Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.        Use the properties of exponents to simplify the following          We add the exponents as follows            Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Find a formula for the inverse of the function  Answer:                              Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .                 PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students\/4-General_test_chapter\/4_1-Random_trial_chapter\/4_11.pg with seed 173 is either empty or failed to compile Use -a to halt with full PG and returned content       Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Referencing an assemblage or similar: such as those listed in . This gives the title of the assemblage. Can also try text=\"custom\".   A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F      Answer Type Variety   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                    "
+  "body": " Random trial chapter  For testing things out.... Also for keeping samples of types of code, for easy copy\/pasting.   RNA Codons Table, by Florian Hollandt   A test diagram using TikZ.      Special triangle  Special triangle   Special triangle.   Right angled triangle. The length of hypothenuse is . The length of both other sides are .      A MyOpenMath problem     Cross-reference: See for ... Note: The word \"example\" or \"Checkpoint\" etc. is included automatically, so do not type it up. A new term: radical \\amp \"and\" \\lt \"less than\" \\gt \"greater than\"  Description of example   ....                 Study tip:   Notes here.....    Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.        Use the properties of exponents to simplify the following          We add the exponents as follows            Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Find a formula for the inverse of the function  Answer:                             Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .              Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Referencing an assemblage or similar: such as those listed in . This gives the title of the assemblage. Can also try text=\"custom\".  A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F     Answer Type Variety   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                    "
 },
 {
   "id": "sec-section-name-3",
@@ -2563,7 +2554,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "4.10",
   "title": "Simplifying.",
-  "body": " Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .            "
+  "body": "Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .            "
 },
 {
   "id": "sec-section-name-18",
@@ -2571,35 +2562,26 @@ var ptx_lunr_docs = [
   "url": "sec-section-name.html#sec-section-name-18",
   "type": "Checkpoint",
   "number": "4.11",
-  "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Precalculus_review_for_UTM_students\/4-General_test_chapter\/4_1-Random_trial_chapter\/4_11.pg with seed 173 is either empty or failed to compile Use -a to halt with full PG and returned content     "
+  "title": "Answer does not accept rounded numbers.",
+  "body": "Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      "
 },
 {
-  "id": "sec-section-name-19",
+  "id": "sec-section-name-20",
   "level": "2",
-  "url": "sec-section-name.html#sec-section-name-19",
-  "type": "Checkpoint",
+  "url": "sec-section-name.html#sec-section-name-20",
+  "type": "Table",
   "number": "4.12",
-  "title": "Answer does not accept rounded numbers.",
-  "body": " Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                      "
+  "title": "A simple table",
+  "body": "A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F    "
 },
 {
   "id": "sec-section-name-21",
   "level": "2",
   "url": "sec-section-name.html#sec-section-name-21",
-  "type": "Table",
-  "number": "4.13",
-  "title": "A simple table",
-  "body": " A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F    "
-},
-{
-  "id": "sec-section-name-22",
-  "level": "2",
-  "url": "sec-section-name.html#sec-section-name-22",
   "type": "Checkpoint",
-  "number": "4.14",
+  "number": "4.13",
   "title": "Answer Type Variety.",
-  "body": " Answer Type Variety   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                   "
+  "body": "Answer Type Variety   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                   "
 },
 {
   "id": "sec-style",

@@ -1,20 +1,20 @@
-openDate          = 05/20/2026 at 12:00am
-dueDate           = 11/20/2026 at 10:00pm
-answerDate        = 11/20/2026 at 10:00pm
+openDate          = 05/21/2026 at 12:00am
+dueDate           = 11/21/2026 at 10:00pm
+answerDate        = 11/21/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_3-Evaluating_Trigonometric_Functions_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_3-Evaluating_Trigonometric_Functions_Exercises.pg
 description       = Evaluating Trigonometric Functions
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_1-Evaluate_trig_without_a_calculator__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_1-Evaluate_at_common_angles__HOMEMADE.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_2-Evaluate_trig_without_a_calculator__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_2-Evaluate_at_fracpi3__HOMEMADE.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_3-Evaluate_trig_without_a_calculator__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_3-Evaluate_at_frac7pi6__HOMEMADE.pg
 problem_id = 3
 problem_end
 problem_start
@@ -26,30 +26,34 @@ source_file = Library/ASU-topics/setUnitCircle/srw5_2_23.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_13.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_6-Evaluate_cosine_at_multiples_of_fracpi2__HOMEMADE.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_9.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_7-Evaluate_tan_theta__without_a_calculator___HOMEMADE.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Library/ASU-topics/setUnitCircle/srw5_2_5.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_8-Evaluate_sin_theta__without_a_calculator___HOMEMADE.pg
 problem_id = 8
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_9-Evaluate_sin_theta__without_a_calculator___HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_9-Evaluate_sin_theta__without_a_calculator__HOMEMADE.pg
 problem_id = 9
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_10-Evaluate_tan_theta__without_a_calculator___HOMEMADE.pg
-problem_id = 10
+source_file = Library/ASU-topics/setUnitCircle/srw5_2_13.pg
+problem_id = 1
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_11-Evaluate_sin_theta__without_a_calculator___HOMEMADE.pg
-problem_id = 11
+source_file = Library/ASU-topics/setUnitCircle/srw5_2_9.pg
+problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_12-Evaluate_sin_theta__without_a_calculator__HOMEMADE.pg
-problem_id = 12
+source_file = Library/ASU-topics/setUnitCircle/srw5_2_5.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_6_4-Evaluate_sin_theta__without_a_calculator__HOMEMADE.pg
+problem_id = 4
 problem_end

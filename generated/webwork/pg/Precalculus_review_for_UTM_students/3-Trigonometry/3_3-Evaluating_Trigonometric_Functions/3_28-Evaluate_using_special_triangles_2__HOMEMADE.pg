@@ -1,6 +1,6 @@
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-20T13:42:49Z       
+###       on 2026-05-21T03:10:53Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -48,10 +48,10 @@ Context("Fraction");
 $a = random(2,9,1);
 $ans1 = Compute("1/sqrt(2)")->with(
          tolType => 'absolute',
-         tolerance => .000000000000000000001,   );
+         tolerance => .00000000001,   );
 $ans2 = Compute("1/sqrt(3)")->with(
          tolType => 'absolute',
-         tolerance => .000000000000000000001,   );
+         tolerance => .00000000001,   );
 $ans3 = Compute("sqrt(3)")->with(
          tolType => 'absolute',
          tolerance => .000000000000000000001,   );

@@ -1,6 +1,6 @@
-openDate          = 05/20/2026 at 12:00am
-dueDate           = 11/20/2026 at 10:00pm
-answerDate        = 11/20/2026 at 10:00pm
+openDate          = 05/21/2026 at 12:00am
+dueDate           = 11/21/2026 at 10:00pm
+answerDate        = 11/21/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_3-Evaluating_Trigonometric_Functions.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_3-Evaluating_Trigonometric_Functions.pg
 description       = Evaluating Trigonometric Functions
@@ -38,10 +38,6 @@ source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_
 problem_id = 40
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_41-Evaluate_cosine_at_multiples_of_fracpi2__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_41-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NOW_SHOULD_ACCEPT_DNE_CHECK_VERY_CAREFULLY.pg
 problem_id = 41
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_42-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NEEDS_FIXING_DOES_NOT_ACCEPT_DNE.pg
-problem_id = 42
 problem_end

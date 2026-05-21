@@ -1,0 +1,76 @@
+
+  
+    Context("Numeric");
+
+    $a = random(0,10,1);
+    $r = $a % 4;
+
+  
+
+    BEGIN_TEXT
+    Compute the following for \( a = $a \):
+
+    1. \( \tan(\pi a/2) = \) \{ ans_rule(10) \}
+    2. \( \cot(\pi a/2) = \) \{ ans_rule(10) \}
+    3. \( \sin(\pi a/2) = \) \{ ans_rule(10) \}
+    4. \( \csc(\pi a/2) = \) \{ ans_rule(10) \}
+    5. \( \cos(\pi a/2) = \) \{ ans_rule(10) \}
+    6. \( \sec(\pi a/2) = \) \{ ans_rule(10) \}
+    END_TEXT
+
+    # --- THIS is where ANS() goes ---
+
+    # tan
+    if ($r == 1 || $r == 3) {
+      ANS(str_cmp("DNE", caseSensitive=>0));
+    } else {
+      ANS(num_cmp(0));
+    }
+
+    # cot
+    if ($r == 0 || $r == 2) {
+      ANS(str_cmp("DNE", caseSensitive=>0));
+    } else {
+      ANS(num_cmp(0));
+    }
+
+    # sin
+    if ($r == 0) {
+      ANS(num_cmp(0));
+    } elsif ($r == 1) {
+      ANS(num_cmp(1));
+    } elsif ($r == 2) {
+      ANS(num_cmp(0));
+    } else {
+      ANS(num_cmp(-1));
+    }
+
+    # csc
+    if ($r == 0 || $r == 2) {
+      ANS(str_cmp("DNE", caseSensitive=>0));
+    } elsif ($r == 1) {
+      ANS(num_cmp(1));
+    } else {
+      ANS(num_cmp(-1));
+    }
+
+    # cos
+    if ($r == 0) {
+      ANS(num_cmp(1));
+    } elsif ($r == 1) {
+      ANS(num_cmp(0));
+    } elsif ($r == 2) {
+      ANS(num_cmp(-1));
+    } else {
+      ANS(num_cmp(0));
+    }
+
+    # sec
+    if ($r == 1 || $r == 3) {
+      ANS(str_cmp("DNE", caseSensitive=>0));
+    } elsif ($r == 0) {
+      ANS(num_cmp(1));
+    } else {
+      ANS(num_cmp(-1));
+    }
+

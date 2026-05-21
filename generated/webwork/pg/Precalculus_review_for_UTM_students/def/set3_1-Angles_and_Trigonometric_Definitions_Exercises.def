@@ -1,23 +1,15 @@
-openDate          = 05/20/2026 at 12:00am
-dueDate           = 11/20/2026 at 10:00pm
-answerDate        = 11/20/2026 at 10:00pm
+openDate          = 05/21/2026 at 12:00am
+dueDate           = 11/21/2026 at 10:00pm
+answerDate        = 11/21/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions_Exercises.pg
 description       = Angles and Trigonometric Definitions
 problemListV2
 problem_start
-source_file = Library/MC/Trigonometry/trig_defn-01.pg
-problem_id = 1
-problem_end
-problem_start
-source_file = Library/MC/Trigonometry/trig_defn-01.pg
+source_file = Library/MC/Trigonometry/trig_defn-06.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Library/MC/Trigonometry/trig_defn-06.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_3_3-Simplify__HOMEMADE.pg
 problem_id = 3
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_3_4-Simplify__HOMEMADE.pg
-problem_id = 4
 problem_end

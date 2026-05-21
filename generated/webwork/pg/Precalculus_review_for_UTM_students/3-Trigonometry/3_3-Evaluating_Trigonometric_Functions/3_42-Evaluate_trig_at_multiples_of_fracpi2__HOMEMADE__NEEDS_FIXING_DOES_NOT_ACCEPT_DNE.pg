@@ -1,6 +1,6 @@
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-20T13:42:49Z       
+###       on 2026-05-21T02:46:31Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -46,6 +46,7 @@ Context("Numeric");
 
 $a = Compute(random(-12, 15, 1));
 $b = $a/2;
+
 $ans1 = tan(pi*$a/2); 
 $ans2 = cot(pi*$a/2); 
 $ans3 = sin(pi*$a/2); 
@@ -60,17 +61,17 @@ $ans6 = sec(pi*$a/2);
 BEGIN_PGML
 Evaluate the following without using a calculator.
 
-[`\tan \left([$b]\pi\right) =`]  [_]{$ans1}{10}.
+a.  [`\tan \left([$b]\pi\right) =`]  [_]{$ans1}{10}.
 
-[`\cot \left([$b]\pi\right) =`]  [_]{$ans2}{10}.
+a.  [`\cot \left([$b]\pi\right) =`]  [_]{$ans2}{10}.
 
-[`\sin \left([$b]\pi\right) =`]  [_]{$ans3}{10}.
+a.  [`\sin \left([$b]\pi\right) =`]  [_]{$ans3}{10}.
 
-[`\csc \left([$b]\pi\right) =`]  [_]{$ans4}{10}.
+a.  [`\csc \left([$b]\pi\right) =`]  [_]{$ans4}{10}.
 
-[`\cos \left([$b]\pi\right) =`]  [_]{$ans5}{10}.
+a.  [`\cos \left([$b]\pi\right) =`]  [_]{$ans5}{10}.
 
-[`\sec \left([$b]\pi\right) =`]  [_]{$ans6}{10}.
+a.  [`\sec \left([$b]\pi\right) =`]  [_]{$ans6}{10}.
 
 END_PGML
 
