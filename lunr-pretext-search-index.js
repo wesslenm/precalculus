@@ -1455,8 +1455,8 @@ var ptx_lunr_docs = [
   "url": "sec-exp-lngraph.html",
   "type": "Section",
   "number": "2.4",
-  "title": "Template - add title",
-  "body": " Template - add title     ....    ....    ......    ......      Where will this be used in calculus?  ....     ....    ....    ....    ....       ....    Section 1  Coming soon.    Section 2  Coming soon.    Any other topics?  Coming soon.    Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.   Additional Exercises  For students who want even more problems to practice, here are some additional exercises.   "
+  "title": "The Logarithmic Function and its Graph",
+  "body": " The Logarithmic Function and its Graph     ....    ....    ......    ......      Where will this be used in calculus?  ....     ....    ....    ....    ....       ....    Section 1  Coming soon.    Section 2  Coming soon.    Any other topics?  Coming soon.    Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.   Additional Exercises  For students who want even more problems to practice, here are some additional exercises.   "
 },
 {
   "id": "sec-exp-lngraph-2",
