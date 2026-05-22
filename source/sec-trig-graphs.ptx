@@ -63,8 +63,8 @@ Below is an example of a graph of a sinusoidal function.
 </p>
  <figure>
   <caption>An example of a sinusoidal graph.</caption>
-  <title>An example of a sinusoidal graph. REPLACE WITH NEW GRAPH</title>
-  <image source="images/trig1sin" width="70%">
+  <title>An example of a sinusoidal graph.</title>
+  <image source="images/Precalc TrigNotation2" width="70%">
       <shortdescription>
           An example of a sinusoidal graph.
         </shortdescription>
@@ -72,7 +72,7 @@ Below is an example of a graph of a sinusoidal function.
 </figure>
  
 <assemblage><title>Notation</title>
-    <image source="images/trig1sin" width="70%">
+    <image source="images/Precalc TrigNotation" width="70%">
     </image>
 
   <p>
@@ -101,23 +101,12 @@ Below is an example of a graph of a sinusoidal function.
       <li>
         <p>
         We also use <term>phase shift</term><idx><h>Phase shift</h></idx> to describe sinusoidal graphs. 
-        The phase shift is the horizontal distance that the graph has been shifted, compared to the "parent function" <m>y=\sin x</m>. 
+        The phase shift is the horizontal distance that the graph has been shifted, compared to its related non-shifted function <m>y=\sin (kx)</m>. 
         </p>
       </li>
     </ul>
   </p>
   </assemblage> 
-
-
- 
-CONTINUE HERE ***********************************************************
-
-https://www.desmos.com/calculator/9plu0ysrlp
-
-
-
-
-
  </subsection>
  
  
@@ -285,7 +274,7 @@ https://www.desmos.com/calculator/9plu0ysrlp
     </solution>
   </example>
 
-  <exercise><title>Properties from graphs - HOMEMADE</title>
+  <exercise><title>Properties from graphs - HOMEMADE - UPDATED</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -303,7 +292,7 @@ https://www.desmos.com/calculator/9plu0ysrlp
       $ans4 = Compute("3pi/2")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );           
-      $ans5 = str_cmp("DNE");       
+      $ans5 = str_cmp("none");       
     </pg-code>
 
     <statement>
@@ -322,6 +311,25 @@ https://www.desmos.com/calculator/9plu0ysrlp
     </statement>
   </webwork>
 </exercise>
+
+
+
+
+
+
+
+
+ 
+CONTINUE HERE ***********************************************************
+
+https://www.desmos.com/calculator/9plu0ysrlp
+
+
+
+
+
+
+
 
 <p> 
 Graphs also illustrate symmetries. For example, <m>y=\sin \theta</m> and <m>y=\tan \theta</m> are odd functions, while <m>y=\cos \theta</m> is an even function.
@@ -454,6 +462,10 @@ Visually, this means that the graph has 180 degree symmetry about the origin.
     Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions. 
   </p>
 
+
+<url href="https://www.desmos.com/calculator/9plu0ysrlp" />
+
+
     <example xml:id="trans1">
     <title>Basic transformations</title>
     <statement>
@@ -488,6 +500,10 @@ Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>:
       </p>
     </solution>
   </example>
+
+
+
+
 
 <p>
 Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). 

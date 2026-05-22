@@ -25,6 +25,8 @@
   </common>
 
 
+
+
   <!-- Set where external assets and generated assets will be   -->
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
@@ -117,7 +119,7 @@
         navbar="default"
     /> -->
 
-
+  <toc level="2" expand="all"/>
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->

@@ -53,8 +53,7 @@
 
 
 
-  <preface>
-    <title>Welcome!</title>
+  <preface><title>Welcome!</title>
     <p>
       Welcome to this Precalculus review resource for UTM students.  
     </p>
@@ -64,10 +63,15 @@
     <p>
       Read the short introductions, have a look at the worked out examples, and try the interactive exercises. Note that for some of the exercises and checkpoints, you can try a new randomized version as many times as you like. Ask the instructors or TAs in your course if you have any questions, or want help.  
     </p>
+    <p>
+      We hope that you will find this resource useful! We would love to hear what you think, please see <xref ref="feedback"/>.
+    </p>
+    <p>
+     <em>~Dr. Maria Wesslen</em>
+    </p>
   </preface>
 
-  <preface>
-    <title>Feedback</title>
+  <preface><title xml:id="feedback">Feedback</title>
     <p>
       Please direct any feedback and error reports to maria.wesslen@utoronto.ca. 
     </p>
@@ -75,22 +79,27 @@
       Creating this resource is a work in progress. We are still working on adding more material. 
     </p>
     <p>
-      <alert>If you have suggestions of what you would like to see in this resource, feel free to email maria.wesslen@utoronto.ca or any of the editors.</alert> We would be happy to hear from you! For example, you may suggest topics to include. We would also love to hear more about what you like or don't like about this resource, and how you use it. 
+      <alert>If you have suggestions of what you would like to see in this resource, feel free to email maria.wesslen@utoronto.ca or any of the editors.</alert> 
+      We would be happy to hear from you! For example, you may suggest topics to include. 
+      We would also love to hear more about what you like or don't like about this resource, and how you use it. 
     </p>
   </preface> 
 
   <acknowledgement>
 
     <p>
-    Thank you to all contributors of the <url href="https://pretextbook.org/">PreTeXt</url> project. PreTeXt was used to produce this resource. 
+    Thank you to all contributors of the <url href="https://pretextbook.org/">PreTeXt</url> project. 
+    PreTeXt was used to produce this resource. 
     </p>
 
     <p>
       Thank you to all contributors of the WebWorK project. 
-      </p>
+    </p>
 
       <p>
-      A few sections of the text are based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> The text has been modified, built upon, and interactive exercises have been added. 
+      A few sections of the text are partially based on APEX Pre-Calculus, Version 1.0, by Amy Givler Chapman et. al. 
+      A copy of that text can be found here: <url href="https://drive.google.com/file/d/12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY/view">APEX Pre-Calculus.</url> 
+      The text has been modified, expanded upon, and interactive exercises have been added. 
       </p>
   
   </acknowledgement>
