@@ -1087,7 +1087,349 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Exponential Functions and their Graphs",
-  "body": " Exponential Functions and their Graphs  Coming soon.  "
+  "body": " Exponential Functions and their Graphs  Coming soon.   Here are some potential exercises. We can also build our own. Far from all will be useful and som may not even work. But we can include some and use some for inspiration.     Solve for the unknown variable.           . Thus, or . Hence, .          Solve the equation for . Answer:                 The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes           Use the Laws of logarithms to rewrite the expression in a form with no logarithm of a product, quotient or power.  After rewriting we have  with the constant   the constant   and the constant                            PTX:ERROR: WeBWorK problem Library\/ASU-topics\/setLogarithmicFunctions\/srw4_4_1-5.pg with seed 88 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/Utah\/Business_Algebra\/set9_Mathematics_of_Finance\/p04.pg with seed 89 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Which equation is graphed in this figure?                                  Are the functions given below exponential functions?                               Find the solutions of the exponential equation  Enter your answer as a comma-separated list, and enter none if there are no solutions.                The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 3 units;  (d) shifting the graph of to the left 3 units;  (e) shifting the graph of upward 3 units;  (f) shifting the graph of downward 3 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f           Find a formula for the linear function whose graph intersects the graph of   at and .          SOLUTION At x =40, . At x =140, . We have and . This gives where . Solving for , we have   Thus .          Use logarithms to find an exact solution to the equation below.           SOLUTION Using the log rules, we have             Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.          Let . Solve each of the following equations exactly for .  (a)    (b)    (c)                    SOLUTION (a) Since , this equation is equivalent to . Taking the natural logarithm of both sides, we obtain , so the solution is . (b) Since the inverse function of is given by , this equation is equivalent to . Taking the exponential function of both sides, we obtain a solution of . (c) This equation is equivalent to . Taking the natural logarithm of both sides, we obtain , so the final answer is given by .          Suppose that and . Write the following expressions in terms of and  (so you cannot have an A or B anywhere in your answers).  (a)   (b)   (c)   (d)   (e)   (f)                                  SOLUTION (a) (b) (c) (d) Since and , we can rewrite these two logarithmic equations in terms of exponents and respectively. Thus: (e) (f)           Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the exponent: so that Once the exponent isolated we use logs and solve for :           Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the natural log:  Now we can rewrite in exponential form and solve for x :   . Now we check our solution:  which is the result we want.          Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    C    B    A     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .          Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   C    B    A    D     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that C increases faster than the others, so C has the largest .          Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   CD    AD    AC    AB    BD    BC     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are B and A.          Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   A    B    C    D     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that B decreases faster than the others, so B has the smallest .          Find the solution of the logarithmic equation in terms of logarithms, or correct to four decimal places.  Your answer is                   PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-52.pg with seed 106 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-49.pg with seed 107 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-50.pg with seed 108 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Find (a) the domain of and (b) .   (a)   (b)                      Solve each equation for .  (a)  (b)  (a)  (b)                     Solve each inequality for .  (a)  (b)  (a)   (b)                      Solve each equation for .  (a)  (b)  (a)  (b)                     Solve each inequality for .  (a)  (b)  (a)    (b)                           Solve each equation for .  (a)  (b)  (a)  (b)                     Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                      Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 4 units to the right and 8 units upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (5,8) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).          In each part, find the value of in simplest form.  (a)  =  (b)  =  (c)  =                          Solve the following equation. If necessary, enter your answer as an expression involving natural logarithms or as a decimal approximation that is correct to at least four decimal places.                    PTX:ERROR: WeBWorK problem Library\/Rochester\/setAlgebra30LogExpEqns\/srw4_3_48.pg with seed 119 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Find the solution of the logarithmic equation correct to four decimal places.  Your answer is                  Solve the equation                "
+},
+{
+  "id": "exercises-exp-2",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-2",
+  "type": "Exercise",
+  "number": "2.2.1",
+  "title": "",
+  "body": "   Solve for the unknown variable.           . Thus, or . Hence, .      "
+},
+{
+  "id": "exercises-exp-3",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-3",
+  "type": "Exercise",
+  "number": "2.2.2",
+  "title": "",
+  "body": "   Solve the equation for . Answer:             "
+},
+{
+  "id": "exercises-exp-4",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-4",
+  "type": "Exercise",
+  "number": "2.2.3",
+  "title": "",
+  "body": "   The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes       "
+},
+{
+  "id": "exercises-exp-5",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-5",
+  "type": "Exercise",
+  "number": "2.2.4",
+  "title": "",
+  "body": "   Use the Laws of logarithms to rewrite the expression in a form with no logarithm of a product, quotient or power.  After rewriting we have  with the constant   the constant   and the constant                       "
+},
+{
+  "id": "exercises-exp-6",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-6",
+  "type": "Exercise",
+  "number": "2.2.5",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/ASU-topics\/setLogarithmicFunctions\/srw4_4_1-5.pg with seed 88 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+},
+{
+  "id": "exercises-exp-7",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-7",
+  "type": "Exercise",
+  "number": "2.2.6",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Utah\/Business_Algebra\/set9_Mathematics_of_Finance\/p04.pg with seed 89 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+},
+{
+  "id": "exercises-exp-8",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-8",
+  "type": "Exercise",
+  "number": "2.2.7",
+  "title": "",
+  "body": "   Which equation is graphed in this figure?                              "
+},
+{
+  "id": "exercises-exp-9",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-9",
+  "type": "Exercise",
+  "number": "2.2.8",
+  "title": "",
+  "body": "   Are the functions given below exponential functions?                           "
+},
+{
+  "id": "exercises-exp-10",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-10",
+  "type": "Exercise",
+  "number": "2.2.9",
+  "title": "",
+  "body": "   Find the solutions of the exponential equation  Enter your answer as a comma-separated list, and enter none if there are no solutions.            "
+},
+{
+  "id": "exercises-exp-11",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-11",
+  "type": "Exercise",
+  "number": "2.2.10",
+  "title": "",
+  "body": "   The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 3 units;  (d) shifting the graph of to the left 3 units;  (e) shifting the graph of upward 3 units;  (f) shifting the graph of downward 3 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f       "
+},
+{
+  "id": "exercises-exp-12",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-12",
+  "type": "Exercise",
+  "number": "2.2.11",
+  "title": "",
+  "body": "   Find a formula for the linear function whose graph intersects the graph of   at and .          SOLUTION At x =40, . At x =140, . We have and . This gives where . Solving for , we have   Thus .      "
+},
+{
+  "id": "exercises-exp-13",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-13",
+  "type": "Exercise",
+  "number": "2.2.12",
+  "title": "",
+  "body": "   Use logarithms to find an exact solution to the equation below.           SOLUTION Using the log rules, we have       "
+},
+{
+  "id": "exercises-exp-14",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-14",
+  "type": "Exercise",
+  "number": "2.2.13",
+  "title": "",
+  "body": "     Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.      "
+},
+{
+  "id": "exercises-exp-15",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-15",
+  "type": "Exercise",
+  "number": "2.2.14",
+  "title": "",
+  "body": "   Let . Solve each of the following equations exactly for .  (a)    (b)    (c)                    SOLUTION (a) Since , this equation is equivalent to . Taking the natural logarithm of both sides, we obtain , so the solution is . (b) Since the inverse function of is given by , this equation is equivalent to . Taking the exponential function of both sides, we obtain a solution of . (c) This equation is equivalent to . Taking the natural logarithm of both sides, we obtain , so the final answer is given by .      "
+},
+{
+  "id": "exercises-exp-16",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-16",
+  "type": "Exercise",
+  "number": "2.2.15",
+  "title": "",
+  "body": "   Suppose that and . Write the following expressions in terms of and  (so you cannot have an A or B anywhere in your answers).  (a)   (b)   (c)   (d)   (e)   (f)                                  SOLUTION (a) (b) (c) (d) Since and , we can rewrite these two logarithmic equations in terms of exponents and respectively. Thus: (e) (f)       "
+},
+{
+  "id": "exercises-exp-17",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-17",
+  "type": "Exercise",
+  "number": "2.2.16",
+  "title": "",
+  "body": "   Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the exponent: so that Once the exponent isolated we use logs and solve for :       "
+},
+{
+  "id": "exercises-exp-18",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-18",
+  "type": "Exercise",
+  "number": "2.2.17",
+  "title": "",
+  "body": "   Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the natural log:  Now we can rewrite in exponential form and solve for x :   . Now we check our solution:  which is the result we want.      "
+},
+{
+  "id": "exercises-exp-19",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-19",
+  "type": "Exercise",
+  "number": "2.2.18",
+  "title": "",
+  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    C    B    A     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .      "
+},
+{
+  "id": "exercises-exp-20",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-20",
+  "type": "Exercise",
+  "number": "2.2.19",
+  "title": "",
+  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   C    B    A    D     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that C increases faster than the others, so C has the largest .      "
+},
+{
+  "id": "exercises-exp-21",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-21",
+  "type": "Exercise",
+  "number": "2.2.20",
+  "title": "",
+  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   CD    AD    AC    AB    BD    BC     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are B and A.      "
+},
+{
+  "id": "exercises-exp-22",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-22",
+  "type": "Exercise",
+  "number": "2.2.21",
+  "title": "",
+  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   A    B    C    D     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that B decreases faster than the others, so B has the smallest .      "
+},
+{
+  "id": "exercises-exp-23",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-23",
+  "type": "Exercise",
+  "number": "2.2.22",
+  "title": "",
+  "body": "   Find the solution of the logarithmic equation in terms of logarithms, or correct to four decimal places.  Your answer is              "
+},
+{
+  "id": "exercises-exp-24",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-24",
+  "type": "Exercise",
+  "number": "2.2.23",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-52.pg with seed 106 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+},
+{
+  "id": "exercises-exp-25",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-25",
+  "type": "Exercise",
+  "number": "2.2.24",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-49.pg with seed 107 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+},
+{
+  "id": "exercises-exp-26",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-26",
+  "type": "Exercise",
+  "number": "2.2.25",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-50.pg with seed 108 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+},
+{
+  "id": "exercises-exp-27",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-27",
+  "type": "Exercise",
+  "number": "2.2.26",
+  "title": "",
+  "body": "   Find (a) the domain of and (b) .   (a)   (b)                  "
+},
+{
+  "id": "exercises-exp-28",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-28",
+  "type": "Exercise",
+  "number": "2.2.27",
+  "title": "",
+  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
+},
+{
+  "id": "exercises-exp-29",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-29",
+  "type": "Exercise",
+  "number": "2.2.28",
+  "title": "",
+  "body": "   Solve each inequality for .  (a)  (b)  (a)   (b)                  "
+},
+{
+  "id": "exercises-exp-30",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-30",
+  "type": "Exercise",
+  "number": "2.2.29",
+  "title": "",
+  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
+},
+{
+  "id": "exercises-exp-31",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-31",
+  "type": "Exercise",
+  "number": "2.2.30",
+  "title": "",
+  "body": "   Solve each inequality for .  (a)  (b)  (a)    (b)                       "
+},
+{
+  "id": "exercises-exp-32",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-32",
+  "type": "Exercise",
+  "number": "2.2.31",
+  "title": "",
+  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
+},
+{
+  "id": "exercises-exp-33",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-33",
+  "type": "Exercise",
+  "number": "2.2.32",
+  "title": "",
+  "body": "   Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                  "
+},
+{
+  "id": "exercises-exp-34",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-34",
+  "type": "Exercise",
+  "number": "2.2.33",
+  "title": "",
+  "body": "   Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 4 units to the right and 8 units upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (5,8) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).      "
+},
+{
+  "id": "exercises-exp-35",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-35",
+  "type": "Exercise",
+  "number": "2.2.34",
+  "title": "",
+  "body": "   In each part, find the value of in simplest form.  (a)  =  (b)  =  (c)  =                      "
+},
+{
+  "id": "exercises-exp-36",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-36",
+  "type": "Exercise",
+  "number": "2.2.35",
+  "title": "",
+  "body": "   Solve the following equation. If necessary, enter your answer as an expression involving natural logarithms or as a decimal approximation that is correct to at least four decimal places.               "
+},
+{
+  "id": "exercises-exp-37",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-37",
+  "type": "Exercise",
+  "number": "2.2.36",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Rochester\/setAlgebra30LogExpEqns\/srw4_3_48.pg with seed 119 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+},
+{
+  "id": "exercises-exp-38",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-38",
+  "type": "Exercise",
+  "number": "2.2.37",
+  "title": "",
+  "body": "   Find the solution of the logarithmic equation correct to four decimal places.  Your answer is              "
+},
+{
+  "id": "exercises-exp-39",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-39",
+  "type": "Exercise",
+  "number": "2.2.38",
+  "title": "",
+  "body": "   Solve the equation              "
 },
 {
   "id": "sec-exp-log",
@@ -1294,7 +1636,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Trigonometric graphs",
-  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic Periodic function , which means that they repeat after a certain interval, called the period Period of a function . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function Odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function Even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude Amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift Phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - NEW INSTRUCTIONS, PLEASE CHECK   Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.      (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   B    D    Choose    E    A    C              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph C .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 3.        "
+  "body": " Trigonometric graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to read off important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.    Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled.       In this section we discuss the graphs of trigonometric functions, and some properties of the graphs.    Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All 6 trigonometric functions are periodic Periodic function , which means that they repeat after a certain interval, called the period Period of a function . The periods for the 6 functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , namely at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , namely at the -values and .    Properties from graphs - HOMEMADE    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where                        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function Odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin.  Also, is an even function Even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis.   Symmetries   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)        (a) True  (b) False  (c) True    (a) This is true. Looking at the graph we see that it is symmetric about the origin.  (b) This is false. Looking at the graph we see that it is symmetric about the -axis, so this is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function.    Symmetries and properties from graphs - HOMEMADE    Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  (a) is an odd function.  (b)   (c)   (d)                              Transformations of graphs  Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions.  Basic transformations   Use a graphing tool (for example DESMOS) to graph first and then . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .     Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The value is called the amplitude Amplitude of the sine or cosine curve.  The graphs of and (for ) have periods of . This is because compared to and , the graphs of and are compressed horizontally by a factor of .  Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift Phase shift .  Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - NEW INSTRUCTIONS, PLEASE CHECK   Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.      (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  (Enter 1 for TRUE and 0 for FALSE.)  (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Find period, amplitude, phase shift - HOMEMADE    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)                       Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its minimum (not midline) when . Since the value is at its minimum (not maximum) at , we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .       Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 6 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   E    A    C    B    Choose    D              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph A .       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 2.        "
 },
 {
   "id": "sec-trig-graphs-2",
@@ -1546,7 +1888,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.6",
   "title": "Find the function - FROM WEBWORK.",
-  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
+  "body": "Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:       "
 },
 {
   "id": "sec-trig-graphs-8-8",
@@ -1564,7 +1906,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.8",
   "title": "Find the shifts - FROM WEBWORK.",
-  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 4 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shifts - FROM WEBWORK    Suppose . In your answers, enter pi for .  (a) What is the phase shift?  (b) What is the horizontal shift?             SOLUTION (a) We see that the phase shift is , since the function is in a form that shows it. (b) To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-8-10",
@@ -1573,7 +1915,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.9",
   "title": "Find the shift - FROM WEBWORK.",
-  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 5 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 6 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-8-11",
@@ -1582,7 +1924,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.10",
   "title": "Sketch the graph - FROM WEBWORK.",
-  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   B    D    Choose    E    A    C              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph C .      "
+  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   E    A    C    B    Choose    D              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph A .      "
 },
 {
   "id": "sec-trig-graphs-8-12",
@@ -1600,7 +1942,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.12",
   "title": "Periodic? - FROM WEBWORK.",
-  "body": "Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 3.      "
+  "body": "Periodic? - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 2.      "
 },
 {
   "id": "sec-trig-evaluating",
