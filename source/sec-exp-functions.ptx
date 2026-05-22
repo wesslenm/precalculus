@@ -3,8 +3,168 @@
 <section xml:id="sec-exp-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Functions and their Graphs</title>
 
-  <p> Coming soon.   </p>
+  <p> 
+    Coming soon.   
+  </p>
 
+<exercises xml:id="exercises-exp">
+  <p>
+    Here are some potential exercises. We can also build our own. Far from all will be useful and som may not even work. But we can include some and use some for inspiration. 
+  </p>
+
+  <exercise>
+    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UMN/calculusStewartCCC/s_1_6_52.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/ASU-topics/setExponentialFunctions/sw6_2_3.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_4_1-5.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Utah/Business_Algebra/set9_Mathematics_of_Finance/p04.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions5.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/ma112DB/set9/sw6_2_5.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Review/Q40.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q07.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/ma117DB/set8/srw4_4_41.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C01S06-LogsInvs/1-6-52.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C01S06-LogsInvs/1-6-49.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C01S06-LogsInvs/1-6-50.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Wiley/setAnton_Section_0.5/Question32a.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_3_48.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
+  </exercise>
+
+</exercises>
 
 
 </section>
