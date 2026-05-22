@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="800"
+   height="550"
+   id="svg39"
+   sodipodi:docname="Precalc TrigNotation.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8075"
+     inkscape:cx="400"
+     inkscape:cy="274.9226"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="1073"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg39" />
+  <defs
+     id="defs1" />
+  <g
+     id="graphpaper-ef45d676"
+     transform="matrix(2,0,0,2,-406.19195,7.4303403)">
+    <g
+       id="axis-ef45d676">
+      <g
+         id="yaxis-ef45d676">
+        <title
+           id="title1">Y axis</title>
+        <g
+           id="g3">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="fill stroke markers"
+             d="M 253,3 V 400"
+             stroke-opacity="0.9"
+             stroke-miterlimit="10"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             id="path1" />
+          <g
+             class="dcg-svg-axis-line"
+             id="g2">
+            <path
+               fill="#000000"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="stroke fill markers"
+               d="m 253,1.5 3.10583,11.59111 h -6.21166 L 253,1.5 l 3.10583,11.59111"
+               stroke-opacity="0.9"
+               stroke-linejoin="round"
+               stroke-miterlimit="10"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               fill-opacity="0.9"
+               id="path2" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="xaxis-ef45d676">
+        <title
+           id="title3">X axis</title>
+        <g
+           id="g5">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="fill stroke markers"
+             d="M 0,207 H 597"
+             stroke-opacity="0.9"
+             stroke-miterlimit="10"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             id="path3" />
+          <g
+             class="dcg-svg-axis-line"
+             id="g4">
+            <path
+               fill="#000000"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="stroke fill markers"
+               d="m 598.5,207 -11.59111,3.10583 v -6.21166 L 598.5,207 l -11.59111,3.10583"
+               stroke-opacity="0.9"
+               stroke-linejoin="round"
+               stroke-miterlimit="10"
+               stroke-width="1.5"
+               stroke-dasharray="none"
+               fill-opacity="0.9"
+               id="path4" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g7">
+        <g
+           id="g6">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-tickmark"
+             paint-order="fill stroke markers"
+             d=""
+             stroke-opacity="0.9"
+             stroke-miterlimit="2"
+             stroke-width="1.5"
+             stroke-dasharray="none"
+             id="path5" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="expressions-ef45d676"
+     transform="matrix(2,0,0,2,-406.19195,7.4303403)">
+    <g
+       id="sketch-ef45d676">
+      <title
+         id="title7">Expression 1</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path7" />
+      <g
+         id="g8">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 0,83.430885 v 0 l 3.2226563,4.479897 3.5156249,5.471325 3.9550778,6.773313 4.6875,8.68534 6.591797,12.94791 10.986328,21.59245 4.833985,8.75249 3.955078,6.5363 3.515625,5.21763 3.222656,4.21548 3.076172,3.46175 2.929687,2.74542 2.636719,1.98406 2.34375,1.36067 2.197266,0.9218 2.050781,0.54593 1.904297,0.23231 2.197266,-0.062 1.904297,-0.33957 1.904296,-0.60324 2.050782,-0.94115 2.197265,-1.33786 2.490235,-1.91743 2.783203,-2.62832 2.929687,-3.29085 3.076172,-3.99306 3.369141,-4.94591 3.662109,-5.96908 4.248047,-7.55919 5.27344,-10.06765 18.60351,-36.133222 4.10157,-6.96035 3.6621,-5.605082 3.36915,-4.558072 3.07617,-3.599726 2.92968,-2.886158 2.78321,-2.220984 2.49023,-1.537597 2.19727,-0.99327 2.05078,-0.613605 1.9043,-0.295634 2.34375,6.45e-4 1.90429,0.296679 1.9043,0.560723 2.05078,0.895985 2.19727,1.290483 2.49023,1.865387 2.7832,2.572733 2.92969,3.23589 3.07617,3.939956 3.36914,4.893959 3.66211,5.920836 4.24805,7.515094 5.27344,10.03212 19.33594,37.48563 4.10156,6.89226 3.66211,5.53125 3.22265,4.29879 3.07618,3.54881 2.92968,2.83415 2.78321,2.16896 2.49023,1.48933 2.19727,0.94966 2.05078,0.57232 1.90429,0.25699 1.9043,-0.009 1.9043,-0.27415 1.90429,-0.53838 2.05079,-0.87223 2.19726,-1.26555 2.49024,-1.83797 2.7832,-2.54343 2.92969,-3.20688 3.07617,-3.91188 3.36914,-4.86644 3.66211,-5.89521 4.24805,-7.49156 5.12695,-9.7271 9.52148,-18.9237 6.73828,-13.02788 4.6875,-8.396936 3.95508,-6.447107 3.51563,-5.123477 3.22265,-4.118276 2.92969,-3.213794 2.7832,-2.550408 2.63672,-1.939771 2.34375,-1.320034 2.19727,-0.882875 2.05078,-0.509128 1.9043,-0.197899 1.90429,0.0678 1.9043,0.333162 1.9043,0.596904 2.05078,0.934413 2.19726,1.330796 2.49024,1.909678 2.7832,2.620043 2.92969,3.282669 3.07617,3.98516 3.36914,4.938202 3.66211,5.96192 4.24805,7.552668 5.27344,10.06243 18.60351,36.14176 4.24805,7.20396 3.66211,5.58772 3.36914,4.53979 3.07617,3.58134 2.92969,2.86738 2.7832,2.20218 2.49023,1.52015 2.19727,0.97751 2.05078,0.59867 1.9043,0.28165 1.9043,0.0161 1.90429,-0.24949 1.9043,-0.51388 2.05078,-0.8462 2.19727,-1.2382 2.34375,-1.68988 2.63671,-2.34121 2.92969,-3.12195 3.07617,-3.82955 3.22266,-4.56551 3.66211,-5.79569 4.10156,-7.13402 4.98047,-9.35035 7.61719,-15.08064 8.64258,-16.93264 4.83398,-8.78554 4.10156,-6.80316 3.51563,-5.230836 3.22265,-4.229165 3.07618,-3.476027 2.92968,-2.759951 2.63672,-1.997781 2.34375,-1.373281 2.19727,-0.933868 2.05078,-0.557361 1.9043,-0.242997 1.90429,0.02263 1.9043,0.288139 1.9043,0.552249 2.05078,0.886981 2.19726,1.281033 2.49024,1.854998 2.7832,2.561628 2.92969,3.224901 3.07617,3.929326 3.36914,4.883541 3.66211,5.911144 4.24805,7.506207 5.27344,10.02489 19.48242,37.75514 4.10156,6.87838 3.66211,5.51628 3.22266,4.2838 3.07617,3.53313 2.92968,2.81814 2.78321,2.15296 2.49023,1.47451 2.19727,0.93628 2.05078,0.55964 1.9043,0.24514 1.90429,-0.0205 1.9043,-0.286 1.9043,-0.55013 2.05078,-0.88473 2.19726,-1.27867 2.49024,-1.8524 2.7832,-2.55885 2.92969,-3.22215 L 600,166.13763"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="2.5"
+           stroke-dasharray="none"
+           id="path8" />
+      </g>
+    </g>
+    <g
+       id="g11">
+      <title
+         id="title8">Expression 2</title>
+      <path
+         fill="#2d70b3"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path9" />
+      <g
+         id="g10">
+        <path
+           fill="none"
+           stroke="#2d70b3"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 0,124.80976 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 H 39 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 H 93 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path10" />
+      </g>
+    </g>
+    <g
+       id="g12">
+      <title
+         id="title11">Midline</title>
+    </g>
+    <g
+       id="g13">
+      <title
+         id="title12">Amplitude</title>
+    </g>
+    <g
+       id="g15">
+      <title
+         id="title13">Expression 5</title>
+      <path
+         fill="#348543"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path13" />
+      <g
+         id="g14">
+        <path
+           fill="none"
+           stroke="#348543"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 323.46443,124.80976 v -6.6 m 0,-4.2 v -6.6 m 0,-4.2 v -6.600003 m 0,-4.2 v -6.6 m 0,-4.2 v -6.6 m 0,-4.2 v -0.563855"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path14" />
+      </g>
+    </g>
+    <g
+       id="g17">
+      <title
+         id="title15">Expression 6</title>
+      <path
+         fill="#348543"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path15" />
+      <g
+         id="g16">
+        <path
+           fill="none"
+           stroke="#348543"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 409.17313,179.37361 v -6.6 m 0,-4.2 v -6.6 m 0,-4.2 v -6.6 m 0,-4.2 v -6.6 m 0,-4.2 v -6.6 m 0,-4.2 v -0.56385"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path16" />
+      </g>
+    </g>
+    <g
+       id="g18">
+      <title
+         id="title17">Phase shift</title>
+    </g>
+    <g
+       id="g19">
+      <title
+         id="title18">Period</title>
+    </g>
+    <g
+       id="g21">
+      <title
+         id="title19">Expression 9</title>
+      <path
+         fill="#6042a6"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path19" />
+      <g
+         id="g20">
+        <path
+           fill="none"
+           stroke="#6042a6"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m 323.46443,70.245902 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6 m 4.2,0 h 6.6"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="1.5"
+           stroke-dasharray="none"
+           id="path20" />
+      </g>
+    </g>
+    <g
+       id="g22">
+      <title
+         id="title21">Expression 10</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 327.21443,70.245902 a 3.75,3.75 0 1 1 0,-0.0037 z"
+         id="path21" />
+    </g>
+    <g
+       id="g23">
+      <title
+         id="title22">Expression 11</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 498.63183,70.245902 a 3.75,3.75 0 1 1 0,-0.0037 z"
+         id="path22" />
+    </g>
+    <g
+       id="g24">
+      <title
+         id="title23">Expression 12</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 412.92313,179.37361 a 3.75,3.75 0 1 1 0,-0.004 z"
+         id="path23" />
+    </g>
+    <g
+       id="g25">
+      <title
+         id="title24">Expression 13</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 370.06878,124.80976 a 3.75,3.75 0 1 1 0,-0.004 z"
+         id="path24" />
+    </g>
+    <g
+       id="g26">
+      <title
+         id="title25">Expression 14</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 455.77748,124.80976 a 3.75,3.75 0 1 1 0,-0.004 z"
+         id="path25" />
+    </g>
+    <g
+       id="g27">
+      <title
+         id="title26">Expression 15</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 198.65138,124.80976 a 3.75,3.75 0 1 1 -1e-5,-0.004 z"
+         id="path26" />
+    </g>
+    <g
+       id="g28">
+      <title
+         id="title27">Expression 16</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 284.36008,124.80976 a 3.75,3.75 0 1 1 0,-0.004 z"
+         id="path27" />
+    </g>
+    <g
+       id="g29">
+      <title
+         id="title28">Expression 17</title>
+      <path
+         fill="#000000"
+         stroke="none"
+         class="dcg-svg-point"
+         paint-order="stroke fill markers"
+         d="m 541.48619,124.80976 a 3.75,3.75 0 1 1 -10e-6,-0.004 z"
+         id="path28" />
+    </g>
+  </g>
+  <g
+     transform="matrix(2,0,0,2,520.80805,223.43034)"
+     id="g31">
+    <g
+       class="dcg-svg-label"
+       id="g30">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text29">Midline</text>
+      <text
+         fill="#2d70b3"
+         stroke="none"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         id="text30">Midline</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(-0.00179125,-1.3535377,1.3470372,-0.00178265,244.98209,255.17675)"
+     id="g33"
+     inkscape:transform-center-x="11.145912"
+     inkscape:transform-center-y="9.924433">
+    <g
+       class="dcg-svg-label"
+       id="g32">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text31">Amplitude</text>
+      <text
+         fill="#348543"
+         stroke="none"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         id="text32">Amplitude</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(-0.00848281,-1.4109082,1.1881224,-0.00843162,388.42542,358.233)"
+     id="g33-4">
+    <g
+       class="dcg-svg-label"
+       id="g32-8">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text31-8">Amplitude</text>
+      <text
+         fill="#348543"
+         stroke="none"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         id="text32-2">Amplitude</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.51626566,-1.4450298,1.4120928,0.5432202,119.40559,192.31781)"
+     id="g35"
+     inkscape:transform-center-x="3.1127588"
+     inkscape:transform-center-y="-2.05025">
+    <g
+       class="dcg-svg-label"
+       id="g34">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text33">Phase shift</text>
+      <text
+         fill="#c74440"
+         stroke="none"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         id="text34">Phase shift</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(2,0,0,2,360.80805,107.43034)"
+     id="g37">
+    <g
+       class="dcg-svg-label"
+       id="g36">
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="2"
+         stroke-width="3"
+         stroke-dasharray="none"
+         id="text35">Period</text>
+      <text
+         fill="#6042a6"
+         stroke="none"
+         font-family="arial, sans-serif"
+         font-size="15.4px"
+         font-style="normal"
+         font-weight="400"
+         text-decoration="normal"
+         x="0"
+         y="13.9888"
+         text-anchor="start"
+         id="text36">Period</text>
+    </g>
+  </g>
+  <g
+     id="g38"
+     transform="scale(2)" />
+  <text
+     xml:space="preserve"
+     style="writing-mode:lr-tb;direction:ltr;opacity:0.65;fill:#000000"
+     x="527.5542"
+     y="71.826622"
+     id="text39"><tspan
+       sodipodi:role="line"
+       x="527.5542"
+       y="71.826622"
+       id="tspan40" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:54.7141px;writing-mode:lr-tb;direction:ltr;opacity:0.65;fill:#aa0000;stroke-width:4.55951"
+     x="199.33981"
+     y="-173.30847"
+     id="text41"
+     transform="matrix(-0.00605139,0.92733675,-1.0782058,-0.02316188,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan41"
+       x="199.33981"
+       y="-173.30847"
+       style="stroke-width:4.55951;fill:#aa0000"></tspan><tspan
+       sodipodi:role="line"
+       x="199.33981"
+       y="-104.91586"
+       id="tspan42"
+       style="stroke-width:4.55951;fill:#aa0000"> {</tspan></text>
+</svg>

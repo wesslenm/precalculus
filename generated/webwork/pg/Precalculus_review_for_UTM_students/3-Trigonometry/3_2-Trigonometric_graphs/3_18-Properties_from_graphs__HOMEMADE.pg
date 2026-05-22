@@ -1,0 +1,81 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-22T19:11:47Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.18)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = random(2,9,1);
+$ans1 = Compute("1")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("0")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans3 = Compute("-pi/2")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );     
+$ans4 = Compute("3pi/2")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );           
+$ans5 = str_cmp("none");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the graphs of trigonometric functions to find the following information.
+
+(a) [`\cos 0 = `] [_]{$ans1}{6}
+
+(b) [`\tan \pi = `] [_]{$ans2}{6}
+
+(c) All values of [`x`] in the interval [`[-2\pi, 2\pi]`] where [`\sin x = -1\text{.}`] List your answers from smallest to largest. If there are only three such values (for example) then write `none' in any remaining answer boxes. [_]{$ans3}{6} and [_]{$ans4}{6} and [_]{$ans5}{6} and [_]{$ans5}{6}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

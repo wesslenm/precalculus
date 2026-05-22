@@ -6,15 +6,15 @@ screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Trigonometric
 description       = Trigonometric graphs
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_1-Fact_Check__NEW_INSTRUCTIONS_PLEASE_CHECK.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_5_1-Fact_Check__NEW_INSTRUCTIONS_PLEASE_CHECK.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_2-Find_period_amplitude_phase_shift__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_5_2-Find_period_amplitude_phase_shift__HOMEMADE__UPDATED.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_4_3-Find_period_amplitude_phase_shift__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_2_5_3-Find_period_amplitude_phase_shift__HOMEMADE__UPDATED.pg
 problem_id = 3
 problem_end
 problem_start
@@ -34,22 +34,18 @@ source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg
 problem_id = 8
 problem_end
 problem_start
-source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg
 problem_id = 9
 problem_end
 problem_start
-source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg
 problem_id = 10
 problem_end
 problem_start
-source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg
-problem_id = 11
-problem_end
-problem_start
 source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg
-problem_id = 12
+problem_id = 11
 problem_end

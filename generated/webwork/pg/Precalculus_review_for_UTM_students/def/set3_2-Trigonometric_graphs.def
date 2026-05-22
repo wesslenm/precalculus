@@ -6,22 +6,22 @@ screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Trigonometric
 description       = Trigonometric graphs
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_17-Properties_from_graphs__HOMEMADE.pg
-problem_id = 17
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_18-Properties_from_graphs__HOMEMADE.pg
+problem_id = 18
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_19-Symmetries_and_properties_from_graphs__HOMEMADE.pg
-problem_id = 19
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_20-Symmetries_and_properties_from_graphs__HOMEMADE__UPDATED_PLEASE_REVIEW.pg
+problem_id = 20
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_22-Determining_period__HOMEMADE.pg
-problem_id = 22
-problem_end
-problem_start
-source_file = Library/MC/Trigonometry/Graphing03.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_23-Determining_period__HOMEMADE.pg
 problem_id = 23
 problem_end
 problem_start
-source_file = Library/MC/Trigonometry/Graphing02.pg
+source_file = Library/MC/Trigonometry/Graphing03.pg
 problem_id = 24
+problem_end
+problem_start
+source_file = Library/MC/Trigonometry/Graphing02.pg
+problem_id = 25
 problem_end
