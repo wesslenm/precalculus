@@ -49,7 +49,10 @@ Avoid -ing forms like ‘Simplifying the expression.’
             </p>
         </li>
 <li>
-        To specify a sourse of am image or other:  <p>Source
+        <p>
+          To specify a source of an image or other:
+        </p>
+    <p>Source
   <fn> 
     Source: https://commons.wikimedia.org/wiki/File:Circle_radians.gif#/media/File:Circle_radians.gif
   </fn>

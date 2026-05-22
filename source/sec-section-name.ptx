@@ -331,7 +331,103 @@ A new term: <term>radical</term>
     </webwork>
   </exercise>
 
+<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m></title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
 
+      $a = Compute(random(-12, 15, 1));
+      $b = $a/2;
+      $r = $a % 4;
+
+      if ($r == 0) {
+      $ans1 = num_cmp(0);
+    } elsif ($r == 1) {
+      $ans1 = str_cmp("DNE");
+    } elsif ($r == 2) {
+      $ans1 = num_cmp(0);
+    } else {
+      $ans1 = str_cmp("DNE");
+    }  
+      if ($r == 0) {
+      $ans2 = str_cmp("DNE");
+    } elsif ($r == 1) {
+      $ans2 = num_cmp(0);
+    } elsif ($r == 2) {
+      $ans2 = str_cmp("DNE");
+    } else {
+      $ans2 = num_cmp(0);
+    } 
+      if ($r == 0) {
+      $ans3 = num_cmp(0);
+    } elsif ($r == 1) {
+      $ans3 = num_cmp(1);
+    } elsif ($r == 2) {
+      $ans3 = num_cmp(0);
+    } else {
+      $ans3 = num_cmp(-1);
+    } 
+      if ($r == 0 || $r == 2) {
+      $ans4 = str_cmp("DNE");
+    } elsif ($r == 1) {
+      $ans4 = num_cmp(1);
+    } else {
+      $ans4 = num_cmp(-1);
+    } 
+     if ($r == 0) {
+      $ans5 = num_cmp(1);
+    } elsif ($r == 1) {
+      $ans5 = num_cmp(0);
+    } elsif ($r == 2) {
+      $ans5 = num_cmp(-1);
+    } else {
+      $ans5 = num_cmp(0);
+    }
+     if ($r == 1 || $r == 3) {
+      $ans6 = str_cmp("DNE");
+    } elsif ($r == 0) {
+      $ans6 = num_cmp(1);
+    } else {
+      $ans6 = num_cmp(-1);
+    }   
+    </pg-code>
+
+    <statement>
+         <ol>
+        <li>
+          <p>
+          <m>\tan \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans1" width="10"/>.
+      </p>
+        </li>
+        <li>
+          <p>
+      <m>\cot \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans2" width="10"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+           <m>\sin \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans3" width="10"/>.
+          </p>
+        </li>   
+        <li>
+          <p>
+            <m>\csc \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans4" width="10"/>.
+          </p>
+        </li> 
+        <li>
+          <p>
+            <m>\cos \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans5" width="10"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\sec \left(<var name="$b"/>\pi\right) =</m>  <var name="$ans6" width="10"/>.
+          </p>
+        </li>        
+      </ol>      
+    </statement>
+  </webwork>
+</exercise>
 
 
 </section>

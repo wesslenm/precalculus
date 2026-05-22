@@ -12,7 +12,7 @@
       </li>
       <li>
         <p>
-          Use the graphs of trigonometric functions to read off important information. 
+          Use the graphs of trigonometric functions to interpret important information. 
         </p>
       </li>
       <li>
@@ -22,7 +22,7 @@
       </li>
       <li>
         <p>
-          Determine amplitude, period and phase shift. 
+          Determine amplitude, period, midline and phase shift. 
         </p>
       </li>
     </ul>
@@ -31,18 +31,19 @@
   <assemblage>
     <title>Where will this be used in calculus?</title>
     <p>
-      Trigonometric functions are used to model many phenomena of a periodic nature, and are therefore an important tool in calculus as well. Graphs can be used to get an overview of a function, or to recall specific information easily. Some examples are:
+      Trigonometric functions are used to model a variety of periodic phenomena, and are therefore an important tool in calculus. 
+      Graphs can be used to get an overview of a function, or to obtain specific information easily. Some examples are:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          Finding the area between curves or the volume of certain solids is an important part of integral calculus. Being familiar with trigonometric graphs is essential.  
+          Finding the area between curves or the volume of certain solids in integral calculus.   
         </p>
       </li>
       <li>
         <p>
-          Analyzing amplitude, period and phase shift of a periodic wave is imprtant for understanding the characterisics of the functions and of any situation that is modeled. 
+          Use amplitude, period, midline and phase shift of a periodic function to describe and analyze the characterisics of a modeled situation. 
         </p>
       </li>
     </ul>
@@ -51,12 +52,76 @@
 
   <introduction>
     <p>    
-In this section we discuss the graphs of trigonometric functions, and some properties of the graphs. 
+In this section, we discuss the graphs of trigonometric functions, and some properties of their graphs. 
     </p>
   </introduction>
 
-  <subsection xml:id="triggraphs">
-    <title>Graphs</title>
+ <subsection xml:id="trignotation"><title>Sinusoidal Graphs and Notation</title>
+<p>
+  A <term>sinusoidal function</term><idx>Sinusoidal function</idx> is similar to <m>y=\sin x</m> but possibly shifted, stretched, reflected etc.
+Below is an example of a graph of a sinusoidal function.
+</p>
+ <figure>
+  <caption>An example of a sinusoidal graph.</caption>
+  <title>An example of a sinusoidal graph. REPLACE WITH NEW GRAPH</title>
+  <image source="images/trig1sin" width="70%">
+      <shortdescription>
+          An example of a sinusoidal graph.
+        </shortdescription>
+  </image>
+</figure>
+ 
+<assemblage><title>Notation</title>
+    <image source="images/trig1sin" width="70%">
+    </image>
+
+  <p>
+    The image shows an example of a sinusoidal graph. To describe the graph, we use some specific notation.
+    </p>
+    <p>
+    <ul>
+      <li>
+        <p>
+          The <term>midline</term><idx>Midline</idx> is the horizontal line at middle value between the maximum and the minumum values of the graph.
+        </p>
+      </li>
+      <li>
+        <p>
+         The <term>amplitude</term><idx>Amplitude</idx> is the distance between the midline and the maximum value. 
+         This is also equal to the distance between the midline and the minimum value
+        </p>
+      </li>
+      <li>
+        <p>
+          Sinusoidal functions are <term>periodic</term><idx><h>Periodic function</h></idx>, which means that they repeat after a certain interval. 
+          The length of that interval is called the <term>period</term><idx><h>Period of a function</h></idx>. 
+          Therefore we can say that the period of a sinusoidal function is the distance between two consequitive maximum points (which is also the same as the distance between two consequitive minimum points). 
+        </p>
+      </li>
+      <li>
+        <p>
+        We also use <term>phase shift</term><idx><h>Phase shift</h></idx> to describe sinusoidal graphs. 
+        The phase shift is the horizontal distance that the graph has been shifted, compared to the "parent function" <m>y=\sin x</m>. 
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage> 
+
+
+ 
+CONTINUE HERE ***********************************************************
+
+https://www.desmos.com/calculator/9plu0ysrlp
+
+
+
+
+
+ </subsection>
+ 
+ 
+  <subsection xml:id="triggraphs"><title>The Six Trigonometric Graphs</title>
   <p> The graphs of the trigonometric functions are given below. </p>
   
  <figure>
@@ -119,10 +184,6 @@ In this section we discuss the graphs of trigonometric functions, and some prope
   </image>
 </figure>
 
-
-
-
-
   <aside>
     <p>
       <alert> Study tip: </alert>
@@ -133,7 +194,8 @@ In this section we discuss the graphs of trigonometric functions, and some prope
   </aside>
   
   <p>
-  All 6 trigonometric functions are <term>periodic</term><idx><h>Periodic function</h></idx>, which means that they repeat after a certain interval, called the <term>period</term><idx><h>Period of a function</h></idx>. The periods for the 6 functions are as follows:  
+  All six trigonometric functions are <term>periodic</term><idx><h>Periodic function</h></idx>, which means that they repeat after a certain interval, called the <term>period</term><idx><h>Period of a function</h></idx>. 
+  The periods for the six functions are as follows:  
   </p>
 <table><title>Periods of trigonometric functions.</title>
   <tabular halign="center">
@@ -170,7 +232,9 @@ In this section we discuss the graphs of trigonometric functions, and some prope
   </subsection>
 
   <subsection><title>Properties and symmetries</title>
-  <p> One benefit of graphs is that a lot of information about a function can be seen quickly, by looking at a graph. Some examples are seen below.     </p>
+  <p> 
+    One benefit of graphs is that a lot of information about a function can be seen quickly. Some examples are seen below.     
+  </p>
 
 <aside>
     <p>
@@ -213,10 +277,10 @@ In this section we discuss the graphs of trigonometric functions, and some prope
       (a) <m>\tan 0 = 0</m>, as seen from the graph of <m>y=\tan \theta</m>. 
       </p>
       <p>
-      (b) Looking at the graph of <m>y=\sin \theta</m>, we can see that it crosses the <m>x</m>-axis 5 times in the inteval <m>[-2\pi, 2\pi]</m>, namely at the <m>x</m>-values <m>x=-2\pi, x=-\pi,  x=0, x=\pi</m> and <m>x=2\pi</m>. 
+      (b) Looking at the graph of <m>y=\sin \theta</m>, we can see that it crosses the <m>x</m>-axis 5 times in the inteval <m>[-2\pi, 2\pi]</m>, at the <m>x</m>-values <m>x=-2\pi, x=-\pi,  x=0, x=\pi</m> and <m>x=2\pi</m>. 
       </p>
      <p>
-      (c) Looking at the graph of <m>y=\tan \theta</m>, we can see that it is undefined 4 times in the inteval <m>[-2\pi, 2\pi]</m>, namely at the <m>x</m>-values <m>x=-\frac{3\pi}{2}, x=-\frac{\pi}{2},  x=\frac{\pi}{2}</m> and <m>x=\frac{3\pi}{2}</m>. 
+      (c) Looking at the graph of <m>y=\tan \theta</m>, we can see that it is undefined 4 times in the inteval <m>[-2\pi, 2\pi]</m>, at the <m>x</m>-values <m>x=-\frac{3\pi}{2}, x=-\frac{\pi}{2},  x=\frac{\pi}{2}</m> and <m>x=\frac{3\pi}{2}</m>. 
       </p>
     </solution>
   </example>
@@ -235,7 +299,11 @@ In this section we discuss the graphs of trigonometric functions, and some prope
                tolerance => .000000000000000000001,   );
       $ans3 = Compute("-pi/2")->with(
                tolType => 'absolute',
-               tolerance => .000000000000000000001,   );          
+               tolerance => .000000000000000000001,   );     
+      $ans4 = Compute("3pi/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );           
+      $ans5 = str_cmp("DNE");       
     </pg-code>
 
     <statement>
@@ -247,7 +315,9 @@ In this section we discuss the graphs of trigonometric functions, and some prope
         (b) <m>\tan \pi = </m> <var name="$ans2" width="6"/>
         </p>
         <p>
-        (c) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin x = -1</m>. <var name="$ans3" width="6"/>
+        (c) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin x = -1</m>. 
+        List your answers from smallest to largest. If there are only three such values (for example) then write `none' in any remaining answer boxes.
+          <var name="$ans3" width="6"/> and <var name="$ans4" width="6"/> and <var name="$ans5" width="6"/> and <var name="$ans5" width="6"/>
         </p>
     </statement>
   </webwork>
@@ -257,14 +327,19 @@ In this section we discuss the graphs of trigonometric functions, and some prope
 Graphs also illustrate symmetries. For example, <m>y=\sin \theta</m> and <m>y=\tan \theta</m> are odd functions, while <m>y=\cos \theta</m> is an even function.
 </p>
 <p>
-Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd function</h></idx> if <m>f(-x)=-f(x)</m> for all <m>x</m> in the domain of <m>f</m>. Visually, this means that the graph has 180 degree symmetry about the origin.
+Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd function</h></idx> if <m>f(-x)=-f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
+Visually, this means that the graph has 180 degree symmetry about the origin.
 </p>
 <p>
- Also, <m>f(x)</m> is an <term>even function</term><idx><h>Even function</h></idx> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
+ Also, <m>f(x)</m> is an <term>even function</term><idx><h>Even function</h></idx> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
+ This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
+ </p>
+<p>
+ Note that the reflective symmetry must be specifically about the <m>y</m>-axis, for the function to be called an even function. 
+ Similarly an odd function must have rotational symmetry about the origin, not some other point. 
 </p>
 
-     <example xml:id="graph2">
-    <title>Symmetries</title>
+     <example xml:id="graph2"><title>Symmetries - UPDATED PLEASE REVIEW</title>
     <statement>
       <p>
       Which of the following statements are true, and which are false? 
@@ -286,6 +361,12 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd fu
         (c) <m>\sin \left(\frac{3}{8}\right) = - \sin \left(-\frac{3}{8}\right)</m>
         </p>
       </li>
+      <li>
+        <p>
+        (d) <m>y=\cos (x-1)</m> is an even function. 
+        </p>
+      </li>
+    
     </nl>
       </p>
     </statement>
@@ -298,51 +379,70 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd fu
       </p>      
       <p>
         (c) True
-      </p>      
+      </p>  
+      <p>
+        (c) False
+      </p>     
     </answer>
     <solution>
        <p>
         (a) This is true. Looking at the graph we see that it is symmetric about the origin. 
       </p>
       <p>
-        (b) This is false. Looking at the graph we see that it is symmetric about the <m>y</m>-axis, so this is an even function, not odd. 
+        (b) This is false. Looking at the graph we see that it is symmetric about the <m>y</m>-axis, so <m>y=\sec x</m> is an even function, not odd. 
       </p>      
       <p>
         (c) This is true. This is a property of odd functions and <m>y=\sin x </m> is an odd function. 
+      </p> 
+      <p>
+        (c) This is false. 
+        We know that <m>y=\cos x</m> is an even function, but <m>y=\cos (x-1)</m> is shifted 1 unit to the right, so the symmetry is no longer about the <m>y</m>-axis.  
+         The function <m>y=\cos (x-1)</m> is not even and not odd.
       </p>    
     </solution>
   </example>
 
-<exercise><title>Symmetries and properties from graphs - HOMEMADE</title>
+<exercise><title>Symmetries and properties from graphs - HOMEMADE - UPDATED PLEASE REVIEW</title>
   <webwork>
     <pg-code>
       Context("Numeric");
 
       $a = random(2,9,1);
-      $ans1 = Compute("0")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-      $ans2 = Compute("1")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );      
+      $popuptrue = PopUp(['?','True','False'],1);
+      $popupfalse = PopUp(['?','True','False'],1);
     </pg-code>
 
     <statement>
       <p>
-        Which of the following statements are true, and which are false? Enter 1 for TRUE and 0 for FALSE.  
+        Which of the following statements are true, and which are false? 
       </p>
-        <p>
-        (a) <m>y=\csc x</m> is an odd function. <var name="$ans2" width="6"/>
-        </p>
-       <p>
-        (b) <m>\sec \left( 3 \right) = \tan \left( -3 \right)</m>  <var name="$ans2" width="6"/>
-        </p> 
-        <p>
-          (c) <m>\tan \left( \frac{3\pi}{2} \right) = -\tan \left( -\frac{3\pi}{2} \right)</m> <var name="$ans1" width="6"/> 
-        </p>        
-        <p>
-          (d) <m>\tan \left( 2 \right) = -\tan \left( -2 \right)</m> <var name="$ans2" width="6"/> 
-        </p>
+      <ol>
+        <li>
+          <p>
+            <m>y=2+ \sin x</m> is an odd function. <var name="$popupfalse" form="popup"/>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>y=\csc x</m> is an odd function. <var name="$popuptrue" form="popup"/>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\sec \left( 3 \right) = \tan \left( -3 \right)\csc\left(-3\right)</m>  <var name="$popuptrue" form="popup"/>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\tan \left( \frac{3\pi}{7} \right) = -\tan \left( -\frac{3\pi}{7} \right)</m> <var name="$popuptrue" form="popup"/>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>y=\sec (x-\frac{\pi}{3})</m> is an even function. <var name="$popupfalse" form="popup"/>
+          </p>
+        </li>
+      </ol>
 
     </statement>
   </webwork>
@@ -352,12 +452,13 @@ Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd fu
   <subsection><title>Transformations of graphs</title>
   <p> 
     Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions. 
-    
+  </p>
+
     <example xml:id="trans1">
     <title>Basic transformations</title>
     <statement>
       <p>
-      Use a graphing tool (for example DESMOS) to graph first <m>y=2\cos x</m> and then <m>y=\cos (2x)</m>. How are each of them different from the graph of <m>y=\cos x</m>?
+      Use a graphing tool (for example DESMOS) to graph <m>y=2\cos x</m> and <m>y=\cos (2x)</m>. How are each of them different from the graph of <m>y=\cos x</m>?
       </p>
     </statement>
     <solution>
@@ -383,21 +484,26 @@ Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>:
         </shortdescription>
   </image>
       <p>
-      Looking at the graph of <m>y=\cos (2x))</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except its period is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur `twice as fast' compared to the graph of <m>y=\cos x</m>. The graph of <m>y=\cos (2x)</m> is compressed horizontally by a factor of 2, compared to the graph of <m>y=\cos x</m>.
+      Looking at the graph of <m>y=\cos (2x)</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except its period is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur `twice as fast' compared to the graph of <m>y=\cos x</m>. The graph of <m>y=\cos (2x)</m> is compressed horizontally by a factor of 2, compared to the graph of <m>y=\cos x</m>.
       </p>
     </solution>
   </example>
-    </p>
-      <p>
-Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). Similarly for the graph of <m>y=A \sin x</m>. The value <m>A</m> is called the <term>amplitude</term><idx><h>Amplitude</h></idx> of the sine or cosine curve. 
-       </p>
-             <p>
-The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) have periods of <m>2\pi /k</m>. This is because compared to <m>y=\cos x</m> and <m>y=\sin x</m>, the graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m> are compressed horizontally by a factor of <m>k</m>.
-  </p>
 
-        <p>
-Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. Here, <m>c</m> is called the <term>phase shift</term><idx><h>Phase shift</h></idx>. 
-       </p>
+<p>
+Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). 
+Similarly for the graph of <m>y=A \sin x</m>. 
+Therefore, <m>A</m> is the amplitude of the sine or cosine curve. 
+</p>
+<p>
+The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) have periods of <m>2\pi /k</m>. 
+This is because compared to <m>y=\cos x</m> and <m>y=\sin x</m>, the graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m> are compressed horizontally by a factor of <m>k</m>.
+</p>
+
+<p>
+Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. 
+Here, <m>c</m> is called the <term>phase shift</term><idx><h>Phase shift</h></idx> or <term>horizontal translation</term><idx><h>Horizontal translation</h></idx> or sometimes horizontal shift. 
+However, the term ``horizontal translation'' applies to any graphs translated horizontally, while the term ``phase shift'' is used only for sinusoidal graphs.
+</p>
 
      <example xml:id="graph3"><title>Amplitude, period, phase shift</title>
     <statement>
@@ -421,7 +527,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
     </answer>
     <solution>
        <p>
-        The amplitude is given by the constant multiplied by <m>sin \theta</m>, in this case 3. 
+        The amplitude is given by the constant multiplied by <m>\sin \theta</m>, in this case 3. 
        </p>
 <p>
   To find the period, notice that compared to <m>y=\sin x</m>, the graph of <m>y = 3 \sin (4x-7)</m> is compressed by a factor of <m>4</m>. This means the period is divided by <m>4</m>. The period of <m>y=\sin x</m> is <m>2\pi</m>, which means the persiod of <m>y = 3 \sin (4x-7)</m> is <m>\frac{2\pi}{4}= \frac{\pi}{2}</m>.
@@ -443,15 +549,19 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       Context("Numeric");
 
       $a = random(2,9,1);
-      $ans1 = Compute("2*pi/$a")->with(
+      $ans1 = Compute("pi/$a")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
 
     </pg-code>
 
     <statement>
-      <p>Compared to the graph of <m>y=\tan x</m>, the graph of <m>y=\tan (<var name="$a"/>x)</m> is compressed horizontally by a factor of <m><var name="$a"/></m>. </p>
-      <p> What is the period of <m> \tan \left(<var name="$a"/>x\right)</m>? <var name="$ans1" width="6"/></p>
+      <p>
+        Compared to the graph of <m>y=\tan x</m>, the graph of <m>y=\tan (<var name="$a"/>x)</m> is compressed horizontally by a factor of <m><var name="$a"/></m>. 
+      </p>
+      <p> 
+        What is the period of <m> \tan \left(<var name="$a"/>x\right)</m>? <var name="$ans1" width="6"/>
+      </p>
     </statement>
   </webwork>
 </exercise>
@@ -514,7 +624,7 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
   </webwork>
   </exercise>
 
-<exercise><title>Find period, amplitude, phase shift - HOMEMADE</title>
+<exercise><title>Find period, amplitude, phase shift - HOMEMADE - UPDATED</title>
     <webwork>
     <pg-code>
       Context("Numeric");
@@ -528,21 +638,25 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       $ans2 = Compute("$a")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );         
-      $ans3 = Compute("0")->with(
+      $ans3 = Compute("-$c/$b")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
+      $ans4 = Compute("0")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );         
     </pg-code>
 
     <statement>
-      <p>Find the following for the function <m> y=<var name="$a"/>\cos \left(<var name="$b"/>x\right)</m></p>
+      <p>Find the following for the function <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m></p>
       <p> (a) What is the period of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans1" width="6"/></p>
       <p> (b) What is the amplitude of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans2" width="6"/></p>
       <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+      <p> (d) What is the midline of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <m>y=</m> <var name="$ans4" width="6"/></p>
     </statement>
   </webwork>
   </exercise>
 
-  <exercise><title>Find period, amplitude, phase shift - HOMEMADE</title>
+  <exercise><title>Find period, amplitude, phase shift - HOMEMADE - UPDATED</title>
        <webwork>
     <pg-code>
       Context("Numeric");
@@ -550,22 +664,27 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
       $a = random(2,9,1);
       $b = random(2,9,1);
       $c = random(2,9,1);
+      $d = random(2,9,1);
       $ans1 = Compute("2*pi/$b")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
       $ans2 = Compute("$a")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );         
-      $ans3 = Compute("$c")->with(
+      $ans3 = Compute("$c/$b")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
+      $ans4 = Compute("$d")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );        
     </pg-code>
 
     <statement>
-      <p>Find the following for the function <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)</m></p>
-      <p> (a) What is the period of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans1" width="6"/></p>
-      <p> (b) What is the amplitude of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans2" width="6"/></p>
-      <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x+<var name="$c"/>\right)</m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+      <p>Find the following for the function <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)+<var name="$d"/> </m></p>
+      <p> (a) What is the period of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)+<var name="$d"/> </m>? <var name="$ans1" width="6"/></p>
+      <p> (b) What is the amplitude of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)+<var name="$d"/> </m>? <var name="$ans2" width="6"/></p>
+      <p> (c) What is the phase shift of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)+<var name="$d"/> </m>? <var name="$ans3" width="6"/> (Use a positive number for a shift to the right, and negative for to the left.)</p>
+      <p> (d) What is the midline of <m> y=<var name="$a"/>\sin \left(<var name="$b"/>x-<var name="$c"/>\right)+<var name="$d"/> </m>? <m>y=</m> <var name="$ans4" width="6"/></p>
     </statement>
   </webwork>
 </exercise>
@@ -586,9 +705,9 @@ Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
  </exercise>
 
-  <exercise><title>Find the shifts - FROM WEBWORK</title>
+  <!-- <exercise><title>Find the shifts - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" />
- </exercise>
+ </exercise> -->
 
   <exercise><title>Find the shift - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" />
