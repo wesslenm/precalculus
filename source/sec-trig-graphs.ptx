@@ -71,7 +71,7 @@ Below is an example of a graph of a sinusoidal function.
   </image>
 </figure>
  
-<assemblage><title>Notation</title>
+<assemblage xml:id="trignot"><title>Notation</title>
     <image source="images/Precalc TrigNotation" width="70%">
     </image>
 
@@ -102,6 +102,11 @@ Below is an example of a graph of a sinusoidal function.
         <p>
         We also use <term>phase shift</term><idx><h>Phase shift</h></idx> to describe sinusoidal graphs. 
         The phase shift is the horizontal distance that the graph has been shifted, compared to its related non-shifted function <m>y=\sin (kx)</m>. 
+        </p>
+          
+        <p>
+      A phase shift can also be called a <term>horizontal translation</term><idx><h>Horizontal translation</h></idx> or sometimes a horizontal shift. 
+      The term ``horizontal translation'' applies to any graphs translated horizontally, while the term ``phase shift'' is used only for sinusoidal graphs.
         </p>
       </li>
     </ul>
@@ -447,22 +452,6 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
     Here we discuss some transformations specifically in terms of trigonometric functions. 
   </p>
 
-
-
-
-
-
-
-
-
- 
-CONTINUE HERE ***********************************************************
-
-https://www.desmos.com/calculator/9plu0ysrlp
-
-
-
-
     <example xml:id="trans1">
     <title>Basic transformations</title>
     <statement>
@@ -498,38 +487,133 @@ Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>:
     </solution>
   </example>
 
-<exercise><title>Investigating changes in graphs - HOMEMADE</title>
 <p>
-  Use the link to open a DESMOS page. On that page you have the option of viewing some sine, cosine or tangent graphs. Start with the sine graphs and do the following:
+Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). 
+Similarly for the graph of <m>y=A \sin x</m>. 
+The number <m>A</m> is the amplitude of the sine or cosine curve. 
+</p>
+
+<exercise xml:id="trans2"><title>Investigating changes in graphs - HOMEMADE</title>
+<p>
+  Use the link to open a DESMOS page: 
+</p> 
+<p>
+  <url href="https://www.desmos.com/calculator/9plu0ysrlp">Transformation investigation</url>
+</p>
+<p>
+  On that page you have the option of viewing some sine, cosine or tangent graphs. 
+  (Click the button on the left of each type of curve to turn it on and off.) 
+  Start with the sine graphs on, and do the following:
   <ol>
     <li>
       <p>
-        
+        Slide the <m>a</m> slider left and right. 
+        How does the graph change, compared to the original <m>y=\sin \theta</m> (which is indicated with a dashed line)? 
+        Write down some notes of your observations. Be as specific as you can. Is there any difference for positive and negative values of <m>a</m>? 
+      </p>
+    </li>
+    <li>
+      <p>
+        Now slide the <m>c</m> slider left and right. 
+        How does the graph change? 
+        Write down some notes of your observations and be as specific as you can. 
+      </p>
+    </li>
+    <li>
+      <p>
+        Now slide the <m>d</m> slider left and right. 
+        How does the graph change? 
+        Write down some notes of your observations and be as specific as you can. 
+      </p>
+    </li> 
+    <li>     
+      <p>
+        Set <m>a=1</m>, <m>c=0</m>and <m>d=0</m>. Then slide the <m>k</m> slider left and right. 
+        How does the graph change? 
+        Write down some notes of your observations and be as specific as you can. 
+        Is there any difference for positive and negative values of <m>k</m>? 
+        Compare values of <m>k</m> larger than 1, and between 0 and 1. What happens when <m>k=1</m>? When <m>k=0</m>?
+      </p>
+    </li>
+    <li>     
+      <p>
+        Now repeat the above investigations with the Cosine Curves `on' and the Sine Curves `muted'. 
+        Look back at your notes. Do the same obervations regarding each slider also apply to these curves?
+      </p>
+    </li>
+    <li>     
+      <p>
+        Now repeat the above investigations with only the Tan Curves `on'. 
+        Do the same obervations regarding each slider also apply to these curves? 
+        Take note of where in the expressions the <m>a, c, d, k</m> appear, and write down some general conclusions. 
+        Then continue reading the paragraphs below this Checkpoint.
       </p>
     </li>
   </ol>
 </p>
-
-  <url href="https://www.desmos.com/calculator/9plu0ysrlp" />
 </exercise>
 
-
-
 <p>
-Generalizing what we saw in <xref ref="trans1"/>, the graph of <m>y=A \cos x</m>  (for <m>A \not= 0)</m> oscillates between <m>A</m> and <m>-A</m> (because it has been stretched vertically). 
-Similarly for the graph of <m>y=A \sin x</m>. 
-Therefore, <m>A</m> is the amplitude of the sine or cosine curve. 
-</p>
-<p>
-The graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m>  (for <m>k \not= 0</m>) have periods of <m>2\pi /k</m>. 
-This is because compared to <m>y=\cos x</m> and <m>y=\sin x</m>, the graphs of <m>y=\cos (kx)</m> and <m>y=\sin (kx)</m> are compressed horizontally by a factor of <m>k</m>.
+Generalizing <xref ref="trans1"/> and <xref ref="trans2"/> we can summarize some results as follows:
 </p>
 
+<assemblage><title>Transformations</title>
 <p>
-Compared to <m>y=\cos x</m>, the graph of <m>y=\cos (x+c)</m> is shifted <m>c</m> units left if <m>c > 0</m> and right if <m>c</m> is less than 0. 
-Here, <m>c</m> is called the <term>phase shift</term><idx><h>Phase shift</h></idx> or <term>horizontal translation</term><idx><h>Horizontal translation</h></idx> or sometimes horizontal shift. 
-However, the term ``horizontal translation'' applies to any graphs translated horizontally, while the term ``phase shift'' is used only for sinusoidal graphs.
+Consider the functions
+<md>
+  f\left(x\right)=a\sin\left(kx-d\right)+c
+</md>
+<md>
+  f\left(x\right)=a\cos\left(kx-d\right)+c
+</md>
 </p>
+<p>
+<ul>
+  <li>
+    <p>
+      If <m>a\not= 0</m>, the graphs are streched or compressed (compared to the graphs of <m>
+  f\left(x\right)=\sin x
+</m> and <m>
+  f\left(x\right)=\cos x
+</m>) so that their amplitude is given by <m>|a|</m> (the absolute value of <m>|a|</m>). 
+ If <m>a</m> is negative then the curve has been reflected in the <m>x</m>-axis as well as stretched or compressed.
+    </p>
+  </li>
+  <li>
+    <p>
+      The graphs are shifted up <m>c</m> units if <m>c</m> is positive, and down <m>c</m> units if <m>c</m> is negative.
+    </p>
+  </li>
+  <li>
+    <p>
+      Compared to <m>y=\sin x</m>, the graph of <m>y=a\sin\left(kx-d\right)+c</m> is stretched if <m>k</m> is less than 1, and compressed if <m>k</m> is more than 1. 
+In either case if <m>k\not= 0</m>, the period is <m>\frac{2\pi}{k}</m>. Similarly for cosine. 
+    </p>
+  </li>
+  <li>
+    <p>
+      The period of <m>y=\tan x</m> is <m>\pi</m> so the period of <m>y=a\tan\left(kx-d\right)+c</m> is <m>\frac{\pi}{k}</m>. 
+    </p>
+  </li>
+  <li>
+    <p>
+      To see the effect of <m>d</m>, it is easiest to first factor <m>k</m>:
+    </p>
+    <p>
+<me>
+  y=a\sin\left(kx-d\right)+c = a\sin\left(k\left(x-\frac{d}{k}\right)\right)+c.
+</me>
+     </p> 
+    <p>
+Compared to <m>y=\sin x</m>, the graph of <m>y=a\sin\left(k\left(x-\frac{d}{k}\right)\right)+c</m> is shifted <m>\frac{d}{k}</m> units left if <m>\frac{d}{k} > 0</m> 
+and right if <m>\frac{d}{k}</m> is less than 0. 
+Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"/>). 
+    </p>
+  </li>
+</ul>
+</p>
+</assemblage>
+
 
      <example xml:id="graph3"><title>Amplitude, period, phase shift</title>
     <statement>
@@ -743,11 +827,11 @@ However, the term ``horizontal translation'' applies to any graphs translated ho
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" />
  </exercise>
 
-  <exercise><title>Periodic? - FROM WEBWORK</title>
+  <exercise><title>Determine if the graph is periodic - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
  </exercise>
 
-  <exercise><title>Periodic? - FROM WEBWORK</title>
+  <exercise><title>Determine if the graph is periodic - FROM WEBWORK</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
  </exercise>
  

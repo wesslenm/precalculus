@@ -119,7 +119,6 @@
         navbar="default"
     /> -->
 
-  <!-- <toc level="2" expand="all"/> -->
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
@@ -144,12 +143,28 @@
     <!-- <analytics google-gst="UA-0123456-1" statcounter-project="0123456"
     statcounter-security="0123456"/> -->
 
-  <navigation>
+
+    <!-- Things I tried Mat 2026 to get the TOC to expand: -->
+
+       <!-- <toc level="2" expand="all"/> -->
+
+  <!-- <navigation>
     <expand-toc>true</expand-toc>
   </navigation>
 
-<javascript source="assets/js/expand-toc.js"/>
+<javascript source="assets/js/expand-toc.js"/> -->
 
+<tableofcontents
+      preexpanded-levels="2"
+    />
+
+<!-- <feedback
+      href="https://forms.office.com/r/TXDWWNwXcw"
+    /> -->
+
+<feedback href="https://forms.office.com/r/TXDWWNwXcw">
+  Give FEEDBACK on this resource
+</feedback>
 
 </html>
 
