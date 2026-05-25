@@ -147,6 +147,10 @@
   <navigation>
     <expand-toc>true</expand-toc>
   </navigation>
+
+<javascript source="../assets/js/expand-toc.js"/>
+
+
 </html>
 
 
