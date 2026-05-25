@@ -718,14 +718,15 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
       $ans3 = Compute("1")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
-             
+      $popup1 = PopUp(['?','True','False'],1);       
     </pg-code>
 
     <statement>
       <p> (a) Sketch a few periods of the graph of <m>y=\sin x</m>. </p>
       <p> (b) Sketch a few periods of the graph of <m>y=3\cos x</m>. </p>
       <p> (c) Sketch a few periods of the graph of <m>y=\tan (x-\pi)</m>. </p>
-      <p> (d) It is true or false that <m>\tan (x-\pi) = \tan x</m>? <var name="$ans3" width="6"/> (Enter 1 for TRUE and 0 for FALSE.)  </p>                
+      <p> (d) It is true or false that <m>\tan (x-\pi) = \tan x</m>?<var name="$popup1" form="popup"/>
+      <!-- <p> (d) It is true or false that <m>\tan (x-\pi) = \tan x</m>? <var name="$ans3" width="6"/> (Enter 1 for TRUE and 0 for FALSE.)  </p>                 -->
       <p> (e) What is the period of <m>y=<var name="$a"/> \sin (<var name="$b"/> x-<var name="$c"/>)</m>? <var name="$ans1" width="6"/></p>
       <p> (f) What is <m> \tan 0</m>? <var name="$ans2" width="6"/></p>
       <p> (g) What is <m> \cos 0</m>? <var name="$ans3" width="6"/></p>
