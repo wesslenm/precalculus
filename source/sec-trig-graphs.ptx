@@ -113,7 +113,7 @@ Below is an example of a graph of a sinusoidal function.
   <subsection xml:id="triggraphs"><title>The Six Trigonometric Graphs</title>
   <p> The graphs of the trigonometric functions are given below. </p>
   
- <figure>
+ <figure xml:id="singraph">
   <caption>Graph of <m>y=\sin \theta</m></caption>
   <title>Graph of <m>y=\sin \theta</m></title>
   <image source="images/trig1sin" width="70%">
@@ -336,11 +336,11 @@ Graphs also illustrate symmetries. For example, <m>y=\sin \theta</m> and <m>y=\t
 </p>
 <p>
 Recall that a function <m>f(x)</m> is an <term>odd function</term><idx><h>Odd function</h></idx> if <m>f(-x)=-f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
-Visually, this means that the graph has 180 degree symmetry about the origin.
+Visually, this means that the graph has 180 degree symmetry about the origin. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)
 </p>
 <p>
  Also, <m>f(x)</m> is an <term>even function</term><idx><h>Even function</h></idx> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
- This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. 
+ This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)
  </p>
 <p>
  Note that the reflective symmetry must be specifically about the <m>y</m>-axis, for the function to be called an even function. 
@@ -394,10 +394,10 @@ Visually, this means that the graph has 180 degree symmetry about the origin.
     </answer>
     <solution>
        <p>
-        (a) This is true. Looking at the graph we see that it is symmetric about the origin. 
+        (a) This is true. Looking at the graph of <m>y=\tan x</m> (see <xref ref="singraph"/>) we see that it is symmetric about the origin. 
       </p>
       <p>
-        (b) This is false. Looking at the graph we see that it is symmetric about the <m>y</m>-axis, so <m>y=\sec x</m> is an even function, not odd. 
+        (b) This is false. Looking at the graph <m>y=\sec x</m> we see that it is symmetric about the <m>y</m>-axis, so <m>y=\sec x</m> is an even function, not odd. 
       </p>      
       <p>
         (c) This is true. This is a property of odd functions and <m>y=\sin x </m> is an odd function. 

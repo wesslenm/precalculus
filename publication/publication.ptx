@@ -119,7 +119,7 @@
         navbar="default"
     /> -->
 
-  <toc level="2" expand="all"/>
+  <!-- <toc level="2" expand="all"/> -->
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
@@ -144,6 +144,13 @@
     <!-- <analytics google-gst="UA-0123456-1" statcounter-project="0123456"
     statcounter-security="0123456"/> -->
   </html>
+
+<html>
+  <navigation>
+    <expand-toc>true</expand-toc>
+  </navigation>
+</html>
+
 
   <!-- To use WeBWorK, you need a server.  -->
   <!-- <webwork server="https://webwork-ptx.aimath.org"> -->
