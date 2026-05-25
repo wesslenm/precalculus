@@ -123,7 +123,7 @@ Below is an example of a graph of a sinusoidal function.
   </image>
 </figure>
 
-<figure>
+<figure xml:id="cosgraph">
   <caption>Graph of <m>y=\cos \theta</m></caption>
   <title>Graph of <m>y=\cos \theta</m></title>
   <image source="images/trig1cos" width="70%">
@@ -133,7 +133,7 @@ Below is an example of a graph of a sinusoidal function.
   </image>
 </figure>
 
-<figure>
+<figure xml:id="tangraph">
   <caption>Graph of <m>y=\tan \theta</m></caption>
   <title>Graph of <m>y=\tan \theta</m></title>
   <image source="images/trig2tan" width="70%">
@@ -143,7 +143,7 @@ Below is an example of a graph of a sinusoidal function.
   </image>
 </figure>
 
-<figure>
+<figure xml:id="cotgraph">
   <caption>Graph of <m>y=\cot \theta</m></caption>
   <title>Graph of <m>y=\cot \theta</m></title>
   <image source="images/trig2cot" width="70%">
@@ -153,7 +153,7 @@ Below is an example of a graph of a sinusoidal function.
   </image>
 </figure>
 
-<figure>
+<figure xml:id="secgraph">
   <caption>Graph of <m>y=\sec \theta</m></caption>
   <title>Graph of <m>y=\sec \theta</m></title>
   <image source="images/trig2sec" width="70%">
@@ -163,7 +163,7 @@ Below is an example of a graph of a sinusoidal function.
   </image>
 </figure>
 
-<figure>
+<figure xml:id="cscgraph">
   <caption>Graph of <m>y=\csc \theta</m></caption>
   <title>Graph of <m>y=\csc \theta</m></title>
   <image source="images/trig2csc" width="70%">
@@ -315,22 +315,6 @@ Below is an example of a graph of a sinusoidal function.
 
 
 
-
-
-
-
- 
-CONTINUE HERE ***********************************************************
-
-https://www.desmos.com/calculator/9plu0ysrlp
-
-
-
-
-
-
-
-
 <p> 
 Graphs also illustrate symmetries. For example, <m>y=\sin \theta</m> and <m>y=\tan \theta</m> are odd functions, while <m>y=\cos \theta</m> is an even function.
 </p>
@@ -347,7 +331,7 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
  Similarly an odd function must have rotational symmetry about the origin, not some other point. 
 </p>
 
-     <example xml:id="graph2"><title>Symmetries - UPDATED PLEASE REVIEW</title>
+<example xml:id="graph2"><title>Symmetries - UPDATED PLEASE REVIEW</title>
     <statement>
       <p>
       Which of the following statements are true, and which are false? 
@@ -394,17 +378,17 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
     </answer>
     <solution>
        <p>
-        (a) This is true. Looking at the graph of <m>y=\tan x</m> (see <xref ref="singraph"/>) we see that it is symmetric about the origin. 
+        (a) This is true. Looking at the graph of <m>y=\tan x</m> (see <xref ref="tangraph"/>) we see that it is symmetric about the origin. 
       </p>
       <p>
-        (b) This is false. Looking at the graph <m>y=\sec x</m> we see that it is symmetric about the <m>y</m>-axis, so <m>y=\sec x</m> is an even function, not odd. 
+        (b) This is false. Looking at the graph <m>y=\sec x</m> (see <xref ref="secgraph"/>) we see that it is symmetric about the <m>y</m>-axis, so <m>y=\sec x</m> is an even function, not odd. 
       </p>      
       <p>
-        (c) This is true. This is a property of odd functions and <m>y=\sin x </m> is an odd function. 
+        (c) This is true. This is a property of odd functions and <m>y=\sin x </m> is an odd function. (See <xref ref="singraph"/>)
       </p> 
       <p>
         (c) This is false. 
-        We know that <m>y=\cos x</m> is an even function, but <m>y=\cos (x-1)</m> is shifted 1 unit to the right, so the symmetry is no longer about the <m>y</m>-axis.  
+        We know that <m>y=\cos x</m> is an even function (see <xref ref="cosgraph"/>), but <m>y=\cos (x-1)</m> is shifted 1 unit to the right, so the symmetry is no longer about the <m>y</m>-axis.  
          The function <m>y=\cos (x-1)</m> is not even and not odd.
       </p>    
     </solution>
@@ -459,11 +443,24 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
 
   <subsection><title>Transformations of graphs</title>
   <p> 
-    Transformations of graphs in general may be reviewed in another section. Here we discuss some transformations specifically in terms of trigonometric functions. 
+    Transformations of graphs in general may be reviewed in another section, or you may recall shifts, reflections and stretches/compressions from your prior studies. 
+    Here we discuss some transformations specifically in terms of trigonometric functions. 
   </p>
 
 
-<url href="https://www.desmos.com/calculator/9plu0ysrlp" />
+
+
+
+
+
+
+
+ 
+CONTINUE HERE ***********************************************************
+
+https://www.desmos.com/calculator/9plu0ysrlp
+
+
 
 
     <example xml:id="trans1">
@@ -501,7 +498,13 @@ Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>:
     </solution>
   </example>
 
+<exercise><title>Investigating changes in graphs - HOMEMADE</title>
+<p>
+  
+</p>
 
+  <url href="https://www.desmos.com/calculator/9plu0ysrlp" />
+</exercise>
 
 
 

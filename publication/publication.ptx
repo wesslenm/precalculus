@@ -143,9 +143,7 @@
     <!-- StatCounter requires both values to be set            -->
     <!-- <analytics google-gst="UA-0123456-1" statcounter-project="0123456"
     statcounter-security="0123456"/> -->
-  </html>
 
-<html>
   <navigation>
     <expand-toc>true</expand-toc>
   </navigation>
