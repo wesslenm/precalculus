@@ -68,8 +68,13 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
   </introduction>
 
   <subsection><title>Arcsine - the inverse sine function</title>
-  <p>Let's start with a reminder regarding inverse function in general:  </p>
-      <p>A function <m>y=f(x)</m> has an inverse if and only if <m>y=f(x)</m> is one-to-one. An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes the horizontal line test (meaning, no horizontal line crosses the curve more than once). </p>
+  <p>
+    Let's start with a reminder regarding inverse functions in general:  
+  </p>
+      <p>
+        A function <m>y=f(x)</m> has an inverse if and only if <m>y=f(x)</m> is one-to-one. 
+        An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes the horizontal line test (meaning, no horizontal line crosses the curve more than once). 
+      </p>
         
     <figure xml:id="fig3-sin">
   <caption>Graph of <m>y=\sin \theta</m>.</caption>
