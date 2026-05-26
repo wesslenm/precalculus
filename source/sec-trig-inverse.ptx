@@ -28,10 +28,9 @@
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      Inverse trigonometric functions (and evaluating them) is present in all areas of calculus, such as derivatives, integrals, limits, Taylor series expansion etc. Here are a few examples in calculus and beyond:
+      Inverse trigonometric functions (and evaluating them) is present in all areas of calculus, such as derivatives, integrals, limits, Taylor series expansions etc. Here are a few examples in calculus and beyond:
     </p>
     <p>
     <ul>
@@ -63,7 +62,8 @@
 
   <introduction>
     <p>    
-In this section we study inverse trigonometric functions. Inverse trigonometric are useful in solving problems involving trigonometric functions, and they are also useful as an additional set of functions (and graphs) which can be used to model and analyze various phenomena.   
+In this section we study inverse trigonometric functions. 
+Inverse trigonometric functions are useful in solving problems involving trigonometric functions, and they are also useful as an additional set of functions (and graphs) which can be used to model and analyze various phenomena.   
     </p>  
   </introduction>
 
@@ -72,8 +72,9 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
     Let's start with a reminder regarding inverse functions in general:  
   </p>
       <p>
-        A function <m>y=f(x)</m> has an inverse if and only if <m>y=f(x)</m> is one-to-one. 
-        An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes the horizontal line test (meaning, no horizontal line crosses the curve more than once). 
+        A function <m>y=f(x)</m> has an <term>inverse</term><idx><h>Inverse function</h></idx> if and only if <m>y=f(x)</m> is one-to-one. 
+        An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes 
+        the <term>horizontal line test</term><idx><h>Horizontal line test</h></idx> (meaning, no horizontal line crosses the curve more than once). 
       </p>
         
     <figure xml:id="fig3-sin">
@@ -91,7 +92,9 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
       </p>
    
         <p>
-          However, this difficulty can be solved by restricting the domain. If we restrict the domain of <m>y=\sin x</m> to the interval <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>, then the restricted function is one-to-one. We call the inverse of the restricted sine function, <term>the inverse sine function</term> <m>y=\arcsin x</m>.  
+          However, this difficulty can be solved by restricting the domain. 
+          If we restrict the domain of <m>y=\sin x</m> to the interval <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>, then the restricted function is one-to-one. 
+          We call the inverse of the restricted sine function, the inverse sine function, denoted <m>y=\arcsin x</m>.  
         </p>
   
       <aside>
@@ -106,9 +109,9 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
 
   <assemblage><title>The Inverse Sine Function</title>
     <p>
-      The inverse sine function, also called <term>arcsine</term> is defined as follows:
+      The <term>inverse sine function</term><idx><h>Inverse sine function</h></idx>, also called <term>arcsine</term><idx><h><m>\arcsin x</m></h></idx> is defined as follows:
       <men xml:id="arcsin">
-        y = \arcsin x \mbox{ means} \sin y = x
+        y = \arcsin x \hspace{5mm} \mbox{ means} \hspace{5mm} \sin y = x
       </men>
       where <m>-1 \leq x \leq 1</m> and <m>-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}</m>.
     </p>
@@ -134,17 +137,17 @@ In this section we study inverse trigonometric functions. Inverse trigonometric 
       </li> 
        <li>
         <p>
-          <m>\arcsin (\sin x) = x </m> for  <m>-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>.
+          <m>\arcsin (\sin x) = x </m> for all <m>x</m> where <m>-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>.
         </p>
       </li>       
        <li>
         <p>
-          <m>\sin (\arcsin x) = x </m> for  <m>-1 \leq x \leq 1</m>.
+          <m>\sin (\arcsin x) = x </m> for all <m>x</m> where <m>-1 \leq x \leq 1</m>.
         </p>
       </li> 
        <li>
         <p>
-          <m>y = \arcsin x </m> is an odd function (symmetric about the origin), and <m>y = \sin x </m> is also an odd function.
+          <m>y = \arcsin x </m> is an odd function (symmetric about the origin), and recall that <m>y = \sin x </m> is also an odd function.
         </p>
       </li>    
     </ul>
@@ -296,6 +299,14 @@ We see that <m>\sin \left(-\frac{\pi}{6} \right) = - \frac{1}{2} </m>. Also <m>-
     </solution>
   </example>
 
+    <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Watch out for the common error described in <xref ref="inverse4"/>.  </p>
+  </aside>
+
 <example xml:id="inverse4"><title>Inverse properties</title>
     <statement>
       <p>
@@ -309,10 +320,16 @@ We see that <m>\sin \left(-\frac{\pi}{6} \right) = - \frac{1}{2} </m>. Also <m>-
       </answer>
     <solution>
       <p>
-The following is a COMMON ERROR: <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can not use <m>\arcsin \left(\sin \left(x\right)\right)=x </m> with <m>x=\pi</m>, because <m>\pi</m> is not in the required interval (we need <m>-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>).
+<alert>The following outlines a COMMON ERROR:</alert>  
       </p>
       <p>
-CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>, we first see that <m>\sin \left(\pi\right) = 0</m>. So we ned to evaluate <m>\arcsin \left(0\right) </m>. Similar to the solutions in <xref ref="inverse1" /> and <xref ref="inverse2" />, this means we need to look for a <m>\theta</m> in the interval <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m> such that <m>\sin \theta = 0</m>. We easily see that this means <m>\theta =0</m>. 
+Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can not use <m>\arcsin \left(\sin \left(x\right)\right)=x </m> with <m>x=\pi</m>, because <m>\pi</m> is not in the required interval (we need <m>-\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>).
+      </p>
+      <p>
+<alert>CORRECT SOLUTION:</alert> 
+      </p>
+      <p>
+        To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>, we first see that <m>\sin \left(\pi\right) = 0</m>. So we ned to evaluate <m>\arcsin \left(0\right) </m>. Similar to the solutions in <xref ref="inverse1" /> and <xref ref="inverse2" />, this means we need to look for a <m>\theta</m> in the interval <m>-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}</m> such that <m>\sin \theta = 0</m>. We easily see that this means <m>\theta =0</m>. 
 
 
         <me>\boxed{\arcsin \left(\sin \left(\pi\right)\right) = 0}</me>
@@ -395,13 +412,9 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
 
   </webwork>
 </exercise>
+</subsection>
 
-
-
-  </subsection>
-
-<subsection>
-    <title>Arccos - the inverse cosine function</title>
+<subsection><title>Arccos - the inverse cosine function</title>
        <p>
         Looking at the graph of <m>y=\cos x</m> in <xref ref="fig3-cos"/>, we see that it also does NOT pass the horizontal line test, so therefore <m>y=\cos x</m> is not invertible. 
       </p>
@@ -417,15 +430,64 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
 </figure>
 
    <p>
-    If we restrict the domain of <m>y=\cos x</m> in exactly the same way as <m>y=\sin x</m> (namely restrict the domain to <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>), then it is still not oe-to-one. However, we can choose a different interval. The interval we will restrict <m>y=\cos x</m> to, to make it one-to-one is <m>\left[0, \pi\right]</m>. Then the restricted function is one-to-one. We call the inverse of the restricted cosine function, <term>the inverse cosine function</term> <m>y=\arccos x</m>.  
+    If we restrict the domain of <m>y=\cos x</m> in exactly the same way as <m>y=\sin x</m> (namely restrict the domain to <m>\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]</m>), then it is still not one-to-one. 
+    However, we can choose a different interval. 
+    The interval we will restrict <m>y=\cos x</m> to, to make it one-to-one is <m>\left[0, \pi\right]</m>. 
+    Then the restricted function is one-to-one. 
+    We call the inverse of the restricted cosine function ``the inverse cosine function''', and write it as <m>y=\arccos x</m>.  
   </p>
+
+   <p>
+<latex-image>
+  \begin{tikzpicture}
+    \begin{axis}[
+            width=1.2\textwidth,
+            axis lines = middle, axis equal image,
+            xlabel = {$x$},
+            ylabel = {$y$},
+            xmin=0, xmax=4,
+            ymin=-0.8, ymax=2.5,
+            xtick={0,pi/2,pi},
+            xticklabels={$0$,$\frac{\pi}{2}$,$\pi$,$\frac{3\pi}{2}$,$2\pi$},
+            ytick={1,2},
+            grid = both,
+            minor tick num = 0,
+            domain = 1:4,
+            samples = 300,
+            smooth,
+            clip = false,
+        ]
+
+        %Plot the first curve
+        \addplot[ultra thick, domain=-0.06:4]{(2)};
+
+        %Plot the second curve
+        \addplot[ultra thick, domain=-0.1:3.5]{2*sin(deg(x))};
+
+        \addplot[ultra thick,] coordinates {(0,0) (0,{2})};
+      
+    %  \draw[dashed, ultra thick, black] (0,0) -- (0,2);
+      
+        \node at (axis cs:0.4,1.5) {$R$};
+        
+        \addplot[name path=f, domain=0:pi/2] {((2)};
+        \addplot[name path=g, domain=0:pi/2] {(2*sin(deg(x)))};
+ 
+        \addplot[blue!35, fill opacity=0.7] fill between[of=f and g];
+        \end{axis}
+  \end{tikzpicture}
+</latex-image>
+
+   [ADD THREE GRAPHS TO ILLUSTRATE THE ABOVE PARAGRAPH??]
+  </p>
+
   
       <aside>
     <p>
       <alert> Study tip: </alert>
     </p>
     <p> 
-      Again  
+      Again, remember that 
       <m>\cos^{-1} x \not= \frac{1}{\cos x}</m>. 
     </p>
   </aside>
@@ -433,7 +495,7 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
   <assemblage>
     <title>The Inverse Cosine Function</title>
     <p>
-      The inverse cosine function, also called <term>arccos</term>, is defined as follows:
+      The <term>inverse cosine function</term><idx><h>Inverse cosine function</h></idx>, also called <term>arccos</term><idx><h><m>\arccos x</m></h></idx>, is defined as follows:
       <men xml:id="arccos">
         y = \arccos x \mbox{ means} \cos y = x
       </men>
@@ -461,12 +523,12 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
       </li> 
        <li>
         <p>
-          <m>\arccos (\cos x) = x </m> for  <m>0 \leq x \leq \pi</m>.
+          <m>\arccos (\cos x) = x </m> for all <m>x</m> where <m>0 \leq x \leq \pi</m>.
         </p>
       </li>       
        <li>
         <p>
-          <m>\cos (\arccos x) = x </m> for  <m>-1 \leq x \leq 1</m>.
+          <m>\cos (\arccos x) = x </m> for all <m>x</m> where <m>-1 \leq x \leq 1</m>.
         </p>
       </li> 
        <li>
@@ -494,8 +556,7 @@ CORRECT SOLUTION: To evaluate <m>\arcsin \left(\sin \left(\pi\right)\right)</m>,
     </p>
   </aside>
   
-  <example xml:id="inverse5">
-    <title>Evaluating arccos</title>
+  <example xml:id="inverse5"><title>Evaluating <m>\arccos \left(-\frac{1}{\sqrt{2}}\right) </m></title>
     <statement>
       <p>
       Evaluate <m>\arccos \left(-\frac{1}{\sqrt{2}}\right) </m>.
@@ -538,7 +599,7 @@ Therefore <m>\theta = \frac{3\pi}{4}</m>.
     </solution>
   </example>
 
- <example xml:id="inverse6"><title>Evaluating arccos</title>
+ <example xml:id="inverse6"><title>Evaluating <m>\arccos 0 </m></title>
     <statement>
       <p>
       Evaluate <m>\arccos 0 </m>.
@@ -552,13 +613,14 @@ Therefore <m>\theta = \frac{3\pi}{4}</m>.
    <solution>
       <p>
         Start by writing write <m>\theta =\arccos 0 </m>. 
-        From the definition in <xref ref="arccos" />, this means <m>\cos \theta = 0</m> and <m>0 \leq \theta \leq \pi</m>. 
+        From the definition in <xref ref="arccos" />, this means <m>\cos \theta = 0</m> for some <m>\theta</m> where <m>0 \leq \theta \leq \pi</m>. 
       </p> 
        <p> 
-        Question to consider: Which value of <m>\theta</m> in the interval <m>0 \leq \theta \leq \pi</m> corresponds to a cosine value of <m>0</m>? The easiest way to answer that might be to look at the graph of <m>y=\cos x</m> (see <xref ref="triggraphs" />).
+        Question to consider: Which value of <m>\theta</m> in the interval <m>0 \leq \theta \leq \pi</m> corresponds to a cosine value of <m>0</m>? 
+        The easiest way to answer that might be to look at the graph of <m>y=\cos x</m> (see <xref ref="cosgraph" />).
   </p>
   <p>
-    From the graph of  we see that <m>\cos \left( \frac{\pi}{2}\right) = 0</m>, and <m>\frac{\pi}{2}</m> is in the interval <m>0 \leq \theta \leq \pi</m>. 
+    From the graph of <m>y=\cos x</m> we see that <m>\cos \left( \frac{\pi}{2}\right) = 0</m>, and <m>\frac{\pi}{2}</m> is in the interval <m>0 \leq \theta \leq \pi</m>. 
   </p> 
   <p>
 Therefore <m>\theta = \frac{\pi}{2}</m>. 
@@ -591,6 +653,14 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     </solution>
   </example>
 
+    <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Watch out for the common error described in <xref ref="inverse8"/>.  </p>
+  </aside>
+
 <example xml:id="inverse8"><title>Inverse properties</title>
     <statement>
       <p>
@@ -604,10 +674,17 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </answer>
     <solution>
       <p>
-         The following is a COMMON ERROR: <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. We can not use <m>\arccos \left(\cos \left(x\right)\right)=x </m> with <m>x=\frac{4\pi}{3}</m>, because <m>\frac{4\pi}{3}</m> is not in the required interval (we need <m>0 \leq x \leq \pi</m>).
+       <alert>The following illuatrates a COMMON ERROR:</alert>  
+            </p>
+      <p>   
+        Note that <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. 
+        We can not use <m>\arccos \left(\cos \left(x\right)\right)=x </m> with <m>x=\frac{4\pi}{3}</m>, because <m>\frac{4\pi}{3}</m> is not in the required interval (we need <m>0 \leq x \leq \pi</m>).
       </p>
       <p>
-         CORRECT SOLUTION: To evaluate <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right)</m>, one option is to draw <m>\frac{4\pi}{3}</m> on the unit cirle (in standard position) and find another angle in the interval <m>0 \leq x \leq \pi</m> with the same cosine value as <m>\cos \left(\frac{4\pi}{3}\right)</m>. 
+       <alert>CORRECT SOLUTION:</alert>  
+      </p>
+      <p>   
+         To evaluate <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right)</m>, one option is to draw <m>\frac{4\pi}{3}</m> on the unit cirle (in standard position) and find another angle in the interval <m>0 \leq x \leq \pi</m> with the same cosine value as <m>\cos \left(\frac{4\pi}{3}\right)</m>. 
          Looking at the unit circle, we see that <m>\cos \left(\frac{4\pi}{3}\right) = \cos \left(\frac{2\pi}{3}\right)</m>. (See the figure.) This is because by definition, we know that <m>\cos \theta = \frac{x}{r}</m>, and both <m>x</m> and <m>r</m> are the same for the two angles. 
       </p>
 
@@ -629,9 +706,6 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </p>
     </solution>
   </example>
-
-  <p>
-</p>
 
 <exercise><title>Evaluating arccos - HOMEMADE</title>
   <webwork>
@@ -670,7 +744,6 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
 
   </webwork>
 </exercise>
-
 
 <exercise><title>Inverse properties - HOMEMADE</title>
   <webwork>
@@ -712,7 +785,9 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </subsection>
 
   <subsection><title>Arctan - the inverse tangent function</title>
-       <p>Just like <m>y=\sin x</m> and <m>y=\cos x</m> are not one-to-one, we see that the graph of <m>y=\tan x</m> also does NOT pass the horizontal line test, so therefore <m>y=\tan x</m> is also not invertible on its full domain. </p>
+       <p>
+        Just like <m>y=\sin x</m> and <m>y=\cos x</m> are not one-to-one, we see that the graph of <m>y=\tan x</m> also does NOT pass the horizontal line test, so therefore <m>y=\tan x</m> is also not invertible on its full domain. 
+      </p>
    
    <figure>
   <caption>Graph of <m>y=\tan \theta</m></caption>
@@ -724,7 +799,8 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </image>
 </figure>
 
-   <p>This time, if we restrict the domain to <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m> then <m>y=\tan x</m> is one-to-one on that domain. We call the inverse of the restricted tangent function, <term>the inverse tangent function</term> <m>y=\arctan x</m>.  </p>
+   <p>This time, if we restrict the domain to <m>\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)</m> then <m>y=\tan x</m> is one-to-one on that domain. 
+    We call the inverse of the restricted tangent function, <term>the inverse tangent function</term> <m>y=\arctan x</m>.  </p>
   
       <aside>
     <p>
@@ -738,7 +814,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
 
   <assemblage><title>The Inverse Tangent Function</title>
     <p>
-      The inverse tangent function, also called <term>arctan</term>, is defined as follows:
+      The <term>inverse tangent function</term><idx><h>Inverse tangent function</h></idx>, also called <term>arctan</term><idx><h><m>\arctan x</m></h></idx>, is defined as follows:
       <men xml:id="arctan">
         y = \arctan x \mbox{ means} \tan y = x
       </men>
@@ -766,7 +842,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </li> 
        <li>
         <p>
-          <m>\arctan (\tan x) = x </m> for <m>\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>.
+          <m>\arctan (\tan x) = x </m> for all <m>x</m> where <m>\frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m>.
         </p>
       </li>       
        <li>
@@ -864,9 +940,14 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
 
 
 <subsection><title>The remaining three inverse trigonometric functions</title>
-  <p> Similarly to <m>y=\sin x, y=\cos x</m> and <m>y=\tan x</m>, we can see by looking at their graphs that none of <m>y=\csc x, y=\sec x</m> and <m>y=\cot x</m> are invertible either. Again we need to restrict their domains to create invertible functions. The definitions are similar to what we have seen in the previous sectiobs. Let's summarize the results here.    </p>
+  <idx><h><m>Inverse trigonometric functions</m></h></idx>
+  <p> Similarly to <m>y=\sin x, y=\cos x</m> and <m>y=\tan x</m>, 
+    we can see by looking at their graphs that none of <m>y=\csc x, y=\sec x</m> and <m>y=\cot x</m> are invertible either. 
+    Again we need to restrict their domains to create invertible functions. 
+    The definitions are similar to what we have seen in the previous sections. 
+    Let's summarize the results here.    </p>
   
-  <assemblage><title>Summary of all 6 inverse trigonometric functions</title>
+  <assemblage><title>Summary of all six inverse trigonometric functions</title>
    <p>
     <ul>
       <li>
@@ -904,7 +985,7 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
       </li>
       <li>
         <p>
-          Inverse function: <m>y= \mbox{arccot } x = \cot^{-1} x</m>
+          Inverse function: <m>y= \mbox{arccot } x = \cot^{-1} x</m><idx><h>arccot <m>x</m></h></idx>
         </p>
        <p>
           Domain: <m>(-\infty,\infty)</m>
@@ -915,7 +996,7 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
       </li>
       <li>
         <p>
-          Inverse function: <m>y= \mbox{arcsec } x = \sec^{-1} x</m>
+          Inverse function: <m>y= \mbox{arcsec } x = \sec^{-1} x</m><idx><h>arcsec <m>x</m></h></idx>
         </p>
        <p>
           Domain: <m>(-\infty,-1] \cup [1,\infty)</m>
@@ -926,7 +1007,7 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
       </li>
       <li>
         <p>
-          Inverse function: <m>y= \mbox{arccsc } x = \csc^{-1} x</m>
+          Inverse function: <m>y= \mbox{arccsc } x = \csc^{-1} x</m><idx><h>arccsc <m>x</m></h></idx>
         </p>
        <p>
           Domain: <m>(-\infty,-1] \cup [1,\infty)</m>
@@ -1020,8 +1101,7 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
   </webwork>
 </exercise>   
   
-<assemblage>
-    <title>Common errors</title>
+<assemblage><title>Common errors</title>
    <p>
 Be careful to not make the following errors. It is true that <m>\cot x = \dfrac{1}{\tan x}</m> but note that: 
 
@@ -1040,6 +1120,15 @@ The box below shows the corresponding correct identities <xref ref="inv1" />, <x
   </p>
 </assemblage>
 
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Most mathematicians do not memorize these identities, but may look them up if needed.
+    </p>
+  </aside>
+
 <assemblage><title>Inverse identities</title>
    <p>
 The following identities hold. 
@@ -1057,16 +1146,6 @@ The following identities hold.
   </men> 
     </p> 
 </assemblage>
-
-  <aside>
-    <p>
-      <alert> Study tip: </alert>
-    </p>
-    <p>  
-      Most mathematicians do not memorize these identities, but may look them up if needed.
-    </p>
-  </aside>
-
   </subsection>
 
   <subsection><title>Additional Examples</title>
@@ -1078,8 +1157,7 @@ The following identities hold.
         <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
       </p>
 
- <example xml:id="inverse11">
-    <title>Evaluating arccos</title>
+ <example xml:id="inverse11"><title>Evaluating arccos</title>
     <statement>
       <p>
       Evaluate <m>\arccos \left(-\frac{\sqrt{3}}{2}\right) </m>.
@@ -1122,8 +1200,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </solution>
   </example>
 
-<example xml:id="inverse12">
-    <title>Correct or incorrect?</title>
+<example xml:id="inverse12"><title>Correct or incorrect?</title>
     <statement>
       <p>
       Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes. 
@@ -1147,8 +1224,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </solution>
   </example>
 
-<example xml:id="inverse13">
-    <title>Correct or incorrect?</title>
+<example xml:id="inverse13"><title>Correct or incorrect?</title>
     <statement>
       <p>
       Have a look at the following reasoning. Is this correct or incorrect? If it is incorrect, find all mistakes. 
@@ -1176,19 +1252,44 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
  The `solution' is incorrect. The first line is incorrect, because 
   <me>\mbox{arccot} \left(-\sqrt{3} \right) \not= \frac{1}{\arctan \left(-\sqrt{3} \right)}</me> 
   Instead, solve the problrm similarly to <xref ref="inverse10" />. The correct final answer is 
-   <me>\mbox{arccot} \left(-\sqrt{3} \right) = \frac{5\pi}{6}}</me> 
+   <me>\mbox{arccot} \left(-\sqrt{3} \right) = \frac{5\pi}{6}</me> 
   </p>
     </solution>
   </example>
 
   </subsection>
 
-  <exercises><title>Exercises</title>
- 
+<exercises><title>Recommended Exercises</title>
+    <p>
+      For students who want a focused review of the topic, we recommend working on these exercises. 
+      If you find that you want even more practice, there are additional exercises below. 
+      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="triginv-additional"/>) and then come back to the Recommended Exercises.
+    </p>
+
 <exercise><title>Domain and range - FROM WEBWORK</title>
          <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" />
 </exercise>
-      
+
+<exercise><title>Evaluate <m> \arccos \theta </m> - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("pi/3")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\arccos \left(\frac{1}{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\arccos \left(\frac{1}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
 <exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
         <webwork>
     <pg-code>
@@ -1208,7 +1309,155 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </statement>
   </webwork>
  </exercise>
+
+<exercise><title>Evaluate <m> \arcsin (-1) </m> - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("-pi/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\arcsin \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\arcsin \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+ </exercise>
+
+<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("pi/6")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+ </exercise>
+    
+<exercise><title>Evaluate arcsec <m>\theta </m> - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("pi")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\mbox{arcsec} \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\mbox{arsec} \left(-1\right)=</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+ </exercise>
       
+<exercise><title>Evaluate arccsc <m>\theta </m> - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("-pi/4")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\mbox{arccsc} \left(-\sqrt{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\mbox{arccsc} \left(-\sqrt{2} \right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+ </exercise>
+      
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("5*pi/12")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+ </exercise>
+      
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("pi/3")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
+      <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+ </exercise>
+     
+<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+   <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = Compute(random(2, 12, 1));
+      $b = Compute($a-1);
+      $ans = Compute("-sqrt(2)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+    Context()->functions->disable('trig');
+    </pg-code>
+
+    <statement>
+      <p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+      <p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+ </exercise>
+
+  </exercises>
+
+ <exercises xml:id="triginv-additional"><title>Additional Exercises</title>
+  <p>
+For students who want even more problems to practice, here are some additional exercises. 
+  </p>
+   
 <exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
@@ -1230,26 +1479,6 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
  </exercise>
       
 <exercise><title>Evaluate <m> \arccos \theta </m> - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("pi/3")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\arccos \left(\frac{1}{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\arccos \left(\frac{1}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
-</exercise>
-      
-<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1289,27 +1518,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arcsin (-1) </m> - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("-pi/2")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\arcsin \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\arcsin \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate <m> \arcsin (0)) </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin (0) </m> - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1373,26 +1582,6 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
       $b = Compute($a-1);
-      $ans = Compute("pi/6")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
       $ans = Compute("-pi/3")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
@@ -1407,7 +1596,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arccot \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate  arccot <m>\theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1427,7 +1616,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arccot \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate arccot <m>\theta </m> - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1446,48 +1635,8 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </statement>
   </webwork>
  </exercise>
-      
-<exercise><title>Evaluate <m> \arcsec \theta </m> - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("pi")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\mbox{arcsec} \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\mbox{arsec} \left(-1\right)=</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate <m> \arccsc \theta </m> - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("-pi/4")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\mbox{arccsc} \left(-\sqrt{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\mbox{arccsc} \left(-\sqrt{2} \right) =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate <m> \arcsec \theta </m> - HOMEMADE</title>
+  
+<exercise><title>Evaluate arcsec <m>\theta </m> - HOMEMADE</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1513,26 +1662,6 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
       $b = Compute($a-1);
-      $ans = Compute("5*pi/12")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
       $ans = Compute("pi/6")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
@@ -1543,46 +1672,6 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     <statement>
       <p>Evaluate <m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("pi/3")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-  </webwork>
- </exercise>
-      
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("pi/3")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
-
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
-      <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
   </webwork>
  </exercise>
@@ -1643,27 +1732,6 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
 
   </webwork>
  </exercise>
-      
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
-   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = Compute(random(2, 12, 1));
-      $b = Compute($a-1);
-      $ans = Compute("-sqrt(2)")->with(
-               tolType => 'absolute',
-               tolerance => .000000000000000000001,   );
 
-    Context()->functions->disable('trig');
-    </pg-code>
-
-    <statement>
-      <p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
-      <p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-
-  </webwork>
- </exercise>
-      
   </exercises>
 </section>
