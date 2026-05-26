@@ -74,7 +74,10 @@
     <worksheets formatted="yes" />
   </latex>
 
-  <html>
+ <html 
+    favicon="simple">
+<!-- Favicon line added by MW  -->
+
     <platform host="web"/>
     <!-- The host above could also be "runestone" -->
 
@@ -129,6 +132,7 @@
     <calculator model="none" activecode="none" />
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
     <!-- <baseurl href="changetomywebsite.org"/> -->
+
     <!-- Control behavior of online WeBWorK, per type: -->
     <webwork
       inline="dynamic"
@@ -144,33 +148,43 @@
     statcounter-security="0123456"/> -->
 
 
-    <!-- Things I tried Mat 2026 to get the TOC to expand: -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- Below, added by MW (plus I also made more minor edits above) --> 
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-       <!-- <toc level="2" expand="all"/> -->
 
-  <!-- <navigation>
+
+    <!-- Things MW tried May 2026 to get the TOC to expand: -->
+    <!-- <toc level="2" expand="all"/> -->
+    <!-- <navigation>
     <expand-toc>true</expand-toc>
-  </navigation>
-
-<javascript source="assets/js/expand-toc.js"/> -->
-
+    </navigation>
+    <javascript source="assets/js/expand-toc.js"/> -->
+    <!-- Success: -->
 <tableofcontents
       preexpanded-levels="2"
     />
 
+
 <!-- <feedback
       href="https://forms.office.com/r/TXDWWNwXcw"
     /> -->
-
+<!-- MW note: The below gives the option of changing the name of the button -->
 <feedback href="https://forms.office.com/r/TXDWWNwXcw">
   Give FEEDBACK on this resource
 </feedback>
 
-
+<!-- MW note: Counts the number of visitors to the page. Reports are emailed to MW. -->
 <analytics 
           statcounter-project="13255761"
           statcounter-security"d374eb11"
 />
+
+
+
+
 
 </html>
 

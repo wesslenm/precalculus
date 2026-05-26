@@ -32,7 +32,9 @@
       <institution>University of Toronto Mississauga</institution>
       <email>maria.wesslen@utoronto.ca</email>
           
-          <p> Contributing Editors: Micheal Pawliuk, Ivan Khatchatourian and Mike Pitocco</p>
+          <p> 
+            Contributing Editors: Micheal Pawliuk, Ivan Khatchatourian and Mike Pitocco
+          </p>
     </author>
     <author>
       <personname>Contributing Editors: Micheal Pawliuk, Ivan Khatchatourian and Mike Pitocco</personname>
@@ -44,11 +46,13 @@
 
     <copyright>
       <holder>Maria Wesslen</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CreativeCommons.org</url>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+        To view a copy of this license, 
+        visit <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="https://creativecommons.org/licenses/by-nc-sa/4.0/"> CreativeCommons.org</url>
       </shortlicense>
       <minilicense>CC BY-NC-SA 4.0 License</minilicense>
-    </copyright>
-    <p> This book was authored in <pretext />. </p>
+      <p> This book was authored in <pretext />. </p>
+      </copyright>
   </bibinfo>
 
 
