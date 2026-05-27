@@ -37,7 +37,12 @@
   </exercise>
 
   <exercise>
-    <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions5.pg" />
+    <introduction>
+      <p>
+        I removed number 7 temporarily because the graph causes an error. The question gives a graph and asks which function expression correponds to that graph....
+      </p>
+    </introduction>
+    <!-- <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions5.pg" /> -->
   </exercise>
 
   <exercise>
