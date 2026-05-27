@@ -1,6 +1,6 @@
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:47Z       
+###       on 2026-05-26T19:22:19Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -30,6 +30,7 @@ loadMacros(
   "PGstandard.pl",
   "PGML.pl",
   "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
   "PGcourse.pl",
 );
 COMMENT('Authored in PreTeXt');
@@ -56,6 +57,7 @@ $ans2 = Compute("0")->with(
 $ans3 = Compute("1")->with(
          tolType => 'absolute',
          tolerance => .000000000000000000001,   );
+$popup1 = PopUp(['?','True','False'],1);
 
 ############################################################
 # Body
@@ -68,7 +70,7 @@ BEGIN_PGML
 
 (c) Sketch a few periods of the graph of [`y=\tan (x-\pi)\text{.}`]
 
-(d) It is true or false that [`\tan (x-\pi) = \tan x\text{?}`] [_]{$ans3}{6} (Enter 1 for TRUE and 0 for FALSE.)
+(d) It is true or false that [`\tan (x-\pi) = \tan x\text{?}`][_]{$popup1}{5}
 
 (e) What is the period of [`y=[$a] \sin ([$b] x-[$c])\text{?}`] [_]{$ans1}{6}
 

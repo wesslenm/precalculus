@@ -774,7 +774,7 @@ There may be more than one correct answer.</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -908,7 +908,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1006,7 +1006,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1108,7 +1108,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1209,7 +1209,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1325,7 +1325,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1473,7 +1473,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1623,7 +1623,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1797,7 +1797,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1958,7 +1958,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2168,7 +2168,7 @@ Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters=
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2284,7 +2284,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3799,6 +3799,9 @@ which is the result we want.
       <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
 <p>Which function has the largest value for <m>a</m>? <var form="popup">
 <li>
+<p>?</p>
+</li>
+<li>
 <p>C</p>
 </li>
 <li>
@@ -3809,9 +3812,6 @@ which is the result we want.
 </li>
 <li>
 <p>D</p>
-</li>
-<li>
-<p>?</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-101-image-1.png" width="66%"/>
@@ -3836,7 +3836,7 @@ Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-inte
 <p>Which function has the largest value for <m>b</m>?
 <var form="popup">
 <li>
-<p>D</p>
+<p>?</p>
 </li>
 <li>
 <p>C</p>
@@ -3848,7 +3848,7 @@ Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-inte
 <p>B</p>
 </li>
 <li>
-<p>?</p>
+<p>D</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-102-image-1.png" width="66%"/>
@@ -3881,19 +3881,19 @@ The function with the largest <m>b</m> should be the one that is increasing the 
 <p>AC</p>
 </li>
 <li>
-<p>CD</p>
+<p>AD</p>
 </li>
 <li>
-<p>AD</p>
+<p>CD</p>
 </li>
 <li>
 <p>BC</p>
 </li>
 <li>
-<p>AB</p>
+<p>BD</p>
 </li>
 <li>
-<p>BD</p>
+<p>AB</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-103-image-1.png" width="66%"/>
@@ -4455,7 +4455,7 @@ correct to four decimal places.</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4740,7 +4740,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4876,7 +4876,7 @@ Plug into the definition:</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4987,11 +4987,11 @@ ENDDOCUMENT();
         <p>none</p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_18-Properties_from_graphs__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_18-Properties_from_graphs__HOMEMADE__UPDATED.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5153,7 +5153,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5240,11 +5240,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_23-Determining_period__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_graphs/3_24-Determining_period__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5260,7 +5260,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.23)
+## Problem1(3.24)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5371,7 +5371,13 @@ Note:  Use a negative for a shift to the left.
       <statement><p>(a) Sketch a few periods of the graph of <m>y=\sin x\text{.}</m></p>
 <p>(b) Sketch a few periods of the graph of <m>y=3\cos x\text{.}</m></p>
 <p>(c) Sketch a few periods of the graph of <m>y=\tan (x-\pi)\text{.}</m></p>
-<p>(d) It is true or false that <m>\tan (x-\pi) = \tan x\text{?}</m> <fillin characters="6" name="AnSwEr0001"/> (Enter 1 for TRUE and 0 for FALSE.)</p>
+<p>(d) It is true or false that <m>\tan (x-\pi) = \tan x\text{?}</m><ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
 <p>(e) What is the period of <m>y=6 \sin (3 x-8)\text{?}</m> <fillin characters="6" name="AnSwEr0002"/></p>
 <p>(f) What is <m>\tan 0\text{?}</m> <fillin characters="6" name="AnSwEr0003"/></p>
 <p>(g) What is <m>\cos 0\text{?}</m> <fillin characters="6" name="AnSwEr0004"/></p>
@@ -5379,7 +5385,7 @@ Note:  Use a negative for a shift to the left.
 </statement>
       <answer>
         <p>
-          <m>1</m>
+          <m>\text{True}</m>
         </p>
       </answer>
       <answer>
@@ -5407,7 +5413,7 @@ Note:  Use a negative for a shift to the left.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5437,6 +5443,7 @@ loadMacros(
   "PGstandard.pl",
   "PGML.pl",
   "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
   "PGcourse.pl",
 );
 COMMENT('Authored in PreTeXt');
@@ -5463,6 +5470,7 @@ $ans2 = Compute("0")->with(
 $ans3 = Compute("1")->with(
          tolType => 'absolute',
          tolerance => .000000000000000000001,   );
+$popup1 = PopUp(['?','True','False'],1);
 
 ############################################################
 # Body
@@ -5475,7 +5483,7 @@ BEGIN_PGML
 
 (c) Sketch a few periods of the graph of [`y=\tan (x-\pi)\text{.}`]
 
-(d) It is true or false that [`\tan (x-\pi) = \tan x\text{?}`] [_]{$ans3}{6} (Enter 1 for TRUE and 0 for FALSE.)
+(d) It is true or false that [`\tan (x-\pi) = \tan x\text{?}`][_]{$popup1}{5}
 
 (e) What is the period of [`y=[$a] \sin ([$b] x-[$c])\text{?}`] [_]{$ans1}{6}
 
@@ -5527,7 +5535,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5644,7 +5652,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5888,15 +5896,6 @@ Thus, the horizontal shift is  <m>-\frac{24}{5}</m>.
 <p>Which graph below A-E matches your sketch?
 <var form="popup">
 <li>
-<p>C</p>
-</li>
-<li>
-<p>E</p>
-</li>
-<li>
-<p>A</p>
-</li>
-<li>
 <p>B</p>
 </li>
 <li>
@@ -5904,6 +5903,15 @@ Thus, the horizontal shift is  <m>-\frac{24}{5}</m>.
 </li>
 <li>
 <p>Choose</p>
+</li>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>E</p>
+</li>
+<li>
+<p>A</p>
 </li>
 </var></p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
@@ -6037,11 +6045,11 @@ This appears to be a periodic function.  It repeats regularly with period 3.
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_28-Evaluate_using_special_triangles_1__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_29-Evaluate_using_special_triangles_1__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6057,7 +6065,7 @@ This appears to be a periodic function.  It repeats regularly with period 3.
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.28)
+## Problem1(3.29)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6145,11 +6153,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_29-Evaluate_using_special_triangles_2__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_30-Evaluate_using_special_triangles_2__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6165,7 +6173,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.29)
+## Problem1(3.30)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6253,11 +6261,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_30-Evaluate_using_special_triangles_3__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_31-Evaluate_using_special_triangles_3__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6273,7 +6281,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.30)
+## Problem1(3.31)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6340,7 +6348,7 @@ ENDDOCUMENT();
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-146" ww-id="webwork-146">
     <static seed="146">
-      <statement><p>Use the work from Example<nbsp/>3.31 to evaluate the following. Answer in exact form (using square roots if needed).</p>
+      <statement><p>Use the work from Example<nbsp/>3.32 to evaluate the following. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sec \left(\frac{2\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\csc \left(\frac{2\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
 <p>(c) <m>\cot \left(\frac{2\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
@@ -6361,11 +6369,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_32-Continue_the_previous_example__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_33-Continue_the_previous_example__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6381,7 +6389,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.32)
+## Problem1(3.33)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6428,7 +6436,7 @@ $ans3 = Compute("-1/sqrt(3)")->with(
 ############################################################
 
 BEGIN_PGML
-Use the work from Example[$NBSP]*3.31 to evaluate the following. Answer in exact form (using square roots if needed).
+Use the work from Example[$NBSP]*3.32 to evaluate the following. Answer in exact form (using square roots if needed).
 
 (a) [` \sec \left(\frac{2\pi}{3}\right) =`]  [_]{$ans1}{10}.
 
@@ -6474,11 +6482,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_34-Evaluate_at_frac3pi4__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_35-Evaluate_at_frac3pi4__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6494,7 +6502,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.34)
+## Problem1(3.35)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6592,11 +6600,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_35-Evaluate_at_frac5pi6__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_36-Evaluate_at_frac5pi6__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6612,7 +6620,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.35)
+## Problem1(3.36)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6692,11 +6700,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_40-Evaluate_sin_leftfrac3pi2right__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_41-Evaluate_sin_leftfrac3pi2right__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6712,7 +6720,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.40)
+## Problem1(3.41)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6769,11 +6777,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_41-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_42-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6789,7 +6797,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.41)
+## Problem1(3.42)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6888,11 +6896,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_42-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NOW_SHOULD_ACCEPT_DNE_CHECK_VERY_CAREFULLY.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_43-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NOW_SHOULD_ACCEPT_DNE_CHECK_VERY_CAREFULLY.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6908,7 +6916,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.42)
+## Problem1(3.43)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -7044,7 +7052,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7145,7 +7153,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7241,7 +7249,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7331,7 +7339,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7455,7 +7463,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7535,7 +7543,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7615,7 +7623,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7695,7 +7703,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7829,7 +7837,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7905,11 +7913,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_48-Evaluating_arcsine__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_49-Evaluating_arcsine__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7925,7 +7933,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.48)
+## Problem1(3.49)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -7987,11 +7995,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_49-Evaluating_arcsine__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_50-Evaluating_arcsine__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8007,7 +8015,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.49)
+## Problem1(3.50)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8069,11 +8077,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_50-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_51-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8089,7 +8097,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.50)
+## Problem1(3.51)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8151,11 +8159,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_51-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_52-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8171,7 +8179,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.51)
+## Problem1(3.52)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8233,11 +8241,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_57-Evaluating_arccos__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_58-Evaluating_arccos__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8253,7 +8261,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.57)
+## Problem1(3.58)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8315,11 +8323,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_58-Evaluating_arccos__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_59-Evaluating_arccos__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8335,7 +8343,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.58)
+## Problem1(3.59)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8397,11 +8405,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_59-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_60-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8417,7 +8425,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.59)
+## Problem1(3.60)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8479,11 +8487,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_60-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_61-Inverse_properties__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8499,7 +8507,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.60)
+## Problem1(3.61)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8561,11 +8569,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_63-Evaluating_arctan__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_64-Evaluating_arctan__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8581,7 +8589,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.63)
+## Problem1(3.64)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8643,11 +8651,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_65-Evaluating_arcsec__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_66-Evaluating_arcsec__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8663,7 +8671,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.65)
+## Problem1(3.66)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8725,11 +8733,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_66-Evaluating_arccsc__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_67-Evaluating_arccsc__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8745,7 +8753,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.66)
+## Problem1(3.67)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -8872,20 +8880,20 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-177" ww-id="webwork-177">
     <static seed="177">
-      <statement><p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+      <statement><p>Evaluate <m>\arccos \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arccos \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>\frac{-\pi }{3}</m>
+          <m>\frac{\pi }{3}</m>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_2-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_2-Evaluate__arccos_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8902,174 +8910,6 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
 ## AuthorText1()
 ## Section1(not reported)
 ## Problem1(3.5.6.2)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("-pi/3")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arcsin \left(-\frac{\sqrt{3}}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arcsin \left(-\frac{\sqrt{3}}{2} \right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-178" ww-id="webwork-178">
-    <static seed="178">
-      <statement><p>Evaluate <m>\arcsin \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arcsin \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{6}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_3-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.3)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/6")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arcsin \left(\frac{1}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arcsin \left(\frac{1}{2} \right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-179" ww-id="webwork-179">
-    <static seed="179">
-      <statement><p>Evaluate <m>\arccos \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arccos \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{3}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_4-Evaluate__arccos_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.4)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -9122,22 +8962,22 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-180" ww-id="webwork-180">
-    <static seed="180">
-      <statement><p>Evaluate <m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-178" ww-id="webwork-178">
+    <static seed="178">
+      <statement><p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>\frac{5\pi }{6}</m>
+          <m>\frac{-\pi }{3}</m>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_5-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_3-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9153,7 +8993,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.5)
+## Problem1(3.5.6.3)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -9182,7 +9022,7 @@ TEXT(beginproblem());
   Context("Numeric");
   $a = Compute(random(2, 12, 1));
   $b = Compute($a-1);
-  $ans = Compute("5*pi/6")->with(
+  $ans = Compute("-pi/3")->with(
            tolType => 'absolute',
            tolerance => .000000000000000000001,   );
 
@@ -9193,93 +9033,9 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
-Evaluate [`\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
+Evaluate [`\arcsin \left(-\frac{\sqrt{3}}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
 
-[`\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-181" ww-id="webwork-181">
-    <static seed="181">
-      <statement><p>Evaluate <m>\arctan \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arctan \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{-\pi }{4}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_6-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.6)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("-pi/4")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arctan \left(-1 \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arctan \left(-1 \right)=`]  [_]{$ans}{6}.
+[`\arcsin \left(-\frac{\sqrt{3}}{2} \right)=`]  [_]{$ans}{6}.
 
 END_PGML
 
@@ -9290,8 +9046,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-182" ww-id="webwork-182">
-    <static seed="182">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-179" ww-id="webwork-179">
+    <static seed="179">
       <statement><p>Evaluate <m>\arcsin \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -9301,11 +9057,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_7-Evaluate__arcsin_1___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_4-Evaluate__arcsin_1___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9321,7 +9077,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.7)
+## Problem1(3.5.6.4)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -9374,258 +9130,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-183" ww-id="webwork-183">
-    <static seed="183">
-      <statement><p>Evaluate <m>\sin^{-1} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\sin^{-1} \left(0 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>0</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_8-Evaluate__arcsin_0___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.8)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute(0);
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\sin^{-1} \left(0 \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\sin^{-1} \left(0 \right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-184" ww-id="webwork-184">
-    <static seed="184">
-      <statement><p>Evaluate <m>\arccos \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arccos \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\pi </m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_9-Evaluate__arccos_1___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.9)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arccos \left(-1 \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arccos \left(-1 \right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-185" ww-id="webwork-185">
-    <static seed="185">
-      <statement><p>Evaluate <m>\arcsin \left(\frac{1}{\sqrt{2}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arcsin \left(\frac{1}{\sqrt{2}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{4}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_10-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.10)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/4")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arcsin \left(\frac{1}{\sqrt{2}} \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arcsin \left(\frac{1}{\sqrt{2}}\right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-186" ww-id="webwork-186">
-    <static seed="186">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-180" ww-id="webwork-180">
+    <static seed="180">
       <statement><p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -9635,11 +9141,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_11-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_5-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9655,7 +9161,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.11)
+## Problem1(3.5.6.5)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -9708,260 +9214,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-187" ww-id="webwork-187">
-    <static seed="187">
-      <statement><p>Evaluate <m>\tan^{-1} \left(-\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\tan^{-1} \left(-\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{-\pi }{3}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_12-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.12)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("-pi/3")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\tan^{-1} \left(-\sqrt{3} \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\tan^{-1} \left(-\sqrt{3}\right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-188" ww-id="webwork-188">
-    <static seed="188">
-      <statement><p>Evaluate <m>\mbox{arccot} \left(\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\mbox{arcot} \left(\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{6}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_13-Evaluate__arccot_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.13)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/6")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\mbox{arccot} \left(\sqrt{3} \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\mbox{arcot} \left(\sqrt{3}\right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-189" ww-id="webwork-189">
-    <static seed="189">
-      <statement><p>Evaluate <m>\mbox{arccot} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\mbox{arcot} \left(0\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{2}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_14-Evaluate__arccot_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.14)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/2")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\mbox{arccot} \left(0 \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\mbox{arcot} \left(0\right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-190" ww-id="webwork-190">
-    <static seed="190">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-181" ww-id="webwork-181">
+    <static seed="181">
       <statement><p>Evaluate <m>\mbox{arcsec} \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arsec} \left(-1\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -9971,11 +9225,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_15-Evaluate__arcsec_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_6-Evaluate_arcsec_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9991,7 +9245,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.15)
+## Problem1(3.5.6.6)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10044,8 +9298,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-191" ww-id="webwork-191">
-    <static seed="191">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-182" ww-id="webwork-182">
+    <static seed="182">
       <statement><p>Evaluate <m>\mbox{arccsc} \left(-\sqrt{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\mbox{arccsc} \left(-\sqrt{2} \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -10055,11 +9309,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_16-Evaluate__arccsc_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_7-Evaluate_arccsc_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10075,7 +9329,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.16)
+## Problem1(3.5.6.7)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10128,92 +9382,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-192" ww-id="webwork-192">
-    <static seed="192">
-      <statement><p>Evaluate <m>\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{6}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_17-Evaluate__arcsec_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.17)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/6")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-193" ww-id="webwork-193">
-    <static seed="193">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-183" ww-id="webwork-183">
+    <static seed="183">
       <statement><p>Evaluate <m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -10223,11 +9393,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_18-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_8-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10243,7 +9413,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.18)
+## Problem1(3.5.6.8)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10296,22 +9466,22 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-194" ww-id="webwork-194">
-    <static seed="194">
-      <statement><p>Evaluate <m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-184" ww-id="webwork-184">
+    <static seed="184">
+      <statement><p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
       <answer>
         <p>
-          <m>\frac{\pi }{6}</m>
+          <m>\frac{\pi }{3}</m>
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_19-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_9-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10327,7 +9497,1013 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.19)
+## Problem1(3.5.6.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi/3")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-185" ww-id="webwork-185">
+    <static seed="185">
+      <statement><p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+<p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>-\sqrt{2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_10-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.6.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("-sqrt(2)")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)`] without using a calculator. Answer with an exact value.
+
+[`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-186" ww-id="webwork-186">
+    <static seed="186">
+      <statement><p>Evaluate <m>\arcsin \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arcsin \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\pi }{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_1-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi/6")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arcsin \left(\frac{1}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\arcsin \left(\frac{1}{2} \right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-187" ww-id="webwork-187">
+    <static seed="187">
+      <statement><p>Evaluate <m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{5\pi }{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_2-Evaluate__arccos_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("5*pi/6")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-188" ww-id="webwork-188">
+    <static seed="188">
+      <statement><p>Evaluate <m>\arctan \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arctan \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-\pi }{4}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_3-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("-pi/4")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arctan \left(-1 \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\arctan \left(-1 \right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-189" ww-id="webwork-189">
+    <static seed="189">
+      <statement><p>Evaluate <m>\sin^{-1} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\sin^{-1} \left(0 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_4-Evaluate__arcsin_0___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute(0);
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\sin^{-1} \left(0 \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\sin^{-1} \left(0 \right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-190" ww-id="webwork-190">
+    <static seed="190">
+      <statement><p>Evaluate <m>\arccos \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arccos \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\pi </m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_5-Evaluate__arccos_1___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arccos \left(-1 \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\arccos \left(-1 \right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-191" ww-id="webwork-191">
+    <static seed="191">
+      <statement><p>Evaluate <m>\arcsin \left(\frac{1}{\sqrt{2}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arcsin \left(\frac{1}{\sqrt{2}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\pi }{4}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_6-Evaluate__arcsin_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi/4")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arcsin \left(\frac{1}{\sqrt{2}} \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\arcsin \left(\frac{1}{\sqrt{2}}\right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-192" ww-id="webwork-192">
+    <static seed="192">
+      <statement><p>Evaluate <m>\tan^{-1} \left(-\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\tan^{-1} \left(-\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-\pi }{3}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_7-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("-pi/3")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\tan^{-1} \left(-\sqrt{3} \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\tan^{-1} \left(-\sqrt{3}\right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-193" ww-id="webwork-193">
+    <static seed="193">
+      <statement><p>Evaluate <m>\mbox{arccot} \left(\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\mbox{arcot} \left(\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\pi }{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_8-Evaluate__arccot_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi/6")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\mbox{arccot} \left(\sqrt{3} \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\mbox{arcot} \left(\sqrt{3}\right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-194" ww-id="webwork-194">
+    <static seed="194">
+      <statement><p>Evaluate <m>\mbox{arccot} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\mbox{arcot} \left(0\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\pi }{2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_9-Evaluate_arccot_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi/2")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\mbox{arccot} \left(0 \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\mbox{arcot} \left(0\right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-195" ww-id="webwork-195">
+    <static seed="195">
+      <statement><p>Evaluate <m>\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\pi }{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_10-Evaluate_arcsec_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("pi/6")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-196" ww-id="webwork-196">
+    <static seed="196">
+      <statement><p>Evaluate <m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\pi }{6}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_11-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-26T19:22:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.11)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10380,174 +10556,6 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-195" ww-id="webwork-195">
-    <static seed="195">
-      <statement><p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{3}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_20-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.20)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/3")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-196" ww-id="webwork-196">
-    <static seed="196">
-      <statement><p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
-<p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
-</statement>
-      <answer>
-        <p>
-          <m>\frac{\pi }{3}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_21-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.21)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi/3")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-197" ww-id="webwork-197">
     <static seed="197">
       <statement><p>Evaluate <m>\tan \left(\arctan \left(\frac{{9}}{{10}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
@@ -10559,11 +10567,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_22-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_12-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10579,7 +10587,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.22)
+## Problem1(3.5.7.12)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10641,11 +10649,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_23-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_13-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10661,7 +10669,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.23)
+## Problem1(3.5.7.13)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10723,11 +10731,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_24-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_14-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10743,7 +10751,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.24)
+## Problem1(3.5.7.14)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -10795,88 +10803,25 @@ ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-200" ww-id="webwork-200">
-    <static seed="200">
-      <statement><p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
-<p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+    <static seed="200" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+      <statement><p>Use the properties of exponents to simplify the following</p>
+<p><m>{x^{4}}\cdot{x^{12}} =</m>
+<fillin characters="12" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>-\sqrt{2}</m>
+          <m>x^{16}</m>
         </p>
       </answer>
+      <solution><p>We <em>add</em> the exponents as follows</p>
+<p><m>\begin{aligned}
+           x^{4}\cdot x^{12}\amp =x^{4+12}\\
+                             \amp =x^{16}
+       \end{aligned}</m></p>
+</solution>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_6_25-Evaluate_a_composition_of_trig_and_inverse_trig__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(3.5.6.25)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("-sqrt(2)")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
-
-Context()->functions->disable('trig');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Evaluate [`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)`] without using a calculator. Answer with an exact value.
-
-[`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=`]  [_]{$ans}{6}.
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-201" ww-id="webwork-201">
     <static seed="201" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
@@ -10900,25 +10845,40 @@ ENDDOCUMENT();
     <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-202" ww-id="webwork-202">
-    <static seed="202" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
-      <statement><p>Use the properties of exponents to simplify the following</p>
-<p><m>{t^{8}}\cdot{t^{18}} =</m>
-<fillin characters="12" name="AnSwEr0001"/></p>
+    <static seed="202" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
+      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{5}</m> and the angle <m>\theta</m> is in the first quadrant.
+Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
+<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
+<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
 </statement>
       <answer>
         <p>
-          <m>t^{26}</m>
+          <m>\sqrt{1-\frac{x^{2}}{5^{2}}}</m>
         </p>
       </answer>
-      <solution><p>We <em>add</em> the exponents as follows</p>
-<p><m>\begin{aligned}
-           t^{8}\cdot t^{18}\amp =t^{8+18}\\
-                             \amp =t^{26}
-       \end{aligned}</m></p>
+      <answer>
+        <p>
+          <m>\frac{x}{\sqrt{5^{2}-x^{2}}}</m>
+        </p>
+      </answer>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
+<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{5} \right)^2 = \frac{ 25 - x^2}{25}.</me>
+Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 25 - x^2}{25} }</m>
+
+
+
+(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{5}}{\sqrt{\frac{ 25 - x^2}{25}} } = \frac{x}{\sqrt{25 - x^2}}</m>
+
+
+
 </solution>
     </static>
-    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-203" ww-id="webwork-203">
     <static seed="203" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
@@ -10957,57 +10917,21 @@ Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \g
     <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-204" ww-id="webwork-204">
-    <static seed="204" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
-      <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{7}</m> and the angle <m>\theta</m> is in the first quadrant.
-Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
-<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
-<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>\sqrt{1-\frac{x^{2}}{7^{2}}}</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\frac{x}{\sqrt{7^{2}-x^{2}}}</m>
-        </p>
-      </answer>
-      <solution><alert>  SOLUTION </alert>
-
-
-
-(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
-<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{7} \right)^2 = \frac{ 49 - x^2}{49}.</me>
-Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 49 - x^2}{49} }</m>
-
-
-
-(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{7}}{\sqrt{\frac{ 49 - x^2}{49}} } = \frac{x}{\sqrt{49 - x^2}}</m>
-
-
-
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-205" ww-id="webwork-205">
-    <static seed="205" source="Library/UMN/calculusStewartCCC/s_1_6_26.pg">
-      <statement><p>Find a formula for the inverse of the function <m>\displaystyle g(x) = \frac{e^x}{7+4 e^x}.</m></p>
+    <static seed="204" source="Library/UMN/calculusStewartCCC/s_1_6_26.pg">
+      <statement><p>Find a formula for the inverse of the function <m>\displaystyle g(x) = \frac{e^x}{5+2 e^x}.</m></p>
 <p>Answer: <m>g^{-1}(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
       <answer>
         <p>
-          <m>\ln\mathopen{}\left(7x\right)-\ln\mathopen{}\left(1-4x\right)</m>
+          <m>\ln\mathopen{}\left(5x\right)-\ln\mathopen{}\left(1-2x\right)</m>
         </p>
       </answer>
     </static>
     <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_1_6_26.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/calculusStewartCCC/s_1_6_26.pg"/>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-206" ww-id="webwork-206">
-    <static seed="206">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-205" ww-id="webwork-205">
+    <static seed="205">
       <statement><p><m>1+2=</m><fillin characters="5" name="AnSwEr0001"/></p>
 </statement>
       <answer>
@@ -11016,11 +10940,11 @@ Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \g
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_9.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_9.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11080,8 +11004,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-207" ww-id="webwork-207">
-    <static seed="207">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-206" ww-id="webwork-206">
+    <static seed="206">
       <statement><p>Write the expression <m>6 \csc \theta \tan \theta - 2\sec \theta</m> in terms of only sine and cosine, and simplify as much as possible.</p>
 <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
@@ -11091,11 +11015,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_10-Simplifying.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_10-Simplifying.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11162,8 +11086,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-208" ww-id="webwork-208">
-    <static seed="208">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-207" ww-id="webwork-207">
+    <static seed="207">
       <statement><p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed).</p>
 <p>(a) <m>\sec \left(\frac{\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\csc \left(\frac{\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
@@ -11185,11 +11109,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_11-Answer_does_not_accept_rounded_numbers.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_11-Answer_does_not_accept_rounded_numbers.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11270,8 +11194,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-210" ww-id="webwork-210">
-    <static seed="210">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-209" ww-id="webwork-209">
+    <static seed="209">
       <statement><p>Consider the function <m>f</m> defined by <m>f(x)={\sqrt{x}}\text{.}</m>
 <ol label="a.">
 <li>
@@ -11359,11 +11283,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_13-Answer_Type_Variety.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_13-Answer_Type_Variety.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11461,44 +11385,36 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-211" ww-id="webwork-211">
-    <static seed="211">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-210" ww-id="webwork-210">
+    <static seed="210">
       <statement><p><ol label="a.">
 <li>
-<p><m>\tan \left({-1}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
+<p><m>\tan \left({-2.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
 </li>
 <li>
-<p><m>\cot \left({-1}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
+<p><m>\cot \left({-2.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
 </li>
 <li>
-<p><m>\sin \left({-1}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
+<p><m>\sin \left({-2.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
 </li>
 <li>
-<p><m>\csc \left({-1}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
+<p><m>\csc \left({-2.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
 </li>
 <li>
-<p><m>\cos \left({-1}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0005"/>.</p>
+<p><m>\cos \left({-2.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0005"/>.</p>
 </li>
 <li>
-<p><m>\sec \left({-1}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0006"/>.</p>
+<p><m>\sec \left({-2.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0006"/>.</p>
 </li>
 </ol></p>
 </statement>
       <answer>
-        <p>
-          <m>0</m>
-        </p>
-      </answer>
-      <answer>
         <p>DNE</p>
       </answer>
       <answer>
         <p>
           <m>0</m>
         </p>
-      </answer>
-      <answer>
-        <p>DNE</p>
       </answer>
       <answer>
         <p>
@@ -11509,13 +11425,21 @@ ENDDOCUMENT();
         <p>
           <m>-1</m>
         </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>DNE</p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-General_test_chapter/4_1-Random_trial_chapter/4_14-Evaluate_trig_at_multiples_of_fracpi2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_14-Evaluate_trig_at_multiples_of_fracpi2.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-05-22T19:11:46Z       
+###       on 2026-05-26T19:22:18Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
