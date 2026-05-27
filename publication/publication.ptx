@@ -74,10 +74,10 @@
     <worksheets formatted="yes" />
   </latex>
 
- <!-- <html> -->
+ <html>
 
-  <html 
-      favicon="simple">
+  <!-- <html 
+      favicon="simple"> -->
 <!-- Favicon line added by MW  -->
 
     <platform host="web"/>
@@ -184,7 +184,9 @@
           statcounter-security"d374eb11"
 /> -->
 
-
+  <favicon>
+    <icon source="favicon.ico"/>
+  </favicon>
 
 
 
