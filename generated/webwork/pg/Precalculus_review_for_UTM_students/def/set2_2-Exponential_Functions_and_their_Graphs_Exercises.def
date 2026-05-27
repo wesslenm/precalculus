@@ -1,6 +1,6 @@
-openDate          = 05/26/2026 at 12:00am
-dueDate           = 11/26/2026 at 10:00pm
-answerDate        = 11/26/2026 at 10:00pm
+openDate          = 05/27/2026 at 12:00am
+dueDate           = 11/27/2026 at 10:00pm
+answerDate        = 11/27/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_2-Exponential_Functions_and_their_Graphs_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_2-Exponential_Functions_and_their_Graphs_Exercises.pg
 description       = Exponential Functions and their Graphs
@@ -28,10 +28,6 @@ problem_end
 problem_start
 source_file = Library/Utah/Business_Algebra/set9_Mathematics_of_Finance/p04.pg
 problem_id = 6
-problem_end
-problem_start
-source_file = Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions5.pg
-problem_id = 7
 problem_end
 problem_start
 source_file = Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg
