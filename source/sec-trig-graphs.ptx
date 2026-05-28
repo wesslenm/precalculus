@@ -225,7 +225,7 @@ Below is an example of a graph of a sinusoidal function.
 </table>
   </subsection>
 
-  <subsection><title>Properties and symmetries</title>
+  <subsection xml:id="trig-symmetries"><title>Properties and symmetries</title>
   <p> 
     One benefit of graphs is that a lot of information about a function can be seen quickly. Some examples are seen below.     
   </p>

@@ -28,66 +28,600 @@
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      ....
+      Trigonometric identities appear throughout calculus because they allow expressions involving trigonometric functions
+      to be rewritten into simpler or more useful forms. 
+      They often make otherwise difficult problems more manageable. 
+      Some examples include:
     </p>
     <p>
     <ul>
       <li>
-        <p>
-          ....
-        </p>
+        Simplifying derivatives 
+        <!-- by rewriting trigonometric expressions into equivalent forms that are easier to differentiate -->
       </li>
       <li>
-        <p>
-        Optimization problems sometimes involve trigonometric relationships. For example, maximizing the area of a triangle given certain side lengths requires an understanding of trigonometric functions. [also used in basic trig SECTION....................]
-
-        </p>
+        Rewriting integrands so that integration techniques can be applied
       </li>
       <li>
-        <p>
-          ....
-        </p>
+        Converting products or powers of trigonometric functions into sums that are easier to integrate 
       </li>
       <li>
-        <p>
-          ....
-        </p>
+        Transforming expressions into recognizable patterns, to prepare for integration by substitution
+      </li>
+      <li>
+        Simplifying expressions in limit problems
+        <!-- especially when direct substitution leads to indeterminate forms -->
+      </li>
+      <li>
+        Reducing complexity during multi-step calculus manipulations
       </li>
     </ul>
-  </p>
+    </p>
   </assemblage>
 
   <introduction>
     <p>    
-.... What is an identity?
+In this section we will discuss what trigonometic identities are, and practice using them. There are numerous identities, and we will not discuss all of them here, but we will focus on the most common ones. 
     </p>
   </introduction>
 
-  <subsection>
-    <title>Basic identities</title>
-  <p> Coming soon.  </p>
+  <subsection><title>What is a Trigonometric Identity?</title>
+  <p> 
+      A <term>trigonometric identity</term> <idx>Trigonometric identity</idx> is an equation involving trigonometric functions that is true for all values
+     where the functions are defined. 
+     These identities are used to simplify expressions or rewrite them in equivalent forms.
+    </p>
+      <p>
+      Unlike conditional equations, which are only true for specific values, identities hold for all values
+      within the domain.
+    </p>
+    <p>
+      One of the most fundamental examples is the Pythagorean identity:
+    </p>
+    <md>
+      \sin^2(x) + \cos^2(x) = 1
+    </md>
+    <p>
+      We can check this identity by substituting values for <m>x</m>.
+      For example, let <m>x = 0</m>:
+    </p>
+    <md>
+      \sin(0) = 0, \quad \cos(0) = 1, \quad \mbox{ and }
+      0^2 + 1^2 = 1
+    </md>
+    <p>
+      Next, for example let <m>x = \frac{\pi}{4}</m>:
+    </p>
+    <md>
+      \sin\left(\frac{\pi}{4}\right) = \frac{1}{\sqrt{2}}, \quad
+      \cos\left(\frac{\pi}{4}\right) = \frac{1}{\sqrt{2}}
+    </md>
+    <md>
+      \left(\frac{\sqrt{2}}{2}\right)^2 + \left(\frac{\sqrt{2}}{2}\right)^2 = \frac{1}{2} + \frac{1}{2} = 1
+    </md>
+    <p>
+     Of course we can not check all values of <m>x</m> one by one (there are infinitely many). 
+     But using the unit circle and definition of trigonometric functions, it is possible to prove that it holds for all values of <m>x</m>. 
+     Since the equation holds for all valid values of <m>x</m>, it is called an identity.
+    </p>
   </subsection>
 
-  <subsection>
-    <title>Additional identities</title>
-  <p> Coming soon.  </p>
+<subsection><title>Fundamental Trigonometric Identities</title>
+ <p>
+      The following families of identities form the core toolkit used throughout trigonometry and calculus.
+    </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p> 
+      The notation 
+      <m>\sin^{2} x</m> means <m>\sin x</m> raised to the power of <m>2</m>. In other words <m>\sin^{2} x = \left(\sin x\right)^2</m>.
+    </p>
+  </aside>
+
+  <assemblage><title>Fundamental Trigonometric Identities</title>
+    <p>
+      Pythagorean Identities:
+      <men xml:id="trig-pyth"> \sin^2 x  + \cos^2 x = 1</men>
+      <men xml:id="trig-pyth2">\tan^2x +1  = \sec^2 x</men>
+      <men xml:id="trig-pyth3">1 + \cot^2 x = \csc^2 x</men>
+    </p>
+    <p>
+      Reciprocal Identities:
+        <men xml:id="trig-reci1">\sec x = \frac{1}{\cos x}</men>
+        <men xml:id="trig-reci2">\csc x = \frac{1}{\sin x}</men>
+        <men xml:id="trig-reci3">\cot x = \frac{1}{\tan x}</men>
+    </p>
+    <p>
+      Quotient Identities:
+        <men xml:id="trig-quot">\tan x = \frac{\sin x}{\cos x}</men>
+        <men xml:id="trig-quot2">\cot x = \frac{\cos x}{\sin x}</men>
+    </p>
+    <p>
+      Even-Odd Properties:
+        <men> \sin(-x) = -\sin x </men>
+        <men> \cos(-x) = \cos x</men>
+        <men> \tan(-x) = -\tan x</men>
+    </p>
+  </assemblage>
+
+    <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p> 
+      Read these tips that help you know many trig identities by just memorizing a few of them.
+    </p>
+  </aside>
+<p>
+  Some of the identities above are best to memorize, 
+  such as <xref ref="trig-pyth"/>, <xref ref="trig-reci1"/>, <xref ref="trig-reci2"/>, <xref ref="trig-reci3"/> and <xref ref="trig-quot"/>. 
+  You likely know some of those already. 
+  However, many of the remaining ones you can get very easily from information you already know. Here are some examples:
+    </p>
+<p>
+<ul>
+  <li>
+      <xref ref="trig-pyth2"/>: Start with <xref ref="trig-pyth"/> and divide both sides by <m>\cos^2 x</m>. 
+  </li>
+  <li>
+      <xref ref="trig-pyth3"/>: Start with <xref ref="trig-pyth"/> and divide both sides by <m>\sin^2 x</m>. 
+  </li>
+    <li>
+     <xref ref="trig-quot2"/>: Start with <xref ref="trig-quot"/> and take the reciprocal of both sides. 
+  </li>
+    <li>
+ The Even-Odd Properties: These come from the fact that <m>y=\sin x</m> and <m>y=\tan x</m> are odd while <m>y=\cos x</m> is even (see <xref ref="trig-symmetries"/>). 
+  </li>
+</ul>
+</p>
+
+
+<example><title>Evaluating</title>
+    <statement>
+      <p>
+      Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{5}{13}</m> and <m>\cos \theta = \frac{12}{13}</m>. Find the following values.
+    <ol label="a">
+      <li>
+        <p>
+         <m>\sec \theta</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\cot \theta</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\sin^2 \theta</m>
+        </p>
+      </li>
+    </ol>
+      </p>
+    </statement>
+    <answer>
+      <p>
+<ol label="a">
+      <li>
+        <p>
+          <m>\sec \theta = \boxed{\frac{13}{12}}</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\cot \theta = \boxed{\frac{12}{5}}</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\sin^2 \theta = \boxed{\frac{25}{169}}</m>
+        </p>
+      </li>
+    </ol>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <ol label="a">
+      <li>
+        <p>
+        From <xref ref="trig-reci1"/> we know that  <m>\sec \theta = \frac{1}{\cos \theta}</m>. So with the given information we see that:
+         <me>\sec \theta = \frac{1}{\cos \theta} = \frac{1}{\frac{12}{13}} = \boxed{\frac{13}{12}} </me>
+        </p>
+      </li>
+      <li>
+        <p>
+          From <xref ref="trig-quot2"/> we know that  <m>\cot \theta = \frac{\cos \theta}{\sin \theta}</m>. So with the given information we see that:
+         <me>\cot \theta = \frac{\cos \theta}{\sin \theta} = \frac{\frac{12}{13}}{-\frac{5}{13}} = - \frac{12}{13} \times \frac{13}{5} =\boxed{\frac{12}{5}} </me>
+        </p>
+      </li>
+      <li>
+        <p>
+        Here we don't need an identity.
+         <me>\sin^2 \theta = \left(\sin x\right)^2 = \left(-\frac{5}{13}\right)^2 = \frac{5^2}{13^2} = \boxed{\frac{25}{169}} </me>
+        </p>
+      </li>
+    </ol>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>NEED CHECKPOINT </title>
+  <introduction>
+    <p>
+      Similar to previous example?
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+
+<example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      Suppose <m>\theta</m> is an angle with terminal side in quadrant IV, and suppose <m>\cos theta = \frac{2}{5}</m>. What is the value of <m>\sin theta</m>?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+We can use the Pythagorean Identity <xref ref="trig-pyth"/>:
+<me> \sin^2 \theta  + \cos^2 \theta = 1</me>
+Then insert the known value for <m>\cos theta = \frac{2}{5}</m>:
+<me> \sin^2 x  + \left(frac{2}{5}\right)^2  = 1</me>
+Simplify
+<me> \sin^2 x = 1 - \left(frac{2}{5}\right)^2 </me>
+<me> \sin^2 x = frac{25}{25} - frac{4}{25} </me>
+<me> \sin^2 x = frac{21}{25} </me>
+Then take square roots (recall that <m>\sin^2 x = \left(\sin x\right)^2</m>):
+<me> \sin x = \pm \sqrt{frac{21}{25}} </me>
+<me> \sin x = \pm frac{\sqrt{21}}{\sqrt{25}} </me>
+<me> \sin x = \pm frac{\sqrt{21}}{5} </me>
+To determine whether we should use the positive or the negative value, we should consider signs of trigonometric functions in different quadrants. 
+
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>NEED CHECKPOINT </title>
+  <introduction>
+    <p>
+      Similar to previous example?
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+      <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      p. 669 ex57-70... and example p. 666. 
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>NEED CHECKPOINT </title>
+  <introduction>
+    <p>
+      Similar to previous example?
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
   </subsection>
 
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
+ 
 
   <subsection>
-    <title>Additional Examples</title>
+    <title>Additional Trigonometric Identities</title>
+  <p> 
+   Here we list some additional identities. 
+   These are far from all identities. 
+   There are many other ones as well, and some of the ones missing here are commonly used. 
+   However, we have included those that are most commonly used in calculus. 
+   </p>
+
+<assemblage><title>Additional Trigonometric Identities</title>
+    <!-- <p>
+      Sum Identities:
+      <men xml:id="trig-sum1"> \sin(x+y) = \sin x \cos y + \cos x \sin y</men>
+      <men xml:id="trig-sum2">\cos(x+y) = \cos x \cos y - \sin x \sin y</men>
+      <men xml:id="trig-sum3">\tan(x+y) = \frac{\tan x + \tan y}{1 - \tan x \tan y}</men>
+    </p>
+    <p>
+      Difference Identities:
+      <men xml:id="trig-sum1"> \sin(x-y) = \sin x \cos y - \cos x \sin y</men>
+      <men xml:id="trig-sum2">\cos(x-y) = \cos x \cos y - \sin x \sin y</men>
+      <men xml:id="trig-sum3">\tan(x-y) = \frac{\tan x - \tan y}{1 + \tan x \tan y}</men>
+    </p> -->
+    <p>
+      Double-Angle Identities:
+      <men xml:id="trig-double1"> \sin 2x = 2\sin x \cos y </men>
+      <men xml:id="trig-double2">\cos 2x = \cos x \cos y - \sin x \sin y</men>
+      <men xml:id="trig-duble3">\tan 2x = \frac{\tan x + \tan y}{1 - \tan x \tan y}</men>
+    </p>
+
+    <p>
+      Identities for reducing powers:
+      <men xml:id="trig-pow1"> \sin^2x = \frac{1- \cos (2x)}{2} </men>
+      <men xml:id="trig-pow2">\cos^2x = \frac{1+ \cos (2x)}{2}</men>
+      <men xml:id="trig-pow3">\tan^2x = \frac{1- \cos (2x)}{1+ \cos (2x)}</men>
+    </p>
+    <p>
+      Product-Sum Identities:
+      <men xml:id="trig-prod1"> \sin x \cos y = \frac{1}{2} \left( \sin(x+y) + \sin(x-y)\right) </men>
+      <men xml:id="trig-prod2"> \cos x \sin y = \frac{1}{2} \left( \sin(x+y) - \sin(x-y)\right) </men>
+      <men xml:id="trig-prod3"> \sin x \sin y = \frac{1}{2} \left( \cos(x-y) - \cos(x+y)\right) </men>
+      <men xml:id="trig-prod4"> \cos x \cos y = \frac{1}{2} \left( \cos(x+y) + \cos(x-y)\right) </men>
+    </p>
+  </assemblage>
+
+
+    <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      p. 684 Ex 2 or p. 687 ex 4. or p. 691 ex 17-28. 
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>NEED CHECKPOINT </title>
+  <introduction>
+    <p>
+      Similar to previous example?
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+    <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      ....
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+  </subsection>
+
+ <subsection><title>Many Ways to Write the Same Answer</title>
+  <p> 
+    Because of trigonometric identities, two expressions might look very different but actually be the same. 
+    It is sometimes not that easy to determine if two expressions are equivalent or not.  
+    This can cause some problems for example if you have worked on a problem and think you have a final answer, but your answer looks different from the answer given in some solution manual.   
+  </p>
+
+  <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      p. 691 ex 35-52? See also p. 701 ex 70-75. Also p. 710 ex 67-68. 
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+   <exercise><title>NEED CHECKPOINT </title>
+  <introduction>
+    <p>
+      Similar to previous example?
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+  </subsection>
+
+
+  <subsection><title>Additional Examples</title>
       <p> Here are a few examples that use several of the techniques and rules seen above. </p>
 
       <p>
         <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
       </p>
+
+    <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      p. 670 ex 84. Then do a similar one as a checkpoint??
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+    <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      See p. 693 ex 77-78. (a) is it true that [write the expression for a value that it's true]. (b) Is it an identity? (No). Then do the second one as a checkpoint. 
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+      <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      See p. 719 ex 65-66. 
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
+    <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p>
+      ....
+       <me>....</me>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        <me>\boxed{....}</me>
+      </p>
+    </solution>
+  </example>
+
   </subsection>
 
  <exercises><title>Recommended Exercises</title>
@@ -96,6 +630,80 @@
       If you find that you want even more practice, there are additional exercises below. 
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
+
+<exercise><title>CHECKPOINT</title>
+  <introduction>
+    <p>
+      page 667 ex 21-26? Also some with a parameter rather than numbers? 
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+<exercise><title>CHECKPOINT</title>
+  <introduction>
+    <p>
+      page 693 ex 71 
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+<exercise><title>CHECKPOINT</title>
+  <introduction>
+    <p>
+     p. 691 ex 53-60. 
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
+      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+
 
   </exercises>
 

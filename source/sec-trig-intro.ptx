@@ -497,6 +497,11 @@
   </p>
   </assemblage> 
 
+<p>
+We include a few basic trigonometric identities here so that we can use them early. 
+Other trigonometric identities are also discussed in more detail in <xref ref="sec-trig-identities"/>.
+</p>
+
   <assemblage><title>Basic Trigonometric Identities</title>
     <p>
       The following relationships are all important.
@@ -618,6 +623,68 @@
   </exercise>
 </subsection>
 
+ <subsection><title>Signs of Trigonometric Functions</title>
+    <p>
+   Before discussing the sign of trigonometric functions, let's first review the Quadrants of the coordinate system. 
+   The Cartesian coordinate system is divided into <term>Quadrants I, II, III and IV</term><idx><h>Quadrants I, II, III and IV</h></idx> as illuatrated in <xref ref="fig-quadrants"/>.
+  </p>
+  
+  <figure xml:id="fig-quadrants">
+    <caption>
+      The four Quadrants of the Cartesian coordinate system ***** REPLACE WITH CORRECT IMAGE ****
+    </caption>
+  <title>The four Quadrants of the Cartesian coordinate system</title>
+  <image source="images/trig1standard" width="60%">
+      <shortdescription>
+         The four Quadrants of the Cartesian coordinate system. ***** REPLACE WITH CORRECT IMAGE ****
+        </shortdescription>
+  </image>
+</figure>
+
+  <p>
+   Often it is useful to determine whether a trigonometric function is positive or negative for a certain angle. 
+   To do that, we should consider the definitions of the functions. For example, recall that
+  </p>
+   <me>
+    \sin \theta = \frac{y}{r} 
+   </me>
+  <p>
+    The value of <m>r</m> is always positive, so the sign of <m>\sin \theta </m> is the same as the sign of <m>y</m>. We also know that <m>y</m> values are positive in Quadrant I and Quadrant II. 
+So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> ends in Quadrant I or Quadrant II. And <m>\sin \theta </m> is negative when the angle <m>\theta </m> ends in Quadrant III or Quadrant IV.
+  </p>
+  
+<assemblage xml:id="trig-cast">
+  <title>The CAST Rule</title>
+  <p> 
+    The CAST rule is a memory aid that helps to quickly remember in which quadrants the trigonometric functions are positive or negative. Here is how it works:
+  </p>
+      <image source="images/trig-quadrants" width="60%">
+  </image>
+   <p>
+<ol>
+  <li>
+    <p>
+      Write out the letters CAST as in the image. Remember to start in Quadrant IV and go counter-clockwise.  
+    </p>
+  </li>
+    <li>
+    <p>
+      The letters tell you which of the primary trigonometric functions are postive in that quadrant. 
+      For example, ``S'' in Quadrant II indicates that in Quadrant II, <m>\sin \theta</m> is positive, but <m>\cos \theta</m> and <m>\tan \theta</m> are negative.  
+    </p>
+  </li>
+    <li>
+    <p>
+      The CAST rule reminds you about the signs of <m>\sin \theta</m>, <m>\cos \theta</m> and <m>\tan \theta</m>. 
+      To find the sign of the other three, use the reciprocal rules. 
+      For example, <m>\sec \theta = \frac{1}{\cos \theta}</m> so <m>\sec \theta</m> has the same sign as <m>\cos \theta</m>, on it's domain. 
+    </p>
+  </li>
+</ol>
+
+  </p>
+  </assemblage>
+</subsection>
 
 
 <exercises><title>Exercises</title>
