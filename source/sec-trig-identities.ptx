@@ -180,7 +180,6 @@ In this section we will discuss what trigonometic identities are, and practice u
 </ul>
 </p>
 
-
 <example><title>Evaluating</title>
     <statement>
       <p>
@@ -206,7 +205,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </statement>
     <answer>
       <p>
-<ol label="a">
+<ol label="a.">
       <li>
         <p>
           <m>\sec \theta = \boxed{\frac{13}{12}}</m>
@@ -275,16 +274,15 @@ In this section we will discuss what trigonometic identities are, and practice u
   </webwork>
 </exercise>
 
-
-<example ><title>NEED EXAMPLE</title>
+<example><title>Evaluating at an unknown angle</title>
     <statement>
       <p>
-      Suppose <m>\theta</m> is an angle with terminal side in quadrant IV, and suppose <m>\cos theta = \frac{2}{5}</m>. What is the value of <m>\sin theta</m>?
+      Suppose <m>\theta</m> is an angle with terminal side in Quadrant IV, and suppose <m>\cos theta = \frac{2}{5}</m>. What is the value of <m>\sin theta</m>?
       </p>
     </statement>
     <answer>
       <p>
-        <me>\boxed{....}</me>
+        <me>\sin \theta = \boxed{-frac{\sqrt{21}}{5}}</me>
       </p>
       </answer>
     <solution>
@@ -292,18 +290,19 @@ In this section we will discuss what trigonometic identities are, and practice u
 We can use the Pythagorean Identity <xref ref="trig-pyth"/>:
 <me> \sin^2 \theta  + \cos^2 \theta = 1</me>
 Then insert the known value for <m>\cos theta = \frac{2}{5}</m>:
-<me> \sin^2 x  + \left(frac{2}{5}\right)^2  = 1</me>
+<me> \sin^2 \theta  + \left(frac{2}{5}\right)^2  = 1</me>
 Simplify
-<me> \sin^2 x = 1 - \left(frac{2}{5}\right)^2 </me>
-<me> \sin^2 x = frac{25}{25} - frac{4}{25} </me>
-<me> \sin^2 x = frac{21}{25} </me>
+<me> \sin^2 \theta = 1 - \left(frac{2}{5}\right)^2 </me>
+<me> \sin^2 \theta = frac{25}{25} - frac{4}{25} </me>
+<me> \sin^2 \theta = frac{21}{25} </me>
 Then take square roots (recall that <m>\sin^2 x = \left(\sin x\right)^2</m>):
-<me> \sin x = \pm \sqrt{frac{21}{25}} </me>
-<me> \sin x = \pm frac{\sqrt{21}}{\sqrt{25}} </me>
-<me> \sin x = \pm frac{\sqrt{21}}{5} </me>
+<me> \sin \theta = \pm \sqrt{frac{21}{25}} </me>
+<me> \sin \theta = \pm frac{\sqrt{21}}{\sqrt{25}} </me>
+<me> \sin \theta = \pm frac{\sqrt{21}}{5} </me>
 To determine whether we should use the positive or the negative value, we should consider signs of trigonometric functions in different quadrants. 
-
-        <me>\boxed{....}</me>
+For example, we can use the CAST rule (<xref ref="trig-cast"/>) to see that <m>\sin \theta</m> is negative in Quadrant IV. 
+Recall that the question specified that <m>\theta</m> is in Quadrant IV. Therefore
+        <me>\sin \theta = \boxed{-frac{\sqrt{21}}{5}}</me>
       </p>
     </solution>
   </example>
@@ -311,7 +310,7 @@ To determine whether we should use the positive or the negative value, we should
 <exercise><title>NEED CHECKPOINT </title>
   <introduction>
     <p>
-      Similar to previous example?
+      Similar to previous example? p. 668
     </p>
   </introduction>
   <webwork>
@@ -335,7 +334,7 @@ To determine whether we should use the positive or the negative value, we should
       <example ><title>NEED EXAMPLE</title>
     <statement>
       <p>
-      p. 669 ex57-70... and example p. 666. 
+      
        <me>....</me>
       </p>
     </statement>
@@ -354,7 +353,7 @@ To determine whether we should use the positive or the negative value, we should
 <exercise><title>NEED CHECKPOINT </title>
   <introduction>
     <p>
-      Similar to previous example?
+      Similar to previous example? p. 669 ex57-70... and example p. 666. 
     </p>
   </introduction>
   <webwork>

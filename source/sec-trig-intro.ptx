@@ -626,17 +626,19 @@ Other trigonometric identities are also discussed in more detail in <xref ref="s
  <subsection><title>Signs of Trigonometric Functions</title>
     <p>
    Before discussing the sign of trigonometric functions, let's first review the Quadrants of the coordinate system. 
-   The Cartesian coordinate system is divided into <term>Quadrants I, II, III and IV</term><idx><h>Quadrants I, II, III and IV</h></idx> as illuatrated in <xref ref="fig-quadrants"/>.
+   The Cartesian coordinate system is divided into <term>Quadrants I, II, III and IV</term><idx><h>Quadrants I, II, III and IV</h></idx> 
+   as illuatrated in <xref ref="fig-quadrants"/> (with quadrant I in top right, then going in a counter-clockwise direction). 
+   Quadrants are typically written with roman numerals.
   </p>
   
   <figure xml:id="fig-quadrants">
     <caption>
-      The four Quadrants of the Cartesian coordinate system ***** REPLACE WITH CORRECT IMAGE ****
+      The four Quadrants of the Cartesian coordinate system 
     </caption>
   <title>The four Quadrants of the Cartesian coordinate system</title>
-  <image source="images/trig1standard" width="60%">
+  <image source="images/trig-quadrants" width="50%">
       <shortdescription>
-         The four Quadrants of the Cartesian coordinate system. ***** REPLACE WITH CORRECT IMAGE ****
+         The four Quadrants of the Cartesian coordinate system. 
         </shortdescription>
   </image>
 </figure>
@@ -658,7 +660,7 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
   <p> 
     The CAST rule is a memory aid that helps to quickly remember in which quadrants the trigonometric functions are positive or negative. Here is how it works:
   </p>
-      <image source="images/trig-quadrants" width="60%">
+      <image source="images/trig-CAST" width="60%">
   </image>
    <p>
 <ol>
@@ -680,10 +682,83 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
       For example, <m>\sec \theta = \frac{1}{\cos \theta}</m> so <m>\sec \theta</m> has the same sign as <m>\cos \theta</m>, on it's domain. 
     </p>
   </li>
+  <li>
+    <p>
+      For angles that are not in a quadrant (such as <m>\frac{\pi}{2}, \pi</m> etc.) each trigonometric function can be positive, negative, 0 or undefined.
+    </p>
+  </li>
 </ol>
-
   </p>
   </assemblage>
+
+<exercise><title>Quadrant and sign - HOMEMADE - UPDATED PLEASE CHECK</title>
+    <introduction>
+      <p>
+        (Not randomizable) Select the correct option from each drop down menu. All angles are given in radians. Do not use a calculator.
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup1quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],1);
+        $popup1sign = PopUp(['?','positive','negative','0','undefined'],1);
+                $popup2quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV', 'not in any quadrant'],2);
+        $popup2sign = PopUp(['?','positive','negative','0','undefined'],2);
+                $popup3quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],4);
+        $popup3sign = PopUp(['?','positive','negative','0','undefined'],2);
+                $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],5);
+        $popup4sign = PopUp(['?','positive','negative','0','undefined'],3);
+                $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],3);
+        $popup5sign = PopUp(['?','positive','negative','0','undefined'],1);
+      </pg-code>
+      <statement>
+        <p>
+          <ol>
+            <li>
+              <p>
+                The angle <m>\frac{\pi}{6}</m> is <var name="$popup1quadrant" form="popup"/> 
+              </p>
+                <p>
+                and <m>\cos \left(\frac{\pi}{6}\right)</m> is <var name="$popup1sign" form="popup"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               The angle <m>\frac{2\pi}{3}</m> is <var name="$popup2quadrant" form="popup"/>               
+              </p>
+                <p>
+                  and <m>\tan \left(\frac{2\pi}{3}\right)</m> is <var name="$popup2sign" form="popup"/>.
+             </p>
+            </li>
+            <li>
+              <p>
+               The angle <m>-\frac{\pi}{4}</m> is <var name="$popup3quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\sin \left(-\frac{\pi}{4}\right)</m> is <var name="$popup3sign" form="popup"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               The angle <m>\frac{3\pi}{2}</m> is <var name="$popup4quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\cos \left(\frac{3\pi}{2}\right)</m> is <var name="$popup4sign" form="popup"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+              The angle <m>\frac{7\pi}{6}</m> is <var name="$popup5quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\cot \left(\frac{7\pi}{6}\right)</m> is <var name="$popup5sign" form="popup"/>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
 </subsection>
 
 
@@ -748,5 +823,74 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
   </webwork>
 </exercise>
 
+<exercise><title>Quadrant and sign - HOMEMADE - UPDATED PLEASE CHECK</title>
+    <introduction>
+      <p>
+        (Not randomizable) Select the correct option from each drop down menu. All angles are given in radians. Do not use a calculator.
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup1quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],2);
+        $popup1sign = PopUp(['?','positive','negative','0','undefined'],1);
+                $popup2quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV', 'not in any quadrant'],4);
+        $popup2sign = PopUp(['?','positive','negative','0','undefined'],2);
+                $popup3quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],5);
+        $popup3sign = PopUp(['?','positive','negative','0','undefined'],4);
+                $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],3);
+        $popup4sign = PopUp(['?','positive','negative','0','undefined'],2);
+                $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],1);
+        $popup5sign = PopUp(['?','positive','negative','0','undefined'],1);
+      </pg-code>
+      <statement>
+        <p>
+          <ol>
+            <li>
+              <p>
+                The angle <m>\frac{5\pi}{6}</m> is <var name="$popup1quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\sin \left(\frac{5\pi}{6}\right)</m> is <var name="$popup1sign" form="popup"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               The angle <m>\frac{7\pi}{4}</m> is <var name="$popup2quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\sin \left(\frac{7\pi}{4}\right)</m> is <var name="$popup2sign" form="popup"/>.
+             </p>
+            </li>
+            <li>
+              <p>
+               The angle <m>\pi</m> is <var name="$popup3quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\csc \left(\pi\right)</m> is <var name="$popup3sign" form="popup"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               The angle <m>-\frac{5\pi}{6}</m> is <var name="$popup4quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\cos \left(-\frac{5\pi}{6}\right)</m> is <var name="$popup4sign" form="popup"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+              The angle <m>\frac{15\pi}{14}</m> is <var name="$popup5quadrant" form="popup"/>         
+              </p>
+                <p>
+                 and <m>\sec \left(\frac{15\pi}{14}\right)</m> is <var name="$popup5sign" form="popup"/>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+  
 </exercises>
 </section>
