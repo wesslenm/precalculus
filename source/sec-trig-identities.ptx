@@ -710,6 +710,14 @@ $radio1 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
           'The graphs look the same, so the expressions may be equal',
         ],1);
+  $radio3 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],1);
+  $radio4 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],1);
 <!-- $radio2 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
           'The graphs look the same, so the expressions may be equal',
@@ -733,17 +741,41 @@ $radio4 = RadioButtons([
       </p>
 
 
+<ol>
+  <li>
+    <p>
+      <m>\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)</m> and <m>4\csc^2 x</m>
+    </p>
+      <p>
+         <var name="$radio1" form="buttons"/>
+      </p>
+  </li>
+    <li>
+    <p>
+     ...<!-- <m>\sqrt{3}\cos x+\sin x</m> and <m>2\cos\left(x-2.18\pi\right)</m>  -->
+    </p>
+     <p>
+         <var name="$radio2" form="buttons"/>
+     </p>
+  </li>
+    <li>
+    <p>
+     <m>\csc (2x)</m> and <m>\sec(x) \csc(x)</m> 
+    </p>
+      <p>
+         <var name="$radio3" form="buttons"/>
+       </p>
+  </li>
+    <li>
+    <p>
+ <m>\csc (2x)</m> and <m>\frac{\sec(x) \csc(x)}{2}</m> 
+    </p>
+    <p>
+       <var name="$radio4" form="buttons"/>
+    </p>
+  </li>
+</ol>
 
-
-       <m>\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)</m> and <m>4\csc^2 x</m>
-              <p>
-                <var name="$radio1" form="buttons"/>
-              </p>
-<m>\sqrt{3}\cos x+\sin x</m> and <m>2\cos\left(x-2.18\pi\right)</m> 
-
-                            <p>
-                <var name="$radio1" form="buttons"/>
-              </p>
         <!-- <p>
 <ol label="a.">
   <li>
