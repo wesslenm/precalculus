@@ -1,36 +1,16 @@
-openDate          = 05/27/2026 at 12:00am
-dueDate           = 11/27/2026 at 10:00pm
-answerDate        = 11/27/2026 at 10:00pm
+openDate          = 06/01/2026 at 12:00am
+dueDate           = 12/01/2026 at 10:00pm
+answerDate        = 12/01/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_5-Inverse_trigonometric_functions.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_5-Inverse_trigonometric_functions.pg
 description       = Inverse trigonometric functions
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_49-Evaluating_arcsine__HOMEMADE.pg
-problem_id = 49
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_50-Evaluating_arcsine__HOMEMADE.pg
-problem_id = 50
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_51-Inverse_properties__HOMEMADE.pg
-problem_id = 51
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_52-Inverse_properties__HOMEMADE.pg
-problem_id = 52
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_61-Evaluating_arccos__HOMEMADE.pg
-problem_id = 61
-problem_end
-problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_62-Evaluating_arccos__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_62-Evaluating_arcsine__HOMEMADE.pg
 problem_id = 62
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_63-Inverse_properties__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_63-Evaluating_arcsine__HOMEMADE.pg
 problem_id = 63
 problem_end
 problem_start
@@ -38,14 +18,34 @@ source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_tri
 problem_id = 64
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_67-Evaluating_arctan__HOMEMADE.pg
-problem_id = 67
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_65-Inverse_properties__HOMEMADE.pg
+problem_id = 65
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_69-Evaluating_arcsec__HOMEMADE.pg
-problem_id = 69
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_74-Evaluating_arccos__HOMEMADE.pg
+problem_id = 74
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_70-Evaluating_arccsc__HOMEMADE.pg
-problem_id = 70
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_75-Evaluating_arccos__HOMEMADE.pg
+problem_id = 75
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_76-Inverse_properties__HOMEMADE.pg
+problem_id = 76
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_77-Inverse_properties__HOMEMADE.pg
+problem_id = 77
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_80-Evaluating_arctan__HOMEMADE.pg
+problem_id = 80
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_82-Evaluating_arcsec__HOMEMADE.pg
+problem_id = 82
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_83-Evaluating_arccsc__HOMEMADE.pg
+problem_id = 83
 problem_end

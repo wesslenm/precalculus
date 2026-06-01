@@ -1,0 +1,83 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T14:46:07Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.5.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],2);
+$popup5 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following statements are true, and which are false?
+
+a.  [`\cos\left( \frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = \cos\left(\pi\right)\text{.}`] This is FALSE [_]{$popup1}{5}
+
+a.  [`\sin x \csc x = 1`] TRUE
+
+a.  [`\frac{1}{\sin x + \cos x} = \csc x + \sec x`] FALSE
+
+a.  [`(\sin x)^2 = \sin (x^2)`] FALSE
+
+a.  [`\sin x + \sin x = \sin (2x) `] FALSE
+
+[`\csc \theta \tan \theta - 2\sec \theta =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

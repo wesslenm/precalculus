@@ -1,0 +1,88 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-29T18:39:51Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.58)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$radio1 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],2);
+$radio2 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],1);
+$radio3 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],1);
+$radio4 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],2);
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)
+a.  [`\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)`] and [`4\csc^2 x`] [_]{$radio1}{5}
+
+a.  [`\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)`] and [`4\csc^2 x`] [_]{$radio2}{5}
+
+a.  [`/csc (2x))`] and [`\sec(x) \csc(x)`] [_]{$radio3}{5}
+
+a.  [`/csc (2x))`] and [`\frac{\sec(x) \csc(x)}{2}`] [_]{$radio4}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

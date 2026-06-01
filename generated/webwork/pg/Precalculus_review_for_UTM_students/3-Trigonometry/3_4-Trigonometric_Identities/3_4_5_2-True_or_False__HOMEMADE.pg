@@ -1,0 +1,84 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T18:08:05Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.5.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],2);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following statements are true, and which are false?
+
+a.  [`\cos\left( \frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = \cos\left(\pi\right)`] [_]{$popup1}{5}
+
+a.  [`\sin x \csc x = 1`] [_]{$popup2}{5}
+
+a.  [`\frac{1}{\sin x + \cos x} = \csc x + \sec x`] [_]{$popup3}{5}
+
+a.  [`(\sin x)^2 = \sin (x^2)`] [_]{$popup4}{5}
+
+a.  [`(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x `] [_]{$popup5}{5}
+
+a.  [`\sin (4x) + \sin (4x) = \sin (8x) `] [_]{$popup6}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

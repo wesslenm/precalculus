@@ -1,0 +1,27 @@
+openDate          = 05/28/2026 at 12:00am
+dueDate           = 11/28/2026 at 10:00pm
+answerDate        = 11/28/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_4-Trigonometric_identities.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_4-Trigonometric_identities.pg
+description       = Trigonometric identities
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_identities/3_47-NEED_CHECKPOINT.pg
+problem_id = 47
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_identities/3_49-NEED_CHECKPOINT.pg
+problem_id = 49
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_identities/3_51-NEED_CHECKPOINT.pg
+problem_id = 51
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_identities/3_53-NEED_CHECKPOINT.pg
+problem_id = 53
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_identities/3_56-NEED_CHECKPOINT.pg
+problem_id = 56
+problem_end

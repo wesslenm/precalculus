@@ -1,0 +1,75 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T18:08:06Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.6.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$ans1 = Compute("-12/13");
+$ans2 = Compute("-5/13");
+$ans3 = Compute("120/169");
+$ans4 = Compute("0");
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose that for some angles [`\tau`]  in Quadrant II, we know that [`\sin \tau = \frac{5}{13}`] and and [`\gamma`] is in Quadrant IV with [`\tan \gamma = -\frac{5}{12}\text{.}`] Evaluate the following:
+a.  [`\cos(\tau) =`]  [_]{$ans1}{6}.
+
+a.  [`\sin(\gamma)= `] [_]{$ans2}{6}.
+
+a.  [`\sin(\tau+\gamma) =`]  [_]{$ans3}{6}.
+
+a.  [`\sin(\tau-\gamma)= `] [_]{$ans4}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

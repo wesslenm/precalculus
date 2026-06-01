@@ -1,6 +1,6 @@
-openDate          = 05/27/2026 at 12:00am
-dueDate           = 11/27/2026 at 10:00pm
-answerDate        = 11/27/2026 at 10:00pm
+openDate          = 06/01/2026 at 12:00am
+dueDate           = 12/01/2026 at 10:00pm
+answerDate        = 12/01/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions_Exercises.pg
 description       = Angles and Trigonometric Definitions
@@ -10,6 +10,10 @@ source_file = Library/MC/Trigonometry/trig_defn-06.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_3_3-Simplify__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_4_3-Simplify__HOMEMADE.pg
 problem_id = 3
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_4_4-Quadrant_and_sign__HOMEMADE__UPDATED_PLEASE_CHECK.pg
+problem_id = 4
 problem_end

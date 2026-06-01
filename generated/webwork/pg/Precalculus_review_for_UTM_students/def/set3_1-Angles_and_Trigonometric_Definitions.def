@@ -1,6 +1,6 @@
-openDate          = 05/27/2026 at 12:00am
-dueDate           = 11/27/2026 at 10:00pm
-answerDate        = 11/27/2026 at 10:00pm
+openDate          = 06/01/2026 at 12:00am
+dueDate           = 12/01/2026 at 10:00pm
+answerDate        = 12/01/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_1-Angles_and_Trigonometric_Definitions.pg
 description       = Angles and Trigonometric Definitions
@@ -16,4 +16,8 @@ problem_end
 problem_start
 source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_8-Definitions_of_sec_thetatext_csc_theta_and_cot_theta__HOMEMADE__NEW_PLEASE_CHECK.pg
 problem_id = 8
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_10-Quadrant_and_sign__HOMEMADE__UPDATED_PLEASE_CHECK.pg
+problem_id = 10
 problem_end

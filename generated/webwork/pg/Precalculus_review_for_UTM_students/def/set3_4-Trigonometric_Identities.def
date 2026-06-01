@@ -1,0 +1,31 @@
+openDate          = 06/01/2026 at 12:00am
+dueDate           = 12/01/2026 at 10:00pm
+answerDate        = 12/01/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_4-Trigonometric_Identities.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_4-Trigonometric_Identities.pg
+description       = Trigonometric Identities
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_47-Evaluate__HOMEMADE.pg
+problem_id = 47
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_49-Evaluate_at_an_unknown_angle__HOMEMADE.pg
+problem_id = 49
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_51-Simplify__HOMEMADE.pg
+problem_id = 51
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_53-Simplify__HOMEMADE.pg
+problem_id = 53
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_55-Simplify__HOMEMADE.pg
+problem_id = 55
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_56-Comparing_graphs__HOMEMADE__NOT_COMPLETE.pg
+problem_id = 56
+problem_end

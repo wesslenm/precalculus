@@ -1,0 +1,76 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-05-28T02:47:51Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.22)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "parserVectorUtils.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = random(2,9,1);
+$popuptrue = PopUp(['?','True','False'],1);
+$popupfalse = PopUp(['?','True','False'],1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following statements are true, and which are false?
+
+a.  [`y=2+ \sin x`] is an odd function. [_]{$popupfalse}{5}
+
+a.  [`y=\csc x`] is an odd function. [_]{$popuptrue}{5}
+
+a.  [`\sec \left( 3 \right) = \tan \left( -3 \right)\csc\left(-3\right)`]  [_]{$popuptrue}{5}
+
+a.  [`\tan \left( \frac{3\pi}{7} \right) = -\tan \left( -\frac{3\pi}{7} \right)`] [_]{$popuptrue}{5}
+
+a.  [`y=\sec (x-\frac{\pi}{3})`] is an even function. [_]{$popupfalse}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

@@ -1,0 +1,72 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T18:08:05Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.47)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$ans1 = Compute("-1/(sqrt(3))");
+$ans2 = Compute("-2/(sqrt(3))");
+$ans3 = Compute("8");
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose that for some angle [`\theta`] we know that [`\sin \theta = \frac{1}{2}`] and [`\cos \theta = -\frac{\sqrt{3}}{2}\text{.}`] Find the following values.
+a.  [`\tan \theta`] = [_]{$ans1}{6}.
+
+a.  [`\sec \theta`] = [_]{$ans2}{6}.
+
+a.  [`\csc^3 \theta`] = [_]{$ans3}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

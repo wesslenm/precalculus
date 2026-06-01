@@ -1,0 +1,76 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T18:08:05Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$ans1 = Compute("11/5");
+$ans2 = Compute("1");
+$ans3 = Compute("-6/5");
+$popup = PopUp(['?','I','II','III','IV'],1);
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose that for some angle [`\theta`] we know that [`\sin \theta = -\frac{\sqrt{11}}{6}`] and [`\cos \theta = -\frac{5}{6}\text{.}`] Answer the following questions.
+a.  Evaluate [`\tan^2 \theta`] = [_]{$ans1}{6}.
+
+a.  Evaluate [`\cos^2 \theta + \sin^2 \theta`] = [_]{$ans2}{6}.
+
+a.  Evaluate [`\sec \theta`] = [_]{$ans3}{6}.
+
+a.  The terminal side of angle [`\theta`] is in quadrant [_]{$popup}{5}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

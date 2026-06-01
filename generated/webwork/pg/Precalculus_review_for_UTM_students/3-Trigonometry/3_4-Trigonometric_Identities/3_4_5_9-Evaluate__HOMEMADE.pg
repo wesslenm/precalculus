@@ -1,0 +1,69 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T18:08:05Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.5.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$ans1 = Compute("24/25");
+$ans2 = Compute("7/25");
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose that for some angles [`\alpha`] and [`\beta`] in Quadrant I, we know that [`\sin \alpha = \frac{3}{5}`] and [`\sec \beta = \frac{5}{4}\text{.}`] Evaluate the following:
+a.  [`\sin(\alpha+\beta) =`]  [_]{$ans1}{6}.
+
+a.  [`\cos(2\beta)= `] [_]{$ans2}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

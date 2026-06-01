@@ -1,0 +1,77 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-01T18:08:05Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.4.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(2,9,1);
+$ans = Compute("(1-$a)/cos x");
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sin','cos');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write the expression [`  \csc x \tan x - [$a]\sec x `] in terms of only sine and cosine, and simplify as much as possible.
+
+[`\csc x \tan x - [$a]\sec x =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# Hint
+############################################################
+#Set value of $showHint in PGcourse.pl for course-wide attempt threshhold for revealing hints
+
+BEGIN_PGML_HINT
+Re-write each of the trigonometric functions in terms of [`\sin x`] and [`\cos x\text{,}`] then simplify. Remember that your final answer should not use any of the other trigonometric functions, only [`\sin x`] and/or [`\cos x\text{.}`]
+
+END_PGML_HINT
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
