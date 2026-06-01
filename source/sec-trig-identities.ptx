@@ -352,7 +352,6 @@ In this section we will discuss what trigonometic identities are, and practice u
       </p>
       <p><m>\cos \theta =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
-
   </webwork>
 </exercise>
 
@@ -458,31 +457,6 @@ In this section we will discuss what trigonometic identities are, and practice u
         <m>\cot^2 \theta - \csc^2 \theta =</m>  <var name="$ans" width="6"/>.
       </p>
     </statement>
-  </webwork>
-</exercise>
-
-<exercise><title>Simplify - HOMEMADE</title>
-  <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = random(2,9,1);
-      $ans = Compute("(1-$a)/cos x");
-
-         Context()->functions->disable('All');
-         Context()->functions->enable('sin','cos');
-    </pg-code>
-
-    <statement>
-      <p>Write the expression <m>  \csc x \tan x - <var name="$a"/>\sec x </m> in terms of only sine and cosine, and simplify as much as possible. </p>
-      <p><m>\csc x \tan x - <var name="$a"/>\sec x =</m>  <var name="$ans" width="6"/>.</p>
-    </statement>
-
-    <hint>
-      <p>
-        Re-write each of the trigonometric functions in terms of <m>\sin x</m> and <m>\cos x</m>, then simplify. Remember that your final answer should not use any of the other trigonometric functions, only <m>\sin x</m> and/or <m>\cos x</m>. 
-      </p>
-    </hint>
-
   </webwork>
 </exercise>
 
@@ -598,7 +572,7 @@ In this section we will discuss what trigonometic identities are, and practice u
       <alert> Study tip: </alert>
     </p>
     <p> 
-      The type of simplification seen <xref ref="ex-trigreduce"/>will be important when integrating powers of trigonometric functions.</p>
+      The type of simplification seen <xref ref="ex-trigreduce"/> will be important when integrating powers of trigonometric functions.</p>
   </aside>
 
 
@@ -662,7 +636,6 @@ Now there are no powers, and no trigonometric function is multipled by a trigono
       <m>\cos^4 x =</m>  <var name="$ans1" width="6"/>.
       </p>
     </statement>
-
   </webwork>
 </exercise>
 
@@ -709,11 +682,11 @@ $radio1 = RadioButtons([
   $radio2 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
           'The graphs look the same, so the expressions may be equal',
-        ],1);
+        ],0);
   $radio3 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
           'The graphs look the same, so the expressions may be equal',
-        ],1);
+        ],0);
   $radio4 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
           'The graphs look the same, so the expressions may be equal',
@@ -752,7 +725,7 @@ $radio4 = RadioButtons([
   </li>
     <li>
     <p>
-     ...<!-- <m>\sqrt{3}\cos x+\sin x</m> and <m>2\cos\left(x-2.18\pi\right)</m>  -->
+     <m>\sqrt{3}\cos x+\sin x</m> and <m>2\cos\left(x-2.18\pi\right)</m>
     </p>
      <p>
          <var name="$radio2" form="buttons"/>
@@ -822,11 +795,10 @@ $radio4 = RadioButtons([
     <p>
       For students who want a focused review of the topic, we recommend working on these exercises. 
       If you find that you want even more practice, there are additional exercises below. 
-      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
+      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="trig-id-additional"/>) and then come back to the Recommended Exercises.
     </p>
 
-
-<exercise><title>Evaluate - HOMEMADE - NOT COMPLETE</title>
+<exercise><title>Evaluate - HOMEMADE</title>
   <introduction>
     <p>
         (Not randomizable) 
@@ -837,9 +809,10 @@ $radio4 = RadioButtons([
       Context("Numeric");
       <!-- $a = random(2,9,1);
       $b = random(2,9,1); -->
-      $ans1 = Compute("-1/(sqrt(3))");
+      $ans1 = Compute("11/5");
       $ans2 = Compute("1");
-      $ans3 = Compute("8");
+      $ans3 = Compute("-6/5");
+      $popup = PopUp(['?','I','II','III','IV'],1);
 
       Context()->functions->disable('All');
       Context()->functions->enable('sqrt');
@@ -868,7 +841,7 @@ $radio4 = RadioButtons([
       </li>
             <li>
         <p>
-          The terminal side of angle <m>\theta</m> is in quadrant xxxxxxxxxxxxxxx <var name="$ans3" width="6"/>.
+          The terminal side of angle <m>\theta</m> is in quadrant <var name="$popup" form="popup"/>.
         </p>
       </li>
     </ol>
@@ -877,12 +850,7 @@ $radio4 = RadioButtons([
   </webwork>
 </exercise>
 
-
-
-
-
-
-<exercise><title>CHECKPOINT - NOT COMPLETE</title>
+<exercise><title>True or False? - HOMEMADE</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -898,6 +866,7 @@ $popup2 = PopUp(['?','True','False'],1);
 $popup3 = PopUp(['?','True','False'],2);
 $popup4 = PopUp(['?','True','False'],2);
 $popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],2);
 
       Context()->functions->disable('All');
       Context()->functions->enable('sqrt');
@@ -911,65 +880,102 @@ $popup5 = PopUp(['?','True','False'],1);
   <ol>
     <li>
       <p>
-        <m>\cos\left( \frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = \cos\left(\pi\right)</m>. This is FALSE <var name="$popup1" form="popup"/>
+        <m>\cos\left( \frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = \cos\left(\pi\right)</m> <var name="$popup1" form="popup"/>
       </p>
     </li>
         <li>
       <p>
-        <m>\sin x \csc x = 1</m> TRUE
+        <m>\sin x \csc x = 1</m> <var name="$popup2" form="popup"/>
       </p>
     </li>
     <li>
       <p>
-        <m>\frac{1}{\sin x + \cos x} = \csc x + \sec x</m> FALSE
+        <m>\frac{1}{\sin x + \cos x} = \csc x + \sec x</m> <var name="$popup3" form="popup"/>
       </p>
     </li>
         <li>
       <p>
-        <m>(\sin x)^2 = \sin (x^2)</m> FALSE
+        <m>(\sin x)^2 = \sin (x^2)</m> <var name="$popup4" form="popup"/>
+      </p>
+    </li>
+      <li>
+      <p>
+        <m>(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x </m> <var name="$popup5" form="popup"/>
       </p>
     </li>
         <li>
       <p>
-        <m>\sin x + \sin x = \sin (2x) </m> FALSE
+        <m>\sin (4x) + \sin (4x) = \sin (8x) </m> <var name="$popup6" form="popup"/>
       </p>
     </li>
-
   </ol>
 </p>
-
-
-      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
 
   </webwork>
 </exercise>
 
-<exercise><title>CHECKPOINT</title>
-  <introduction>
-    <p>
-     p. 691 ex 53-60. 
-    </p>
-  </introduction>
+ <exercise><title>Write in terms of sine and cosine - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
+      $a = random(2,9,1);
+      $ans1 = Compute("(1-$a)/cos x");
+      $ans2 = Compute("2 sin x cos x");
+      $ans3 = Compute("1");
 
-      Context()->functions->disable('All');
-      Context()->functions->enable('sqrt');
+         Context()->functions->disable('All');
+         Context()->functions->enable('sin','cos');
     </pg-code>
 
     <statement>
-      <p>Write the expression <m> <var name="$a"/> \csc \theta \tan \theta - 2\sec \theta </m> in terms of only sine and cosine, and simplify as much as possible. </p>
-      <p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <var name="$ans" width="6"/>.</p>
+  <p>
+      Write each expression in terms of only sine and cosine, and simplify as much as possible. 
+  </p>
+<ol>
+  <li>
+    <p>
+      <m>\csc x \tan x - <var name="$a"/>\sec x =</m>  <var name="$ans1" width="6"/>.
+    </p>
+  </li>
+    <li>
+    <p>
+      <m>\frac{\tan x}{\sec x}+\frac{\cot x}{\csc x} = </m> <var name="$ans2" width="6"/>.
+    </p>
+  </li>
+    <li>
+    <p>
+      <m>\frac{\sec x\csc x}{\tan x+\cot x}</m> <var name="$ans3" width="6"/>.
+    </p>
+  </li>
+</ol>
     </statement>
-
   </webwork>
 </exercise>
 
-<exercise><title>Simplify - HOMEMADE</title>
+ <exercise><title>Simplify a product - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(2,9,1);
+      $ans = Compute("tan (x^2+5)");
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('tan','cos');
+    </pg-code>
+
+    <statement>
+      <p>
+       Simplify the below expression as much as possible. 
+      </p>
+      <p>
+        <m>\sec(x^2+5) \left[\sin(x^2)\cos(5)+\cos(x^2)\sin(5)\right]=</m>  <var name="$ans" width="6"/>.
+      </p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Simplify two quotients - HOMEMADE</title>
   <introduction>
     <p>
     (Not randomizable)
@@ -994,70 +1000,479 @@ $popup5 = PopUp(['?','True','False'],1);
   </webwork>
 </exercise>
 
-    <example ><title>NEED EXAMPLE</title>
-    <statement>
-      <p>
-      p. 670 ex 84. Then do a similar one as a checkpoint??
-       <me>....</me>
-      </p>
-    </statement>
-    <answer>
-      <p>
-        <me>\boxed{....}</me>
-      </p>
-      </answer>
-    <solution>
-      <p>
-        <me>\boxed{....}</me>
-      </p>
-    </solution>
-  </example>
+<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("-12/5");
 
-    <example ><title>NEED EXAMPLE</title>
-    <statement>
-      <p>
-      See p. 693 ex 77-78. (a) is it true that [write the expression for a value that it's true]. (b) Is it an identity? (No). Then do the second one as a checkpoint. 
-       <me>....</me>
-      </p>
-    </statement>
-    <answer>
-      <p>
-        <me>\boxed{....}</me>
-      </p>
-      </answer>
-    <solution>
-      <p>
-        <me>\boxed{....}</me>
-      </p>
-    </solution>
-  </example>
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
 
-      <example ><title>NEED EXAMPLE</title>
+    <statement>
+      <p> 
+      Suppose <m>\theta</m> is an angle with terminal side in Quadrant IV, and 
+      suppose <m>\cos \theta = \frac{12}{13}</m>. What is the value of <m>\cot \theta</m>?
+      </p>
+      <p><m>\cot \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("-(3sqrt(5))/7");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p> 
+      Suppose <m>\theta</m> is an angle with terminal side in Quadrant II, and 
+      suppose <m>\sin \theta = \frac{2}{7}</m>. What is the value of <m>\cos \theta</m>?
+      </p>
+      <p><m>\cos \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Simplify - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans1 = Compute("(3 - 4cos(2x) + cos(4x))/(8)");
+      $ans2 = Compute("7-6x");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sin','cos');
+    </pg-code>
+
     <statement>
       <p>
-      See p. 719 ex 65-66. 
-       <me>....</me>
+        Re-write <m>\sin^4 x</m> so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function. 
+      </p>
+      <p>
+      <m>\sin^4 x =</m>  <var name="$ans1" width="6"/>.
       </p>
     </statement>
-    <answer>
-      <p>
-        <me>\boxed{....}</me>
+
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate - HOMEMADE</title>
+  <introduction>
+    <p>
+        (Not randomizable) 
+     </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      <!-- $a = random(2,9,1);
+      $b = random(2,9,1); -->
+      $ans1 = Compute("24/25");
+      $ans2 = Compute("7/25");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+      Suppose that for some angles <m>\alpha</m> and <m>\beta</m> in Quadrant I, we know that <m>\sin \alpha = \frac{3}{5}</m> and 
+      <m>\sec \beta = \frac{5}{4}</m>. Evaluate the following:
+    <ol label="a">
+      <li>
+        <p>
+         <m>\sin(\alpha+\beta) =</m>  <var name="$ans1" width="6"/>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\cos(2\beta)= </m> <var name="$ans2" width="6"/>. 
+        </p>
+      </li>
+    </ol>
       </p>
-      </answer>
-    <solution>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Simplify a product - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(2,9,1);
+      $ans = Compute("1");
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('tan','cos');
+    </pg-code>
+
+    <statement>
       <p>
-        <me>\boxed{....}</me>
+       Simplify the below expressions as much as possible. 
       </p>
-    </solution>
-  </example>
+      <p>
+        <m>frac{\tan x + \cot x}{\sec x \csc x}=</m>  <var name="$ans" width="6"/>.
+      </p>
+    </statement>
+  </webwork>
+</exercise>
 
   </exercises>
 
-<exercises><title>Additional Exercises</title>
+<exercises xml:id="trig-id-additional"><title>Additional Exercises</title>
   <p>
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
- 
+
+<exercise><title>An identity or not? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+        Consier the equation 
+        <md>
+          \sin(x+y) = \sin x + \sin y
+        </md>
+        Which of the following statements are true, and which are false? 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        The above equation holds for all values of <m>x</m> and <m>y</m>.  <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        The above equation holds for at least some value(s) of <m>x</m> and <m>y</m>.  <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        The above equation holds for at least some non-zero value(s) of <m>x</m> and <m>y</m>.  <var name="$popup3" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        The above equation is a trigonometric identity.  <var name="$popup4" form="popup"/>
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+
+<exercise><title>Construct an identity - HOMEMADE</title>
+  <introduction>
+    <p>
+    (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans1 = Compute("2");
+      $ans2 = Compute("4");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('tan');
+    </pg-code>
+
+    <statement>
+      <p>
+        Use a graphing calculator (for example DESMOS) to sketch the graph of <m>y=8\sin x \cos x \sin (2x)</m>. 
+        Use that graph to guess values of <m>a</m> and <m>a</m> that make the below equation an identity.
+      <md>
+        8\sin x \cos x \sin (2x) = a \sin (bx)
+      </md>  
+      </p>
+
+        <ol>
+          <li>
+            <p>
+              <m> a = </m>    <var name="$ans1" width="6"/>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m> b = </m>    <var name="$ans2" width="6"/>.
+            </p>
+          </li>
+        </ol>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],2);
+$popup6 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>
+        Which of the following statements are true, and which are false? 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m> \frac{\sin (3x) + \cos (3x)}{\sin (3x)} = 1 + \cot (3x) </m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\cos(3x+4y) = \cos(3x) + \cos(4y)</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+      <li>
+      <p>
+        <m>(\sec (xy))^2 = \frac{1}{\cos^2 (xy)}</m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>\sin (-4x)  = \sin (4x) </m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>(\tan (xy))^2 = \tan^2 (x)\tan^2 (y)</m> <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\sin^4 x + \cos^4 x = 1</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+
+  </webwork>
+</exercise>
+
+ <exercise><title>Write in terms of sine and cosine - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(2,9,1);
+      $ans1 = Compute("((1-$a)cos x)/sin x");
+      $ans2 = Compute("0");
+            $ans2 = Compute("1/sin x");
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sin','cos');
+    </pg-code>
+
+    <statement>
+      <p>
+        Write each expression in terms of only sine and cosine, and simplify as much as possible. 
+      </p>
+<ol>
+  <li>
+    <p>
+      <m>\frac{\csc x}{\sec x} - <var name="$a"/> \cot x=</m>  <var name="$ans1" width="6"/>.
+    </p>
+  </li>
+    <li>
+    <p>
+      <m>\sec x \sin x - \tan x = </m> <var name="$ans2" width="6"/>.
+    </p>
+  </li>
+    <li>
+    <p>
+      <m>\frac{\csc x-\sin x}{\cot x\cos x} = </m> <var name="$ans3" width="6"/>.
+    </p>
+  </li>
+</ol>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("3/5");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p> 
+      Suppose <m>\theta</m> is an angle with terminal side in Quadrant I, and 
+      suppose <m>\tan \theta = \frac{3}{4}</m>. What is the value of <m>\sin \theta</m>?
+      </p>
+      <p><m>\sin \theta =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Evaluate - HOMEMADE</title>
+  <introduction>
+    <p>
+        (Not randomizable) 
+     </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      <!-- $a = random(2,9,1);
+      $b = random(2,9,1); -->
+      $ans1 = Compute("-12/13");
+      $ans2 = Compute("-5/13");
+      $ans3 = Compute("120/169");
+      $ans4 = Compute("0");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+      Suppose that for some angles <m>\tau</m>  in Quadrant II, we know that <m>\sin \tau = \frac{5}{13}</m> and 
+      and <m>\gamma</m> is in Quadrant IV with <m>\tan \gamma = -\frac{5}{12}</m>. Evaluate the following:
+    <ol label="a">
+      <li>
+        <p>
+         <m>\cos(\tau) =</m>  <var name="$ans1" width="6"/>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\sin(\gamma)= </m> <var name="$ans2" width="6"/>. 
+        </p>
+      </li>
+            <li>
+        <p>
+         <m>\sin(\tau+\gamma) =</m>  <var name="$ans3" width="6"/>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\sin(\tau-\gamma)= </m> <var name="$ans4" width="6"/>. 
+        </p>
+      </li>
+    </ol>
+      </p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Simplify a product - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(2,9,1);
+      $ans = Compute("-cos(2x)");
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sin','cos');
+    </pg-code>
+
+    <statement>
+      <p>
+       Simplify the below expression as much as possible. 
+      </p>
+      <p>
+        <m>\sin^4 x - \cos^4 x = </m>  <var name="$ans" width="6"/>.
+      </p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>Simplify a product - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(2,9,1);
+      $ans = Compute("cos(2x)");
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('tan','cos');
+    </pg-code>
+
+    <statement>
+      <p>
+       Simplify the below expression as much as possible. 
+      </p>
+      <p>
+        <m>\cos(y-x)\cos(x+y) + \sin(y-x)\sin(x+y) = </m>  <var name="$ans" width="6"/>.
+      </p>
+    </statement>
+  </webwork>
+</exercise>
+
   </exercises> 
 </section>
