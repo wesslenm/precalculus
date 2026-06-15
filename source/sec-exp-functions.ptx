@@ -3,9 +3,168 @@
 <section xml:id="sec-exp-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Functions and their Graphs</title>
 
-  <p> 
-    Coming soon.   
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Recognize an exponential function and distinguish it from a polynomial / power function
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify if an exponential function is modelling exponential growth or exponential decay based on its graph and/or equation
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify fundamental characteristics of exponential functions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Compare and contrast characteristics of exponential functions with those of polynomial functions.
+        </p>
+      </li>
+      <li>
+        <p>
+          Describe transformations of exponential functions. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Describe how transformations of exponential functions change the properties and characteristics (such as the horizontal asymptote and end behaviours) of the transformed function.
+        </p>
+      </li>
+      <li>
+        <p>
+          Define the number <m>e</m> and the natural exponential function <m>y=e^x</m>.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+   
+  <assemblage>
+    <title>Where will this be used in calculus?</title>
+    <p>
+    <ul>
+      <li>
+        <p>
+          Exponential functions are an important family of functions that are used throughout calculus to illustrate calculus related concepts and to practice computations. 
+        </p>
+      </li>
+      <li>
+        <p>
+        Exponential functions are solutions to many types of differential equations that model the rate of changing quantities such as population growth, the spread of infectious diseases, and the cooling of a liquid.
+        </p>
+      </li>
+      <li>
+        <p>
+          Exponential functions are used to model the growth of an investment due to compound interest.
+        </p>
+      </li>
+    </ul>
   </p>
+  </assemblage>
+
+  <introduction>
+    <p>    
+In <xref ref="sec-exp-intro"/>, we reviewed some fundamental exponent laws and learned how to re-write mathematical expressions involving exponents. 
+While this gives us a strong understanding of exponential calculations, we will now start looking at properties and characteristics of the exponential function, 
+which is often used in mathematical models to describe rapid growth or decay. 
+A defining characteristic of exponential functions is that they change at a rate that is directly proportional to the amount of the quantity that is currently present.   
+    </p>
+  </introduction>
+
+  <subsection>
+<title>What is an Exponential Function?</title>
+  <p> 
+    An <term>exponential function</term><idx>Exponential function</idx> is any function in the form <m>f(x)=b^x,</m> where <m>b>0</m> and <m>b \neq 1</m>.
+    Here, we call the parameter <m>b</m> the <term>base</term><idx>Base</idx> of the function, which determines the type of exponential relationship that is being modelled: 
+    </p>
+
+
+<aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Note.....
+      <!-- Note that we are focusing on <m>f(x)=b^x</m> where either <m>b</m> more than 1, or <m>0<b<1</m>. -->
+      If <m>b=1</m> then <m>f(x) = b^x = 1^x = 1</m> which does not have graphs similar to those seen here. 
+      (What is the graph of <m>f(x) = 1</m>?) 
+    </p>
+  </aside>
+
+<figure><caption>Exponential Growth</caption>
+  <title>Exponential Growth - NEED SVG GRAPH</title>
+  <image source="images/exponential-growth" width="70%">
+      <shortdescription>
+          If <m>b>1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>growth</alert>, 
+              which can be used to model quantities that increase rapidly over time. The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>b>1</m>.
+        </shortdescription>
+      <description>
+          <p>
+              If <m>b>1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>growth</alert>, 
+              which can be used to model quantities that increase rapidly over time. The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>b>1</m>.
+          </p>
+      </description>
+  </image>
+</figure>
+
+<figure><caption>Exponential Decay</caption>
+  <title>Exponential Decay - NEED SVG GRAPH</title>
+  <image source="images/exponential-growth" width="70%">
+      <shortdescription>
+          Exponential Decay.
+        </shortdescription>
+      <description>
+          <p>
+              <!-- If <m>0<b<1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>decay</alert>, 
+              which can be used to model quantities that shrink exponentially over time.
+              The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>0<b<1</m>. -->
+          </p>
+      </description>
+  </image>
+</figure>
+
+  <assemblage><title>Interactive graph activity</title>
+    <p>
+    Click the link to see an interactive graph of a dynamic exponential function. 
+    Use the sliders for the parameters <m>a</m> and <m>b</m> to see how different values of these parameters change the shape of the exponential graph
+  </p>
+
+  <p>
+    what do you notice when 
+    <!-- <m>b=1? b=0? b<0? b>0? 0<1<b</m>? -->
+  </p> 
+  </assemblage>
+
+
+
+
+  </subsection>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <exercises xml:id="exercises-exp">
   <p>

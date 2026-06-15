@@ -766,7 +766,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - HOMEMADE</title>
+<exercise><title>Evaluate <m>\cos \theta </m> - HOMEMADE</title>
    <introduction>
     <p>
        (Randomized.)
@@ -815,7 +815,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate <m>\tan \theta </m> without a calculator  - HOMEMADE</title>
+<exercise><title>Evaluate <m>\tan \theta </m>  - HOMEMADE</title>
    <introduction>
     <p>
        (Randomized.)
@@ -837,7 +837,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
  </exercise>
 
-<exercise><title>Evaluate <m>\sin \theta </m> without a calculator  - HOMEMADE</title>
+<exercise><title>Evaluate <m>\sin \theta </m> - HOMEMADE</title>
    <introduction>
     <p>
        (Randomized.)
@@ -859,7 +859,66 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
  </exercise>
 
-<exercise><title>Evaluate <m>\sin \theta </m> without a calculator - HOMEMADE</title>
+ <exercise><title>Evaluate at <m>\frac{-2\pi}{3}</m> - HOMEMADE</title>
+   <introduction>
+    <p>
+       (Not randomized.)
+    </p>
+   </introduction>
+<webwork>
+    <pg-code>
+      Context("Fraction");
+
+      $ans1 = Compute("-1/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans2 = Compute("-sqrt(3)/2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans3 = Compute("sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+      $ans4 = Compute("1/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .00000000001,   );
+      $ans5 = Compute("-2/sqrt(3)")->with(
+               tolType => 'absolute',
+               tolerance => .00000000001,   );
+      $ans6 = Compute("-2")->with(
+               tolType => 'absolute',
+               tolerance => .000000000000000000001,   );
+
+         Context()->functions->disable('All');
+         Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+        Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate. 
+      </p>
+      <p> 
+        (a) <m> \cos \left(-\frac{2\pi}{3}\right) =</m>  <var name="$ans1" width="10"/>.
+      </p>
+      <p> 
+        (b) <m> \sin \left(-\frac{2\pi}{3}\right) =</m>  <var name="$ans2" width="10"/>.
+      </p>
+      <p> 
+        (c) <m> \tan \left(-\frac{2\pi}{3}\right) =</m>  <var name="$ans3" width="10"/>.
+      </p>
+      <p> 
+        (d) <m> \cot \left(-\frac{2\pi}{3}\right) =</m>  <var name="$ans4" width="10"/>.
+      </p>
+        <p> 
+        (e) <m> \csc \left(-\frac{2\pi}{3}\right) =</m>  <var name="$ans5" width="10"/>.
+      </p>
+      <p> 
+        (f) <m> \sec \left(-\frac{2\pi}{3}\right) =</m>  <var name="$ans6" width="10"/>.
+      </p>
+    </statement>
+  </webwork>
+  </exercise>
+
+<exercise><title>Evaluate <m>\sin \theta </m> - HOMEMADE</title>
    <introduction>
     <p>
        (Randomized.)
@@ -891,7 +950,7 @@ For students who want even more problems to practice, here are some additional e
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
   </p>
 
-<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - FROM WEBWORK</title>
+<exercise><title>Evaluate <m>\cos \theta </m> - FROM WEBWORK</title>
    <introduction>
   <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -900,7 +959,7 @@ For students who want even more problems to practice, here are some additional e
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
  </exercise>
 
-<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - FROM WEBWORK</title>
+<exercise><title>Evaluate <m>\cos \theta </m> - FROM WEBWORK</title>
       <introduction>
         <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -909,7 +968,7 @@ For students who want even more problems to practice, here are some additional e
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
   </exercise>
 
-<exercise><title>Evaluate <m>\cos \theta </m> without a calculator - FROM WEBWORK</title>
+<exercise><title>Evaluate <m>\cos \theta </m> - FROM WEBWORK</title>
       <introduction>
         <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -918,7 +977,7 @@ For students who want even more problems to practice, here are some additional e
     <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
  </exercise>
 
- <exercise><title>Evaluate <m>\sin \theta </m> without a calculator - HOMEMADE</title>
+ <exercise><title>Evaluate <m>\sin \theta </m> - HOMEMADE</title>
    <introduction>
     <p>
        (Randomized.)
