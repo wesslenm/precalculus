@@ -54,7 +54,7 @@
 <p>
   Cross-reference: See <xref ref="rule-one"/> for ...   Note: The word "example" or "Checkpoint" etc. is included automatically, so do not type it up. 
 
-A new term: <term>radical</term>
+A new term: <term>radical</term> then idx to add an index item. 
 
 
  \amp "and" 

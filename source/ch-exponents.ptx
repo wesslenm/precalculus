@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-exp" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponents and Exponential Functions</title>
+  <title>Exponential and Logarithmic Functions</title>
 
   <introduction>
     <p> 
@@ -10,7 +10,7 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-exp-intro.ptx" />
+  <!-- <xi:include href="sec-exp-intro.ptx" /> -->
   <xi:include href="sec-exp-functions.ptx" />
   <xi:include href="sec-exp-log.ptx" />
   <xi:include href="sec-exp-lngraph.ptx" />
