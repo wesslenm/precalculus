@@ -329,19 +329,19 @@ We will focus mostly on the cases where <m>d=0</m>.
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="exercises-exp"/>) and then come back to the Recommended Exercises.
     </p>
 
-    <exercise><title>Exponential graphs</title>
+    <exercise><title>Equal value for <m>a</m></title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" />
   </exercise>
   
-  <exercise><title>Exponential graphs</title>
+  <exercise><title>Largest value for <m>b</m></title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" />
   </exercise>
 
-  <exercise>
+  <exercise><title>Transformations</title>
     <webwork source="Library/ma112DB/set9/sw6_2_5.pg" />
   </exercise>
 
-  <exercise>        
+  <exercise><title>Domain</title>        
     <webwork source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" />
   </exercise>
 
