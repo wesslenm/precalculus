@@ -1,0 +1,55 @@
+openDate          = 06/15/2026 at 12:00am
+dueDate           = 12/15/2026 at 10:00pm
+answerDate        = 12/15/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/1_2-Exponential_Rules.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/1_2-Exponential_Rules.pg
+description       = Exponential Rules
+problemListV2
+problem_start
+source_file = Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/Exponents/negExp36.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg
+problem_id = 28
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg
+problem_id = 29
+problem_end
+problem_start
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_4_16.pg
+problem_id = 30
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-04-Fractional-exponents.pg
+problem_id = 34
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg
+problem_id = 35
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg
+problem_id = 36
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg
+problem_id = 37
+problem_end

@@ -1,0 +1,31 @@
+openDate          = 06/15/2026 at 12:00am
+dueDate           = 12/15/2026 at 10:00pm
+answerDate        = 12/15/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_2-Exponential_Functions_and_their_Graphs.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_2-Exponential_Functions_and_their_Graphs.pg
+description       = Exponential Functions and their Graphs
+problemListV2
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q07.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg
+problem_id = 25
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponents_and_Exponential_Functions/2_2-Exponential_Functions_and_their_Graphs/2_27-Function_characteristics__NEEED_TO_COMPLETE.pg
+problem_id = 27
+problem_end
+problem_start
+source_file = Library/ASU-topics/setExponentialFunctions/sw6_2_3.pg
+problem_id = 29
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg
+problem_id = 30
+problem_end

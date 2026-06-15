@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Exponents and Exponential Functions</title>
+<title>Exponential and Logarithmic Functions</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -120,14 +120,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.1.1';
+eBookConfig.runestone_version = '8.1.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<script src="_static/prefix-runtime.d0616b3d72ab3b06.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.af9055d29ed602c4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><link rel="icon" type="image/png" sizes="32x32" href="external/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="external/favicon/favicon-16x16.png">
@@ -150,7 +150,7 @@ eBookConfig.enable_chatcodes =  false;
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-func-dividing.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="my-great-book.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-exp-intro.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-func-dividing.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="my-great-book.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-exp-functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}  \newcommand{\longdiv}{\smash{\mkern-0.43mu\vstretch{1.31}{\hstretch{.7}{)}}\mkern-5.2mu\vstretch{1.31}{\hstretch{.7}{)}}}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -185,66 +185,73 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-func-dividing.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Dividing Polynomials</span></a></div>
+<div class="toc-title-box"><a href="sec-exp-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Exponential Rules</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-5" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Notation</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-6" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Long Division of Polynomials</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-7" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Additional Examples</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-8" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-5" class="internal"><span class="codenumber">1.2.1</span> <span class="title">The First Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-6" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Roots/Radicals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-7" class="internal"><span class="codenumber">1.2.3</span> <span class="title">More Exponential Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-8" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-9" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-10" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-intro.html#exp-additional" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-func-dividing.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Dividing Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-5" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-6" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Long Division of Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-7" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-8" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-exp.html" class="internal"><span class="codenumber">2</span> <span class="title">Exponents and Exponential Functions</span></a></div>
+<div class="toc-title-box"><a href="ch-exp.html" class="internal"><span class="codenumber">2</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
 <ul class="structural toc-item-list active">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-exp-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Rules</span></a></div>
+<div class="toc-title-box"><a href="sec-exp-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Functions and their Graphs</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-5" class="internal"><span class="codenumber">2.1.1</span> <span class="title">The First Rules</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-6" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Roots/Radicals</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-7" class="internal"><span class="codenumber">2.1.3</span> <span class="title">More Exponential Rules</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-8" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Summary</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-9" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Additional Examples</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-10" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Recommended Exercises</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-intro.html#exp-additional" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Additional Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-5" class="internal"><span class="codenumber">2.1.1</span> <span class="title">What is an Exponential Function?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-6" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Euler’s Number and The Natural Exponential Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-7" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Characteristics of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-8" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Transformations of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-9" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-functions.html#exercises-exp" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Extra Exercises - Temporarily here</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-exp-functions.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exponential Functions and their Graphs</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-functions.html#exercises-exp" class="internal"><span class="codenumber">2.2</span> <span class="title">Exercises</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-exp-log.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The Natural Logarithm</span></a></div>
+<div class="toc-title-box"><a href="sec-exp-log.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The Natural Logarithm</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-5" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Section 1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-6" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Section 2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-7" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Any other topics?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-8" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Additional Examples</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-9" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Recommended Exercises</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-10" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Additional Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-5" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Section 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-6" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Section 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-7" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-8" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-9" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-10" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Additional Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-exp-lngraph.html" class="internal"><span class="codenumber">2.4</span> <span class="title">The Logarithmic Function and its Graph</span></a></div>
+<div class="toc-title-box"><a href="sec-exp-lngraph.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The Logarithmic Function and its Graph</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-5" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Section 1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-6" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Section 2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-7" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Any other topics?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-8" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Additional Examples</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-9" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Recommended Exercises</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-10" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Additional Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-5" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Section 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-6" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Section 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-7" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-8" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-9" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-lngraph.html#sec-exp-lngraph-10" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Additional Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-exp-solve.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Solving Exponential and Logarithmic Functions</span></a></div>
+<div class="toc-title-box"><a href="sec-exp-solve.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Solving Exponential and Logarithmic Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-5" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Section 1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-6" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Section 2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-7" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Any other topics?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-8" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Additional Examples</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-9" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Recommended Exercises</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-10" class="internal"><span class="codenumber">2.5.6</span> <span class="title">Additional Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-5" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Section 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-6" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Section 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-7" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-8" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-9" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-10" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Additional Exercises</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -340,19 +347,18 @@ eBookConfig.enable_chatcodes =  false;
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-exp">
 <h2 class="heading">
-<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exponents and Exponential Functions</span>
+<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exponential and Logarithmic Functions</span>
 </h2>
 <section class="introduction" id="ch-exp-2">
 <div class="para" id="ch-exp-2-1">In this section, we will look at properties of exponents. Here, these rules apply to any type of function that involves exponents, namely power functions and exponential functions. However, this section will mostly focus on power functions, functions where the base is the variable and the exponent is a constant. We’ll discuss several exponent rules, show you how to use them, and explain the reasoning behind these rules.<div class="autopermalink" data-description="Paragraph"><a href="#ch-exp-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><nav class="summary-links"><ul>
-<li><a href="sec-exp-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Rules</span></a></li>
-<li><a href="sec-exp-functions.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exponential Functions and their Graphs</span></a></li>
-<li><a href="sec-exp-log.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The Natural Logarithm</span></a></li>
-<li><a href="sec-exp-lngraph.html" class="internal"><span class="codenumber">2.4</span> <span class="title">The Logarithmic Function and its Graph</span></a></li>
-<li><a href="sec-exp-solve.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Solving Exponential and Logarithmic Functions</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Chapter 2: Exponents and Exponential Functions"><a href="#ch-exp" title="Copy heading and permalink for Chapter 2: Exponents and Exponential Functions" aria-label="Copy heading and permalink for Chapter 2: Exponents and Exponential Functions">🔗</a></div></section></div>
+<li><a href="sec-exp-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Functions and their Graphs</span></a></li>
+<li><a href="sec-exp-log.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The Natural Logarithm</span></a></li>
+<li><a href="sec-exp-lngraph.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The Logarithmic Function and its Graph</span></a></li>
+<li><a href="sec-exp-solve.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Solving Exponential and Logarithmic Functions</span></a></li>
+</ul></nav><div class="autopermalink" data-description="Chapter 2: Exponential and Logarithmic Functions"><a href="#ch-exp" title="Copy heading and permalink for Chapter 2: Exponential and Logarithmic Functions" aria-label="Copy heading and permalink for Chapter 2: Exponential and Logarithmic Functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="sec-func-dividing.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-exp-intro.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-func-dividing.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-exp-functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

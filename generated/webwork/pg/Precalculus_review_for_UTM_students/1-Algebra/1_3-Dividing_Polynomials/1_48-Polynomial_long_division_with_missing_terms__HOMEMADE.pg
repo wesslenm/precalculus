@@ -1,0 +1,77 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-15T21:37:18Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.48)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$quot = Formula("x^2+1");
+Context("Numeric");
+$remainder = Formula("-24");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+(Not randomizable) Use long division to find the quotient and remainder when
+
+[```
+            x^4 -25          ```]
+
+is divided by
+
+[```
+            x^2-1.
+           ```]
+
+The quotient is [_]{$quot}{10}
+
+The remainder is [_]{$remainder}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

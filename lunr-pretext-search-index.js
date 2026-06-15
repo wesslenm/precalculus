@@ -478,20 +478,407 @@ var ptx_lunr_docs = [
   "body": "Add three rational expressions - FROM WEBWORK    Select all expressions that are equivalent to There may be more than one correct answer.                        "
 },
 {
+  "id": "sec-exp-intro",
+  "level": "1",
+  "url": "sec-exp-intro.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Exponential Rules",
+  "body": " Exponential Rules     Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.     Where will this be used in calculus?  Rewriting and simplifying exponentials and radicals is useful in most computational areas of mathematics, including calculus. Here are two specific calculus examples:   When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting as will make it easier to differentiate or integrate.    After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy, complicated-looking expression which needs to be simplified.        As an introduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length , we would multiply by itself three times to get length times width times height. We can write . Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent . But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them.   The First Rules  The first exponent rule we will examine is:   Here, the first term, tells us to multiply by itself times and the second term tells us to multiply it times. Together, that says we need to multiply a total of times, giving us . As an example, .  Note that is true for all positive values of and all real numbers and (they do not need to be integers).  Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows         Next, let's look at negative exponents:   This rule builds off of our previous rule. If we have , rule tells us that we really have . We went from having multiplied 5 times to having multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division:   A negative exponent indicates division rather than multiplication.  A more general version of the rule is the following: which is true for all real numbers and , and all positive values of . We can see this from previous rules:   Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that         Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =             If there are several different base numbers, we need to collect those with the same base, as in the following example.  Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:     Simplify - FROM WEBWORK    Simplify the expression:  =             Note: Write your answer using only positive exponents.      Roots\/Radicals  Before we continue with more exponent rules, let's look at the inverse function, or how to ``undo'' an exponent. These are called root functions. A square root, for example, ``reverses'' squaring and a cube root ``reverses'' cubing. In general, we have   and   (Both of the above are examples of rule , which we will look more at soon.)  Often, you will see written as . Mathematicians call the radical form and the exponential form. Both have the same meaning. Anytime you see , you can replace it with and vice versa. Even more generally, we have: which is true for all real numbers and , and all positive values of .  Sometimes, it is useful to be able to simplify radicals or rational exponents by hand. Let's take a look at how we can evaluate these types of terms.  Evaluate radicals  Evaluate without using a calculator.        As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor .  If we use the second version, we would start by finding the cube root of 8. When we factor, we get , which shows us that . This means that so our final answer is     Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.    Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.      More Exponential Rules  The next rule we will discuss is     This rule builds directly off of our first rule as well. When and are integers, tells us we need to multiply by itself times. Since multiplies by itself times, tells us to multiply by itself a total of times. For example,   We can also use this rule when there is a product or quotient inside the parentheses, but not if there is addition or subtraction. If and , then:      However,     Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and    Exponents and addition  Are and equal or different?   They are different. In general: We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.    Addition inside a bracket   Simpliy the expression .      To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.      Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                     Double exponents - FROM WEBWORK    Simplify the expression:  =             Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.      Summary  The rules we have just seen will all be quite handy in calculus (and many other fields of mathematics, of course). In both integral and differential calculus, we will have rules that work well when we have a power function (a function of the form ), but won't work for other forms of functions. By being able to rewrite functions like , in power function form ( in this case), other calculations will be simplified.  Our rules are summarized below.  Exponential Rules  The following are true for all positive numbers and , and any real numbers and :                                                            Notation  Suppose is any positive number , and and are integers, with . Then:             It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:  Common Errors  The following expressions are not equal, in general.         Additional Examples  Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that     Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is      Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                        Evaluate - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify - FROM WEBWORK    Simplify the following expression.                  Study tip:   If you want to review working with fractions, see .   Simplify - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .        Multiply and divide - FROM WEBWORK    Simplify the expression:  =             Note: Your answer should not include any negative exponents.    Simplify - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.               Simplify - FROM WEBWORK   Note: A monomial is a term of the form for some constants and .     Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                   Simplify - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Simplify - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,        Simplify - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows          Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  Common errors  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal (similar to what we did in the solution of ).   Simplify - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).             Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .        Add and subtract - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =             Multiply - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                   Multiply - FROM WEBWORK    Simplify the expression:  =               Your answer should include no negative exponents.     Simplify - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                   Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                        Simplify - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                            "
+},
+{
+  "id": "sec-exp-intro-2",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-2",
+  "type": "Objectives",
+  "number": "1.2",
+  "title": "",
+  "body": "   Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.    "
+},
+{
+  "id": "ex-exp-CP1",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-CP1",
+  "type": "Checkpoint",
+  "number": "1.21",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows        "
+},
+{
+  "id": "ex-exp-numbers",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-numbers",
+  "type": "Checkpoint",
+  "number": "1.22",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
+},
+{
+  "id": "ex-exp-div",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-div",
+  "type": "Checkpoint",
+  "number": "1.23",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2x is not the same as 1\/(2x).        We use the properties of exponents to help us here, remembering that        "
+},
+{
+  "id": "ex-exp-multdiv",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-multdiv",
+  "type": "Checkpoint",
+  "number": "1.24",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =            "
+},
+{
+  "id": "sec-exp-intro-5-16",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-5-16",
+  "type": "Example",
+  "number": "1.25",
+  "title": "Simplify exponents with several bases.",
+  "body": "Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:    "
+},
+{
+  "id": "ex-exp-mult2",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-mult2",
+  "type": "Checkpoint",
+  "number": "1.26",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the expression:  =             Note: Write your answer using only positive exponents.   "
+},
+{
+  "id": "sec-exp-intro-6-7",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-6-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "radical exponential "
+},
+{
+  "id": "sec-exp-intro-6-9",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-6-9",
+  "type": "Example",
+  "number": "1.27",
+  "title": "Evaluate radicals.",
+  "body": "Evaluate radicals  Evaluate without using a calculator.        As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor .  If we use the second version, we would start by finding the cube root of 8. When we factor, we get , which shows us that . This means that so our final answer is    "
+},
+{
+  "id": "ex-exp-root",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-root",
+  "type": "Checkpoint",
+  "number": "1.28",
+  "title": "Evaluate radicals - FROM WEBWORK.",
+  "body": "Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+},
+{
+  "id": "sec-exp-intro-6-11",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-6-11",
+  "type": "Checkpoint",
+  "number": "1.29",
+  "title": "Multiply radicals - FROM WEBWORK.",
+  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.   "
+},
+{
+  "id": "ex-exp-root3",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-root3",
+  "type": "Checkpoint",
+  "number": "1.30",
+  "title": "Multiply radicals - FROM WEBWORK.",
+  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.   "
+},
+{
+  "id": "sec-exp-intro-7-7",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-7-7",
+  "type": "Example",
+  "number": "1.31",
+  "title": "Double exponents.",
+  "body": "Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and   "
+},
+{
+  "id": "ex-add",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-add",
+  "type": "Example",
+  "number": "1.32",
+  "title": "Exponents and addition.",
+  "body": "Exponents and addition  Are and equal or different?   They are different. In general: We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.   "
+},
+{
+  "id": "sec-exp-intro-7-9",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-7-9",
+  "type": "Example",
+  "number": "1.33",
+  "title": "Addition inside a bracket.",
+  "body": "Addition inside a bracket   Simpliy the expression .      To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.     "
+},
+{
+  "id": "ex-exp-radical2",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-radical2",
+  "type": "Checkpoint",
+  "number": "1.34",
+  "title": "Simplify radicals - FROM WEBWORK.",
+  "body": "Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.   "
+},
+{
+  "id": "sec-exp-intro-7-11",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-7-11",
+  "type": "Checkpoint",
+  "number": "1.35",
+  "title": "Double exponents - FROM WEBWORK.",
+  "body": "Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                    "
+},
+{
+  "id": "ex-exp-div2",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-div2",
+  "type": "Checkpoint",
+  "number": "1.36",
+  "title": "Double exponents - FROM WEBWORK.",
+  "body": "Double exponents - FROM WEBWORK    Simplify the expression:  =            "
+},
+{
+  "id": "ex-exp-radical3",
+  "level": "2",
+  "url": "sec-exp-intro.html#ex-exp-radical3",
+  "type": "Checkpoint",
+  "number": "1.37",
+  "title": "Addition inside a bracket - FROM WEBWORK.",
+  "body": "Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.   "
+},
+{
+  "id": "sec-exp-intro-9-4",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-9-4",
+  "type": "Example",
+  "number": "1.38",
+  "title": "Simplify exponents.",
+  "body": "Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that    "
+},
+{
+  "id": "sec-exp-intro-9-5",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-9-5",
+  "type": "Example",
+  "number": "1.39",
+  "title": "Simplify exponents involving addition.",
+  "body": "Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is    "
+},
+{
+  "id": "sec-exp-intro-10-3",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-3",
+  "type": "Exercise",
+  "number": "1.2.6.1",
+  "title": "Evaluate - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                       "
+},
+{
+  "id": "sec-exp-intro-10-4",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-4",
+  "type": "Exercise",
+  "number": "1.2.6.2",
+  "title": "Evaluate - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+},
+{
+  "id": "sec-exp-intro-10-5",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-5",
+  "type": "Exercise",
+  "number": "1.2.6.3",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the following expression.               "
+},
+{
+  "id": "sec-exp-intro-10-7",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-7",
+  "type": "Exercise",
+  "number": "1.2.6.4",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .       "
+},
+{
+  "id": "sec-exp-intro-10-8",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-8",
+  "type": "Exercise",
+  "number": "1.2.6.5",
+  "title": "Multiply and divide - FROM WEBWORK.",
+  "body": "Multiply and divide - FROM WEBWORK    Simplify the expression:  =             Note: Your answer should not include any negative exponents.   "
+},
+{
+  "id": "sec-exp-intro-10-9",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-9",
+  "type": "Exercise",
+  "number": "1.2.6.6",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.              "
+},
+{
+  "id": "sec-exp-intro-10-10",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-10",
+  "type": "Exercise",
+  "number": "1.2.6.7",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK   Note: A monomial is a term of the form for some constants and .     Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                  "
+},
+{
+  "id": "sec-exp-intro-10-11",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-11",
+  "type": "Exercise",
+  "number": "1.2.6.8",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
+},
+{
+  "id": "sec-exp-intro-10-12",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-12",
+  "type": "Exercise",
+  "number": "1.2.6.9",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,       "
+},
+{
+  "id": "sec-exp-intro-10-13",
+  "level": "2",
+  "url": "sec-exp-intro.html#sec-exp-intro-10-13",
+  "type": "Exercise",
+  "number": "1.2.6.10",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows        "
+},
+{
+  "id": "exp-additional-3",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-3",
+  "type": "Exercise",
+  "number": "1.2.7.1",
+  "title": "Common errors.",
+  "body": "Common errors  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal (similar to what we did in the solution of ).  "
+},
+{
+  "id": "exp-additional-4",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-4",
+  "type": "Exercise",
+  "number": "1.2.7.2",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
+},
+{
+  "id": "exp-additional-5",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-5",
+  "type": "Exercise",
+  "number": "1.2.7.3",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).            "
+},
+{
+  "id": "exp-additional-6",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-6",
+  "type": "Exercise",
+  "number": "1.2.7.4",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
+},
+{
+  "id": "exp-additional-7",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-7",
+  "type": "Exercise",
+  "number": "1.2.7.5",
+  "title": "Solve - FROM WEBWORK.",
+  "body": "Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .       "
+},
+{
+  "id": "exp-additional-8",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-8",
+  "type": "Exercise",
+  "number": "1.2.7.6",
+  "title": "Add and subtract - FROM WEBWORK.",
+  "body": "Add and subtract - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =            "
+},
+{
+  "id": "exp-additional-9",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-9",
+  "type": "Exercise",
+  "number": "1.2.7.7",
+  "title": "Multiply - FROM WEBWORK.",
+  "body": "Multiply - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                  "
+},
+{
+  "id": "exp-additional-10",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-10",
+  "type": "Exercise",
+  "number": "1.2.7.8",
+  "title": "Multiply - FROM WEBWORK.",
+  "body": "Multiply - FROM WEBWORK    Simplify the expression:  =               Your answer should include no negative exponents.   "
+},
+{
+  "id": "exp-additional-11",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-11",
+  "type": "Exercise",
+  "number": "1.2.7.9",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                  "
+},
+{
+  "id": "exp-additional-12",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-12",
+  "type": "Exercise",
+  "number": "1.2.7.10",
+  "title": "Simplest radical form - FROM WEBWORK.",
+  "body": "Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                       "
+},
+{
+  "id": "exp-additional-13",
+  "level": "2",
+  "url": "sec-exp-intro.html#exp-additional-13",
+  "type": "Exercise",
+  "number": "1.2.7.11",
+  "title": "Simplify - FROM WEBWORK.",
+  "body": "Simplify - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                       "
+},
+{
   "id": "sec-func-dividing",
   "level": "1",
   "url": "sec-func-dividing.html",
   "type": "Section",
-  "number": "1.2",
+  "number": "1.3",
   "title": "Dividing Polynomials",
-  "body": " Dividing Polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.     Where will this be used in calculus?  Throughout our study of calculus, long division of polynomials can be useful when:     Looking for certain types of asymptotes, which is important in graph sketching,    Polynomials or rational expressions need to be expressed in equivalent ways, such as during an integration technique called Partial Fractions,    Finding the anti-derivative of a rational function whose numerator is larger in degree than its denominator, again during an integration technique called Partial Fractions.       You may remember long division of large numbers, such as 5781 divided by 25. In this section, we review how the technique of long division can be used to divide a polynomial by another polynomial of equal or lesser degree.   Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend  Dividend and is called the divisor  Divisor . The answer to the division is called the quotient  Quotient . In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:      quotient      divisor  dividend    Sometimes there is a remainder  Remainder if the dividend is not evenly divided by the divisor. For an example, see .   Long Division of Polynomials Long division  Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)  Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:   Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:     Interpreting the result - HOMEMADE    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                   Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4      Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .   Set-up and notation - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                              Long division with quadratic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Study tip:   You may be able to do this without using long division. That's great, but you should also try answering the question by using long division (for practice).   Long division with cubic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  You may have heard of a technique called synthetic division . It is based onthe same technique and steps as described above, but used in a shorthand notation. The synthetic division notation only applies when divising by a linear divisor of the form . If you would like to use synthetic division you can, but we will not go over it here.   Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:     Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  Exercises  True or False - HOMEMADE    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                   Interpreting results - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                 Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                     Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                  "
+  "body": " Dividing Polynomials     Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.     Where will this be used in calculus?  Throughout our study of calculus, long division of polynomials can be useful when:     Looking for certain types of asymptotes, which is important in graph sketching,    Polynomials or rational expressions need to be expressed in equivalent ways, such as during an integration technique called Partial Fractions,    Finding the anti-derivative of a rational function whose numerator is larger in degree than its denominator, again during an integration technique called Partial Fractions.       You may remember long division of large numbers, such as 5781 divided by 25. In this section, we review how the technique of long division can be used to divide a polynomial by another polynomial of equal or lesser degree.   Notation  Suppose we want to divide the polynomial by . (We will actually do this later in .) The notation we will use is as follows:                              If dividing the polynomial by , then is called the dividend  Dividend and is called the divisor  Divisor . The answer to the division is called the quotient  Quotient . In our algebraic work, the divisor, dividend and quotient will be arranged in the following way:      quotient      divisor  dividend    Sometimes there is a remainder  Remainder if the dividend is not evenly divided by the divisor. For an example, see .   Long Division of Polynomials Long division  Long division can be used to divide polynomials where the degree of the divisor is equal or smaller than the degree of the dividend. Let's start with a small example. Let's divide by . (You may be able to easily find out the answer by factoring , but instead let's practice long division on this simple example.)  Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .     If the last step in the long division is not zero, we say that there is a remainder.  When a polynomial is divided by a polynomial , with quotient and remainder , then the result can be written in the form:   Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:     Interpreting the result - HOMEMADE    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.3.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                   Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4      Study tip:   Try the long division in without looking at the worked out steps given there. Then compare your answer to what is given in .   Set-up and notation - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                              Long division with quadratic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                    Study tip:   You may be able to do this without using long division. That's great, but you should also try answering the question by using long division (for practice).   Long division with cubic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  You may have heard of a technique called synthetic division . It is based onthe same technique and steps as described above, but used in a shorthand notation. The synthetic division notation only applies when divising by a linear divisor of the form . If you would like to use synthetic division you can, but we will not go over it here.   Additional Examples  Here are a few additional examples.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:     Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.3.1)  \/ = + \/                                  Exercises  True or False - HOMEMADE    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                               Set-up - HOMEMADE   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                   Interpreting results - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                 Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                     Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                  Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                  Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                  Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                     Quotient and remainder, degree 5 - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                  Specific result format - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.3.1)  \/ = + \/                                  "
 },
 {
   "id": "sec-func-dividing-2",
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-2",
   "type": "Objectives",
-  "number": "1.2",
+  "number": "1.3",
   "title": "",
   "body": "   Use long division to divide a polynomial by another polynomial.    Interpret the results of long division of polynomials.    Validate results of polynomial division.    "
 },
@@ -518,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#longdiv2",
   "type": "Example",
-  "number": "1.21",
+  "number": "1.40",
   "title": "Polynomial long division.",
   "body": "Polynomial long division   Use long division to divide the polynomial by .         Step 1.  Setup:                          Step 2.  Question: times what gives ?  Answer: . So write at the top. ( will be part of the quotient.)                          Step 3.  Multiply (the divisor) by .   . Write this under the dividend.                                     Step 4.  Subtract from .  Bring down the .                                              Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                              Step 6.  Multiply (the divisor) by .   . Write this under the dividend.                                                         Step 7.  Subtract from .                                                                    Step 8.  Now we read off the answer. The answer is .    "
 },
@@ -527,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#longdiv5",
   "type": "Example",
-  "number": "1.22",
+  "number": "1.41",
   "title": "Interpreting the result.",
   "body": "Interpreting the result   Suppose Nika has used long division to divide by . Nika found that the quotient is and the remainder is . Write the result in the format of .         The format in is In this example we have:    Therefore the result can be stated as:    "
 },
@@ -536,16 +923,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-6-9",
   "type": "Checkpoint",
-  "number": "1.23",
+  "number": "1.42",
   "title": "Interpreting the result - HOMEMADE.",
-  "body": "Interpreting the result - HOMEMADE    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.2.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                "
+  "body": "Interpreting the result - HOMEMADE    (Not randomizable) Suppose you have used long division to divide the polynomial by Suppose you found that the remainder is and the quotient is Write the result in the format of (1.3.1).  \/ = + \/  Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                "
 },
 {
   "id": "longdiv1",
   "level": "2",
   "url": "sec-func-dividing.html#longdiv1",
   "type": "Example",
-  "number": "1.24",
+  "number": "1.43",
   "title": "Polynomial long division with remainder.",
   "body": "Polynomial long division with remainder   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient: .  Remainder: 4    Here is the worked out long division. In \"Solution 2\" you will find a breakdown of all the steps within the same long division.                                                                                                    This means that: Quotient: .  Remainder: 4    This is a detailed solution with the steps outlined. Let's follow a similar procedure as above.  Step 1. Setup:                              Step 2.  Question: times what gives ?  Answer: . So write at the top (as part of the quotient).                              Step 3.  Multiply by .   . Write this under the dividend.                                         Step 4.  Subtract . And bring down the next term: .                                                  Step 5.  Now repeat the process.  Question: times what equals ?  Answer: . Therefore write at the top.                                                  Step 6.  Multiply by .  Note that . Write this under the last line. Make sure that like-terms line up (place -terms below -terms etc.)                                                             Step 7.  Subtract . Remember that .  Then bring down the 7.                                                                          Step 8.  Repeat the process again.  Question: times what equals ?  Answer: . Therefore write at the top.                                                                          Step 9.  Multiply by .   . Write this under the last line. Again, make sure that like terms line up.                                                                                       Step 10.  Subtract .                                                                                                    Step 11.  Now the degree of the 4 (on the last line) is lower than the degree of the divisor ( ). Therefore we stop here, and read off the answer. The answer is , with remainder 4. This means that:    Quotient: .  Remainder: 4   "
 },
@@ -554,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#longdivex1",
   "type": "Checkpoint",
-  "number": "1.25",
+  "number": "1.44",
   "title": "Set-up and notation - HOMEMADE.",
   "body": "Set-up and notation - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The quotient is    The remainder is                             "
 },
@@ -563,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-6-14",
   "type": "Checkpoint",
-  "number": "1.26",
+  "number": "1.45",
   "title": "Long division with quadratic dividend - HOMEMADE.",
   "body": "Long division with quadratic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
@@ -572,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-6-16",
   "type": "Checkpoint",
-  "number": "1.27",
+  "number": "1.46",
   "title": "Long division with cubic dividend - HOMEMADE.",
   "body": "Long division with cubic dividend - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
@@ -590,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#longdiv3",
   "type": "Example",
-  "number": "1.28",
+  "number": "1.47",
   "title": "Polynomial long division with \"missing\" terms.",
   "body": "Polynomial long division with \"missing\" terms   Use long division to divide the polynomial by . Find the quotient and the remainder (if there is one).     Quotient:   Remainder:     Because there is no -term, let's insert as a placeholder. That will help keep things aligned, and will reduce the likelihood of mistakes. Let's use placeholders for both the dividend, divisor and quotient whenever they are needed. Here is the worked out long division.                          Try solving the rest of the problem from here. Then when you are ready, click on 'Solution 2' to see the rest of the solution.                                                                                      This means that: Quotient:   Remainder:    "
 },
@@ -599,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-7-5",
   "type": "Checkpoint",
-  "number": "1.29",
+  "number": "1.48",
   "title": "Polynomial long division with \"missing\" terms - HOMEMADE.",
   "body": "Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
@@ -608,16 +995,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-7-6",
   "type": "Checkpoint",
-  "number": "1.30",
+  "number": "1.49",
   "title": "Polynomial long division with \"missing\" terms - HOMEMADE.",
-  "body": "Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
+  "body": "Polynomial long division with \"missing\" terms - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.3.1)  \/ = + \/                                "
 },
 {
   "id": "sec-func-dividing-8-2",
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-2",
   "type": "Exercise",
-  "number": "1.2.4.1",
+  "number": "1.3.4.1",
   "title": "True or False - HOMEMADE.",
   "body": "True or False - HOMEMADE    (Not randomizable) Which of the following statements are true and which are false?    If the remainder is zero, then the divisor is a factor of the dividend.  True   False     If the remainder is NOT zero, then the divisor is NOT a factor of the dividend.  True   False     If a degree 6 polynomial is divided by a degree 2 polynomial, then the quotient is a degree 4 polynomial.  True   False     If a degree 3 polynomial is divided by a linear polynomial, then the quotient is a linear polynomial.  True   False                              "
 },
@@ -626,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-3",
   "type": "Exercise",
-  "number": "1.2.4.2",
+  "number": "1.3.4.2",
   "title": "Set-up - HOMEMADE.",
   "body": "Set-up - HOMEMADE   (Not randomizable) Lennie wants to use long division to divide by , in other words Lennie wants to simplify .  Lennie starts by setting up the problem like this:                                 Here is called the  dividend   divisor   quotient   remainder  .    Here is called the  dividend   divisor   quotient   remainder  .    Did Lennie set up the problem correctly?    Yes, it is a correct start    No, it is not a correct start      Now finish the long division and find the quotient and remainder (if there is one).  Quotient =  Remainder =                                  "
 },
@@ -635,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-4",
   "type": "Exercise",
-  "number": "1.2.4.3",
+  "number": "1.3.4.3",
   "title": "Interpreting results - HOMEMADE.",
   "body": "Interpreting results - HOMEMADE    (Not randomizable) Suppose someone has written down the following long division.                                                                                                          Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    Then is called the  dividend   divisor   quotient   remainder  .    The remainder is    Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.)   Yes, it is correct    No, there is one error    No, there are several errors      Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                "
 },
@@ -644,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-5",
   "type": "Exercise",
-  "number": "1.2.4.4",
+  "number": "1.3.4.4",
   "title": "Interpreting results - HOMEMADE.",
   "body": "Interpreting results - HOMEMADE   (Not randomizable) Suppose someone has written down the following long division.                                                   The dividend is .    The divisor is .    The quotient is .    The remainder is .    The result of the long division can be written in the following format   What are each of the polynomials in this example?              Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.                                                    "
 },
@@ -653,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-6",
   "type": "Exercise",
-  "number": "1.2.4.5",
+  "number": "1.3.4.5",
   "title": "Quotient and remainder, degree 3 - FROM WEBWORK.",
   "body": "Quotient and remainder, degree 3 - FROM WEBWORK    Find the quotient and remainder using long division for   The quotient is  The remainder is                 "
 },
@@ -662,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-7",
   "type": "Exercise",
-  "number": "1.2.4.6",
+  "number": "1.3.4.6",
   "title": "Quotient and remainder, degree 4 - FROM WEBWORK.",
   "body": "Quotient and remainder, degree 4 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by .  The quotient is .  The remainder is .                 "
 },
@@ -671,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-8",
   "type": "Exercise",
-  "number": "1.2.4.7",
+  "number": "1.3.4.7",
   "title": "Quotient and remainder, degree 5 - FROM WEBWORK.",
   "body": "Quotient and remainder, degree 5 - FROM WEBWORK    Use long division to find the quotient and remainder when is divided by  The quotient is .  The remainder is .                 "
 },
@@ -680,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-9",
   "type": "Exercise",
-  "number": "1.2.4.8",
+  "number": "1.3.4.8",
   "title": "Quotient and remainder, degree 3 - FROM WEBWORK.",
   "body": "Quotient and remainder, degree 3 - FROM WEBWORK    Perform the indicated division and write the quotient and remainder in the provided blanks. Answer:                    "
 },
@@ -689,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-10",
   "type": "Exercise",
-  "number": "1.2.4.9",
+  "number": "1.3.4.9",
   "title": "Quotient and remainder, degree 5 - HOMEMADE.",
   "body": "Quotient and remainder, degree 5 - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   The quotient is  The remainder is                 "
 },
@@ -698,745 +1085,538 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-func-dividing.html#sec-func-dividing-8-11",
   "type": "Exercise",
-  "number": "1.2.4.10",
+  "number": "1.3.4.10",
   "title": "Specific result format - HOMEMADE.",
-  "body": "Specific result format - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.2.1)  \/ = + \/                                "
-},
-{
-  "id": "sec-exp-intro",
-  "level": "1",
-  "url": "sec-exp-intro.html",
-  "type": "Section",
-  "number": "2.1",
-  "title": "Exponential Rules",
-  "body": " Exponential Rules     Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.     Where will this be used in calculus?  Rewriting and simplifying exponentials and radicals is useful in most computational areas of mathematics, including calculus. Here are two specific calculus examples:   When differentiating or integrating a power function (or a combination of power functions), rewrite each term as a single power before differentiating or integrating. For example, rewriting as will make it easier to differentiate or integrate.    After using rules to differentiate a function (for example the product rule, quotient rule or chain rule) the result is often a messy, complicated-looking expression which needs to be simplified.        As an introduction, we can think of integer exponents as repeated multiplication. If we want to find the volume of a cube, we can shorten the notation by using exponents. To find the volume of a cube with side length , we would multiply by itself three times to get length times width times height. We can write . Here, the exponent tells us how many times to do the multiplication. The concept can later be exanded to include non-integer values of the exponent . But starting by looking at integer exponents can give us an intuitive idea of what exponentials are and how to work with them.   The First Rules  The first exponent rule we will examine is:   Here, the first term, tells us to multiply by itself times and the second term tells us to multiply it times. Together, that says we need to multiply a total of times, giving us . As an example, .  Note that is true for all positive values of and all real numbers and (they do not need to be integers).  Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows         Next, let's look at negative exponents:   This rule builds off of our previous rule. If we have , rule tells us that we really have . We went from having multiplied 5 times to having multiplied only 3 terms, meaning we have removed two of the multiplications. We removed a multiplication through a division:   A negative exponent indicates division rather than multiplication.  A more general version of the rule is the following: which is true for all real numbers and , and all positive values of . We can see this from previous rules:   Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2t is not the same as 1\/(2t).        We use the properties of exponents to help us here, remembering that         Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =             If there are several different base numbers, we need to collect those with the same base, as in the following example.  Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:     Simplify - FROM WEBWORK    Simplify the expression:  =             Note: Write your answer using only positive exponents.      Roots\/Radicals  Before we continue with more exponent rules, let's look at the inverse function, or how to ``undo'' an exponent. These are called root functions. A square root, for example, ``reverses'' squaring and a cube root ``reverses'' cubing. In general, we have   and   (Both of the above are examples of rule , which we will look more at soon.)  Often, you will see written as . Mathematicians call the radical form and the exponential form. Both have the same meaning. Anytime you see , you can replace it with and vice versa. Even more generally, we have: which is true for all real numbers and , and all positive values of .  Sometimes, it is useful to be able to simplify radicals or rational exponents by hand. Let's take a look at how we can evaluate these types of terms.  Evaluate radicals  Evaluate without using a calculator.        As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor .  If we use the second version, we would start by finding the cube root of 8. When we factor, we get , which shows us that . This means that so our final answer is     Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.    Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.      More Exponential Rules  The next rule we will discuss is     This rule builds directly off of our first rule as well. When and are integers, tells us we need to multiply by itself times. Since multiplies by itself times, tells us to multiply by itself a total of times. For example,   We can also use this rule when there is a product or quotient inside the parentheses, but not if there is addition or subtraction. If and , then:      However,     Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and    Exponents and addition  Are and equal or different?   They are different. In general: We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.    Addition inside a bracket   Simpliy the expression .      To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.      Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                     Double exponents - FROM WEBWORK    Simplify the expression:  =             Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.      Summary  The rules we have just seen will all be quite handy in calculus (and many other fields of mathematics, of course). In both integral and differential calculus, we will have rules that work well when we have a power function (a function of the form ), but won't work for other forms of functions. By being able to rewrite functions like , in power function form ( in this case), other calculations will be simplified.  Our rules are summarized below.  Exponential Rules  The following are true for all positive numbers and , and any real numbers and :                                                            Notation  Suppose is any positive number , and and are integers, with . Then:             It is important to know mathematical rules and how to use them, but it is also important to know which `rules' are not true. Here are a few common errors:  Common Errors  The following expressions are not equal, in general.         Additional Examples  Let's look at a few examples of working with exponent rules. The examples use one or several of the rules we have seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.   Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that     Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is      Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                        Evaluate - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify - FROM WEBWORK    Simplify the following expression.                  Study tip:   If you want to review working with fractions, see .   Simplify - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .        Multiply and divide - FROM WEBWORK    Simplify the expression:  =             Note: Your answer should not include any negative exponents.    Simplify - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.               Simplify - FROM WEBWORK   Note: A monomial is a term of the form for some constants and .     Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                   Simplify - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Simplify - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,        Simplify - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows          Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  Common errors  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal (similar to what we did in the solution of ).   Simplify - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .       Simplify - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).             Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.             Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .        Add and subtract - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =             Multiply - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                   Multiply - FROM WEBWORK    Simplify the expression:  =               Your answer should include no negative exponents.     Simplify - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                   Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                        Simplify - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                            "
-},
-{
-  "id": "sec-exp-intro-2",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-2",
-  "type": "Objectives",
-  "number": "2.1",
-  "title": "",
-  "body": "   Use exponent rules to simplify and re-work expressions.    Simplify roots\/radicals without a calculator.    Avoid common errors regarding exponents and radicals.    "
-},
-{
-  "id": "ex-exp-CP1",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-CP1",
-  "type": "Checkpoint",
-  "number": "2.1",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Use the properties of exponents to simplify the following          We add the exponents as follows        "
-},
-{
-  "id": "ex-exp-numbers",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-numbers",
-  "type": "Checkpoint",
-  "number": "2.2",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
-},
-{
-  "id": "ex-exp-div",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-div",
-  "type": "Checkpoint",
-  "number": "2.3",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the following expression, and write your answer using only positive exponents.   Note that you may have to be careful with grouping parenthesis in this problem; 1\/2t is not the same as 1\/(2t).        We use the properties of exponents to help us here, remembering that        "
-},
-{
-  "id": "ex-exp-multdiv",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-multdiv",
-  "type": "Checkpoint",
-  "number": "2.4",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Rewrite the following using a single exponent.  for =            "
-},
-{
-  "id": "sec-exp-intro-5-16",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-5-16",
-  "type": "Example",
-  "number": "2.5",
-  "title": "Simplify exponents with several bases.",
-  "body": "Simplify exponents with several bases  Simplify the expression .        We can multiply the constant coefficients (11 and 7):   Next, we can use rule to simplify powers of , and then use again for powers of .   The final result is:    "
-},
-{
-  "id": "ex-exp-mult2",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-mult2",
-  "type": "Checkpoint",
-  "number": "2.6",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the expression:  =             Note: Write your answer using only positive exponents.   "
-},
-{
-  "id": "sec-exp-intro-6-7",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-6-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "radical exponential "
-},
-{
-  "id": "sec-exp-intro-6-9",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-6-9",
-  "type": "Example",
-  "number": "2.7",
-  "title": "Evaluate radicals.",
-  "body": "Evaluate radicals  Evaluate without using a calculator.        As first glance, this looks like we won't be able to do much with it. However, we can use our exponent rules to help us evaluate it. We can rewrite as or as . We prefer the second version. With the first version we would have , but this is tricky to deal with by hand because not many people have perfect cubes memorized, so we would need to factor .  If we use the second version, we would start by finding the cube root of 8. When we factor, we get , which shows us that . This means that so our final answer is    "
-},
-{
-  "id": "ex-exp-root",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-root",
-  "type": "Checkpoint",
-  "number": "2.8",
-  "title": "Evaluate radicals - FROM WEBWORK.",
-  "body": "Evaluate radicals - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
-},
-{
-  "id": "sec-exp-intro-6-11",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-6-11",
-  "type": "Checkpoint",
-  "number": "2.9",
-  "title": "Multiply radicals - FROM WEBWORK.",
-  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.  Answer:  and                   Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.   "
-},
-{
-  "id": "ex-exp-root3",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-root3",
-  "type": "Checkpoint",
-  "number": "2.10",
-  "title": "Multiply radicals - FROM WEBWORK.",
-  "body": "Multiply radicals - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                             Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.   "
-},
-{
-  "id": "sec-exp-intro-7-7",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-7-7",
-  "type": "Example",
-  "number": "2.11",
-  "title": "Double exponents.",
-  "body": "Double exponents  Simplify and     and    Using the rules we have seen above, we have that: and   "
-},
-{
-  "id": "ex-add",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-add",
-  "type": "Example",
-  "number": "2.12",
-  "title": "Exponents and addition.",
-  "body": "Exponents and addition  Are and equal or different?   They are different. In general: We can test this by chosing some values for and , then checking what the expressions are. For example, let and . Then and so they are not equal.   "
-},
-{
-  "id": "sec-exp-intro-7-9",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-7-9",
-  "type": "Example",
-  "number": "2.13",
-  "title": "Addition inside a bracket.",
-  "body": "Addition inside a bracket   Simpliy the expression .      To simplify we could rewrite it as and distribute. Or it would be even faster to use rule .         To simplify we can rewrite it as and distribute.     "
-},
-{
-  "id": "ex-exp-radical2",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-radical2",
-  "type": "Checkpoint",
-  "number": "2.14",
-  "title": "Simplify radicals - FROM WEBWORK.",
-  "body": "Simplify radicals - FROM WEBWORK    Evaluate the following expression without using a calculator. Simplify your answer as much as possible, and enter your answer as a fraction.  =             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.   "
-},
-{
-  "id": "sec-exp-intro-7-11",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-7-11",
-  "type": "Checkpoint",
-  "number": "2.15",
-  "title": "Double exponents - FROM WEBWORK.",
-  "body": "Double exponents - FROM WEBWORK    Simplify and write the following in exponential notation.  If then  and                    "
-},
-{
-  "id": "ex-exp-div2",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-div2",
-  "type": "Checkpoint",
-  "number": "2.16",
-  "title": "Double exponents - FROM WEBWORK.",
-  "body": "Double exponents - FROM WEBWORK    Simplify the expression:  =            "
-},
-{
-  "id": "ex-exp-radical3",
-  "level": "2",
-  "url": "sec-exp-intro.html#ex-exp-radical3",
-  "type": "Checkpoint",
-  "number": "2.17",
-  "title": "Addition inside a bracket - FROM WEBWORK.",
-  "body": "Addition inside a bracket - FROM WEBWORK    Simplify. Assume that all expressions under radicals represent nonnegative numbers.    Write your answer using radical notation if necessary.  Help:             Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.   "
-},
-{
-  "id": "sec-exp-intro-9-4",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-9-4",
-  "type": "Example",
-  "number": "2.18",
-  "title": "Simplify exponents.",
-  "body": "Simplify exponents   Simplify          Anytime we simplify, we need to remember our order of operations. The order of operations tells us to start with terms that are inside of parentheses, so we will work on simplifying the fraction before we worry about the exponent on the outside. First, we will write everything using exponents rather than radicals so we can use our exponent rules more easily in the rest of the problem.   Next, we will eliminate the fraction by using negative exponents on the terms that are in the denominator. After rewriting, we will combine any like terms.   Now that everything inside the parentheses is simplified as much as possible, we will use our third exponent rule to finish simplifying. Rule says that . We need to make sure we distribute the exponent that is outside of the parentheses to each term inside of the parentheses. This give us   So, in the end, we get that    "
-},
-{
-  "id": "sec-exp-intro-9-5",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-9-5",
-  "type": "Example",
-  "number": "2.19",
-  "title": "Simplify exponents involving addition.",
-  "body": "Simplify exponents involving addition  Simplify         Note: Be careful to avoid the common error above.  We'll start by focusing on the terms inside the parentheses and rewriting all radicals (roots) as exponents. This gives us There is nothing that we can simplify inside the parentheses. We now need to apply the exponent on the outside of the parentheses. Inside the parentheses we have two terms that are added, so we can't apply an exponent rule here. We will need to rewrite and then expand. . We don't have any like terms, so we can't simplify any further. We could rewrite slightly, but this is a matter of personal preference. We have three other ways we could write this final answer. We could use exponent rules to rewrite the middle term since , giving us . We could also use radicals and write either or . All of these four answers are fully simplified, and are equally valid. Probably the most common form is    "
-},
-{
-  "id": "sec-exp-intro-10-3",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-3",
-  "type": "Exercise",
-  "number": "2.1.6.1",
-  "title": "Evaluate - FROM WEBWORK.",
-  "body": "Evaluate - FROM WEBWORK    Evaluate the following expressions for , , and without using a calculator. Simplify your answers as much as possible, and enter your answers as fractions.                                       "
-},
-{
-  "id": "sec-exp-intro-10-4",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-4",
-  "type": "Exercise",
-  "number": "2.1.6.2",
-  "title": "Evaluate - FROM WEBWORK.",
-  "body": "Evaluate - FROM WEBWORK    Evaluate the following without a calculator. Simplify your answers as much as possible.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
-},
-{
-  "id": "sec-exp-intro-10-5",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-5",
-  "type": "Exercise",
-  "number": "2.1.6.3",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the following expression.               "
-},
-{
-  "id": "sec-exp-intro-10-7",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-7",
-  "type": "Exercise",
-  "number": "2.1.6.4",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify and write the following as a power of with a single rational exponent.  If then         Recall that  So, in this case we will need to subtract the exponents,  .  Therefore,   which means .       "
-},
-{
-  "id": "sec-exp-intro-10-8",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-8",
-  "type": "Exercise",
-  "number": "2.1.6.5",
-  "title": "Multiply and divide - FROM WEBWORK.",
-  "body": "Multiply and divide - FROM WEBWORK    Simplify the expression:  =             Note: Your answer should not include any negative exponents.   "
-},
-{
-  "id": "sec-exp-intro-10-9",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-9",
-  "type": "Exercise",
-  "number": "2.1.6.6",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the expression as much as possible and leave it without radicals.              "
-},
-{
-  "id": "sec-exp-intro-10-10",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-10",
-  "type": "Exercise",
-  "number": "2.1.6.7",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK   Note: A monomial is a term of the form for some constants and .     Simplify the expression into the simplest radical form , where and are either integers or monomials. Assume .  Answer:  and                  "
-},
-{
-  "id": "sec-exp-intro-10-11",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-11",
-  "type": "Exercise",
-  "number": "2.1.6.8",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Find the product and express your answer in the form  , , , and are all integers and  Answer:  ,  ,  , and                            "
-},
-{
-  "id": "sec-exp-intro-10-12",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-12",
-  "type": "Exercise",
-  "number": "2.1.6.9",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify and write the following as a power of using a single rational exponent.  If then         Recall the properties of exponents:     Using those properties, we can simplify the expression:   So,       "
-},
-{
-  "id": "sec-exp-intro-10-13",
-  "level": "2",
-  "url": "sec-exp-intro.html#sec-exp-intro-10-13",
-  "type": "Exercise",
-  "number": "2.1.6.10",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the following expression (do not factor)         We divide each term by as follows        "
-},
-{
-  "id": "exp-additional-3",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-3",
-  "type": "Exercise",
-  "number": "2.1.7.1",
-  "title": "Common errors.",
-  "body": "Common errors  Look at each of the \"common errors\" listed above. For each one, explain why it is not true. Replace the letters with numbers (choose some numbers!), to check that often the two sides are not equal (similar to what we did in the solution of ).  "
-},
-{
-  "id": "exp-additional-4",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-4",
-  "type": "Exercise",
-  "number": "2.1.7.2",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify each expression as much as possible and leave it without radicals.  (a)   (b)   (c)   (d)                        SOLUTION (a) . (b) . (c) . (d) .      "
-},
-{
-  "id": "exp-additional-5",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-5",
-  "type": "Exercise",
-  "number": "2.1.7.3",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Express the number as a reduced fraction.  Answer:  Note:  You cannot use any operations except division (\/) and negation (-).            "
-},
-{
-  "id": "exp-additional-6",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-6",
-  "type": "Exercise",
-  "number": "2.1.7.4",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Evaluate:   Note: Your answer should be completely simplified. Unsimplified answers will not be accepted.            "
-},
-{
-  "id": "exp-additional-7",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-7",
-  "type": "Exercise",
-  "number": "2.1.7.5",
-  "title": "Solve - FROM WEBWORK.",
-  "body": "Solve - FROM WEBWORK    Find if         Use properties of exponents to simplify the left side of the equation The two sides are equal if and only if the exponents are equal, so . Solving for one obtains .       "
-},
-{
-  "id": "exp-additional-8",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-8",
-  "type": "Exercise",
-  "number": "2.1.7.6",
-  "title": "Add and subtract - FROM WEBWORK.",
-  "body": "Add and subtract - FROM WEBWORK    Combine radicals, if possible. Simplify your answer as much as possible.  =            "
-},
-{
-  "id": "exp-additional-9",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-9",
-  "type": "Exercise",
-  "number": "2.1.7.7",
-  "title": "Multiply - FROM WEBWORK.",
-  "body": "Multiply - FROM WEBWORK    Find the product and express your answer in simplest radical form , where and are integers.   and                  "
-},
-{
-  "id": "exp-additional-10",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-10",
-  "type": "Exercise",
-  "number": "2.1.7.8",
-  "title": "Multiply - FROM WEBWORK.",
-  "body": "Multiply - FROM WEBWORK    Simplify the expression:  =               Your answer should include no negative exponents.   "
-},
-{
-  "id": "exp-additional-11",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-11",
-  "type": "Exercise",
-  "number": "2.1.7.9",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Assume that and represent positive real numbers. Simplify the expression into the simplest radical form , where and are either integers or monomials.  Answer:  and                  "
-},
-{
-  "id": "exp-additional-12",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-12",
-  "type": "Exercise",
-  "number": "2.1.7.10",
-  "title": "Simplest radical form - FROM WEBWORK.",
-  "body": "Simplest radical form - FROM WEBWORK    Change the radical into simplest radical form , where , , and are all integers.  Answer:  ,  , and                       "
-},
-{
-  "id": "exp-additional-13",
-  "level": "2",
-  "url": "sec-exp-intro.html#exp-additional-13",
-  "type": "Exercise",
-  "number": "2.1.7.11",
-  "title": "Simplify - FROM WEBWORK.",
-  "body": "Simplify - FROM WEBWORK    Simplify the expression and express your answer in the simplest radical form where  and are integers.  Answer:  ,  , and                       "
+  "body": "Specific result format - HOMEMADE    (Not randomizable) Use long division to find the quotient and remainder when   is divided by   Write the answer in the format of (1.3.1)  \/ = + \/                                "
 },
 {
   "id": "sec-exp-functions",
   "level": "1",
   "url": "sec-exp-functions.html",
   "type": "Section",
-  "number": "2.2",
+  "number": "2.1",
   "title": "Exponential Functions and their Graphs",
-  "body": " Exponential Functions and their Graphs  Coming soon.   Here are some potential exercises. We can also build our own. Far from all will be useful and som may not even work. But we can include some and use some for inspiration.     Solve for the unknown variable.           . Thus, or . Hence, .          Solve the equation for . Answer:                 The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes           Use the Laws of logarithms to rewrite the expression in a form with no logarithm of a product, quotient or power.  After rewriting we have  with the constant   the constant   and the constant                            PTX:ERROR: WeBWorK problem Library\/ASU-topics\/setLogarithmicFunctions\/srw4_4_1-5.pg with seed 88 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/Utah\/Business_Algebra\/set9_Mathematics_of_Finance\/p04.pg with seed 89 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content        I removed number 7 temporarily because the graph causes an error. The question gives a graph and asks which function expression correponds to that graph....        Are the functions given below exponential functions?                               Find the solutions of the exponential equation  Enter your answer as a comma-separated list, and enter none if there are no solutions.                The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 2 units;  (d) shifting the graph of to the left 2 units;  (e) shifting the graph of upward 2 units;  (f) shifting the graph of downward 2 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f           Find a formula for the linear function whose graph intersects the graph of   at and .          SOLUTION At x =40, . At x =140, . We have and . This gives where . Solving for , we have   Thus .          Use logarithms to find an exact solution to the equation below.           SOLUTION Using the log rules, we have             Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.          Let . Solve each of the following equations exactly for .  (a)    (b)    (c)                    SOLUTION (a) Since , this equation is equivalent to or . Taking the exponential of both sides, we obtain , so the solution is . (b) Since the inverse function of is given by , this equation is equivalent to . Taking the natural logarithm of both sides, we obtain a solution of . (c) This equation is equivalent to . Taking the exponential of both sides, we obtain , so the final answer is given by .          Suppose that and . Write the following expressions in terms of and  (so you cannot have an A or B anywhere in your answers).  (a)   (b)   (c)   (d)   (e)   (f)                                  SOLUTION (a) (b) (c) (d) Since and , we can rewrite these two logarithmic equations in terms of exponents and respectively. Thus: (e) (f)           Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the exponent: so that Once the exponent isolated we use logs and solve for :           Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the natural log:  Now we can rewrite in exponential form and solve for x :   . Now we check our solution:  which is the result we want.          Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   A    B    C    D     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .          Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that D increases faster than the others, so D has the largest .          Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   CD    AD    AC    AB    BD    BC     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are B and C.          Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that C decreases faster than the others, so C has the smallest .          Find the solution of the logarithmic equation in terms of logarithms, or correct to four decimal places.  Your answer is                   PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-52.pg with seed 105 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-49.pg with seed 106 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-50.pg with seed 107 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Find (a) the domain of and (b) .   (a)   (b)                      Solve each equation for .  (a)  (b)  (a)  (b)                     Solve each inequality for .  (a)  (b)  (a)   (b)                      Solve each equation for .  (a)  (b)  (a)  (b)                     Solve each inequality for .  (a)  (b)  (a)    (b)                           Solve each equation for .  (a)  (b)  (a)  (b)                     Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                      Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 1 unit to the right and 7 units upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (2,7) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).          In each part, find the value of in simplest form.  (a)  =  (b)  =  (c)  =                          Solve the following equation. If necessary, enter your answer as an expression involving natural logarithms or as a decimal approximation that is correct to at least four decimal places.                    PTX:ERROR: WeBWorK problem Library\/Rochester\/setAlgebra30LogExpEqns\/srw4_3_48.pg with seed 118 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Find the solution of the logarithmic equation correct to four decimal places.  Your answer is                  Solve the equation                "
+  "body": " Exponential Functions and their Graphs     Recognize an exponential function and distinguish it from a polynomial \/ power function    Identify if an exponential function is modelling exponential growth or exponential decay based on its graph and\/or equation    Identify fundamental characteristics of exponential functions.    Compare and contrast characteristics of exponential functions with those of polynomial functions.    Describe transformations of exponential functions.    Describe how transformations of exponential functions change the properties and characteristics (such as the horizontal asymptote and end behaviours) of the transformed function.    Define the number and the natural exponential function .      Where will this be used in calculus?     Exponential functions are an important family of functions that are used throughout calculus to illustrate calculus related concepts and to practice computations.    Exponential functions are solutions to many types of differential equations that model the rate of changing quantities such as population growth, the spread of infectious diseases, and the cooling of a liquid.    Exponential functions are used to model the growth of an investment due to compound interest.       In , we reviewed some fundamental exponent laws and learned how to re-write mathematical expressions involving exponents. While this gives us a strong understanding of exponential calculations, we will now start looking at properties and characteristics of the exponential function, which is often used in mathematical models to describe rapid growth or decay. A defining characteristic of exponential functions is that they change at a rate that is directly proportional to the amount of the quantity that is currently present.   What is an Exponential Function?  An exponential function Exponential function is any function in the form where and . Here, we call the parameter the base Base of the function, which determines the type of exponential relationship that is being modelled:    Study tip:   Note that we are focusing on where either , or . If then which does not have graphs similar to those seen here. (What is the graph of ?)   Exponential Growth - NEED SVG GRAPH   Exponential Decay - NEED SVG GRAPH If the function illustrates exponential growth , which can be used to model quantities that increase rapidly over time. The graph here is an example of a graph of where .     Exponential Decay - NEED SVG GRAPH   Exponential Decay - NEED SVG GRAPH If the function illustrates exponential decay , which can be used to model quantities that shrink exponentially over time. The graph here is an example of a graph of where .     Interactive graph activity  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   What do you notice when ?  What do you notice for different values of ? Can you determine different \"cases\" for ? (Are there different groups of values of a that behave differently?)   Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .       Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   C    A    B    D     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that D decreases faster than the others, so D has the smallest .       Exponential functions have numerical bases with variable exponents. It is important to not confuse this with power functions, which are functions of the form . The following table compares and contrasts power functions from exponential functions:    Power Function  Exponential Function                  In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and\/or dividing constants.     Are the functions given below exponential functions?                             Euler's Number and The Natural Exponential Function  While exponential functions can have infinitely many bases, there is one special exponential function that we will deal with almost exclusively in our calculus classes: The Natural Exponential Function.   The Natural Exponential Function Natural exponential function Exponential function is nothing more than an exponential function whose base is the special number denoted , called Euler's Number Euler's number e , which is an irrational constant given by .    Study tip:   You should know (memorize) a few things about the number . You are expected to know that is irrational, with infinitely many non-repeating decimals, and .   The natural exponential function, , can be approximated by , which can be thought of as simply an exponential function that grows faster than but not quite as fast as The graph of is shown in the diagram \\textcolor{blue}{below(?)} along with the graphs of and :  Exponential Function - NEED SVG GRAPH  Exponential Function - NEED SVG GRAPH The graph of is shown here, along with the graphs of and .  Exponential Function - NEED SVG GRAPH     As we can see, is characteristically similar to any other exponential function, and should not be thought of as a fundamentally \"different\" function. For our purposes, we should think of the natural exponential function as simply being an exponential function with a specific base, .  The base is important because with this base, the slope of the exponential function at is exactly 1. That might not sound important now, but this means that when differentiating (which we will do a lot in calculus!) this means that the derivative of is simpler than the derivative of any other exponential function.   Characteristics of Exponential Functions  Just like any other type of parent function, exponential functions have a set of \"default\" characteristics. Some of these characteristics may change based on the transformations of the function, but the standard exponential function has the following characteristics:    Domain:     Range:     Horizontal asymptote:     Vertical asymptote:  None    -intercept:  None    -intercept:     Function characteristics - NEEED TO COMPLETE    Checkpoint Idea: An exponential function is given and students are asked to identify some of the aforementioned characteristics. For instance, identify the domain, range, equation of the horizontal asymptote, y-intercept. Include exponential grwoth and exponential decay.         Transformations of Exponential Functions  As you may have seen in your previous sudies, any parent function, can be transformed using the following parameters:   Applying these parameters to the natural exponential function, we obtain the general equation for a transformed exponential function:   We will focus mostly on the cases where .  Interactive graph activity  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters , and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?   Transformations of exponential functions    The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes        Transformations of exponential functions      Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.        Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   AC    AD    CD    BC    BD    AB     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are D and C.       Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   B    A    C    D     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that C increases faster than the others, so C has the largest .          The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 2 units;  (d) shifting the graph of to the left 2 units;  (e) shifting the graph of upward 2 units;  (f) shifting the graph of downward 2 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f           Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                   Function characteristics - NEEED TO COMPLETE    Checkpoint Idea: Given a transformed exponential function, identify the domain, range, HA, y-int        Function characteristics - NEEED TO COMPLETE    Checkpoint Idea: Given a graph of a transformed exponential function, match it to its corresponding equation         Extra Exercises - Temporarily here  Here are some potential exercises. We can also build our own. Far from all will be useful and som may not even work. But we can include some and use some for inspiration.     Solve for the unknown variable.           . Thus, or . Hence, .          Solve the equation for . Answer:                Used in Exponential functions and their graphs     The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes           Use the Laws of logarithms to rewrite the expression in a form with no logarithm of a product, quotient or power.  After rewriting we have  with the constant   the constant   and the constant                            PTX:ERROR: WeBWorK problem Library\/ASU-topics\/setLogarithmicFunctions\/srw4_4_1-5.pg with seed 100 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/Utah\/Business_Algebra\/set9_Mathematics_of_Finance\/p04.pg with seed 101 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content        I removed number 7 temporarily because the graph causes an error. The question gives a graph and asks which function expression correponds to that graph....       Used in Exponential functions and their graphs     Are the functions given below exponential functions?                               Find the solutions of the exponential equation  Enter your answer as a comma-separated list, and enter none if there are no solutions.               Used in Exponential functions and their graphs     The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 5 units;  (d) shifting the graph of to the left 5 units;  (e) shifting the graph of upward 5 units;  (f) shifting the graph of downward 5 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f           Find a formula for the linear function whose graph intersects the graph of   at and .          SOLUTION At x =60, . At x =160, . We have and . This gives where . Solving for , we have   Thus .          Use logarithms to find an exact solution to the equation below.           SOLUTION Using the log rules, we have          Used in Exponential functions and their graphs       Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.          Let . Solve each of the following equations exactly for .  (a)    (b)    (c)                    SOLUTION (a) Since , this equation is equivalent to or . Taking the exponential of both sides, we obtain , so the solution is . (b) Since the inverse function of is given by , this equation is equivalent to . Taking the natural logarithm of both sides, we obtain a solution of . (c) This equation is equivalent to . Taking the exponential of both sides, we obtain , so the final answer is given by .          Suppose that and . Write the following expressions in terms of and  (so you cannot have an A or B anywhere in your answers).  (a)   (b)   (c)   (d)   (e)   (f)                                  SOLUTION (a) (b) (c) (d) Since and , we can rewrite these two logarithmic equations in terms of exponents and respectively. Thus: (e) (f)           Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the exponent: so that Once the exponent isolated we use logs and solve for :           Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the natural log:  Now we can rewrite in exponential form and solve for x :   . Now we check our solution:  which is the result we want.         Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   A    B    C    D     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .         Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    B    A    C     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that D increases faster than the others, so D has the largest .         Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   BC    AB    BD    AC    CD    AD     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are C and B.         Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that B decreases faster than the others, so B has the smallest .          Find the solution of the logarithmic equation in terms of logarithms, or correct to four decimal places.  Your answer is                   PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-52.pg with seed 117 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-49.pg with seed 118 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content          PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-50.pg with seed 119 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Find (a) the domain of and (b) .   (a)   (b)                      Solve each equation for .  (a)  (b)  (a)  (b)                     Solve each inequality for .  (a)  (b)  (a)   (b)                      Solve each equation for .  (a)  (b)  (a)  (b)                     Solve each inequality for .  (a)  (b)  (a)    (b)                           Solve each equation for .  (a)  (b)  (a)  (b)                    Used in Exponential functions and their graphs     Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                      Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 5 units to the right and 1 unit upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (6,1) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).          In each part, find the value of in simplest form.  (a)  =  (b)  =  (c)  =                          Solve the following equation. If necessary, enter your answer as an expression involving natural logarithms or as a decimal approximation that is correct to at least four decimal places.                    PTX:ERROR: WeBWorK problem Library\/Rochester\/setAlgebra30LogExpEqns\/srw4_3_48.pg with seed 130 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content         Find the solution of the logarithmic equation correct to four decimal places.  Your answer is                  Solve the equation                "
 },
 {
-  "id": "exercises-exp-2",
+  "id": "sec-exp-functions-2",
   "level": "2",
-  "url": "sec-exp-functions.html#exercises-exp-2",
-  "type": "Exercise",
-  "number": "2.2.1",
+  "url": "sec-exp-functions.html#sec-exp-functions-2",
+  "type": "Objectives",
+  "number": "2.1",
   "title": "",
-  "body": "   Solve for the unknown variable.           . Thus, or . Hence, .      "
+  "body": "   Recognize an exponential function and distinguish it from a polynomial \/ power function    Identify if an exponential function is modelling exponential growth or exponential decay based on its graph and\/or equation    Identify fundamental characteristics of exponential functions.    Compare and contrast characteristics of exponential functions with those of polynomial functions.    Describe transformations of exponential functions.    Describe how transformations of exponential functions change the properties and characteristics (such as the horizontal asymptote and end behaviours) of the transformed function.    Define the number and the natural exponential function .    "
+},
+{
+  "id": "sec-exp-functions-5-2",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential function base "
+},
+{
+  "id": "sec-exp-functions-5-4",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-4",
+  "type": "Figure",
+  "number": "2.1",
+  "title": "Exponential Growth - NEED SVG GRAPH",
+  "body": "Exponential Growth - NEED SVG GRAPH   Exponential Decay - NEED SVG GRAPH If the function illustrates exponential growth , which can be used to model quantities that increase rapidly over time. The graph here is an example of a graph of where .    "
+},
+{
+  "id": "sec-exp-functions-5-5",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-5",
+  "type": "Figure",
+  "number": "2.2",
+  "title": "Exponential Decay - NEED SVG GRAPH",
+  "body": "Exponential Decay - NEED SVG GRAPH   Exponential Decay - NEED SVG GRAPH If the function illustrates exponential decay , which can be used to model quantities that shrink exponentially over time. The graph here is an example of a graph of where .    "
+},
+{
+  "id": "sec-exp-functions-5-6",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-6",
+  "type": "Checkpoint",
+  "number": "2.3",
+  "title": "Interactive graph activity.",
+  "body": "Interactive graph activity  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   What do you notice when ?  What do you notice for different values of ? Can you determine different \"cases\" for ? (Are there different groups of values of a that behave differently?)  "
+},
+{
+  "id": "sec-exp-functions-5-7",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-7",
+  "type": "Checkpoint",
+  "number": "2.4",
+  "title": "Exponential graphs.",
+  "body": "Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .      "
+},
+{
+  "id": "sec-exp-functions-5-8",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-8",
+  "type": "Checkpoint",
+  "number": "2.5",
+  "title": "Exponential graphs.",
+  "body": "Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   C    A    B    D     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that D decreases faster than the others, so D has the smallest .      "
+},
+{
+  "id": "sec-exp-functions-5-11",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5-11",
+  "type": "Checkpoint",
+  "number": "2.6",
+  "title": "",
+  "body": "  In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and\/or dividing constants.     Are the functions given below exponential functions?                           "
+},
+{
+  "id": "sec-exp-functions-6-3",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Natural Exponential Function Euler's Number "
+},
+{
+  "id": "sec-exp-functions-6-6",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-6-6",
+  "type": "Figure",
+  "number": "2.7",
+  "title": "Exponential Function - NEED SVG GRAPHExponential Function - NEED SVG GRAPH",
+  "body": "Exponential Function - NEED SVG GRAPH  Exponential Function - NEED SVG GRAPH The graph of is shown here, along with the graphs of and .  Exponential Function - NEED SVG GRAPH    "
+},
+{
+  "id": "sec-exp-functions-7-4",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-7-4",
+  "type": "Checkpoint",
+  "number": "2.8",
+  "title": "Function characteristics - NEEED TO COMPLETE.",
+  "body": "Function characteristics - NEEED TO COMPLETE    Checkpoint Idea: An exponential function is given and students are asked to identify some of the aforementioned characteristics. For instance, identify the domain, range, equation of the horizontal asymptote, y-intercept. Include exponential grwoth and exponential decay.       "
+},
+{
+  "id": "sec-exp-functions-8-5",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-8-5",
+  "type": "Checkpoint",
+  "number": "2.9",
+  "title": "Interactive graph activity.",
+  "body": "Interactive graph activity  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters , and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  "
+},
+{
+  "id": "sec-exp-functions-8-6",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-8-6",
+  "type": "Checkpoint",
+  "number": "2.10",
+  "title": "Transformations of exponential functions.",
+  "body": "Transformations of exponential functions    The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes       "
+},
+{
+  "id": "sec-exp-functions-8-7",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-8-7",
+  "type": "Checkpoint",
+  "number": "2.11",
+  "title": "Transformations of exponential functions.",
+  "body": "Transformations of exponential functions      Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.      "
+},
+{
+  "id": "sec-exp-functions-9-3",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-9-3",
+  "type": "Exercise",
+  "number": "2.1.5.1",
+  "title": "Exponential graphs.",
+  "body": "Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   AC    AD    CD    BC    BD    AB     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are D and C.      "
+},
+{
+  "id": "sec-exp-functions-9-4",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-9-4",
+  "type": "Exercise",
+  "number": "2.1.5.2",
+  "title": "Exponential graphs.",
+  "body": "Exponential graphs    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   B    A    C    D     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that C increases faster than the others, so C has the largest .      "
+},
+{
+  "id": "sec-exp-functions-9-5",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-9-5",
+  "type": "Exercise",
+  "number": "2.1.5.3",
+  "title": "",
+  "body": "   The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 2 units;  (d) shifting the graph of to the left 2 units;  (e) shifting the graph of upward 2 units;  (f) shifting the graph of downward 2 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f       "
+},
+{
+  "id": "sec-exp-functions-9-6",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-9-6",
+  "type": "Exercise",
+  "number": "2.1.5.4",
+  "title": "",
+  "body": "   Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                  "
+},
+{
+  "id": "sec-exp-functions-9-7",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-9-7",
+  "type": "Exercise",
+  "number": "2.1.5.5",
+  "title": "Function characteristics - NEEED TO COMPLETE.",
+  "body": "Function characteristics - NEEED TO COMPLETE    Checkpoint Idea: Given a transformed exponential function, identify the domain, range, HA, y-int       "
+},
+{
+  "id": "sec-exp-functions-9-8",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-9-8",
+  "type": "Exercise",
+  "number": "2.1.5.6",
+  "title": "Function characteristics - NEEED TO COMPLETE.",
+  "body": "Function characteristics - NEEED TO COMPLETE    Checkpoint Idea: Given a graph of a transformed exponential function, match it to its corresponding equation       "
 },
 {
   "id": "exercises-exp-3",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-3",
   "type": "Exercise",
-  "number": "2.2.2",
+  "number": "2.1.6.1",
   "title": "",
-  "body": "   Solve the equation for . Answer:             "
+  "body": "   Solve for the unknown variable.           . Thus, or . Hence, .      "
 },
 {
   "id": "exercises-exp-4",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-4",
   "type": "Exercise",
-  "number": "2.2.3",
+  "number": "2.1.6.2",
   "title": "",
-  "body": "   The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes       "
+  "body": "   Solve the equation for . Answer:             "
 },
 {
   "id": "exercises-exp-5",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-5",
   "type": "Exercise",
-  "number": "2.2.4",
+  "number": "2.1.6.3",
   "title": "",
-  "body": "   Use the Laws of logarithms to rewrite the expression in a form with no logarithm of a product, quotient or power.  After rewriting we have  with the constant   the constant   and the constant                       "
+  "body": "  Used in Exponential functions and their graphs     The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes       "
 },
 {
   "id": "exercises-exp-6",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-6",
   "type": "Exercise",
-  "number": "2.2.5",
+  "number": "2.1.6.4",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/ASU-topics\/setLogarithmicFunctions\/srw4_4_1-5.pg with seed 88 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+  "body": "   Use the Laws of logarithms to rewrite the expression in a form with no logarithm of a product, quotient or power.  After rewriting we have  with the constant   the constant   and the constant                       "
 },
 {
   "id": "exercises-exp-7",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-7",
   "type": "Exercise",
-  "number": "2.2.6",
+  "number": "2.1.6.5",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/Utah\/Business_Algebra\/set9_Mathematics_of_Finance\/p04.pg with seed 89 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+  "body": "    PTX:ERROR: WeBWorK problem Library\/ASU-topics\/setLogarithmicFunctions\/srw4_4_1-5.pg with seed 100 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
 },
 {
   "id": "exercises-exp-8",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-8",
   "type": "Exercise",
-  "number": "2.2.7",
+  "number": "2.1.6.6",
   "title": "",
-  "body": "  I removed number 7 temporarily because the graph causes an error. The question gives a graph and asks which function expression correponds to that graph....    "
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Utah\/Business_Algebra\/set9_Mathematics_of_Finance\/p04.pg with seed 101 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
 },
 {
   "id": "exercises-exp-9",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-9",
   "type": "Exercise",
-  "number": "2.2.8",
+  "number": "2.1.6.7",
   "title": "",
-  "body": "   Are the functions given below exponential functions?                           "
+  "body": "  I removed number 7 temporarily because the graph causes an error. The question gives a graph and asks which function expression correponds to that graph....    "
 },
 {
   "id": "exercises-exp-10",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-10",
   "type": "Exercise",
-  "number": "2.2.9",
+  "number": "2.1.6.8",
   "title": "",
-  "body": "   Find the solutions of the exponential equation  Enter your answer as a comma-separated list, and enter none if there are no solutions.            "
+  "body": "  Used in Exponential functions and their graphs     Are the functions given below exponential functions?                           "
 },
 {
   "id": "exercises-exp-11",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-11",
   "type": "Exercise",
-  "number": "2.2.10",
+  "number": "2.1.6.9",
   "title": "",
-  "body": "   The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 2 units;  (d) shifting the graph of to the left 2 units;  (e) shifting the graph of upward 2 units;  (f) shifting the graph of downward 2 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f       "
+  "body": "   Find the solutions of the exponential equation  Enter your answer as a comma-separated list, and enter none if there are no solutions.            "
 },
 {
   "id": "exercises-exp-12",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-12",
   "type": "Exercise",
-  "number": "2.2.11",
+  "number": "2.1.6.10",
   "title": "",
-  "body": "   Find a formula for the linear function whose graph intersects the graph of   at and .          SOLUTION At x =40, . At x =140, . We have and . This gives where . Solving for , we have   Thus .      "
+  "body": "  Used in Exponential functions and their graphs     The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 5 units;  (d) shifting the graph of to the left 5 units;  (e) shifting the graph of upward 5 units;  (f) shifting the graph of downward 5 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f       "
 },
 {
   "id": "exercises-exp-13",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-13",
   "type": "Exercise",
-  "number": "2.2.12",
+  "number": "2.1.6.11",
   "title": "",
-  "body": "   Use logarithms to find an exact solution to the equation below.           SOLUTION Using the log rules, we have       "
+  "body": "   Find a formula for the linear function whose graph intersects the graph of   at and .          SOLUTION At x =60, . At x =160, . We have and . This gives where . Solving for , we have   Thus .      "
 },
 {
   "id": "exercises-exp-14",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-14",
   "type": "Exercise",
-  "number": "2.2.13",
+  "number": "2.1.6.12",
   "title": "",
-  "body": "     Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.      "
+  "body": "   Use logarithms to find an exact solution to the equation below.           SOLUTION Using the log rules, we have       "
 },
 {
   "id": "exercises-exp-15",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-15",
   "type": "Exercise",
-  "number": "2.2.14",
+  "number": "2.1.6.13",
   "title": "",
-  "body": "   Let . Solve each of the following equations exactly for .  (a)    (b)    (c)                    SOLUTION (a) Since , this equation is equivalent to or . Taking the exponential of both sides, we obtain , so the solution is . (b) Since the inverse function of is given by , this equation is equivalent to . Taking the natural logarithm of both sides, we obtain a solution of . (c) This equation is equivalent to . Taking the exponential of both sides, we obtain , so the final answer is given by .      "
+  "body": "  Used in Exponential functions and their graphs       Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.      "
 },
 {
   "id": "exercises-exp-16",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-16",
   "type": "Exercise",
-  "number": "2.2.15",
+  "number": "2.1.6.14",
   "title": "",
-  "body": "   Suppose that and . Write the following expressions in terms of and  (so you cannot have an A or B anywhere in your answers).  (a)   (b)   (c)   (d)   (e)   (f)                                  SOLUTION (a) (b) (c) (d) Since and , we can rewrite these two logarithmic equations in terms of exponents and respectively. Thus: (e) (f)       "
+  "body": "   Let . Solve each of the following equations exactly for .  (a)    (b)    (c)                    SOLUTION (a) Since , this equation is equivalent to or . Taking the exponential of both sides, we obtain , so the solution is . (b) Since the inverse function of is given by , this equation is equivalent to . Taking the natural logarithm of both sides, we obtain a solution of . (c) This equation is equivalent to . Taking the exponential of both sides, we obtain , so the final answer is given by .      "
 },
 {
   "id": "exercises-exp-17",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-17",
   "type": "Exercise",
-  "number": "2.2.16",
+  "number": "2.1.6.15",
   "title": "",
-  "body": "   Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the exponent: so that Once the exponent isolated we use logs and solve for :       "
+  "body": "   Suppose that and . Write the following expressions in terms of and  (so you cannot have an A or B anywhere in your answers).  (a)   (b)   (c)   (d)   (e)   (f)                                  SOLUTION (a) (b) (c) (d) Since and , we can rewrite these two logarithmic equations in terms of exponents and respectively. Thus: (e) (f)       "
 },
 {
   "id": "exercises-exp-18",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-18",
   "type": "Exercise",
-  "number": "2.2.17",
+  "number": "2.1.6.16",
   "title": "",
-  "body": "   Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the natural log:  Now we can rewrite in exponential form and solve for x :   . Now we check our solution:  which is the result we want.      "
+  "body": "   Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the exponent: so that Once the exponent isolated we use logs and solve for :       "
 },
 {
   "id": "exercises-exp-19",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-19",
   "type": "Exercise",
-  "number": "2.2.18",
+  "number": "2.1.6.17",
   "title": "",
-  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   A    B    C    D     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .      "
+  "body": "   Find the exact solution to the equation below. (Do not give a decimal approximation.)           SOLUTION First we isolate the natural log:  Now we can rewrite in exponential form and solve for x :   . Now we check our solution:  which is the result we want.      "
 },
 {
   "id": "exercises-exp-20",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-20",
   "type": "Exercise",
-  "number": "2.2.19",
+  "number": "2.1.6.18",
   "title": "",
-  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that D increases faster than the others, so D has the largest .      "
+  "body": "  Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   A    B    C    D     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .      "
 },
 {
   "id": "exercises-exp-21",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-21",
   "type": "Exercise",
-  "number": "2.2.20",
+  "number": "2.1.6.19",
   "title": "",
-  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   CD    AD    AC    AB    BD    BC     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are B and C.      "
+  "body": "  Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    B    A    C     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that D increases faster than the others, so D has the largest .      "
 },
 {
   "id": "exercises-exp-22",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-22",
   "type": "Exercise",
-  "number": "2.2.21",
+  "number": "2.1.6.20",
   "title": "",
-  "body": "   Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that C decreases faster than the others, so C has the smallest .      "
+  "body": "  Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   BC    AB    BD    AC    CD    AD     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are C and B.      "
 },
 {
   "id": "exercises-exp-23",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-23",
   "type": "Exercise",
-  "number": "2.2.22",
+  "number": "2.1.6.21",
   "title": "",
-  "body": "   Find the solution of the logarithmic equation in terms of logarithms, or correct to four decimal places.  Your answer is              "
+  "body": "  Used in Exponential functions and their graphs     Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that B decreases faster than the others, so B has the smallest .      "
 },
 {
   "id": "exercises-exp-24",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-24",
   "type": "Exercise",
-  "number": "2.2.23",
+  "number": "2.1.6.22",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-52.pg with seed 105 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+  "body": "   Find the solution of the logarithmic equation in terms of logarithms, or correct to four decimal places.  Your answer is              "
 },
 {
   "id": "exercises-exp-25",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-25",
   "type": "Exercise",
-  "number": "2.2.24",
+  "number": "2.1.6.23",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-49.pg with seed 106 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-52.pg with seed 117 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
 },
 {
   "id": "exercises-exp-26",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-26",
   "type": "Exercise",
-  "number": "2.2.25",
+  "number": "2.1.6.24",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-50.pg with seed 107 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-49.pg with seed 118 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
 },
 {
   "id": "exercises-exp-27",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-27",
   "type": "Exercise",
-  "number": "2.2.26",
+  "number": "2.1.6.25",
   "title": "",
-  "body": "   Find (a) the domain of and (b) .   (a)   (b)                  "
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UVA-Stew5e\/setUVA-Stew5e-C01S06-LogsInvs\/1-6-50.pg with seed 119 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
 },
 {
   "id": "exercises-exp-28",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-28",
   "type": "Exercise",
-  "number": "2.2.27",
+  "number": "2.1.6.26",
   "title": "",
-  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
+  "body": "   Find (a) the domain of and (b) .   (a)   (b)                  "
 },
 {
   "id": "exercises-exp-29",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-29",
   "type": "Exercise",
-  "number": "2.2.28",
+  "number": "2.1.6.27",
   "title": "",
-  "body": "   Solve each inequality for .  (a)  (b)  (a)   (b)                  "
+  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
 },
 {
   "id": "exercises-exp-30",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-30",
   "type": "Exercise",
-  "number": "2.2.29",
+  "number": "2.1.6.28",
   "title": "",
-  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
+  "body": "   Solve each inequality for .  (a)  (b)  (a)   (b)                  "
 },
 {
   "id": "exercises-exp-31",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-31",
   "type": "Exercise",
-  "number": "2.2.30",
+  "number": "2.1.6.29",
   "title": "",
-  "body": "   Solve each inequality for .  (a)  (b)  (a)    (b)                       "
+  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
 },
 {
   "id": "exercises-exp-32",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-32",
   "type": "Exercise",
-  "number": "2.2.31",
+  "number": "2.1.6.30",
   "title": "",
-  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
+  "body": "   Solve each inequality for .  (a)  (b)  (a)    (b)                       "
 },
 {
   "id": "exercises-exp-33",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-33",
   "type": "Exercise",
-  "number": "2.2.32",
+  "number": "2.1.6.31",
   "title": "",
-  "body": "   Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                  "
+  "body": "   Solve each equation for .  (a)  (b)  (a)  (b)                 "
 },
 {
   "id": "exercises-exp-34",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-34",
   "type": "Exercise",
-  "number": "2.2.33",
+  "number": "2.1.6.32",
   "title": "",
-  "body": "   Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 1 unit to the right and 7 units upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (2,7) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).      "
+  "body": "  Used in Exponential functions and their graphs     Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                  "
 },
 {
   "id": "exercises-exp-35",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-35",
   "type": "Exercise",
-  "number": "2.2.34",
+  "number": "2.1.6.33",
   "title": "",
-  "body": "   In each part, find the value of in simplest form.  (a)  =  (b)  =  (c)  =                      "
+  "body": "   Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 5 units to the right and 1 unit upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (6,1) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).      "
 },
 {
   "id": "exercises-exp-36",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-36",
   "type": "Exercise",
-  "number": "2.2.35",
+  "number": "2.1.6.34",
   "title": "",
-  "body": "   Solve the following equation. If necessary, enter your answer as an expression involving natural logarithms or as a decimal approximation that is correct to at least four decimal places.               "
+  "body": "   In each part, find the value of in simplest form.  (a)  =  (b)  =  (c)  =                      "
 },
 {
   "id": "exercises-exp-37",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-37",
   "type": "Exercise",
-  "number": "2.2.36",
+  "number": "2.1.6.35",
   "title": "",
-  "body": "    PTX:ERROR: WeBWorK problem Library\/Rochester\/setAlgebra30LogExpEqns\/srw4_3_48.pg with seed 118 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
+  "body": "   Solve the following equation. If necessary, enter your answer as an expression involving natural logarithms or as a decimal approximation that is correct to at least four decimal places.               "
 },
 {
   "id": "exercises-exp-38",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-38",
   "type": "Exercise",
-  "number": "2.2.37",
+  "number": "2.1.6.36",
   "title": "",
-  "body": "   Find the solution of the logarithmic equation correct to four decimal places.  Your answer is              "
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Rochester\/setAlgebra30LogExpEqns\/srw4_3_48.pg with seed 130 does not have a statement tag Maybe it uses something other than BEGIN_TEXT or BEGIN_PGML to print the statement in its PG code Use -a to halt with returned content     "
 },
 {
   "id": "exercises-exp-39",
   "level": "2",
   "url": "sec-exp-functions.html#exercises-exp-39",
   "type": "Exercise",
-  "number": "2.2.38",
+  "number": "2.1.6.37",
+  "title": "",
+  "body": "   Find the solution of the logarithmic equation correct to four decimal places.  Your answer is              "
+},
+{
+  "id": "exercises-exp-40",
+  "level": "2",
+  "url": "sec-exp-functions.html#exercises-exp-40",
+  "type": "Exercise",
+  "number": "2.1.6.38",
   "title": "",
   "body": "   Solve the equation              "
 },
@@ -1445,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-exp-log.html",
   "type": "Section",
-  "number": "2.3",
+  "number": "2.2",
   "title": "The Natural Logarithm",
   "body": " The Natural Logarithm     ....    ....    ......    ......      Where will this be used in calculus?  ....     ....    ....    ....    ....       ....    Section 1  Coming soon.    Section 2  Coming soon.    Any other topics?  Coming soon.    Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.   Additional Exercises  For students who want even more problems to practice, here are some additional exercises.   "
 },
@@ -1454,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-2",
   "type": "Objectives",
-  "number": "2.3",
+  "number": "2.2",
   "title": "",
   "body": "   ....    ....    ......    ......    "
 },
@@ -1463,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-exp-lngraph.html",
   "type": "Section",
-  "number": "2.4",
+  "number": "2.3",
   "title": "The Logarithmic Function and its Graph",
   "body": " The Logarithmic Function and its Graph     ....    ....    ......    ......      Where will this be used in calculus?  ....     ....    ....    ....    ....       ....    Section 1  Coming soon.    Section 2  Coming soon.    Any other topics?  Coming soon.    Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.   Additional Exercises  For students who want even more problems to practice, here are some additional exercises.   "
 },
@@ -1472,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lngraph.html#sec-exp-lngraph-2",
   "type": "Objectives",
-  "number": "2.4",
+  "number": "2.3",
   "title": "",
   "body": "   ....    ....    ......    ......    "
 },
@@ -1481,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-exp-solve.html",
   "type": "Section",
-  "number": "2.5",
+  "number": "2.4",
   "title": "Solving Exponential and Logarithmic Functions",
   "body": " Solving Exponential and Logarithmic Functions     ....    ....    ......    ......      Where will this be used in calculus?  ....     ....    ....    ....    ....       ....    Section 1  Coming soon.    Section 2  Coming soon.    Any other topics?  Coming soon.    Additional Examples  Here are a few examples that use several of the techniques and rules seen above.   You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.    Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.   Additional Exercises  For students who want even more problems to practice, here are some additional exercises.   "
 },
@@ -1490,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-solve.html#sec-exp-solve-2",
   "type": "Objectives",
-  "number": "2.5",
+  "number": "2.4",
   "title": "",
   "body": "   ....    ....    ......    ......    "
 },
@@ -1681,7 +1861,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Trigonometric Graphs",
-  "body": " Trigonometric Graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to interpret important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period, midline and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model a variety of periodic phenomena, and are therefore an important tool in calculus. Graphs can be used to get an overview of a function, or to obtain specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids in integral calculus.    Use amplitude, period, midline and phase shift of a periodic function to describe and analyze the characterisics of a modeled situation.       In this section, we discuss the graphs of trigonometric functions, and some properties of their graphs.   Sinusoidal Graphs and Notation  A sinusoidal function Sinusoidal function is similar to but possibly shifted, stretched, reflected etc. Below is an example of a graph of a sinusoidal function.   An example of a sinusoidal graph.  An example of a sinusoidal graph.   An example of a sinusoidal graph.    Notation    The image shows an example of a sinusoidal graph. To describe the graph, we use some specific notation.     The midline Midline is the horizontal line at middle value between the maximum and the minumum values of the graph.    The amplitude Amplitude is the distance between the midline and the maximum value. This is also equal to the distance between the midline and the minimum value    Sinusoidal functions are periodic Periodic function , which means that they repeat after a certain interval. The length of that interval is called the period Period of a function . Therefore we can say that the period of a sinusoidal function is the distance between two consequitive maximum points (which is also the same as the distance between two consequitive minimum points).    We also use phase shift Phase shift to describe sinusoidal graphs. The phase shift is the horizontal distance that the graph has been shifted, compared to its related non-shifted function .  A phase shift can also be called a horizontal translation Horizontal translation or sometimes a horizontal shift. The term ``horizontal translation'' applies to any graphs translated horizontally, while the term ``phase shift'' is used only for sinusoidal graphs.       The Six Trigonometric Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All six trigonometric functions are periodic Periodic function , which means that they repeat after a certain interval, called the period Period of a function . The periods for the six functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , at the -values and .    Properties from graphs - HOMEMADE - UPDATED    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where List your answers from smallest to largest. If there are only three such values (for example) then write `none in any remaining answer boxes. and and and                        none    none        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function Odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)  Also, is an even function Even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)  Note that the reflective symmetry must be specifically about the -axis, for the function to be called an even function. Similarly an odd function must have rotational symmetry about the origin, not some other point.  Symmetries - UPDATED PLEASE REVIEW   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)     (d) is an even function.       (a) True  (b) False  (c) True  (c) False    (a) This is true. Looking at the graph of (see ) we see that it is symmetric about the origin.  (b) This is false. Looking at the graph (see ) we see that it is symmetric about the -axis, so is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function. (See )  (c) This is false. We know that is an even function (see ), but is shifted 1 unit to the right, so the symmetry is no longer about the -axis. The function is not even and not odd.    Symmetries and properties from graphs - HOMEMADE - UPDATED PLEASE REVIEW    Which of the following statements are true, and which are false?    is an odd function.  True   False     is an odd function.  True   False       True   False       True   False     is an even function.  True   False                                     Transformations of graphs  Transformations of graphs in general may be reviewed in another section, or you may recall shifts, reflections and stretches\/compressions from your prior studies. Here we discuss some transformations specifically in terms of trigonometric functions.   Basic transformations   Use a graphing tool (for example DESMOS) to graph and . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .    Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The number is the amplitude of the sine or cosine curve.  Investigating changes in graphs - HOMEMADE  Use the link to open a DESMOS page:   Transformation investigation   On that page you have the option of viewing some sine, cosine or tangent graphs. (Click the button on the left of each type of curve to turn it on and off.) Start with the sine graphs on, and do the following:   Slide the slider left and right. How does the graph change, compared to the original (which is indicated with a dashed line)? Write down some notes of your observations. Be as specific as you can. Is there any difference for positive and negative values of ?    Now slide the slider left and right. How does the graph change? Write down some notes of your observations and be as specific as you can.    Now slide the slider left and right. How does the graph change? Write down some notes of your observations and be as specific as you can.    Set , and . Then slide the slider left and right. How does the graph change? Write down some notes of your observations and be as specific as you can. Is there any difference for positive and negative values of ? Compare values of larger than 1, and between 0 and 1. What happens when ? When ?    Now repeat the above investigations with the Cosine Curves `on' and the Sine Curves `muted'. Look back at your notes. Do the same obervations regarding each slider also apply to these curves?    Now repeat the above investigations with only the Tan Curves `on'. Do the same obervations regarding each slider also apply to these curves? Take note of where in the expressions the appear, and write down some general conclusions. Then continue reading the paragraphs below this Checkpoint.      Generalizing and we can summarize some results as follows:  Transformations  Consider the functions       If , the graphs are streched or compressed (compared to the graphs of and ) so that their amplitude is given by (the absolute value of ). If is negative then the curve has been reflected in the -axis as well as stretched or compressed.    The graphs are shifted up units if is positive, and down units if is negative.    Compared to , the graph of is stretched if is less than 1, and compressed if is more than 1. In either case if , the period is . Similarly for cosine.    The period of is so the period of is .    To see the effect of , it is easiest to first factor :     Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift (see ).      Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - NEW INSTRUCTIONS, PLEASE CHECK   Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.      (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  True   False   (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE - UPDATED    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)  (d) What is the midline of                              Find period, amplitude, phase shift - HOMEMADE - UPDATED    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)  (d) What is the midline of                              Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . Since the graph heads down and takes negative values as increases from (instead of going up), we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:         Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 6 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   Choose    D    B    C    E    A              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph A .       Determine if the graph is periodic - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Determine if the graph is periodic - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 2.        "
+  "body": " Trigonometric Graphs     Recognize and be able to sketch trigonometric graphs.    Use the graphs of trigonometric functions to interpret important information.    Determine symmetries of trigonometric functions.    Determine amplitude, period, midline and phase shift.      Where will this be used in calculus?  Trigonometric functions are used to model a variety of periodic phenomena, and are therefore an important tool in calculus. Graphs can be used to get an overview of a function, or to obtain specific information easily. Some examples are:     Finding the area between curves or the volume of certain solids in integral calculus.    Use amplitude, period, midline and phase shift of a periodic function to describe and analyze the characterisics of a modeled situation.       In this section, we discuss the graphs of trigonometric functions, and some properties of their graphs.   Sinusoidal Graphs and Notation  A sinusoidal function Sinusoidal function is similar to but possibly shifted, stretched, reflected etc. Below is an example of a graph of a sinusoidal function.   An example of a sinusoidal graph.  An example of a sinusoidal graph.   An example of a sinusoidal graph.    Notation    The image shows an example of a sinusoidal graph. To describe the graph, we use some specific notation.     The midline Midline is the horizontal line at middle value between the maximum and the minumum values of the graph.    The amplitude Amplitude is the distance between the midline and the maximum value. This is also equal to the distance between the midline and the minimum value    Sinusoidal functions are periodic Periodic function , which means that they repeat after a certain interval. The length of that interval is called the period Period of a function . Therefore we can say that the period of a sinusoidal function is the distance between two consequitive maximum points (which is also the same as the distance between two consequitive minimum points).    We also use phase shift Phase shift to describe sinusoidal graphs. The phase shift is the horizontal distance that the graph has been shifted, compared to its related non-shifted function .  A phase shift can also be called a horizontal translation Horizontal translation or sometimes a horizontal shift. The term ``horizontal translation'' applies to any graphs translated horizontally, while the term ``phase shift'' is used only for sinusoidal graphs.       The Six Trigonometric Graphs  The graphs of the trigonometric functions are given below.   Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .      Study tip:   You should memorize the graphs of , and . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.   All six trigonometric functions are periodic Periodic function , which means that they repeat after a certain interval, called the period Period of a function . The periods for the six functions are as follows:  Periods of trigonometric functions.    Function  Period                              Properties and symmetries  One benefit of graphs is that a lot of information about a function can be seen quickly. Some examples are seen below.    Study tip:   Try answering the questions in yourself before looking at the solution.   Properties from graphs   Use the graphs of trigonometric functions to find the following information:   (a)     (b) All values of in the interval where .    (c) All values of in the interval where is undefined.       Looking at the graphs given earlier in this section, we can easily find the information.  (a) , as seen from the graph of .  (b) Looking at the graph of , we can see that it crosses the -axis 5 times in the inteval , at the -values and .  (c) Looking at the graph of , we can see that it is undefined 4 times in the inteval , at the -values and .    Properties from graphs - HOMEMADE - UPDATED    Use the graphs of trigonometric functions to find the following information.  (a)   (b)   (c) All values of in the interval where List your answers from smallest to largest. If there are only three such values (for example) then write `none in any remaining answer boxes. and and and                        none    none        Graphs also illustrate symmetries. For example, and are odd functions, while is an even function.  Recall that a function is an odd function Odd function if for all in the domain of . Visually, this means that the graph has 180 degree symmetry about the origin. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)  Also, is an even function Even function if for all in the domain of . This means that the graph of has reflective symmetry about the -axis. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)  Note that the reflective symmetry must be specifically about the -axis, for the function to be called an even function. Similarly an odd function must have rotational symmetry about the origin, not some other point.  Symmetries - UPDATED PLEASE REVIEW   Which of the following statements are true, and which are false?     (a) is an odd function.    (b) is an odd function.    (c)     (d) is an even function.       (a) True  (b) False  (c) True  (c) False    (a) This is true. Looking at the graph of (see ) we see that it is symmetric about the origin.  (b) This is false. Looking at the graph (see ) we see that it is symmetric about the -axis, so is an even function, not odd.  (c) This is true. This is a property of odd functions and is an odd function. (See )  (c) This is false. We know that is an even function (see ), but is shifted 1 unit to the right, so the symmetry is no longer about the -axis. The function is not even and not odd.    Symmetries and properties from graphs - HOMEMADE - UPDATED PLEASE REVIEW    Which of the following statements are true, and which are false?    is an odd function.  True   False     is an odd function.  True   False       True   False       True   False     is an even function.  True   False                                     Transformations of graphs  Transformations of graphs in general may be reviewed in another section, or you may recall shifts, reflections and stretches\/compressions from your prior studies. Here we discuss some transformations specifically in terms of trigonometric functions.   Basic transformations   Use a graphing tool (for example DESMOS) to graph and . How are each of them different from the graph of ?    Let's start by looking at the graphs of and together.   The graphs of and .   Looking at the graph of , we see that it looks very similar to the graph of , except that the -values range between -2 and 2, instead of -1 and 1. The graph of is streched vertically by a factor of 2, compared to the graph of . This is because all outputs are multiplied by 2 (compared to the corrsponding outputs of ).  Now let's compare the graphs of and :   The graphs of and .   Looking at the graph of , we see that it again looks similar to the graph of , except its period is instead of . The oscillations occur `twice as fast' compared to the graph of . The graph of is compressed horizontally by a factor of 2, compared to the graph of .    Generalizing what we saw in , the graph of (for oscillates between and (because it has been stretched vertically). Similarly for the graph of . The number is the amplitude of the sine or cosine curve.  Investigating changes in graphs - HOMEMADE  Use the link to open a DESMOS page:   Transformation investigation   On that page you have the option of viewing some sine, cosine or tangent graphs. (Click the button on the left of each type of curve to turn it on and off.) Start with the sine graphs on, and do the following:   Slide the slider left and right. How does the graph change, compared to the original (which is indicated with a dashed line)? Write down some notes of your observations. Be as specific as you can. Is there any difference for positive and negative values of ?    Now slide the slider left and right. How does the graph change? Write down some notes of your observations and be as specific as you can.    Now slide the slider left and right. How does the graph change? Write down some notes of your observations and be as specific as you can.    Set , and . Then slide the slider left and right. How does the graph change? Write down some notes of your observations and be as specific as you can. Is there any difference for positive and negative values of ? Compare values of larger than 1, and between 0 and 1. What happens when ? When ?    Now repeat the above investigations with the Cosine Curves `on' and the Sine Curves `muted'. Look back at your notes. Do the same obervations regarding each slider also apply to these curves?    Now repeat the above investigations with only the Tan Curves `on'. Do the same obervations regarding each slider also apply to these curves? Take note of where in the expressions the appear, and write down some general conclusions. Then continue reading the paragraphs below this Checkpoint.      Generalizing and we can summarize some results as follows:  Transformations  Consider the functions       If , the graphs are streched or compressed (compared to the graphs of and ) so that their amplitude is given by (the absolute value of ). If is negative then the curve has been reflected in the -axis as well as stretched or compressed.    The graphs are shifted up units if is positive, and down units if is negative.    Compared to , the graph of is stretched if is less than 1, and compressed if is more than 1. In either case if , the period is . Similarly for cosine.    The period of is so the period of is .    To see the effect of , it is easiest to first factor :     Compared to , the graph of is shifted units left if and right if is less than 0. Here, is called the phase shift (see ).      Amplitude, period, phase shift   Find the amplitude, period and phase shift for the curve     The amplitude is .  The period is .  The phase shift is .    The amplitude is given by the constant multiplied by , in this case 3.  To find the period, notice that compared to , the graph of is compressed by a factor of . This means the period is divided by . The period of is , which means the persiod of is .  To find the phase shift, we need to consider . It is easier to see the phase shift if we first factor the : Now we see that the curve has been shifted units to the right, so the phase shift is .    Determining period - HOMEMADE    Compared to the graph of the graph of is compressed horizontally by a factor of  What is the period of              Amplitude, period, phase shift from graph - WEBWORK    The graph below illustrates one complete cycle for with positive.   Amplitude =  Period = ;  Phase shift = ;                       Amplitude, period, phase shift from expression - WEBWORK    For the curve   determine each of the following:  Period =  Phase shift =  Note: Use a negative for a shift to the left.   The normal period for the tangent curve is . For a curve of the form the period is found using the formula .  To determine the appropriate phase shift, it is often easier to determine by factoring .                    Exercises  Fact Check - NEW INSTRUCTIONS, PLEASE CHECK   Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).    Study tip:   These are examples of some things that you may need to use on a test or exam. You should know how to recall or find out these facts (and other similar ones) without using a textbook or calculator etc.      (a) Sketch a few periods of the graph of  (b) Sketch a few periods of the graph of  (c) Sketch a few periods of the graph of  (d) It is true or false that  True   False   (e) What is the period of   (f) What is   (g) What is   (h) What is                                  Find period, amplitude, phase shift - HOMEMADE - UPDATED    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)  (d) What is the midline of                              Find period, amplitude, phase shift - HOMEMADE - UPDATED    Find the following for the function  (a) What is the period of   (b) What is the amplitude of   (c) What is the phase shift of  (Use a positive number for a shift to the right, and negative for to the left.)  (d) What is the midline of                              Which function - FROM WEBWORK    Which function is described by the plot below?                    none of the above               Find the function - FROM WEBWORK    Below is the graph of the function in blue, and a second sinusoidal function in red, which is a horizontal shift of . Find a formula for the function .     (Click on graph to enlarge)        SOLUTION Since graph has been shifted by of a period, the phase shift is . Therefore the formula for is:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a cosine curve in that it attains its maximum when . We know that the smallest value it attains is , that its midline is , so its amplitude is . Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:        Find the function - FROM WEBWORK    Find a formula for the trigonometric function graphed below. Use as the independent variable in your formula.     (Click on graph to enlarge)        SOLUTION This function resembles a sine curve in that the graph is at its midline when . Since the graph heads down and takes negative values as increases from (instead of going up), we need to use the formula . We know that the smallest value it attains is , that its midline is , so its amplitude is as well. Thus in the equation we know that and . Since the graph has a period of , the value for . Finally we have a formula:         Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 8 within the cosine function, giving us Thus, the horizontal shift is .       Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   C    E    A    D    Choose    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph E .       Determine if the graph is periodic - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This is not the graph of a periodic function. Although the -values repeat, they do not repeat at regular intervals. Moving away from the origin horizontally, the intervals become shorter and shorter.       Determine if the graph is periodic - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 1.        "
 },
 {
   "id": "sec-trig-graphs-2",
@@ -1969,7 +2149,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.8",
   "title": "Find the shift - FROM WEBWORK.",
-  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 6 within the cosine function, giving us Thus, the horizontal shift is .      "
+  "body": "Find the shift - FROM WEBWORK    Suppose . In your answers, enter pi for .  What is the horizontal shift?        SOLUTION To find the horizontal shift, we factor out a 8 within the cosine function, giving us Thus, the horizontal shift is .      "
 },
 {
   "id": "sec-trig-graphs-9-10",
@@ -1978,7 +2158,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.9",
   "title": "Sketch the graph - FROM WEBWORK.",
-  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   Choose    D    B    C    E    A              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph A .      "
+  "body": "Sketch the graph - FROM WEBWORK    Without a calculator, sketch the first two periods of the graph of the function .  Which graph below A-E matches your sketch?   C    E    A    D    Choose    B              A  B            C  D           E      (Click on a graph to enlarge it)   SOLUTION The function has midline and amplitude . Since , the period is Since this is a cosine function with a negative value for the parameter , when the graph is at its minimum value. Therefore the correct answer is graph E .      "
 },
 {
   "id": "sec-trig-graphs-9-11",
@@ -1996,7 +2176,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.5.11",
   "title": "Determine if the graph is periodic - FROM WEBWORK.",
-  "body": "Determine if the graph is periodic - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 2.      "
+  "body": "Determine if the graph is periodic - FROM WEBWORK    Decide whether the following graph appears to be a periodic function. If so enter the value of its period in the blank. If the graph does not appear to be periodic enter NONE.  The period is (Enter NONE if not periodic.)   (Click on graph to enlarge)        SOLUTION This appears to be a periodic function. It repeats regularly with period 1.      "
 },
 {
   "id": "sec-trig-evaluating",
@@ -2005,7 +2185,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Evaluating Trigonometric Functions",
-  "body": " Evaluating Trigonometric Functions     Evaluate trigonomtric functions using special triangles.    Evaluate trigonomtric functions using the coordinate system and the unit circle.    Evaluate trigonomtric functions using graphs.    Choose an appropriate method to evaluate a trigonomtric function at a given angle.     Where will this be used in calculus?     Whenever trigonometric functions are used, it may also be useful to be able to evaluate them. See for some notes on where trigonometric functions are used in calculus.    One specific example is when dealing with definite integrals that involve a trigonometric integrand.       In this section we review methods for evaluating all six trigonomtric functions at given angles. Which method to use depends on the type of angle that is given.   Evaluating Using Special Triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles Special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.   Evaluate using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the special triangle we see that   The final result is:     Evaluate using special triangles 1 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 2 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 3 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating Using the Coordinate System  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.    Evaluate at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is (because ). Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continue the previous example - HOMEMADE    Use the work from Example 3.34 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                            Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed in , but the graphs of and are also given here for convenience:    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .    Evaluate   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .     Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .     Evaluate - HOMEMADE    Evaluate without using a calculator.              Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate trig at multiples of - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY       .     .     .     .     .     .      DNE                        DNE         Summary  The common angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all six trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )       Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate at common angles - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate at - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
+  "body": " Evaluating Trigonometric Functions     Evaluate trigonomtric functions using special triangles.    Evaluate trigonomtric functions using the coordinate system and the unit circle.    Evaluate trigonomtric functions using graphs.    Choose an appropriate method to evaluate a trigonomtric function at a given angle.     Where will this be used in calculus?     Whenever trigonometric functions are used, it may also be useful to be able to evaluate them. See for some notes on where trigonometric functions are used in calculus.    One specific example is when dealing with definite integrals that involve a trigonometric integrand.       In this section we review methods for evaluating all six trigonomtric functions at given angles. Which method to use depends on the type of angle that is given.   Evaluating Using Special Triangles  Being able to evaluate trigonometric functions for common angles will be important in many contexts and examples in calculus. There are several ways to do this. One of the easest is to start with two special triangles.    The two special triangles  Two special triangles Special triangles    special triangle   Special triangle, .     special triangle   Special triangle, .        Study tip:   You should take the time to memorize these two special triangles if you haven't already. They will be useful in finding many trigonometric values. You should practice drawing them on a blank piece of paper until you know them.   Evaluate using special triangles  Use the special triangles to find the value of .        We use the special triangle that has the angle . We also know from the definition of that adjacent \/ hypothenuse. Reading off the values in the special triangle we see that   The final result is:     Evaluate using special triangles 1 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 2 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate using special triangles 3 - HOMEMADE    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                        Evaluating Using the Coordinate System  If an angle is not in the first quadrant, then it is not enough to use the special triangles. But we can use the special triangles in combination with angles in standard position in a coordinate system.    Evaluate at  Find exact values for and without using a calculator.        Start by drawing a coordinate system with a circle centered at the origin (not necessarily the unit circle). Place the angle in standard position (see ).   Angle in standard position.   The part of angle which is in quadrant II, is (because ). Therefore, place the special triangle with (see ) in quadrant II:   The special triangle with in quadrant II.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Continue the previous example - HOMEMADE    Use the work from Example 3.34 to evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Evaluate at - HOMEMADE  Find exact values for and without using a calculator.        We follow similar steps to the previous example. Start by drawing a coordinate system with a circle, but this time placing the angle in standard position (see ). Because it is a negative angle, it is in the clockwise direction.   Angle in standard position.   Place the special triangle with (see ) in quadrant IV:   The special triangle with in quadrant IV.   Reading from the figure, we see that for the angle we can take: Then, using the definitions in , we have the following:       Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                            Evaluate at - HOMEMADE    Evaluate the following. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .  (d)  .                             Evaluating at etc.  If you know the graphs of and , then it is easy to find the values of all trigonometric functions for any multiple of . Trigonometic graphs are discussed in , but the graphs of and are also given here for convenience:    Study tip:   You should memorize these graphs, and the graph of . A lot of information can be seen quickly in a graph, and for most people it's easier to memorize a graph than a long list of facts.    Graph of  Graph of   Graph of .     Graph of  Graph of   Graph of .    Evaluate   Evaluate without using a calculator.        Option 1: Looking at the graph of , we see that at , the graph crosses the horizontal axis. Therefore the value is . Option 2: Another option would be to look at angles on the unit circle (in standard position, see ).   The angle .   From the figure we see that for the angle , we have , and ( is always 1 on the unit circle). Also, (recall from ). This means .     Evaluate   Evaluate without using a calculator.        We know that so therefore . We can evaluate by looking at the graph of , or by using the unit circle. Either way, . Therefore .     Evaluate - HOMEMADE    Evaluate without using a calculator.              Evaluate sine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate trig at multiples of - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY       .     .     .     .     .     .           DNE         DNE                   Summary  The common angles we have evaluated trigonometric functions at, are summarized here.   Common angles  You should be able to evaluate all six trigonometric functions at the following common angles:     First quadrant: ( )    Corresponding angles in other quadrants, such as etc. ( )    Multiples of , such as etc. ( )    Similar negative angles, such as etc. ( and )       Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate at common angles - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .                       Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .                  Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate at - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.     If an answer is undefined, input undefined .   ;   ;   ;   ;   ;   ;                                      Evaluate cosine at multiples of - HOMEMADE    Evaluate without using a calculator.   .             Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .             Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .  (d)  .  (e)  .  (f)  .                                      Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  Note: All angles are in radians. Answer with exact values. Do not use a calculator.  Evaluate - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                  Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .              "
 },
 {
   "id": "sec-trig-evaluating-2",
@@ -2167,7 +2347,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "3.45",
   "title": "Evaluate trig at multiples of <span class=\"process-math\">\\(\\frac{\\pi}{2}\\)<\/span> - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY.",
-  "body": "Evaluate trig at multiples of - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY       .     .     .     .     .     .      DNE                        DNE       "
+  "body": "Evaluate trig at multiples of - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY       .     .     .     .     .     .           DNE         DNE                 "
 },
 {
   "id": "sec-trig-evaluating-9-3",
@@ -2202,8 +2382,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-6",
   "type": "Exercise",
   "number": "3.3.5.4",
-  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-7",
@@ -2229,8 +2409,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-9",
   "type": "Exercise",
   "number": "3.3.5.7",
-  "title": "Evaluate <span class=\"process-math\">\\(\\tan \\theta \\)<\/span> without a calculator  - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\tan \\theta \\)<\/span>  - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-10",
@@ -2238,8 +2418,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-10",
   "type": "Exercise",
   "number": "3.3.5.8",
-  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator  - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-evaluating-9-11",
@@ -2247,8 +2427,17 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-11",
   "type": "Exercise",
   "number": "3.3.5.9",
-  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate at <span class=\"process-math\">\\(\\frac{-2\\pi}{3}\\)<\/span> - HOMEMADE.",
+  "body": "Evaluate at - HOMEMADE   (Not randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  (a)  .  (b)  .  (c)  .  (d)  .  (e)  .  (f)  .                                     "
+},
+{
+  "id": "sec-trig-evaluating-9-12",
+  "level": "2",
+  "url": "sec-trig-evaluating.html#sec-trig-evaluating-9-12",
+  "type": "Exercise",
+  "number": "3.3.5.10",
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "trig-eval-additional-4",
@@ -2256,8 +2445,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#trig-eval-additional-4",
   "type": "Exercise",
   "number": "3.3.6.1",
-  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - FROM WEBWORK.",
-  "body": "Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
 },
 {
   "id": "trig-eval-additional-5",
@@ -2265,8 +2454,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#trig-eval-additional-5",
   "type": "Exercise",
   "number": "3.3.6.2",
-  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - FROM WEBWORK.",
-  "body": "Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
 },
 {
   "id": "trig-eval-additional-6",
@@ -2274,8 +2463,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#trig-eval-additional-6",
   "type": "Exercise",
   "number": "3.3.6.3",
-  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> without a calculator - FROM WEBWORK.",
-  "body": "Evaluate without a calculator - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
+  "title": "Evaluate <span class=\"process-math\">\\(\\cos \\theta \\)<\/span> - FROM WEBWORK.",
+  "body": "Evaluate - FROM WEBWORK   (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.      and  .                 "
 },
 {
   "id": "trig-eval-additional-7",
@@ -2283,8 +2472,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-evaluating.html#trig-eval-additional-7",
   "type": "Exercise",
   "number": "3.3.6.4",
-  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> without a calculator - HOMEMADE.",
-  "body": "Evaluate without a calculator - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
+  "title": "Evaluate <span class=\"process-math\">\\(\\sin \\theta \\)<\/span> - HOMEMADE.",
+  "body": "Evaluate - HOMEMADE   (Randomized.)     Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.   .            "
 },
 {
   "id": "sec-trig-identities",
@@ -2293,7 +2482,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Trigonometric Identities",
-  "body": " Trigonometric Identities     Describe the difference between a trigonometric identity and a trigonometric equation.    Recall the most common trigonometric identities, and be familiar with some additional commonly used trigonometric identities.    Use trigonometric identities to simplify and re-write trigonometric expressions.    Use graphing tools effectively.     Where will this be used in calculus?  Trigonometric identities appear throughout calculus because they allow expressions involving trigonometric functions to be rewritten into simpler or more useful forms. They often make otherwise difficult problems more manageable. Some examples include:    Simplifying derivatives   Rewriting integrands so that integration techniques can be applied  Converting products or powers of trigonometric functions into sums that are easier to integrate  Transforming expressions into recognizable patterns, to prepare for integration by substitution  Simplifying expressions in limit problems   Reducing complexity during multi-step calculus manipulations      In this section we will discuss what trigonometic identities are, and practice using them. There are numerous identities, and we will not discuss all of them here, but we will focus on the most common ones.   What is a Trigonometric Identity?  A trigonometric identity  Trigonometric identity is an equation involving trigonometric functions that is true for all values where the functions are defined. These identities are used to simplify expressions or rewrite them in equivalent forms.  Unlike conditional equations, which are only true for specific values, identities hold for all values within the domain.  One of the most fundamental examples is the Pythagorean identity:   We can check this identity by substituting values for . For example, let :   Next, for example let :    Of course we can not check all values of one by one (there are infinitely many). But using the unit circle and definition of trigonometric functions, it is possible to prove that it holds for all values of . Since the equation holds for all valid values of , it is called an identity.   Fundamental Trigonometric Identities  The following families of identities form the core toolkit used throughout trigonometry and calculus.    Study tip:   The notation means raised to the power of . In other words .   Fundamental Trigonometric Identities  Pythagorean Identities:     Reciprocal Identities:     Quotient Identities:    Even-Odd Properties:        Study tip:   Read these tips that help you know many trig identities by just memorizing a few of them.   Some of the identities above are best to memorize, such as , , , and . You likely know some of those already. However, many of the remaining ones you can get very easily from information you already know. Here are some examples:     : Start with and divide both sides by .   : Start with and divide both sides by .   : Start with and take the reciprocal of both sides.  The Even-Odd Properties: These come from the fact that and are odd while is even (see ).    Evaluate   Suppose that for some angle we know that and . Find the following values.                                             From we know that . So with the given information we see that:     From we know that . So with the given information we see that:     Here we don't need an identity.        Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angle we know that and Find the following values.   = .    = .    = .                         Evaluate at an unknown angle   Suppose is an angle with terminal side in Quadrant IV, and suppose . What is the value of ?         We can use the Pythagorean Identity : Then insert the known value for : Simplify   Then take square roots (recall that ):   To determine whether we should use the positive or the negative value, we should consider signs of trigonometric functions in different quadrants. For example, we can use the CAST rule ( ) to see that is negative in Quadrant IV. Recall that the question specified that is in Quadrant IV. Therefore     Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant III, and suppose What is the value of   .               Study tip:   Often, there are several valid forms of the final answer. In , the factored version and the expanded version are equally ``simple'' so both are good final answers here.   Simplifying   Simplify the expressions as much as possible and write your final answers in terms of and only.                         or .          First use on the numerator: then use and simplify:     First use on the first numerator. Also use and to write everything in terms of and : Cancel common factor in the first term. In the second term, multiply by the reciprical: Cancel   We could factor to get but it is not any simpler than . Both of those are good final answers.       Simplify - HOMEMADE   (Not randomizable)     Simplify the expression as much as possible and write your final answer in terms of and only.   .              Additional Trigonometric Identities  Here we list some additional identities. These are far from all identities. There are many other ones as well, and some of the ones missing here are commonly used. However, we have included those that are most commonly used in calculus.  Additional Trigonometric Identities  Sum Identities:     Difference Identities:     Double-Angle Identities:     Identities for reducing powers:     Product-Sum Identities:       Simplify - HOMEMADE   Simplify the expressions as much as possible.          Use the identity : Then simplify by adding the fractions (write on common denominator ) and simplify:     Simplify - HOMEMADE   (Not randomizable)     Simplify the expressions as much as possible.     .     .                      Study tip:   The type of simplification seen will be important when integrating powers of trigonometric functions.   Simplify - HOMEMADE   Re-write the below expression so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.          Use the identities and : Expand the brackets to get a difference of squares: Now use again to see that which we insert: Now there are no powers, and no trigonometric function is multipled by a trigonometric function.    Simplify - HOMEMADE   (Not randomizable)     Re-write so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.   .              Many Ways to Write the Same Answer  Because of trigonometric identities, two expressions might look very different but actually be the same. It is sometimes not that easy to determine if two expressions are equivalent or not. One starting point is to compare the graphs on a graphing calculator, for example DESMOS.    Study tip:   Suppose you have worked on a problem and you think you have a final answer, but your answer looks different from the answer given in some solution manual. You can graph both answers for example using DESMOS. If the graphs look different, then you know the answers are not the same. If the graphs look the same, then it is not a proof that the answers are equivalent, but it is a strong indication that they are.   You can not prove that two expressions are the same by looking at their graphs on a graphing calculator. But the graphs can be a gret first step to see if the expressions seem to be equal or not.  Comparing graphs - HOMEMADE - NOT COMPLETE   (Not randomizable)     Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)    and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal      and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal      and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal      and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal                                  Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angle we know that and Answer the following questions.   Evaluate = .    Evaluate = .    Evaluate = .    The terminal side of angle is in quadrant  I   II   III   IV  .                              True or False? - HOMEMADE   (Not randomizable)     Which of the following statements are true, and which are false?      True   False       True   False       True   False       True   False       True   False       True   False                                         Write in terms of sine and cosine - HOMEMADE    Write each expression in terms of only sine and cosine, and simplify as much as possible.     .     .     .                         Simplify a product - HOMEMADE    Simplify the below expression as much as possible.   .             Simplify two quotients - HOMEMADE   (Not randomizable)     Simplify the below expression as much as possible.   .             Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant IV, and suppose What is the value of   .             Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant II, and suppose What is the value of   .             Simplify - HOMEMADE   (Not randomizable)     Re-write so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.   .             Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angles and in Quadrant I, we know that and Evaluate the following:    .     .                    Simplify a product - HOMEMADE    Simplify the below expressions as much as possible.   .              Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  An identity or not? - HOMEMADE   (Not randomizable)     Consier the equation   Which of the following statements are true, and which are false?    The above equation holds for all values of and   True   False     The above equation holds for at least some value(s) of and   True   False     The above equation holds for at least some non-zero value(s) of and   True   False     The above equation is a trigonometric identity.  True   False                               Construct an identity - HOMEMADE   (Not randomizable)     Use a graphing calculator (for example DESMOS) to sketch the graph of Use that graph to guess values of and that make the below equation an identity.      .     .                    True or False? - HOMEMADE   (Not randomizable)     Which of the following statements are true, and which are false?      True   False       True   False       True   False       True   False       True   False       True   False                                         Write in terms of sine and cosine - HOMEMADE    Write each expression in terms of only sine and cosine, and simplify as much as possible.     .     .     .                         Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant I, and suppose What is the value of   .             Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angles in Quadrant II, we know that and and is in Quadrant IV with Evaluate the following:    .     .     .     .                              Simplify a product - HOMEMADE    Simplify the below expression as much as possible.   .             Simplify a product - HOMEMADE - need answer    Simplify the below expression as much as possible.   .              "
+  "body": " Trigonometric Identities     Describe the difference between a trigonometric identity and a trigonometric equation.    Recall the most common trigonometric identities, and be familiar with some additional commonly used trigonometric identities.    Use trigonometric identities to simplify and re-write trigonometric expressions.    Use graphing tools effectively.     Where will this be used in calculus?  Trigonometric identities appear throughout calculus because they allow expressions involving trigonometric functions to be rewritten into simpler or more useful forms. They often make otherwise difficult problems more manageable. Some examples include:    Simplifying derivatives   Rewriting integrands so that integration techniques can be applied  Converting products or powers of trigonometric functions into sums that are easier to integrate  Transforming expressions into recognizable patterns, to prepare for integration by substitution  Simplifying expressions in limit problems   Reducing complexity during multi-step calculus manipulations      In this section we will discuss what trigonometic identities are, and practice using them. There are numerous identities, and we will not discuss all of them here, but we will focus on the most common ones.   What is a Trigonometric Identity?  A trigonometric identity  Trigonometric identity is an equation involving trigonometric functions that is true for all values where the functions are defined. These identities are used to simplify expressions or rewrite them in equivalent forms.  Unlike conditional equations, which are only true for specific values, identities hold for all values within the domain.  One of the most fundamental examples is the Pythagorean identity:   We can check this identity by substituting values for . For example, let :   Next, for example let :    Of course we can not check all values of one by one (there are infinitely many). But using the unit circle and definition of trigonometric functions, it is possible to prove that it holds for all values of . Since the equation holds for all valid values of , it is called an identity.   Fundamental Trigonometric Identities  The following families of identities form the core toolkit used throughout trigonometry and calculus.    Study tip:   The notation means raised to the power of . In other words .   Fundamental Trigonometric Identities  Pythagorean Identities:     Reciprocal Identities:     Quotient Identities:    Even-Odd Properties:        Study tip:   Read these tips that help you know many trig identities by just memorizing a few of them.   Some of the identities above are best to memorize, such as , , , and . You likely know some of those already. However, many of the remaining ones you can get very easily from information you already know. Here are some examples:     : Start with and divide both sides by .   : Start with and divide both sides by .   : Start with and take the reciprocal of both sides.  The Even-Odd Properties: These come from the fact that and are odd while is even (see ).    Evaluate   Suppose that for some angle we know that and . Find the following values.                                             From we know that . So with the given information we see that:     From we know that . So with the given information we see that:     Here we don't need an identity.        Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angle we know that and Find the following values.   = .    = .    = .                         Evaluate at an unknown angle   Suppose is an angle with terminal side in Quadrant IV, and suppose . What is the value of ?         We can use the Pythagorean Identity : Then insert the known value for : Simplify   Then take square roots (recall that ):   To determine whether we should use the positive or the negative value, we should consider signs of trigonometric functions in different quadrants. For example, we can use the CAST rule ( ) to see that is negative in Quadrant IV. Recall that the question specified that is in Quadrant IV. Therefore     Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant III, and suppose What is the value of   .               Study tip:   Often, there are several valid forms of the final answer. In , the factored version and the expanded version are equally ``simple'' so both are good final answers here.   Simplifying   Simplify the expressions as much as possible and write your final answers in terms of and only.                         or .          First use on the numerator: then use and simplify:     First use on the first numerator. Also use and to write everything in terms of and : Cancel common factor in the first term. In the second term, multiply by the reciprical: Cancel   We could factor to get but it is not any simpler than . Both of those are good final answers.       Simplify - HOMEMADE   (Not randomizable)     Simplify the expression as much as possible and write your final answer in terms of and only.   .              Additional Trigonometric Identities  Here we list some additional identities. These are far from all identities. There are many other ones as well, and some of the ones missing here are commonly used. However, we have included those that are most commonly used in calculus.  Additional Trigonometric Identities  Sum Identities:     Difference Identities:     Double-Angle Identities:     Identities for reducing powers:     Product-Sum Identities:       Simplify - HOMEMADE   Simplify the expressions as much as possible.          Use the identity : Then simplify by adding the fractions (write on common denominator ) and simplify:     Simplify - HOMEMADE   (Not randomizable)     Simplify the expressions as much as possible.     .     .                      Study tip:   The type of simplification seen will be important when integrating powers of trigonometric functions.   Simplify - HOMEMADE   Re-write the below expression so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.          Use the identities and : Expand the brackets to get a difference of squares: Now use again to see that which we insert: Now there are no powers, and no trigonometric function is multipled by a trigonometric function.    Simplify - HOMEMADE   (Not randomizable)     Re-write so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.   .              Many Ways to Write the Same Answer  Because of trigonometric identities, two expressions might look very different but actually be the same. It is sometimes not that easy to determine if two expressions are equivalent or not. One starting point is to compare the graphs on a graphing calculator, for example DESMOS.    Study tip:   Suppose you have worked on a problem and you think you have a final answer, but your answer looks different from the answer given in some solution manual. You can graph both answers for example using DESMOS. If the graphs look different, then you know the answers are not the same. If the graphs look the same, then it is not a proof that the answers are equivalent, but it is a strong indication that they are.   You can not prove that two expressions are the same by looking at their graphs on a graphing calculator. But the graphs can be a gret first step to see if the expressions seem to be equal or not.  Comparing graphs - HOMEMADE - NOT COMPLETE   (Not randomizable)     Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)    and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal      and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal      and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal      and    The graphs look different, so the expressions are definitely not equal    The graphs look the same, so the expressions may be equal                                  Recommended Exercises  For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the \"Additional Exercises\" ( ) and then come back to the Recommended Exercises.  Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angle we know that and Answer the following questions.   Evaluate = .    Evaluate = .    Evaluate = .    The terminal side of angle is in quadrant  I   II   III   IV  .                              True or False? - HOMEMADE   (Not randomizable)     Which of the following statements are true, and which are false?      True   False       True   False       True   False       True   False       True   False       True   False                                         Write in terms of sine and cosine - HOMEMADE    Write each expression in terms of only sine and cosine, and simplify as much as possible.     .     .     .                         Simplify a product - HOMEMADE    Simplify the below expression as much as possible.   .             Simplify two quotients - HOMEMADE   (Not randomizable)     Simplify the below expression as much as possible.   .             Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant IV, and suppose What is the value of   .             Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant II, and suppose What is the value of   .             Simplify - HOMEMADE   (Not randomizable)     Re-write so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.   .             Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angles and in Quadrant I, we know that and Evaluate the following:    .     .                    Simplify a product - HOMEMADE    Simplify the below expressions as much as possible.   .              Additional Exercises  For students who want even more problems to practice, here are some additional exercises.  An identity or not? - HOMEMADE   (Not randomizable)     Consier the equation   Which of the following statements are true, and which are false?    The above equation holds for all values of and   True   False     The above equation holds for at least some value(s) of and   True   False     The above equation holds for at least some non-zero value(s) of and   True   False     The above equation is a trigonometric identity.  True   False                               Construct an identity - HOMEMADE   (Not randomizable)     Use a graphing calculator (for example DESMOS) to sketch the graph of Use that graph to guess values of and that make the below equation an identity.      .     .                    True or False? - HOMEMADE   (Not randomizable)     Which of the following statements are true, and which are false?      True   False       True   False       True   False       True   False       True   False       True   False                                         Write in terms of sine and cosine - HOMEMADE    Write each expression in terms of only sine and cosine, and simplify as much as possible.     .     .     .                         Evaluate at an unknown angle - HOMEMADE   (Not randomizable)     Suppose is an angle with terminal side in Quadrant I, and suppose What is the value of   .             Evaluate - HOMEMADE   (Not randomizable)     Suppose that for some angles in Quadrant II, we know that and and is in Quadrant IV with Evaluate the following:    .     .     .     .                              Simplify a product - HOMEMADE    Simplify the below expression as much as possible.   .             Simplify a product - HOMEMADE    Simplify the below expression as much as possible.   .              "
 },
 {
   "id": "sec-trig-identities-2",
@@ -2571,8 +2760,8 @@ var ptx_lunr_docs = [
   "url": "sec-trig-identities.html#trig-id-additional-10",
   "type": "Exercise",
   "number": "3.4.6.8",
-  "title": "Simplify a product - HOMEMADE - need answer.",
-  "body": "Simplify a product - HOMEMADE - need answer    Simplify the below expression as much as possible.   .            "
+  "title": "Simplify a product - HOMEMADE.",
+  "body": "Simplify a product - HOMEMADE    Simplify the below expression as much as possible.   .            "
 },
 {
   "id": "sec-trig-inverse",
@@ -3130,7 +3319,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Random trial chapter",
-  "body": " Random trial chapter  For testing things out.... Also for keeping samples of types of code, for easy copy\/pasting.   CAPTION   A test diagram using TikZ.      Special triangle  Special triangle   Special triangle.   Right angled triangle. The length of hypothenuse is . The length of both other sides are .      A MyOpenMath problem     Cross-reference: See for ... Note: The word \"example\" or \"Checkpoint\" etc. is included automatically, so do not type it up. A new term: radical \\amp \"and\" \\lt \"less than\" \\gt \"greater than\"  Description of example   ....                 Study tip:   Notes here.....    Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.        Use the properties of exponents to simplify the following          We add the exponents as follows            Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Find a formula for the inverse of the function  Answer:                             Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .              Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Referencing an assemblage or similar: such as those listed in . This gives the title of the assemblage. Can also try text=\"custom\".  A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F     Answer Type Variety   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                    Evaluate trig at multiples of       .     .     .     .     .     .           DNE         DNE                  "
+  "body": " Random trial chapter  For testing things out.... Also for keeping samples of types of code, for easy copy\/pasting.   CAPTION   A test diagram using TikZ.      Special triangle  Special triangle   Special triangle.   Right angled triangle. The length of hypothenuse is . The length of both other sides are .      A MyOpenMath problem     Cross-reference: See for ... Note: The word \"example\" or \"Checkpoint\" etc. is included automatically, so do not type it up. A new term: radical then idx to add an index item. \\amp \"and\" \\lt \"less than\" \\gt \"greater than\"  Description of example   ....                 Study tip:   Notes here.....    Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.    Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect.        Use the properties of exponents to simplify the following          We add the exponents as follows            Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Suppose and the angle is in the first quadrant. Write algebraic expressions for and in terms of .  (a) =  (b) =             SOLUTION (a) Using the Pythagorean Identity , we can solve for : Since the angle is in the first quadrant, , so (b)           Find a formula for the inverse of the function  Answer:                             Simplifying    Write the expression in terms of only sine and cosine, and simplify as much as possible.   .              Answer does not accept rounded numbers    Use the special triangles to find the following values. Answer in exact form (using square roots if needed).  (a)  .  (b)  .  (c)  .                       Referencing an assemblage or similar: such as those listed in . This gives the title of the assemblage. Can also try text=\"custom\".  A simple table    Variable  Variable  Conjunction  Disjunction    T  T  T  T    T  F  F  T    F  T  F  T    F  F  F  F     Answer Type Variety   This problem demonstrates that WeBWorK can process many kinds of answers.     Consider the function defined by    The exact value of is and a decimal approximation for this is .    The domain of this function, in interval notation, is .    The graph of intersects the graph of at .     .    The formula for including its restricted domain, is .    is a  power   exponential   linear   quadratic  function.    Which is true of the word radical ?    It shares ancestry with \"radius\", as in the radius of a circle.    It shares ancestry with \"radish\", a vegetable.    Math mode does not seem to work within radio buttons.                                                    Evaluate trig at multiples of       .     .     .     .     .     .           DNE         DNE                  "
 },
 {
   "id": "sec-section-name-3",

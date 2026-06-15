@@ -1,0 +1,179 @@
+openDate          = 06/15/2026 at 12:00am
+dueDate           = 12/15/2026 at 10:00pm
+answerDate        = 12/15/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_1-Exponential_Functions_and_their_Graphs_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_1-Exponential_Functions_and_their_Graphs_Exercises.pg
+description       = Exponential Functions and their Graphs
+problemListV2
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/ma112DB/set9/sw6_2_5.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_and_their_Graphs/2_1_5_5-Function_characteristics__NEEED_TO_COMPLETE.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_and_their_Graphs/2_1_5_6-Function_characteristics__NEEED_TO_COMPLETE.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_1_6_52.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/ASU-topics/setExponentialFunctions/sw6_2_3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLogarithmicFunctions/srw4_4_1-5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Utah/Business_Algebra/set9_Mathematics_of_Finance/p04.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/ma112DB/set9/sw6_2_5.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Review/Q40.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q07.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/ma117DB/set8/srw4_4_41.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Library/UVA-Stew5e/setUVA-Stew5e-C01S06-LogsInvs/1-6-52.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/UVA-Stew5e/setUVA-Stew5e-C01S06-LogsInvs/1-6-49.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Library/UVA-Stew5e/setUVA-Stew5e-C01S06-LogsInvs/1-6-50.pg
+problem_id = 25
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg
+problem_id = 27
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg
+problem_id = 28
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg
+problem_id = 29
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg
+problem_id = 30
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg
+problem_id = 31
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg
+problem_id = 32
+problem_end
+problem_start
+source_file = Library/Wiley/setAnton_Section_0.5/Question32a.pg
+problem_id = 33
+problem_end
+problem_start
+source_file = Library/Union/setFunctionLogarithmic/srw4_2_21.pg
+problem_id = 34
+problem_end
+problem_start
+source_file = Library/Union/setFunctionLogarithmic/srw4_4_9.pg
+problem_id = 35
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_3_48.pg
+problem_id = 36
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg
+problem_id = 37
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg
+problem_id = 38
+problem_end

@@ -1,0 +1,31 @@
+openDate          = 06/15/2026 at 12:00am
+dueDate           = 12/15/2026 at 10:00pm
+answerDate        = 12/15/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/1_3-Dividing_Polynomials.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/1_3-Dividing_Polynomials.pg
+description       = Dividing Polynomials
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_42-Interpreting_the_result__HOMEMADE.pg
+problem_id = 42
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_44-Setup_and_notation__HOMEMADE.pg
+problem_id = 44
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_45-Long_division_with_quadratic_dividend__HOMEMADE.pg
+problem_id = 45
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_46-Long_division_with_cubic_dividend__HOMEMADE.pg
+problem_id = 46
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_48-Polynomial_long_division_with_missing_terms__HOMEMADE.pg
+problem_id = 48
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_49-Polynomial_long_division_with_missing_terms__HOMEMADE.pg
+problem_id = 49
+problem_end

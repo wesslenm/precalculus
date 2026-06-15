@@ -1,6 +1,6 @@
-openDate          = 06/01/2026 at 12:00am
-dueDate           = 12/01/2026 at 10:00pm
-answerDate        = 12/01/2026 at 10:00pm
+openDate          = 06/15/2026 at 12:00am
+dueDate           = 12/15/2026 at 10:00pm
+answerDate        = 12/15/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/3_4-Trigonometric_Identities_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_4-Trigonometric_Identities_Exercises.pg
 description       = Trigonometric Identities
@@ -74,6 +74,6 @@ source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometr
 problem_id = 7
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_6_8-Simplify_a_product__HOMEMADE__need_answer.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_6_8-Simplify_a_product__HOMEMADE.pg
 problem_id = 8
 problem_end
