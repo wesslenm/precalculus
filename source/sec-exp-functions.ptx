@@ -43,8 +43,7 @@
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
     <ul>
       <li>
@@ -92,22 +91,22 @@ A defining characteristic of exponential functions is that they change at a rate
     </p>
   </aside>
 
-<figure><title>Exponential Growth - NEED SVG GRAPH</title>
+<figure><title>Exponential Growth</title>
   <caption>
-    <alert>Exponential Decay - NEED SVG GRAPH</alert>If <m>b>1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>growth</alert>, 
+    <alert>Exponential Growth</alert>If <m>b \gt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>growth</alert>, 
     which can be used to model quantities that increase rapidly over time. The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>b\gt 1</m>.       
   </caption>
-  <image source="images/exponential-growth" width="70%">
+  <image source="images/exp1growth" width="70%">
   </image>
 </figure>
 
-<figure><title>Exponential Decay - NEED SVG GRAPH</title>
+<figure><title>Exponential Decay</title>
   <caption>
-    <alert>Exponential Decay - NEED SVG GRAPH</alert> If <m>0 \lt b \lt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>decay</alert>, 
+    <alert>Exponential Decay</alert> If <m>0 \lt b \lt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>decay</alert>, 
               which can be used to model quantities that shrink exponentially over time.
               The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>0 \lt b \lt 1</m>.
   </caption>
-  <image source="images/exponential-growth" width="70%">
+  <image source="images/exp1decay" width="70%">
   </image>
 </figure>
 
@@ -161,7 +160,7 @@ The following table compares and contrasts power functions from exponential func
     </row>
   </tabular>
 
-  <exercise>
+  <exercise><title>Which are exponential?</title>
     <introduction>
       <p>
       In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and/or dividing constants. 
@@ -195,15 +194,14 @@ whose base is the special number denoted <m>e</m>, called <term>Euler's Number</
 <p>
 The natural exponential function, <m>y=e^x</m>, can be approximated by <m>y=2.718^x</m>, which can be thought of as simply an exponential function that grows 
 faster than <m>y=2^x</m> but not quite as fast as <m>y=3^x.</m> 
-The graph of <m>y=e^x</m> is shown in the diagram \textcolor{blue}{below(?)} along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>:
+The graph of <m>y=e^x</m> is shown in the diagram below along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>.
 </p>
 
-<figure><title>Exponential Function - NEED SVG GRAPH</title>
-  <caption><alert>Exponential Function - NEED SVG GRAPH</alert>
- The graph of <m>y=e^x</m> is shown here, along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>.
+<figure><title>Exponential Function</title>
+  <caption><alert>Exponential Function</alert>
+ The graph of <m>y=e^x</m> is shown here, along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>. Notice that all three functions intersect the <m>y</m>-axis at the same value, <m>y=1</m>.
   </caption>
-  <title>Exponential Function - NEED SVG GRAPH</title>
-  <image source="images/exponential-growth" width="70%">
+  <image source="images/exp2" width="70%">
   </image>
 </figure>
 
@@ -216,6 +214,62 @@ As we can see, <m>y=e^x</m> is characteristically similar to any other exponenti
   That might not sound important now, but this means that when differentiating (which we will do a lot in calculus!) 
   this means that the derivative of <m>f(x)=e^x</m> is simpler than the derivative of any other exponential function.
 </p>
+
+<exercise><title>The Natural Exponential Function</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+      $radio = RadioButtons([
+          'It is the largest exponential function.',
+          'It is the smallest exponential function.',
+          'Its slope at x=0 is exactly 1.',
+          'Its derivative is 0.',
+        ],2);
+        $popup1 = PopUp(['?','True','False'],1);
+        $popup2 = PopUp(['?','True','False'],1);
+        $popup3 = PopUp(['?','True','False'],2);
+        $popup4 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <ol>
+        <li>
+          <p>
+            What is special about the function <m>y=e^x</m> compared to other exponential functions?
+          </p>
+          <p>
+                <var name="$radio" form="buttons"/>
+          </p>
+        </li>
+          <li>
+          <p>
+            Are the following statements true or false?
+          </p>
+          <p>
+                <m>y=e^x</m> is an example of an exponential function. <var name="$popup1" form="popup"/>
+          </p>
+            <p>
+                <m>2 \lt e \lt 3</m>  <var name="$popup2" form="popup"/>
+          </p>
+          <p>
+                The graph of <m>y=e^x</m> looks very different from graphs of other exponential functions. <var name="$popup3" form="popup"/>
+          </p>
+          <p>
+                <m>y=e^x</m> is an important exponential function because it is easy to differentiate. <var name="$popup4" form="popup"/>
+          </p>
+        </li>
+      </ol>
+      
+
+    </statement>
+
+  </webwork>
+</exercise>
   </subsection>
 
  <subsection><title>Characteristics of Exponential Functions</title>
@@ -251,26 +305,61 @@ Some of these characteristics may change based on the transformations of the fun
     </row>
   </tabular>
 
-<exercise><title>Function characteristics - NEEED TO COMPLETE </title>
+<figure><title>Exponential Function</title>
+  <caption>
+    The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>b\gt 1</m>. This graph has the characteristics listed above.       
+  </caption>
+  <image source="images/exp1growth" width="70%">
+  </image>
+</figure>
+
+<exercise><title>Function characteristics - HOMEMADE</title>
+    <introduction>
+      <image source="images/exp4" width="70%">
+  </image>
+    </introduction>
+
   <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
-
-      Context()->functions->disable('All');
-      Context()->functions->enable('sqrt');
-    </pg-code>
-
-    <statement>
-      <p>
-        Checkpoint Idea: 
-        An exponential function is given and students are asked to identify some of the aforementioned characteristics. 
-        For instance, identify the domain, range, equation of the horizontal asymptote, y-intercept. Include exponential grwoth and exponential decay.
-      </p>
-    </statement>
-
-  </webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        Context("Interval");
+        $domain = Interval("(-inf,inf)");
+        Context("Interval");
+        $range = Interval("(-2,inf)");
+        Context("Point");
+        $intercept = Point("(0,-1)");
+        Context("LimitedNumeric");
+        $ha = Real(-2);
+      </pg-code>
+      <statement>
+        <p>
+          The graph of an exponential function is given above. Answer the following questions about that graph. 
+          <ol>
+             <li>
+              <p>
+                What is the domain of the function, in interval notation? <var name="$domain" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the range of the function, in interval notation? <var name="$range" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the <m>y</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <var name="$ha" width="10"/>. (Enter a single number.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
 </exercise>
 
   </subsection>
@@ -316,41 +405,141 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
  </subsection>
 
-
-
-
-
-
-
-<exercises><title>Recommended Exercises</title>
+<exercises><title>Exercises</title>
     <p>
-      For students who want a focused review of the topic, we recommend working on these exercises. 
-      If you find that you want even more practice, there are additional exercises below. 
-      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="exercises-exp"/>) and then come back to the Recommended Exercises.
+      Here are a mix of exercises for you to try. See also the checkpoints throughout the section above.
     </p>
 
-    <exercise><title>Equal value for <m>a</m></title>
+    <exercise><title>Equal value for <m>a</m> - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" />
   </exercise>
   
-  <exercise><title>Largest value for <m>b</m></title>
+  <exercise><title>Largest value for <m>b</m> - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" />
   </exercise>
 
-  <exercise><title>Transformations</title>
+  <exercise><title>Transformations - FROM WEBWORK</title>
     <webwork source="Library/ma112DB/set9/sw6_2_5.pg" />
   </exercise>
 
-  <exercise><title>Domain</title>        
+  <exercise><title>Domain - FROM WEBWORK</title>        
     <webwork source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" />
   </exercise>
 
-<exercise><title>Function characteristics - NEEED TO COMPLETE </title>
+<exercise><title>Function characteristics - HOMEMADE</title>
+    <introduction>
+      <image source="images/exp3" width="70%">
+  </image>
+    </introduction>
+
+  <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        Context("Interval");
+        $domain = Interval("(-inf,inf)");
+        Context("Interval");
+        $range = Interval("(-inf,3)");
+        Context("Point");
+        $intercept = Point("(0,2)");
+        Context("LimitedNumeric");
+        $ha = Real(3);
+      </pg-code>
+      <statement>
+        <p>
+          The graph of an exponential function is given above. Answer the following questions about that graph. 
+          <ol>
+             <li>
+              <p>
+                What is the domain of the function, in interval notation? <var name="$domain" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the range of the function, in interval notation? <var name="$range" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the <m>y</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <var name="$ha" width="10"/>. (Enter a single number.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+</exercise>
+
+<exercise><title>Function characteristics - HOMEMADE</title>
+    <introduction>
+      <image source="images/exp5" width="70%">
+  </image>
+    </introduction>
+
+  <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        Context("Interval");
+        $domain = Interval("(-inf,inf)");
+        Context("Interval");
+        $range = Interval("(-inf,5)");
+        Context("Point");
+        $intercept = Point("(0,4)");
+        Context("LimitedNumeric");
+        $ha = Real(5);
+      </pg-code>
+      <statement>
+        <p>
+          The graph of an exponential function is given above. Answer the following questions about that graph. 
+          <ol>
+             <li>
+              <p>
+                What is the domain of the function, in interval notation? <var name="$domain" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the range of the function, in interval notation? <var name="$range" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the <m>y</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <var name="$ha" width="10"/>. (Enter a single number.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+</exercise>
+
+<exercise><title>Function Expression - HOMEMADE</title>
+  <introduction>
+      <image source="images/exp6" width="70%">
+  </image>
+    </introduction>
   <webwork>
     <pg-code>
       Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
+        $radio = RadioButtons([
+          'Function f',
+          'Function g',
+          'Function h',
+          'Function P',
+          'Function Q',
+          'Function R',
+        ],4);
 
       Context()->functions->disable('All');
       Context()->functions->enable('sqrt');
@@ -358,20 +547,42 @@ We will focus mostly on the cases where <m>d=0</m>.
 
     <statement>
       <p>
-        Checkpoint Idea: 
-        Given a transformed exponential function, identify the domain, range, HA, y-int
+        Which of the following could be the function in the graph above? 
+<md> f(x)= 2 e^x </md>
+<md> g(x)= e^x+3 </md>
+<md> h(x)= 2 e^{-x} +3</md>
+<md> P(x)= -3 e^{-x} +6 </md>
+<md> Q(x)= \frac{1}{2} e^{-x} +3 </md>
+<md> R(x)= \frac{1}{2} e^{x} +6 </md>
       </p>
+      <p>
+        Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. 
+        However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible. 
+      </p>
+        <p>
+          <var name="$radio" form="buttons"/>
+        </p>
     </statement>
 
   </webwork>
 </exercise>
 
-<exercise><title>Function characteristics - NEEED TO COMPLETE </title>
+<exercise><title>Function Expression - HOMEMADE</title>
+  <introduction>
+      <image source="images/exp7" width="70%">
+  </image>
+    </introduction>
   <webwork>
     <pg-code>
       Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
+        $radio = RadioButtons([
+          'Function f',
+          'Function g',
+          'Function h',
+          'Function P',
+          'Function Q',
+          'Function R',
+        ],3);
 
       Context()->functions->disable('All');
       Context()->functions->enable('sqrt');
@@ -379,15 +590,25 @@ We will focus mostly on the cases where <m>d=0</m>.
 
     <statement>
       <p>
-        Checkpoint Idea: 
-        Given a graph of a transformed exponential function, match it to its corresponding equation
+        Which of the following could be the function in the graph above? 
+<md> f(x)= e^x -2 </md>
+<md> g(x)= -e^x+1 </md>
+<md> h(x)= 2 e^{-x} -2</md>
+<md> P(x)= 3 e^{x} -2 </md>
+<md> Q(x)= \frac{1}{3} e^{x} -2</md>
+<md> R(x)= -\frac{1}{3} e^{x} +2 </md>
       </p>
+      <p>
+        Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. 
+        However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible. 
+      </p>
+        <p>
+          <var name="$radio" form="buttons"/>
+        </p>
     </statement>
 
   </webwork>
 </exercise>
-
-
   </exercises>
 
 
