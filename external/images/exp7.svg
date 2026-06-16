@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="1600"
+   height="1600"
+   id="svg175"
+   sodipodi:docname="desmos-graph.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview175"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.22839549"
+     inkscape:cx="998.2684"
+     inkscape:cy="998.2684"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="1073"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg175" />
+  <defs
+     id="defs1" />
+  <g
+     id="graphpaper-21cf4d93"
+     transform="matrix(2,0,0,2,-410.3096,21.287926)">
+    <g
+       id="grid-21cf4d93">
+      <g
+         id="g80">
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 47.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path1" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 94.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path2" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 141.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path3" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 188.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path4" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 235.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path5" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 282.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path6" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 329.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path7" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 376.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path8" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 423.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path9" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 470.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path10" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 517.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path11" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 564.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path12" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 611.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path13" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 659.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path14" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 706.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path15" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 753.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path16" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 800.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path17" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 894.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path18" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 941.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path19" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 988.5,0 V 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path20" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,983.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path21" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,936.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path22" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,889.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path23" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,842.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path24" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,795.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path25" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,748.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path26" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,701.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path27" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,654.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path28" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,607.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path29" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,513.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path30" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,466.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path31" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,419.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path32" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,372.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path33" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,324.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path34" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,277.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path35" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,230.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path36" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,183.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path37" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,136.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path38" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,89.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path39" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-minor-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,42.5 H 1000"
+           stroke-opacity="0.5"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path40" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 47.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path41" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 94.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path42" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 141.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path43" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 188.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path44" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 235.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path45" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 282.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path46" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 329.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path47" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 376.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path48" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 423.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path49" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 470.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path50" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 517.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path51" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 564.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path52" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 611.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path53" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 659.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path54" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 706.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path55" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 753.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path56" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 800.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path57" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 894.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path58" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 941.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path59" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 988.5,0 V 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path60" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,983.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path61" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,936.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path62" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,889.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path63" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,842.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path64" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,795.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path65" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,748.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path66" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,701.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path67" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,654.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path68" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,607.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path69" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,513.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path70" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,466.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path71" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,419.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path72" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,372.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path73" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,324.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path74" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,277.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path75" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,230.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path76" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,183.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path77" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,136.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path78" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,89.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path79" />
+        <path
+           fill="none"
+           stroke="#000000"
+           class="dcg-svg-major-gridline"
+           paint-order="fill stroke markers"
+           d="M 0,42.5 H 1000"
+           stroke-opacity="1"
+           stroke-miterlimit="10"
+           stroke-dasharray="none"
+           id="path80" />
+      </g>
+    </g>
+    <g
+       id="axis-21cf4d93">
+      <g
+         id="yaxis-21cf4d93">
+        <title
+           id="title80">y</title>
+        <g
+           id="g83">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="fill stroke markers"
+             d="m 847,4 v 996"
+             stroke-opacity="0.9"
+             stroke-miterlimit="10"
+             stroke-width="2"
+             stroke-dasharray="none"
+             id="path81" />
+          <g
+             class="dcg-svg-axis-line"
+             id="g82">
+            <path
+               fill="#000000"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="stroke fill markers"
+               d="m 847,2 4.1411,15.454813 h -8.2822 L 847,2 l 4.1411,15.454813"
+               stroke-opacity="0.9"
+               stroke-linejoin="round"
+               stroke-miterlimit="10"
+               stroke-width="2"
+               stroke-dasharray="none"
+               fill-opacity="0.9"
+               id="path82" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="xaxis-21cf4d93">
+        <title
+           id="title83">x</title>
+        <g
+           id="g85">
+          <path
+             fill="none"
+             stroke="#000000"
+             class="dcg-svg-axis-line"
+             paint-order="fill stroke markers"
+             d="M 0,560 H 996"
+             stroke-opacity="0.9"
+             stroke-miterlimit="10"
+             stroke-width="2"
+             stroke-dasharray="none"
+             id="path83" />
+          <g
+             class="dcg-svg-axis-line"
+             id="g84">
+            <path
+               fill="#000000"
+               stroke="#000000"
+               class="dcg-svg-axis-line"
+               paint-order="stroke fill markers"
+               d="m 998,560 -15.45481,4.1411 v -8.2822 L 998,560 l -15.45481,4.1411"
+               stroke-opacity="0.9"
+               stroke-linejoin="round"
+               stroke-miterlimit="10"
+               stroke-width="2"
+               stroke-dasharray="none"
+               fill-opacity="0.9"
+               id="path84" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g169">
+        <g
+           class="dcg-svg-axis-value"
+           id="g86">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text85">0</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="580.69971"
+             text-anchor="middle"
+             id="text86">0</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value dcg-svg-offcenter-axis-value"
+           id="g88">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="17.453125"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text87">-18</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="17.453125"
+             y="580.69971"
+             text-anchor="middle"
+             id="text88">-18</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g90">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="43.933834"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text89">-17</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="43.933834"
+             y="580.69971"
+             text-anchor="middle"
+             id="text90">-17</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g92">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="90.992661"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text91">-16</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="90.992661"
+             y="580.69971"
+             text-anchor="middle"
+             id="text92">-16</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g94">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="138.05148"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text93">-15</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="138.05148"
+             y="580.69971"
+             text-anchor="middle"
+             id="text94">-15</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g96">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="185.11031"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text95">-14</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="185.11031"
+             y="580.69971"
+             text-anchor="middle"
+             id="text96">-14</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g98">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="232.16913"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text97">-13</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="232.16913"
+             y="580.69971"
+             text-anchor="middle"
+             id="text98">-13</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g100">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="279.22797"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text99">-12</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="279.22797"
+             y="580.69971"
+             text-anchor="middle"
+             id="text100">-12</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g102">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="326.28677"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text101">-11</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="326.28677"
+             y="580.69971"
+             text-anchor="middle"
+             id="text102">-11</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g104">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="373.34561"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text103">-10</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="373.34561"
+             y="580.69971"
+             text-anchor="middle"
+             id="text104">-10</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g106">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="420.40442"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text105">-9</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="420.40442"
+             y="580.69971"
+             text-anchor="middle"
+             id="text106">-9</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g108">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="467.46326"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text107">-8</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="467.46326"
+             y="580.69971"
+             text-anchor="middle"
+             id="text108">-8</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g110">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="514.52209"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text109">-7</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="514.52209"
+             y="580.69971"
+             text-anchor="middle"
+             id="text110">-7</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g112">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="561.58087"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text111">-6</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="561.58087"
+             y="580.69971"
+             text-anchor="middle"
+             id="text112">-6</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g114">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="608.63971"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text113">-5</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="608.63971"
+             y="580.69971"
+             text-anchor="middle"
+             id="text114">-5</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g116">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="655.69855"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text115">-4</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="655.69855"
+             y="580.69971"
+             text-anchor="middle"
+             id="text116">-4</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g118">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="702.75739"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text117">-3</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="702.75739"
+             y="580.69971"
+             text-anchor="middle"
+             id="text118">-3</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g120">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="749.81616"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text119">-2</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="749.81616"
+             y="580.69971"
+             text-anchor="middle"
+             id="text120">-2</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g122">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="796.875"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text121">-1</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="796.875"
+             y="580.69971"
+             text-anchor="middle"
+             id="text122">-1</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g124">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="894.32275"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text123">1</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="894.32275"
+             y="580.69971"
+             text-anchor="middle"
+             id="text124">1</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g126">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="941.38153"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text125">2</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="941.38153"
+             y="580.69971"
+             text-anchor="middle"
+             id="text126">2</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g128">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="988.44037"
+             y="580.69971"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text127">3</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="988.44037"
+             y="580.69971"
+             text-anchor="middle"
+             id="text128">3</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g130">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="989.22913"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text129">-9</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="989.22913"
+             text-anchor="middle"
+             id="text130">-9</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g132">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="942.17029"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text131">-8</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="942.17029"
+             text-anchor="middle"
+             id="text132">-8</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g134">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="895.11145"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text133">-7</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="895.11145"
+             text-anchor="middle"
+             id="text134">-7</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g136">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="848.05261"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text135">-6</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="848.05261"
+             text-anchor="middle"
+             id="text136">-6</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g138">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="800.99384"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text137">-5</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="800.99384"
+             text-anchor="middle"
+             id="text138">-5</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g140">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="753.935"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text139">-4</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="753.935"
+             text-anchor="middle"
+             id="text140">-4</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g142">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="706.87616"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text141">-3</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="706.87616"
+             text-anchor="middle"
+             id="text142">-3</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g144">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="659.81732"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text143">-2</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="659.81732"
+             text-anchor="middle"
+             id="text144">-2</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g146">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="612.75854"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text145">-1</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="833.37231"
+             y="612.75854"
+             text-anchor="middle"
+             id="text146">-1</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g148">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="518.64087"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text147">1</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="518.64087"
+             text-anchor="middle"
+             id="text148">1</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g150">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="471.58203"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text149">2</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="471.58203"
+             text-anchor="middle"
+             id="text150">2</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g152">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="424.52322"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text151">3</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="424.52322"
+             text-anchor="middle"
+             id="text152">3</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g154">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="377.46439"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text153">4</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="377.46439"
+             text-anchor="middle"
+             id="text154">4</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g156">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="330.40558"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text155">5</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="330.40558"
+             text-anchor="middle"
+             id="text156">5</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g158">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="283.34674"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text157">6</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="283.34674"
+             text-anchor="middle"
+             id="text158">6</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g160">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="236.28793"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text159">7</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="236.28793"
+             text-anchor="middle"
+             id="text160">7</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g162">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="189.22911"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text161">8</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="189.22911"
+             text-anchor="middle"
+             id="text162">8</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g164">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="142.17027"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text163">9</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="836.70239"
+             y="142.17027"
+             text-anchor="middle"
+             id="text164">9</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g166">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="831.14087"
+             y="95.111458"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text165">10</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="831.14087"
+             y="95.111458"
+             text-anchor="middle"
+             id="text166">10</text>
+        </g>
+        <g
+           class="dcg-svg-axis-value"
+           id="g168">
+          <text
+             fill="none"
+             stroke="#ffffff"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="831.88306"
+             y="48.052631"
+             text-anchor="middle"
+             stroke-miterlimit="2"
+             stroke-width="3"
+             stroke-dasharray="none"
+             id="text167">11</text>
+          <text
+             fill="#000000"
+             stroke="none"
+             font-family="Arial"
+             font-size="20px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="831.88306"
+             y="48.052631"
+             text-anchor="middle"
+             id="text168">11</text>
+        </g>
+      </g>
+      <g
+         class="dcg-svg-axis-label"
+         id="g170">
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Times"
+           font-size="28px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="972.57227"
+           y="605.2597"
+           text-anchor="start"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text169">x</text>
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Times"
+           font-size="28px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="972.57227"
+           y="605.2597"
+           text-anchor="start"
+           id="text170">x</text>
+      </g>
+      <g
+         class="dcg-svg-axis-label"
+         transform="translate(802.59009,35)"
+         id="g172">
+        <text
+           fill="none"
+           stroke="#ffffff"
+           font-family="Times"
+           font-size="28px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="0"
+           y="0"
+           text-anchor="start"
+           stroke-miterlimit="2"
+           stroke-width="3"
+           stroke-dasharray="none"
+           id="text171">y</text>
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Times"
+           font-size="28px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="normal"
+           x="0"
+           y="0"
+           text-anchor="start"
+           id="text172">y</text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="expressions-21cf4d93"
+     transform="matrix(2,0,0,2,-410.3096,21.287926)">
+    <g
+       id="sketch-21cf4d93">
+      <title
+         id="title172">Expression 7</title>
+      <path
+         fill="#c74440"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=""
+         fill-opacity="0.4"
+         id="path172" />
+      <g
+         id="g173">
+        <path
+           fill="none"
+           stroke="#c74440"
+           class="dcg-svg-curve"
+           paint-order="fill stroke markers"
+           d="m -3.90625,654.37734 v 0 l 565.18555,-0.32395 53.95507,-0.69562 33.20313,-1.04506 24.16992,-1.38601 19.04297,-1.72117 15.86914,-2.07414 13.42774,-2.39271 11.96289,-2.78986 10.49804,-3.10619 9.52149,-3.48372 8.78906,-3.90538 8.30078,-4.42212 7.8125,-4.93844 7.32422,-5.43685 7.08008,-6.12439 6.83594,-6.85501 6.59179,-7.62339 6.5918,-8.76965 6.34766,-9.68888 6.10351,-10.63334 5.85938,-11.59093 5.61523,-12.54759 5.37109,-13.48741 5.3711,-15.11808 5.12695,-16.13298 5.12695,-17.98995 4.88282,-19.05502 4.88281,-21.13839 4.88281,-23.44952 4.88281,-26.01336 4.88282,-28.8575 4.88281,-32.0126 4.88281,-35.51266 4.88281,-39.39541 4.88282,-43.70266 4.88281,-48.48084 4.63867,-50.95778 4.63867,-56.236676 4.63867,-62.0624407 L 920.20766,-11"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           stroke-miterlimit="10"
+           stroke-width="8"
+           stroke-dasharray="none"
+           id="path173" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="labels-21cf4d93"
+     transform="matrix(2,0,0,2,-300.3096,9.2879258)" />
+  <g
+     id="g174"
+     transform="matrix(2,0,0,2,-300.3096,9.2879258)" />
+</svg>
