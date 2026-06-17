@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Template - copy for new section</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "textmacros",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[tex]/textmacros",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Precalculus review for UTM students">
+<meta property="book:author" content="Maria Wesslen">
+<meta property="book:author" content="Contributing Editors: Micheal Pawliuk, Ivan Khatchatourian and Mike Pitocco">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.1.2';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.d0616b3d72ab3b06.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.af9055d29ed602c4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><link rel="icon" type="image/png" sizes="32x32" href="external/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="external/favicon/favicon-16x16.png">
+<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="precalc-resource.html"><span class="title">Precalculus review for UTM students</span></a></h1>
+<p class="byline">Maria Wesslen, Contributing Editors: Micheal Pawliuk, Ivan Khatchatourian and Mike Pitocco</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-general-style.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-general.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-general-next.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}  \newcommand{\longdiv}{\smash{\mkern-0.43mu\vstretch{1.31}{\hstretch{.7}{)}}\mkern-5.2mu\vstretch{1.31}{\hstretch{.7}{)}}}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="2" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Welcome!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="feedback.html" class="internal"><span class="title">Feedback</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-algebra.html" class="internal"><span class="codenumber">1</span> <span class="title">Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-alg-rational.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-5" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Common Factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-6" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Multiplying and Dividing Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#rational-add" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Adding and Subtracting Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-8" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Complex Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-9" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-rational-10" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-alg-rational.html#sec-alg-exercises" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Exponential Rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-5" class="internal"><span class="codenumber">1.2.1</span> <span class="title">The First Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-6" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Roots/Radicals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-7" class="internal"><span class="codenumber">1.2.3</span> <span class="title">More Exponential Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-8" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-9" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-intro.html#sec-exp-intro-10" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-intro.html#exp-additional" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-func-dividing.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Dividing Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-5" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-6" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Long Division of Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-7" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-func-dividing.html#sec-func-dividing-8" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exp.html" class="internal"><span class="codenumber">2</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Functions, Definitions and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-5" class="internal"><span class="codenumber">2.1.1</span> <span class="title">What is an Exponential Function?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-6" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Euler’s Number and The Natural Exponential Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-7" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Characteristics of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-8" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Transformations of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-functions.html#sec-exp-functions-9" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-log.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Logarithmic Functions, Definitions and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-5" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Definitions of Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-6" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Exponential and Logarithmic Forms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-7" class="internal"><span class="codenumber">2.2.3</span> <span class="title">The Natural Logarithm <span class="process-math">\(\ln x\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-8" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Graphs of Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-9" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-10" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-lnproperties.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Properties of Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lnproperties.html#sec-exp-lnproperties-5" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Inverse Properties of Exponentials and Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-lnproperties.html#sec-exp-lnproperties-6" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Logarithm Laws</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-lnproperties.html#sec-exp-lnproperties-7" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-lnproperties.html#sec-exp-lnproperties-8" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-solve.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Solving with Exponentials and Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-5" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Section 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-6" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Section 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-7" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-8" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-9" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-solve.html#sec-exp-solve-10" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-trig.html" class="internal"><span class="codenumber">3</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Angles and Trigonometric Definitions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-intro-5" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Angle Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#trig-def" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-intro-7" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Signs of Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-intro.html#sec-trig-intro-8" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-graphs.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Trigonometric Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#trignotation" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Sinusoidal Graphs and Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#triggraphs" class="internal"><span class="codenumber">3.2.2</span> <span class="title">The Six Trigonometric Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#trig-symmetries" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Properties and symmetries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-graphs.html#sec-trig-graphs-8" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Transformations of graphs</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-graphs.html#sec-trig-graphs-9" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-evaluating.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Evaluating Trigonometric Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-evaluating.html#sec-trig-special" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Evaluating Using Special Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-evaluating.html#sec-trig-circle" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Evaluating Using the Coordinate System</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-evaluating.html#sec-trig-right" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Evaluating at <span class="process-math">\(0, \pi/2, \pi\)</span> etc.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-evaluating.html#sec-trig-summary" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-evaluating.html#sec-trig-evaluating-9" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-evaluating.html#trig-eval-additional" class="internal"><span class="codenumber">3.3.6</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-identities.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Trigonometric Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-5" class="internal"><span class="codenumber">3.4.1</span> <span class="title">What is a Trigonometric Identity?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-6" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Fundamental Trigonometric Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-7" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Additional Trigonometric Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-8" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Many Ways to Write the Same Answer</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-identities.html#sec-trig-identities-9" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-identities.html#trig-id-additional" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-inverse.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Inverse trigonometric functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-5" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Arcsine - the inverse sine function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-6" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Arccos - the inverse cosine function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-7" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Arctan - the inverse tangent function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-8" class="internal"><span class="codenumber">3.5.4</span> <span class="title">The remaining three inverse trigonometric functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-9" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-10" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-inverse.html#triginv-additional" class="internal"><span class="codenumber">3.5.7</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-general.html" class="internal"><span class="codenumber">4</span> <span class="title">DELETE - temporary</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-general-code.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Code bank and trials</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-general-style.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Style Conventions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-style.html#sec-general" class="internal"><span class="codenumber">4.2.1</span> <span class="title">General notes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-style.html#sec-file" class="internal"><span class="codenumber">4.2.2</span> <span class="title">File names and organization</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-style.html#sec-images" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Images</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-general-template.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Template - copy for new section</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-template.html#sec-general-template-5" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Section 1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-template.html#sec-general-template-6" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Section 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-template.html#sec-general-template-7" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Any other topics?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-general-template.html#sec-general-template-8" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Additional Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-general-template.html#sec-general-template-9" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Recommended Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-general-template.html#sec-general-template-10" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Additional Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-general-next.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Next Steps</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-general-template">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Template - copy for new section</span>
+</h2>
+<article class="objectives goal-like" id="sec-general-template-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="sec-general-template-2-1">
+<li id="sec-general-template-2-1-1">
+<div class="para" id="sec-general-template-2-1-1-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-general-template-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-general-template-2-1-2">
+<div class="para" id="sec-general-template-2-1-2-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-general-template-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-general-template-2-1-3">
+<div class="para" id="sec-general-template-2-1-3-1">......<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-general-template-2-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-general-template-2-1-4">
+<div class="para" id="sec-general-template-2-1-4-1">......<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-general-template-2-1-4" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 4.3"><a href="#sec-general-template-2" title="Copy heading and permalink for Objectives 4.3" aria-label="Copy heading and permalink for Objectives 4.3">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-general-template-3"><h3 class="heading"><span class="title">Where will this be used in calculus?</span></h3>
+<div class="para" id="sec-general-template-3-2">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-general-template-3-3">
+<ul class="disc" id="sec-general-template-3-3-1">
+<li id="sec-general-template-3-3-1-1">
+<div class="para" id="sec-general-template-3-3-1-1-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-general-template-3-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-general-template-3-3-1-2">
+<div class="para" id="sec-general-template-3-3-1-2-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-general-template-3-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-general-template-3-3-1-3">
+<div class="para" id="sec-general-template-3-3-1-3-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-3-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-general-template-3-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-general-template-3-3-1-4">
+<div class="para" id="sec-general-template-3-3-1-4-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-3-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-general-template-3-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Where will this be used in calculus?"><a href="#sec-general-template-3" title="Copy heading and permalink for Assemblage: Where will this be used in calculus?" aria-label="Copy heading and permalink for Assemblage: Where will this be used in calculus?">🔗</a></div>
+</article>
+<section class="introduction" id="sec-general-template-4">
+<div class="para" id="sec-general-template-4-1">....<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="sec-general-template-5">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Section 1</span>
+</h3>
+<div class="para" id="sec-general-template-5-2">Coming soon.<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.1: Section 1"><a href="#sec-general-template-5" title="Copy heading and permalink for Subsection 4.3.1: Section 1" aria-label="Copy heading and permalink for Subsection 4.3.1: Section 1">🔗</a></div>
+</section>
+<section class="subsection" id="sec-general-template-6">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Section 2</span>
+</h3>
+<div class="para" id="sec-general-template-6-2">Coming soon.<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.2: Section 2"><a href="#sec-general-template-6" title="Copy heading and permalink for Subsection 4.3.2: Section 2" aria-label="Copy heading and permalink for Subsection 4.3.2: Section 2">🔗</a></div>
+</section>
+<section class="subsection" id="sec-general-template-7">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Any other topics?</span>
+</h3>
+<div class="para" id="sec-general-template-7-2">Coming soon.<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.3: Any other topics?"><a href="#sec-general-template-7" title="Copy heading and permalink for Subsection 4.3.3: Any other topics?" aria-label="Copy heading and permalink for Subsection 4.3.3: Any other topics?">🔗</a></div>
+</section>
+<section class="subsection" id="sec-general-template-8">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Additional Examples</span>
+</h3>
+<div class="para" id="sec-general-template-8-2">Here are a few examples that use several of the techniques and rules seen above.<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-general-template-8-3">
+<em class="alert">You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.3.4: Additional Examples"><a href="#sec-general-template-8" title="Copy heading and permalink for Subsection 4.3.4: Additional Examples" aria-label="Copy heading and permalink for Subsection 4.3.4: Additional Examples">🔗</a></div>
+</section>
+<section class="exercises" id="sec-general-template-9">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Recommended Exercises</span>
+</h3>
+<div class="para" id="sec-general-template-9-2">For students who want a focused review of the topic, we recommend working on these exercises. If you find that you want even more practice, there are additional exercises below. If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<a href="sec-alg-rational.html#sec-alg-exercises" class="internal" title="Exercises 1.1.7: Additional Exercises">Exercises 1.1.7</a>) and then come back to the Recommended Exercises.<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercises 4.3.5: Recommended Exercises"><a href="#sec-general-template-9" title="Copy heading and permalink for Exercises 4.3.5: Recommended Exercises" aria-label="Copy heading and permalink for Exercises 4.3.5: Recommended Exercises">🔗</a></div>
+</section>
+<section class="exercises" id="sec-general-template-10">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.3.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Additional Exercises</span>
+</h3>
+<div class="para" id="sec-general-template-10-2">For students who want even more problems to practice, here are some additional exercises.<div class="autopermalink" data-description="Paragraph"><a href="#sec-general-template-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercises 4.3.6: Additional Exercises"><a href="#sec-general-template-10" title="Copy heading and permalink for Exercises 4.3.6: Additional Exercises" aria-label="Copy heading and permalink for Exercises 4.3.6: Additional Exercises">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 4.3: Template - copy for new section"><a href="#sec-general-template" title="Copy heading and permalink for Section 4.3: Template - copy for new section" aria-label="Copy heading and permalink for Section 4.3: Template - copy for new section">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-general-style.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-general-next.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="https://forms.office.com/r/TXDWWNwXcw" target="_blank">Give FEEDBACK on this resource</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

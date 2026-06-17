@@ -1,0 +1,76 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-17T17:31:45Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.29)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextLimitedRadical.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedRadical");
+$a = Formula("4");
+Context("LimitedRadical");
+$b = Formula("16");
+Context("Numeric");
+$c = Formula("x(x+1)");
+Context("Numeric");
+$d = Formula("x^5");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each of the following expressions as a single logarithm, with no coefficient.
+a.  [`\ln 12 + \ln 2 - \ln 6 = \ln A`]  where [`A=`] [_]{$a}{10}
+
+a.  [`2\ln 8 + \ln 9 - \ln 36 = \ln B`]  where [`B=`] [_]{$b}{10}
+
+a.  [`2\ln (x+1) + \ln x - \ln (x^2-1) = \ln C`]  where [`C=`] [_]{$c}{10}
+
+a.  [`\frac{1}{2}\ln x^4 - 3\ln x + \ln x^6 = \ln D`]  where [`D=`] [_]{$d}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

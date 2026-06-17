@@ -1,0 +1,35 @@
+openDate          = 06/17/2026 at 12:00am
+dueDate           = 12/17/2026 at 10:00pm
+answerDate        = 12/17/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_3-Properties_of_Logarithmic_Functions_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_3-Properties_of_Logarithmic_Functions_Exercises.pg
+description       = Properties of Logarithmic Functions
+problemListV2
+problem_start
+source_file = Library/Union/setFunctionLogarithmic/srw4_2_21.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_3_3_2-True_or_False__HOMEMADE.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_3_3_3-True_or_False__HOMEMADE.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_3_3_4-Using_properties_to_evaluate__HOMEMADE.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_3_3_7-Challenge_Arrange_by_size__HOMEMADE_but_idea_from_webwork.pg
+problem_id = 7
+problem_end

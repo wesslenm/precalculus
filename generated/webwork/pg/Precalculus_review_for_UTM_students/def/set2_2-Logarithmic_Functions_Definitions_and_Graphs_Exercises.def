@@ -1,0 +1,19 @@
+openDate          = 06/17/2026 at 12:00am
+dueDate           = 12/17/2026 at 10:00pm
+answerDate        = 12/17/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_2-Logarithmic_Functions_Definitions_and_Graphs_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_2-Logarithmic_Functions_Definitions_and_Graphs_Exercises.pg
+description       = Logarithmic Functions, Definitions and Graphs
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_2_5_1-Write_in_exponential_form__HOMEMADE.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg
+problem_id = 3
+problem_end

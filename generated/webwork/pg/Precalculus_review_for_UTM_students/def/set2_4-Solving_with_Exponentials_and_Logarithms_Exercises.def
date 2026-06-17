@@ -1,0 +1,67 @@
+openDate          = 06/17/2026 at 12:00am
+dueDate           = 12/17/2026 at 10:00pm
+answerDate        = 12/17/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_4-Solving_with_Exponentials_and_Logarithms_Exercises.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_4-Solving_with_Exponentials_and_Logarithms_Exercises.pg
+description       = Solving with Exponentials and Logarithms
+problemListV2
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_1_6_52.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/ma117DB/set8/srw4_4_41.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Union/setFunctionLogarithmic/srw4_4_9.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg
+problem_id = 15
+problem_end

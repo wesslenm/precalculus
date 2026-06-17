@@ -1,6 +1,6 @@
-openDate          = 06/16/2026 at 12:00am
-dueDate           = 12/16/2026 at 10:00pm
-answerDate        = 12/16/2026 at 10:00pm
+openDate          = 06/17/2026 at 12:00am
+dueDate           = 12/17/2026 at 10:00pm
+answerDate        = 12/17/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/4_1-Random_trial_chapter.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/4_1-Random_trial_chapter.pg
 description       = Random trial chapter
@@ -42,6 +42,10 @@ source_file = Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random
 problem_id = 13
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_14-Evaluate_trig_at_multiples_of_fracpi2.pg
+source_file = Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_14-True_or_False__HOMEMADE.pg
 problem_id = 14
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/4-DELETE__temporary/4_1-Random_trial_chapter/4_15-Evaluate_trig_at_multiples_of_fracpi2.pg
+problem_id = 15
 problem_end

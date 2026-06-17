@@ -1,0 +1,86 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-17T20:18:54Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.3.3.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],2);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose [`a, b, c,`] and [`x`] are positive numbers. Which of the following statements are true, and which are false?
+
+a.  [`\ln (e^{6x}) = 6x`] [_]{$popup1}{5}
+
+a.  [`\ln (e^{7x}-e^{4x}) = 3x`] [_]{$popup2}{5}
+
+a.  If [`\ln x =\ln 75`] then [`x=75`] [_]{$popup3}{5}
+
+a.  If [`x=y`] then [`\ln x =\ln y`] [_]{$popup4}{5}
+
+a.  [`\ln(-e^{x})= -\ln(e^{x})`] [_]{$popup5}{5}
+
+a.  [`\ln(4e^{x})= \ln 4 + x`] [_]{$popup6}{5}
+
+    Note: [`\ln 4 + x = (\ln 4) + x\text{.}`] If we wanted two terms inside the logarithm function, we would need to write [`\ln (4 + x)\text{.}`]
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

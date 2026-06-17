@@ -1,0 +1,83 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-17T20:18:54Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.19)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+ Context("Numeric");
+ $ans1a = Formula("0.25");
+ $ans1b = Formula("2");   
+ $ans1c = Formula("-2"); 
+
+ $ans2a = Formula("1");
+ $ans2b = Formula("27");   
+ $ans2c = Formula("0");
+
+ $ans3a = Formula("6^x");
+ $ans3b = Formula("5");   
+$ans3c = Formula("3x");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each of the following in exponential form.
+a.  [`\log_2(0.25)=-2\text{.}`]
+
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
+
+a.  [`\log_{27}(1)=0\text{.}`]
+
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
+
+a.  [`\log_5 6^x=3x\text{.}`]
+
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans4a}{10} and [`B=`] [_]{$ans4b}{10} and [`C=`] [_]{$ans4c}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

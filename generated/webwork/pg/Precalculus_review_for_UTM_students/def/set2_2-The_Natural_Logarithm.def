@@ -1,0 +1,19 @@
+openDate          = 06/16/2026 at 12:00am
+dueDate           = 12/16/2026 at 10:00pm
+answerDate        = 12/16/2026 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_2-The_Natural_Logarithm.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_2-The_Natural_Logarithm.pg
+description       = The Natural Logarithm
+problemListV2
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-The_Natural_Logarithm/2_15-Interpreting_Logarithms__HOMEMADE.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-The_Natural_Logarithm/2_17-Write_in_logarithmic_form__HOMEMADE__NEED_TO_FINISH.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-The_Natural_Logarithm/2_19-Write_in_exponential_form__HOMEMADE__NEED_TO_FINISH.pg
+problem_id = 19
+problem_end

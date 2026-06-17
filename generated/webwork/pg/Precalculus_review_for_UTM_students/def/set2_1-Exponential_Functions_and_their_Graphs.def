@@ -1,6 +1,6 @@
-openDate          = 06/16/2026 at 12:00am
-dueDate           = 12/16/2026 at 10:00pm
-answerDate        = 12/16/2026 at 10:00pm
+openDate          = 06/17/2026 at 12:00am
+dueDate           = 12/17/2026 at 10:00pm
+answerDate        = 12/17/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_1-Exponential_Functions_and_their_Graphs.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_1-Exponential_Functions_and_their_Graphs.pg
 description       = Exponential Functions and their Graphs
@@ -18,7 +18,7 @@ source_file = Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1th
 problem_id = 6
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_and_their_Graphs/2_8-The_Natural_Exponential_Function.pg
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_and_their_Graphs/2_8-The_Natural_Exponential_Function__HOMEMADE.pg
 problem_id = 8
 problem_end
 problem_start

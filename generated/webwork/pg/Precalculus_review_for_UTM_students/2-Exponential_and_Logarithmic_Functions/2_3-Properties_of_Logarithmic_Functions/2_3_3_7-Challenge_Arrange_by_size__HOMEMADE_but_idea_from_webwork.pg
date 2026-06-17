@@ -1,0 +1,87 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-17T20:18:54Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.3.3.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup1 = PopUp(['?','a','b','c','d','e'],2);
+$popup2 = PopUp(['?','a','b','c','d','e'],4);
+$popup3 = PopUp(['?','a','b','c','d','e'],1);
+$popup4 = PopUp(['?','a','b','c','d','e'],5);
+$popup5 = PopUp(['?','a','b','c','d','e'],3);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose [`A`] and [`B`] are positive constants such that [`\newcommand{\lt}{<}0 \lt A \lt AB \lt 1 \lt B\text{.}`] Arrange the following quantities from smallest to largest.
+a.  [`0`]
+
+a.  [`\ln A`]
+
+a.  [`\ln B`]
+
+a.  [`\ln A + \ln B`]
+
+a.  [`\ln (B^A)`]
+
+[_]{$popup1}{5}  [`\newcommand{\lt}{<}\lt`] [_]{$popup2}{5}  [`\newcommand{\lt}{<}\lt`] [_]{$popup3}{5}  [`\newcommand{\lt}{<}\lt`] [_]{$popup4}{5}  [`\newcommand{\lt}{<}\lt`] [_]{$popup5}{5}
+
+END_PGML
+
+############################################################
+# Hint
+############################################################
+#Set value of $showHint in PGcourse.pl for course-wide attempt threshhold for revealing hints
+
+BEGIN_PGML_HINT
+Consider using Logarithm Laws, and also use the graph of [`y=\ln x\text{.}`] For which values of [`x`] is [`\ln x`] positive? When is it negative? Can you see from the graph which values of [`x`] make [`\ln x`] larger/smaller?
+
+END_PGML_HINT
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
