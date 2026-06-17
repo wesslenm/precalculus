@@ -77,7 +77,7 @@ A defining characteristic of exponential functions is that they change at a rate
   <subsection><title>What is an Exponential Function?</title>
   <p> 
     An <term>exponential function</term><idx>Exponential function</idx> is any function in the form <m>f(x)=b^x,</m> where <m>b>0</m> and <m>b \neq 1</m>.
-    Here, we call the parameter <m>b</m> the <term>base</term><idx>Base</idx> of the function, which determines the type of exponential relationship that is being modelled: 
+    Here, we call the parameter <m>b</m> the <term>base</term><idx>Base of an exponential function</idx> of the function, which determines the type of exponential relationship that is being modelled: 
     </p>
 
 <aside>
@@ -93,8 +93,8 @@ A defining characteristic of exponential functions is that they change at a rate
 
 <figure><title>Exponential Growth</title>
   <caption>
-    <alert>Exponential Growth</alert>If <m>b \gt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>growth</alert>, 
-    which can be used to model quantities that increase rapidly over time. The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>b\gt 1</m>.       
+    <alert>Exponential Growth.</alert> If <m>b \gt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>growth</alert>, 
+    which can be used to model quantities that increase rapidly over time. The graph above is an example of a graph of <m>f(x)=b^x</m> where <m>b\gt 1</m>.       
   </caption>
   <image source="images/exp1growth" width="70%">
   </image>
@@ -102,15 +102,15 @@ A defining characteristic of exponential functions is that they change at a rate
 
 <figure><title>Exponential Decay</title>
   <caption>
-    <alert>Exponential Decay</alert> If <m>0 \lt b \lt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>decay</alert>, 
+    <alert>Exponential Decay.</alert> If <m>0 \lt b \lt 1,</m> the function <m>f(x)=b^x</m> illustrates exponential <alert>decay</alert>, 
               which can be used to model quantities that shrink exponentially over time.
-              The graph here is an example of a graph of <m>f(x)=b^x</m> where <m>0 \lt b \lt 1</m>.
+              The graph above is an example of a graph of <m>f(x)=b^x</m> where <m>0 \lt b \lt 1</m>.
   </caption>
   <image source="images/exp1decay" width="70%">
   </image>
 </figure>
 
-<exercise><title>Interactive graph activity</title>
+<exercise><title>Interactive graph activity - HOMEMADE</title>
     <p>
     Click the link to see an interactive graph of a dynamic exponential function. 
     Use the sliders for the parameters <m>a</m> and <m>b</m> to see how different values of these parameters change the shape of the exponential graph.
@@ -127,11 +127,11 @@ A defining characteristic of exponential functions is that they change at a rate
   </p> 
 </exercise>
 
-  <exercise><title>Exponential graphs</title>
+  <exercise><title>Exponential graphs - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg" />
   </exercise>
 
-  <exercise><title>Exponential graphs</title>
+  <exercise><title>Exponential graphs - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q07.pg" />
   </exercise>
 
@@ -143,8 +143,8 @@ The following table compares and contrasts power functions from exponential func
 
 <tabular halign="center">
     <row header="yes" bottom="minor" >
-      <cell>Power Function <m>x</m></cell>
-      <cell>Exponential Function <m>y</m></cell>
+      <cell>Power Function</cell>
+      <cell>Exponential Function</cell>
     </row>
     <row>
       <cell><m>y=x^2</m></cell>
@@ -160,7 +160,7 @@ The following table compares and contrasts power functions from exponential func
     </row>
   </tabular>
 
-  <exercise><title>Which are exponential?</title>
+  <exercise><title>Which are exponential? - FROM WEBWORK</title>
     <introduction>
       <p>
       In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and/or dividing constants. 
@@ -199,7 +199,8 @@ The graph of <m>y=e^x</m> is shown in the diagram below along with the graphs of
 
 <figure><title>Exponential Function</title>
   <caption><alert>Exponential Function</alert>
- The graph of <m>y=e^x</m> is shown here, along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>. Notice that all three functions intersect the <m>y</m>-axis at the same value, <m>y=1</m>.
+ The graph of <m>y=e^x</m> is shown here, along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>. 
+ Notice that all three functions intersect the <m>y</m>-axis at the same value, <m>y=1</m>.
   </caption>
   <image source="images/exp2" width="70%">
   </image>
@@ -215,7 +216,7 @@ As we can see, <m>y=e^x</m> is characteristically similar to any other exponenti
   this means that the derivative of <m>f(x)=e^x</m> is simpler than the derivative of any other exponential function.
 </p>
 
-<exercise><title>The Natural Exponential Function</title>
+<exercise><title>The Natural Exponential Function - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -377,7 +378,7 @@ Applying these parameters to the natural exponential function, we obtain the gen
 We will focus mostly on the cases where <m>d=0</m>. 
 </p>
 
-<exercise><title>Interactive graph activity</title>
+<exercise><title>Interactive graph activity - HOMEMADE</title>
     <p>
     Click the link to see an interactive graph of a dynamic exponential function. 
     Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>c</m> to see how different values of these parameters change the shape of the exponential graph.
@@ -396,11 +397,11 @@ We will focus mostly on the cases where <m>d=0</m>.
   </p>
 </exercise>
 
-  <exercise><title>Transformations of exponential functions</title>
+  <exercise><title>Transformations of exponential functions - FROM WEBWORK</title>
     <webwork source="Library/ASU-topics/setExponentialFunctions/sw6_2_3.pg" />
   </exercise>
 
-    <exercise><title>Transformations of exponential functions</title>
+    <exercise><title>Transformations of exponential functions - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
   </exercise>
  </subsection>
@@ -409,6 +410,30 @@ We will focus mostly on the cases where <m>d=0</m>.
     <p>
       Here are a mix of exercises for you to try. See also the checkpoints throughout the section above.
     </p>
+
+<!-- <exercise><title>The number <m>e</m> - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+     $ans = Real(sqrt(12));
+
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>
+            Approximate following quantities to 3 decimal places. 
+            For each one, decide if you need to use a calculator or if this is something that can be done without a calculator. 
+          </p>
+    </statement>
+
+  </webwork>
+</exercise> -->
+
+
+
 
     <exercise><title>Equal value for <m>a</m> - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" />
@@ -635,6 +660,11 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
 
   <exercise>
+        <introduction>
+      <p>
+        Used in Properties of Log
+      </p>
+    </introduction>
     <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
   </exercise>
 
@@ -671,7 +701,7 @@ We will focus mostly on the cases where <m>d=0</m>.
   <exercise>
         <introduction>
       <p>
-        Used in Exponential functions and their graphs
+        10. Used in Exponential functions and their graphs
       </p>
     </introduction>
     <webwork source="Library/ma112DB/set9/sw6_2_5.pg" />
@@ -688,7 +718,7 @@ We will focus mostly on the cases where <m>d=0</m>.
   <exercise>
     <introduction>
       <p>
-        Used in Exponential functions and their graphs
+        13. Used in Exponential functions and their graphs
       </p>
     </introduction>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
@@ -699,6 +729,11 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
 
   <exercise>
+            <introduction>
+      <p>
+        15. Used in Properties of Log
+      </p>
+    </introduction>
     <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg" />
   </exercise>
 
@@ -796,10 +831,20 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
 
   <exercise>
+        <introduction>
+      <p>
+        33. Used in Log functions and their graphs
+      </p>
+    </introduction>
     <webwork source="Library/Wiley/setAnton_Section_0.5/Question32a.pg" />
   </exercise>
 
   <exercise>
+            <introduction>
+      <p>
+        34. Used in Properties of Log functions
+      </p>
+    </introduction>
     <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
   </exercise>
 

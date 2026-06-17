@@ -1,58 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exp-log" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Natural Logarithm</title>
+  <title>Logarithmic Functions and their Graphs</title>
 
   <objectives>
     <ul>
       <li>
         <p>
-          ....
+          Identify a logarithm as the inverse of an exponential function.
         </p>
       </li>
       <li>
         <p>
-          ....
+          Convert between exponential and logarithmic expressions.
         </p>
       </li>
       <li>
         <p>
-          ......
-        </p>
-      </li>
-      <li>
-        <p>
-          ......
+          Solve problems involving the natural logarithmic function, <m>y=\ln x</m>.
         </p>
       </li>
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      ....
+      Logarithms are used nearly as often as exponential functions in calculus. 
     </p>
     <p>
     <ul>
       <li>
         <p>
-          ....
+          Logarithmic functions are used as important examples of functions, for practicing and illustrating calculus concepts.
         </p>
       </li>
       <li>
         <p>
-        ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
+        Logarithmic functions are essential when integration rational functions. 
         </p>
       </li>
     </ul>
@@ -61,32 +45,628 @@
 
   <introduction>
     <p>    
-.... 
+As we know, many functions have an inverse function, which "undoes" the work done by the function. 
+An inverse function reverses the inputs and outputs of the original function. 
+As we will review in this section, a logarithm is simply the inverse of an exponential function. 
+In this section, we will review basic properties and characteristics of logarithmic calculations, and explore their algebraic relationship to exponentiation. 
     </p>
   </introduction>
 
-  <subsection>
-    <title>Section 1</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Section 2</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
-
-  <subsection>
-    <title>Additional Examples</title>
-      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
+  <subsection><title>Definitions of Logarithms</title>
+<p>
+    First we need a reminder regarding inverse functions:  
+  </p>
+      <p>
+        A function <m>y=f(x)</m> has an <term>inverse</term><idx><h>Inverse function</h></idx> if and only if <m>y=f(x)</m> is one-to-one. 
+        An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes 
+        the <term>horizontal line test (HLT)</term><idx><h>Horizontal line test</h></idx><idx><h>HLT</h></idx>. 
+        A function "passes the Horizontal Line tests" if no horizontal line crosses the curve more than once). 
+      </p>
+        
+    <figure>
+  <caption>Graphs of <m>y=e^x</m> and <m>y=2^x</m> and <m>y=3^x</m>.</caption>
+  <image source="images/exp2" width="70%">
+  </image>
+</figure>
 
       <p>
-        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
+        If we look at graphs of a few exponential functions (for example <m>y=e^x</m> and <m>y=2^x</m> and <m>y=3^x</m>), we see that they pass the HLT. 
+        They therefore have inverses. The inverse of each equponential function, is also a function. We call those inverfunctions logarithmic functions.   
       </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so we will do the same for logarithmic functions, since logarithms are based on expoential functions. 
+    </p>
+  </aside>
+
+ <assemblage><title>Definition of logarithmic functions</title>
+    <p>
+      For any positive number <m>b\not= 1</m>, the <term>logarithmic function</term><idx>Logarithmic function</idx> with 
+      <term>base</term><idx>Base of a logarithmic function</idx> <m>b</m>, written <m>log_b x</m> is defined by:
+    <md>
+      y = log_b \ x \mbox{ if and only if } x = b^y
+    </md>
+    In other words, <m>y=log_b \ x</m> is the inverse function of <m>y = b^x</m>. Note that <m>b \gt 0</m> and <m>b \neq 1</m>.
+    </p>
+  </assemblage>
+
+
+
+  
+<!-- 
+
+  <p> 
+    A <term>logarithm</term><idx>Logarithm</idx> is any expression or function in the form <m>y= \log_b(x)</m> where <m>b \gt 0</m> and <m>b \neq 1</m>. 
+    Similar to exponential functions, we call the parameter <m>b</m> the base of the function.  
+  </p> -->
+
+ <p> 
+    In a similar way that the expression <m>\sqrt{x}</m> is read as "the square root of <m>x</m>," the expression <m>\log_b \ x</m> is read as "log, base <m>b</m>,
+     of <m>x</m>." In general, logarithmic expressions can be read in the following ways:
+   </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+     <m>y=\log_b x</m> is a function. It requires an input. It would be complete non-sense to write <m>\sqrt{ \hspace{3mm} }</m>, without any number or expression to take the square root of. 
+     Similarly it would be complete non-sense to write <m>y=\log_b</m> , without any number or expression to take log of. 
+    </p>
+  </aside>
+
+<tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Expression:</cell>
+      <cell>Read as:</cell>
+    </row>
+    <row>
+      <cell><m>log_b \ x</m></cell>
+      <cell>"log, base <m>b</m>, of <m>x</m>"</cell>
+    </row>
+    <row>
+      <cell><m>\log_3(5)</m></cell>
+      <cell>"log, base <m>3</m>, of <m>5</m>"</cell>
+    </row>
+    <row>
+      <cell><m>\log_2(8)=3</m></cell>
+      <cell>"log, base <m>2</m>, of <m>8</m> equals <m>3</m>"</cell>
+    </row>
+  </tabular>
+
+<exercise><title>Interpreting Logarithms - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("LimitedNumeric");
+        $ans1 = Real(5);
+      Context("LimitedNumeric");
+        $ans2 = Real(3);
+      Context("LimitedNumeric");
+        $ans3 = Real(12);
+      Context("LimitedNumeric");
+        $ans4 = Real(144);
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <ol>
+        <li>
+          <p>
+            <m> \log_{5}(3)</m> is read out as ``log base <var name="$ans1" width="6"/>, of <var name="$ans2" width="6"/>'' 
+          </p>
+        </li>
+        <li>
+          <p>
+            <m> \log_{12}(144)</m> is read out as ``log base <var name="$ans3" width="6"/>, of <var name="$ans4" width="6"/>'' 
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </webwork>
+</exercise>
+
+<!-- <p>
+  As we will come to learn and review in this section, a logarithm is, at its core, nothing more than the inverse of an exponential function. 
+  Throughout this section, we will review and give meaning to logarithmic expressions. 
+</p> -->
+  </subsection>
+
+  <subsection><title>Exponential and Logarithmic Forms</title>
+  <p> 
+    <!-- Before exploring the logarithm as a function with a variable (for example <m>y=\ln x</m>), 
+    we should first familiarize ourselves with computing and simplifying logarithms (<m>\ln (3\cdot 5^2)</m>).  -->
+    When we have an exponential expression, we can re-write the expression as an equivalent logarithmic expression by observing the relationship between the expression's input and output.
+  </p>
+
+  <p> 
+One useful way to conceptualize this is to compare a logarithmic calculation to a radical calculation:
+  </p> 
+
+<tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Power Form:</cell>
+      <cell>Radical Form:</cell>
+    </row>
+    <row>
+      <cell><m>x^{\textcolor{red}{n}}=y</m></cell>
+      <cell><m>\textcolor{red}{\sqrt[n]{\textcolor{black}{y}}}=x</m></cell>
+    </row>
+    <row>
+      <cell><m>5^{\textcolor{red}{3}}=125</m></cell>
+      <cell><m>\textcolor{red}{\sqrt[3]{\textcolor{black}{125}}}=5</m></cell>
+    </row>
+    <row>
+      <cell><m>2^{\textcolor{red}{5}}=32</m></cell>
+      <cell><m>\textcolor{red}{\sqrt[5]{\textcolor{black}{32}}}=2</m></cell>
+    </row>
+  </tabular>
+
+<p>
+Each pair of statements are equivalent to each other. 
+This feels intuitive since we have grown an understanding that radical expressions (like cube roots) are the inverse operations to powers, 
+thus every power of degree <m>n</m> has a corresponding radical inverse operation (the <m>n</m>^{th} root) that "cancels out" the power.
+</p>
+
+<p>
+  A similar line of reasoning can be applied to exponential expressions; 
+  each exponential operation has a corresponding logarithmic inverse operation that "undoes" its work. 
+  In the same way that we can switch between power form and radical form, we can switch between Exponential Form and Logarithmic Form:
+</p>
+
+<tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Exponential Form:</cell>
+      <cell>Logarithmic Form:</cell>
+    </row>
+    <row>
+      <cell><m>\textcolor{red}{b}^x=y</m></cell>
+      <cell><m>\log_{\textcolor{red}{b}}y=x</m>"</cell>
+    </row>
+    <row>
+      <cell><m>\textcolor{red}{5}^3=125</m></cell>
+      <cell><m>\log_{\textcolor{red}{5}}(125)=3</m>"</cell>
+    </row>
+    <row>
+      <cell><m>\textcolor{red}{2}^5=32</m></cell>
+      <cell><m>\log_{\textcolor{red}{2}}(32)=5</m>"</cell>
+    </row>
+  </tabular>
+
+<p>
+  Note that when re-writing an exponential expression in its equivalent logarithmic form, 
+  the logarithm retains the same base as the exponential function, and the input and output are swapped.
+</p>
+
+
+  <example><title>Write in logarithmic form</title>
+    <statement>
+      <p>
+      <!-- Write the expression <m>144^{-0.5}=\frac{1}{12}</m> in logarithmic form.  -->
+       Write the expression <m>6^{x}=36</m> in logarithmic form.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{x = log_{6} (36)}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+<m>6^{x}=36</m> is equivalent to writing <m>x = log_{6} (36)</m>. 
+      </p>
+  <p>
+Notice that the base is <m>6</m> for both the logarithm and the exponential. 
+        <me>\boxed{x = log_{6} (36)}</me>
+      </p>
+    </solution>
+  </example>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Think of this as <m>6^{(...)}</m> on one side of the equal sign is equivalent to <m>log_{6} (...)</m> on the other side of the equal sign. 
+      Notice that the base is <m>6</m> for both the logarithm and the exponential. 
+    </p>
+  </aside>
+
+ <exercise><title>Write in logarithmic form - HOMEMADE - NEED TO FINISH</title>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        $derivative = Formula("1/(2sqrt(x))");
+        Context("LimitedRadical");
+        $a = Formula("2sqrt(3)");
+        Context("LimitedNumeric");
+        $b = Real(sqrt(12));
+        Context("Interval");
+        $domain = Interval("[0,inf)");
+        Context("Point");
+        $point = Point("(4,2)");
+        Context("RestrictedDomains");
+        $restricted = Formula("x, x >= 0");
+      </pg-code>
+      <statement>
+        <p>
+          Write each of the following exponential equations in logarithmic form. 
+          <ol>
+            <li>
+              <p>
+                <m>10^2=100</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>10^2=100</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>144^{-0.5}=\frac{1}{12}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>64^{x}=4</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>18^0=1</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>512^{x}=8</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+  <example><title>Write in exponential form</title>
+    <statement>
+      <p>
+       Write the expression <m>\log_{2}(16)=x</m> in its equivalent exponential form.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{16 = 2^x}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+<m>\log_{2}(16)=x</m> is equivalent to writing <m>16 = 2^x</m>. 
+      </p>
+  <p>
+Notice that the base is <m>2</m> for both the logarithm and the exponential. 
+        <me>\boxed{16 = 2^x}</me>
+      </p>
+    </solution>
+  </example>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      This of this as <m>\log_{2}(...)</m> on one side of the equal sign is equivalent to <m>2^{(...)}</m> on the other side of the equal sign. 
+      Notice that the base is again the same for both the logarithm and the exponential. 
+    </p>
+  </aside>
+
+ <exercise><title>Write in exponential form - HOMEMADE - NEED TO FINISH</title>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        $derivative = Formula("1/(2sqrt(x))");
+        Context("LimitedRadical");
+        $a = Formula("2sqrt(3)");
+        Context("LimitedNumeric");
+        $b = Real(sqrt(12));
+        Context("Interval");
+        $domain = Interval("[0,inf)");
+        Context("Point");
+        $point = Point("(4,2)");
+        Context("RestrictedDomains");
+        $restricted = Formula("x, x >= 0");
+      </pg-code>
+      <statement>
+        <p>
+          Write each of the following exponential equations in logarithmic form. 
+          <ol>
+            <li>
+              <p>
+                <m>\log_2(0.25)=-2</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\log_{27}(1)=0</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\log(1000)=3</m>
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>\log_4256=4</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+  </subsection>
+
+  <subsection>
+    <title>The Natural Logarithm <m>\ln x</m></title>
+  <p> 
+    As we saw above, each exponential expression and function has a corresponding logarithmic inverse. 
+    In <xref ref="sec-exp-functions"/>, we discussed the natural exponential function, <m>y=e^x</m>, as the most important exponential function in calculus. 
+    The inverse of that function is the most important logarithmic function, and is written <m>y=\ln x</m>. 
+  </p>
+
+ <assemblage><title>Definition of <m>\ln x</m></title>
+    <p>
+    The <term>natural logarithm</term> is defined as the inverse of the natural exponential function <m>y=e^x</m>. 
+    </p>
+      <p>
+    Therefore, the natural logarithm is simply the logarithm with a base of <m>e</m> which is typically denoted as:
+    <md>y=\ln x</md>
+    The mathematical notation <m>\ln (...)</m> is pronounced like "lawn" and the function <m>y=\ln x</m> can be read as "<m>y</m> equals `lawn' of <m>x</m>."
+    </p>
+      <p>
+From the definition it follows that:
+      <md>
+      y = \ln x \mbox{ is the same as } y = \log_e x
+    </md>
+    and because <m>y=\ln x</m> is the inverse of <m>y=e^x</m> it is true that:
+    <md>
+      y = \ln x \mbox{ if and only if } x = e^y
+    </md>
+    </p>
+  </assemblage>
+
+<example><title>Write in exponential form</title>
+    <statement>
+      <p>
+       Write the expression <m>\ln(x+6)=4</m> in its equivalent exponential form.
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{x+6 = e^4}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+<m>\ln(x+6)=4</m> is equivalent to writing <m>x+6 = e^4</m>. 
+      </p>
+  <p>
+Notice that the base is <m>e</m> for both the logarithm and the exponential. 
+        <me>\boxed{x+6 = e^4}</me>
+
+        (Answering with <m>x= e^4-6</m> would also be OK here.)
+      </p>
+    </solution>
+  </example>
+  </subsection>
+
+  <subsection>
+    <title>Inverse Properties of Exponentials and Logarithms</title>
+      <p> 
+        We saw above that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>. There are several important facts that follow from that. 
+        Let's collect them for easy reference.
+      </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      The properties listed here are important. You should know them well. Spend some time studying them if you don't know them already. 
+    </p>
+  </aside>
+
+<assemblage><title>Properties of Exponentials and Logarithms</title>
+    <p>
+    The following properties follow from the fact that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>: 
+    </p>
+    <ol>
+      <li>
+        <p>
+          <m>y=e^x</m> is the inverse of <m>y=\ln x</m>. (The two functions are inverses of each other.)
+        </p>
+      </li>
+      <li>
+        <p>
+      <men>
+      y = \ln x \mbox{ if and only if } x = e^y
+    </men>
+        </p>
+      </li>
+           <li>
+        <p>
+      <men xml:id="exp-property3">
+      \ln \left( e^x \right) = x  \mbox{ for all values of } x
+    </men>
+        </p>
+      </li>        
+      <li>
+        <p>
+    <men>
+      e^{\ln x} = x  \mbox{ for any } x /gt 0
+    </men>
+        </p>
+      </li>
+       <li>
+        <p>
+    <men>
+      \ln e = 1
+    </men>
+        </p>
+      </li>     
+        <li>
+        <p>
+    <men>
+      \ln 1 = 0 
+    </men>
+        </p>
+      </li>    
+    </ol>
+  </assemblage>
+
+
+
+      
+  <example><title>Using properties to evaluate</title>
+    <statement>
+      <p>
+       Evaluate <m>6\ln(e^{3})</m> without using a calculator. 
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{18}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        We know from <xref ref="exp-property3"/> that <m>\ln(e^{x})=x</m> so that means <m>\ln(e^{3})=3</m>. Therefore
+<md>6\ln(e^{3}) = 6 \cdot 3 = \boxed{18} </md>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>Using properties to evaluate - HOMEMADE - NEED TO FINISH </title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>
+        Add a checkpoint similar to the above example???
+      </p>
+    </statement>
+
+  </webwork>
+</exercise>
+  </subsection>
+
+ <subsection><title>Graphs of Logarithmic Functions</title>
+  <p> 
+   In this section, we will examine logarithms from a graphical approach by examining the key characteristics and properties of the graphs of logarithmic functions, 
+   and compare these properties to those of the graphs of exponential functions.
+     </p>
+<p>
+   For our purposes in calculus, we will limit this part to only include the natural logarithm, <m>y=\ln x</m>, even though much of what is discussed here applies to any logarithm.
+</p>
+
+<p>
+   As seen earlier, <m>y=\ln x</m> is the inverse of the function <m>y=e^x</m>. 
+   To obtain the graph of an inverse function from the original graph, we reflect the graph in the diagonal line <m>y=x</m>.
+  </p>
+
+    <figure>
+  <caption>Graphs of <m>y=e^x</m> and <m>y=\ln x</m>. Because these functions are inverses of each other, their graphs are reflected in the diagonal.</caption>
+  <image source="images/exp10" width="70%">
+  </image>
+</figure>
+
+<p>
+  Because the natural logarithmic function is the inverse of the natural exponential function, their graphs are related to each other by a relection in the diagonal. 
+  Since inverting a function switches its inputs and outputs, many of the characteristics of functions and their inverses have many commonalities. 
+  Let's compare some properties of exponential and logarithmic functions:
+</p>
+
+    <figure>
+  <caption>Graph of <m>y=e^x</m>.</caption>
+  <image source="images/exp8" width="70%">
+  </image>
+</figure>
+
+    <figure>
+  <caption>Graph of <m>y=\ln x</m>.</caption>
+  <image source="images/exp9" width="70%">
+  </image>
+</figure>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Notice how all the details in the table of characteristics stem from switching <m>x</m> and <m>y</m> values (which what happens when you find an inverse).
+    </p>
+  </aside>
+
+
+<tabular halign="center">
+    <row header="yes" bottom="minor" >
+      <cell>Characteristic:</cell>
+      <cell>Exponential Function:</cell>
+      <cell>Logarithmic Function:</cell>
+    </row>
+    <row>
+      <cell>Domain:</cell>
+      <cell><m>x \in \mathbb{R}</m></cell>
+      <cell><m>x \gt 0</m></cell>
+    </row>
+    <row>
+      <cell>Range:</cell>
+      <cell><m>y \gt 0</m></cell>
+      <cell><m>x \in \mathbb{R}</m></cell>
+    </row>
+    <row>
+      <cell>Horizontal asymptote:</cell>
+      <cell><m>y=0</m></cell>
+      <cell>None</cell>
+    </row>
+    <row>
+      <cell>Vertical asymptote:</cell>
+      <cell>None</cell>
+      <cell><m>x=0</m></cell>
+    </row>
+    <row>
+      <cell><m>x</m>-intercept:</cell>
+      <cell><m>(1,0)</m></cell>
+      <cell>None</cell>
+    </row>
+    <row>
+      <cell><m>y</m>-intercept:</cell>
+      <cell><m>(0,1)</m></cell>
+      <cell>None</cell>
+    </row>
+  </tabular>
+
+<p>
+  Of course, graphs of logarithms can also be transformed (translated, stretched, compressed and reflected) just like any other type of graph. 
+</p>
+
+  <exercise><title>A transformed logarithmic function - FROM WEBWORK</title>
+     <webwork source="Library/Wiley/setAnton_Section_0.5/Question32a.pg" />
+  </exercise>
   </subsection>
 
  <exercises><title>Recommended Exercises</title>
@@ -95,6 +675,17 @@
       If you find that you want even more practice, there are additional exercises below. 
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
+
+
+<exercise><title>....- HOMEMADE - NEED TO FINISH</title>
+<introduction>
+  \textcolor{blue}{\textbf{Checkpoint Idea:} Similar to above, give some expressions involving \textit{e} and get students to give its equivalent logarithmic inverse expression. 
+  Maybe we can even put a "challenging" one where we have $x^e$ which would require students to respond with $\sqrt[e]{x}$}
+</introduction>
+  </exercise>
+
+  ADD SOME OF MIKES SUGGESTED
+
 
   </exercises>
 

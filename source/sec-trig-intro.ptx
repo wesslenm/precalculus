@@ -402,6 +402,18 @@
     </solution>
   </example>
 
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+     <m>y=\sin \theta</m> is a function. It requires an input. 
+     It would be complete non-sense to write <m>\sqrt{ / }</m>, without any number or expression to take the square root of. 
+     Similarly it would be complete non-sense to write <m>\sin</m> , without any number or expression to take sine of. 
+     Same for the other trigonometric functions - they all require an input. When we write <m>\sin \theta</m>, we mean ``sine of the angle <m>\theta</m>''.
+    </p>
+  </aside>
+
 <exercise><title>Evaluating basic trig - HOMEMADE - NEW, PLEASE CHECK</title>
     <introduction>
       <p>

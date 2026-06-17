@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exp-lnproperties" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Logarithmic Functions</title>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+      <li>
+        <p>
+          ......
+        </p>
+      </li>
+    </ul>
+  </objectives>
+   
+  <assemblage>
+    <title>Where will this be used in calculus?</title>
+    <p>
+      ....
+    </p>
+    <p>
+    <ul>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+        ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+      <li>
+        <p>
+          ....
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage>
+
+  <introduction>
+    <p>    
+.... 
+    </p>
+  </introduction>
+
+ 
+
+  <subsection><title>Logarithm Laws</title>
+  <p> 
+    In <xref ref="sec-exp-intro"/>, we reviewed the main exponent laws that help us to simplify and re-write exponential expressions in simpler ways. 
+    Logarithmic expressions also have a similar set of laws that help us re-write logarithmic expressions:
+
+  <assemblage>
+    <title>Logarithm Laws</title>
+    <p>
+      For any postitive numbers <m>x</m> and <m>y</m> the following is true:
+    </p>
+    <p>
+    <ul>
+      <li>
+        <p> Product Law
+          <md number="yes">
+            \ln(xy) = \ln x + \lny 
+          </md>
+        </p>
+      </li>
+      <li>
+        <p> Quotient Law
+          <md number="yes">
+            \ln\left(\frac{x}{y}\right) = \ln x - \lny 
+          </md>
+        </p>
+      </li>
+      <li>
+        <p> Power Law
+          <md number="yes">
+            \ln\left(x^y\right) = y\ln x 
+          </md>
+        </p>
+      </li>
+    </ul>
+  </p>
+  </assemblage>
+
+<p>
+  Similar Laws are also true for other logarithms (with other bases) but we will focus on <m>\ln x</m> (with base <m>e</m>).
+</p>
+
+
+<p>
+It is important to understand these laws, and it is also important to understand some common errors that students make when applying these laws:
+<ol>
+  <li>
+    <p>
+      Logarithms are <alert>not</alert> distributive into their own arguments. In other words, <m>\ln (x \pm y) \neq \ln x \pm \ln y.</m>
+    </p>
+  </li>
+    <li>
+    <p>
+      To apply the power law, only the \textit{argument} of the logarithm should be raised to an exponent. 
+      In other words, the Power Law would \textit{not} apply to logarithms written in the form of <m>(\ln x)^a</m> or <m>\ln^a(x).</m>
+    </p>
+  </li>
+    <li>
+    <p>
+      In order to apply either the Product Rule or Quotient Rule, the logarithm must not have a coefficient. 
+      If the logarithm has a coefficient (other than 1), you must first apply the Power Law before you can apply either of the other two laws
+    </p>
+  </li>
+</ol>
+</p>
+
+
+
+\textcolor{blue}{Example: before the checkpoint(s), probably should put some examples of logarithm laws being used. The examples should show each of the laws working in "both directions" (i.e. expanding and collapsing) \\
+\begin{itemize}
+    \item $\ln (6) + \ln(4.5)=\ln (27)$
+    \item $\ln a + \ln b + \ln c=\ln (abc) $
+    \item $\ln (48)-\ln (3) = \ln (16)$
+    \item $\ln x - \ln y = \ln (\frac{x}{y})$
+    \item $\ln \left(\frac{a}{bc}\right)=\ln a - \ln b - \ln c$
+    \item $\ln (5^3)=3\ln 5$
+    \item $\ln(\sqrt[3]{5})=\frac{1}{3}\ln (5)$
+    \item $3\ln (x+2)=\ln (x+2)^3$
+\end{itemize}}
+
+  <exercise>
+    <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
+  </exercise>
+
+\textcolor{blue}{\textbf{Checkpoint Idea:} For each of the following logarithmic expressions, identify which logarithm law, if any, can be applied
+\begin{itemize}
+    \item Give a variety of examples here, where some of them can't be simplified using the logarithm laws, like $\ln (x+3)$
+\end{itemize}}
+
+\textcolor{blue}{\textbf{Checkpoint Idea:} Re-write each of the following logarithmic expressions as a single logarithm
+\begin{itemize}
+    \item $2\ln 8 - 5 \ln 2$
+    \item $\ln 12 + \ln 2 - \ln 6$
+    \item $2\ln 8 + \ln 9 - \ln 36$
+    \item $5\ln (x-2) - \ln (x+5)+3\ln x$
+\end{itemize}}
+
+  </p>
+  </subsection>
+
+  <subsection>
+    <title>Any other topics?</title>
+  <p> Coming soon.  </p>
+  </subsection>
+
+
+
+
+
+
+  <subsection>
+    <title>Additional Examples</title>
+      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
+
+      <p>
+        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
+      </p>
+  </subsection>
+
+ <exercises><title>Recommended Exercises</title>
+    <p>
+      For students who want a focused review of the topic, we recommend working on these exercises. 
+      If you find that you want even more practice, there are additional exercises below. 
+      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
+    </p>
+
+  </exercises>
+
+<exercises><title>Additional Exercises</title>
+  <p>
+For students who want even more problems to practice, here are some additional exercises. 
+  </p>
+
+ 
+  </exercises> 
+</section>

@@ -5,7 +5,7 @@
 
   <introduction>
     <p> 
-      In this section, we will look at properties of exponents. Here, these rules apply to any type of function that involves exponents, namely power functions and exponential functions. However, this section will mostly focus on power functions, functions where the base is the variable and the exponent is a constant. We'll discuss several exponent rules, show you how to use them, and explain the reasoning behind these rules. 
+      In this chapter we review some topics related to exponential and logarithmic functions that are especially relevant when studying calculus.
     </p>
   </introduction>
 
@@ -13,7 +13,7 @@
   <!-- <xi:include href="sec-exp-intro.ptx" /> -->
   <xi:include href="sec-exp-functions.ptx" />
   <xi:include href="sec-exp-log.ptx" />
-  <xi:include href="sec-exp-lngraph.ptx" />
+  <xi:include href="sec-exp-lnproperties.ptx" />
   <xi:include href="sec-exp-solve.ptx" />
 
 </chapter>
