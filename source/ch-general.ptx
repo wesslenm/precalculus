@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-general" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>DELETE - temporary</title>
 
   <introduction>
@@ -8,9 +8,9 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-section-name.ptx" />
-  <xi:include href="sec-style.ptx" />
-  <xi:include href="sec-template.ptx" />
+  <xi:include href="sec-general-code.ptx" />
+  <xi:include href="sec-general-style.ptx" />
+  <xi:include href="sec-general-template.ptx" />
   <xi:include href="sec-general-next.ptx" />
 
 </chapter>

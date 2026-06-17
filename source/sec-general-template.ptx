@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-template" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Template - add title</title>
+<section xml:id="sec-general-template" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Template - copy for new section</title>
 
   <objectives>
     <ul>

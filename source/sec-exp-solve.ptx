@@ -103,6 +103,70 @@
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
+<exercise>
+    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UMN/calculusStewartCCC/s_1_6_52.pg" />
+  </exercise>
+
+ <exercise>
+    <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/ma117DB/set8/srw4_4_41.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg" />
+  </exercise>
+
+<exercise>
+    <webwork source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg" />
+  </exercise>
+
+
+  <exercise>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
+
+  <exercise>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
+  </exercise>
+
+
+
+
  
   </exercises> 
 </section>

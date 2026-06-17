@@ -155,7 +155,7 @@ Note that what you are canceling must be multiplied (or divided) by the rest of 
     <p>  
       Check with numbers, for example
 
-      <m>frac{1+2}{3+2} = frac{3}{5}</m> and this is not the same as <m>frac{1}{3}</m>. So this illustrates that <m>\frac{a+c}{b+c}\not=\frac{a}{b}</m> in general.
+      <m>\frac{1+2}{3+2} = \frac{3}{5}</m> and this is not the same as <m>\frac{1}{3}</m>. So this illustrates that <m>\frac{a+c}{b+c}\not=\frac{a}{b}</m> in general.
     </p>
   </aside>
 

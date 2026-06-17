@@ -184,7 +184,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     <statement>
       <p>
       Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{5}{13}</m> and <m>\cos \theta = \frac{12}{13}</m>. Find the following values.
-    <ol label="a.">
+    <ol marker="a.">
       <li>
         <p>
          <m>\sec \theta</m>
@@ -205,7 +205,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </statement>
     <answer>
       <p>
-<ol label="a.">
+<ol marker="a.">
       <li>
         <p>
           <m>\sec \theta = \boxed{\frac{13}{12}}</m>
@@ -226,7 +226,7 @@ In this section we will discuss what trigonometic identities are, and practice u
       </answer>
     <solution>
       <p>
-        <ol label="a">
+        <ol marker="a">
       <li>
         <p>
         From <xref ref="trig-reci1"/> we know that  <m>\sec \theta = \frac{1}{\cos \theta}</m>. So with the given information we see that:
@@ -274,7 +274,7 @@ In this section we will discuss what trigonometic identities are, and practice u
       Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = \frac{1}{2}</m> and 
       <m>\cos \theta = -\frac{\sqrt{3}}{2}</m>. 
       Find the following values.
-    <ol label="a">
+    <ol marker="a">
       <li>
         <p>
          <m>\tan \theta</m> = <var name="$ans1" width="6"/>.
@@ -322,7 +322,7 @@ In this section we will discuss what trigonometic identities are, and practice u
           <me> \sin \theta = \pm \frac{\sqrt{21}}{\sqrt{25}} </me>
           <me> \sin \theta = \pm \frac{\sqrt{21}}{5} </me>
           To determine whether we should use the positive or the negative value, we should consider signs of trigonometric functions in different quadrants. 
-          For example, we can use the CAST rule (<xref ref="trig-cast"/>) to see that <m>\sin \theta</m> is negative in Quadrant IV. 
+          For example, we can use the CAST rule (<xref ref="trig-cast" text="title"/>) to see that <m>\sin \theta</m> is negative in Quadrant IV. 
           Recall that the question specified that <m>\theta</m> is in Quadrant IV. Therefore
         <me>\sin \theta = \boxed{-\frac{\sqrt{21}}{5}}</me>
       </p>
@@ -369,7 +369,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     <statement>
       <p>
         Simplify the expressions as much as possible and write your final answers in terms of <m>\sin \theta</m> and <m>\cos \theta</m> only. 
-       <ol label="a.">
+       <ol marker="a.">
         <li>
           <p>
             <m>\frac{\csc^2\theta - \cot^2\theta}{\sec^2\theta}</m>
@@ -385,7 +385,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </statement>
     <answer>
       <p>
-         <ol label="a.">
+         <ol marker="a.">
         <li>
           <p>
             <m>\frac{\csc^2\theta - \cot^2\theta}{\sec^2\theta} = \boxed{\cos^2\theta}</m>
@@ -402,7 +402,7 @@ In this section we will discuss what trigonometic identities are, and practice u
       </answer>
     <solution>
       <p>
-         <ol label="a.">
+         <ol marker="a.">
         <li>
           <p>
           First use <xref ref="trig-pyth3"/> on the numerator:
@@ -750,7 +750,7 @@ $radio4 = RadioButtons([
 </ol>
 
         <!-- <p>
-<ol label="a.">
+<ol marker="a.">
   <li>
     <p>
     <m>\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)</m> and <m>4\csc^2 x</m> 
@@ -823,7 +823,7 @@ $radio4 = RadioButtons([
       Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{\sqrt{11}}{6}</m> and 
       <m>\cos \theta = -\frac{5}{6}</m>. 
       Answer the following questions.
-    <ol label="a">
+    <ol marker="a">
       <li>
         <p>
          Evaluate <m>\tan^2 \theta</m> = <var name="$ans1" width="6"/>.
@@ -1103,7 +1103,7 @@ $popup6 = PopUp(['?','True','False'],2);
        <p>
       Suppose that for some angles <m>\alpha</m> and <m>\beta</m> in Quadrant I, we know that <m>\sin \alpha = \frac{3}{5}</m> and 
       <m>\sec \beta = \frac{5}{4}</m>. Evaluate the following:
-    <ol label="a">
+    <ol marker="a">
       <li>
         <p>
          <m>\sin(\alpha+\beta) =</m>  <var name="$ans1" width="6"/>.
@@ -1403,7 +1403,7 @@ $popup6 = PopUp(['?','True','False'],2);
        <p>
       Suppose that for some angles <m>\tau</m>  in Quadrant II, we know that <m>\sin \tau = \frac{5}{13}</m> and 
       and <m>\gamma</m> is in Quadrant IV with <m>\tan \gamma = -\frac{5}{12}</m>. Evaluate the following:
-    <ol label="a">
+    <ol marker="a">
       <li>
         <p>
          <m>\cos(\tau) =</m>  <var name="$ans1" width="6"/>.

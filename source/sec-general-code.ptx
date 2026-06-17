@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Random trial chapter </title>
+<section xml:id="sec-general-code" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Code bank and trials</title>
 
   <p> For testing things out.... Also for keeping samples of types of code, for easy copy/pasting. </p>
 
@@ -330,6 +330,77 @@ A new term: <term>radical</term> then idx to add an index item.
       </statement>
     </webwork>
   </exercise>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],2);
+$popup6 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>
+        Which of the following statements are true, and which are false? 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m> \frac{\sin (3x) + \cos (3x)}{\sin (3x)} = 1 + \cot (3x) </m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\cos(3x+4y) = \cos(3x) + \cos(4y)</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+      <li>
+      <p>
+        <m>(\sec (xy))^2 = \frac{1}{\cos^2 (xy)}</m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>\sin (-4x)  = \sin (4x) </m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>(\tan (xy))^2 = \tan^2 (x)\tan^2 (y)</m> <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\sin^4 x + \cos^4 x = 1</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
+
+
+
+
+
+
+
 
 <exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m></title>
   <webwork>

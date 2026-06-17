@@ -4,7 +4,7 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="precalc-resource">
     <title>Precalculus review for UTM students</title>
    <!-- Optional subtitle: -->
     <!-- <subtitle>A resource for students at UTM</subtitle> -->
@@ -17,7 +17,7 @@
     <!-- <xi:include href="./ch-functions.ptx" /> -->
     <xi:include href="./ch-exponents.ptx" />
     <xi:include href="./ch-trig.ptx" />
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./ch-general.ptx" />
 
 
     <xi:include href="./backmatter.ptx" />

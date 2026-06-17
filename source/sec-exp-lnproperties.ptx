@@ -61,41 +61,119 @@
 
   <introduction>
     <p>    
-.... 
+In <xref ref="sec-exp-log"/> we saw the definition of logarithms and of <m>\ln x</m>. 
+In this section we continue working with more properties of logarithms, in particular the Logarithm Laws and properties stemming from the definition as inverse of <m>y=e^x</m>. 
     </p>
   </introduction>
-
  
+  <subsection><title>Inverse Properties of Exponentials and Logarithms</title>
+      <p> 
+        We saw in <xref ref="sec-exp-log"/> that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>. There are several important facts that follow from that. 
+        Let's collect them for easy reference.
+      </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      The properties listed here are important. You should know them well. Spend some time studying them if you don't know them already. 
+    </p>
+  </aside>
+
+<assemblage><title>Properties of Exponentials and Logarithms</title>
+    <p>
+    The following properties follow from the fact that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>: 
+    </p>
+   
+<p>
+      <men>
+      y = \ln x \quad \mbox{ if and only if } \quad x = e^y
+    </men>
+    <men xml:id="exp-property3">
+      \ln \left( e^x \right) = x  \quad \mbox{  for all values of } x
+    </men>
+    <men>
+      e^{\ln x} = x \quad \mbox{  for any } x \gt 0
+    </men>
+    <men>
+      \ln e = 1
+    </men>
+        <men>
+      \ln 1 = 0 
+    </men>
+        </p>
+  </assemblage>
+
+  <example><title>Using properties to evaluate</title>
+    <statement>
+      <p>
+       Evaluate <m>6\ln(e^{3})</m> without using a calculator. 
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{18}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+        We know from <xref ref="exp-property3"/> that <m>\ln(e^{x})=x</m> so that means <m>\ln(e^{3})=3</m>. Therefore
+<md>6\ln(e^{3}) = 6 \cdot 3 = \boxed{18} </md>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>Using properties to evaluate - HOMEMADE - NEED TO FINISH </title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+      <p>
+        Add a checkpoint similar to the above example???
+      </p>
+    </statement>
+
+  </webwork>
+</exercise>
+  </subsection>
 
   <subsection><title>Logarithm Laws</title>
   <p> 
-    In <xref ref="sec-exp-intro"/>, we reviewed the main exponent laws that help us to simplify and re-write exponential expressions in simpler ways. 
+    In <xref ref="sec-exp-intro"/>, we reviewed the main exponent laws that help us simplify and re-write exponential expressions in simpler ways. 
     Logarithmic expressions also have a similar set of laws that help us re-write logarithmic expressions:
+  </p> 
 
-  <assemblage>
-    <title>Logarithm Laws</title>
+  <assemblage><title>Logarithm Laws</title>
     <p>
       For any postitive numbers <m>x</m> and <m>y</m> the following is true:
     </p>
     <p>
     <ul>
       <li>
-        <p> Product Law
-          <md number="yes">
-            \ln(xy) = \ln x + \lny 
+        <p> Product Law:
+          <md number="yes" xml:id="log-law-product">
+            \ln(xy) = \ln x + \ln y 
           </md>
         </p>
       </li>
       <li>
-        <p> Quotient Law
-          <md number="yes">
-            \ln\left(\frac{x}{y}\right) = \ln x - \lny 
+        <p> Quotient Law:
+          <md number="yes" xml:id="log-law-quotient">
+            \ln\left(\frac{x}{y}\right) = \ln x - \ln y 
           </md>
         </p>
       </li>
       <li>
-        <p> Power Law
-          <md number="yes">
+        <p> Power Law:
+          <md number="yes" xml:id="log-law-power">
             \ln\left(x^y\right) = y\ln x 
           </md>
         </p>
@@ -108,43 +186,433 @@
   Similar Laws are also true for other logarithms (with other bases) but we will focus on <m>\ln x</m> (with base <m>e</m>).
 </p>
 
-
 <p>
-It is important to understand these laws, and it is also important to understand some common errors that students make when applying these laws:
-<ol>
-  <li>
-    <p>
-      Logarithms are <alert>not</alert> distributive into their own arguments. In other words, <m>\ln (x \pm y) \neq \ln x \pm \ln y.</m>
-    </p>
-  </li>
-    <li>
-    <p>
-      To apply the power law, only the \textit{argument} of the logarithm should be raised to an exponent. 
-      In other words, the Power Law would \textit{not} apply to logarithms written in the form of <m>(\ln x)^a</m> or <m>\ln^a(x).</m>
-    </p>
-  </li>
-    <li>
-    <p>
-      In order to apply either the Product Rule or Quotient Rule, the logarithm must not have a coefficient. 
-      If the logarithm has a coefficient (other than 1), you must first apply the Power Law before you can apply either of the other two laws
-    </p>
-  </li>
-</ol>
+  <alert> Notation:</alert> The notation <m>\ln x^y</m> means <m>\ln\left(x^y\right)</m>. 
+  If the intent is to rais the entire logarithm to a power, we would write <m>\left(\ln x\right)^y</m>. 
+  You should never write <m>\ln^a(x)</m> (it does not mean anything).
 </p>
 
+<p>
+It is important to understand these laws, and it is also important to understand some common errors to avoid when applying these laws:
+</p> 
+
+ <assemblage><title>Common Errors</title>
+    <p>
+      Be careful to not apply `rules' that are not true. For example, note that:
+    </p>
+    <p>
+    <men xml:id="log-error1">
+      \ln (x \pm y) \neq \ln x \pm \ln y
+    </men>
+    <men>
+      (\ln x)^a \neq a(\ln x)
+    </men>
+    <men>
+      a\ln x + b\ln y \neq ab\ln\left(xy\right) 
+    </men>
+     <men>
+      \ln\left(xy\right) \neq \ln\left(x\right) \ln\left(y\right) 
+    </men>   
+  </p>
+  </assemblage>
+
+  <example><title>True or False</title>
+    <statement>
+      <p>
+      Suppose <m>a, b,</m> and <m>c</m> are positive numbers.  
+        Which of the following are true, and which are false? 
+      </p>
+      <p>
+      Note: For a statement involving <m>a, b,</m> and/or <m>c</m> to be true, it must be true for ALL positive numbers <m>a, b,</m> and <m>c</m>. 
+      </p>
+      <p>
+      <ol>
+        <li>
+          <p>
+            <m>\ln (6) + \ln(4.5)=\ln (27)</m> 
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\ln (5x) =\ln (5)\ln (x)</m> 
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\ln \left(\frac{a}{bc}\right)=\ln a - \ln b - \ln c</m>
+          </p>
+        </li>
+      </ol>
+      </p>
+    </statement>
+    <answer>
+          <p>
+      <ol>
+        <li>
+          <p>
+            <m>\boxed{\mbox{TRUE}}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\boxed{\mbox{FALSE}}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\boxed{\mbox{TRUE}}</m>
+          </p>
+        </li>
+      </ol>
+      </p>
+
+      </answer>
+    <solution>
+          <p>
+      <ol>
+        <li>
+          <p>
+           Using <xref ref="log-law-product"/> (uing it `backwards'), we see that <m>\ln (6) + \ln(4.5)=\ln (6\cdot 4.6) = \ln (27)</m>. 
+           So the statement is <m>\boxed{\mbox{TRUE}}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\ln (5x) =\ln (5)\ln (x)</m>. This is precisely one of the common errors. The statement is <m>\boxed{\mbox{FALSE}}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            First we use <xref ref="log-law-quotient"/>:
+            <md>
+              \ln \left(\frac{a}{bc}\right)=\ln a - \ln (bc)
+            </md>
+            Then we use <xref ref="log-law-product"/> on the second term:
+                        <md>
+              \ln \left(\frac{a}{bc}\right)=\ln a - \ln (bc) = \ln a - (\ln b + \ln c) = \ln a - \ln b - \ln c
+            </md>
+            So the statement is <m>\boxed{\mbox{TRUE}}</m>.
+          </p>
+        </li>
+      </ol>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],2);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+      Suppose <m>a, b, c,</m> and <m>x</m> are positive numbers.  
+        Which of the following statements are true, and which are false? 
+      </p>
+      <p>
+      Note: For a statement involving <m>a, b,c,</m> and/or <m>x</m> to be true, it must be true for ALL positive numbers <m>a, b,</m> and <m>c</m>. 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m>\ln (48)-\ln (3) = \ln (16)</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln a + \ln b + \ln c=\ln (abc)</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>\ln (105)-\ln (40) = \ln (65)</m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>3a\ln (x+2)=\ln (x+2)^{3a}</m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln (7x^3)=3\ln 7x</m> <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln(\sqrt[3]{5})=\frac{1}{3}\ln (5)</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
+
+  <example><title>Write as one logarithm</title>
+    <statement>
+      <p>
+      Write each of the following expressions as a single logarithm, with no coefficient. 
+      </p>
+      <p>
+      <ol>
+        <li>
+          <p>
+            <m>2 \ln 8 - 5 \ln 2</m> 
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>5\ln (x-2) - \ln (x+5)+3\ln x</m> 
+          </p>
+        </li>
+      </ol>
+      </p>
+    </statement>
+    <answer>
+          <p>
+      <ol>
+        <li>
+          <p>
+            <m>2 \ln 8 - 5 \ln 2 = \boxed{\ln 2}</m> 
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>5\ln (x-2) - \ln (x+5)+3\ln x = \boxed{\ln \left(\frac{(x-2)^5x^3}{x+5}\right)}</m> 
+          </p>
+        </li>
+      </ol>
+      </p>
+      </answer>
+    <solution>
+          <p>
+            Let's use the logarithm laws several times, and be careful to not use `false laws':
+      <ol>
+        <li>
+          <p>
+            <m>2 \ln 8 - 5 \ln 2 = \ln 8^2 - \ln 2^5 = \ln \left(\frac{8^2}{2^5} \right) = \ln \left(\frac{64}{32} \right) = \boxed{\ln 2} </m> 
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>5\ln (x-2) - \ln (x+5)+3\ln x = \ln (x-2)^5 + \ln (x+5)^{-1}+\ln x^3 = \ln \left((x-2)^5(x+5)^{-1}x^3\right) = \boxed{\ln \left(\frac{(x-2)^5x^3}{x+5}\right)}  </m> 
+          </p>
+        </li>
+      </ol>
+      </p>
+    </solution>
+  </example>
+
+<exercise><title>Write as one logarithm - HOMEMADE</title>
+    <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+    <webwork>
+      <pg-code>
+        Context("LimitedRadical");
+        $a = Formula("4");
+        Context("LimitedRadical");
+        $b = Formula("16");
+        Context("Numeric");
+        $c = Formula("x(x+1)");
+        Context("Numeric");
+        $d = Formula("x^5");
+      </pg-code>
+      <statement>
+        <p>
+          Write each of the following expressions as a single logarithm, with no coefficient. 
+          <ol>
+            <li>
+              <p>
+                 <m>\ln 12 + \ln 2 - \ln 6 = \ln A</m>  where <m>A=</m> <var name="$a" width="10"/>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2\ln 8 + \ln 9 - \ln 36 = \ln B</m>  where <m>B=</m> <var name="$b" width="10"/>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2\ln (x+1) + \ln x - \ln (x^2-1) = \ln C</m>  where <m>C=</m> <var name="$c" width="10"/>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\frac{1}{2}\ln x^4 - 3\ln x + \ln x^6 = \ln D</m>  where <m>D=</m> <var name="$d" width="10"/>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+  </exercise>
+
+  </subsection>
+
+ <exercises><title>Recommended Exercises</title>
+    <p>
+      For students who want a focused review of the topic, we recommend working on these exercises. 
+      If you find that you want even more practice, there are additional exercises below. 
+      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
+    </p>
 
 
-\textcolor{blue}{Example: before the checkpoint(s), probably should put some examples of logarithm laws being used. The examples should show each of the laws working in "both directions" (i.e. expanding and collapsing) \\
-\begin{itemize}
-    \item $\ln (6) + \ln(4.5)=\ln (27)$
-    \item $\ln a + \ln b + \ln c=\ln (abc) $
-    \item $\ln (48)-\ln (3) = \ln (16)$
-    \item $\ln x - \ln y = \ln (\frac{x}{y})$
-    \item $\ln \left(\frac{a}{bc}\right)=\ln a - \ln b - \ln c$
-    \item $\ln (5^3)=3\ln 5$
-    \item $\ln(\sqrt[3]{5})=\frac{1}{3}\ln (5)$
-    \item $3\ln (x+2)=\ln (x+2)^3$
-\end{itemize}}
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],2);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+      Suppose <m>a, b, c, x,</m> and <m>y</m> are positive numbers.  
+        Which of the following statements are true, and which are false? 
+      </p>
+      <p>
+      Note: For a statement involving <m>a, b,c,x,</m> and/or <m>y</m> to be true, it must be true for ALL positive numbers <m>a, b,c,x,</m> and <m>y</m>. 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m>\ln (x^2) = (\ln x)^2</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln a + \ln b + \ln c=\ln (a+b+c)</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p> 
+        <m>\ln x^{-1}=-\ln x </m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>\ln \sqrt{4x}=\ln 2 + \frac{1}{2}\ln x</m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln \left(\frac{1}{x}\right)=\frac{1}{\ln x}</m> <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln 7x^2 y^5=\ln 7 + 2 \ln x + 5 \ln y</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],2);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+      Suppose <m>a, b, c,</m> and <m>x</m> are positive numbers.  
+        Which of the following statements are true, and which are false? 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m>\ln (e^{6x}) = 6x</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln (e^{7x}-e^{4x}) = 3x</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p> If <m>\ln x =\ln 75</m> then <m>x=75</m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        If <m>x=y</m> then <m>\ln x =\ln y</m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln(-e^{x})= -\ln(e^{x})</m> <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>\ln(4e^{x})= \ln 4 + x</m> <var name="$popup6" form="popup"/> 
+      </p>
+      <p>
+        Note: <m>\ln 4 + x = (\ln 4) + x</m>. If we wanted two terms inside the logarithm function, we would need to write <m>\ln (4 + x)</m>.
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
 
   <exercise>
     <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
@@ -156,49 +624,64 @@ It is important to understand these laws, and it is also important to understand
 
   <exercise>
     <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
+  </exercise> 
+
+<exercise><title>(Challenge) Arrange by size</title>
+    <introduction>
+      <p>
+        (Not rendomizable)
+      </p>
+    </introduction>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $popup1 = PopUp(['?','power','exponential','linear','quadratic'],1);
+        $popup2 = PopUp(['?','power','exponential','linear','quadratic'],1);
+        $popup3 = PopUp(['?','power','exponential','linear','quadratic'],1);
+        $popup4 = PopUp(['?','power','exponential','linear','quadratic'],1);
+        $popup5 = PopUp(['?','power','exponential','linear','quadratic'],1);
+      </pg-code>
+      <statement>
+        <p>
+          Suppose <m>A</m> and <m>B</m> are positive constants such that <m>0 \lt A \lt AB \lt 1 \lt B</m>. Arrange the following quantities from smallest to largest. 
+          <ol>
+            <li>
+              <p>
+                <m>0</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\ln A</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\ln B</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\ln A + \ln B</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\ln (B^A)</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+        <p>
+         <var name="$popup1" form="popup"/>  <m>\lt</m> <var name="$popup2" form="popup"/>  <m>\lt</m> <var name="$popup3" form="popup"/>  <m>\lt</m> <var name="$popup4" form="popup"/>  <m>\lt</m> <var name="$popup5" form="popup"/>
+        </p>
+      </statement>
+    </webwork>
   </exercise>
 
-\textcolor{blue}{\textbf{Checkpoint Idea:} For each of the following logarithmic expressions, identify which logarithm law, if any, can be applied
-\begin{itemize}
-    \item Give a variety of examples here, where some of them can't be simplified using the logarithm laws, like $\ln (x+3)$
-\end{itemize}}
-
-\textcolor{blue}{\textbf{Checkpoint Idea:} Re-write each of the following logarithmic expressions as a single logarithm
-\begin{itemize}
-    \item $2\ln 8 - 5 \ln 2$
-    \item $\ln 12 + \ln 2 - \ln 6$
-    \item $2\ln 8 + \ln 9 - \ln 36$
-    \item $5\ln (x-2) - \ln (x+5)+3\ln x$
-\end{itemize}}
-
-  </p>
-  </subsection>
-
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
 
 
 
-
-
-
-  <subsection>
-    <title>Additional Examples</title>
-      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
-
-      <p>
-        <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
-      </p>
-  </subsection>
-
- <exercises><title>Recommended Exercises</title>
-    <p>
-      For students who want a focused review of the topic, we recommend working on these exercises. 
-      If you find that you want even more practice, there are additional exercises below. 
-      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
-    </p>
 
   </exercises>
 

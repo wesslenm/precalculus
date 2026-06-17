@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exp-log" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Logarithmic Functions and their Graphs</title>
+  <title>Logarithmic Functions, Definitions and Graphs</title>
 
   <objectives>
     <ul>
@@ -12,12 +12,17 @@
       </li>
       <li>
         <p>
-          Convert between exponential and logarithmic expressions.
+          Convert between exponential and logarithmic forms.
         </p>
       </li>
       <li>
         <p>
           Solve problems involving the natural logarithmic function, <m>y=\ln x</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify graphs of logarithmic functions, and their properties.
         </p>
       </li>
     </ul>
@@ -34,9 +39,14 @@
           Logarithmic functions are used as important examples of functions, for practicing and illustrating calculus concepts.
         </p>
       </li>
+        <li>
+        <p>
+        Logarithmic functions are used in the differentiation technique Logarithmic Differentiation. 
+        </p>
+      </li>
       <li>
         <p>
-        Logarithmic functions are essential when integration rational functions. 
+        Logarithmic functions are essential when integrating rational functions. 
         </p>
       </li>
     </ul>
@@ -86,17 +96,13 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so we w
  <assemblage><title>Definition of logarithmic functions</title>
     <p>
       For any positive number <m>b\not= 1</m>, the <term>logarithmic function</term><idx>Logarithmic function</idx> with 
-      <term>base</term><idx>Base of a logarithmic function</idx> <m>b</m>, written <m>log_b x</m> is defined by:
+      <term>base</term><idx>Base of a logarithmic function</idx> <m>b</m>, written <m>\log_b \ x</m> is defined by:
     <md>
-      y = log_b \ x \mbox{ if and only if } x = b^y
+      y = \log_b \ x \mbox{ if and only if } x = b^y
     </md>
-    In other words, <m>y=log_b \ x</m> is the inverse function of <m>y = b^x</m>. Note that <m>b \gt 0</m> and <m>b \neq 1</m>.
+    In other words, <m>y=\log_b \ x</m> is the inverse function of <m>y = b^x</m>. Note that <m>b \gt 0</m> and <m>b \neq 1</m>.
     </p>
   </assemblage>
-
-
-
-  
 <!-- 
 
   <p> 
@@ -125,7 +131,7 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so we w
       <cell>Read as:</cell>
     </row>
     <row>
-      <cell><m>log_b \ x</m></cell>
+      <cell><m>\log_b \ x</m></cell>
       <cell>"log, base <m>b</m>, of <m>x</m>"</cell>
     </row>
     <row>
@@ -252,16 +258,16 @@ thus every power of degree <m>n</m> has a corresponding radical inverse operatio
     </statement>
     <answer>
       <p>
-        <me>\boxed{x = log_{6} (36)}</me>
+        <me>\boxed{x = \log_{6} (36)}</me>
       </p>
       </answer>
     <solution>
       <p>
-<m>6^{x}=36</m> is equivalent to writing <m>x = log_{6} (36)</m>. 
+<m>6^{x}=36</m> is equivalent to writing <m>x = \log_{6} (36)</m>. 
       </p>
   <p>
 Notice that the base is <m>6</m> for both the logarithm and the exponential. 
-        <me>\boxed{x = log_{6} (36)}</me>
+        <me>\boxed{x = \log_{6} (36)}</me>
       </p>
     </solution>
   </example>
@@ -276,58 +282,80 @@ Notice that the base is <m>6</m> for both the logarithm and the exponential.
     </p>
   </aside>
 
- <exercise><title>Write in logarithmic form - HOMEMADE - NEED TO FINISH</title>
+ <exercise><title>Write in logarithmic form - HOMEMADE</title>
     <webwork>
       <pg-code>
-        Context("Numeric");
-        $f = Formula("sqrt(x)");
-        $derivative = Formula("1/(2sqrt(x))");
         Context("LimitedRadical");
-        $a = Formula("2sqrt(3)");
-        Context("LimitedNumeric");
-        $b = Real(sqrt(12));
-        Context("Interval");
-        $domain = Interval("[0,inf)");
-        Context("Point");
-        $point = Point("(4,2)");
-        Context("RestrictedDomains");
-        $restricted = Formula("x, x >= 0");
+        $ans1a = Formula("2");
+    Context("LimitedRadical");
+        $ans1b = Formula("100");
+                  Context("Numeric");
+        $ans2a = Formula("-0.5");
+                 Context("Numeric");
+        $ans2b = Formula("1/12");        
+        Context("LimitedRadical");
+        $ans3b = Formula("4");
+        Context("Numeric");
+        $ans3a = Formula("x");      
+        Context("LimitedRadical");
+        $ans4b = Formula("1");
+        Context("LimitedRadical");
+        $ans4a = Formula("0");
+        Context("LimitedRadical");
+        $ans5b = Formula("8");
+        Context("Numeric");
+        $ans5a = Formula("x"); 
       </pg-code>
       <statement>
         <p>
-          Write each of the following exponential equations in logarithmic form. 
-          <ol>
+          Write each of the following in logarithmic form. 
+           <ol>
             <li>
               <p>
-                <m>10^2=100</m>
+                <m>10^2=100</m>. 
+                </p>
+                <p>
+                  This is equivalent to <m>A = \log_{10} B</m> 
+                where <m>A=</m> <var name="$ans1a" width="10"/> and <m>B=</m> <var name="$ans1b" width="10"/>.
               </p>
             </li>
             <li>
               <p>
-                <m>10^2=100</m>
+                <m>144^{-0.5}=\frac{1}{12}</m>.                 
+              </p>
+                <p>
+                  This is equivalent to <m> A = \log_{144} B</m> 
+                where <m>A=</m> <var name="$ans2a" width="10"/> and <m>B=</m> <var name="$ans2b" width="10"/>.
               </p>
             </li>
             <li>
               <p>
-                <m>144^{-0.5}=\frac{1}{12}</m>
+               <m>64^{x}=4</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m> A = \log_{64} B</m> 
+                where <m>A=</m> <var name="$ans3a" width="10"/> and <m>B=</m> <var name="$ans3b" width="10"/>.
               </p>
             </li>
             <li>
               <p>
-               <m>64^{x}=4</m>
+                <m>18^0=1</m>.    
+              </p>
+                <p>
+                  This is equivalent to <m> A =\log_{18} B</m> 
+                where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/>.
               </p>
             </li>
             <li>
               <p>
-                <m>18^0=1</m>
+                <m>512^{x}=8</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m> A = \log_{512}B</m> 
+                where <m>A=</m> <var name="$ans5a" width="10"/> and <m>B=</m> <var name="$ans5b" width="10"/>.
               </p>
             </li>
-            <li>
-              <p>
-                <m>512^{x}=8</m>
-              </p>
-            </li>
-          </ol>
+          </ol> 
         </p>
       </statement>
     </webwork>
@@ -365,52 +393,58 @@ Notice that the base is <m>2</m> for both the logarithm and the exponential.
     </p>
   </aside>
 
- <exercise><title>Write in exponential form - HOMEMADE - NEED TO FINISH</title>
+ <exercise><title>Write in exponential form - HOMEMADE</title>
     <webwork>
       <pg-code>
         Context("Numeric");
-        $f = Formula("sqrt(x)");
-        $derivative = Formula("1/(2sqrt(x))");
-        Context("LimitedRadical");
-        $a = Formula("2sqrt(3)");
-        Context("LimitedNumeric");
-        $b = Real(sqrt(12));
-        Context("Interval");
-        $domain = Interval("[0,inf)");
-        Context("Point");
-        $point = Point("(4,2)");
-        Context("RestrictedDomains");
-        $restricted = Formula("x, x >= 0");
+        $ans1a = Formula("0.25");
+        $ans1b = Formula("2");   
+        $ans1c = Formula("-2"); 
+
+        $ans2a = Formula("1");
+        $ans2b = Formula("27");   
+        $ans2c = Formula("0");
+
+        $ans3a = Formula("6^x");
+        $ans3b = Formula("5");   
+       $ans3c = Formula("3x");
       </pg-code>
       <statement>
         <p>
-          Write each of the following exponential equations in logarithmic form. 
+          Write each of the following in exponential form. 
           <ol>
             <li>
               <p>
-                <m>\log_2(0.25)=-2</m>
+                <m>\log_2(0.25)=-2</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans1a" width="10"/> and <m>B=</m> <var name="$ans1b" width="10"/> and <m>C=</m> <var name="$ans1c" width="10"/>.
               </p>
             </li>
             <li>
               <p>
-                <m>\log_{27}(1)=0</m>
+                <m>\log_{27}(1)=0</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans2a" width="10"/> and <m>B=</m> <var name="$ans2b" width="10"/> and <m>C=</m> <var name="$ans2c" width="10"/>.
               </p>
             </li>
             <li>
               <p>
-                <m>\log(1000)=3</m>
+               <m>\log_5 6^x=3x</m>.               
               </p>
-            </li>
-            <li>
-              <p>
-               <m>\log_4256=4</m>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/> and <m>C=</m> <var name="$ans4c" width="10"/>.
               </p>
             </li>
           </ol>
         </p>
       </statement>
     </webwork>
-  </exercise>
+  </exercise> 
   </subsection>
 
   <subsection>
@@ -423,22 +457,25 @@ Notice that the base is <m>2</m> for both the logarithm and the exponential.
 
  <assemblage><title>Definition of <m>\ln x</m></title>
     <p>
-    The <term>natural logarithm</term> is defined as the inverse of the natural exponential function <m>y=e^x</m>. 
+    The <term>natural logarithm</term><idx>Natural logarithm</idx> is defined as the inverse of the natural exponential function <m>y=e^x</m>. 
+    The natural logrithm is denoted by <m>\ln x</m>.
     </p>
       <p>
-    Therefore, the natural logarithm is simply the logarithm with a base of <m>e</m> which is typically denoted as:
-    <md>y=\ln x</md>
+    Equivalently, the natural logarithm, <m>\ln x</m>, is simply the logarithm with a base of <m>e</m>.
+        </p>
+      <p>
     The mathematical notation <m>\ln (...)</m> is pronounced like "lawn" and the function <m>y=\ln x</m> can be read as "<m>y</m> equals `lawn' of <m>x</m>."
     </p>
       <p>
 From the definition it follows that:
       <md>
-      y = \ln x \mbox{ is the same as } y = \log_e x
+      y = \ln x \quad \mbox{ is the same as } \quad y = \log_e x
     </md>
     and because <m>y=\ln x</m> is the inverse of <m>y=e^x</m> it is true that:
     <md>
-      y = \ln x \mbox{ if and only if } x = e^y
+      y = \ln x \quad \mbox{ if and only if } \quad x = e^y
     </md>
+Also, <m>y=e^x</m> is the inverse of <m>y=\ln x</m>. (The two functions are inverses of each other.)
     </p>
   </assemblage>
 
@@ -467,116 +504,10 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
   </example>
   </subsection>
 
-  <subsection>
-    <title>Inverse Properties of Exponentials and Logarithms</title>
-      <p> 
-        We saw above that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>. There are several important facts that follow from that. 
-        Let's collect them for easy reference.
-      </p>
-
-  <aside>
-    <p>
-      <alert> Study tip: </alert>
-    </p>
-    <p>  
-      The properties listed here are important. You should know them well. Spend some time studying them if you don't know them already. 
-    </p>
-  </aside>
-
-<assemblage><title>Properties of Exponentials and Logarithms</title>
-    <p>
-    The following properties follow from the fact that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>: 
-    </p>
-    <ol>
-      <li>
-        <p>
-          <m>y=e^x</m> is the inverse of <m>y=\ln x</m>. (The two functions are inverses of each other.)
-        </p>
-      </li>
-      <li>
-        <p>
-      <men>
-      y = \ln x \mbox{ if and only if } x = e^y
-    </men>
-        </p>
-      </li>
-           <li>
-        <p>
-      <men xml:id="exp-property3">
-      \ln \left( e^x \right) = x  \mbox{ for all values of } x
-    </men>
-        </p>
-      </li>        
-      <li>
-        <p>
-    <men>
-      e^{\ln x} = x  \mbox{ for any } x /gt 0
-    </men>
-        </p>
-      </li>
-       <li>
-        <p>
-    <men>
-      \ln e = 1
-    </men>
-        </p>
-      </li>     
-        <li>
-        <p>
-    <men>
-      \ln 1 = 0 
-    </men>
-        </p>
-      </li>    
-    </ol>
-  </assemblage>
-
-
-
-      
-  <example><title>Using properties to evaluate</title>
-    <statement>
-      <p>
-       Evaluate <m>6\ln(e^{3})</m> without using a calculator. 
-      </p>
-    </statement>
-    <answer>
-      <p>
-        <me>\boxed{18}</me>
-      </p>
-      </answer>
-    <solution>
-      <p>
-        We know from <xref ref="exp-property3"/> that <m>\ln(e^{x})=x</m> so that means <m>\ln(e^{3})=3</m>. Therefore
-<md>6\ln(e^{3}) = 6 \cdot 3 = \boxed{18} </md>
-      </p>
-    </solution>
-  </example>
-
-<exercise><title>Using properties to evaluate - HOMEMADE - NEED TO FINISH </title>
-  <webwork>
-    <pg-code>
-      Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
-
-      Context()->functions->disable('All');
-      Context()->functions->enable('sqrt');
-    </pg-code>
-
-    <statement>
-      <p>
-        Add a checkpoint similar to the above example???
-      </p>
-    </statement>
-
-  </webwork>
-</exercise>
-  </subsection>
 
  <subsection><title>Graphs of Logarithmic Functions</title>
   <p> 
-   In this section, we will examine logarithms from a graphical approach by examining the key characteristics and properties of the graphs of logarithmic functions, 
+   In this part, we will examine logarithms from a graphical approach by examining the key characteristics and properties of the graphs of logarithmic functions, 
    and compare these properties to those of the graphs of exponential functions.
      </p>
 <p>
@@ -676,17 +607,85 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
 
+<exercise><title>Write in exponential form number 2- HOMEMADE - need to finish</title>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $ans1a = Formula("1000");
+       $ans1b = Formula("e");   
+        $ans1c = Formula("3"); 
+        
+        $ans2a = Formula("2x");
+        $ans2b = Formula("e");   
+        $ans2c = Formula("3^x");
 
-<exercise><title>....- HOMEMADE - NEED TO FINISH</title>
-<introduction>
-  \textcolor{blue}{\textbf{Checkpoint Idea:} Similar to above, give some expressions involving \textit{e} and get students to give its equivalent logarithmic inverse expression. 
-  Maybe we can even put a "challenging" one where we have $x^e$ which would require students to respond with $\sqrt[e]{x}$}
-</introduction>
+      <!--   $ans3a = Formula("64");
+        $ans3b = Formula("4");   
+       $ans3c = Formula("3");
+
+       $ans4a = Formula("4x^2")
+        $ans4b = Formula("e");   
+        $ans4c = Formula("e^2");
+
+        $ans5a = Formula("4");
+        $ans5b = Formula("x");      
+        $ans5c = Formula("2"); -->
+      </pg-code>
+      <statement>
+        <p>
+          Write each of the following in exponential form. 
+          <!-- <ol>
+            <li>
+              <p>
+                <m>\ln(1000)=3</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans1a" width="10"/> and <m>B=</m> <var name="$ans1b" width="10"/> and <m>C=</m> <var name="$ans1c" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>\ln (2x)=3^x</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/> and <m>C=</m> <var name="$ans4c" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>\log_4 64=3</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans5a" width="10"/> and <m>B=</m> <var name="$ans5b" width="10"/> and <m>C=</m> <var name="$ans5c" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>\ln 4x^2=e^2</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = B^{C}</m> 
+                where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/> and <m>C=</m> <var name="$ans4c" width="10"/>.
+              </p>
+            </li>
+          </ol> -->
+        </p>
+      </statement>
+    </webwork>
+  </exercise> 
+
+  <exercise>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" />
   </exercise>
 
-  ADD SOME OF MIKES SUGGESTED
+<exercise>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
+  </exercise>
 
-
+  
   </exercises>
 
 <exercises><title>Additional Exercises</title>

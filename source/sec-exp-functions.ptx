@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exp-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponential Functions and their Graphs</title>
+  <title>Exponential Functions, Definitions and Graphs</title>
 
   <objectives>
     <ul>
@@ -634,9 +634,77 @@ We will focus mostly on the cases where <m>d=0</m>.
 
   </webwork>
 </exercise>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+Remember that <m>e</m> is a real number (a constant). 
+You may see it most often as part of an exponential function such as <m>f(x)=e^x</m>, but <m>e</m> itslf is just a number. 
+
+      
+  Which of the following statements about the number <m>e</m> are true, and which are false? Try to answer all of them <alert>without using a calculator</alert>. 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m>2.5 \lt e \lt 3</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>14 \lt 7e \lt 21</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>(e^2)^3 = e^5</m>  <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>0 \lt e^3 \lt 27</m>  <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^a</m> is positive for all real numbers <m>a</m>  <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^{-1} = \frac{1}{e}</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
   </exercises>
 
-
+<!-- 
 <exercises xml:id="exercises-exp"><title>Extra Exercises - Temporarily here</title>
   <p>
     Here are some potential exercises. We can also build our own. Far from all will be useful and som may not even work. But we can include some and use some for inspiration. 
@@ -682,7 +750,7 @@ We will focus mostly on the cases where <m>d=0</m>.
         I removed number 7 temporarily because the graph causes an error. The question gives a graph and asks which function expression correponds to that graph....
       </p>
     </introduction>
-    <!-- <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions5.pg" /> -->
+     <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions5.pg" /> 
   </exercise>
 
   <exercise>
@@ -725,6 +793,11 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
 
   <exercise>
+    <introduction>
+      <p>
+        14. Used in log graphs and def.
+      </p>
+    </introduction>
     <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" />
   </exercise>
 
@@ -775,7 +848,7 @@ We will focus mostly on the cases where <m>d=0</m>.
   <exercise>
         <introduction>
       <p>
-        Used in Exponential functions and their graphs
+       21.  Used in Exponential functions and their graphs
       </p>
     </introduction>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q07.pg" />
@@ -824,7 +897,7 @@ We will focus mostly on the cases where <m>d=0</m>.
   <exercise>        
     <introduction>
       <p>
-        Used in Exponential functions and their graphs
+        32. Used in Exponential functions and their graphs
       </p>
     </introduction>
     <webwork source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" />
@@ -865,6 +938,6 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
 
 </exercises>
-
+ -->
 
 </section>
