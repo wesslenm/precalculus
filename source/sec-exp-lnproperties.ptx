@@ -7,52 +7,46 @@
     <ul>
       <li>
         <p>
-          ....
+          Use properties of logarithms and exponentials stemming from their inverse relationship
         </p>
       </li>
       <li>
         <p>
-          ....
+          Use Logarithm Laws
         </p>
       </li>
       <li>
         <p>
-          ......
+          Determine if a logarithmic statement is true or false and avoid common errors
         </p>
       </li>
       <li>
         <p>
-          ......
+          Use properties of logarithms and exponentials to rewrite expressions in different forms (as a single logarithm, or several simpler logarithms)
         </p>
       </li>
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      ....
+      Manipulating logarithms into different forms and simplifying using logarithmic properties is useful in many calculus contexts:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          ....
+          When differentiating using Logarithmic Differentiation
         </p>
       </li>
       <li>
         <p>
-        ....
+        When integrating using Partial Fractions or other integrals involving logarithms
         </p>
       </li>
       <li>
         <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
+          When solving problems involving logarithms and/or exponentials
         </p>
       </li>
     </ul>
@@ -85,7 +79,6 @@ In this section we continue working with more properties of logarithms, in parti
     <p>
     The following properties follow from the fact that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>: 
     </p>
-   
 <p>
       <men>
       y = \ln x \quad \mbox{ if and only if } \quad x = e^y
@@ -124,23 +117,37 @@ In this section we continue working with more properties of logarithms, in parti
     </solution>
   </example>
 
-<exercise><title>Using properties to evaluate - HOMEMADE - NEED TO FINISH </title>
+<exercise><title>Using properties to evaluate - HOMEMADE</title>
   <webwork>
     <pg-code>
       Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
-
-      Context()->functions->disable('All');
-      Context()->functions->enable('sqrt');
+     $ans1 = Formula("5x+2");
+    $ans2 = Formula("x^3");
+    $ans3 = Formula("3+ln(4)");
     </pg-code>
 
     <statement>
       <p>
-        Add a checkpoint similar to the above example???
+        Evaluate or simplify the following as much as possible without using a calculator.
+        <ol>
+          <li>
+            <p>
+              <m>e^{\ln(5x+2)} = </m> <var name="$ans1" width="10"/>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>e^{3\ln(x)} = </m> <var name="$ans2" width="10"/>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\ln(4e^{3}) = </m> <var name="$ans3" width="10"/>
+            </p>
+          </li>
+        </ol>
       </p>
     </statement>
-
   </webwork>
 </exercise>
   </subsection>
@@ -478,6 +485,9 @@ $popup6 = PopUp(['?','True','False'],1);
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
 
+  <exercise><title>Evaluate - FROM WEBWORK</title>
+    <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
+  </exercise> 
 
 <exercise><title>True or False? - HOMEMADE</title>
   <introduction>
@@ -614,32 +624,63 @@ $popup6 = PopUp(['?','True','False'],1);
   </webwork>
 </exercise>
 
-  <exercise>
-    <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
-  </exercise>
+<exercise><title>Using properties to evaluate - HOMEMADE</title>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+     $ans1 = Formula("(4x)^x");
+    $ans2 = Formula("x+ln(x)");
+    $ans3 = Formula("3+2x");
+    </pg-code>
 
-  <exercise>
+    <statement>
+      <p>
+        Simplify the following as much as possible without using a calculator. Assume al logarithm arguments are positive (so you do not need to worry about domains). 
+        <ol>
+          <li>
+            <p>
+              <m>e^{x\ln(4x)} = </m> <var name="$ans1" width="10"/>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\ln(xe^{x}) = </m> <var name="$ans2" width="10"/>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\ln(e^{2x}e^{3}) = </m> <var name="$ans3" width="10"/>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </webwork>
+</exercise>
+
+
+  <exercise><title>Write in terms of simpler logarithms - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg" />
   </exercise>
 
-  <exercise>
-    <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
-  </exercise> 
+  <exercise><title>Write in terms of simpler logarithms - FROM WEBWORK</title>
+    <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
+  </exercise>
 
-<exercise><title>(Challenge) Arrange by size</title>
+<exercise><title>(Challenge) Arrange by size - HOMEMADE (but idea from webwork)</title>
     <introduction>
       <p>
-        (Not rendomizable)
+        (Not randomizable)
       </p>
     </introduction>
     <webwork>
       <pg-code>
         Context("Numeric");
-        $popup1 = PopUp(['?','power','exponential','linear','quadratic'],1);
-        $popup2 = PopUp(['?','power','exponential','linear','quadratic'],1);
-        $popup3 = PopUp(['?','power','exponential','linear','quadratic'],1);
-        $popup4 = PopUp(['?','power','exponential','linear','quadratic'],1);
-        $popup5 = PopUp(['?','power','exponential','linear','quadratic'],1);
+        $popup1 = PopUp(['?','a','b','c','d','e'],2);
+        $popup2 = PopUp(['?','a','b','c','d','e'],4);
+        $popup3 = PopUp(['?','a','b','c','d','e'],1);
+        $popup4 = PopUp(['?','a','b','c','d','e'],5);
+        $popup5 = PopUp(['?','a','b','c','d','e'],3);
       </pg-code>
       <statement>
         <p>
@@ -676,12 +717,15 @@ $popup6 = PopUp(['?','True','False'],1);
          <var name="$popup1" form="popup"/>  <m>\lt</m> <var name="$popup2" form="popup"/>  <m>\lt</m> <var name="$popup3" form="popup"/>  <m>\lt</m> <var name="$popup4" form="popup"/>  <m>\lt</m> <var name="$popup5" form="popup"/>
         </p>
       </statement>
+      <hint>
+        <p>
+        Consider using Logarithm Laws, and also use the graph of <m>y=\ln x</m>. 
+        For which values of <m>x</m> is <m>\ln x</m> positive? When is it negative? 
+        Can you see from the graph which values of <m>x</m> make <m>\ln x</m> larger/smaller? 
+        </p>
+      </hint>       
     </webwork>
   </exercise>
-
-
-
-
 
   </exercises>
 

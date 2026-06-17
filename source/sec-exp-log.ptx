@@ -607,7 +607,7 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
 
-<exercise><title>Write in exponential form number 2- HOMEMADE - need to finish</title>
+<exercise><title>Write in exponential form - HOMEMADE</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -619,22 +619,20 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
         $ans2b = Formula("e");   
         $ans2c = Formula("3^x");
 
-      <!--   $ans3a = Formula("64");
+         $ans3a = Formula("64");
         $ans3b = Formula("4");   
        $ans3c = Formula("3");
 
-       $ans4a = Formula("4x^2")
-        $ans4b = Formula("e");   
-        $ans4c = Formula("e^2");
-
-        $ans5a = Formula("4");
-        $ans5b = Formula("x");      
-        $ans5c = Formula("2"); -->
+         <!-- $ans4a = Formula("x^2")
+      $ans4b = Formula("e");   
+ $ans4c = Formula("e^2");  -->
       </pg-code>
       <statement>
         <p>
           Write each of the following in exponential form. 
-          <!-- <ol>
+        </p>
+        <p>
+          <ol>
             <li>
               <p>
                 <m>\ln(1000)=3</m>.               
@@ -650,7 +648,7 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
               </p>
                 <p>
                   This is equivalent to <m>A = B^{C}</m> 
-                where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/> and <m>C=</m> <var name="$ans4c" width="10"/>.
+                where <m>A=</m> <var name="$ans2a" width="10"/> and <m>B=</m> <var name="$ans2b" width="10"/> and <m>C=</m> <var name="$ans2c" width="10"/>.
               </p>
             </li>
             <li>
@@ -659,33 +657,33 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
               </p>
                 <p>
                   This is equivalent to <m>A = B^{C}</m> 
-                where <m>A=</m> <var name="$ans5a" width="10"/> and <m>B=</m> <var name="$ans5b" width="10"/> and <m>C=</m> <var name="$ans5c" width="10"/>.
+                where <m>A=</m> <var name="$ans3a" width="10"/> and <m>B=</m> <var name="$ans3b" width="10"/> and <m>C=</m> <var name="$ans3c" width="10"/>.
               </p>
             </li>
-            <li>
+            <!-- <li>
               <p>
-               <m>\ln 4x^2=e^2</m>.               
+               <m>\ln x^2=e^2</m>.               
               </p>
                 <p>
                   This is equivalent to <m>A = B^{C}</m> 
                 where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/> and <m>C=</m> <var name="$ans4c" width="10"/>.
               </p>
-            </li>
-          </ol> -->
+            </li> -->
+          </ol> 
         </p>
       </statement>
     </webwork>
   </exercise> 
 
-  <exercise>
+  <exercise><title>Inverses - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" />
   </exercise>
 
-<exercise>
+<exercise><title>Domain - FROM WEBWORK</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
   </exercise>
 
-  
+
   </exercises>
 
 <exercises><title>Additional Exercises</title>
