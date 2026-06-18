@@ -56,6 +56,8 @@
 
 A new term: <term>radical</term> then idx to add an index item. 
 
+<url href="https://www.desmos.com/calculator/yubsxb1abl" visual="desmos.com/calculator/yubsxb1abl">Interactive Graph Activity</url>
+
 
  \amp "and" 
  \lt "less than" 
@@ -106,6 +108,7 @@ A new term: <term>radical</term> then idx to add an index item.
      		Note: If one of your answers is incorrect and the others correct, all of them will be labelled as incorrect. 
     	</p>   
 	</conclusion>
+
 
 
   <webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />

@@ -175,11 +175,26 @@ The following table compares and contrasts power functions from exponential func
 While exponential functions can have infinitely many bases, 
 there is one special exponential function that we will deal with almost exclusively in our calculus classes: The Natural Exponential Function.
   </p>
-  <p>
-<term>The Natural Exponential Function</term><idx>Natural exponential function</idx><idx>Exponential function</idx> is nothing more than an exponential function 
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Euler's Number <m>e</m> is named after Leonhard Euler<idx>Leonhard Euler</idx> (1707-1783). 
+      He also introduced the notation <m>f(x)</m> for functions.
+      Read more about the remarkable  <url href="https://euler.euclid.int/about-leonhard-euler/" visual="https://euler.euclid.int/about-leonhard-euler/">mathematian 
+       Leonhard Euler here</url>.
+    </p>
+  </aside>
+
+   <assemblage><title>The Natural Exponential Function</title>
+     <p>
+<term>The Natural Exponential Function</term><idx>Natural exponential function</idx><idx>Exponential function</idx> is an exponential function 
 whose base is the special number denoted <m>e</m>, called <term>Euler's Number</term><idx>Euler's number</idx><idx>e</idx>,  
   which is an irrational constant given by <m>e \approx 2.7182818 \ldots</m>.
   </p>
+</assemblage>
 
   <aside>
     <p>
@@ -187,9 +202,24 @@ whose base is the special number denoted <m>e</m>, called <term>Euler's Number</
     </p>
     <p>  
       You should know (memorize) a few things about the number <m>e</m>. 
-      You are expected to know that <m>e</m> is irrational, with infinitely many non-repeating decimals, and <m>e \approx 2.7</m>.
+      You are expected to know that <m>e</m> is irrational, and <m>e \approx 2.7</m>.
     </p>
   </aside>
+
+  <p>
+    <alert>Why the number <m>e</m>?</alert>
+  </p>
+  <p>
+  The base <m>e</m> is important because with this base, the slope of the exponential function at <m>x=0</m> is exactly 1. 
+  That might not sound important now, but this means that when differentiating (which we will do a lot in calculus!) 
+  this means that the derivative of <m>f(x)=e^x</m> is simpler than the derivative of any other exponential function.
+  </p>
+  <p>
+    Later (using calculus) it will be possible to prove that the number <m>e</m> (with the special slope as above) is also given by 
+    <md>
+      \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n
+    </md>
+  </p>
 
 <p>
 The natural exponential function, <m>y=e^x</m>, can be approximated by <m>y=2.718^x</m>, which can be thought of as simply an exponential function that grows 
@@ -209,12 +239,8 @@ The graph of <m>y=e^x</m> is shown in the diagram below along with the graphs of
 <p>
 As we can see, <m>y=e^x</m> is characteristically similar to any other exponential function, and should not be thought of as a fundamentally "different" function. 
   For our purposes, we should think of the natural exponential function as simply being an exponential function with a specific base, <m>e</m>. 
-  <p>
-  </p>
-  The base <m>e</m> is important because with this base, the slope of the exponential function at <m>x=0</m> is exactly 1. 
-  That might not sound important now, but this means that when differentiating (which we will do a lot in calculus!) 
-  this means that the derivative of <m>f(x)=e^x</m> is simpler than the derivative of any other exponential function.
 </p>
+
 
 <exercise><title>The Natural Exponential Function - HOMEMADE</title>
   <webwork>
@@ -273,7 +299,7 @@ As we can see, <m>y=e^x</m> is characteristically similar to any other exponenti
 </exercise>
   </subsection>
 
- <subsection><title>Characteristics of Exponential Functions</title>
+ <subsection><title>Graphs of Exponential Functions</title>
 <p>
 Just like any other type of parent function, exponential functions have a set of "default" characteristics. 
 Some of these characteristics may change based on the transformations of the function, but the standard exponential function <m>f(x)=e^x</m> has the following characteristics:
@@ -363,9 +389,7 @@ Some of these characteristics may change based on the transformations of the fun
     </webwork>
 </exercise>
 
-  </subsection>
 
-<subsection><title>Transformations of Exponential Functions</title>
 <p>
 As you may have seen in your previous sudies, any parent function, <m>y=f(x)</m> can be transformed using the following parameters:
 <md>y=af[k(x-d)]+c</md>
@@ -406,6 +430,26 @@ We will focus mostly on the cases where <m>d=0</m>.
   </exercise>
  </subsection>
 
+
+
+
+
+<subsection><title>Exponential Rules</title>
+  <p>
+We saw several exponential rules in <xref ref="sec-exp-intro"/> and they were summarized in <xref ref="exp-rules"/>. 
+We write the first three again here for easy reference, and this time we write them in terms of <m>e^x</m> because we will often need to use them in that format. 
+  </p>
+
+<assemblage xml:id="exp-rules-e"><title>Exponential Rules in terms of <m>e^x</m></title>
+	<p>
+		The following are true for all positive numbers <m>x</m> and <m>y</m>, and any real numbers <m>a</m> and <m>b</m>:
+<men>e^xe^y=e^{x+y}</men>
+<men>e^{x-y} = \frac{e^x}{e^y}</men>
+<men>(e^x)^y = e^{xy}</men>
+	</p>
+</assemblage>
+  </subsection>
+
 <exercises><title>Exercises</title>
     <p>
       Here are a mix of exercises for you to try. See also the checkpoints throughout the section above.
@@ -431,9 +475,6 @@ We will focus mostly on the cases where <m>d=0</m>.
 
   </webwork>
 </exercise> -->
-
-
-
 
     <exercise><title>Equal value for <m>a</m> - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" />
@@ -644,8 +685,6 @@ We will focus mostly on the cases where <m>d=0</m>.
   <webwork>
     <pg-code>
       Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
 $popup1 = PopUp(['?','True','False'],1);
 $popup2 = PopUp(['?','True','False'],1);
 $popup3 = PopUp(['?','True','False'],2);
@@ -702,6 +741,70 @@ You may see it most often as part of an exponential function such as <m>f(x)=e^x
     </statement>
   </webwork>
 </exercise>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>     
+  Which of the following statements are true, and which are false? 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        If <m>x \lt y</m>  then <m>e^x \lt e^y</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        There is exactly one real number <m>x</m> such that <m>e^x = -1</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>e^{x+y} = e^x+ e^y</m> for all numbers <m>x</m> and <m>y</m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>\left(e^{x}\right)^y = \left(e^{y}\right)^x</m> for all numbers <m>x</m> and <m>y</m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^{-2} = \frac{1}{e^2}</m>  <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^{0} = 0</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
+
+
   </exercises>
 
 <!-- 

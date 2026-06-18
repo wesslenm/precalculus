@@ -7,52 +7,41 @@
     <ul>
       <li>
         <p>
-          ....
+          Solve exponential equations using a variety of strategies
         </p>
       </li>
       <li>
         <p>
-          ....
+          Solve logarithmic equations using a variety of strategies
         </p>
       </li>
       <li>
         <p>
-          ......
-        </p>
-      </li>
-      <li>
-        <p>
-          ......
+          Utilize properties of inverse functions, exponential and logarithmic laws in order to solve equations. 
         </p>
       </li>
     </ul>
   </objectives>
    
-  <assemblage>
-    <title>Where will this be used in calculus?</title>
+  <assemblage><title>Where will this be used in calculus?</title>
     <p>
-      ....
+      Solving exponential and logarithmic equations can be useful when looking for some specific value, for example:
     </p>
     <p>
     <ul>
       <li>
         <p>
-          ....
+          Intersection points,
         </p>
       </li>
       <li>
         <p>
-        ....
+        Maximum/minimum points,
         </p>
       </li>
       <li>
         <p>
-          ....
-        </p>
-      </li>
-      <li>
-        <p>
-          ....
+          Points of inflection.
         </p>
       </li>
     </ul>
@@ -61,13 +50,60 @@
 
   <introduction>
     <p>    
-.... 
+With our review of fundamental characteristics of exponential and logarithmic functions under our belt, 
+we will now review how to use these characteristics to algebraically solve equations involving exponential and logarithmic expressions. 
+To do this, we will make use of the fact that exponential and logarithmic functions are inverses of each other, and thus "undo" each other's work, 
+much like radical functions undo the work of power functions. By the end of this section, we should be comfortable with algebraically solving equations 
+involving exponential and logarithmic functions, and understand what these solutions would represent graphically. 
     </p>
   </introduction>
 
   <subsection>
     <title>Section 1</title>
-  <p> Coming soon.  </p>
+  <p> 
+    As we've established, logarithms and exponential functions can "cancel each other out" since they are inverses of each other. 
+    This is a similar relationship that a radical expression shares with a power function. 
+    Observe the familiar equation below:
+<md>
+  x^3=125
+</md>
+Here, in order to solve for<m>x</m>, we would apply the inverse operation of a cube; the cube root:
+<md>
+  \sqrt[3]{x^3}=\sqrt[3]{125}
+</md>
+<md>
+  x=5
+</md>
+
+A similar argument can be made to solve exponential and logarithmic functions. 
+Consider the following exponential equation:
+<md>
+  e^x=100
+</md>
+Just like with solving any other type of equation, here, we want to apply the <alert>inverse</alert> operation to solve for <m>x</m>. 
+In the previous example, the inverse operation of a cube was a cube root. 
+In this case, the inverse operation of the natural exponential function is the <alert>natural logarithm</alert>. 
+Therefore, we will take <m>\ln</m> on both sides of the equation:
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      Remember that <m>\ln</m> is an operator, and has no actual value in and of itself. 
+      In this example, we would not say "multiply by <m>\ln</m> on both sides" as <m>\ln</m> has no numerical value on its own. 
+      The way to describe this step is to say that we "<alert>take</alert>" <m>\ln</m> on both sides. 
+      This is similar to how we would say "<alert>take</alert> the square root on both sides" rather than "multiply by square root on both sides.'' 
+    </p>
+  </aside>
+
+<md>
+  \ln(e^x)=\ln(100)
+</md>
+<md>
+  x=\ln(100)\approx4.605
+</md>  
+  </p>
   </subsection>
 
   <subsection>

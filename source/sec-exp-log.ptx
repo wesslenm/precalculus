@@ -595,6 +595,39 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
   Of course, graphs of logarithms can also be transformed (translated, stretched, compressed and reflected) just like any other type of graph. 
 </p>
 
+<exercise><title>Interactive graph activity - HOMEMADE</title>
+    <p>
+    Click the link to see an interactive graph of a dynamic logarithmic function. 
+    Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>d</m> to see how different values of these parameters change the shape of the exponential graph.
+     </p>
+  <p> 
+<url href="https://www.desmos.com/calculator/zaraotrvj4" visual="desmos.com/calculator/zaraotrvj4">Interactive Graph Activity</url>
+  </p>
+  <p>
+  <ol>
+    <li>
+      <p>
+        First move the slider for <m>a</m> without changing the other sliders. What do you notice? Can you describe how the graph changes? 
+        Is there a difference if <m>a</m> is positive, negative or <m>0</m>?
+      </p>
+    </li>
+        <li>
+      <p>
+        Now keep <m>a</m> and <m>d</m> fixed while sliding <m>k</m>. 
+        How does it affect the graph? 
+        Are there different "cases" (groups of values of <m>k</m> that have different effect)?
+      </p>
+    </li>
+        <li>
+      <p>
+        Now keep <m>a</m> and <m>k</m> fixed while sliding <m>d</m>. 
+        How does it affect the graph? Is this what you expected?
+      </p>
+    </li>
+  </ol>
+  </p>
+</exercise>
+
   <exercise><title>A transformed logarithmic function - FROM WEBWORK</title>
      <webwork source="Library/Wiley/setAnton_Section_0.5/Question32a.pg" />
   </exercise>
@@ -675,6 +708,61 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
     </webwork>
   </exercise> 
 
+<exercise><title>Write in logarithmic form - HOMEMADE</title>
+    <webwork>
+      <pg-code>
+        Context("Numeric");
+        $ans1a = Formula("7x");
+       $ans1b = Formula("e");   
+        $ans1c = Formula("56"); 
+        
+        $ans2a = Formula("x-5");
+        $ans2b = Formula("3");   
+        $ans2c = Formula("17");
+
+         $ans3a = Formula("2x");
+        $ans3b = Formula("5");   
+       $ans3c = Formula("4x");
+      </pg-code>
+      <statement>
+        <p>
+          Write each of the following in logarithmic form. 
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>e^{7x}=56</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = \log{B}(C)</m> 
+                where <m>A=</m> <var name="$ans1a" width="10"/> and <m>B=</m> <var name="$ans1b" width="10"/> and <m>C=</m> <var name="$ans1c" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>3^{x-5}=17</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = \log{B}(C)</m> 
+                where <m>A=</m> <var name="$ans2a" width="10"/> and <m>B=</m> <var name="$ans2b" width="10"/> and <m>C=</m> <var name="$ans2c" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>4x=5^{2x}</m>.               
+              </p>
+                <p>
+                  This is equivalent to <m>A = \log{B}(C)</m> 
+                where <m>A=</m> <var name="$ans3a" width="10"/> and <m>B=</m> <var name="$ans3b" width="10"/> and <m>C=</m> <var name="$ans3c" width="10"/>.
+              </p>
+            </li>
+          </ol> 
+        </p>
+      </statement>
+    </webwork>
+  </exercise> 
+
   <exercise><title>Inverses - FROM WEBWORK</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" />
   </exercise>
@@ -682,6 +770,59 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
 <exercise><title>Domain - FROM WEBWORK</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
   </exercise>
+
+  <exercise><title>Function characteristics - HOMEMADE - need to finish</title>
+    <introduction>
+      <image source="images/log1" width="70%">
+  </image>
+    </introduction>
+
+  <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        Context("Interval");
+        $domain = Interval("(-inf,inf)");
+        Context("Interval");
+        $range = Interval("(-inf,3)");
+        Context("Point");
+        $intercept = Point("(0,2)");
+        Context("LimitedNumeric");
+        $va = Real(3);
+      </pg-code>
+      <statement>
+        <p>
+          The graph of a logarithmic function is given above. Answer the following questions about that graph. 
+          <ol>
+             <li>
+              <p>
+                What is the domain of the function, in interval notation? <var name="$domain" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the range of the function, in interval notation? <var name="$range" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the <m>x</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the equation of the vertical asymptote? The vertical asymptote is <m>x=</m> <var name="$va" width="10"/>. (Enter a single number.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+</exercise>
+
+
+
+
 
 
   </exercises>
@@ -691,6 +832,56 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
- 
+   <exercise><title>Function characteristics - HOMEMADE - need to finish</title>
+    <introduction>
+      <image source="images/log1" width="70%">
+  </image>
+    </introduction>
+
+  <webwork>
+      <pg-code>
+        Context("Numeric");
+        $f = Formula("sqrt(x)");
+        Context("Interval");
+        $domain = Interval("(-inf,inf)");
+        Context("Interval");
+        $range = Interval("(-inf,3)");
+        Context("Point");
+        $intercept = Point("(0,2)");
+        Context("LimitedNumeric");
+        $va = Real(3);
+      </pg-code>
+      <statement>
+        <p>
+          The graph of a logarithmic function is given above. Answer the following questions about that graph. 
+          <ol>
+             <li>
+              <p>
+                What is the domain of the function, in interval notation? <var name="$domain" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the range of the function, in interval notation? <var name="$range" width="10"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the <m>x</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the equation of the vertical asymptote? The vertical asymptote is <m>x=</m> <var name="$va" width="10"/>. (Enter a single number.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </webwork>
+</exercise>
+
+
+
   </exercises> 
 </section>
