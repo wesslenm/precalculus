@@ -486,6 +486,138 @@ We write the first three again here for easy reference, and this time we write t
       Here are a mix of exercises for you to try. See also the checkpoints throughout the section above.
     </p>
 
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>
+Remember that <m>e</m> is a real number (a constant). 
+You may see it most often as part of an exponential function such as <m>f(x)=e^x</m>, but <m>e</m> itslf is just a number. 
+
+      
+  Which of the following statements about the number <m>e</m> are true, and which are false? Try to answer all of them <alert>without using a calculator</alert>. 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        <m>2.5 \lt e \lt 3</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>14 \lt 7e \lt 21</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>(e^2)^3 = e^5</m>  <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>0 \lt e^3 \lt 27</m>  <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^a</m> is positive for all real numbers <m>a</m>  <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^{-1} = \frac{1}{e}</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
+
+<exercise><title>True or False? - HOMEMADE</title>
+  <introduction>
+    <p>
+      (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],2);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+    </pg-code>
+
+    <statement>
+       <p>     
+  Which of the following statements are true, and which are false? 
+      </p>
+<p>
+  <ol>
+    <li>
+      <p>
+        If <m>x \lt y</m>  then <m>e^x \lt e^y</m> <var name="$popup1" form="popup"/>
+      </p>
+    </li>
+    <li>
+      <p>
+        There is exactly one real number <m>x</m> such that <m>e^x = -1</m> <var name="$popup2" form="popup"/>
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>e^{x+y} = e^x+ e^y</m> for all numbers <m>x</m> and <m>y</m> <var name="$popup3" form="popup"/> 
+      </p>
+    </li>
+        <li>
+      <p>
+        <m>\left(e^{x}\right)^y = \left(e^{y}\right)^x</m> for all numbers <m>x</m> and <m>y</m> <var name="$popup4" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^{-2} = \frac{1}{e^2}</m>  <var name="$popup5" form="popup"/> 
+      </p>
+    </li>
+    <li>
+      <p>
+        <m>e^{0} = 0</m> <var name="$popup6" form="popup"/> 
+      </p>
+    </li>
+  </ol>
+</p>
+    </statement>
+  </webwork>
+</exercise>
+
+
+
+
 <!-- <exercise><title>The number <m>e</m> - HOMEMADE</title>
   <webwork>
     <pg-code>
@@ -704,134 +836,6 @@ We write the first three again here for easy reference, and this time we write t
         </p>
     </statement>
 
-  </webwork>
-</exercise>
-
-<exercise><title>True or False? - HOMEMADE</title>
-  <introduction>
-    <p>
-      (Not randomizable)
-    </p>
-  </introduction>
-  <webwork>
-    <pg-code>
-      Context("Numeric");
-$popup1 = PopUp(['?','True','False'],1);
-$popup2 = PopUp(['?','True','False'],1);
-$popup3 = PopUp(['?','True','False'],2);
-$popup4 = PopUp(['?','True','False'],1);
-$popup5 = PopUp(['?','True','False'],1);
-$popup6 = PopUp(['?','True','False'],1);
-
-      Context()->functions->disable('All');
-      Context()->functions->enable('sqrt');
-    </pg-code>
-
-    <statement>
-       <p>
-Remember that <m>e</m> is a real number (a constant). 
-You may see it most often as part of an exponential function such as <m>f(x)=e^x</m>, but <m>e</m> itslf is just a number. 
-
-      
-  Which of the following statements about the number <m>e</m> are true, and which are false? Try to answer all of them <alert>without using a calculator</alert>. 
-      </p>
-<p>
-  <ol>
-    <li>
-      <p>
-        <m>2.5 \lt e \lt 3</m> <var name="$popup1" form="popup"/>
-      </p>
-    </li>
-    <li>
-      <p>
-        <m>14 \lt 7e \lt 21</m> <var name="$popup2" form="popup"/>
-      </p>
-    </li>
-        <li>
-      <p>
-        <m>(e^2)^3 = e^5</m>  <var name="$popup3" form="popup"/> 
-      </p>
-    </li>
-        <li>
-      <p>
-        <m>0 \lt e^3 \lt 27</m>  <var name="$popup4" form="popup"/> 
-      </p>
-    </li>
-    <li>
-      <p>
-        <m>e^a</m> is positive for all real numbers <m>a</m>  <var name="$popup5" form="popup"/> 
-      </p>
-    </li>
-    <li>
-      <p>
-        <m>e^{-1} = \frac{1}{e}</m> <var name="$popup6" form="popup"/> 
-      </p>
-    </li>
-  </ol>
-</p>
-    </statement>
-  </webwork>
-</exercise>
-
-<exercise><title>True or False? - HOMEMADE</title>
-  <introduction>
-    <p>
-      (Not randomizable)
-    </p>
-  </introduction>
-  <webwork>
-    <pg-code>
-      Context("Numeric");
-$popup1 = PopUp(['?','True','False'],1);
-$popup2 = PopUp(['?','True','False'],2);
-$popup3 = PopUp(['?','True','False'],2);
-$popup4 = PopUp(['?','True','False'],1);
-$popup5 = PopUp(['?','True','False'],1);
-$popup6 = PopUp(['?','True','False'],2);
-
-      Context()->functions->disable('All');
-      Context()->functions->enable('sqrt');
-    </pg-code>
-
-    <statement>
-       <p>     
-  Which of the following statements are true, and which are false? 
-      </p>
-<p>
-  <ol>
-    <li>
-      <p>
-        If <m>x \lt y</m>  then <m>e^x \lt e^y</m> <var name="$popup1" form="popup"/>
-      </p>
-    </li>
-    <li>
-      <p>
-        There is exactly one real number <m>x</m> such that <m>e^x = -1</m> <var name="$popup2" form="popup"/>
-      </p>
-    </li>
-        <li>
-      <p>
-        <m>e^{x+y} = e^x+ e^y</m> for all numbers <m>x</m> and <m>y</m> <var name="$popup3" form="popup"/> 
-      </p>
-    </li>
-        <li>
-      <p>
-        <m>\left(e^{x}\right)^y = \left(e^{y}\right)^x</m> for all numbers <m>x</m> and <m>y</m> <var name="$popup4" form="popup"/> 
-      </p>
-    </li>
-    <li>
-      <p>
-        <m>e^{-2} = \frac{1}{e^2}</m>  <var name="$popup5" form="popup"/> 
-      </p>
-    </li>
-    <li>
-      <p>
-        <m>e^{0} = 0</m> <var name="$popup6" form="popup"/> 
-      </p>
-    </li>
-  </ol>
-</p>
-    </statement>
   </webwork>
 </exercise>
 

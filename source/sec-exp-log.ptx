@@ -533,13 +533,13 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
 
     <figure>
   <caption>Graph of <m>y=e^x</m>.</caption>
-  <image source="images/exp8" width="70%">
+  <image source="images/exp8" width="60%">
   </image>
 </figure>
 
     <figure>
   <caption>Graph of <m>y=\ln x</m>.</caption>
-  <image source="images/exp9" width="70%">
+  <image source="images/exp9" width="50%">
   </image>
 </figure>
 
