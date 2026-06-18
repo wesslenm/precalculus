@@ -183,14 +183,14 @@ there is one special exponential function that we will deal with almost exclusiv
     <p>  
       Euler's Number <m>e</m> is named after Leonhard Euler<idx>Leonhard Euler</idx> (1707-1783). 
       He also introduced the notation <m>f(x)</m> for functions.
-      Read more about the remarkable  <url href="https://euler.euclid.int/about-leonhard-euler/" visual="https://euler.euclid.int/about-leonhard-euler/">mathematian 
+       <url href="https://euler.euclid.int/about-leonhard-euler/" visual="https://euler.euclid.int/about-leonhard-euler/">Read more about the remarkable mathematian 
        Leonhard Euler here</url>.
     </p>
   </aside>
 
    <assemblage><title>The Natural Exponential Function</title>
      <p>
-<term>The Natural Exponential Function</term><idx>Natural exponential function</idx><idx>Exponential function</idx> is an exponential function 
+<term>The Natural Exponential Function</term><idx>Natural exponential function</idx><idx>Exponential function</idx> <m>f(x)=e^x</m> is an exponential function 
 whose base is the special number denoted <m>e</m>, called <term>Euler's Number</term><idx>Euler's number</idx><idx>e</idx>,  
   which is an irrational constant given by <m>e \approx 2.7182818 \ldots</m>.
   </p>
@@ -220,6 +220,37 @@ whose base is the special number denoted <m>e</m>, called <term>Euler's Number</
       \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n
     </md>
   </p>
+
+<exercise><title>Activity - HOMEMADE</title>
+    <p>
+    Click the link to see an interactive graph. 
+     </p>
+  <p> 
+<url href="https://www.desmos.com/calculator/xgqzogfkgn" visual="https://www.desmos.com/calculator/xgqzogfkgn">Activity</url>
+  </p>
+  <p>
+    Use the slider to change the value of <m>b</m>. Notice that the slope of the curve at <m>x=0</m> changes when you change <m>b</m>. 
+  </p> 
+    <p>
+    There is exactly ONE value of <m>b</m> such that the slope at <m>x=0</m> is exactly <m>1</m>. 
+    Try to find that value of <m>b</m> (the value of <m>b</m> such that the angle of the dotted line is 45 degrees). 
+    What number do you find, approximately?
+  </p> 
+
+  <answer>
+    <p>
+      It's difficult to see the precise angle of a line just from a graph. 
+      But hopefully you can agree that there is ONE value of <m>b</m> for each value of the slope, and ONE
+      value of <m>b</m> such that the slope at <m>x=0</m> is exactly <m>1</m>. 
+      <p>
+      </p>
+      It looks like that value is close to <m>b=2.7</m> (but again, it's difficult to see the precise value just from a graph). 
+      It can be proved by non-graphical methods that the value is <m>2.718281828459045... = e</m>.
+    </p>
+  </answer>
+</exercise>
+
+
 
 <p>
 The natural exponential function, <m>y=e^x</m>, can be approximated by <m>y=2.718^x</m>, which can be thought of as simply an exponential function that grows 
