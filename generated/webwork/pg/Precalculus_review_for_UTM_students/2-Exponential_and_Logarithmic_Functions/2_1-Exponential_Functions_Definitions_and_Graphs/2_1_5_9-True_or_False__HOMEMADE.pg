@@ -1,6 +1,6 @@
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-17T20:18:53Z       
+###       on 2026-06-18T00:47:08Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -44,8 +44,6 @@ TEXT(beginproblem());
 # PG Setup Code
 ############################################################
       Context("Numeric");
-      $a = random(3,6,1);
-      $ans = Compute("$a*x^($a-1)");
 $popup1 = PopUp(['?','True','False'],1);
 $popup2 = PopUp(['?','True','False'],1);
 $popup3 = PopUp(['?','True','False'],2);

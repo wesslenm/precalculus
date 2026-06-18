@@ -1,0 +1,69 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T00:47:08Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.27)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+ $ans1 = Formula("5x+2");
+$ans2 = Formula("x^3");
+$ans3 = Formula("3+ln(4)");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate or simplify the following as much as possible without using a calculator.
+a.  [`e^{\ln(5x+2)} = `] [_]{$ans1}{10}
+
+a.  [`e^{3\ln(x)} = `] [_]{$ans2}{10}
+
+a.  [`\ln(4e^{3}) = `] [_]{$ans3}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

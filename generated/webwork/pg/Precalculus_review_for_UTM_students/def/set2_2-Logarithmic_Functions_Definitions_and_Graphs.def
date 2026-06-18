@@ -1,6 +1,6 @@
-openDate          = 06/17/2026 at 12:00am
-dueDate           = 12/17/2026 at 10:00pm
-answerDate        = 12/17/2026 at 10:00pm
+openDate          = 06/18/2026 at 12:00am
+dueDate           = 12/18/2026 at 10:00pm
+answerDate        = 12/18/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_2-Logarithmic_Functions_Definitions_and_Graphs.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_2-Logarithmic_Functions_Definitions_and_Graphs.pg
 description       = Logarithmic Functions, Definitions and Graphs
@@ -19,5 +19,5 @@ problem_id = 19
 problem_end
 problem_start
 source_file = Library/Wiley/setAnton_Section_0.5/Question32a.pg
-problem_id = 24
+problem_id = 25
 problem_end

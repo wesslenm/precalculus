@@ -1,6 +1,6 @@
-openDate          = 06/17/2026 at 12:00am
-dueDate           = 12/17/2026 at 10:00pm
-answerDate        = 12/17/2026 at 10:00pm
+openDate          = 06/18/2026 at 12:00am
+dueDate           = 12/18/2026 at 10:00pm
+answerDate        = 12/18/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_1-Exponential_Functions_Definitions_and_Graphs_Exercises.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_1-Exponential_Functions_Definitions_and_Graphs_Exercises.pg
 description       = Exponential Functions, Definitions and Graphs
@@ -40,4 +40,8 @@ problem_end
 problem_start
 source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_9-True_or_False__HOMEMADE.pg
 problem_id = 9
+problem_end
+problem_start
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_10-True_or_False__HOMEMADE.pg
+problem_id = 10
 problem_end

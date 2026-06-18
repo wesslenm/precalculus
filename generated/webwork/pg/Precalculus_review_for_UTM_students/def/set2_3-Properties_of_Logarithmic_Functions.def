@@ -1,19 +1,19 @@
-openDate          = 06/17/2026 at 12:00am
-dueDate           = 12/17/2026 at 10:00pm
-answerDate        = 12/17/2026 at 10:00pm
+openDate          = 06/18/2026 at 12:00am
+dueDate           = 12/18/2026 at 10:00pm
+answerDate        = 12/18/2026 at 10:00pm
 paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_3-Properties_of_Logarithmic_Functions.pg
 screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_3-Properties_of_Logarithmic_Functions.pg
 description       = Properties of Logarithmic Functions
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_26-Using_properties_to_evaluate__HOMEMADE.pg
-problem_id = 26
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_27-Using_properties_to_evaluate__HOMEMADE.pg
+problem_id = 27
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_28-True_or_False__HOMEMADE.pg
-problem_id = 28
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_29-True_or_False__HOMEMADE.pg
+problem_id = 29
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_30-Write_as_one_logarithm__HOMEMADE.pg
-problem_id = 30
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_31-Write_as_one_logarithm__HOMEMADE.pg
+problem_id = 31
 problem_end
