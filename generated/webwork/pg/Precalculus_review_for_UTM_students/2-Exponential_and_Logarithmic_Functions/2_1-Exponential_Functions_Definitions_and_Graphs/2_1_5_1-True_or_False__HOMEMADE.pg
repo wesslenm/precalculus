@@ -1,0 +1,82 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:25Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+$popup1 = PopUp(['?','True','False'],1);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],1);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Remember that [`e`] is a real number (a constant). You may see it most often as part of an exponential function such as [`f(x)=e^x\text{,}`] but [`e`] itslf is just a number. Which of the following statements about the number [`e`] are true, and which are false? Try to answer all of them *without using a calculator*.
+
+a.  [`\newcommand{\lt}{<}2.5 \lt e \lt 3`] [_]{$popup1}{5}
+
+a.  [`\newcommand{\lt}{<}14 \lt 7e \lt 21`] [_]{$popup2}{5}
+
+a.  [`(e^2)^3 = e^5`]  [_]{$popup3}{5}
+
+a.  [`\newcommand{\lt}{<}0 \lt e^3 \lt 27`]  [_]{$popup4}{5}
+
+a.  [`e^a`] is positive for all real numbers [`a`]  [_]{$popup5}{5}
+
+a.  [`e^{-1} = \frac{1}{e}`] [_]{$popup6}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

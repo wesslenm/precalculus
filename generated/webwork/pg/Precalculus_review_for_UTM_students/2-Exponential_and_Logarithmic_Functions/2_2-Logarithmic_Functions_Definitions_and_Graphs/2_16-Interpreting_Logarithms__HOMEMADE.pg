@@ -1,0 +1,71 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:25Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.16)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+  $ans1 = Real(5);
+Context("LimitedNumeric");
+  $ans2 = Real(3);
+Context("LimitedNumeric");
+  $ans3 = Real(12);
+Context("LimitedNumeric");
+  $ans4 = Real(144);
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  [` \log_{5}(3)`] is read out as ``log base [_]{$ans1}{6}, of [_]{$ans2}{6}''
+
+a.  [` \log_{12}(144)`] is read out as ``log base [_]{$ans3}{6}, of [_]{$ans4}{6}''
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();

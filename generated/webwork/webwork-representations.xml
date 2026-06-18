@@ -1562,7 +1562,7 @@ and express your answer in the simplest radical form <m>A+ B \sqrt[3]{C},</m> wh
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1696,7 +1696,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1794,7 +1794,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1896,7 +1896,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -1997,7 +1997,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2113,7 +2113,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2261,7 +2261,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2411,7 +2411,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2585,7 +2585,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2746,7 +2746,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -2956,7 +2956,7 @@ Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters=
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3072,7 +3072,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3158,10 +3158,10 @@ ENDDOCUMENT();
       <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
 <p>Which function has the largest value for <m>a</m>? <var form="popup">
 <li>
-<p>D</p>
+<p>?</p>
 </li>
 <li>
-<p>C</p>
+<p>D</p>
 </li>
 <li>
 <p>A</p>
@@ -3170,7 +3170,7 @@ ENDDOCUMENT();
 <p>B</p>
 </li>
 <li>
-<p>?</p>
+<p>C</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-84-image-1.png" width="66%"/>
@@ -3198,16 +3198,16 @@ Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-inte
 <p>?</p>
 </li>
 <li>
-<p>D</p>
-</li>
-<li>
-<p>A</p>
+<p>C</p>
 </li>
 <li>
 <p>B</p>
 </li>
 <li>
-<p>C</p>
+<p>A</p>
+</li>
+<li>
+<p>D</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-85-image-1.png" width="66%"/>
@@ -3333,11 +3333,11 @@ The function with the smallest <m>b</m> should be the one that is decreasing the
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_8-The_Natural_Exponential_Function__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_9-The_Natural_Exponential_Function__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3353,7 +3353,7 @@ The function with the smallest <m>b</m> should be the one that is decreasing the
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.8)
+## Problem1(2.9)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -3465,11 +3465,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_10-Function_characteristics__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_11-Function_characteristics__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -3485,7 +3485,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.10)
+## Problem1(2.11)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -3667,650 +3667,7 @@ All other statements are false.
     <pg source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-91" ww-id="webwork-91">
-    <static seed="91" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg">
-      <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em> A</em>, <em> B</em>, <em> C</em>, and <em> D</em>, can all be written in the form <m>y=ab^t</m>.</p>
-<p>Which two functions have the same value for <m>a</m>?
-<var form="popup">
-<li>
-<p>?</p>
-</li>
-<li>
-<p>CD</p>
-</li>
-<li>
-<p>AD</p>
-</li>
-<li>
-<p>AC</p>
-</li>
-<li>
-<p>AB</p>
-</li>
-<li>
-<p>BD</p>
-</li>
-<li>
-<p>BC</p>
-</li>
-</var></p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-91-image-1.png" width="66%"/>
-<p>(click on image to enlarge)</p>
-</statement>
-      <solution><alert>  SOLUTION </alert>
-
-
-
-Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-intercept.  Thus, the two functions with the same <em> y</em>-intercept, are A and C.
-
-
-
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-92" ww-id="webwork-92">
-    <static seed="92" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg">
-      <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
-<p>Which function has the largest value for <m>b</m>?
-<var form="popup">
-<li>
-<p>D</p>
-</li>
-<li>
-<p>C</p>
-</li>
-<li>
-<p>B</p>
-</li>
-<li>
-<p>A</p>
-</li>
-<li>
-<p>?</p>
-</li>
-</var></p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-92-image-1.png" width="66%"/>
-<p>(Click on graph to enlarge)</p>
-</statement>
-      <solution><alert>  SOLUTION </alert>
-
-
-
-The function with the largest <m>b</m> should be the one that is increasing the fastest.  We note that <em> B </em> increases faster than the others, so <em> B </em> has the largest <m>b</m>.
-
-
-
-
-
-</solution>
-    </static>
-    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-93" ww-id="webwork-93">
-    <static seed="93" source="Library/ma112DB/set9/sw6_2_5.pg">
-      <statement><p>The graph of the function 
-<m>f(x)=e^{-x}-3</m>
-can be obtained from the graph of
-<m>g(x)=e^x</m>
-by two of the following actions:</p>
-<p>(a) reflecting the graph of <m>g(x)</m> in the <m>y</m>-axis;</p>
-<p>(b) reflecting the graph of <m>g(x)</m> in the <m>x</m>-axis;</p>
-<p>(c) shifting the graph of <m>g(x)</m> to the right 3 units;</p>
-<p>(d) shifting the graph of <m>g(x)</m> to the left 3 units;</p>
-<p>(e) shifting the graph of <m>g(x)</m> upward 3 units;</p>
-<p>(f) shifting the graph of <m>g(x)</m> downward 3 units;</p>
-<p>Your answer: Apply the action
-<fillin characters="15" name="first_ans"/> (input a, b, c, d, e, or f) then apply the action <fillin characters="15" name="AnSwEr0001"/></p>
-<p><alert>
-(please give your answer in the order the changes are applied, e.g. a first, then b second) 
-</alert></p>
-<p>The range of the function <m>f(x)</m> is <m>f(x) &gt; A</m>, find <m>A</m>.</p>
-<p>The value of <m>A</m> is <fillin characters="15" name="AnSwEr0002"/></p>
-<p>Is the domain  of the function <m>f(x)</m> still <m>(-\infty,\infty)</m>?</p>
-<p>Your answer is (input Yes or No) <fillin characters="15" name="AnSwEr0003"/></p>
-</statement>
-      <answer>
-        <p>a</p>
-      </answer>
-      <answer>
-        <p>
-          <m>-3</m>
-        </p>
-      </answer>
-      <answer>
-        <p>Yes</p>
-      </answer>
-      <answer>
-        <p>f</p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/ma112DB/set9/sw6_2_5.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/ma112DB/set9/sw6_2_5.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-94" ww-id="webwork-94">
-    <static seed="94" source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg">
-      <statement><p>Find the domain of each function. If the answer is all real numbers, enter "r" below.</p>
-<p>(a) <m>f(x)=\frac{1}{1+e^x}</m></p>
-<p>(b) <m>f(x)=\frac{1}{1-e^x}</m></p>
-<p>(a) <m>x =</m> <fillin characters="50" name="AnSwEr0001"/></p>
-<p>(b) <m>x \neq</m> <fillin characters="50" name="AnSwEr0002"/></p>
-</statement>
-      <answer>
-        <p>
-          <m>r</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>0</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data sourceFilePath="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg"/>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-95" ww-id="webwork-95">
-    <static seed="95">
-      <statement><p>The graph of an exponential function is given above. Answer the following questions about that graph.
-<ol label="a.">
-<li>
-<p>What is the domain of the function, in interval notation? <fillin characters="10" name="AnSwEr0001"/>.</p>
-</li>
-<li>
-<p>What is the range of the function, in interval notation? <fillin characters="10" name="AnSwEr0002"/>.</p>
-</li>
-<li>
-<p>What is the <m>y</m>-intercept of the function? <fillin characters="10" name="AnSwEr0003"/>. (Enter your answer in point form, for example <m>(3,5)\text{.}</m>)</p>
-</li>
-<li>
-<p>What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <fillin characters="10" name="AnSwEr0004"/>. (Enter a single number.)</p>
-</li>
-</ol></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left(-\infty ,\infty \right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\left(-\infty ,3\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\left(0,2\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>3</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_5-Function_characteristics__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(2.1.5.5)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "contextForm.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("Numeric");
-$f = Formula("sqrt(x)");
-Context("Interval");
-$domain = Interval("(-inf,inf)");
-Context("Interval");
-$range = Interval("(-inf,3)");
-Context("Point");
-$intercept = Point("(0,2)");
-Context("LimitedNumeric");
-$ha = Real(3);
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-The graph of an exponential function is given above. Answer the following questions about that graph.
-a.  What is the domain of the function, in interval notation? [_]{$domain}{10}.
-
-a.  What is the range of the function, in interval notation? [_]{$range}{10}.
-
-a.  What is the [`y`]-intercept of the function? [_]{$intercept}{10}. (Enter your answer in point form, for example [`(3,5)\text{.}`])
-
-a.  What is the equation of the horizontal asymptote? The horizontal asymptote is [`y=`] [_]{$ha}{10}. (Enter a single number.)
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-96" ww-id="webwork-96">
-    <static seed="96">
-      <statement><p>The graph of an exponential function is given above. Answer the following questions about that graph.
-<ol label="a.">
-<li>
-<p>What is the domain of the function, in interval notation? <fillin characters="10" name="AnSwEr0001"/>.</p>
-</li>
-<li>
-<p>What is the range of the function, in interval notation? <fillin characters="10" name="AnSwEr0002"/>.</p>
-</li>
-<li>
-<p>What is the <m>y</m>-intercept of the function? <fillin characters="10" name="AnSwEr0003"/>. (Enter your answer in point form, for example <m>(3,5)\text{.}</m>)</p>
-</li>
-<li>
-<p>What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <fillin characters="10" name="AnSwEr0004"/>. (Enter a single number.)</p>
-</li>
-</ol></p>
-</statement>
-      <answer>
-        <p>
-          <m>\left(-\infty ,\infty \right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\left(-\infty ,5\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>\left(0,4\right)</m>
-        </p>
-      </answer>
-      <answer>
-        <p>
-          <m>5</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_6-Function_characteristics__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(2.1.5.6)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "contextForm.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("Numeric");
-$f = Formula("sqrt(x)");
-Context("Interval");
-$domain = Interval("(-inf,inf)");
-Context("Interval");
-$range = Interval("(-inf,5)");
-Context("Point");
-$intercept = Point("(0,4)");
-Context("LimitedNumeric");
-$ha = Real(5);
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-The graph of an exponential function is given above. Answer the following questions about that graph.
-a.  What is the domain of the function, in interval notation? [_]{$domain}{10}.
-
-a.  What is the range of the function, in interval notation? [_]{$range}{10}.
-
-a.  What is the [`y`]-intercept of the function? [_]{$intercept}{10}. (Enter your answer in point form, for example [`(3,5)\text{.}`])
-
-a.  What is the equation of the horizontal asymptote? The horizontal asymptote is [`y=`] [_]{$ha}{10}. (Enter a single number.)
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-97" ww-id="webwork-97">
-    <static seed="97">
-      <statement><p>Which of the following could be the function in the graph above?</p>
-<p><me>f(x)= 2 e^x</me></p>
-<p><me>g(x)= e^x+3</me></p>
-<p><me>h(x)= 2 e^{-x} +3</me></p>
-<p><me>P(x)= -3 e^{-x} +6</me></p>
-<p><me>Q(x)= \frac{1}{2} e^{-x} +3</me></p>
-<p><me>R(x)= \frac{1}{2} e^{x} +6</me></p>
-<p>Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.</p>
-<p><ul form="buttons" name="AnSwEr0001">
-<li>
-<p>Function f</p>
-</li>
-<li>
-<p>Function g</p>
-</li>
-<li>
-<p>Function h</p>
-</li>
-<li>
-<p>Function P</p>
-</li>
-<li>
-<p>Function Q</p>
-</li>
-<li>
-<p>Function R</p>
-</li>
-</ul></p>
-</statement>
-      <answer>
-        <p>
-          <m>\text{Function Q}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_7-Function_Expression__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(2.1.5.7)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "parserRadioButtons.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("Numeric");
-  $radio = RadioButtons([
-    'Function f',
-    'Function g',
-    'Function h',
-    'Function P',
-    'Function Q',
-    'Function R',
-  ],4);
-
-Context()->functions->disable('All');
-Context()->functions->enable('sqrt');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Which of the following could be the function in the graph above?
-
-[``` f(x)= 2 e^x ```]
-
-[``` g(x)= e^x+3 ```]
-
-[``` h(x)= 2 e^{-x} +3```]
-
-[``` P(x)= -3 e^{-x} +6 ```]
-
-[``` Q(x)= \frac{1}{2} e^{-x} +3 ```]
-
-[``` R(x)= \frac{1}{2} e^{x} +6 ```]
-
-Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.
-
-[_]{$radio}{5}
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-98" ww-id="webwork-98">
-    <static seed="98">
-      <statement><p>Which of the following could be the function in the graph above?</p>
-<p><me>f(x)= e^x -2</me></p>
-<p><me>g(x)= -e^x+1</me></p>
-<p><me>h(x)= 2 e^{-x} -2</me></p>
-<p><me>P(x)= 3 e^{x} -2</me></p>
-<p><me>Q(x)= \frac{1}{3} e^{x} -2</me></p>
-<p><me>R(x)= -\frac{1}{3} e^{x} +2</me></p>
-<p>Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.</p>
-<p><ul form="buttons" name="AnSwEr0001">
-<li>
-<p>Function f</p>
-</li>
-<li>
-<p>Function g</p>
-</li>
-<li>
-<p>Function h</p>
-</li>
-<li>
-<p>Function P</p>
-</li>
-<li>
-<p>Function Q</p>
-</li>
-<li>
-<p>Function R</p>
-</li>
-</ul></p>
-</statement>
-      <answer>
-        <p>
-          <m>\text{Function P}</m>
-        </p>
-      </answer>
-    </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_8-Function_Expression__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-    <pg><![CDATA[
-#############################################
-###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
-###   A recent stable commit (2022-07-01):   
-### 6c761d3dba23af92cba35001c852aac04ae99a5f 
-###                                          
-###         https://pretextbook.org          
-###                                          
-#############################################
-## DBsubject()
-## DBchapter()
-## DBsection()
-## Level()
-## KEYWORDS()
-## TitleText1()
-## EditionText1()
-## AuthorText1()
-## Section1(not reported)
-## Problem1(2.1.5.8)
-## Author()
-## Institution()
-## Language(en-US)
-
-DOCUMENT();
-
-############################################################
-# Load Macros
-############################################################
-loadMacros(
-  "PGstandard.pl",
-  "PGML.pl",
-  "AnswerFormatHelp.pl",
-  "parserRadioButtons.pl",
-  "PGcourse.pl",
-);
-COMMENT('Authored in PreTeXt');
-
-############################################################
-# Header
-############################################################
-TEXT(beginproblem());
-
-############################################################
-# PG Setup Code
-############################################################
-Context("Numeric");
-  $radio = RadioButtons([
-    'Function f',
-    'Function g',
-    'Function h',
-    'Function P',
-    'Function Q',
-    'Function R',
-  ],3);
-
-Context()->functions->disable('All');
-Context()->functions->enable('sqrt');
-
-############################################################
-# Body
-############################################################
-
-BEGIN_PGML
-Which of the following could be the function in the graph above?
-
-[``` f(x)= e^x -2 ```]
-
-[``` g(x)= -e^x+1 ```]
-
-[``` h(x)= 2 e^{-x} -2```]
-
-[``` P(x)= 3 e^{x} -2 ```]
-
-[``` Q(x)= \frac{1}{3} e^{x} -2```]
-
-[``` R(x)= -\frac{1}{3} e^{x} +2 ```]
-
-Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.
-
-[_]{$radio}{5}
-
-END_PGML
-
-############################################################
-# End Problem
-############################################################
-
-ENDDOCUMENT();
-]]></pg>
-  </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-99" ww-id="webwork-99">
-    <static seed="99">
+    <static seed="91">
       <statement><p>Remember that <m>e</m> is a real number (a constant). You may see it most often as part of an exponential function such as <m>f(x)=e^x\text{,}</m> but <m>e</m> itslf is just a number. Which of the following statements about the number <m>e</m> are true, and which are false? Try to answer all of them <alert>without using a calculator</alert>.</p>
 <p><ol label="a.">
 <li>
@@ -4400,11 +3757,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_9-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_1-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4420,7 +3777,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.1.5.9)
+## Problem1(2.1.5.1)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4486,8 +3843,8 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
-  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-100" ww-id="webwork-100">
-    <static seed="100">
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-92" ww-id="webwork-92">
+    <static seed="92">
       <statement><p>Which of the following statements are true, and which are false?</p>
 <p><ol label="a.">
 <li>
@@ -4577,11 +3934,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_10-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_2-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4597,7 +3954,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.1.5.10)
+## Problem1(2.1.5.2)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4663,6 +4020,649 @@ END_PGML
 ENDDOCUMENT();
 ]]></pg>
   </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-93" ww-id="webwork-93">
+    <static seed="93" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg">
+      <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em> A</em>, <em> B</em>, <em> C</em>, and <em> D</em>, can all be written in the form <m>y=ab^t</m>.</p>
+<p>Which two functions have the same value for <m>a</m>?
+<var form="popup">
+<li>
+<p>BC</p>
+</li>
+<li>
+<p>AB</p>
+</li>
+<li>
+<p>BD</p>
+</li>
+<li>
+<p>AC</p>
+</li>
+<li>
+<p>CD</p>
+</li>
+<li>
+<p>AD</p>
+</li>
+<li>
+<p>?</p>
+</li>
+</var></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-93-image-1.png" width="66%"/>
+<p>(click on image to enlarge)</p>
+</statement>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-intercept.  Thus, the two functions with the same <em> y</em>-intercept, are B and D.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-94" ww-id="webwork-94">
+    <static seed="94" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg">
+      <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
+<p>Which function has the largest value for <m>b</m>?
+<var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>D</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>A</p>
+</li>
+<li>
+<p>C</p>
+</li>
+</var></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-94-image-1.png" width="66%"/>
+<p>(Click on graph to enlarge)</p>
+</statement>
+      <solution><alert>  SOLUTION </alert>
+
+
+
+The function with the largest <m>b</m> should be the one that is increasing the fastest.  We note that <em> C </em> increases faster than the others, so <em> C </em> has the largest <m>b</m>.
+
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-95" ww-id="webwork-95">
+    <static seed="95" source="Library/ma112DB/set9/sw6_2_5.pg">
+      <statement><p>The graph of the function 
+<m>f(x)=e^{-x}-5</m>
+can be obtained from the graph of
+<m>g(x)=e^x</m>
+by two of the following actions:</p>
+<p>(a) reflecting the graph of <m>g(x)</m> in the <m>y</m>-axis;</p>
+<p>(b) reflecting the graph of <m>g(x)</m> in the <m>x</m>-axis;</p>
+<p>(c) shifting the graph of <m>g(x)</m> to the right 5 units;</p>
+<p>(d) shifting the graph of <m>g(x)</m> to the left 5 units;</p>
+<p>(e) shifting the graph of <m>g(x)</m> upward 5 units;</p>
+<p>(f) shifting the graph of <m>g(x)</m> downward 5 units;</p>
+<p>Your answer: Apply the action
+<fillin characters="15" name="first_ans"/> (input a, b, c, d, e, or f) then apply the action <fillin characters="15" name="AnSwEr0001"/></p>
+<p><alert>
+(please give your answer in the order the changes are applied, e.g. a first, then b second) 
+</alert></p>
+<p>The range of the function <m>f(x)</m> is <m>f(x) &gt; A</m>, find <m>A</m>.</p>
+<p>The value of <m>A</m> is <fillin characters="15" name="AnSwEr0002"/></p>
+<p>Is the domain  of the function <m>f(x)</m> still <m>(-\infty,\infty)</m>?</p>
+<p>Your answer is (input Yes or No) <fillin characters="15" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>a</p>
+      </answer>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>Yes</p>
+      </answer>
+      <answer>
+        <p>f</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma112DB/set9/sw6_2_5.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma112DB/set9/sw6_2_5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-96" ww-id="webwork-96">
+    <static seed="96" source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg">
+      <statement><p>Find the domain of each function. If the answer is all real numbers, enter "r" below.</p>
+<p>(a) <m>f(x)=\frac{1}{1+e^x}</m></p>
+<p>(b) <m>f(x)=\frac{1}{1-e^x}</m></p>
+<p>(a) <m>x =</m> <fillin characters="50" name="AnSwEr0001"/></p>
+<p>(b) <m>x \neq</m> <fillin characters="50" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>r</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-97" ww-id="webwork-97">
+    <static seed="97">
+      <statement><p>The graph of an exponential function is given above. Answer the following questions about that graph.
+<ol label="a.">
+<li>
+<p>What is the domain of the function, in interval notation? <fillin characters="10" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p>What is the range of the function, in interval notation? <fillin characters="10" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p>What is the <m>y</m>-intercept of the function? <fillin characters="10" name="AnSwEr0003"/>. (Enter your answer in point form, for example <m>(3,5)\text{.}</m>)</p>
+</li>
+<li>
+<p>What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <fillin characters="10" name="AnSwEr0004"/>. (Enter a single number.)</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(-\infty ,\infty \right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(-\infty ,3\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(0,2\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_7-Function_characteristics__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:23Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$f = Formula("sqrt(x)");
+Context("Interval");
+$domain = Interval("(-inf,inf)");
+Context("Interval");
+$range = Interval("(-inf,3)");
+Context("Point");
+$intercept = Point("(0,2)");
+Context("LimitedNumeric");
+$ha = Real(3);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The graph of an exponential function is given above. Answer the following questions about that graph.
+a.  What is the domain of the function, in interval notation? [_]{$domain}{10}.
+
+a.  What is the range of the function, in interval notation? [_]{$range}{10}.
+
+a.  What is the [`y`]-intercept of the function? [_]{$intercept}{10}. (Enter your answer in point form, for example [`(3,5)\text{.}`])
+
+a.  What is the equation of the horizontal asymptote? The horizontal asymptote is [`y=`] [_]{$ha}{10}. (Enter a single number.)
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-98" ww-id="webwork-98">
+    <static seed="98">
+      <statement><p>The graph of an exponential function is given above. Answer the following questions about that graph.
+<ol label="a.">
+<li>
+<p>What is the domain of the function, in interval notation? <fillin characters="10" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p>What is the range of the function, in interval notation? <fillin characters="10" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p>What is the <m>y</m>-intercept of the function? <fillin characters="10" name="AnSwEr0003"/>. (Enter your answer in point form, for example <m>(3,5)\text{.}</m>)</p>
+</li>
+<li>
+<p>What is the equation of the horizontal asymptote? The horizontal asymptote is <m>y=</m> <fillin characters="10" name="AnSwEr0004"/>. (Enter a single number.)</p>
+</li>
+</ol></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(-\infty ,\infty \right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(-\infty ,5\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(0,4\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_8-Function_characteristics__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:23Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$f = Formula("sqrt(x)");
+Context("Interval");
+$domain = Interval("(-inf,inf)");
+Context("Interval");
+$range = Interval("(-inf,5)");
+Context("Point");
+$intercept = Point("(0,4)");
+Context("LimitedNumeric");
+$ha = Real(5);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The graph of an exponential function is given above. Answer the following questions about that graph.
+a.  What is the domain of the function, in interval notation? [_]{$domain}{10}.
+
+a.  What is the range of the function, in interval notation? [_]{$range}{10}.
+
+a.  What is the [`y`]-intercept of the function? [_]{$intercept}{10}. (Enter your answer in point form, for example [`(3,5)\text{.}`])
+
+a.  What is the equation of the horizontal asymptote? The horizontal asymptote is [`y=`] [_]{$ha}{10}. (Enter a single number.)
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-99" ww-id="webwork-99">
+    <static seed="99">
+      <statement><p>Which of the following could be the function in the graph above?</p>
+<p><me>f(x)= 2 e^x</me></p>
+<p><me>g(x)= e^x+3</me></p>
+<p><me>h(x)= 2 e^{-x} +3</me></p>
+<p><me>P(x)= -3 e^{-x} +6</me></p>
+<p><me>Q(x)= \frac{1}{2} e^{-x} +3</me></p>
+<p><me>R(x)= \frac{1}{2} e^{x} +6</me></p>
+<p>Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.</p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>Function f</p>
+</li>
+<li>
+<p>Function g</p>
+</li>
+<li>
+<p>Function h</p>
+</li>
+<li>
+<p>Function P</p>
+</li>
+<li>
+<p>Function Q</p>
+</li>
+<li>
+<p>Function R</p>
+</li>
+</ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Function Q}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_9-Function_Expression__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:23Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+  $radio = RadioButtons([
+    'Function f',
+    'Function g',
+    'Function h',
+    'Function P',
+    'Function Q',
+    'Function R',
+  ],4);
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following could be the function in the graph above?
+
+[``` f(x)= 2 e^x ```]
+
+[``` g(x)= e^x+3 ```]
+
+[``` h(x)= 2 e^{-x} +3```]
+
+[``` P(x)= -3 e^{-x} +6 ```]
+
+[``` Q(x)= \frac{1}{2} e^{-x} +3 ```]
+
+[``` R(x)= \frac{1}{2} e^{x} +6 ```]
+
+Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.
+
+[_]{$radio}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-100" ww-id="webwork-100">
+    <static seed="100">
+      <statement><p>Which of the following could be the function in the graph above?</p>
+<p><me>f(x)= e^x -2</me></p>
+<p><me>g(x)= -e^x+1</me></p>
+<p><me>h(x)= 2 e^{-x} -2</me></p>
+<p><me>P(x)= 3 e^{x} -2</me></p>
+<p><me>Q(x)= \frac{1}{3} e^{x} -2</me></p>
+<p><me>R(x)= -\frac{1}{3} e^{x} +2</me></p>
+<p>Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.</p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>Function f</p>
+</li>
+<li>
+<p>Function g</p>
+</li>
+<li>
+<p>Function h</p>
+</li>
+<li>
+<p>Function P</p>
+</li>
+<li>
+<p>Function Q</p>
+</li>
+<li>
+<p>Function R</p>
+</li>
+</ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Function P}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_10-Function_Expression__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:23Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+  $radio = RadioButtons([
+    'Function f',
+    'Function g',
+    'Function h',
+    'Function P',
+    'Function Q',
+    'Function R',
+  ],3);
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following could be the function in the graph above?
+
+[``` f(x)= e^x -2 ```]
+
+[``` g(x)= -e^x+1 ```]
+
+[``` h(x)= 2 e^{-x} -2```]
+
+[``` P(x)= 3 e^{x} -2 ```]
+
+[``` Q(x)= \frac{1}{3} e^{x} -2```]
+
+[``` R(x)= -\frac{1}{3} e^{x} +2 ```]
+
+Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.
+
+[_]{$radio}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-101" ww-id="webwork-101">
     <static seed="101">
       <statement><p><ol label="a.">
@@ -4695,11 +4695,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_15-Interpreting_Logarithms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_16-Interpreting_Logarithms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4715,7 +4715,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.15)
+## Problem1(2.16)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -4847,11 +4847,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_17-Write_in_logarithmic_form__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_18-Write_in_logarithmic_form__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -4867,7 +4867,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.17)
+## Problem1(2.18)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5015,11 +5015,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_19-Write_in_exponential_form__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_20-Write_in_exponential_form__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5035,7 +5035,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.19)
+## Problem1(2.20)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5250,7 +5250,7 @@ line <m>\small{x = 5}</m>. This is shown by the graph at (d).
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5402,7 +5402,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5597,7 +5597,7 @@ exactly for <m>x</m>.</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5717,7 +5717,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5825,11 +5825,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_27-Using_properties_to_evaluate__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_28-Using_properties_to_evaluate__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -5845,7 +5845,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.27)
+## Problem1(2.28)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -5990,11 +5990,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_29-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_30-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6010,7 +6010,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.29)
+## Problem1(2.30)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6119,11 +6119,11 @@ ENDDOCUMENT();
         </p>
       </answer>
     </static>
-    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_31-Write_as_one_logarithm__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_32-Write_as_one_logarithm__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6139,7 +6139,7 @@ ENDDOCUMENT();
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.31)
+## Problem1(2.32)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -6324,7 +6324,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6506,7 +6506,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6627,7 +6627,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -6925,7 +6925,7 @@ in a form with no logarithm of a product, quotient or power.</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7507,7 +7507,7 @@ correct to four decimal places.</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -7792,7 +7792,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8065,7 +8065,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8207,7 +8207,7 @@ Plug into the definition:</p>
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8474,7 +8474,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8601,7 +8601,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8763,7 +8763,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -8854,7 +8854,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9023,7 +9023,7 @@ Note:  Use a negative for a shift to the left.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9145,7 +9145,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9262,7 +9262,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:06Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9506,7 +9506,13 @@ Thus, the horizontal shift is  <m>-\frac{11}{4}</m>.
 <p>Which graph below A-E matches your sketch?
 <var form="popup">
 <li>
-<p>B</p>
+<p>C</p>
+</li>
+<li>
+<p>E</p>
+</li>
+<li>
+<p>A</p>
 </li>
 <li>
 <p>D</p>
@@ -9515,13 +9521,7 @@ Thus, the horizontal shift is  <m>-\frac{11}{4}</m>.
 <p>Choose</p>
 </li>
 <li>
-<p>C</p>
-</li>
-<li>
-<p>E</p>
-</li>
-<li>
-<p>A</p>
+<p>B</p>
 </li>
 </var></p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
@@ -9659,7 +9659,7 @@ This appears to be a periodic function.  It repeats regularly with period 1.
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9767,7 +9767,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9875,7 +9875,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -9983,7 +9983,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10096,7 +10096,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10214,7 +10214,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10314,7 +10314,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10391,7 +10391,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10510,7 +10510,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10662,7 +10662,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10763,7 +10763,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10859,7 +10859,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -10949,7 +10949,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11073,7 +11073,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11153,7 +11153,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11233,7 +11233,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11343,7 +11343,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11453,7 +11453,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11587,7 +11587,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11687,7 +11687,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11774,7 +11774,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11856,7 +11856,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -11949,7 +11949,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12034,7 +12034,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12177,7 +12177,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12328,7 +12328,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12499,7 +12499,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12618,7 +12618,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12706,7 +12706,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12788,7 +12788,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12869,7 +12869,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -12951,7 +12951,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13033,7 +13033,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13128,7 +13128,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13212,7 +13212,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13348,7 +13348,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13460,7 +13460,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13629,7 +13629,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13748,7 +13748,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13836,7 +13836,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -13946,7 +13946,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14036,7 +14036,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14118,7 +14118,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14200,7 +14200,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14282,7 +14282,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14364,7 +14364,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14446,7 +14446,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14528,7 +14528,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14610,7 +14610,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14692,7 +14692,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14774,7 +14774,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14856,7 +14856,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -14938,7 +14938,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15020,7 +15020,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15176,7 +15176,7 @@ The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15260,7 +15260,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15344,7 +15344,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15428,7 +15428,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15512,7 +15512,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15596,7 +15596,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15680,7 +15680,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15764,7 +15764,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15848,7 +15848,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -15932,7 +15932,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16016,7 +16016,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16100,7 +16100,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16184,7 +16184,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16266,7 +16266,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16350,7 +16350,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16434,7 +16434,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16518,7 +16518,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16602,7 +16602,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16686,7 +16686,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16770,7 +16770,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16854,7 +16854,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -16936,7 +16936,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17018,7 +17018,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17227,7 +17227,7 @@ Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \g
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17302,7 +17302,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17396,7 +17396,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17570,7 +17570,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17763,7 +17763,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          
@@ -17901,7 +17901,7 @@ ENDDOCUMENT();
     <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
-###       on 2026-06-18T00:47:07Z       
+###       on 2026-06-18T03:08:23Z       
 ###   A recent stable commit (2022-07-01):   
 ### 6c761d3dba23af92cba35001c852aac04ae99a5f 
 ###                                          

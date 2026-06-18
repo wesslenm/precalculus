@@ -1,0 +1,100 @@
+#############################################
+###       Generated from PreTeXt source      
+###       on 2026-06-18T03:08:25Z       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.18)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextLimitedRadical.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+    Context("LimitedRadical");
+    $ans1a = Formula("2");
+Context("LimitedRadical");
+    $ans1b = Formula("100");
+              Context("Numeric");
+    $ans2a = Formula("-0.5");
+             Context("Numeric");
+    $ans2b = Formula("1/12");        
+    Context("LimitedRadical");
+    $ans3b = Formula("4");
+    Context("Numeric");
+    $ans3a = Formula("x");      
+    Context("LimitedRadical");
+    $ans4b = Formula("1");
+    Context("LimitedRadical");
+    $ans4a = Formula("0");
+    Context("LimitedRadical");
+    $ans5b = Formula("8");
+    Context("Numeric");
+    $ans5a = Formula("x");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each of the following in logarithmic form.
+a.  [`10^2=100\text{.}`]
+
+    This is equivalent to [`A = \log_{10} B`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10}.
+
+a.  [`144^{-0.5}=\frac{1}{12}\text{.}`]
+
+    This is equivalent to [` A = \log_{144} B`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10}.
+
+a.  [`64^{x}=4\text{.}`]
+
+    This is equivalent to [` A = \log_{64} B`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10}.
+
+a.  [`18^0=1\text{.}`]
+
+    This is equivalent to [` A =\log_{18} B`] where [`A=`] [_]{$ans4a}{10} and [`B=`] [_]{$ans4b}{10}.
+
+a.  [`512^{x}=8\text{.}`]
+
+    This is equivalent to [` A = \log_{512}B`] where [`A=`] [_]{$ans5a}{10} and [`B=`] [_]{$ans5b}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
