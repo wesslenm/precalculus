@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Exponential Functions, Definitions and Graphs",
-  "body": " Exponential Functions, Definitions and Graphs     Recognize an exponential function and distinguish it from a polynomial \/ power function    Identify if an exponential function is modelling exponential growth or exponential decay based on its graph and\/or equation    Identify fundamental characteristics of exponential functions.    Compare and contrast characteristics of exponential functions with those of polynomial functions.    Describe transformations of exponential functions.    Describe how transformations of exponential functions change the properties and characteristics (such as the horizontal asymptote and end behaviours) of the transformed function.    Define the number and the natural exponential function .     Where will this be used in calculus?     Exponential functions are an important family of functions that are used throughout calculus to illustrate calculus related concepts and to practice computations.    Exponential functions are solutions to many types of differential equations that model the rate of changing quantities such as population growth, the spread of infectious diseases, and the cooling of a liquid.    Exponential functions are used to model the growth of an investment due to compound interest.       In , we reviewed some fundamental exponent laws and learned how to re-write mathematical expressions involving exponents. While this gives us a strong understanding of exponential calculations, we will now start looking at properties and characteristics of the exponential function, which is often used in mathematical models to describe rapid growth or decay. A defining characteristic of exponential functions is that they change at a rate that is directly proportional to the amount of the quantity that is currently present.   What is an Exponential Function?  An exponential function Exponential function is any function in the form where and . Here, we call the parameter the base Base of an exponential function of the function, which determines the type of exponential relationship that is being modelled:    Study tip:   Note that we are focusing on where either , or . If then which does not have graphs similar to those seen here. (What is the graph of ?)   Exponential Growth   Exponential Growth. If the function illustrates exponential growth , which can be used to model quantities that increase rapidly over time. The graph above is an example of a graph of where .     Exponential Decay   Exponential Decay. If the function illustrates exponential decay , which can be used to model quantities that shrink exponentially over time. The graph above is an example of a graph of where .     Interactive graph activity - HOMEMADE  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   What do you notice when ?  What do you notice for different values of ? Can you determine different \"cases\" for ? (Are there different groups of values of a that behave differently?)   Exponential graphs - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    C    A    B     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .       Exponential graphs - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that D decreases faster than the others, so D has the smallest .       Exponential functions have numerical bases with variable exponents. It is important to not confuse this with power functions, which are functions of the form . The following table compares and contrasts power functions from exponential functions:    Power Function  Exponential Function                Which are exponential? - FROM WEBWORK   In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and\/or dividing constants.     Are the functions given below exponential functions?                             Euler's Number and The Natural Exponential Function  While exponential functions can have infinitely many bases, there is one special exponential function that we will deal with almost exclusively in our calculus classes: The Natural Exponential Function.    Study tip:   Euler's Number is named after Leonhard Euler Leonhard Euler (1707-1783). He also introduced the notation for functions. Read more about the remarkable mathematian Leonhard Euler here .   The Natural Exponential Function   The Natural Exponential Function Natural exponential function Exponential function is an exponential function whose base is the special number denoted , called Euler's Number Euler's number e , which is an irrational constant given by .     Study tip:   You should know (memorize) a few things about the number . You are expected to know that is irrational, and .    Why the number ?   The base is important because with this base, the slope of the exponential function at is exactly 1. That might not sound important now, but this means that when differentiating (which we will do a lot in calculus!) this means that the derivative of is simpler than the derivative of any other exponential function.  Later (using calculus) it will be possible to prove that the number (with the special slope as above) is also given by   The natural exponential function, , can be approximated by , which can be thought of as simply an exponential function that grows faster than but not quite as fast as The graph of is shown in the diagram below along with the graphs of and .  Exponential Function  Exponential Function The graph of is shown here, along with the graphs of and . Notice that all three functions intersect the -axis at the same value, .     As we can see, is characteristically similar to any other exponential function, and should not be thought of as a fundamentally \"different\" function. For our purposes, we should think of the natural exponential function as simply being an exponential function with a specific base, .  The Natural Exponential Function - HOMEMADE      What is special about the function compared to other exponential functions?    It is the largest exponential function.    It is the smallest exponential function.    Its slope at x=0 is exactly 1.    Its derivative is 0.      Are the following statements true or false?  is an example of an exponential function.  True   False     True   False   The graph of looks very different from graphs of other exponential functions.  True   False   is an important exponential function because it is easy to differentiate.  True   False                                     Graphs of Exponential Functions  Just like any other type of parent function, exponential functions have a set of \"default\" characteristics. Some of these characteristics may change based on the transformations of the function, but the standard exponential function has the following characteristics:    Domain:     Range:     Horizontal asymptote:     Vertical asymptote:  None    -intercept:  None    -intercept:     Exponential Function  The graph here is an example of a graph of where . This graph has the characteristics listed above.     Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                              As you may have seen in your previous sudies, any parent function, can be transformed using the following parameters:   Applying these parameters to the natural exponential function, we obtain the general equation for a transformed exponential function:   We will focus mostly on the cases where .  Interactive graph activity - HOMEMADE  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters , and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?   Transformations of exponential functions - FROM WEBWORK    The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes        Transformations of exponential functions - FROM WEBWORK      Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.        Exponential Rules  We saw several exponential rules in and they were summarized in . We write the first three again here for easy reference, and this time we write them in terms of because we will often need to use them in that format.  Exponential Rules in terms of  The following are true for all positive numbers and , and any real numbers and :       Exercises  Here are a mix of exercises for you to try. See also the checkpoints throughout the section above.   Equal value for - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   CD    AD    AC    AB    BD    BC     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are A and C.       Largest value for - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    C    B    A     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that B increases faster than the others, so B has the largest .       Transformations - FROM WEBWORK    The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 3 units;  (d) shifting the graph of to the left 3 units;  (e) shifting the graph of upward 3 units;  (f) shifting the graph of downward 3 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f        Domain - FROM WEBWORK    Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                   Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                              Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                              Function Expression - HOMEMADE        Which of the following could be the function in the graph above?        Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.    Function f    Function g    Function h    Function P    Function Q    Function R               Function Expression - HOMEMADE        Which of the following could be the function in the graph above?        Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.    Function f    Function g    Function h    Function P    Function Q    Function R               True or False? - HOMEMADE   (Not randomizable)     Remember that is a real number (a constant). You may see it most often as part of an exponential function such as but itslf is just a number. Which of the following statements about the number are true, and which are false? Try to answer all of them without using a calculator .      True   False       True   False       True   False       True   False     is positive for all real numbers   True   False       True   False                                         True or False? - HOMEMADE   (Not randomizable)     Which of the following statements are true, and which are false?    If then   True   False     There is exactly one real number such that   True   False     for all numbers and   True   False     for all numbers and   True   False       True   False       True   False                                           "
+  "body": " Exponential Functions, Definitions and Graphs     Recognize an exponential function and distinguish it from a polynomial \/ power function    Identify if an exponential function is modelling exponential growth or exponential decay based on its graph and\/or equation    Identify fundamental characteristics of exponential functions.    Compare and contrast characteristics of exponential functions with those of polynomial functions.    Describe transformations of exponential functions.    Describe how transformations of exponential functions change the properties and characteristics (such as the horizontal asymptote and end behaviours) of the transformed function.    Define the number and the natural exponential function .     Where will this be used in calculus?     Exponential functions are an important family of functions that are used throughout calculus to illustrate calculus related concepts and to practice computations.    Exponential functions are solutions to many types of differential equations that model the rate of changing quantities such as population growth, the spread of infectious diseases, and the cooling of a liquid.    Exponential functions are used to model the growth of an investment due to compound interest.       In , we reviewed some fundamental exponent laws and learned how to re-write mathematical expressions involving exponents. While this gives us a strong understanding of exponential calculations, we will now start looking at properties and characteristics of the exponential function, which is often used in mathematical models to describe rapid growth or decay. A defining characteristic of exponential functions is that they change at a rate that is directly proportional to the amount of the quantity that is currently present.   What is an Exponential Function?  An exponential function Exponential function is any function in the form where and . Here, we call the parameter the base Base of an exponential function of the function, which determines the type of exponential relationship that is being modelled:    Study tip:   Note that we are focusing on where either , or . If then which does not have graphs similar to those seen here. (What is the graph of ?)   Exponential Growth   Exponential Growth. If the function illustrates exponential growth , which can be used to model quantities that increase rapidly over time. The graph above is an example of a graph of where .     Exponential Decay   Exponential Decay. If the function illustrates exponential decay , which can be used to model quantities that shrink exponentially over time. The graph above is an example of a graph of where .     Interactive graph activity - HOMEMADE  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   What do you notice when ?  What do you notice for different values of ? Can you determine different \"cases\" for ? (Are there different groups of values of a that behave differently?)   Exponential graphs - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    C    A    B     (Click on graph to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the function with the greatest -intercept, , has the largest .       Exponential graphs - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the smallest value for ?   D    A    B    C     (Click on graph to enlarge)   SOLUTION The function with the smallest should be the one that is decreasing the fastest. We note that D decreases faster than the others, so D has the smallest .       Exponential functions have numerical bases with variable exponents. It is important to not confuse this with power functions, which are functions of the form . The following table compares and contrasts power functions from exponential functions:    Power Function  Exponential Function                Which are exponential? - FROM WEBWORK   In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and\/or dividing constants.     Are the functions given below exponential functions?                             Euler's Number and The Natural Exponential Function  While exponential functions can have infinitely many bases, there is one special exponential function that we will deal with almost exclusively in our calculus classes: The Natural Exponential Function.    Study tip:   Euler's Number is named after Leonhard Euler Leonhard Euler (1707-1783). He also introduced the notation for functions. Read more about the remarkable mathematian Leonhard Euler here .   The Natural Exponential Function   The Natural Exponential Function Natural exponential function Exponential function  is an exponential function whose base is the special number denoted , called Euler's Number Euler's number e , which is an irrational constant given by .     Study tip:   You should know (memorize) a few things about the number . You are expected to know that is irrational, and .    Why the number ?   The base is important because with this base, the slope of the exponential function at is exactly 1. That might not sound important now, but this means that when differentiating (which we will do a lot in calculus!) this means that the derivative of is simpler than the derivative of any other exponential function.  Later (using calculus) it will be possible to prove that the number (with the special slope as above) is also given by   Activity - HOMEMADE  Click the link to see an interactive graph.   Activity   Use the slider to change the value of . Notice that the slope of the curve at changes when you change .  There is exactly ONE value of such that the slope at is exactly . Try to find that value of (the value of such that the angle of the dotted line is 45 degrees). What number do you find, approximately?   It's difficult to see the precise angle of a line just from a graph. But hopefully you can agree that there is ONE value of for each value of the slope, and ONE value of such that the slope at is exactly .  It looks like that value is close to (but again, it's difficult to see the precise value just from a graph). It can be proved by non-graphical methods that the value is .    The natural exponential function, , can be approximated by , which can be thought of as simply an exponential function that grows faster than but not quite as fast as The graph of is shown in the diagram below along with the graphs of and .  Exponential Function  Exponential Function The graph of is shown here, along with the graphs of and . Notice that all three functions intersect the -axis at the same value, .     As we can see, is characteristically similar to any other exponential function, and should not be thought of as a fundamentally \"different\" function. For our purposes, we should think of the natural exponential function as simply being an exponential function with a specific base, .  The Natural Exponential Function - HOMEMADE      What is special about the function compared to other exponential functions?    It is the largest exponential function.    It is the smallest exponential function.    Its slope at x=0 is exactly 1.    Its derivative is 0.      Are the following statements true or false?  is an example of an exponential function.  True   False     True   False   The graph of looks very different from graphs of other exponential functions.  True   False   is an important exponential function because it is easy to differentiate.  True   False                                     Graphs of Exponential Functions  Just like any other type of parent function, exponential functions have a set of \"default\" characteristics. Some of these characteristics may change based on the transformations of the function, but the standard exponential function has the following characteristics:    Domain:     Range:     Horizontal asymptote:     Vertical asymptote:  None    -intercept:  None    -intercept:     Exponential Function  The graph here is an example of a graph of where . This graph has the characteristics listed above.     Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                              As you may have seen in your previous sudies, any parent function, can be transformed using the following parameters:   Applying these parameters to the natural exponential function, we obtain the general equation for a transformed exponential function:   We will focus mostly on the cases where .  Interactive graph activity - HOMEMADE  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters , and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?   Transformations of exponential functions - FROM WEBWORK    The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes        Transformations of exponential functions - FROM WEBWORK      Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.        Exponential Rules  We saw several exponential rules in and they were summarized in . We write the first three again here for easy reference, and this time we write them in terms of because we will often need to use them in that format.  Exponential Rules in terms of  The following are true for all positive numbers and , and any real numbers and :       Exercises  Here are a mix of exercises for you to try. See also the checkpoints throughout the section above.   Equal value for - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A , B , C , and D , can all be written in the form .  Which two functions have the same value for ?   CD    AD    AC    AB    BD    BC     (click on image to enlarge)   SOLUTION Since when in , is the -intercept. Thus, the two functions with the same y -intercept, are A and C.       Largest value for - FROM WEBWORK    Consider the four functions graphed in the figure below, and assume the equations for A, B, C, and D can all be written in the form .  Which function has the largest value for ?   D    C    B    A     (Click on graph to enlarge)   SOLUTION The function with the largest should be the one that is increasing the fastest. We note that B increases faster than the others, so B has the largest .       Transformations - FROM WEBWORK    The graph of the function can be obtained from the graph of by two of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  (c) shifting the graph of to the right 3 units;  (d) shifting the graph of to the left 3 units;  (e) shifting the graph of upward 3 units;  (f) shifting the graph of downward 3 units;  Your answer: Apply the action (input a, b, c, d, e, or f) then apply the action  (please give your answer in the order the changes are applied, e.g. a first, then b second)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    a         Yes    f        Domain - FROM WEBWORK    Find the domain of each function. If the answer is all real numbers, enter \"r\" below.  (a)  (b)  (a)   (b)                   Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                              Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                              Function Expression - HOMEMADE        Which of the following could be the function in the graph above?        Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.    Function f    Function g    Function h    Function P    Function Q    Function R               Function Expression - HOMEMADE        Which of the following could be the function in the graph above?        Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.    Function f    Function g    Function h    Function P    Function Q    Function R               True or False? - HOMEMADE   (Not randomizable)     Remember that is a real number (a constant). You may see it most often as part of an exponential function such as but itslf is just a number. Which of the following statements about the number are true, and which are false? Try to answer all of them without using a calculator .      True   False       True   False       True   False       True   False     is positive for all real numbers   True   False       True   False                                         True or False? - HOMEMADE   (Not randomizable)     Which of the following statements are true, and which are false?    If then   True   False     There is exactly one real number such that   True   False     for all numbers and   True   False     for all numbers and   True   False       True   False       True   False                                           "
 },
 {
   "id": "sec-exp-functions-2",
@@ -1180,20 +1180,29 @@ var ptx_lunr_docs = [
   "body": "The Natural Exponential Function Euler's Number "
 },
 {
-  "id": "sec-exp-functions-6-10",
+  "id": "sec-exp-functions-6-9",
   "level": "2",
-  "url": "sec-exp-functions.html#sec-exp-functions-6-10",
-  "type": "Figure",
+  "url": "sec-exp-functions.html#sec-exp-functions-6-9",
+  "type": "Checkpoint",
   "number": "2.7",
+  "title": "Activity - HOMEMADE.",
+  "body": "Activity - HOMEMADE  Click the link to see an interactive graph.   Activity   Use the slider to change the value of . Notice that the slope of the curve at changes when you change .  There is exactly ONE value of such that the slope at is exactly . Try to find that value of (the value of such that the angle of the dotted line is 45 degrees). What number do you find, approximately?   It's difficult to see the precise angle of a line just from a graph. But hopefully you can agree that there is ONE value of for each value of the slope, and ONE value of such that the slope at is exactly .  It looks like that value is close to (but again, it's difficult to see the precise value just from a graph). It can be proved by non-graphical methods that the value is .   "
+},
+{
+  "id": "sec-exp-functions-6-11",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-6-11",
+  "type": "Figure",
+  "number": "2.8",
   "title": "Exponential Function",
   "body": "Exponential Function  Exponential Function The graph of is shown here, along with the graphs of and . Notice that all three functions intersect the -axis at the same value, .    "
 },
 {
-  "id": "sec-exp-functions-6-12",
+  "id": "sec-exp-functions-6-13",
   "level": "2",
-  "url": "sec-exp-functions.html#sec-exp-functions-6-12",
+  "url": "sec-exp-functions.html#sec-exp-functions-6-13",
   "type": "Checkpoint",
-  "number": "2.8",
+  "number": "2.9",
   "title": "The Natural Exponential Function - HOMEMADE.",
   "body": "The Natural Exponential Function - HOMEMADE      What is special about the function compared to other exponential functions?    It is the largest exponential function.    It is the smallest exponential function.    Its slope at x=0 is exactly 1.    Its derivative is 0.      Are the following statements true or false?  is an example of an exponential function.  True   False     True   False   The graph of looks very different from graphs of other exponential functions.  True   False   is an important exponential function because it is easy to differentiate.  True   False                                   "
 },
@@ -1202,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-functions.html#sec-exp-functions-7-4",
   "type": "Figure",
-  "number": "2.9",
+  "number": "2.10",
   "title": "Exponential Function",
   "body": "Exponential Function  The graph here is an example of a graph of where . This graph has the characteristics listed above.    "
 },
@@ -1211,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-functions.html#sec-exp-functions-7-5",
   "type": "Checkpoint",
-  "number": "2.10",
+  "number": "2.11",
   "title": "Function characteristics - HOMEMADE.",
   "body": "Function characteristics - HOMEMADE        The graph of an exponential function is given above. Answer the following questions about that graph.   What is the domain of the function, in interval notation? .    What is the range of the function, in interval notation? .    What is the -intercept of the function? . (Enter your answer in point form, for example )    What is the equation of the horizontal asymptote? The horizontal asymptote is  . (Enter a single number.)                             "
 },
@@ -1220,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-functions.html#sec-exp-functions-7-9",
   "type": "Checkpoint",
-  "number": "2.11",
+  "number": "2.12",
   "title": "Interactive graph activity - HOMEMADE.",
   "body": "Interactive graph activity - HOMEMADE  Click the link to see an interactive graph of a dynamic exponential function. Use the sliders for the parameters , and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity   To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  To investigate the effect of , keep the other sliders fixed, and change the values of . What do you notice?  "
 },
@@ -1229,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-functions.html#sec-exp-functions-7-10",
   "type": "Checkpoint",
-  "number": "2.12",
+  "number": "2.13",
   "title": "Transformations of exponential functions - FROM WEBWORK.",
   "body": "Transformations of exponential functions - FROM WEBWORK    The graph of the function can be obtained from the graph of by one of the following actions:  (a) reflecting the graph of in the -axis;  (b) reflecting the graph of in the -axis;  Your answer is (input a or b)  The range of the function is , find .  The value of is  Is the domain of the function still ?  Your answer is (input Yes or No)    b         Yes       "
 },
@@ -1238,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-functions.html#sec-exp-functions-7-11",
   "type": "Checkpoint",
-  "number": "2.13",
+  "number": "2.14",
   "title": "Transformations of exponential functions - FROM WEBWORK.",
   "body": "Transformations of exponential functions - FROM WEBWORK      Let a, b, k, and n denote constants, and consider the exponential functions (in blue), (in green), and (in red) whose graphs are each labeled on the axes below. Which of the following statements about the values of the constants , , , and are true? Select all true statements and submit your answers                                                   (Click on graph to enlarge)     SOLUTION Since the graphs of and have the same vertical intercept, we know . Since their common intercept is above the vertical intercept of , we know both and . Since increases as increases, we know . But increases more slowly than , so . Since decreases as increases, we know . All other statements are false.      "
 },
@@ -1364,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-5-4",
   "type": "Figure",
-  "number": "2.14",
+  "number": "2.15",
   "title": "",
   "body": " Graphs of and and .    "
 },
@@ -1382,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-5-11",
   "type": "Checkpoint",
-  "number": "2.15",
+  "number": "2.16",
   "title": "Interpreting Logarithms - HOMEMADE.",
   "body": "Interpreting Logarithms - HOMEMADE      is read out as ``log base , of    is read out as ``log base , of                             "
 },
@@ -1391,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-6-9",
   "type": "Example",
-  "number": "2.16",
+  "number": "2.17",
   "title": "Write in logarithmic form.",
   "body": "Write in logarithmic form    Write the expression in logarithmic form.          is equivalent to writing .  Notice that the base is for both the logarithm and the exponential.    "
 },
@@ -1400,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-6-11",
   "type": "Checkpoint",
-  "number": "2.17",
+  "number": "2.18",
   "title": "Write in logarithmic form - HOMEMADE.",
   "body": "Write in logarithmic form - HOMEMADE    Write each of the following in logarithmic form.    This is equivalent to where  and  .     This is equivalent to where  and  .     This is equivalent to where  and  .     This is equivalent to where  and  .     This is equivalent to where  and  .                                                           "
 },
@@ -1409,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-6-12",
   "type": "Example",
-  "number": "2.18",
+  "number": "2.19",
   "title": "Write in exponential form.",
   "body": "Write in exponential form   Write the expression in its equivalent exponential form.          is equivalent to writing .  Notice that the base is for both the logarithm and the exponential.    "
 },
@@ -1418,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-6-14",
   "type": "Checkpoint",
-  "number": "2.19",
+  "number": "2.20",
   "title": "Write in exponential form - HOMEMADE.",
   "body": "Write in exponential form - HOMEMADE    Write each of the following in exponential form.    This is equivalent to where  and  and  .     This is equivalent to where  and  and  .     This is equivalent to where  and  and  .                                                      "
 },
@@ -1436,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-7-4",
   "type": "Example",
-  "number": "2.20",
+  "number": "2.21",
   "title": "Write in exponential form.",
   "body": "Write in exponential form   Write the expression in its equivalent exponential form.          is equivalent to writing .  Notice that the base is for both the logarithm and the exponential. (Answering with would also be OK here.)   "
 },
@@ -1445,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-8-5",
   "type": "Figure",
-  "number": "2.21",
+  "number": "2.22",
   "title": "",
   "body": " Graphs of and . Because these functions are inverses of each other, their graphs are reflected in the diagonal.    "
 },
@@ -1454,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-8-7",
   "type": "Figure",
-  "number": "2.22",
+  "number": "2.23",
   "title": "",
   "body": " Graph of .    "
 },
@@ -1463,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-8-8",
   "type": "Figure",
-  "number": "2.23",
+  "number": "2.24",
   "title": "",
   "body": " Graph of .    "
 },
@@ -1472,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-8-12",
   "type": "Checkpoint",
-  "number": "2.24",
+  "number": "2.25",
   "title": "Interactive graph activity - HOMEMADE.",
   "body": "Interactive graph activity - HOMEMADE  Click the link to see an interactive graph of a dynamic logarithmic function. Use the sliders for the parameters , and to see how different values of these parameters change the shape of the exponential graph.   Interactive Graph Activity      First move the slider for without changing the other sliders. What do you notice? Can you describe how the graph changes? Is there a difference if is positive, negative or ?    Now keep and fixed while sliding . How does it affect the graph? Are there different \"cases\" (groups of values of that have different effect)?    Now keep and fixed while sliding . How does it affect the graph? Is this what you expected?     "
 },
@@ -1481,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-log.html#sec-exp-log-8-13",
   "type": "Checkpoint",
-  "number": "2.25",
+  "number": "2.26",
   "title": "A transformed logarithmic function - FROM WEBWORK.",
   "body": "A transformed logarithmic function - FROM WEBWORK    Find the domain and range of the function . Write your answer using interval notation. Use inf for .    Domain      Range      Which of the following represents the graph of the function?  (click on graph to enlarge)  (a)   (b)   (c)   (d)    (a)   (b)   (c)   (d)                   is , and that the graph contains the point (1,0). The range is . (click on graph to enlarge) The graph of represents a transformation of 5 units to the right and 5 units upward. This will not affect the range, but the domain will become . The point (1,0) on the graph of will correspond to the point (6,5) on the graph of , and the vertical asymptote at the axis will become the vertical line . This is shown by the graph at (d).      "
 },
@@ -1562,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lnproperties.html#sec-exp-lnproperties-5-5",
   "type": "Example",
-  "number": "2.26",
+  "number": "2.27",
   "title": "Using properties to evaluate.",
   "body": "Using properties to evaluate   Evaluate without using a calculator.         We know from that so that means . Therefore    "
 },
@@ -1571,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lnproperties.html#sec-exp-lnproperties-5-6",
   "type": "Checkpoint",
-  "number": "2.27",
+  "number": "2.28",
   "title": "Using properties to evaluate - HOMEMADE.",
   "body": "Using properties to evaluate - HOMEMADE    Evaluate or simplify the following as much as possible without using a calculator.                                   "
 },
@@ -1580,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lnproperties.html#sec-exp-lnproperties-6-8",
   "type": "Example",
-  "number": "2.28",
+  "number": "2.29",
   "title": "True or False.",
   "body": "True or False   Suppose and are positive numbers. Which of the following are true, and which are false?  Note: For a statement involving and\/or to be true, it must be true for ALL positive numbers and .                                               Using (uing it `backwards'), we see that . So the statement is .     . This is precisely one of the common errors. The statement is .    First we use : Then we use on the second term: So the statement is .      "
 },
@@ -1589,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lnproperties.html#sec-exp-lnproperties-6-9",
   "type": "Checkpoint",
-  "number": "2.29",
+  "number": "2.30",
   "title": "True or False? - HOMEMADE.",
   "body": "True or False? - HOMEMADE   (Not randomizable)     Suppose and are positive numbers. Which of the following statements are true, and which are false?  Note: For a statement involving and\/or to be true, it must be true for ALL positive numbers and      True   False       True   False       True   False       True   False       True   False       True   False                                        "
 },
@@ -1598,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lnproperties.html#sec-exp-lnproperties-6-10",
   "type": "Example",
-  "number": "2.30",
+  "number": "2.31",
   "title": "Write as one logarithm.",
   "body": "Write as one logarithm   Write each of the following expressions as a single logarithm, with no coefficient.                                  Let's use the logarithm laws several times, and be careful to not use `false laws':               "
 },
@@ -1607,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-lnproperties.html#sec-exp-lnproperties-6-11",
   "type": "Checkpoint",
-  "number": "2.31",
+  "number": "2.32",
   "title": "Write as one logarithm - HOMEMADE.",
   "body": "Write as one logarithm - HOMEMADE   (Not randomizable)     Write each of the following expressions as a single logarithm, with no coefficient.   where     where     where     where                              "
 },
