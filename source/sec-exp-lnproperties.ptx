@@ -62,8 +62,10 @@ In this section we continue working with more properties of logarithms, in parti
  
   <subsection><title>Inverse Properties of Exponentials and Logarithms</title>
       <p> 
-        We saw in <xref ref="sec-exp-log"/> that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>. There are several important facts that follow from that. 
-        Let's collect them for easy reference.
+        We saw in <xref ref="sec-exp-log"/> that <m>y=\ln x</m> is the inverse of <m>y=e^x</m> 
+        (and <m>y=e^x</m> is the inverse of <m>y=\ln x</m>). 
+        There are several important facts that follow from that. 
+        Let's collect them here for easy reference.
       </p>
 
   <aside>
@@ -77,7 +79,7 @@ In this section we continue working with more properties of logarithms, in parti
 
 <assemblage><title>Properties of Exponentials and Logarithms</title>
     <p>
-    The following properties follow from the fact that <m>y=\ln x</m> is the inverse of <m>y=e^x</m>: 
+    The following properties follow from the fact that <m>y=\ln x</m> and <m>y=e^x</m> are inverses of each other: 
     </p>
 <p>
       <men>
@@ -155,12 +157,15 @@ In this section we continue working with more properties of logarithms, in parti
   <subsection><title>Logarithm Laws</title>
   <p> 
     In <xref ref="sec-exp-intro"/>, we reviewed the main exponent laws that help us simplify and re-write exponential expressions in simpler ways. 
+    They were also written again in terms of <m>e^x</m> in <xref ref="exp-rules-e"/>. 
+  <p> 
+  </p> 
     Logarithmic expressions also have a similar set of laws that help us re-write logarithmic expressions:
   </p> 
 
   <assemblage><title>Logarithm Laws</title>
     <p>
-      For any postitive numbers <m>x</m> and <m>y</m> the following is true:
+      For any positive numbers <m>x</m> and <m>y</m> the following is true:
     </p>
     <p>
     <ul>
@@ -193,9 +198,17 @@ In this section we continue working with more properties of logarithms, in parti
   Similar Laws are also true for other logarithms (with other bases) but we will focus on <m>\ln x</m> (with base <m>e</m>).
 </p>
 
+<aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      It is important to understand and use the correct notation. If you do not know what the notation means, then it becomes difficult to solve problems correctly, of course. If you are not sure, ask! </p>
+  </aside>
+
 <p>
   <alert> Notation:</alert> The notation <m>\ln x^y</m> means <m>\ln\left(x^y\right)</m>. 
-  If the intent is to rais the entire logarithm to a power, we would write <m>\left(\ln x\right)^y</m>. 
+  If the intent is to raise the entire logarithm to a power, we would write <m>\left(\ln x\right)^y</m>. 
   You should never write <m>\ln^a(x)</m> (it does not mean anything).
 </p>
 

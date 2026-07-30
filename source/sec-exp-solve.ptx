@@ -7,12 +7,12 @@
     <ul>
       <li>
         <p>
-          Solve exponential equations using a variety of strategies
+          Solve exponential equations using a variety of strategies.
         </p>
       </li>
       <li>
         <p>
-          Solve logarithmic equations using a variety of strategies
+          Solve logarithmic equations using a variety of strategies.
         </p>
       </li>
       <li>
@@ -58,16 +58,19 @@ involving exponential and logarithmic functions, and understand what these solut
     </p>
   </introduction>
 
-  <subsection>
-    <title>Section 1</title>
+  <subsection><title>Basic Exponential Equations</title>
+  <p>
+  We have already solved some equations in the previous sections of this chapter. 
+  Here we go back to the basics again, for review. 
+  </p>
   <p> 
-    As we've established, logarithms and exponential functions can "cancel each other out" since they are inverses of each other. 
+    As we've seen earlier, logarithms and exponential functions can "cancel each other out" since they are inverses of each other. 
     This is a similar relationship that a radical expression shares with a power function. 
     Observe the familiar equation below:
 <md>
   x^3=125
 </md>
-Here, in order to solve for<m>x</m>, we would apply the inverse operation of a cube; the cube root:
+Here, in order to solve for <m>x</m>, we would apply the inverse operation of a cube; the cube root:
 <md>
   \sqrt[3]{x^3}=\sqrt[3]{125}
 </md>
@@ -81,7 +84,7 @@ Consider the following exponential equation:
   e^x=100
 </md>
 Just like with solving any other type of equation, here, we want to apply the <alert>inverse</alert> operation to solve for <m>x</m>. 
-In the previous example, the inverse operation of a cube was a cube root. 
+In the previous example, the inverse operation of a cube was the cube root. 
 In this case, the inverse operation of the natural exponential function is the <alert>natural logarithm</alert>. 
 Therefore, we will take <m>\ln</m> on both sides of the equation:
 
@@ -104,33 +107,247 @@ Therefore, we will take <m>\ln</m> on both sides of the equation:
   x=\ln(100)\approx4.605
 </md>  
   </p>
+
+<example><title>Solve Exponential Equations</title>
+    <statement>
+      <p>
+      Solve each of the equations for <m>x</m>.
+</p>
+<p>
+      <ol>
+        <li>
+          <p>
+            <m>e^x=17</m>
+          </p>
+        </li>
+          <li>
+          <p>
+            <m>2e^x=30</m>
+          </p>
+        </li>
+          <li>
+          <p>
+            <m>5e^{\frac{x}{4}-1}+7=10</m>
+          </p>
+        </li>
+      </ol>
+      </p>
+    </statement>
+    <answer>
+    <p>
+      <ol>
+        <li>
+          <p>
+             <me>\boxed{x=\ln(17)}</me>
+          </p>
+        </li>
+          <li>
+          <p>
+            <me>\boxed{x=\ln(15)}</me>
+          </p>
+        </li>
+          <li>
+          <p>
+            <me>\boxed{x=4\ln \left(\frac{3}{5}\right)+4}</me>
+          </p>
+        </li>
+      </ol>
+      </p>
+      </answer>
+    <solution>
+      <ol>
+        <li>
+          <p>
+            <m>e^x=17</m>
+          </p>
+            <p>
+            Here we can simply apply <m>\ln</m> to both sides:
+            <me>\boxed{x=\ln(17)}</me>
+          </p>
+        </li>
+          <li>
+          <p>
+            <m>2e^x=30</m>
+          </p>
+          <p>
+            Here we must be careful to not apply <m>\ln</m> too early. First move the coefficient 2, 
+            then apply <m>\ln</m>:
+            <me>2e^x=30</me>
+            <me>e^x=15</me>
+            <me>\boxed{x=\ln(15)}</me>
+          </p>
+        </li>
+          <li>
+          <p>
+            <m>5e^{\frac{x}{4}-1}+7=10</m>
+          </p>
+          <p>
+            Again, do not apply <m>\ln</m> too early. First remove all things on the `outside', 
+            then take <m>\ln</m>. Then move the things that were `inside' of the exponential. 
+            <me>5e^{\frac{x}{4}-1}+7=10</me>
+            <me>5e^{\frac{x}{4}-1}=3</me>
+            <me>e^{\frac{x}{4}-1}=\frac{3}{5}</me>
+            Now we are ready to `take <m>\ln</m>' because there are no things outside of the exponential:
+            <me>\frac{x}{4}-1=\ln \left(\frac{3}{5}\right)</me>
+            <me>\frac{x}{4}=\ln \left(\frac{3}{5}\right)+1</me>
+            <me>x=4\left(\ln \left(\frac{3}{5}\right)+1\right)</me>
+            Be careful with the bracket in the above step. The <m>4</m> is multiplied by both terms on the right side:
+            <me>\boxed{x=4\ln \left(\frac{3}{5}\right)+4}</me>
+
+Note: <m> x=4\ln \left(\frac{3}{5}\right)+1 </m> would be incorrect, and may be the result of incorrect brackets. 
+            
+          </p>
+        </li>
+      </ol>
+    </solution>
+  </example>
+
+  <exercise><title>A basic exponential equation - FROM WEBWORK</title>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg" />
+  </exercise>
+
+  <exercise><title>Exponential equation - FROM WEBWORK</title>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg" />
+  </exercise>
+
+<!-- <exercise><title>Solve Exponential Equations  HOMEMADE  NEEDS FIXING</title>
+  <introduction>
+    <p>
+    (Not randomizable)
+    </p>
+  </introduction>
+  <webwork>
+    <pg-code>
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("ln(15)");
+
+      
+      Context()->functions->enable('trig');
+    </pg-code>
+
+    <statement>
+      <p>
+        Simplify the below expression as much as possible.
+       </p>
+      <p><m>\frac{\cos^2 x}{\cos^2 x-1} \cdot  \frac{1-\csc^2 x}{\tan^2 x - \sec^2 x} =</m>  <var name="$ans" width="6"/>.</p>
+    </statement>
+  </webwork>
+</exercise> -->
+
   </subsection>
 
-  <subsection>
-    <title>Section 2</title>
-  <p> Coming soon.  </p>
+ <subsection><title>Logarithmic Equations</title>
+  <p> 
+    Once again, let's consider this familiar equation:
+
+<me>\sqrt[3]{x}=2</me>
+
+Here, in order to solve for <m>x</m>, we would apply the inverse operation of a cube root 
+(i.e. cube both sides):
+
+<me>\left(\sqrt[3]{x}\right)^3=2^3</me>
+<me>x=8</me>
+
+Just like how a cube and cube root are both inverses of each other, 
+the natural logarithm and natural exponential functions are also inverses of each other. 
+In other words, we would use the natural logarithm to "cancel out" the natural exponential function, 
+and likewise, we would use the natural exponential function to "cancel out" the natural logarithm. 
+Consider the following logarithmic equation:
+
+<me>\ln x=5</me>
+
+To "cancel out" the natural logarithm, we must use the natural exponential function. 
+We must be mindful of how we apply the natural exponential function, though. 
+To correctly apply this step, we must raise both sides of the equation \textbf{as the power of <m>e</m>}:
+
+<me>e^{\ln x}=e^5</me>
+<me>x=e^5 \approx 148.413</me>
+  </p>
+
+  <aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      A common misconception to try to \textit{multiply} both sides of the equation by <m>e</m> 
+      in order to cancel out the logarithm. 
+       Again, this is not correct, since while <m>e</m> \textit{does} have numerical value, 
+       <m>\ln</m> does not, so <m>e \cdot \ln</m> is meaningless.
+   </p>
+  </aside>
+
+  <exercise><title>Logarithmic equation - FROM WEBWORK</title>
+    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg" />
+  </exercise>
+
+  <exercise><title>Logarithmic equation and round the answer - FROM WEBWORK</title>
+    <webwork source="Library/ma117DB/set8/srw4_4_41.pg" />
+  </exercise>
+
+  <exercise><title>A logarithmic equation - FROM WEBWORK</title>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
+  </exercise>
+
   </subsection>
 
-  <subsection>
-    <title>Any other topics?</title>
-  <p> Coming soon.  </p>
-  </subsection>
 
-  <subsection>
-    <title>Additional Examples</title>
-      <p> Here are a few examples that use several of the techniques and rules seen above. </p>
 
+ <!-- <subsection><title>Finding Inverse Functions</title>
+  <p> Coming soon.  See notes on Overleaf. </p>
+  </subsection> -->
+
+  <subsection><title>More Advanced Mixed Examples</title>
       <p>
         <alert>You are strongly encouraged to try the examples first on your own, before looking at the worked solutions.</alert>
       </p>
+
+  <p> 
+    This section is still in progress. 
+  If you have suggestions of problems you would like to see here, please let the authors know! 
+  We would love to hear from you! See <xref ref="feedback"/>.  
+  </p>
+
+
   </subsection>
 
  <exercises><title>Recommended Exercises</title>
     <p>
       For students who want a focused review of the topic, we recommend working on these exercises. 
-      If you find that you want even more practice, there are additional exercises below. 
-      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
+      If you find that you want even more practice, there are "Additional Exercises" (<xref ref="sec-alg-exercises"/>) below.
     </p>
+
+<exercise><title>A basic equation - FROM WEBWORK</title>
+    <webwork source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg" />
+  </exercise>
+
+  <exercise><title>Basic equations - FROM WEBWORK</title>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg" />
+  </exercise>
+
+  <exercise><title>Solve the equations - FROM WEBWORK</title>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg" />
+  </exercise>
+
+<exercise><title>Logarithmic equation - FROM WEBWORK</title>
+    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg" />
+  </exercise>
+
+  <exercise><title>Logarithmic equation with compositions - FROM WEBWORK</title>
+    <webwork source="Library/UMN/calculusStewartCCC/s_1_6_52.pg" />
+  </exercise>
+
+ <exercise><title>An equation with <m>x</m> appearing twice - FROM WEBWORK</title>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
+  </exercise>
+
+  <exercise><title>Two equations - FROM WEBWORK</title>
+    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg" />
+  </exercise>
+
+ <exercise><title>Challenge: An exponential equation - FROM WEBWORK</title>
+    <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
+  </exercise>
 
   </exercises>
 
@@ -139,67 +356,44 @@ Therefore, we will take <m>\ln</m> on both sides of the equation:
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
-<exercise>
-    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg" />
-  </exercise>
 
-  <exercise>
-    <webwork source="Library/UMN/calculusStewartCCC/s_1_6_52.pg" />
-  </exercise>
 
- <exercise>
-    <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
-  </exercise>
 
-  <exercise>
-    <webwork source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg" />
-  </exercise>
-
-  <exercise>
-    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg" />
-  </exercise>
-
-  <exercise>
-    <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg" />
-  </exercise>
-
-  <exercise>
-    <webwork source="Library/ma117DB/set8/srw4_4_41.pg" />
-  </exercise>
-
-  <exercise>
-    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg" />
-  </exercise>
-
-  <exercise>
+  <exercise><title>Inequalties - FROM WEBWORK</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg" />
   </exercise>
 
-  <exercise>
-    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg" />
-  </exercise>
-
-  <exercise>
+  <exercise><title>More inequalties - FROM WEBWORK</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg" />
   </exercise>
 
-  <exercise>
-    <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg" />
-  </exercise>
-
-<exercise>
-    <webwork source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg" />
-  </exercise>
 
 
-  <exercise>
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
-  </exercise>
 
-  <exercise>
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
-  </exercise>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

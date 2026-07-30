@@ -76,13 +76,15 @@ A defining characteristic of exponential functions is that they change at a rate
 
   <subsection><title>What is an Exponential Function?</title>
   <p> 
-    An <term>exponential function</term><idx>Exponential function</idx> is any function in the form <m>f(x)=b^x,</m> where <m>b>0</m> and <m>b \neq 1</m>.
-    Here, we call the parameter <m>b</m> the <term>base</term><idx>Base of an exponential function</idx> of the function, which determines the type of exponential relationship that is being modelled: 
+    An <term>exponential function</term><idx>Exponential function</idx> is any function of the form <m>f(x)=b^x,</m> where <m>b>0</m> and <m>b \neq 1</m>.
+    Here, we call the parameter <m>b</m> the <term>base</term><idx>Base of an exponential function</idx> of the function, 
+    which determines the type of exponential relationship that is being modelled. 
+    This can be either exponential growth or exponential decay. 
     </p>
 
 <aside>
     <p>
-      <alert> Study tip: </alert>
+      <alert> Note: </alert>
     </p>
     <p>  
       Note that we are focusing on <m>f(x)=b^x</m> where either <m>b \gt 1</m>, or <m>0 \lt b \lt 1</m>.
@@ -119,11 +121,38 @@ A defining characteristic of exponential functions is that they change at a rate
 <url href="https://www.desmos.com/calculator/pftghxv1g0" visual="desmos.com/calculator/pftghxv1g0">Interactive Graph Activity</url>
   </p>
   <p>
-    What do you notice when <m>b=1? b=0? b \lt 0? b \gt 1? 0 \lt b \lt 1</m>?
+    What do you notice for different values or types of values of <m>b</m>? 
+    <ul>
+      <li>
+        <p>
+          What do you notice when <m>b=1?</m>
+        </p>
+      </li>
+            <li>
+        <p>
+          Or when <m> b=0</m>? 
+        </p>
+      </li>
+            <li>
+        <p>
+          What does the graph look like when <m> b \lt 0</m>?
+        </p>
+      </li>
+            <li>
+        <p>
+          What about when <m> b \gt 1</m>? 
+        </p>
+      </li>
+            <li>
+        <p>
+          What about when <m> 0 \lt b \lt 1</m>? 
+        </p>
+      </li>
+    </ul>
   </p> 
     <p>
     What do you notice for different values of <m>a</m>? Can you determine different "cases" for <m>a</m>? 
-    (Are there different groups of values of a that behave differently?)
+    (Are there different groups of values of <m>a</m> that behave differently?)
   </p> 
 </exercise>
 
@@ -178,7 +207,7 @@ there is one special exponential function that we will deal with almost exclusiv
 
   <aside>
     <p>
-      <alert> Study tip: </alert>
+      <alert> Historical Note: </alert>
     </p>
     <p>  
       Euler's Number <m>e</m> is named after Leonhard Euler<idx>Leonhard Euler</idx> (1707-1783). 
@@ -258,6 +287,16 @@ faster than <m>y=2^x</m> but not quite as fast as <m>y=3^x.</m>
 The graph of <m>y=e^x</m> is shown in the diagram below along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>.
 </p>
 
+<aside>
+    <p>
+      <alert> Study tip: </alert>
+    </p>
+    <p>  
+      All exponential functions <m>f(x) = b^x</m> where <m>b \not= 1</m> intersect the <m>y</m>-axis at <m>y=1</m>. 
+      Can you explain why that is?
+    </p>
+  </aside>
+
 <figure><title>Exponential Function</title>
   <caption><alert>Exponential Function</alert>
  The graph of <m>y=e^x</m> is shown here, along with the graphs of <m>y=2^x</m> and <m>y=3^x</m>. 
@@ -268,10 +307,9 @@ The graph of <m>y=e^x</m> is shown in the diagram below along with the graphs of
 </figure>
 
 <p>
-As we can see, <m>y=e^x</m> is characteristically similar to any other exponential function, and should not be thought of as a fundamentally "different" function. 
+As we can see, <m>y=e^x</m> is characteristically similar to all other exponential functions of the form <m>f(x)=b^x</m> where <m>f(x)=b>1</m>, and should not be thought of as a fundamentally "different" function. 
   For our purposes, we should think of the natural exponential function as simply being an exponential function with a specific base, <m>e</m>. 
 </p>
-
 
 <exercise><title>The Natural Exponential Function - HOMEMADE</title>
   <webwork>
@@ -333,7 +371,10 @@ As we can see, <m>y=e^x</m> is characteristically similar to any other exponenti
  <subsection><title>Graphs of Exponential Functions</title>
 <p>
 Just like any other type of parent function, exponential functions have a set of "default" characteristics. 
-Some of these characteristics may change based on the transformations of the function, but the standard exponential function <m>f(x)=e^x</m> has the following characteristics:
+Some of these characteristics may change if there are transformations of the function (for example if it is shifted, stretched, compressed and/or reflected to make a new function). 
+</p>
+<p>
+Exponential functions of the form <m>f(x)=b^x</m> where <m>f(x)=b>1</m>, including the natural exponential function <m>f(x)=e^x</m>, have the following characteristics:
 </p>
 
 <tabular halign="center">
@@ -422,11 +463,11 @@ Some of these characteristics may change based on the transformations of the fun
 
 
 <p>
-As you may have seen in your previous sudies, any parent function, <m>y=f(x)</m> can be transformed using the following parameters:
+As you may have seen in your previous studies, any parent function, <m>y=f(x)</m> can be transformed using the following parameters:
 <md>y=af[k(x-d)]+c</md>
 </p>
 <p>
-Applying these parameters to the natural exponential function, we obtain the general equation for a transformed exponential function:
+Applying these parameters to the natural exponential function <m>f(x)=e^x</m>, we obtain the general equation for a transformed exponential function:
 <md>y=ae^{k(x-d)}+c</md>
 </p>
 <p>

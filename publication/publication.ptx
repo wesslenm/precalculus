@@ -114,8 +114,11 @@
         theme="default-modern"
         colors="red_blue"
     />
-    <!-- Below was deleted May 2026 due to a suggestion in the log:
-    <css
+
+
+
+    <!-- Below was deleted May 2026 due to a suggestion in the log: -->
+    <!--<css
         theme="default-modern"
         colors="red_blue"
         knowls="default"
@@ -155,6 +158,11 @@
 <!-- Below, added by MW (plus I also made more minor edits above) --> 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+<!-- Added by MW to remove author line from the top banner (byline is author line)-->
+<banner subtitle="yes" byline="no"/>
+
 
 
 

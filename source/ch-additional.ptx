@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-additional" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Additional Topics</title>
+
+  <!-- <introduction>
+    <p> In this chapter we review some algebra topics that are especially relevant when studying calculus. </p>
+  </introduction> -->
+
+  <!-- include sections -->
+  <xi:include href="sec-additional.ptx" />
+
+
+</chapter>

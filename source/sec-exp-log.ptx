@@ -73,7 +73,7 @@ In this section, we will review basic properties and characteristics of logarith
         A function "passes the Horizontal Line tests" if no horizontal line crosses the curve more than once). 
       </p>
         
-    <figure>
+<figure>
   <caption>Graphs of <m>y=e^x</m> and <m>y=2^x</m> and <m>y=3^x</m>.</caption>
   <image source="images/exp2" width="70%">
   </image>
@@ -81,7 +81,7 @@ In this section, we will review basic properties and characteristics of logarith
 
       <p>
         If we look at graphs of a few exponential functions (for example <m>y=e^x</m> and <m>y=2^x</m> and <m>y=3^x</m>), we see that they pass the HLT. 
-        They therefore have inverses. The inverse of each equponential function, is also a function. We call those inverfunctions logarithmic functions.   
+        They therefore have inverses. The inverse of each exponential function, is also a function. We call those inverse functions ``logarithmic functions''.   
       </p>
 
   <aside>
@@ -89,7 +89,7 @@ In this section, we will review basic properties and characteristics of logarith
       <alert> Study tip: </alert>
     </p>
     <p>  
-For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so we will do the same for logarithmic functions, since logarithms are based on expoential functions. 
+For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so there are the same restrictions for logarithmic functions, since logarithms are based on expoential functions. 
     </p>
   </aside>
 
@@ -98,9 +98,9 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so we w
       For any positive number <m>b\not= 1</m>, the <term>logarithmic function</term><idx>Logarithmic function</idx> with 
       <term>base</term><idx>Base of a logarithmic function</idx> <m>b</m>, written <m>\log_b \ x</m> is defined by:
     <md>
-      y = \log_b \ x \mbox{ if and only if } x = b^y
+      y = \log_b \ x \mbox{\hspace{5mm} if and only if \hspace{5mm}} x = b^y
     </md>
-    In other words, <m>y=\log_b \ x</m> is the inverse function of <m>y = b^x</m>. Note that <m>b \gt 0</m> and <m>b \neq 1</m>.
+    In other words, <m>y=\log_b \ x</m> is the inverse function of <m>y = b^x</m>. Note that we must have <m>b \gt 0</m> and <m>b \neq 1</m>.
     </p>
   </assemblage>
 <!-- 
@@ -120,8 +120,8 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so we w
       <alert> Study tip: </alert>
     </p>
     <p>  
-     <m>y=\log_b x</m> is a function. It requires an input. It would be complete non-sense to write <m>\sqrt{ \hspace{3mm} }</m>, without any number or expression to take the square root of. 
-     Similarly it would be complete non-sense to write <m>y=\log_b</m> , without any number or expression to take log of. 
+     <m>y=\log_b x</m> is a function. It requires an input. It would be complete non-sense to write <m>\sqrt{ \hspace{3mm} }</m> without any number or expression to take the square root of. 
+     Similarly it would be complete non-sense to write <m>y=\log_b \hspace{3mm}</m> without any number or expression to take log of. 
     </p>
   </aside>
 
@@ -200,22 +200,22 @@ One useful way to conceptualize this is to compare a logarithmic calculation to 
     </row>
     <row>
       <cell><m>x^{\textcolor{red}{n}}=y</m></cell>
-      <cell><m>\textcolor{red}{\sqrt[n]{\textcolor{black}{y}}}=x</m></cell>
+      <cell><m>x=\textcolor{red}{\sqrt[n]{\textcolor{black}{y}}}</m></cell>
     </row>
     <row>
       <cell><m>5^{\textcolor{red}{3}}=125</m></cell>
-      <cell><m>\textcolor{red}{\sqrt[3]{\textcolor{black}{125}}}=5</m></cell>
+      <cell><m>5=\textcolor{red}{\sqrt[3]{\textcolor{black}{125}}}</m></cell>
     </row>
     <row>
       <cell><m>2^{\textcolor{red}{5}}=32</m></cell>
-      <cell><m>\textcolor{red}{\sqrt[5]{\textcolor{black}{32}}}=2</m></cell>
+      <cell><m>2=\textcolor{red}{\sqrt[5]{\textcolor{black}{32}}}</m></cell>
     </row>
   </tabular>
 
 <p>
 Each pair of statements are equivalent to each other. 
 This feels intuitive since we have grown an understanding that radical expressions (like cube roots) are the inverse operations to powers, 
-thus every power of degree <m>n</m> has a corresponding radical inverse operation (the <m>n</m>^{th} root) that "cancels out" the power.
+thus every power of degree <m>n</m> has a corresponding radical inverse operation (the <m>n^{\tiny{\mbox{th}}}</m> root) that "cancels out" the power.
 </p>
 
 <p>
@@ -231,21 +231,21 @@ thus every power of degree <m>n</m> has a corresponding radical inverse operatio
     </row>
     <row>
       <cell><m>\textcolor{red}{b}^x=y</m></cell>
-      <cell><m>\log_{\textcolor{red}{b}}y=x</m>"</cell>
+      <cell><m>x=\textcolor{red}{\log_{b}}y</m></cell>
     </row>
     <row>
       <cell><m>\textcolor{red}{5}^3=125</m></cell>
-      <cell><m>\log_{\textcolor{red}{5}}(125)=3</m>"</cell>
+      <cell><m>3=\textcolor{red}{\log_{5}(}125\textcolor{red}{)}</m></cell>
     </row>
     <row>
       <cell><m>\textcolor{red}{2}^5=32</m></cell>
-      <cell><m>\log_{\textcolor{red}{2}}(32)=5</m>"</cell>
+      <cell><m>5=\textcolor{red}{\log_{2}(}32\textcolor{red}{)}</m></cell>
     </row>
   </tabular>
 
 <p>
   Note that when re-writing an exponential expression in its equivalent logarithmic form, 
-  the logarithm retains the same base as the exponential function, and the input and output are swapped.
+  the logarithm has the same base as the exponential function had, and the input and output are swapped.
 </p>
 
 
@@ -277,7 +277,7 @@ Notice that the base is <m>6</m> for both the logarithm and the exponential.
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Think of this as <m>6^{(...)}</m> on one side of the equal sign is equivalent to <m>log_{6} (...)</m> on the other side of the equal sign. 
+      Think of this as <m>6^{(...)}</m> on one side of the equal sign is equivalent to <m>\log_{6} (...)</m> on the other side of the equal sign. 
       Notice that the base is <m>6</m> for both the logarithm and the exponential. 
     </p>
   </aside>
@@ -455,27 +455,47 @@ Notice that the base is <m>2</m> for both the logarithm and the exponential.
     The inverse of that function is the most important logarithmic function, and is written <m>y=\ln x</m>. 
   </p>
 
+ 
  <assemblage><title>Definition of <m>\ln x</m></title>
     <p>
-    The <term>natural logarithm</term><idx>Natural logarithm</idx> is defined as the inverse of the natural exponential function <m>y=e^x</m>. 
-    The natural logrithm is denoted by <m>\ln x</m>.
+    The <term>natural logarithm</term><idx>Natural logarithm</idx> is defined as the inverse function of the natural exponential function <m>y=e^x</m>. 
+    The natural logarithm function is denoted by <m>y=\ln x</m>.
     </p>
       <p>
-    Equivalently, the natural logarithm, <m>\ln x</m>, is simply the logarithm with a base of <m>e</m>.
+      Some additional notes:
+<ul>
+      <li>
+        <p>
+          Equivalently, the definition tells us that the natural logarithm, <m>y=\ln x</m>, is simply the logarithm with a base of <m>e</m>.
         </p>
-      <p>
-    The mathematical notation <m>\ln (...)</m> is pronounced like "lawn" and the function <m>y=\ln x</m> can be read as "<m>y</m> equals `lawn' of <m>x</m>."
-    </p>
-      <p>
-From the definition it follows that:
+      </li>
+            <li>
+        <p>
+          The mathematical notation <m>\ln (...)</m> is pronounced like "lawn" and the function <m>y=\ln x</m> can be read as "<m>y</m> equals `lawn' of <m>x</m>."
+        </p>
+      </li>
+            <li>
+        <p>
+          From the definition it follows that:
       <md>
       y = \ln x \quad \mbox{ is the same as } \quad y = \log_e x
     </md>
-    and because <m>y=\ln x</m> is the inverse of <m>y=e^x</m> it is true that:
+        </p>
+      </li>
+            <li>
+        <p>
+          Because <m>y=\ln x</m> is the inverse of <m>y=e^x</m> it is true that:
     <md>
       y = \ln x \quad \mbox{ if and only if } \quad x = e^y
     </md>
-Also, <m>y=e^x</m> is the inverse of <m>y=\ln x</m>. (The two functions are inverses of each other.)
+        </p>
+      </li>
+            <li>
+        <p>
+          Also, <m>y=e^x</m> is the inverse of <m>y=\ln x</m>. (The two functions are inverses of each other.)
+        </p>
+      </li>
+</ul>
     </p>
   </assemblage>
 
@@ -502,13 +522,63 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
       </p>
     </solution>
   </example>
-  </subsection>
 
+<example><title>Find inverse function</title>
+    <statement>
+      <p>
+       Find the inverse function of <m>f(x) = 3e^{2x+4}</m>. (This function is invertible, and you do not need to prove that here.)
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <me>\boxed{f^{-1}(x) = \frac{\ln \left(\frac{x}{3} \right) - 4}{2}}</me>
+      </p>
+      </answer>
+    <solution>
+      <p>
+You may remember the steps to find the inverse of an invertible function:
+<ul>
+  <li>
+   <p>
+    Write <m>y</m> instead of <m>f(x)</m>.    
+   </p>
+  </li>
+    <li>
+   <p>
+    Switch <m>x</m>  and <m>y</m>. 
+   </p>
+  </li>
+      <li>
+   <p>
+    Solve for <m>y</m>.
+   </p>
+  </li>
+</ul>
+(Alternatively, solve for <m>x</m> and then afterwards switch <m>x</m> and <m>y</m>.)
+      </p>
+  <p>
+Here we have
+<me>y = 3e^{2x+4}</me>
+Switch <m>x</m> and <m>y</m>:
+<me>x = 3e^{2y+4}</me>
+Now solve for <m>y</m>. Start by moving the 3 to the other side by dividing by 3:
+<me>\frac{x}{3} = e^{2y+4}</me>
+Then move the <m>e</m> to the other side by applying logarithms to both sides:
+<me>\ln \left(\frac{x}{3} \right)= 2y+4</me>
+Then move the 4, and finally the 2:
+<me>\ln \left(\frac{x}{3} \right) - 4= 2y</me>
+<me>\frac{\ln \left(\frac{x}{3} \right) - 4}{2}= y</me>
+        <me>\boxed{f^{-1}(x) = \frac{\ln \left(\frac{x}{3} \right) - 4}{2}}</me>
+      </p>
+    </solution>
+  </example>
+
+  </subsection>
 
  <subsection><title>Graphs of Logarithmic Functions</title>
   <p> 
    In this part, we will examine logarithms from a graphical approach by examining the key characteristics and properties of the graphs of logarithmic functions, 
-   and compare these properties to those of the graphs of exponential functions.
+   and comparing these properties to those of the graphs of exponential functions.
      </p>
 <p>
    For our purposes in calculus, we will limit this part to only include the natural logarithm, <m>y=\ln x</m>, even though much of what is discussed here applies to any logarithm.
@@ -526,8 +596,8 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
 </figure>
 
 <p>
-  Because the natural logarithmic function is the inverse of the natural exponential function, their graphs are related to each other by a relection in the diagonal. 
-  Since inverting a function switches its inputs and outputs, many of the characteristics of functions and their inverses have many commonalities. 
+  Because the natural logarithmic function is the inverse of the natural exponential function, their graphs are related to each other by a reflection in the diagonal. 
+  Since inverting a function switches its inputs and outputs, the characteristics of functions and their inverses are related. 
   Let's compare some properties of exponential and logarithmic functions:
 </p>
 
@@ -548,7 +618,8 @@ Notice that the base is <m>e</m> for both the logarithm and the exponential.
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Notice how all the details in the table of characteristics stem from switching <m>x</m> and <m>y</m> values (which what happens when you find an inverse).
+      Notice how all the details in the table of characteristics stem from switching <m>x</m> and <m>y</m> values 
+      (which is what happens when you find an inverse).
     </p>
   </aside>
 
