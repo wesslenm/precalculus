@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-8" assembly-id="trig-id-additional-8">
+  <static seed="203">
+    <statement><p>Suppose that for some angles <m>\tau</m>  in Quadrant II, we know that <m>\sin \tau = \frac{5}{13}</m> and and <m>\gamma</m> is in Quadrant IV with <m>\tan \gamma = -\frac{5}{12}\text{.}</m> Evaluate the following:
+<ol label="a.">
+<li>
+<p><m>\cos(\tau) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p><m>\sin(\gamma)=</m> <fillin characters="6" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p><m>\sin(\tau+\gamma) =</m>  <fillin characters="6" name="AnSwEr0003"/>.</p>
+</li>
+<li>
+<p><m>\sin(\tau-\gamma)=</m> <fillin characters="6" name="AnSwEr0004"/>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-12}{13}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-5}{13}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{120}{169}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_6_6-Evaluate__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.6.6)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$ans1 = Compute("-12/13");
+$ans2 = Compute("-5/13");
+$ans3 = Compute("120/169");
+$ans4 = Compute("0");
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Suppose that for some angles [`\tau`]  in Quadrant II, we know that [`\sin \tau = \frac{5}{13}`] and and [`\gamma`] is in Quadrant IV with [`\tan \gamma = -\frac{5}{12}\text{.}`] Evaluate the following:
+a.  [`\cos(\tau) =`]  [_]{$ans1}{6}.
+
+a.  [`\sin(\gamma)= `] [_]{$ans2}{6}.
+
+a.  [`\sin(\tau+\gamma) =`]  [_]{$ans3}{6}.
+
+a.  [`\sin(\tau-\gamma)= `] [_]{$ans4}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

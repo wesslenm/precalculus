@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-triginv-additional-5" assembly-id="triginv-additional-5">
+  <static seed="229">
+    <statement><p>Evaluate <m>\arctan \left(-1 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+<p><m>\arctan \left(-1 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-\pi }{4}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_5-Inverse_trigonometric_functions/3_5_7_3-Evaluate__arctan_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.5.7.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+  $a = Compute(random(2, 12, 1));
+  $b = Compute($a-1);
+  $ans = Compute("-pi/4")->with(
+           tolType => 'absolute',
+           tolerance => .000000000000000000001,   );
+
+Context()->functions->disable('trig');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\arctan \left(-1 \right) `] without using a calculator. Answer with an exact value, in radians.
+
+[`\arctan \left(-1 \right)=`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

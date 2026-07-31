@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-8-4" assembly-id="sec-func-dividing-8-4">
+  <static seed="76">
+    <statement><p><ol label="a.">
+<li>
+<p>Then <m>2x+1</m> is called the <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>dividend</p>
+</li><li>
+<p>divisor</p>
+</li><li>
+<p>quotient</p>
+</li><li>
+<p>remainder</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>Then <m>x^2-4x+3</m> is called the <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>dividend</p>
+</li><li>
+<p>divisor</p>
+</li><li>
+<p>quotient</p>
+</li><li>
+<p>remainder</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>Then <m>2x^3-7x^2+2x+7</m> is called the <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>dividend</p>
+</li><li>
+<p>divisor</p>
+</li><li>
+<p>quotient</p>
+</li><li>
+<p>remainder</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The remainder is <fillin characters="10" name="AnSwEr0004"/></p>
+</li>
+<li>
+<p>Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.) <ul form="buttons" name="AnSwEr0005">
+<li>
+<p>Yes, it is correct</p>
+</li>
+<li>
+<p>No, there is one error</p>
+</li>
+<li>
+<p>No, there are several errors</p>
+</li>
+</ul></p>
+</li>
+</ol></p>
+<p>Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{divisor}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{quotient}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{dividend}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{Yes, it is correct }</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_3_4_3-Interpreting_results__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.4.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "parserRadioButtons.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],3); 
+$popup3 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+Context("Numeric");
+$remainder = Formula("4");
+  $radio = RadioButtons([
+  'Yes, it is correct ',
+  'No, there is one error',
+  'No, there are several errors',
+],0);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  Then [`2x+1`] is called the [_]{$popup}{5}.
+
+a.  Then [`x^2-4x+3`] is called the [_]{$popup2}{5}.
+
+a.  Then [`2x^3-7x^2+2x+7`] is called the [_]{$popup3}{5}.
+
+a.  The remainder is [_]{$remainder}{10}
+
+a.  Are the calculations in the above long division correct? (Suggestion: For extra practice, do the calculations yourself without looking, then compare your final answer to the above computations.) [_]{$radio}{5}
+
+Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-evaluating-9-3" assembly-id="sec-trig-evaluating-9-3">
+  <static seed="168">
+    <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
+<p>(a) <m>\sin \left(\frac{\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
+<p>(b) <m>\tan \left(\frac{\pi}{3}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
+<p>(c) <m>\sec \left(\frac{\pi}{6}\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1}{\sqrt{2}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\sqrt{3}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_1-Evaluate_at_common_angles__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.5.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+
+$ans1 = Compute("1/sqrt(2)")->with(
+         tolType => 'absolute',
+         tolerance => .00000000001,   );
+$ans2 = Compute("sqrt(3)")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans3 = Compute("2")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.
+
+(a) [` \sin \left(\frac{\pi}{4}\right) =`]  [_]{$ans1}{10}.
+
+(b) [` \tan \left(\frac{\pi}{3}\right) =`]  [_]{$ans2}{10}.
+
+(c) [` \sec \left(\frac{\pi}{6}\right) =`]  [_]{$ans3}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

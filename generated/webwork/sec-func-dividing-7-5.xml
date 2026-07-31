@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-7-5" assembly-id="sec-func-dividing-7-5">
+  <static seed="72">
+    <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
+<p><me>x^4 -25</me></p>
+<p>is divided by</p>
+<p><me>x^2-1.</me></p>
+<p>The quotient is <fillin characters="10" name="AnSwEr0001"/></p>
+<p>The remainder is <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>x^{2}+1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-24</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_48-Polynomial_long_division_with_missing_terms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.48)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$quot = Formula("x^2+1");
+Context("Numeric");
+$remainder = Formula("-24");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+(Not randomizable) Use long division to find the quotient and remainder when
+
+[```
+            x^4 -25          ```]
+
+is divided by
+
+[```
+            x^2-1.
+           ```]
+
+The quotient is [_]{$quot}{10}
+
+The remainder is [_]{$remainder}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-10-7" assembly-id="sec-exp-solve-10-7">
+  <static seed="135" source="Library/UMN/calculusStewartCCC/s_1_6_52.pg">
+    <statement><p>Solve the equation for <m>x</m>.
+<me>\ln (\ln x) = 5</me>
+Answer: <m>x=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>e^{e^{5}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_1_6_52.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_1_6_52.pg"/>
+</webwork-reps>

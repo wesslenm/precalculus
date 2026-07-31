@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-14" assembly-id="sec-alg-exercises-14">
+  <static seed="33" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg">
+    <statement><p>Write <m>\displaystyle \frac{m}{2} + \frac{m}{3}</m> 
+as a single fraction.  
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>Note: Your answer should be a completely simplified fraction.
+Unsimplified answers and decimals will not be accepted.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{5m}{6}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-04.pg"/>
+</webwork-reps>

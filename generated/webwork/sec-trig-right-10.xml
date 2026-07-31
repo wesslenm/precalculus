@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-right-10" assembly-id="sec-trig-right-10">
+  <static seed="167">
+    <statement><p><ol label="a.">
+<li>
+<p><m>\tan \left({0.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p><m>\cot \left({0.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p><m>\sin \left({0.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
+</li>
+<li>
+<p><m>\csc \left({0.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
+</li>
+<li>
+<p><m>\cos \left({0.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0005"/>.</p>
+</li>
+<li>
+<p><m>\sec \left({0.5}\pi\right) =</m>  <fillin characters="10" name="AnSwEr0006"/>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>DNE</p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>DNE</p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_45-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NOW_SHOULD_ACCEPT_DNE_CHECK_VERY_CAREFULLY.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.45)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+
+  $a = Compute(random(-12, 15, 1));
+  $b = $a/2;
+  $r = $a % 4;
+
+  if ($r == 0) {
+  $ans1 = num_cmp(0);
+} elsif ($r == 1) {
+  $ans1 = str_cmp("DNE");
+} elsif ($r == 2) {
+  $ans1 = num_cmp(0);
+} else {
+  $ans1 = str_cmp("DNE");
+}  
+  if ($r == 0) {
+  $ans2 = str_cmp("DNE");
+} elsif ($r == 1) {
+  $ans2 = num_cmp(0);
+} elsif ($r == 2) {
+  $ans2 = str_cmp("DNE");
+} else {
+  $ans2 = num_cmp(0);
+} 
+  if ($r == 0) {
+  $ans3 = num_cmp(0);
+} elsif ($r == 1) {
+  $ans3 = num_cmp(1);
+} elsif ($r == 2) {
+  $ans3 = num_cmp(0);
+} else {
+  $ans3 = num_cmp(-1);
+} 
+  if ($r == 0 || $r == 2) {
+  $ans4 = str_cmp("DNE");
+} elsif ($r == 1) {
+  $ans4 = num_cmp(1);
+} else {
+  $ans4 = num_cmp(-1);
+} 
+ if ($r == 0) {
+  $ans5 = num_cmp(1);
+} elsif ($r == 1) {
+  $ans5 = num_cmp(0);
+} elsif ($r == 2) {
+  $ans5 = num_cmp(-1);
+} else {
+  $ans5 = num_cmp(0);
+}
+ if ($r == 1 || $r == 3) {
+  $ans6 = str_cmp("DNE");
+} elsif ($r == 0) {
+  $ans6 = num_cmp(1);
+} else {
+  $ans6 = num_cmp(-1);
+}
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  [`\tan \left([$b]\pi\right) =`]  [_]{$ans1}{10}.
+
+a.  [`\cot \left([$b]\pi\right) =`]  [_]{$ans2}{10}.
+
+a.  [`\sin \left([$b]\pi\right) =`]  [_]{$ans3}{10}.
+
+a.  [`\csc \left([$b]\pi\right) =`]  [_]{$ans4}{10}.
+
+a.  [`\cos \left([$b]\pi\right) =`]  [_]{$ans5}{10}.
+
+a.  [`\sec \left([$b]\pi\right) =`]  [_]{$ans6}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

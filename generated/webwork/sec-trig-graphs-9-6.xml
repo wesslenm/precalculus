@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-9-6" assembly-id="sec-trig-graphs-9-6">
+  <static seed="152" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg">
+    <statement><p>Below is the graph of the function
+<m>f(x) = 10 \sin{ \left( \frac{\pi}{5} x \right)}</m> in blue,
+and a second sinusoidal function <m>y = g(x)</m> in red, which is
+a horizontal shift of <m>y = f(x)</m>.  Find a formula for the
+function <m>g(x)</m>.</p>
+<p><m>g(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-trig-graphs-9-6-image-1.png" width="66%"/>
+<p><em>(Click on graph to enlarge)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>10\sin\mathopen{}\left(\frac{\pi }{5}x-\frac{3.5\pi }{5}\right)</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since graph has been shifted by <m>\frac{ 3.5 }{10}</m> of a period, the phase shift is <m>\phi = (2 \pi ) \cdot  \left( \frac{ 3.5 }{10} \right) = \frac{3.5 \pi}{5}</m>.  Therefore the formula for <m>g(x)</m> is:
+<me>g(x) = 10 \sin{ \left( \frac{\pi}{5} \ x - \phi \right) } = 10 \sin{ \left( \frac{\pi}{5} \ x - \frac{3.5 \pi}{5} \right) }.</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg"/>
+</webwork-reps>

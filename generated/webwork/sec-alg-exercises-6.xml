@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-6" assembly-id="sec-alg-exercises-6">
+  <static seed="25" source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg">
+    <statement><p>Evaluate the following and express your answer as a single fraction.</p>
+<p><m>\displaystyle\frac{9}{2x} \div \frac{7}{3y} =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p><em>
+You might want to do a preview before submitting your answer to be certain it has been entered correctly.
+</em></p>
+</statement>
+    <hint><p>Reciprocal</p>
+</hint>
+    <answer>
+      <p>
+        <m>\frac{27y}{14x}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions03.pg"/>
+</webwork-reps>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-9-10" assembly-id="sec-trig-identities-9-10">
+  <static seed="195">
+    <statement><p>Re-write <m>\sin^4 x</m> so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.</p>
+<p><m>\sin^4 x =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{3-4\cos\mathopen{}\left(2x\right)+\cos\mathopen{}\left(4x\right)}{8}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_5_8-Simplify__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.5.8)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(3,6,1);
+$ans1 = Compute("(3 - 4cos(2x) + cos(4x))/(8)");
+$ans2 = Compute("7-6x");
+
+Context()->functions->disable('All');
+Context()->functions->enable('sin','cos');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Re-write [`\sin^4 x`] so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function.
+
+[`\sin^4 x =`]  [_]{$ans1}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

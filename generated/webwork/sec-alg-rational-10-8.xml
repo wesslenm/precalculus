@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-8" assembly-id="sec-alg-rational-10-8">
+  <static seed="17" source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg">
+    <statement><p>Simplify the expression <m>\displaystyle{\ \frac{1}{x+5}- \frac{1}{x+6}}</m></p>
+<p>The answer has the form of <m>\displaystyle{\ \frac{f(x)}{g(x)}\ }</m> where</p>
+<p><m>f(x)</m> = <fillin characters="15" name="AnSwEr0001"/> and</p>
+<p><m>g(x)</m> = <fillin characters="15" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(x+5\right)\mathopen{}\left(x+6\right)</m>
+      </p>
+    </answer>
+    <solution><p>Subtracting fractions is easy when they have a common denominator, so first get a common denominator, then subtract:    
+<m>\displaystyle{\begin{aligned}
+    \frac{1}{x+5}-\frac{1}{x+6} 
+    \amp =\frac{x+6}{(x+5)(x+6)} 
+     -\frac{x+5}{(x+5)(x+6)}\\
+    \amp =\frac{(x+6)-(x+5)}{(x+5)(x+6)}\\
+    \amp =\frac{1}{(x+5)(x+6)} 
+    \end{aligned} }</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra05RationalExpressions/lhp5_60.pg"/>
+</webwork-reps>

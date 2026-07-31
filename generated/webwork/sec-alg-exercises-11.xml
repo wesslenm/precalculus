@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-11" assembly-id="sec-alg-exercises-11">
+  <static seed="30" source="Library/ma117DB/set1b/srw1_4_27.pg">
+    <statement><p>Simplify the expression 
+<me>\frac{2}{x^2} + \frac{4}{x^2+x}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>6x+2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{2}\mathopen{}\left(x+1\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_27.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set1b/srw1_4_27.pg"/>
+</webwork-reps>

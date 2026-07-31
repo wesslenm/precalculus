@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-8-3" assembly-id="sec-exp-solve-8-3">
+  <static seed="126" source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg">
+    <statement><p>Solve the following equation. If necessary, enter your answer
+as an expression involving natural logarithms or as a decimal
+approximation that is correct to at least four decimal places.</p>
+<p><me>e^{1-20 x}=7</me>
+<m>x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.0472955</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Union/setFunctionLogarithmic/srw4_4_9.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg"/>
+</webwork-reps>

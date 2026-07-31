@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-evaluating-9-6" assembly-id="sec-trig-evaluating-9-6">
+  <static seed="171">
+    <statement><p>Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.</p>
+<p><m>\cos \left(\frac{{10}\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>0.5</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_4-Evaluate_cos_theta___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.3.5.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = Compute(random(-5, 11, 1));
+$b = $a/6;
+$ans = cos(pi*$a/6);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.
+
+[`\cos \left(\frac{[$a]\pi}{6}\right) =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

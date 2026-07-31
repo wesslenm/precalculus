@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-10" assembly-id="exp-additional-10">
+  <static seed="64" source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg">
+    <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle  ( - \frac{1}{4}a^{-1}b^{5})(8 a^{-3}b^{-3})</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-\frac{2b^{2}}{a^{4}}</m>
+      </p>
+    </answer>
+    <solution><m>-\frac{2b^{2}}{a^{4}}</m>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg"/>
+</webwork-reps>

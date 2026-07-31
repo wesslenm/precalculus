@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-lnproperties-7-8" assembly-id="sec-exp-lnproperties-7-8">
+  <static seed="119" source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg">
+    <statement><p>Use the Laws of logarithms to rewrite the expression
+<me>\ln\left(\frac{x^{5}\sqrt{x-1}}{3x-9}\right)</me>
+in a form with no logarithm of a product, quotient or power.</p>
+<p>After rewriting we have
+<me>\ln\left(\frac{x^{5}\sqrt{x-1}}{3x-9}\right)= A \ln x + B \ln (x-1)+ C \ln (3x-9)</me></p>
+<p>with the constant
+<m>A=</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p>the constant
+<m>B=</m> <fillin characters="25" name="AnSwEr0002"/></p>
+<p>and the constant
+<m>C=</m> <fillin characters="25" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg"/>
+</webwork-reps>

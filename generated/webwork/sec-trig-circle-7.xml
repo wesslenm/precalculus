@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-circle-7" assembly-id="sec-trig-circle-7">
+  <static seed="163">
+    <statement><p>Evaluate the following. Answer in exact form (using square roots if needed).</p>
+<p>(a) <m>\sin \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0001"/>.</p>
+<p>(b) <m>\cos \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
+<p>(c) <m>\tan \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
+<p>(d) <m>\sec \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1}{\sqrt{2}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-1}{\sqrt{2}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-\sqrt{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_37-Evaluate_at_frac3pi4__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.37)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+
+$ans1 = Compute("1/sqrt(2)")->with(
+         tolType => 'absolute',
+         tolerance => .00000000001,   );
+$ans2 = Compute("-1/sqrt(2)")->with(
+         tolType => 'absolute',
+         tolerance => .00000000001,   );
+$ans3 = Compute("-1")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans4 = Compute("-sqrt(2)")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );               
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate the following. Answer in exact form (using square roots if needed).
+
+(a) [` \sin \left(\frac{3\pi}{4}\right) =`]  [_]{$ans1}{10}.
+
+(b) [` \cos \left(\frac{3\pi}{4}\right) =`]  [_]{$ans2}{10}.
+
+(c) [` \tan \left(\frac{3\pi}{4}\right) =`]  [_]{$ans3}{10}.
+
+(d) [` \sec \left(\frac{3\pi}{4}\right) =`]  [_]{$ans4}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

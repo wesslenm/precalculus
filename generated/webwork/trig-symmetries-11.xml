@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-symmetries-11" assembly-id="trig-symmetries-11">
+  <static seed="144">
+    <statement><p>Which of the following statements are true, and which are false?</p>
+<p><ol label="a.">
+<li>
+<p><m>y=2+ \sin x</m> is an odd function. <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>y=\csc x</m> is an odd function. <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\sec \left( 3 \right) = \tan \left( -3 \right)\csc\left(-3\right)</m>  <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\tan \left( \frac{3\pi}{7} \right) = -\tan \left( -\frac{3\pi}{7} \right)</m> <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>y=\sec (x-\frac{\pi}{3})</m> is an even function. <ul form="popup" name="AnSwEr0005"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_22-Symmetries_and_properties_from_graphs__HOMEMADE__UPDATED_PLEASE_REVIEW.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.22)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "parserVectorUtils.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = random(2,9,1);
+$popuptrue = PopUp(['?','True','False'],1);
+$popupfalse = PopUp(['?','True','False'],1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following statements are true, and which are false?
+
+a.  [`y=2+ \sin x`] is an odd function. [_]{$popupfalse}{5}
+
+a.  [`y=\csc x`] is an odd function. [_]{$popuptrue}{5}
+
+a.  [`\sec \left( 3 \right) = \tan \left( -3 \right)\csc\left(-3\right)`]  [_]{$popuptrue}{5}
+
+a.  [`\tan \left( \frac{3\pi}{7} \right) = -\tan \left( -\frac{3\pi}{7} \right)`] [_]{$popuptrue}{5}
+
+a.  [`y=\sec (x-\frac{\pi}{3})`] is an even function. [_]{$popupfalse}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

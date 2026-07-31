@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-8-5" assembly-id="sec-trig-identities-8-5">
+  <static seed="187">
+    <statement><p>Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)</p>
+<p><ol label="a.">
+<li>
+<p><m>\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)</m> and <m>4\csc^2 x</m></p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>The graphs look different, so the expressions are definitely not equal</p>
+</li>
+<li>
+<p>The graphs look the same, so the expressions may be equal</p>
+</li>
+</ul></p>
+</li>
+<li>
+<p><m>\sqrt{3}\cos x+\sin x</m> and <m>2\cos\left(x-2.18\pi\right)</m></p>
+<p><ul form="buttons" name="AnSwEr0002">
+<li>
+<p>The graphs look different, so the expressions are definitely not equal</p>
+</li>
+<li>
+<p>The graphs look the same, so the expressions may be equal</p>
+</li>
+</ul></p>
+</li>
+<li>
+<p><m>\csc (2x)</m> and <m>\sec(x) \csc(x)</m></p>
+<p><ul form="buttons" name="AnSwEr0003">
+<li>
+<p>The graphs look different, so the expressions are definitely not equal</p>
+</li>
+<li>
+<p>The graphs look the same, so the expressions may be equal</p>
+</li>
+</ul></p>
+</li>
+<li>
+<p><m>\csc (2x)</m> and <m>\frac{\sec(x) \csc(x)}{2}</m></p>
+<p><ul form="buttons" name="AnSwEr0004">
+<li>
+<p>The graphs look different, so the expressions are definitely not equal</p>
+</li>
+<li>
+<p>The graphs look the same, so the expressions may be equal</p>
+</li>
+</ul></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{The graphs ... be equal}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{The graphs ... not equal}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{The graphs ... not equal}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{The graphs ... be equal}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_56-Comparing_graphs__HOMEMADE__NOT_COMPLETE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.56)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("8");
+$radio1 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],1);
+  $radio2 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],0);
+  $radio3 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],0);
+  $radio4 = RadioButtons([
+          'The graphs look different, so the expressions are definitely not equal',
+          'The graphs look the same, so the expressions may be equal',
+        ],1);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)
+
+a.  [`\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)`] and [`4\csc^2 x`]
+
+    [_]{$radio1}{5}
+
+a.  [`\sqrt{3}\cos x+\sin x`] and [`2\cos\left(x-2.18\pi\right)`]
+
+    [_]{$radio2}{5}
+
+a.  [`\csc (2x)`] and [`\sec(x) \csc(x)`]
+
+    [_]{$radio3}{5}
+
+a.  [`\csc (2x)`] and [`\frac{\sec(x) \csc(x)}{2}`]
+
+    [_]{$radio4}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

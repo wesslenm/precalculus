@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-11" assembly-id="sec-exp-intro-10-11">
+  <static seed="55" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg">
+    <statement><p>Find the product
+<me>2 \sqrt{2} \left( 5 \sqrt{12} + 7 \sqrt{6}  \right)</me>
+and express your answer in the form <m>A \sqrt{B} + C \sqrt{D},</m> <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all integers and <m>B &gt; D.</m></p>
+<p>Answer: <m>A =</m> <fillin characters="15" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="15" name="AnSwEr0002"/>, <m>C =</m> <fillin characters="15" name="AnSwEr0003"/>, and <m>D =</m> <fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2\cdot 2\cdot 5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2\cdot 2\cdot 7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg"/>
+</webwork-reps>

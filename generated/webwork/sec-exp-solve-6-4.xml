@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-6-4" assembly-id="sec-exp-solve-6-4">
+  <static seed="123" source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg">
+    <statement><p>Find the exact solution to the equation below.  <em>(Do not give a decimal approximation.)</em></p>
+<p><m>5 \ln{(2 x + 2)} = 16</m></p>
+<p><m>x =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{e^{\frac{16}{5}}-2}{2}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+ 
+First we isolate the natural log: 
+
+
+<m>\ \ \ \ \ \ \ 5 \ln{(2 x + 2)} = 16</m> 
+
+
+<m>\ \ \ \ \ \ \ \ln{(2 x + 2)} = \frac{16}{5}</m> 
+
+
+Now we can rewrite in exponential form and solve for <em> x</em>: 
+
+
+<m>\ \ \ \ \ \ \ 2 x + 2 = e^{16/5}</m> 
+
+
+<m>\ \ \ \ \ \ \ 2 x = e^{16/5} - 2</m> 
+
+
+<m>\ \ \ \ \ \ \ x = \frac{ e^{16/5} - 2 }{2}</m>.
+
+
+   
+
+
+Now we check our solution: 
+
+
+<m>\ \ \ \ \ \ \ 5 \ln{ \bigg( 2 \left( \frac{ e^{16/5} - 2 }{2} \right) + 2 \bigg) } = 5 \ln{ \left( (e^{16/5} - 2) + 2 \right)}</m> 
+
+
+<m>\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ = 5 \ln{(e^{16/5})} = 5 \cdot \left( \frac{16}{5} \right) = 16</m> 
+
+
+which is the result we want.
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg"/>
+</webwork-reps>

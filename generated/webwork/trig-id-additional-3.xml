@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-3" assembly-id="trig-id-additional-3">
+  <static seed="198">
+    <statement><p>Consier the equation</p>
+<p><me>\sin(x+y) = \sin x + \sin y</me></p>
+<p>Which of the following statements are true, and which are false?</p>
+<p><ol label="a.">
+<li>
+<p>The above equation holds for all values of <m>x</m> and <m>y\text{.}</m>  <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p>The above equation holds for at least some value(s) of <m>x</m> and <m>y\text{.}</m>  <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p>The above equation holds for at least some non-zero value(s) of <m>x</m> and <m>y\text{.}</m>  <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p>The above equation is a trigonometric identity.  <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_6_1-An_identity_or_not__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.6.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],1);
+$popup4 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Consier the equation
+
+[```
+          \sin(x+y) = \sin x + \sin y
+        ```]
+
+Which of the following statements are true, and which are false?
+
+a.  The above equation holds for all values of [`x`] and [`y\text{.}`]  [_]{$popup1}{5}
+
+a.  The above equation holds for at least some value(s) of [`x`] and [`y\text{.}`]  [_]{$popup2}{5}
+
+a.  The above equation holds for at least some non-zero value(s) of [`x`] and [`y\text{.}`]  [_]{$popup3}{5}
+
+a.  The above equation is a trigonometric identity.  [_]{$popup4}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-eval-additional-4" assembly-id="trig-eval-additional-4">
+  <static seed="178" source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg">
+    <statement><p><m>\cos (\pi/3) =</m> <fillin characters="15" name="AnSwEr0001"/> and <m>\cos (-\pi/3) =</m> <fillin characters="15" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{1}{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg"/>
+</webwork-reps>

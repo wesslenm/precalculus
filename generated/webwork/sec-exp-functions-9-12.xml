@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-9-12" assembly-id="sec-exp-functions-9-12">
+  <static seed="100">
+    <statement><p>Which of the following could be the function in the graph above?</p>
+<p><me>f(x)= e^x -2</me></p>
+<p><me>g(x)= -e^x+1</me></p>
+<p><me>h(x)= 2 e^{-x} -2</me></p>
+<p><me>P(x)= 3 e^{x} -2</me></p>
+<p><me>Q(x)= \frac{1}{3} e^{x} -2</me></p>
+<p><me>R(x)= -\frac{1}{3} e^{x} +2</me></p>
+<p>Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.</p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>Function f</p>
+</li>
+<li>
+<p>Function g</p>
+</li>
+<li>
+<p>Function h</p>
+</li>
+<li>
+<p>Function P</p>
+</li>
+<li>
+<p>Function Q</p>
+</li>
+<li>
+<p>Function R</p>
+</li>
+</ul></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{Function P}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_1_5_10-Function_Expression__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.1.5.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+  $radio = RadioButtons([
+    'Function f',
+    'Function g',
+    'Function h',
+    'Function P',
+    'Function Q',
+    'Function R',
+  ],3);
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following could be the function in the graph above?
+
+[``` f(x)= e^x -2 ```]
+
+[``` g(x)= -e^x+1 ```]
+
+[``` h(x)= 2 e^{-x} -2```]
+
+[``` P(x)= 3 e^{x} -2 ```]
+
+[``` Q(x)= \frac{1}{3} e^{x} -2```]
+
+[``` R(x)= -\frac{1}{3} e^{x} +2 ```]
+
+Note: It is usually not possible to tell for sure what the expression of a function is just by looking at a graph. However, it may be possibly to rule out several of the below functions, until there is only one option that is feasible.
+
+[_]{$radio}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

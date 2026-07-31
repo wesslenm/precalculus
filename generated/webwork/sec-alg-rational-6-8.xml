@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-6-8" assembly-id="sec-alg-rational-6-8">
+  <static seed="4" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg">
+    <statement><p>Multiply and simplify your answer.
+<me>\frac{x^{2}+7x+10}{x^{2}+6x+5} \cdot \frac{x^{2}-1}{x^{2}+2x-3}</me></p>
+<p>Answer:  <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>No correct answer specified</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_17_MultDivRatExp.pg"/>
+</webwork-reps>

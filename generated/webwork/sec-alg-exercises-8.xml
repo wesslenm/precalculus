@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-8" assembly-id="sec-alg-exercises-8">
+  <static seed="27" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg">
+    <statement><p>Simplify the rational expression
+<me>\frac{1}{x^{4}} + \frac{1}{x^{6}}</me>
+in the form <m>\frac{A}{B}</m>.  Express the final result in a single fraction using positive exponents only.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>x^{2}+1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{4+2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg"/>
+</webwork-reps>

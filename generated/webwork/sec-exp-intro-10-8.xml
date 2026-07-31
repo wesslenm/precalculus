@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-8" assembly-id="sec-exp-intro-10-8">
+  <static seed="52" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg">
+    <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle   \frac{6x^{-4}y^{6}}{-3 x^{-7}y^{-1}}</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-2x^{3}y^{7}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg"/>
+</webwork-reps>

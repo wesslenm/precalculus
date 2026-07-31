@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-eval-additional-5" assembly-id="trig-eval-additional-5">
+  <static seed="179" source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg">
+    <statement><p><m>\cos (\pi/2) =</m> <fillin characters="15" name="AnSwEr0001"/> and <m>\cos (5\pi/2) =</m> <fillin characters="15" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg"/>
+</webwork-reps>

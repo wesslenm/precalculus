@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-lnproperties-5-6" assembly-id="sec-exp-lnproperties-5-6">
+  <static seed="111">
+    <statement><p>Evaluate or simplify the following as much as possible without using a calculator.
+<ol label="a.">
+<li>
+<p><m>e^{\ln(5x+2)} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p><m>e^{3\ln(x)} =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p><m>\ln(4e^{3}) =</m> <fillin characters="10" name="AnSwEr0003"/></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>5x+2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{3}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4.38629</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_29-Using_properties_to_evaluate__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.29)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+  Context("Numeric");
+ $ans1 = Formula("5x+2");
+$ans2 = Formula("x^3");
+$ans3 = Formula("3+ln(4)");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate or simplify the following as much as possible without using a calculator.
+a.  [`e^{\ln(5x+2)} = `] [_]{$ans1}{10}
+
+a.  [`e^{3\ln(x)} = `] [_]{$ans2}{10}
+
+a.  [`\ln(4e^{3}) = `] [_]{$ans3}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

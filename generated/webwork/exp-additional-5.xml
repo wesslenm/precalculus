@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-5" assembly-id="exp-additional-5">
+  <static seed="59" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg">
+    <statement><p>Express the number
+<me>\left( \frac{2^{-4}}{5^{-2}} \right)^{-1}</me>
+as a reduced fraction.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert>Note:</alert> <em>You cannot use any operations except division (/) and negation (-).</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{16}{25}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg"/>
+</webwork-reps>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-16" assembly-id="sec-alg-exercises-16">
+  <static seed="35" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg">
+    <statement><p>Select <alert>all</alert> expressions that are equivalent to  
+<me>\displaystyle y + \frac{y}{5} + \frac{5}{y}.</me>  
+There may be more than one correct answer.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>\displaystyle \frac{6 y^2 + 25}{5 y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle y + 5</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{2y + 5}{5 + y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{6 y}{5} + \frac{5}{y}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{y^2 + 25}{5 y }</m></p>
+</li>
+</var></p>
+</statement>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg"/>
+</webwork-reps>

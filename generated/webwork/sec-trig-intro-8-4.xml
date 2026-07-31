@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-intro-8-4" assembly-id="sec-trig-intro-8-4">
+  <static seed="140" source="Library/MC/Trigonometry/trig_defn-06.pg">
+    <statement><p>An angle <m>\alpha</m> in standard position has a terminal side illustrated below.  Click on the picture for a larger version.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-trig-intro-8-4-image-1.png" width="50%"/>
+<p>Using the grids provided, determine sufficiently accurate values for a point (x,y) and corresponding radius r.  Using these values, determine reasonable approximations for the following:</p>
+<p><m>\sin(\alpha)</m>  = <fillin characters="20" name="AnSwEr0001"/>.</p>
+<p><m>\cos(\alpha)</m>  = <fillin characters="20" name="AnSwEr0002"/>.</p>
+<p><m>\tan(\alpha)</m>  = <fillin characters="20" name="AnSwEr0003"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.992278</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.124035</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <solution><p>Pick any point, except the origin, on the terminal side of the angle.  I'll pick <m>(-1,-8)</m>. Use the Pythagorean Theorem to find <m>r</m>.</p>
+<p>The distance from <m>(-1,-8)</m> to the origin is 
+<me>r=\sqrt{(-1)^2+(-8)^2} = \sqrt{65} \approx 8.06226</me>  
+Plug into the definition:</p>
+<p><m>\sin(\alpha) = -8/8.06226 = -0.992278</m></p>
+<p><m>\cos(\alpha) = -1/8.06226 = -0.124035</m></p>
+<p><m>\tan(\alpha) = (-8)/(-1) = 8</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/MC/Trigonometry/trig_defn-06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/MC/Trigonometry/trig_defn-06.pg"/>
+</webwork-reps>

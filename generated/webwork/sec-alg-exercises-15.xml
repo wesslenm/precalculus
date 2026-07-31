@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-15" assembly-id="sec-alg-exercises-15">
+  <static seed="34" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg">
+    <statement><p>Perform the indicated operation.  Simplify the result, if possible.
+ <me>11 - \frac{5}{15x}</me></p>
+<p>Answer:  <fillin characters="25" name="AnSwEr0001"/></p>
+<p><url>help(entering your answer)</url></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{33x+50}{3x+5}</m>
+      </p>
+    </answer>
+    <solution><p>The LCD is <m>3x5</m>.
+<me>\begin{aligned} 
+11 - \frac{5}{15x} \amp  = \frac{11}{1} \cdot \frac{3x5}{3x5} - \frac{5}{15x} \\
+          \amp  = \frac{33x55}{3x5} - \frac{5}{3x5} \\
+          \amp  = \frac{33x+50}{3x+5}               
+\end{aligned}</me></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_28_AddSubRatExp.pg"/>
+</webwork-reps>

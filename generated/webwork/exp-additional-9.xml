@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-9" assembly-id="exp-additional-9">
+  <static seed="63" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg">
+    <statement><p>Find the product
+<me>( 9 \sqrt[3]{6})( 2 \sqrt[3]{9} )</me>
+and express your answer in simplest radical form <m>A \sqrt[3]{C}</m>, 
+where <m>A</m> and <m>C</m> are integers.</p>
+<p><m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3\cdot 9\cdot 2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg"/>
+</webwork-reps>

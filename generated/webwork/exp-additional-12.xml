@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-12" assembly-id="exp-additional-12">
+  <static seed="66" source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg">
+    <statement><p>Change the radical
+<me>\sqrt{\frac{3}{8}\;}</me>
+into simplest radical form <m>\frac{A}{B} \sqrt{C}</m>, where <m>A</m>, <m>B</m>, and <m>C</m> are all integers.</p>
+<p>Answer: <m>A =</m> <fillin characters="15" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="15" name="AnSwEr0002"/>, and <m>C =</m> <fillin characters="15" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg"/>
+</webwork-reps>

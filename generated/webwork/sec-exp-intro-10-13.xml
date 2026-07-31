@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-13" assembly-id="sec-exp-intro-10-13">
+  <static seed="57" source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg">
+    <statement><p>Simplify the following expression (do not factor)</p>
+<p><m>\displaystyle\frac{{-10x^{17}y^{9}-12x^{12}y^{7}+2x^{14}y^{4}}}{{2x^{5}y^{2}}}=</m><fillin characters="32" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-5x^{12}y^{7}-6x^{7}y^{5}+x^{9}y^{2}</m>
+      </p>
+    </answer>
+    <solution><p>We divide each term by <m>{2x^{5}y^{2}}</m> as follows</p>
+<p><m>\begin{aligned}
+    \displaystyle\frac{{-10x^{17}y^{9}-12x^{12}y^{7}+2x^{14}y^{4}}}{{2x^{5}y^{2}}}  
+    \amp  = \frac{-10x^{17}y^{9}}{2x^5y^2}+\frac{-12x^{12}y^{7}}{2x^5y^2}+\frac{2x^{14}y^{4}}{2x^5y^2}\\
+     \amp  = {\left(-{\frac{10}{2}}\right)x^{12}y^{7}+\left(-{\frac{12}{2}}\right)x^{7}y^{5}+\left({\frac{2}{2}}\right)x^{9}y^{2}}\\
+     \amp  = {-5x^{12}y^{7}-6x^{7}y^{5}+x^{9}y^{2}}\\
+    \end{aligned}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg"/>
+</webwork-reps>

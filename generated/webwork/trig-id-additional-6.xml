@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-6" assembly-id="trig-id-additional-6">
+  <static seed="201">
+    <statement><p>Write each expression in terms of only sine and cosine, and simplify as much as possible.</p>
+<p><ol label="a.">
+<li>
+<p><m>\frac{\csc x}{\sec x} - 4 \cot x=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p><m>\sec x \sin x - \tan x =</m> <fillin characters="6" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p><m>\frac{\csc x-\sin x}{\cot x\cos x} =</m> <fillin characters="1" name="AnSwEr0003"/>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\left(1-4\right)\cos\mathopen{}\left(x\right)}{\sin\mathopen{}\left(x\right)}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{1}{\sin\mathopen{}\left(x\right)}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_6_4-Write_in_terms_of_sine_and_cosine__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.6.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(2,9,1);
+$ans1 = Compute("((1-$a)cos x)/sin x");
+$ans2 = Compute("0");
+      $ans2 = Compute("1/sin x");
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sin','cos');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each expression in terms of only sine and cosine, and simplify as much as possible.
+
+a.  [`\frac{\csc x}{\sec x} - [$a] \cot x=`]  [_]{$ans1}{6}.
+
+a.  [`\sec x \sin x - \tan x = `] [_]{$ans2}{6}.
+
+a.  [`\frac{\csc x-\sin x}{\cot x\cos x} = `] [_]{$ans3}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

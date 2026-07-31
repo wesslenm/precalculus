@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-9-5" assembly-id="sec-trig-graphs-9-5">
+  <static seed="151" source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg">
+    <statement><p>Which function is described by the plot below?</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-trig-graphs-9-5-image-1.png" width="75%"/>
+<p><ol form="buttons" marker="A" name="AnSwEr0001">
+<li>
+<p><m> y = 2 \cos(2x - 1) + 1 </m></p>
+</li>
+<li>
+<p><m> y = 2 \sin(0.5x - 1) - 1 </m></p>
+</li>
+<li>
+<p><m> y = 2 \cos(0.5x - 1) + 1 </m></p>
+</li>
+<li>
+<p><m> y =0.5 \sin(2x - 1) + 1 </m></p>
+</li>
+<li>
+<p><m> y = \sin(2x + 1) + 1 </m></p>
+</li>
+<li>
+<p>none of the above</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{C}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg"/>
+</webwork-reps>

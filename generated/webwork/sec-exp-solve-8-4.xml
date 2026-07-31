@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-8-4" assembly-id="sec-exp-solve-8-4">
+  <static seed="127" source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg">
+    <statement><p>Solve each equation for <m>x</m>.</p>
+<p>(a) <m>2 \ln{x}=1</m></p>
+<p>(b) <m>e^{-x}= 10</m></p>
+<p>(a) <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>e^{0.5}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2.30258509299405</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg"/>
+</webwork-reps>

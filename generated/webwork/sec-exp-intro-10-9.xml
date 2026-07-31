@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-9" assembly-id="sec-exp-intro-10-9">
+  <static seed="53" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg">
+    <statement><p>Simplify the expression as much as possible 
+and leave it without radicals.</p>
+<p><m>\big( 125 L^{3 / 4} P \big)^{4 / 3} \big( P \big)^{-4 / 3} =</m> 
+<fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>625L</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg"/>
+</webwork-reps>

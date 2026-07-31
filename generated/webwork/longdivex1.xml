@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-longdivex1" assembly-id="longdivex1">
+  <static seed="69">
+    <statement><p><ol label="a.">
+<li>
+<p>Then <m>x^2-1</m> is called the <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>dividend</p>
+</li><li>
+<p>divisor</p>
+</li><li>
+<p>quotient</p>
+</li><li>
+<p>remainder</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>Then <m>4x^3-3x+7</m> is called the <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>dividend</p>
+</li><li>
+<p>divisor</p>
+</li><li>
+<p>quotient</p>
+</li><li>
+<p>remainder</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The quotient is <fillin characters="10" name="AnSwEr0003"/></p>
+</li>
+<li>
+<p>The remainder is <fillin characters="10" name="AnSwEr0004"/></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{divisor}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{dividend}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x+7</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_44-Setup_and_notation__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.44)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+Context("Numeric");
+$quotient = Formula("4x");
+Context("Numeric");
+$remainder = Formula("x+7");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  Then [`x^2-1`] is called the [_]{$popup}{5}.
+
+a.  Then [`4x^3-3x+7`] is called the [_]{$popup2}{5}.
+
+a.  The quotient is [_]{$quotient}{10}
+
+a.  The remainder is [_]{$remainder}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

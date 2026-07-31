@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-9" assembly-id="sec-alg-rational-10-9">
+  <static seed="18" source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg">
+    <statement><p>Perform the indicated operations on the three expressions
+<me>x + \frac{7}{x^{2}-49} - \frac{x^{2}}{x+7}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>7x^{2}-7^{2}x+7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{2}-7\cdot 7</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg"/>
+</webwork-reps>

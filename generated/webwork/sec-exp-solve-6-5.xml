@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-6-5" assembly-id="sec-exp-solve-6-5">
+  <static seed="124" source="Library/ma117DB/set8/srw4_4_41.pg">
+    <statement><p>Find the solution of the logarithmic equation
+<me>19 - \ln(2-x)=0</me>
+in terms of logarithms, or correct to four decimal places.</p>
+<p>Your answer is</p>
+<p><m>x=</m> <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-178482298.963187</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set8/srw4_4_41.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set8/srw4_4_41.pg"/>
+</webwork-reps>

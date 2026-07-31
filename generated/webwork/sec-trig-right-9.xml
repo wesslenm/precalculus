@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-right-9" assembly-id="sec-trig-right-9">
+  <static seed="166">
+    <statement><p>Evaluate <m>\sin \left({-0.5}\pi\right)</m> without using a calculator.</p>
+<p><m>\sin \left({-0.5}\pi\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_44-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.44)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(-9, 12, 1));
+$b = $a/2;
+$ans = sin(pi*$a/2);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Evaluate [`\sin \left([$b]\pi\right)`] without using a calculator.
+
+[`\sin \left([$b]\pi\right) =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

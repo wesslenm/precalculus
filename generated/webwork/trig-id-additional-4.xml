@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-4" assembly-id="trig-id-additional-4">
+  <static seed="199">
+    <statement><p>Use a graphing calculator (for example DESMOS) to sketch the graph of <m>y=8\sin x \cos x \sin (2x)\text{.}</m> Use that graph to guess values of <m>a</m> and <m>a</m> that make the below equation an identity.</p>
+<p><me>8\sin x \cos x \sin (2x) = a \sin (bx)</me></p>
+<p><ol label="a.">
+<li>
+<p><m>a =</m>    <fillin characters="6" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p><m>b =</m>    <fillin characters="6" name="AnSwEr0002"/>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_6_2-Construct_an_identity__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.6.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(3,6,1);
+$ans1 = Compute("2");
+$ans2 = Compute("4");
+
+Context()->functions->disable('All');
+Context()->functions->enable('tan');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use a graphing calculator (for example DESMOS) to sketch the graph of [`y=8\sin x \cos x \sin (2x)\text{.}`] Use that graph to guess values of [`a`] and [`a`] that make the below equation an identity.
+
+[```
+        8\sin x \cos x \sin (2x) = a \sin (bx)
+      ```]
+
+a.  [` a = `]    [_]{$ans1}{6}.
+
+a.  [` b = `]    [_]{$ans2}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

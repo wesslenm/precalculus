@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-6-14" assembly-id="sec-exp-log-6-14">
+  <static seed="103">
+    <statement><p>Write each of the following in exponential form.
+<ol label="a.">
+<li>
+<p><m>\log_2(0.25)=-2\text{.}</m></p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0001"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0002"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0003"/>.</p>
+</li>
+<li>
+<p><m>\log_{27}(1)=0\text{.}</m></p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0004"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0005"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0006"/>.</p>
+</li>
+<li>
+<p><m>\log_5 6^x=3x\text{.}</m></p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="1" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="1" name="AnSwEr0008"/> and <m>C=</m> <fillin characters="1" name="AnSwEr0009"/>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.25</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>27</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_20-Write_in_exponential_form__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.20)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+ Context("Numeric");
+ $ans1a = Formula("0.25");
+ $ans1b = Formula("2");   
+ $ans1c = Formula("-2"); 
+
+ $ans2a = Formula("1");
+ $ans2b = Formula("27");   
+ $ans2c = Formula("0");
+
+ $ans3a = Formula("6^x");
+ $ans3b = Formula("5");   
+$ans3c = Formula("3x");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each of the following in exponential form.
+a.  [`\log_2(0.25)=-2\text{.}`]
+
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
+
+a.  [`\log_{27}(1)=0\text{.}`]
+
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
+
+a.  [`\log_5 6^x=3x\text{.}`]
+
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans4a}{10} and [`B=`] [_]{$ans4b}{10} and [`C=`] [_]{$ans4c}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

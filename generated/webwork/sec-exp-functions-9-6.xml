@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-9-6" assembly-id="sec-exp-functions-9-6">
+  <static seed="94" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg">
+    <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
+<p>Which function has the largest value for <m>b</m>?
+<var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>D</p>
+</li>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>A</p>
+</li>
+</var></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-functions-9-6-image-1.png" width="66%"/>
+<p>(Click on graph to enlarge)</p>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+The function with the largest <m>b</m> should be the one that is increasing the fastest.  We note that <em> C </em> increases faster than the others, so <em> C </em> has the largest <m>b</m>.
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg"/>
+</webwork-reps>

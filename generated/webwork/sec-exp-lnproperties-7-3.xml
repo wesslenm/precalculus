@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-lnproperties-7-3" assembly-id="sec-exp-lnproperties-7-3">
+  <static seed="114" source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg">
+    <statement><p>In each part, find the value of <m>x</m> in simplest form.</p>
+<p>(a) <m>x = \ln e^{-4}</m></p>
+<p><m>x</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <m>x = \ln e^{5}</m></p>
+<p><m>x</m> = <fillin characters="10" name="AnSwEr0002"/></p>
+<p>(c) <m>x = \ln (1/e)</m></p>
+<p><m>x</m> = <fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg"/>
+</webwork-reps>

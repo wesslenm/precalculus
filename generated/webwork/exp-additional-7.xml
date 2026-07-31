@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-7" assembly-id="exp-additional-7">
+  <static seed="61" source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg">
+    <statement><p>Find <m>x</m> if <m>\displaystyle{\  \frac{(5)^x (5)^{6}}{(5)^{-3}}=(5)^{3} }</m></p>
+<p><m>x =</m><fillin characters="3" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-6</m>
+      </p>
+    </answer>
+    <solution><p>Use properties of exponents to simplify the left side of the equation<m>\displaystyle{\begin{gathered} \frac{(5)^x (5)^{6}}{(5)^{-3}} = (5)^{3} \\
+    (5)^x (5)^{6} (5)^{ + 3} = (5)^{3} \\
+    (5)^{(x+6 + 3)} = (5)^{3}\ . \end{gathered} }</m> The two sides are equal if and only if the exponents are equal, so 
+<m>\displaystyle{ x+6 + 3 = 3 }</m>. Solving for <m>x</m> one obtains <m>\displaystyle{ x = {-6} }</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg"/>
+</webwork-reps>

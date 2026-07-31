@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-5-6" assembly-id="sec-alg-rational-5-6">
+  <static seed="1" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg">
+    <statement><p>Simplify the rational expression.  
+<me>\frac{2x+6}{x^{2}-2x-15}</me>
+Answer:  <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>No correct answer specified</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg"/>
+</webwork-reps>

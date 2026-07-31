@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-9-8" assembly-id="sec-trig-graphs-9-8">
+  <static seed="154" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg">
+    <statement><p>Find a formula for the trigonometric function graphed below.
+Use <m>x</m> as the independent variable in your formula.</p>
+<p><m>f(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-trig-graphs-9-8-image-1.png" width="66%"/>
+<p><em>(Click on graph to enlarge)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>2-2\sin\mathopen{}\left(\frac{\pi }{8}x\right)</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+This function resembles a sine curve in that the graph is at its midline when <m>x = 0</m>.  Since the graph heads down and takes negative values as <m>x</m> increases from <m>x=0</m> (instead of going up), we need to use the formula <m>f(x) = - \sin{(x)}</m>.  We know that the smallest value it attains is <m>0</m>, that its midline is <m>y = 2</m>, so its amplitude is <m>2</m> as well.  Thus in the equation <m>f(x) = -A \sin{(Bx)} + k</m> we know that  <m>A = 2</m> and <m>k = 2</m>. Since the graph has a period of <m>16</m>, the value for <m>B = \frac{2 \pi}{\mbox{period}} = \frac{2 \pi}{16} = \frac{\pi}{8}</m>.  Finally we have a formula:
+<me>f(x) =  2-2 \sin{ \left( \frac{\pi}{8} x \right) }.</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg"/>
+</webwork-reps>

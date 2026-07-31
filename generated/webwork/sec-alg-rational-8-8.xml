@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-8-8" assembly-id="sec-alg-rational-8-8">
+  <static seed="12" source="Library/ma117DB/set1b/srw1_4_39.pg">
+    <statement><p>Simplify the expression 
+<me>\frac{1+\frac{2}{c-2}}{1-\frac{2}{c-2}}</me> 
+and give your answer in the form of
+<me>\frac{f(c)}{g(c)}.</me></p>
+<p>Your answer for the function <m>f(c)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Your answer for the function <m>g(c)</m> is : <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>c</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>c-4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_39.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set1b/srw1_4_39.pg"/>
+</webwork-reps>

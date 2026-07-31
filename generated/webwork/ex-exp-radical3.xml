@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-exp-radical3" assembly-id="ex-exp-radical3">
+  <static seed="47" source="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg">
+    <statement><p>Simplify.  Assume that all expressions under radicals represent nonnegative numbers.</p>
+<p><m>\left(\sqrt{5 p}  - 7 y\right)^2 =</m>  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Write your answer using radical notation if necessary.</p>
+<p><alert>Help:</alert></p>
+</statement>
+    <answer>
+      <p>
+        <m>49y^{2}+5p-14y\sqrt{5p}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg"/>
+</webwork-reps>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-exp-div2" assembly-id="ex-exp-div2">
+  <static seed="46" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg">
+    <statement><p>Simplify the expression:</p>
+<p><m>\displaystyle  \left( \frac{6 a^{2}b^{5}}{3 a^{4}b^{-3}}\right)^{4}</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{16b^{32}}{a^{8}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg"/>
+</webwork-reps>

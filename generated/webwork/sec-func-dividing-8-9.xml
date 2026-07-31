@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-8-9" assembly-id="sec-func-dividing-8-9">
+  <static seed="81" source="Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg">
+    <statement><p>Perform the indicated division and write the quotient and remainder in the provided blanks.
+<me>(3x^{3}-11x^{2}-28x-8) \div (3x+1)</me>
+Answer: <fillin characters="20" name="AnSwEr0001"/> <m>+</m> <fillin characters="10" name="AnSwEr0002"/> <m>/ (3 x+1)</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>x^{2}-4x-8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg"/>
+</webwork-reps>

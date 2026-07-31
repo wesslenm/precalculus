@@ -2,13 +2,13 @@
 <myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="15958">
 <statement>
 <p>
-An exponential function <m>\displaystyle{f{{\left({x}\right)}}}={a}\cdot{b}^{{x}}</m> passes through the points (0, 9) and (3, 243). What are the values of <m>\displaystyle{a}</m> and <m>\displaystyle{b}</m>?</p>
+An exponential function <m>\displaystyle{f{{\left({x}\right)}}}={a}\cdot{b}^{{x}}</m> passes through the points (0, 8) and (3, 1000). What are the values of <m>\displaystyle{a}</m> and <m>\displaystyle{b}</m>?</p>
 <p>
 <m>\displaystyle{a}</m> = <fillin characters="3"/> and <m>\displaystyle{b}</m> = <fillin characters="3"/>
 </p>
 </statement>
 <answer>
-<p><ul><li>9</li><li>3</li></ul></p>
+<p><ul><li>8</li><li>5</li></ul></p>
 </answer>
 
 </myopenmath>

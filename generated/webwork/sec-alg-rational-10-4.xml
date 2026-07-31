@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-4" assembly-id="sec-alg-rational-10-4">
+  <static seed="13" source="Library/ma117DB/set1b/srw1_4_7.pg">
+    <statement><p>Simplify the expression
+<me>\frac{5 x^3-8 x^2-4 x}{4 x^2-12 x+8}</me>
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}</me>
+where <m>f(x)</m> and <m>g(x)</m> are polynomials with no common factors.</p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin characters="10" name="AnSwEr0001"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>x\mathopen{}\left(5x+2\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4x-4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_7.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set1b/srw1_4_7.pg"/>
+</webwork-reps>

@@ -1,0 +1,27 @@
+openDate          = 01/01/2027 at 12:00am
+dueDate           = 12/31/2027 at 10:00pm
+answerDate        = 12/31/2027 at 10:00pm
+paperHeaderFile   = Precalculus_review_for_UTM_students/header/2_4-Solving_with_Exponentials_and_Logarithms.pg
+screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_4-Solving_with_Exponentials_and_Logarithms.pg
+description       = Solving with Exponentials and Logarithms
+problemListV2
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg
+problem_id = 35
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg
+problem_id = 36
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg
+problem_id = 37
+problem_end
+problem_start
+source_file = Library/ma117DB/set8/srw4_4_41.pg
+problem_id = 38
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg
+problem_id = 39
+problem_end

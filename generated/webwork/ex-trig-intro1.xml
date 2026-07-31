@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-trig-intro1" assembly-id="ex-trig-intro1">
+  <static seed="136" source="Library/MC/Trigonometry/RadianTerminalPoint.pg">
+    <statement><p>For the given values of an angle <m>\alpha</m>, find the terminal point <m>P(x,y)</m> on the unit circle.</p>
+<p>(a) If <m>\alpha=\frac{\pi}{2}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0001"/> 
+                               and <m>y=</m> <fillin characters="15" name="AnSwEr0002"/>;</p>
+<p>(b) If <m>\alpha=-\frac{\pi}{2}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0003"/> 
+                               and <m>y=</m> <fillin characters="15" name="AnSwEr0004"/>;</p>
+<p>(c) If <m>\alpha=\frac{\pi}{3}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0005"/> 
+                               and <m>y=</m> <fillin characters="15" name="AnSwEr0006"/>;</p>
+<p>(d) If <m>\alpha=-\frac{\pi}{3}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0007"/> 
+                               and <m>y=</m> <fillin characters="15" name="AnSwEr0008"/>;</p>
+<p>(e) If <m>\alpha=\frac{3\pi}{4}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0009"/> 
+                               and <m>y=</m> <fillin characters="15" name="AnSwEr0010"/>;</p>
+<p>(f) If <m>\alpha=-\frac{3\pi}{4}</m>, then <m>x=</m> <fillin characters="15" name="AnSwEr0011"/> 
+                               and <m>y=</m> <fillin characters="15" name="AnSwEr0012"/>;</p>
+</statement>
+    <hint><p>For each given value of <m>\alpha</m>, draw a unit circle and the angle <m>\alpha</m> in standard position.  The point desired is where the terminal side of the angle intersects the unit circle.  Use geometric ideas to determine <m>x</m> and <m>y</m> in a manner similar to what was done in earlier sections of this course.</p>
+</hint>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.866025403784439</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.866025403784439</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.707106781186548</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.707106781186548</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.707106781186548</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.707106781186548</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/MC/Trigonometry/RadianTerminalPoint.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/MC/Trigonometry/RadianTerminalPoint.pg"/>
+</webwork-reps>

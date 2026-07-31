@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-9-10" assembly-id="sec-trig-graphs-9-10">
+  <static seed="156" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg">
+    <statement><p>Without a calculator, sketch the first two periods of the graph of the function
+<m>f(x) = -3 - 8 \cos{( 80 \pi x)}</m>.</p>
+<p>Which graph below A-E matches your sketch?
+<var form="popup">
+<li>
+<p>Choose</p>
+</li>
+<li>
+<p>D</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>E</p>
+</li>
+<li>
+<p>A</p>
+</li>
+</var></p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/sec-trig-graphs-9-10-image-1.png" width="41%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/sec-trig-graphs-9-10-image-2.png" width="41%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>A</cell>
+<cell>B</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/sec-trig-graphs-9-10-image-3.png" width="41%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/sec-trig-graphs-9-10-image-4.png" width="41%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>C</cell>
+<cell>D</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/sec-trig-graphs-9-10-image-5.png" width="41%"/>
+<p/></cell>
+<cell> </cell>
+</row>
+<row halign="center" valign="middle">
+<cell>E</cell>
+<cell> </cell>
+</row>
+</tabular>
+<p>(Click on a graph to enlarge it)</p>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+The function <m>f(x) = -3 - 8 \cos{( 80 \pi x)}</m> has midline <m>y = k = -3</m> and amplitude <m>| A | = 8</m>.  Since <m>B = 80 \pi</m>, the period is
+<me>\mbox{period} = \frac{ 2 \pi}{B} = \frac{2 \pi}{80 \pi} = \frac{1}{40}.</me>
+Since this is a cosine function with a negative value for the parameter <m>A = - 8</m>, when <m>x = 0</m> the graph is at its minimum value.  Therefore the correct answer is graph D .
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg"/>
+</webwork-reps>

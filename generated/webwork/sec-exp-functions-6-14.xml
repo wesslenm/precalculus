@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-6-14" assembly-id="sec-exp-functions-6-14">
+  <static seed="87">
+    <statement><p><ol label="a.">
+<li>
+<p>What is special about the function <m>y=e^x</m> compared to other exponential functions?</p>
+<p><ul form="buttons" name="AnSwEr0001">
+<li>
+<p>It is the largest exponential function.</p>
+</li>
+<li>
+<p>It is the smallest exponential function.</p>
+</li>
+<li>
+<p>Its slope at x=0 is exactly 1.</p>
+</li>
+<li>
+<p>Its derivative is 0.</p>
+</li>
+</ul></p>
+</li>
+<li>
+<p>Are the following statements true or false?</p>
+<p><m>y=e^x</m> is an example of an exponential function. <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+<p><m>2 \lt e \lt 3</m>  <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+<p>The graph of <m>y=e^x</m> looks very different from graphs of other exponential functions. <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+<p><m>y=e^x</m> is an important exponential function because it is easy to differentiate. <ul form="popup" name="AnSwEr0005"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{Choice 3}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_1-Exponential_Functions_Definitions_and_Graphs/2_9-The_Natural_Exponential_Function__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.9)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(3,6,1);
+$ans = Compute("$a*x^($a-1)");
+$radio = RadioButtons([
+    'It is the largest exponential function.',
+    'It is the smallest exponential function.',
+    'Its slope at x=0 is exactly 1.',
+    'Its derivative is 0.',
+  ],2);
+  $popup1 = PopUp(['?','True','False'],1);
+  $popup2 = PopUp(['?','True','False'],1);
+  $popup3 = PopUp(['?','True','False'],2);
+  $popup4 = PopUp(['?','True','False'],1);
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  What is special about the function [`y=e^x`] compared to other exponential functions?
+
+    [_]{$radio}{5}
+
+a.  Are the following statements true or false?
+
+    [`y=e^x`] is an example of an exponential function. [_]{$popup1}{5}
+
+    [`\newcommand{\lt}{<}2 \lt e \lt 3`]  [_]{$popup2}{5}
+
+    The graph of [`y=e^x`] looks very different from graphs of other exponential functions. [_]{$popup3}{5}
+
+    [`y=e^x`] is an important exponential function because it is easy to differentiate. [_]{$popup4}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

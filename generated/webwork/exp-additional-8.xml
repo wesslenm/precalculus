@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-8" assembly-id="exp-additional-8">
+  <static seed="62" source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg">
+    <statement><p>Combine radicals, if possible.  Simplify your 
+answer as much as possible.</p>
+<p><m>\sqrt[3]{5 x} + 9 \sqrt[3]{5 x} - 3 \sqrt[3]{5 x}</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>7\mathopen{}\left(5x\right)^{\frac{1}{3}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg"/>
+</webwork-reps>

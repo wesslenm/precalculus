@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-trig-graph1" assembly-id="ex-trig-graph1">
+  <static seed="146" source="Library/MC/Trigonometry/Graphing03.pg">
+    <statement><p>The graph below illustrates one complete cycle for <m>y = A\cos(Bx+c)</m> with <m>A</m> positive.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/ex-trig-graph1-image-1.png" width="66%"/>
+<p>Amplitude = <fillin characters="5" name="AnSwEr0001"/></p>
+<p>Period = <fillin characters="5" name="AnSwEr0002"/>;</p>
+<p>Phase shift = <fillin characters="5" name="AnSwEr0003"/>;</p>
+</statement>
+    <answer>
+      <p>
+        <m>2.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>12</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/MC/Trigonometry/Graphing03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/MC/Trigonometry/Graphing03.pg"/>
+</webwork-reps>

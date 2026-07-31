@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-7-11" assembly-id="sec-exp-intro-7-11">
+  <static seed="45" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg">
+    <statement><p>Simplify and write the following in exponential notation.</p>
+<p>If <m>\left( z^{ \frac{4}{5} } \cdot r^{\frac{4}{7} } \right)^{\frac{2}{3}} = z^{m} \cdot r^n</m> then <m>m =</m> <fillin characters="5" name="AnSwEr0001"/>  and  <m>n =</m> <fillin characters="5" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{8}{15}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{8}{21}}</m>
+      </p>
+    </answer>
+    <solution><p><m>\displaystyle{ \left( z^{ \frac{4}{5} } \cdot r^{\frac{4}{7} } \right)^{\frac{2}{3}} = z^{(4/5)(2/3)} r^{(4/7)(2/3)}=z^{8/15}r^{8/21}}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg"/>
+</webwork-reps>

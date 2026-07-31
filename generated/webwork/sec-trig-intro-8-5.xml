@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-intro-8-5" assembly-id="sec-trig-intro-8-5">
+  <static seed="141">
+    <statement><p>Write the expression <m>\csc x \tan x - 6\sec x</m> in terms of only sine and cosine, and simplify as much as possible.</p>
+<p><m>\csc x \tan x - 6\sec x =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+    <hint><p>Re-write each of the trigonometric functions in terms of <m>\sin x</m> and <m>\cos x\text{,}</m> then simplify. Remember that your final answer should not use any of the other trigonometric functions, only <m>\sin x</m> and/or <m>\cos x\text{.}</m></p>
+</hint>
+    <answer>
+      <p>
+        <m>\frac{1-6}{\cos\mathopen{}\left(x\right)}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_4_3-Simplify__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.4.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(2,9,1);
+$ans = Compute("(1-$a)/cos x");
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sin','cos');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write the expression [`  \csc x \tan x - [$a]\sec x `] in terms of only sine and cosine, and simplify as much as possible.
+
+[`\csc x \tan x - [$a]\sec x =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# Hint
+############################################################
+#Set value of $showHint in PGcourse.pl for course-wide attempt threshhold for revealing hints
+
+BEGIN_PGML_HINT
+Re-write each of the trigonometric functions in terms of [`\sin x`] and [`\cos x\text{,}`] then simplify. Remember that your final answer should not use any of the other trigonometric functions, only [`\sin x`] and/or [`\cos x\text{.}`]
+
+END_PGML_HINT
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

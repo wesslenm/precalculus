@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-5-6" assembly-id="sec-exp-solve-5-6">
+  <static seed="122" source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg">
+    <statement><p>Find the exact solution to the equation below. <em>(Do not give a decimal approximation.)</em></p>
+<p><me>56 e^{5 x + 2} = 24.</me></p>
+<p><m>x =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\ln\mathopen{}\left(\frac{24}{56}\right)-2}{5}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+First we isolate the exponent:
+<me>56 e^{5 x + 2} = 24</me>
+so that
+<me>e^{5 x + 2} = \frac{24}{56}.</me>
+Once the exponent isolated we use logs and solve for <m>x</m>:
+<me>\begin{aligned}
+\ln{ \left( e^{5 x + 2} \right) } \amp = \ln{(24/56)} \\
+5 x + 2 \amp = \ln{(24/56)} \\
+5 x \amp = \ln{(24/56)} - 2 \\
+x \amp = \frac{ \ln{(24/56)} - 2}{5}.
+\end{aligned}</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg"/>
+</webwork-reps>

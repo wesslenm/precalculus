@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-trig-graph2" assembly-id="ex-trig-graph2">
+  <static seed="147" source="Library/MC/Trigonometry/Graphing02.pg">
+    <statement><p>For the curve</p>
+<p><m>y = - 19 \tan(2 x - 9 )</m></p>
+<p>determine each of the following:</p>
+<p>Period = <fillin characters="15" name="AnSwEr0001"/></p>
+<p>Phase shift =  <fillin characters="15" name="AnSwEr0002"/></p>
+<p><em>
+Note:  Use a negative for a shift to the left.
+</em></p>
+</statement>
+    <hint><p>The normal period for the tangent curve is <m>\pi</m>.  For a curve of the form <m>\tan(Bx)</m> the period is found using the formula <m>\pi/B</m>.</p>
+<p>To determine the appropriate phase shift, it is often easier to determine by factoring <m>\tan(Bx+C) = \tan(B(x+\frac{C}{B})</m>.</p>
+</hint>
+    <answer>
+      <p>
+        <m>1.5707963267949</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4.5</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/MC/Trigonometry/Graphing02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/MC/Trigonometry/Graphing02.pg"/>
+</webwork-reps>

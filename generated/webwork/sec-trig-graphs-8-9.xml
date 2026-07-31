@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-8-9" assembly-id="sec-trig-graphs-8-9">
+  <static seed="145">
+    <statement><p>Compared to the graph of <m>y=\tan x\text{,}</m> the graph of <m>y=\tan (2x)</m> is compressed horizontally by a factor of <m>2\text{.}</m></p>
+<p>What is the period of <m>\tan \left(2x\right)\text{?}</m> <fillin characters="6" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\pi }{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_26-Determining_period__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.26)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+
+$a = random(2,9,1);
+$ans1 = Compute("pi/$a")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Compared to the graph of [`y=\tan x\text{,}`] the graph of [`y=\tan ([$a]x)`] is compressed horizontally by a factor of [`[$a]\text{.}`]
+
+What is the period of [` \tan \left([$a]x\right)\text{?}`] [_]{$ans1}{6}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

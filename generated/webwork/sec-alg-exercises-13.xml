@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-13" assembly-id="sec-alg-exercises-13">
+  <static seed="32" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg">
+    <statement><p>Find the least common denominator (LCD) of the rational expressions:  
+<me>\frac{6t+1}{16t^{2}+24t+9} \mbox{ and } \frac{2t+3}{16t^{2}-9}</me></p>
+<p>LCD:  <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(4t-3\right)\mathopen{}\left(4t+3\right)^{2}</m>
+      </p>
+    </answer>
+    <solution><p>The factors of the denominators are</p>
+<p><m>16t^{2}+24t+9 = \left(4t+3\right)^{2}</m></p>
+<p><m>16t^{2}-9= \left(4t+3\right)\mathopen{}\left(4t-3\right)</m></p>
+<p>Hence, the LCD is <m>\left(4t-3\right)\mathopen{}\left(4t+3\right)^{2}</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_14_AddSubRatExp.pg"/>
+</webwork-reps>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-rat" assembly-id="ex-rat">
+  <static seed="2" source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg">
+    <statement><p>Simplify the rational expression
+<me>\frac{12 a b^{4}}{21 b^{6}}</me>
+in the form <m>\frac{A}{B}.</m></p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4a</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7b^{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_1_12.pg"/>
+</webwork-reps>

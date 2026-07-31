@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-6-9" assembly-id="sec-func-dividing-6-9">
+  <static seed="68">
+    <statement><p>(Not randomizable) Suppose you have used long division to divide the polynomial <m>(7x^2 -3x + 5)</m> by <m>(x+1)\text{.}</m> Suppose you found that the remainder is <m>15</m> and the quotient  is <m>7x-10\text{.}</m> Write the result in the format of (1.3.1).</p>
+<p><fillin characters="10" name="AnSwEr0001"/> / <fillin characters="10" name="AnSwEr0002"/> = <fillin characters="10" name="AnSwEr0003"/> + <fillin characters="10" name="AnSwEr0004"/> / <fillin characters="10" name="AnSwEr0005"/></p>
+<p>Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.</p>
+</statement>
+    <answer>
+      <p>
+        <m>7x^{2}-3x+5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x+1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7x-10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>15</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x+1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_42-Interpreting_the_result__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.42)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$quot = Formula("7x-10");
+Context("Numeric");
+$remainder = Formula("15");
+        Context("Numeric");
+$f = Formula("7x^2 -3x + 5");
+                Context("Numeric");
+$g = Formula("x+1");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+(Not randomizable) Suppose you have used long division to divide the polynomial [`(7x^2 -3x + 5)`] by [`(x+1)\text{.}`] Suppose you found that the remainder is [`15`] and the quotient  is [`7x-10\text{.}`] Write the result in the format of (1.3.1).
+
+[_]{$f}{10} / [_]{$g}{10} = [_]{$quot}{10} \+ [_]{$remainder}{10} / [_]{$g}{10}
+
+Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-6" assembly-id="sec-alg-rational-10-6">
+  <static seed="15" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg">
+    <statement><p>Select <alert>all</alert> expressions that are equivalent to 
+<me>\frac{x-2}{7 x} \cdot  \frac{x}{x^2-4}</me>
+There may be more than one correct answer.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>\displaystyle \frac{1}{7(x+2)}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{-1}{7(x-2)}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{-1}{7 x-2}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \frac{1}{7} \cdot \frac{1}{x+2}</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-23.pg"/>
+</webwork-reps>

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-intro-8-6" assembly-id="sec-trig-intro-8-6">
+  <static seed="142">
+    <statement><p><ol label="a.">
+<li>
+<p>The angle <m>\frac{5\pi}{6}</m> is <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>in Quadrant I</p>
+</li><li>
+<p>in Quadrant II</p>
+</li><li>
+<p>in Quadrant III</p>
+</li><li>
+<p>in Quadrant IV</p>
+</li><li>
+<p>not in any quadrant</p>
+</li></ul></p>
+<p>and <m>\sin \left(\frac{5\pi}{6}\right)</m> is <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>positive</p>
+</li><li>
+<p>negative</p>
+</li><li>
+<p>0</p>
+</li><li>
+<p>undefined</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The angle <m>\frac{7\pi}{4}</m> is <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>in Quadrant I</p>
+</li><li>
+<p>in Quadrant II</p>
+</li><li>
+<p>in Quadrant III</p>
+</li><li>
+<p>in Quadrant IV</p>
+</li><li>
+<p>not in any quadrant</p>
+</li></ul></p>
+<p>and <m>\sin \left(\frac{7\pi}{4}\right)</m> is <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>positive</p>
+</li><li>
+<p>negative</p>
+</li><li>
+<p>0</p>
+</li><li>
+<p>undefined</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The angle <m>\pi</m> is <ul form="popup" name="AnSwEr0005"><li>
+<p>?</p>
+</li><li>
+<p>in Quadrant I</p>
+</li><li>
+<p>in Quadrant II</p>
+</li><li>
+<p>in Quadrant III</p>
+</li><li>
+<p>in Quadrant IV</p>
+</li><li>
+<p>not in any quadrant</p>
+</li></ul></p>
+<p>and <m>\csc \left(\pi\right)</m> is <ul form="popup" name="AnSwEr0006"><li>
+<p>?</p>
+</li><li>
+<p>positive</p>
+</li><li>
+<p>negative</p>
+</li><li>
+<p>0</p>
+</li><li>
+<p>undefined</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The angle <m>-\frac{5\pi}{6}</m> is <ul form="popup" name="AnSwEr0007"><li>
+<p>?</p>
+</li><li>
+<p>in Quadrant I</p>
+</li><li>
+<p>in Quadrant II</p>
+</li><li>
+<p>in Quadrant III</p>
+</li><li>
+<p>in Quadrant IV</p>
+</li><li>
+<p>not in any quadrant</p>
+</li></ul></p>
+<p>and <m>\cos \left(-\frac{5\pi}{6}\right)</m> is <ul form="popup" name="AnSwEr0008"><li>
+<p>?</p>
+</li><li>
+<p>positive</p>
+</li><li>
+<p>negative</p>
+</li><li>
+<p>0</p>
+</li><li>
+<p>undefined</p>
+</li></ul>.</p>
+</li>
+<li>
+<p>The angle <m>\frac{15\pi}{14}</m> is <ul form="popup" name="AnSwEr0009"><li>
+<p>?</p>
+</li><li>
+<p>in Quadrant I</p>
+</li><li>
+<p>in Quadrant II</p>
+</li><li>
+<p>in Quadrant III</p>
+</li><li>
+<p>in Quadrant IV</p>
+</li><li>
+<p>not in any quadrant</p>
+</li></ul></p>
+<p>and <m>\sec \left(\frac{15\pi}{14}\right)</m> is <ul form="popup" name="AnSwEr0010"><li>
+<p>?</p>
+</li><li>
+<p>positive</p>
+</li><li>
+<p>negative</p>
+</li><li>
+<p>0</p>
+</li><li>
+<p>undefined</p>
+</li></ul>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{in Quadrant II}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{in Quadrant IV}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{negative}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{not in any quadrant}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{undefined}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{in Quadrant III}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{negative}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{in Quadrant I}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_1_4_4-Quadrant_and_sign__HOMEMADE__UPDATED_PLEASE_CHECK.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.1.4.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup1quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],2);
+$popup1sign = PopUp(['?','positive','negative','0','undefined'],1);
+        $popup2quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV', 'not in any quadrant'],4);
+$popup2sign = PopUp(['?','positive','negative','0','undefined'],2);
+        $popup3quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],5);
+$popup3sign = PopUp(['?','positive','negative','0','undefined'],4);
+        $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],3);
+$popup4sign = PopUp(['?','positive','negative','0','undefined'],2);
+        $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],1);
+$popup5sign = PopUp(['?','positive','negative','0','undefined'],1);
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  The angle [`\frac{5\pi}{6}`] is [_]{$popup1quadrant}{5}
+
+    and [`\sin \left(\frac{5\pi}{6}\right)`] is [_]{$popup1sign}{5}.
+
+a.  The angle [`\frac{7\pi}{4}`] is [_]{$popup2quadrant}{5}
+
+    and [`\sin \left(\frac{7\pi}{4}\right)`] is [_]{$popup2sign}{5}.
+
+a.  The angle [`\pi`] is [_]{$popup3quadrant}{5}
+
+    and [`\csc \left(\pi\right)`] is [_]{$popup3sign}{5}.
+
+a.  The angle [`-\frac{5\pi}{6}`] is [_]{$popup4quadrant}{5}
+
+    and [`\cos \left(-\frac{5\pi}{6}\right)`] is [_]{$popup4sign}{5}.
+
+a.  The angle [`\frac{15\pi}{14}`] is [_]{$popup5quadrant}{5}
+
+    and [`\sec \left(\frac{15\pi}{14}\right)`] is [_]{$popup5sign}{5}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

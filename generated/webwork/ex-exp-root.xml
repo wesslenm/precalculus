@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-exp-root" assembly-id="ex-exp-root">
+  <static seed="41" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg">
+    <statement><p>Evaluate the following without a calculator.
+Simplify your answers as much as possible.</p>
+<p>(a) <m>27^{4/3} =</m>
+<fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <m>25^{3/2} =</m>
+<fillin characters="10" name="AnSwEr0002"/></p>
+<p>(c) <m>100^{7 / 2} =</m>
+<fillin characters="10" name="AnSwEr0003"/></p>
+<p>(d) <m>\sqrt[3]{-64} =</m>
+<fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>81</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>125</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1\times 10^{7}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-4</m>
+      </p>
+    </answer>
+    <solution><alert> SOLUTION </alert>
+
+
+
+(a) <m>27^{4/3} = 3^4 = 81</m>.
+
+
+
+(b) <m>25^{3/2} = 5^3 = 125</m>.
+
+
+
+(c) <m>100^{7 / 2} = 10^{7} = 1\times 10^{7}</m>.
+
+
+
+(d) <m>\sqrt[3]{-64} = -4</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg"/>
+</webwork-reps>

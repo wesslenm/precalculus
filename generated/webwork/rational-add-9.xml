@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rational-add-9" assembly-id="rational-add-9">
+  <static seed="9" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg">
+    <statement><p>Perform the indicated operation.  Note that the denominators
+are the same.  Simplify the result, if possible.
+<me>\frac{y^{2}}{y^{2}-25} + \frac{25-10y}{y^{2}-25}</me></p>
+<p>Answer:  <fillin characters="25" name="AnSwEr0001"/></p>
+<p><url>help(entering your answer)</url></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{y-5}{y+5}</m>
+      </p>
+    </answer>
+    <solution><p>The denominators are equal.  Add the numerators. Factor and reduce.
+<me>\begin{aligned}
+\frac{y^{2}}{y^{2}-25} + \frac{25-10y}{y^{2}-25}  \amp  = \frac{y^2 + 25 - 10 y}{y^2 - 25} \amp  \\
+                \amp  = \frac{y^2 - 10 y + 25}{y^2 - 25}  \amp  \\
+                \amp  = \frac{(y - 5)(y - 5)}{(y + 5)(y - 5)} \amp  \mbox{Reduce common factors}\\
+                \amp  = \frac{y-5}{y+5}
+\end{aligned}</me></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_04_AddSubRatExp.pg"/>
+</webwork-reps>

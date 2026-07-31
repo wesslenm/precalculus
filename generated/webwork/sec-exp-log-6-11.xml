@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-6-11" assembly-id="sec-exp-log-6-11">
+  <static seed="102">
+    <statement><p>Write each of the following in logarithmic form.
+<ol label="a.">
+<li>
+<p><m>10^2=100\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{10} B</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0001"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p><m>144^{-0.5}=\frac{1}{12}\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{144} B</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0003"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0004"/>.</p>
+</li>
+<li>
+<p><m>64^{x}=4\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{64} B</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0005"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0006"/>.</p>
+</li>
+<li>
+<p><m>18^0=1\text{.}</m></p>
+<p>This is equivalent to <m>A =\log_{18} B</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0008"/>.</p>
+</li>
+<li>
+<p><m>512^{x}=8\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{512}B</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0009"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0010"/>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>100</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.0833333</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_18-Write_in_logarithmic_form__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.18)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "contextLimitedRadical.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+    Context("LimitedRadical");
+    $ans1a = Formula("2");
+Context("LimitedRadical");
+    $ans1b = Formula("100");
+              Context("Numeric");
+    $ans2a = Formula("-0.5");
+             Context("Numeric");
+    $ans2b = Formula("1/12");        
+    Context("LimitedRadical");
+    $ans3b = Formula("4");
+    Context("Numeric");
+    $ans3a = Formula("x");      
+    Context("LimitedRadical");
+    $ans4b = Formula("1");
+    Context("LimitedRadical");
+    $ans4a = Formula("0");
+    Context("LimitedRadical");
+    $ans5b = Formula("8");
+    Context("Numeric");
+    $ans5a = Formula("x");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each of the following in logarithmic form.
+a.  [`10^2=100\text{.}`]
+
+    This is equivalent to [`A = \log_{10} B`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10}.
+
+a.  [`144^{-0.5}=\frac{1}{12}\text{.}`]
+
+    This is equivalent to [` A = \log_{144} B`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10}.
+
+a.  [`64^{x}=4\text{.}`]
+
+    This is equivalent to [` A = \log_{64} B`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10}.
+
+a.  [`18^0=1\text{.}`]
+
+    This is equivalent to [` A =\log_{18} B`] where [`A=`] [_]{$ans4a}{10} and [`B=`] [_]{$ans4b}{10}.
+
+a.  [`512^{x}=8\text{.}`]
+
+    This is equivalent to [` A = \log_{512}B`] where [`A=`] [_]{$ans5a}{10} and [`B=`] [_]{$ans5b}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

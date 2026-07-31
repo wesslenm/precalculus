@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-general-code-17" assembly-id="sec-general-code-17">
+  <static seed="247">
+    <statement><p>Write the expression <m>4 \csc \theta \tan \theta - 2\sec \theta</m> in terms of only sine and cosine, and simplify as much as possible.</p>
+<p><m>\csc \theta \tan \theta - 2\sec \theta =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>4x^{4-1}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/5-DELETE__temporary/5_1-Code_bank_and_trials/5_10-Simplifying.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(5.10)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$a = random(3,6,1);
+$ans = Compute("$a*x^($a-1)");
+
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write the expression [` [$a] \csc \theta \tan \theta - 2\sec \theta `] in terms of only sine and cosine, and simplify as much as possible.
+
+[`\csc \theta \tan \theta - 2\sec \theta =`]  [_]{$ans}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

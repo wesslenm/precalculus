@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-exercises-10" assembly-id="sec-alg-exercises-10">
+  <static seed="29" source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg">
+    <statement><p>Add the two rational expressions
+<me>\frac{2x-1}{2x^{2}} + \frac{5\mathopen{}\left(x-2\right)}{2x^{2}}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(2+5\right)x-2\cdot 5-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2x^{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_3_18.pg"/>
+</webwork-reps>

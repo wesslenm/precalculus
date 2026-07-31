@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-9-4" assembly-id="sec-trig-identities-9-4">
+  <static seed="189">
+    <statement><p>Which of the following statements are true, and which are false?</p>
+<p><ol label="a.">
+<li>
+<p><m>\cos\left( \frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = \cos\left(\pi\right)</m> <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\sin x \csc x = 1</m> <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\frac{1}{\sin x + \cos x} = \csc x + \sec x</m> <ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>(\sin x)^2 = \sin (x^2)</m> <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x</m> <ul form="popup" name="AnSwEr0005"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\sin (4x) + \sin (4x) = \sin (8x)</m> <ul form="popup" name="AnSwEr0006"><li>
+<p>?</p>
+</li><li>
+<p>True</p>
+</li><li>
+<p>False</p>
+</li></ul></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{True}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{False}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_4_5_2-True_or_False__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.4.5.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+      Context("Numeric");
+      $a = random(3,6,1);
+      $ans = Compute("$a*x^($a-1)");
+$popup1 = PopUp(['?','True','False'],2);
+$popup2 = PopUp(['?','True','False'],1);
+$popup3 = PopUp(['?','True','False'],2);
+$popup4 = PopUp(['?','True','False'],2);
+$popup5 = PopUp(['?','True','False'],1);
+$popup6 = PopUp(['?','True','False'],2);
+
+      Context()->functions->disable('All');
+      Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Which of the following statements are true, and which are false?
+
+a.  [`\cos\left( \frac{\pi}{2}\right) + \cos\left(\frac{\pi}{2}\right) = \cos\left(\pi\right)`] [_]{$popup1}{5}
+
+a.  [`\sin x \csc x = 1`] [_]{$popup2}{5}
+
+a.  [`\frac{1}{\sin x + \cos x} = \csc x + \sec x`] [_]{$popup3}{5}
+
+a.  [`(\sin x)^2 = \sin (x^2)`] [_]{$popup4}{5}
+
+a.  [`(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x `] [_]{$popup5}{5}
+
+a.  [`\sin (4x) + \sin (4x) = \sin (8x) `] [_]{$popup6}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

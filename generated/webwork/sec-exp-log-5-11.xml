@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-5-11" assembly-id="sec-exp-log-5-11">
+  <static seed="101">
+    <statement><p><ol label="a.">
+<li>
+<p><m>\log_{5}(3)</m> is read out as ``log base <fillin characters="6" name="AnSwEr0001"/>, of <fillin characters="6" name="AnSwEr0002"/><rsq/><rsq/></p>
+</li>
+<li>
+<p><m>\log_{12}(144)</m> is read out as ``log base <fillin characters="6" name="AnSwEr0003"/>, of <fillin characters="6" name="AnSwEr0004"/><rsq/><rsq/></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>12</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>144</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_16-Interpreting_Logarithms__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.16)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+  $ans1 = Real(5);
+Context("LimitedNumeric");
+  $ans2 = Real(3);
+Context("LimitedNumeric");
+  $ans3 = Real(12);
+Context("LimitedNumeric");
+  $ans4 = Real(144);
+Context()->functions->disable('All');
+Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  [` \log_{5}(3)`] is read out as ``log base [_]{$ans1}{6}, of [_]{$ans2}{6}''
+
+a.  [` \log_{12}(144)`] is read out as ``log base [_]{$ans3}{6}, of [_]{$ans4}{6}''
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

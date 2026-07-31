@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-7" assembly-id="sec-alg-rational-10-7">
+  <static seed="16" source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg">
+    <statement><p>Divide the two rational expressions 
+<me>- \frac{30 a b^{6}}{7 c} \div - \frac{3 a^2 c}{b^{3}c^{6}}.</me>
+Express your answer in simplest form <m>\frac{A}{B}</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>10b^{9}c^{4}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7a</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_4_2_22.pg"/>
+</webwork-reps>

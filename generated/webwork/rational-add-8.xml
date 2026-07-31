@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rational-add-8" assembly-id="rational-add-8">
+  <static seed="8" source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg">
+    <statement><p>Find the least common denominator (LCD) of the rational expressions:  
+<me>\frac{2y}{y^{2}-25} \mbox{ and } \frac{4}{y^{2}-5y}</me></p>
+<p>LCD:  <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>y\mathopen{}\left(y-5\right)\mathopen{}\left(y+5\right)</m>
+      </p>
+    </answer>
+    <solution><p>The factors of the denominators are</p>
+<p><m>y^{2}-25 = \left(y-5\right)\mathopen{}\left(y+5\right)</m></p>
+<p><m>y^{2}-5y = y\mathopen{}\left(y-5\right)</m></p>
+<p>Hence, the LCD is <m>y\mathopen{}\left(y-5\right)\mathopen{}\left(y+5\right)</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_12_AddSubRatExp.pg"/>
+</webwork-reps>

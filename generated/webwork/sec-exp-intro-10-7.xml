@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-7" assembly-id="sec-exp-intro-10-7">
+  <static seed="51" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
+    <statement><p>Simplify and write the following as a power of <m>x</m> with a single rational exponent.</p>
+<p>If <m>\displaystyle \frac{x^{3/4}}{x^{5/3}} = x^m</m> then <m>m =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-{\frac{11}{12}}</m>
+      </p>
+    </answer>
+    <solution><p>Recall that <m>\displaystyle{\frac{x^a}{x^b} = x^{a-b}}</m></p>
+<p>So, in this case we will need to subtract the exponents,</p>
+<p><m>\displaystyle{ \frac{3}{4} - \frac{5}{3} = {-{\frac{11}{12}}}}</m>.</p>
+<p>Therefore,</p>
+<p><m>\displaystyle \frac{x^{3/4}}{x^{5/3}} = x^{{-{\frac{11}{12}}}}</m></p>
+<p>which  means <m>m = {-{\frac{11}{12}}}</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg"/>
+</webwork-reps>

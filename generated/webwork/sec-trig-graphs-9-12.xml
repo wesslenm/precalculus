@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-9-12" assembly-id="sec-trig-graphs-9-12">
+  <static seed="158" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg">
+    <statement><p>Decide whether the following graph appears to be a periodic function.
+If so enter the value of its period in the blank.  If the graph does
+not appear to be periodic enter NONE.</p>
+<p>The period is <fillin characters="10" name="AnSwEr0001"/> (Enter NONE if not periodic.)</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-trig-graphs-9-12-image-1.png" width="66%"/>
+<p><em>(Click on graph to enlarge)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+This appears to be a periodic function.  It repeats regularly with period 1.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg"/>
+</webwork-reps>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-5-7" assembly-id="sec-exp-functions-5-7">
+  <static seed="84" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg">
+    <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
+<p>Which function has the largest value for <m>a</m>? <var form="popup">
+<li>
+<p>C</p>
+</li>
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+<li>
+<p>D</p>
+</li>
+<li>
+<p>?</p>
+</li>
+</var></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-functions-5-7-image-1.png" width="66%"/>
+<p>(Click on graph to enlarge)</p>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-intercept.  Thus, the function with the greatest <m>y</m>-intercept, <m>A</m>, has the largest <m>a</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg"/>
+</webwork-reps>

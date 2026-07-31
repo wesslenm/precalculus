@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-10" assembly-id="sec-exp-intro-10-10">
+  <static seed="54" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg">
+    <statement><p>Simplify the expression
+<me>\sqrt{192 y^{4}}</me>
+into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.  Assume <m>y\geq 0</m>.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8y^{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg"/>
+</webwork-reps>

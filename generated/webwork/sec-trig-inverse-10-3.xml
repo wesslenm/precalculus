@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-inverse-10-3" assembly-id="sec-trig-inverse-10-3">
+  <static seed="217" source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg">
+    <statement><p>State the domain and range of each of the following functions:</p>
+<p>(Enter your answers as inequalities: .
+Your domains should be inequalities in <m>x</m> and ranges, in <m>y</m>.
+As always, type <em> pi </em> for <m>\pi</m>.
+If you wish to enter <m>\infty</m>, type <em>infinity</em>.)</p>
+<p>(a) <m>f(x) = \arccos{(x)}</m> has</p>
+<p>Domain: <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Range: <fillin characters="20" name="AnSwEr0002"/></p>
+<p>(b) <m>g(x) = \arcsin{(x)}</m> has</p>
+<p>Domain: <fillin characters="20" name="AnSwEr0003"/></p>
+<p>Range: <fillin characters="20" name="AnSwEr0004"/></p>
+<p>(c) <m>h(x) = \arctan{(x)}</m> has</p>
+<p>Domain: <fillin characters="20" name="AnSwEr0005"/></p>
+<p>Range: <fillin characters="20" name="AnSwEr0006"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1\le x\le 1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0\le y\le \pi </m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1\le x\le 1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-\pi }{2}\le y\le \frac{\pi }{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-\infty  &lt; x &lt; \infty </m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-\pi }{2} &lt; y &lt; \frac{\pi }{2}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) The domain of <m>f</m> is <m>-1 \le x \le 1</m>, so <m>\arccos{(x)}</m> is
+defined only if <m>x</m> is between <m>-1</m> and <m>1</m> inclusive.
+The range is between <m>0</m> and <m>\pi</m> inclusive.
+
+
+
+(b) The domain of <m>g</m> is <m>-1 \le x \le 1</m>, so <m>\arcsin{(x)}</m> is
+defined only if <m>x</m> is between <m>-1</m> and <m>1</m> inclusive.
+The range is between <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2}</m> inclusive.
+
+
+
+(c) The domain of <m>h</m> is all real numbers, so <m>\arctan{(x)}</m> is
+defined for all values of <m>x</m>.
+The range is between but not including <m>-\frac{\pi}{2}</m> and <m>\frac{\pi}{2}</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg"/>
+</webwork-reps>

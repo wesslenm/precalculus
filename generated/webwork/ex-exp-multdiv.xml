@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-exp-multdiv" assembly-id="ex-exp-multdiv">
+  <static seed="39" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg">
+    <statement><p>Rewrite the following using a single exponent.</p>
+<p><m>\displaystyle \frac{4^a 6^a}{24^b} = 24^x</m> for <m>x</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>a-b</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg"/>
+</webwork-reps>

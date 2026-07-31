@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-6-14" assembly-id="sec-func-dividing-6-14">
+  <static seed="70">
+    <statement><p>(Not randomizable) Use long division to find the quotient and remainder when</p>
+<p><me>2x^2+5x-3</me></p>
+<p>is divided by</p>
+<p><me>x-3.</me></p>
+<p>The quotient is <fillin characters="10" name="AnSwEr0001"/></p>
+<p>The remainder is <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2x+11</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>30</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_45-Long_division_with_quadratic_dividend__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.45)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$quot = Formula("2x+11");
+Context("Numeric");
+$remainder = Formula("30");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+(Not randomizable) Use long division to find the quotient and remainder when
+
+[```
+            2x^2+5x-3
+          ```]
+
+is divided by
+
+[```
+            x-3.
+           ```]
+
+The quotient is [_]{$quot}{10}
+
+The remainder is [_]{$remainder}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

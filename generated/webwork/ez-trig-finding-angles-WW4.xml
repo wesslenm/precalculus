@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ez-trig-finding-angles-WW4" assembly-id="ez-trig-finding-angles-WW4">
+  <static seed="242" source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg">
+    <statement><p>Use the properties of exponents to simplify the following</p>
+<p><m>{r^{17}}\cdot{r^{20}} =</m>
+<fillin characters="12" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>r^{37}</m>
+      </p>
+    </answer>
+    <solution><p>We <em>add</em> the exponents as follows</p>
+<p><m>\begin{aligned}
+           r^{17}\cdot r^{20}\amp =r^{17+20}\\
+                             \amp =r^{37}
+       \end{aligned}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg"/>
+</webwork-reps>

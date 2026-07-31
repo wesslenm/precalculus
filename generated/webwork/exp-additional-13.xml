@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-13" assembly-id="exp-additional-13">
+  <static seed="67" source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg">
+    <statement><p>Simplify the expression
+<me>5 \sqrt[3]{3} \left( 4 \sqrt[3]{9} + 6 \sqrt[3]{7} \right)</me>
+and express your answer in the simplest radical form <m>A+ B \sqrt[3]{C},</m> where <m>A,</m> <m>B,</m> and <m>C</m> are integers.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/>, <m>B =</m> <fillin characters="20" name="AnSwEr0002"/>, and <m>C =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4\cdot 5\cdot 3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5\cdot 6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7\cdot 3</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg"/>
+</webwork-reps>

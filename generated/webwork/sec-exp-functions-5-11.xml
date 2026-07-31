@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-5-11" assembly-id="sec-exp-functions-5-11">
+  <static seed="86" source="Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg">
+    <statement><p>Are the functions given below exponential functions?</p>
+<p><ol>
+<li>
+<p><m>Q = t\cdot 12^4</m></p>
+</li>
+<li>
+<p><m>Q = 0.5\cdot 3^{0.75t}</m></p>
+</li>
+<li>
+<p><m>Q = 12 \cdot 4^t</m></p>
+</li>
+<li>
+<p><m>Q = 14t^{12}</m></p>
+</li>
+<li>
+<p><m>Q = 3^t + 2^t</m></p>
+</li>
+<li>
+<p><m>Q = 2 / 0.2^t</m></p>
+</li>
+</ol></p>
+</statement>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Algebra/10-1-Exponential-Functions/MCH1-10-1-1thru4.pg"/>
+</webwork-reps>

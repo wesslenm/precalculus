@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ex-exp-numbers" assembly-id="ex-exp-numbers">
+  <static seed="37" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg">
+    <statement><p>Evaluate: <m>\displaystyle \frac{ 2^{5} }{ 2^{2} } =</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>Note: Your answer should be completely simplified.
+Unsimplified answers will not be accepted.</p>
+</statement>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg"/>
+</webwork-reps>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-12" assembly-id="sec-exp-intro-10-12">
+  <static seed="56" source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg">
+    <statement><p>Simplify and write the following as a power of <m>q</m> using a single rational exponent.</p>
+<p>If <m>\dfrac{ \sqrt{q^{5}}  \sqrt[6]{q^{5}}   }{~ \sqrt[3]{q^{5}} ~}   = q^m</m> then  <m>m =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{5}{3}}</m>
+      </p>
+    </answer>
+    <solution><p>Recall the properties of exponents:</p>
+<p><m>\displaystyle{\frac{x^a}{x^b} = x^{a-b}}</m></p>
+<p><m>\displaystyle{\sqrt[m]{x^n} = x^{\frac{n}{m}}}</m></p>
+<p><m>\displaystyle{x^mx^n = x^{m+n}}</m></p>
+<p>Using those properties, we can simplify the expression:</p>
+<p><m>\begin{aligned}
+  \dfrac{ \sqrt{q^{5}}  \sqrt[6]{q^{5}}   }{~ \sqrt[3]{q^{5}} ~}   \amp = \frac{q^{\frac{5}{2}} q^{\frac{5}{6}}}{q^{\frac{5}{3}}}\\
+\amp =\frac{q^{\frac{5}{2} +\frac{5}{6}}}{q^{\frac{5}{3}}}   \\
+\amp =\frac{q^{{{\frac{10}{3}}}}}{q^{\frac{5}{3}}}\\
+\amp =q^{{{\frac{5}{3}}}}
+\end{aligned}</m></p>
+<p>So, <m>m= {{\frac{5}{3}}}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg"/>
+</webwork-reps>

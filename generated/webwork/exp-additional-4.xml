@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-4" assembly-id="exp-additional-4">
+  <static seed="58" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
+    <statement><p>Simplify each expression as much as possible
+and leave it without radicals.</p>
+<p>(a) <m>\sqrt{ w^{4} x^{8} } =</m>
+<fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <m>\sqrt[3]{ 125 w^{6} } =</m>
+<fillin characters="10" name="AnSwEr0002"/></p>
+<p>(c) <m>\sqrt{25 x^{6} y^{2} } =</m>
+<fillin characters="10" name="AnSwEr0003"/></p>
+<p>(d) <m>\sqrt{ 18 w^{5} y^{8} } \sqrt{ 2 y^{8} w^{3} } =</m>
+<fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>w^{2}x^{4}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5w^{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5x^{3}y^{1}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6w^{4}y^{8}</m>
+      </p>
+    </answer>
+    <solution><alert> SOLUTION </alert>
+
+
+
+(a) <m>\sqrt{ w^{4} x^{8} } = (w^{4} x^{8})^{1/2} =
+       w^{4/2} x^{8/2} = w^{2}x^{4}</m>.
+
+
+
+(b) <m>\sqrt[3]{ 125 w^{6} } = (125 w^{6})^{1/3} = 125^{1/3} w^{6/3} =
+       5w^{2}</m>.
+
+
+
+(c) <m>\sqrt{25 x^{6} y^{2} } = (25 x^{6} y^{2})^{1/2} =
+       5x^{3}y^{1}</m>.
+
+
+
+(d) <m>\sqrt{ 18 w^{5} y^{8} } \sqrt{ 2 y^{8} w^{3} } =
+       \sqrt{ (18 w^{5} y^{8})\cdot (2 y^{8} w^{3}) } =
+       ( 36 w^{8} y^{16} )^{1/2} =
+       6w^{4}y^{8}</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg"/>
+</webwork-reps>

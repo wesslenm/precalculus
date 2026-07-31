@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-8-8" assembly-id="sec-func-dividing-8-8">
+  <static seed="80" source="Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg">
+    <statement><p>Use long division to find the quotient and remainder when 
+<me>f(x)=-1 x^5  - 6 x^4 + 9 x^3 + 3 x^2 + 7 x  - 9</me>
+is divided by <me>g(x)=-7 x^2  - 4 x + 7.</me></p>
+<p>The quotient is <fillin characters="20" name="AnSwEr0001"/>.</p>
+<p>The remainder is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>0.142857x^{3}+0.77551x^{2}+\left(-1.58601\right)x+1.25323</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>23.115x+\left(-17.7726\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg"/>
+</webwork-reps>

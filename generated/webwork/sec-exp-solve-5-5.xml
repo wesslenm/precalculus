@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-5-5" assembly-id="sec-exp-solve-5-5">
+  <static seed="121" source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg">
+    <statement><p>Use logarithms to find an exact solution to the equation below.</p>
+<p><m>e^{0.08 t} = 22</m></p>
+<p><m>t =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\ln\mathopen{}\left(22\right)}{0.08}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Using the log rules, we have
+<me>\begin{aligned}
+e^{0.08 t} \amp = 22 \\
+\ln{ \left( e^{0.08 t} \right)} \amp = \ln{(22)} \\
+0.08 t \amp = \ln{(22)} \\
+t \amp = \frac{\ln{(22)}}{0.08}
+\end{aligned}</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg"/>
+</webwork-reps>

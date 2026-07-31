@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exp-additional-11" assembly-id="exp-additional-11">
+  <static seed="65" source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg">
+    <statement><p>Assume that <m>a</m> and <m>b</m> represent positive real numbers.  Simplify the expression
+<me>-5 \sqrt{28 a^{7} b^{2}}</me>
+into the simplest radical form <m>A \sqrt{C}</m>, where <m>A</m> and <m>C</m> are either integers or monomials.</p>
+<p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>C =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2\cdot \left(-5\right)a^{\frac{7-1}{2}}b^{\frac{2}{2}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7a</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg"/>
+</webwork-reps>

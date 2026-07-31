@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-10-3" assembly-id="sec-exp-solve-10-3">
+  <static seed="134" source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg">
+    <statement><p>Solve each inequality for <m>x</m>.</p>
+<p>(a) <m>e^x \lt  9</m></p>
+<p>(b) <m>\ln{x}&gt;-6</m></p>
+<p>(a) <m>x \lt </m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) <m>x &gt;</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2.19722</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>e^{-6}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg"/>
+</webwork-reps>

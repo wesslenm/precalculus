@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-13" assembly-id="sec-alg-rational-10-13">
+  <static seed="22" source="Library/ma117DB/set1b/srw1_4_45.pg">
+    <statement><p>Simplify the expression 
+<me>\frac{1}{1+x^n} + \frac{1}{1+x^{-n}}.</me></p>
+<p>Your answer is : <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_45.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set1b/srw1_4_45.pg"/>
+</webwork-reps>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-5" assembly-id="sec-exp-intro-10-5">
+  <static seed="50" source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg">
+    <statement><p>Simplify the following expression.</p>
+<p><m>\displaystyle{ {2m^{2}a^{3}\mathopen{}\left(-3m^{4}a^{2}\right)^{3}}=}</m><fillin characters="14" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-54m^{14}a^{9}</m>
+      </p>
+    </answer>
+    <solution><p><m>\displaystyle{ 
+\begin{aligned}
+   {2m^{2}a^{3}\mathopen{}\left(-3m^{4}a^{2}\right)^{3}}
+   \amp = {2m^{2}a^{3}}(-3)^{3}({m^{4}})^{3}({a^{2}})^{3} \\
+   \amp = {2m^{2}a^{3}}(-27)(m^{12})(a^{6}) \\
+   \amp = {-54m^{14}a^{9}} \\
+\end{aligned}
+    }</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
+</webwork-reps>

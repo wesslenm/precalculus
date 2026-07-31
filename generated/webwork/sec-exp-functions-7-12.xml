@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-7-12" assembly-id="sec-exp-functions-7-12">
+  <static seed="90" source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg">
+    <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" valign="top">
+<row>
+<cell>Let <em>a, b, k,</em> and <em>n</em> denote constants, and consider the exponential functions <m>e^x</m> (in blue), <m>ae^{kx}</m> (in green), and <m>be^{nx}</m> (in red) whose graphs are each labeled on the axes below.
+Which of the following statements about the values of the
+constants <m>a</m>, <m>b</m>,
+<m>k</m>, and <m>n</m> are true?
+Select all true statements and submit your answers
+<var form="checkboxes">
+<li>
+<m>b &gt; 1</m>
+</li>
+<li>
+<m>a &gt; 1</m>
+</li>
+<li>
+<m>a \lt  1</m>
+</li>
+<li>
+<m>a \lt  b</m>
+</li>
+<li>
+<m>k &gt; 1</m>
+</li>
+<li>
+<m>0 \lt  n \lt  1</m>
+</li>
+<li>
+<m>b \lt  1</m>
+</li>
+<li>
+<m>n &gt; 1</m>
+</li>
+<li>
+<m>a &gt; b</m>
+</li>
+<li>
+<m>b = 1</m>
+</li>
+<li>
+<m>n \lt  0</m>
+</li>
+<li>
+<m>k \lt  0</m>
+</li>
+<li>
+<m>0 \lt  k \lt  1</m>
+</li>
+<li>
+<m>a=1</m>
+</li>
+<li>
+<m>a = b</m>
+</li>
+</var>
+</cell>
+<cell>
+<image pi:generated="webwork/images/sec-exp-functions-7-12-image-1.png" width="66%"/>
+<p>(Click on graph to enlarge)</p></cell>
+</row>
+</tabular>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+Since the graphs of <m>a e^{kx}</m> and <m>b e^{nx}</m> have the same vertical intercept, we know <m>a=b</m>. 
+
+
+Since their  common intercept is above the vertical intercept of <m>e^{x}</m>, we know both <m>a &gt;1</m> and <m>b&gt;1</m>. 
+
+
+Since <m>a e^{kx}</m> increases as <m>x</m> increases, we know <m>k&gt;0</m>. But <m>a e^{kx}</m> increases more slowly than <m>e^{x}</m>, so <m>0\lt k\lt 1</m>. 
+
+
+Since <m>b e^{nx}</m> decreases as <m>x</m> increases, we know <m>n \lt 0</m>.
+
+
+
+All other statements are false.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg"/>
+</webwork-reps>

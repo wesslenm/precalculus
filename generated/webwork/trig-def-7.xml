@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-def-7" assembly-id="trig-def-7">
+  <static seed="137">
+    <statement><p>Use the triangle in the image and evaluate the following trigonometric quanities. Answer with exact values.</p>
+<p>(a) <m>\sin \gamma =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p>(b) <m>\cos \gamma =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
+<p>(c) <m>\cos \mu =</m>  <fillin characters="6" name="AnSwEr0003"/>.</p>
+<p>(d) <m>\tan \mu =</m>  <fillin characters="6" name="AnSwEr0004"/>.</p>
+<p>(e) <m>\sin \mu =</m>  <fillin characters="6" name="AnSwEr0005"/>.</p>
+<p>(f) <m>\tan \gamma =</m>  <fillin characters="6" name="AnSwEr0006"/>.</p>
+<p>(g) <m>\left(\tan \gamma \right) \left(\cos \mu \right) \left(\sin \mu \right) =</m>  <fillin characters="6" name="AnSwEr0007"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{33}{65}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{56}{65}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{33}{65}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{56}{33}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{56}{65}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{33}{56}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{1089}{4225}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_1-Angles_and_Trigonometric_Definitions/3_7-Evaluating_basic_trig__HOMEMADE__NEW_PLEASE_CHECK.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(3.7)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextFraction.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Fraction");
+
+$a = random(2,9,1);
+$ans1 = Compute("33/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans2 = Compute("56/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans3 = Compute("33/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans4 = Compute("56/33")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans5 = Compute("56/65")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans6 = Compute("33/56")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+$ans7 = Compute("1089/4225")->with(
+         tolType => 'absolute',
+         tolerance => .000000000000000000001,   );
+
+   Context()->functions->disable('All');
+   Context()->functions->enable('sqrt');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Use the triangle in the image and evaluate the following trigonometric quanities. Answer with exact values.
+
+(a) [` \sin \gamma =`]  [_]{$ans1}{6}.
+
+(b) [` \cos \gamma =`]  [_]{$ans2}{6}.
+
+(c) [` \cos \mu =`]  [_]{$ans3}{6}.
+
+(d) [` \tan \mu =`]  [_]{$ans4}{6}.
+
+(e) [` \sin \mu =`]  [_]{$ans5}{6}.
+
+(f) [` \tan \gamma =`]  [_]{$ans6}{6}.
+
+(g) [` \left(\tan \gamma \right) \left(\cos \mu \right) \left(\sin \mu \right) =`]  [_]{$ans7}{6}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

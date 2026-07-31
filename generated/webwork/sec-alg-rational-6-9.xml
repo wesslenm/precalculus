@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-6-9" assembly-id="sec-alg-rational-6-9">
+  <static seed="5" source="Library/ma117DB/set1b/srw1_4_11.pg">
+    <statement><p>Simplify the expression 
+<me>\frac{x^2+7 x+10}{x^2+7 x+6}\cdot
+\frac{x^2+4 x+3}{x^2+8 x+12}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(x+5\right)\mathopen{}\left(x+3\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(x+6\right)\mathopen{}\left(x+6\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_11.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set1b/srw1_4_11.pg"/>
+</webwork-reps>

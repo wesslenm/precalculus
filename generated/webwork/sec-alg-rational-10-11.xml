@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-alg-rational-10-11" assembly-id="sec-alg-rational-10-11">
+  <static seed="20" source="Library/ma117DB/set1b/srw1_4_41.pg">
+    <statement><p>Simplify the expression 
+<me>\frac{\frac{4}{x-1}-\frac{1}{x+1}}{\frac{x}{x-1}+\frac{1}{x+1}}</me> 
+and give your answer in the form of
+<me>\frac{f(x)}{g(x)}.</me></p>
+<p>Your answer for the function <m>f(x)</m> is : <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Your answer for the function <m>g(x)</m> is : <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3x+4+1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{2}+2x-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma117DB/set1b/srw1_4_41.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma117DB/set1b/srw1_4_41.pg"/>
+</webwork-reps>

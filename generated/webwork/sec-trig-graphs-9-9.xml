@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-graphs-9-9" assembly-id="sec-trig-graphs-9-9">
+  <static seed="155" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg">
+    <statement><p>Suppose <m>y = -2 \cos{ (4 t + 11 )} - 4</m>. In your answers, enter <em>pi</em> for <m>\pi</m>.</p>
+<p>What is the horizontal shift? <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-11}{4}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+ To find the horizontal shift, we factor out a 4 within the cosine function, giving us
+<me>y = -2 \cos{ (4 t + 11 )} - 4 = -2 \cos{ \big( 4 (t + \frac{11}{4}) \big) } - 4</me>
+Thus, the horizontal shift is  <m>-\frac{11}{4}</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg"/>
+</webwork-reps>

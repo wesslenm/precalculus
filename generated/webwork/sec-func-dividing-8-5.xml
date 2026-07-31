@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-8-5" assembly-id="sec-func-dividing-8-5">
+  <static seed="77">
+    <statement><p><ol label="a.">
+<li>
+<p>The dividend is <fillin characters="10" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p>The divisor is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</li>
+<li>
+<p>The quotient is <fillin characters="10" name="AnSwEr0003"/>.</p>
+</li>
+<li>
+<p>The remainder is <fillin characters="10" name="AnSwEr0004"/>.</p>
+</li>
+<li>
+<p>The result of the long division can be written in the following format</p>
+<p><me>\frac{f(x)}{g(x)} = h(x) + \frac{m(x)}{n(x)}</me></p>
+<p>What are each of the polynomials in this example?</p>
+<p><m>f(x) =</m> <fillin characters="10" name="AnSwEr0005"/></p>
+<p><m>g(x) =</m> <fillin characters="10" name="AnSwEr0006"/></p>
+<p><m>h(x) =</m> <fillin characters="10" name="AnSwEr0007"/></p>
+<p><m>m(x) =</m> <fillin characters="10" name="AnSwEr0008"/></p>
+<p><m>n(x) =</m> <fillin characters="10" name="AnSwEr0009"/></p>
+</li>
+</ol></p>
+<p>Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.</p>
+</statement>
+    <answer>
+      <p>
+        <m>4x^{3}-3x+7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{2}-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x+7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4x^{3}-3x+7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{2}-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x+7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x^{2}-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/1-Algebra/1_3-Dividing_Polynomials/1_3_4_4-Interpreting_results__HOMEMADE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.3.4.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserPopUp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("Numeric");
+$popup = PopUp(['?','dividend','divisor','quotient','remainder'],2);
+$popup2 = PopUp(['?','dividend','divisor','quotient','remainder'],1); 
+Context("Numeric");
+$quotient = Formula("4x");
+Context("Numeric");
+$remainder = Formula("x+7");
+$dividend = Formula("4x^3-3x+7");
+$divisor = Formula("x^2-1");
+$f = Formula("4x^3-3x+7");
+$g = Formula("x^2-1");
+$h = Formula("4x");
+$m = Formula("x+7");
+$n = Formula("x^2-1");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+a.  The dividend is [_]{$dividend}{10}.
+
+a.  The divisor is [_]{$divisor}{10}.
+
+a.  The quotient is [_]{$quotient}{10}.
+
+a.  The remainder is [_]{$remainder}{10}.
+
+a.  The result of the long division can be written in the following format
+
+    [```
+                  \frac{f(x)}{g(x)} = h(x) + \frac{m(x)}{n(x)}
+                ```]
+
+    What are each of the polynomials in this example?
+
+    [`f(x) = `] [_]{$f}{10}
+
+    [`g(x) = `] [_]{$g}{10}
+
+    [`h(x) = `] [_]{$h}{10}
+
+    [`m(x) = `] [_]{$m}{10}
+
+    [`n(x) = `] [_]{$n}{10}
+
+Note: If the help buttons on the right side block part of the question, click somewhere else in the question to temporarily hide the buttons.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+</webwork-reps>

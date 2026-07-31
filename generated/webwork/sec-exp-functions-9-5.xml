@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-9-5" assembly-id="sec-exp-functions-9-5">
+  <static seed="93" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg">
+    <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em> A</em>, <em> B</em>, <em> C</em>, and <em> D</em>, can all be written in the form <m>y=ab^t</m>.</p>
+<p>Which two functions have the same value for <m>a</m>?
+<var form="popup">
+<li>
+<p>BC</p>
+</li>
+<li>
+<p>AB</p>
+</li>
+<li>
+<p>BD</p>
+</li>
+<li>
+<p>AC</p>
+</li>
+<li>
+<p>CD</p>
+</li>
+<li>
+<p>AD</p>
+</li>
+<li>
+<p>?</p>
+</li>
+</var></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-functions-9-5-image-1.png" width="66%"/>
+<p>(click on image to enlarge)</p>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since <m>y=a</m> when <m>t=0</m> in <m>y=ab^t</m>, <m>a</m> is the <m>y</m>-intercept.  Thus, the two functions with the same <em> y</em>-intercept, are B and D.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg"/>
+</webwork-reps>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-lnproperties-7-7" assembly-id="sec-exp-lnproperties-7-7">
+  <static seed="118" source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg">
+    <statement><p>Suppose that <m>x = \ln(A)</m> and <m>y = \ln(B)</m>.  Write the following expressions in terms of <m>x</m> and <m>y</m> <em>(so you cannot have an A or B anywhere in your answers).</em></p>
+<p>(a) <m>\ln(AB) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) <m>\ln( A^{2} \cdot \sqrt{B} ) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle \frac{ \ln(A) }{ \ln(B) } =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p>(d) <m>\displaystyle \ln \left( \frac{A}{B} \right) =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+<p>(e) <m>AB  =</m> <fillin characters="20" name="AnSwEr0005"/></p>
+<p>(f) <m>\ln(A-B)  =</m> <fillin characters="20" name="AnSwEr0006"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>x+y</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2x+\frac{1}{2}y</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{x}{y}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x-y</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>e^{x+y}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\ln\mathopen{}\left(e^{x}-e^{y}\right)</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) <m>\ln{AB} = \ln{ A } + \ln{ B } = x + y</m>
+
+
+
+(b) <me>\begin{aligned}
+\ln{(A^{2} \cdot \sqrt{B})} \amp = \ln{( A^{2})} + \ln{( \sqrt{B}) } \\
+ \amp = \ln{(A^{2})} + \ln{(B^{1/2})} \\
+ \amp = 2 \ \ln{A} + \frac{1}{2} \ \ln{B} \\
+ \amp = 2 x + \frac{y}{2}
+\end{aligned}</me>
+
+
+
+(c) <m>\frac{\ln{A}}{\ln{B}} = \frac{x}{y}</m>
+
+
+
+(d) <m>\ln{ \left( \frac{A}{B} \right) } = \ln{A} - \ln{B} = x-y</m>
+
+
+
+Since <m>x = \ln{A}</m> and <m>y = \ln{B}</m>, we can rewrite these two logarithmic equations in terms of exponents <m>A = e^x</m> and <m>B = e^x</m> respectively.  Thus:
+
+
+
+(e) <m>AB = e^x \cdot e^y = e^{x+y}</m>
+
+
+
+(f) <m>\ln(A-B)  = \ln(e^x - e^y)</m>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg"/>
+</webwork-reps>

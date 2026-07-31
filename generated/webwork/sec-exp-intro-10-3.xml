@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-intro-10-3" assembly-id="sec-exp-intro-10-3">
+  <static seed="48" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg">
+    <statement><p>Evaluate the following expressions for <m>x = 2</m>,
+<m>y = -4</m>, and <m>z = -5</m> without using
+a calculator.  Simplify your answers as much
+as possible, and enter your answers as fractions.</p>
+<tabular>
+<row>
+<cell><m>y^x</m></cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="20" name="AnSwEr0001"/></cell>
+</row>
+<row>
+<cell><m>\displaystyle \left( \frac{y}{z} \right)^x</m></cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="20" name="AnSwEr0002"/></cell>
+</row>
+<row>
+<cell><m>x^{-z}</m></cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="20" name="AnSwEr0003"/></cell>
+</row>
+</tabular>
+</statement>
+    <answer>
+      <p>
+        <m>16</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{16}{25}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>32</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg"/>
+</webwork-reps>

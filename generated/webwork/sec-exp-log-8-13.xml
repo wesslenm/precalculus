@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-8-13" assembly-id="sec-exp-log-8-13">
+  <static seed="104" source="Library/Wiley/setAnton_Section_0.5/Question32a.pg">
+    <statement><p>Find the domain and range of the function <m>\small{f(x) = 5+\ln\mathopen{}\left(x-5\right)}</m>. Write your answer using
+interval notation. Use <alert> inf </alert> for <m>\small{\infty}</m>.</p>
+<tabular>
+<row>
+<cell>Domain</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0001"/></cell>
+</row>
+<row>
+<cell>Range</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0002"/></cell>
+</row>
+</tabular>
+<p>Which of the following represents the graph of the function?</p>
+<p>(click on graph to enlarge)</p>
+<p>(a)</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-log-8-13-image-1.png" width="33%"/>
+<p>(b)</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-log-8-13-image-2.png" width="33%"/>
+<p>(c)</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-log-8-13-image-3.png" width="33%"/>
+<p>(d)</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-log-8-13-image-4.png" width="33%"/>
+<p><ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>(a)</p>
+</li><li>
+<p>(b)</p>
+</li><li>
+<p>(c)</p>
+</li><li>
+<p>(d)</p>
+</li></ul></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(5,\infty \right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(-\infty ,\infty \right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{(d)}</m>
+      </p>
+    </answer>
+    <solution><m>\small{g(x) = \ln(x)}</m> is <m>\small{(0,\infty)}</m>, and that the graph
+contains the point (1,0). The range is <m>\small{(-\infty,\infty)}</m>.
+
+
+
+
+(click on graph to enlarge)
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-log-8-13-image-5.png" width="33%"/>
+
+The graph of <m>\small{f(x) = 5+\ln\mathopen{}\left(x-5\right)}</m> represents a transformation of 5 units to the right and 5 units
+upward. This will not affect the range, but the domain will become <m>\small{\left(5,\infty \right)}</m>. The point
+(1,0) on the graph of <m>\small{g(x) = \ln(x)}</m> will correspond to the point (6,5) on the graph
+of <m>\small{f(x)}</m>, and the vertical asymptote at the <m>\small{y}</m> axis will become the vertical
+line <m>\small{x = 5}</m>. This is shown by the graph at (d).
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Wiley/setAnton_Section_0.5/Question32a.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Wiley/setAnton_Section_0.5/Question32a.pg"/>
+</webwork-reps>

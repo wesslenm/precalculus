@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-9-10" assembly-id="sec-exp-solve-9-10">
+  <static seed="133" source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg">
+    <statement><p>Find the solutions of the exponential equation
+<me>e^{2x}  -    6 e^x  +    8 =0.</me></p>
+<p>Enter your answer as a comma-separated list, and enter <em> none </em>
+if there are no solutions.</p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.693147180559945, 1.38629436111989</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg"/>
+</webwork-reps>

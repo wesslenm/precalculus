@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-func-dividing-8-7" assembly-id="sec-func-dividing-8-7">
+  <static seed="79" source="Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg">
+    <statement><p>Use long division to find the quotient and remainder when 
+<m>f(x)= -6 x^4  - 18 x^3 + 21 x^2  - 12 x + 12</m>
+is divided by <m>g(x)= 3 x + 5</m>.</p>
+<p>The quotient is <fillin characters="20" name="AnSwEr0001"/>.</p>
+<p>The remainder is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-2x^{3}+\left(-2.66667\right)x^{2}+11.4444x+\left(-23.0741\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>127.37</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg"/>
+</webwork-reps>
