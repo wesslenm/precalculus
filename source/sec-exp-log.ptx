@@ -144,7 +144,7 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so ther
     </row>
   </tabular>
 
-<exercise><title>Interpreting Logarithms - HOMEMADE</title>
+<exercise><title>Interpreting Logarithms</title>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -282,7 +282,7 @@ Notice that the base is <m>6</m> for both the logarithm and the exponential.
     </p>
   </aside>
 
- <exercise><title>Write in logarithmic form - HOMEMADE</title>
+ <exercise><title>Write in logarithmic form</title>
     <webwork>
       <pg-code>
         Context("LimitedRadical");
@@ -393,7 +393,7 @@ Notice that the base is <m>2</m> for both the logarithm and the exponential.
     </p>
   </aside>
 
- <exercise><title>Write in exponential form - HOMEMADE</title>
+ <exercise><title>Write in exponential form</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -666,7 +666,7 @@ Then move the 4, and finally the 2:
   Of course, graphs of logarithms can also be transformed (translated, stretched, compressed and reflected) just like any other type of graph. 
 </p>
 
-<exercise><title>Interactive graph activity - HOMEMADE</title>
+<exercise><title>Interactive graph activity</title>
     <p>
     Click the link to see an interactive graph of a dynamic logarithmic function. 
     Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>d</m> to see how different values of these parameters change the shape of the exponential graph.
@@ -699,7 +699,7 @@ Then move the 4, and finally the 2:
   </p>
 </exercise>
 
-  <exercise><title>A transformed logarithmic function - FROM WEBWORK</title>
+  <exercise><title>A transformed logarithmic function</title>
      <webwork source="Library/Wiley/setAnton_Section_0.5/Question32a.pg" />
   </exercise>
   </subsection>
@@ -711,7 +711,7 @@ Then move the 4, and finally the 2:
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
 
-<exercise><title>Write in exponential form - HOMEMADE</title>
+<exercise><title>Write in exponential form</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -779,7 +779,7 @@ Then move the 4, and finally the 2:
     </webwork>
   </exercise> 
 
-<exercise><title>Write in logarithmic form - HOMEMADE</title>
+<exercise><title>Write in logarithmic form</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -834,15 +834,15 @@ Then move the 4, and finally the 2:
     </webwork>
   </exercise> 
 
-  <exercise><title>Inverses - FROM WEBWORK</title>
+  <exercise><title>Inverses</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" />
   </exercise>
 
-<exercise><title>Domain - FROM WEBWORK</title>
+<exercise><title>Domain</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
   </exercise>
 
-  <exercise><title>Function characteristics - HOMEMADE - need to finish</title>
+  <exercise><title>Function characteristics  - need to finish</title>
     <introduction>
       <image source="images/log1" width="70%">
   </image>
@@ -903,7 +903,7 @@ Then move the 4, and finally the 2:
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
-   <exercise><title>Function characteristics - HOMEMADE - need to finish</title>
+   <exercise><title>Function characteristics - need to finish</title>
     <introduction>
       <image source="images/log1" width="70%">
   </image>

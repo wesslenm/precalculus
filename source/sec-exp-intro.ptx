@@ -71,7 +71,7 @@
 	Note that <xref ref="rule-one" /> is true for all positive values of <m>x</m> and all real numbers <m>a</m> and <m>b</m> (they do not need to be integers).
   </p> 
   
-  <exercise xml:id="ex-exp-CP1"><title>Simplify - FROM WEBWORK</title>
+  <exercise xml:id="ex-exp-CP1"><title>Simplify</title>
 	<webwork source="Library/PCC/BasicAlgebra/Exponents/exponentsMultiplication0.pg" />
   </exercise>
 
@@ -127,13 +127,13 @@ We can see this from previous rules:
 </md>
 </p>
 
-  <exercise xml:id="ex-exp-numbers"><title>Simplify - FROM WEBWORK</title>
+  <exercise xml:id="ex-exp-numbers"><title>Simplify</title>
 	<webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-05.pg" />
   </exercise>
-  <exercise xml:id="ex-exp-div"><title>Simplify - FROM WEBWORK</title>
+  <exercise xml:id="ex-exp-div"><title>Simplify</title>
 	<webwork source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg" />
   </exercise>
-  <exercise xml:id="ex-exp-multdiv"><title>Simplify - FROM WEBWORK</title>
+  <exercise xml:id="ex-exp-multdiv"><title>Simplify</title>
 	<webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" />
   </exercise>
 
@@ -177,7 +177,7 @@ If there are several different base numbers, we need to collect those with the s
 	</solution>
 </example>
 
-  <exercise xml:id="ex-exp-mult2"><title>Simplify - FROM WEBWORK</title>
+  <exercise xml:id="ex-exp-mult2"><title>Simplify</title>
 	<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg" />
 	<conclusion>
     	<p> 
@@ -264,11 +264,11 @@ If there are several different base numbers, we need to collect those with the s
 		</solution>
 	</example>
 	
-	  <exercise xml:id="ex-exp-root"><title>Evaluate radicals - FROM WEBWORK</title>   
+	  <exercise xml:id="ex-exp-root"><title>Evaluate radicals</title>   
 		<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-28.pg" />
 	  </exercise> 
 
-	  <exercise><title>Multiply radicals - FROM WEBWORK</title> 
+	  <exercise><title>Multiply radicals</title> 
 		<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg" />
 		<conclusion>
     	<p> 
@@ -277,7 +277,7 @@ If there are several different base numbers, we need to collect those with the s
 	</conclusion>
 	  </exercise> 
 
-	  <exercise xml:id="ex-exp-root3"><title>Multiply radicals - FROM WEBWORK</title> 
+	  <exercise xml:id="ex-exp-root3"><title>Multiply radicals</title> 
 		<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_16.pg" />
 	<conclusion>
     	<p> 
@@ -415,7 +415,7 @@ However,
 	</solution>
 </example>
 
-<exercise xml:id="ex-exp-radical2"><title>Simplify radicals - FROM WEBWORK</title> 
+<exercise xml:id="ex-exp-radical2"><title>Simplify radicals</title> 
 	<webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-04-Fractional-exponents.pg" />
 	<conclusion>
     	<p> 
@@ -424,15 +424,15 @@ However,
 	</conclusion>
   </exercise> 
 
-	<exercise><title>Double exponents - FROM WEBWORK</title> 
+	<exercise><title>Double exponents</title> 
 		<webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_mult_01.pg" />
 	  </exercise> 
 
-	  <exercise xml:id="ex-exp-div2"><title>Double exponents - FROM WEBWORK</title> 
+	  <exercise xml:id="ex-exp-div2"><title>Double exponents</title> 
 		<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_34_Exponents.pg" />
 	  </exercise> 
 
-	  <exercise xml:id="ex-exp-radical3"><title>Addition inside a bracket - FROM WEBWORK</title> 
+	  <exercise xml:id="ex-exp-radical3"><title>Addition inside a bracket</title> 
 		<webwork source="Library/Mizzou/Algebra/radicals_simplifying/foiling_05.pg" />
 			<conclusion>
     	<p> 
@@ -643,15 +643,15 @@ Let's look at a few examples of working with exponent rules. The examples use on
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="exp-additional"/>) and then come back to the Recommended Exercises.
     </p>
 
-<exercise><title>Evaluate - FROM WEBWORK</title>
+<exercise><title>Evaluate</title>
 	<webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-14-Exponent-rules.pg" />
 </exercise>
 
-<exercise><title>Evaluate - FROM WEBWORK</title>
+<exercise><title>Evaluate</title>
 	<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-32.pg" />
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/PCC/BasicAlgebra/AlgebraicProperties/ExpressionAlgebraSkill50.pg"/>
 </exercise>
 
@@ -664,11 +664,11 @@ Let's look at a few examples of working with exponent rules. The examples use on
     </p>
   </aside>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	 <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
 </exercise>
 
-<exercise><title>Multiply and divide - FROM WEBWORK</title>
+<exercise><title>Multiply and divide</title>
 	<webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_30_Exponents.pg" />
 	<conclusion>
     	<p> 
@@ -677,11 +677,11 @@ Let's look at a few examples of working with exponent rules. The examples use on
 	</conclusion>
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-62.pg" />
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<introduction>
 		<p>
 			Note: A monomial is a term of the form <m>ay^b</m> for some constants <m>a</m> and <m>b</m>.  
@@ -690,15 +690,15 @@ Let's look at a few examples of working with exponent rules. The examples use on
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_24.pg" />
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg" />
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/Mizzou/Algebra/exponents_rational/conv_rad_to_exp_two_term_frac_02.pg" />
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/PCC/BasicAlgebra/Exponents/exponentDivision145.pg" />
 </exercise>
 </exercises>
@@ -717,35 +717,35 @@ For students who want even more problems to practice, here are some additional e
 
 
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
 </exercise>
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_30.pg" />
 </exercise>
 
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-06.pg" />
 </exercise>
 
 
-<exercise><title>Solve - FROM WEBWORK</title>
+<exercise><title>Solve</title>
 	<webwork source="Library/Rochester/setAlgebra02ExponentsRadicals/nsc2s7p1.pg" />
 </exercise>
 
 
 
-<exercise><title>Add and subtract - FROM WEBWORK</title>
+<exercise><title>Add and subtract</title>
 	<webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
 </exercise>
 
-<exercise><title>Multiply - FROM WEBWORK</title>
+<exercise><title>Multiply</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_14.pg" />
 </exercise>
 
-<exercise><title>Multiply - FROM WEBWORK</title>
+<exercise><title>Multiply</title>
 	<webwork source="Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_35_Exponents_Review.pg" />
 		<conclusion>
 		<p>
@@ -756,23 +756,23 @@ For students who want even more problems to practice, here are some additional e
 
 
 
-<!-- <exercise><title>Simplify - FROM WEBWORK</title>
+<!-- <exercise><title>Simplify</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg" />
 </exercise> -->
 
 
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg" />
 </exercise>
 
-<exercise><title>Simplest radical form - FROM WEBWORK</title>
+<exercise><title>Simplest radical form</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg" />
 </exercise>
 
 
 
-<exercise><title>Simplify - FROM WEBWORK</title>
+<exercise><title>Simplify</title>
 	<webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg" />
 </exercise>
 

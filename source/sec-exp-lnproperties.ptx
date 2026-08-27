@@ -119,7 +119,7 @@ In this section we continue working with more properties of logarithms, in parti
     </solution>
   </example>
 
-<exercise><title>Using properties to evaluate - HOMEMADE</title>
+<exercise><title>Using properties to evaluate</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -319,7 +319,7 @@ It is important to understand these laws, and it is also important to understand
     </solution>
   </example>
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -442,7 +442,7 @@ $popup6 = PopUp(['?','True','False'],1);
     </solution>
   </example>
 
-<exercise><title>Write as one logarithm - HOMEMADE</title>
+<exercise><title>Write as one logarithm</title>
     <introduction>
     <p>
       (Not randomizable)
@@ -498,11 +498,11 @@ $popup6 = PopUp(['?','True','False'],1);
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
     </p>
 
-  <exercise><title>Evaluate - FROM WEBWORK</title>
+  <exercise><title>Evaluate</title>
     <webwork source="Library/Union/setFunctionLogarithmic/srw4_2_21.pg" />
   </exercise> 
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -570,7 +570,7 @@ $popup6 = PopUp(['?','True','False'],1);
   </webwork>
 </exercise>
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -637,7 +637,7 @@ $popup6 = PopUp(['?','True','False'],1);
   </webwork>
 </exercise>
 
-<exercise><title>Using properties to evaluate - HOMEMADE</title>
+<exercise><title>Using properties to evaluate</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -672,15 +672,15 @@ $popup6 = PopUp(['?','True','False'],1);
 </exercise>
 
 
-  <exercise><title>Write in terms of simpler logarithms - FROM WEBWORK</title>
+  <exercise><title>Write in terms of simpler logarithms</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q28.pg" />
   </exercise>
 
-  <exercise><title>Write in terms of simpler logarithms - FROM WEBWORK</title>
+  <exercise><title>Write in terms of simpler logarithms</title>
     <webwork source="Library/ASU-topics/setLogarithmicFunctions/srw4_3_25.pg" />
   </exercise>
 
-<exercise><title>(Challenge) Arrange by size - HOMEMADE (but idea from webwork)</title>
+<exercise><title>(Challenge) Arrange by size</title>
     <introduction>
       <p>
         (Not randomizable)

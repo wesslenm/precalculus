@@ -337,7 +337,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
     </solution>
   </example>
 
-<exercise><title>Evaluating arcsine - HOMEMADE</title>
+<exercise><title>Evaluating arcsine</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -356,7 +356,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
   </webwork>
 </exercise>
 
-<exercise><title>Evaluating arcsine - HOMEMADE</title>
+<exercise><title>Evaluating arcsine</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -375,7 +375,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
   </webwork>
 </exercise>
 
-<exercise><title>Inverse properties - HOMEMADE</title>
+<exercise><title>Inverse properties</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -394,7 +394,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
   </webwork>
 </exercise>
 
-<exercise><title>Inverse properties - HOMEMADE</title>
+<exercise><title>Inverse properties</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -691,7 +691,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     </solution>
   </example>
 
-<exercise><title>Evaluating arccos - HOMEMADE</title>
+<exercise><title>Evaluating arccos</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -710,7 +710,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </webwork>
 </exercise>
 
-<exercise><title>Evaluating arccos - HOMEMADE</title>
+<exercise><title>Evaluating arccos</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -729,7 +729,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </webwork>
 </exercise>
 
-<exercise><title>Inverse properties - HOMEMADE</title>
+<exercise><title>Inverse properties</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -748,7 +748,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
   </webwork>
 </exercise>
 
-<exercise><title>Inverse properties - HOMEMADE</title>
+<exercise><title>Inverse properties</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -902,7 +902,7 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
     </solution>
   </example>
 
-<exercise><title>Evaluating arctan - HOMEMADE</title>
+<exercise><title>Evaluating arctan</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1046,7 +1046,7 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
     </solution>
   </example>
   
- <exercise><title>Evaluating arcsec - HOMEMADE</title>
+ <exercise><title>Evaluating arcsec</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1065,7 +1065,7 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
   </webwork>
 </exercise> 
   
- <exercise><title>Evaluating arccsc - HOMEMADE</title>
+ <exercise><title>Evaluating arccsc</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1249,11 +1249,11 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="triginv-additional"/>) and then come back to the Recommended Exercises.
     </p>
 
-<exercise><title>Domain and range - FROM WEBWORK</title>
+<exercise><title>Domain and range</title>
          <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q58.pg" />
 </exercise>
 
-<exercise><title>Evaluate <m> \arccos \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccos \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1273,7 +1273,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m> </title>
         <webwork>
     <pg-code>
       Context("Numeric");
@@ -1293,7 +1293,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
 
-<exercise><title>Evaluate <m> \arcsin (-1) </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin (-1) </m> </title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1313,7 +1313,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
 
-<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arctan \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1333,7 +1333,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
     
-<exercise><title>Evaluate arcsec <m>\theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate arcsec <m>\theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1353,7 +1353,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate arccsc <m>\theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate arccsc <m>\theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1373,7 +1373,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1393,7 +1393,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1413,7 +1413,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
   </webwork>
  </exercise>
      
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1441,7 +1441,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
    
-<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1461,7 +1461,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arccos \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccos \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1481,7 +1481,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arctan \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1501,7 +1501,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arcsin (0) </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin (0) </m></title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1519,7 +1519,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arccos (-1) </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arccos (-1) </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1539,7 +1539,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arcsin \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arcsin \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1559,7 +1559,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate <m> \arctan \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m> \arctan \theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1579,7 +1579,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate  arccot <m>\theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate  arccot <m>\theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1599,7 +1599,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate arccot <m>\theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate arccot <m>\theta </m></title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1619,7 +1619,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
   
-<exercise><title>Evaluate arcsec <m>\theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate arcsec <m>\theta </m></title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1639,7 +1639,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1659,7 +1659,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
  </exercise>
       
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1678,7 +1678,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
 </exercise>
       
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
    <webwork>
     <pg-code>
       Context("Numeric");
@@ -1697,7 +1697,7 @@ For students who want even more problems to practice, here are some additional e
   </webwork>
 </exercise>
       
-<exercise><title>Evaluate a composition of trig and inverse trig - HOMEMADE</title>
+<exercise><title>Evaluate a composition of trig and inverse trig</title>
   <webwork>
     <pg-code>
       Context("Numeric");

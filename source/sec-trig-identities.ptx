@@ -250,7 +250,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </solution>
   </example>
 
-<exercise><title>Evaluate - HOMEMADE</title>
+<exercise><title>Evaluate</title>
   <introduction>
     <p>
         (Not randomizable) 
@@ -329,7 +329,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </solution>
   </example>
 
-<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+<exercise><title>Evaluate at an unknown angle</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -434,7 +434,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </solution>
   </example>
 
-<exercise><title>Simplify - HOMEMADE</title>
+<exercise><title>Simplify</title>
   <introduction>
     <p>
         (Not randomizable) 
@@ -506,7 +506,7 @@ In this section we will discuss what trigonometic identities are, and practice u
   </assemblage>
 
 
-    <example ><title>Simplify - HOMEMADE</title>
+    <example ><title>Simplify</title>
     <statement>
       <p>
       Simplify the expressions as much as possible. 
@@ -529,7 +529,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     </solution>
   </example>
 
-<exercise><title>Simplify - HOMEMADE</title>
+<exercise><title>Simplify</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -576,7 +576,7 @@ In this section we will discuss what trigonometic identities are, and practice u
   </aside>
 
 
-  <example xml:id="ex-trigreduce"><title>Simplify - HOMEMADE</title>
+  <example xml:id="ex-trigreduce"><title>Simplify</title>
     <statement>
       <p>
       Re-write the below expression so that the largest power is 1, and so that no trigonometric function is multipled by a trigonometric function. 
@@ -611,7 +611,7 @@ Now there are no powers, and no trigonometric function is multipled by a trigono
     </solution>
   </example>
 
-<exercise><title>Simplify - HOMEMADE</title>
+<exercise><title>Simplify</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -664,7 +664,7 @@ One starting point is to compare the graphs on a graphing calculator, for exampl
     But the graphs can be a gret first step to see if the expressions seem to be equal or not.
   </p>
 
-   <exercise><title>Comparing graphs - HOMEMADE - NOT COMPLETE </title>
+   <exercise><title>Comparing graphs - NOT COMPLETE </title>
   <introduction>
     <p>
       (Not randomizable)
@@ -798,7 +798,7 @@ $radio4 = RadioButtons([
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="trig-id-additional"/>) and then come back to the Recommended Exercises.
     </p>
 
-<exercise><title>Evaluate - HOMEMADE</title>
+<exercise><title>Evaluate</title>
   <introduction>
     <p>
         (Not randomizable) 
@@ -850,7 +850,7 @@ $radio4 = RadioButtons([
   </webwork>
 </exercise>
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -915,7 +915,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
- <exercise><title>Write in terms of sine and cosine - HOMEMADE</title>
+ <exercise><title>Write in terms of sine and cosine</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -953,7 +953,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
- <exercise><title>Simplify a product - HOMEMADE</title>
+ <exercise><title>Simplify a product</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -975,7 +975,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Simplify two quotients - HOMEMADE</title>
+<exercise><title>Simplify two quotients</title>
   <introduction>
     <p>
     (Not randomizable)
@@ -1000,7 +1000,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+<exercise><title>Evaluate at an unknown angle</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -1026,7 +1026,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+<exercise><title>Evaluate at an unknown angle</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -1052,7 +1052,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Simplify - HOMEMADE</title>
+<exercise><title>Simplify</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -1081,7 +1081,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate - HOMEMADE</title>
+<exercise><title>Evaluate</title>
   <introduction>
     <p>
         (Not randomizable) 
@@ -1120,7 +1120,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Simplify a product - HOMEMADE</title>
+<exercise><title>Simplify a product</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1150,7 +1150,7 @@ For students who want even more problems to practice, here are some additional e
   </p>
 
 
-<exercise><title>An identity or not? - HOMEMADE</title>
+<exercise><title>An identity or not?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -1208,7 +1208,7 @@ $popup4 = PopUp(['?','True','False'],2);
 </exercise>
 
 
-<exercise><title>Construct an identity - HOMEMADE</title>
+<exercise><title>Construct an identity</title>
   <introduction>
     <p>
     (Not randomizable)
@@ -1250,7 +1250,7 @@ $popup4 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -1315,7 +1315,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
- <exercise><title>Write in terms of sine and cosine - HOMEMADE</title>
+ <exercise><title>Write in terms of sine and cosine</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1353,7 +1353,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate at an unknown angle - HOMEMADE</title>
+<exercise><title>Evaluate at an unknown angle</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -1379,7 +1379,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate - HOMEMADE</title>
+<exercise><title>Evaluate</title>
   <introduction>
     <p>
         (Not randomizable) 
@@ -1430,7 +1430,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Simplify a product - HOMEMADE</title>
+<exercise><title>Simplify a product</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1452,7 +1452,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Simplify a product - HOMEMADE</title>
+<exercise><title>Simplify a product</title>
   <webwork>
     <pg-code>
       Context("Numeric");

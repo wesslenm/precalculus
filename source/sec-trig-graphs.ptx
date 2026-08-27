@@ -279,7 +279,7 @@ Below is an example of a graph of a sinusoidal function.
     </solution>
   </example>
 
-  <exercise><title>Properties from graphs - HOMEMADE - UPDATED</title>
+  <exercise><title>Properties from graphs</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -399,7 +399,7 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
     </solution>
   </example>
 
-<exercise><title>Symmetries and properties from graphs - HOMEMADE - UPDATED PLEASE REVIEW</title>
+<exercise><title>Symmetries and properties from graphs</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -676,11 +676,11 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
   </webwork>
 </exercise>
 
-<exercise xml:id="ex-trig-graph1"><title>Amplitude, period, phase shift from graph - WEBWORK</title>
+<exercise xml:id="ex-trig-graph1"><title>Amplitude, period, phase shift from graph</title>
 	<webwork source="Library/MC/Trigonometry/Graphing03.pg" />
 </exercise>
 
-<exercise xml:id="ex-trig-graph2"><title>Amplitude, period, phase shift from expression - WEBWORK</title>
+<exercise xml:id="ex-trig-graph2"><title>Amplitude, period, phase shift from expression</title>
 	<webwork source="Library/MC/Trigonometry/Graphing02.pg" />
 </exercise>
   </subsection>
@@ -816,39 +816,39 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
   </webwork>
 </exercise>
 
-  <exercise><title>Which function - FROM WEBWORK</title>
+  <exercise><title>Which function</title>
      <webwork source="Library/UBC/MECH/MECH2/set220SelfTest-SketchingFunctions/SketchingFunctions10.pg" />
 </exercise>
 
-  <exercise><title>Find the function - FROM WEBWORK</title>
+  <exercise><title>Find the function</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" />
   </exercise>
 
-  <exercise><title>Find the function - FROM WEBWORK</title>
+  <exercise><title>Find the function</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q14.pg" />
  </exercise>
 
-  <exercise><title>Find the function - FROM WEBWORK</title>
+  <exercise><title>Find the function</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" />
  </exercise>
 
-  <!-- <exercise><title>Find the shifts - FROM WEBWORK</title>
+  <!-- <exercise><title>Find the shifts</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06.pg" />
  </exercise> -->
 
-  <exercise><title>Find the shift - FROM WEBWORK</title>
+  <exercise><title>Find the shift</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q06b.pg" />
 </exercise>
 
-  <exercise><title>Sketch the graph - FROM WEBWORK</title>
+  <exercise><title>Sketch the graph</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q20.pg" />
  </exercise>
 
-  <exercise><title>Determine if the graph is periodic - FROM WEBWORK</title>
+  <exercise><title>Determine if the graph is periodic</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
  </exercise>
 
-  <exercise><title>Determine if the graph is periodic - FROM WEBWORK</title>
+  <exercise><title>Determine if the graph is periodic</title>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
  </exercise>
  

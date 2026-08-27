@@ -112,7 +112,7 @@ A defining characteristic of exponential functions is that they change at a rate
   </image>
 </figure>
 
-<exercise><title>Interactive graph activity - HOMEMADE</title>
+<exercise><title>Interactive graph activity</title>
     <p>
     Click the link to see an interactive graph of a dynamic exponential function. 
     Use the sliders for the parameters <m>a</m> and <m>b</m> to see how different values of these parameters change the shape of the exponential graph.
@@ -156,11 +156,11 @@ A defining characteristic of exponential functions is that they change at a rate
   </p> 
 </exercise>
 
-  <exercise><title>Exponential graphs - FROM WEBWORK</title>
+  <exercise><title>Exponential graphs</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q05.pg" />
   </exercise>
 
-  <exercise><title>Exponential graphs - FROM WEBWORK</title>
+  <exercise><title>Exponential graphs</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q07.pg" />
   </exercise>
 
@@ -189,7 +189,7 @@ The following table compares and contrasts power functions from exponential func
     </row>
   </tabular>
 
-  <exercise><title>Which are exponential? - FROM WEBWORK</title>
+  <exercise><title>Which are exponential?</title>
     <introduction>
       <p>
       In this question, think of an exponential function as ONE exponential function which may have been transformed by adding, subtracting, multiplying, and/or dividing constants. 
@@ -250,7 +250,7 @@ whose base is the special number denoted <m>e</m>, called <term>Euler's Number</
     </md>
   </p>
 
-<exercise><title>Activity - HOMEMADE</title>
+<exercise><title>Activity</title>
     <p>
     Click the link to see an interactive graph. 
      </p>
@@ -311,7 +311,7 @@ As we can see, <m>y=e^x</m> is characteristically similar to all other exponenti
   For our purposes, we should think of the natural exponential function as simply being an exponential function with a specific base, <m>e</m>. 
 </p>
 
-<exercise><title>The Natural Exponential Function - HOMEMADE</title>
+<exercise><title>The Natural Exponential Function</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -412,7 +412,7 @@ Exponential functions of the form <m>f(x)=b^x</m> where <m>f(x)=b>1</m>, includi
   </image>
 </figure>
 
-<exercise><title>Function characteristics - HOMEMADE</title>
+<exercise><title>Function characteristics</title>
     <introduction>
       <image source="images/exp4" width="70%">
   </image>
@@ -474,7 +474,7 @@ Applying these parameters to the natural exponential function <m>f(x)=e^x</m>, w
 We will focus mostly on the cases where <m>d=0</m>. 
 </p>
 
-<exercise><title>Interactive graph activity - HOMEMADE</title>
+<exercise><title>Interactive graph activity</title>
     <p>
     Click the link to see an interactive graph of a dynamic exponential function. 
     Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>c</m> to see how different values of these parameters change the shape of the exponential graph.
@@ -493,11 +493,11 @@ We will focus mostly on the cases where <m>d=0</m>.
   </p>
 </exercise>
 
-  <exercise><title>Transformations of exponential functions - FROM WEBWORK</title>
+  <exercise><title>Transformations of exponential functions</title>
     <webwork source="Library/ASU-topics/setExponentialFunctions/sw6_2_3.pg" />
   </exercise>
 
-    <exercise><title>Transformations of exponential functions - FROM WEBWORK</title>
+    <exercise><title>Transformations of exponential functions</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q24.pg" />
   </exercise>
  </subsection>
@@ -528,7 +528,7 @@ We write the first three again here for easy reference, and this time we write t
     </p>
 
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -594,7 +594,7 @@ You may see it most often as part of an exponential function such as <m>f(x)=e^x
   </webwork>
 </exercise>
 
-<exercise><title>True or False? - HOMEMADE</title>
+<exercise><title>True or False?</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -659,7 +659,7 @@ $popup6 = PopUp(['?','True','False'],2);
 
 
 
-<!-- <exercise><title>The number <m>e</m> - HOMEMADE</title>
+<!-- <exercise><title>The number <m>e</m></title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -680,23 +680,23 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise> -->
 
-    <exercise><title>Equal value for <m>a</m> - FROM WEBWORK</title>
+    <exercise><title>Equal value for <m>a</m></title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q06.pg" />
   </exercise>
   
-  <exercise><title>Largest value for <m>b</m> - FROM WEBWORK</title>
+  <exercise><title>Largest value for <m>b</m></title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q08.pg" />
   </exercise>
 
-  <exercise><title>Transformations - FROM WEBWORK</title>
+  <exercise><title>Transformations</title>
     <webwork source="Library/ma112DB/set9/sw6_2_5.pg" />
   </exercise>
 
-  <exercise><title>Domain - FROM WEBWORK</title>        
+  <exercise><title>Domain</title>        
     <webwork source="Library/UCSB/Stewart5_1_5/Stewart5_1_5_15.pg" />
   </exercise>
 
-<exercise><title>Function characteristics - HOMEMADE</title>
+<exercise><title>Function characteristics</title>
     <introduction>
       <image source="images/exp3" width="70%">
   </image>
@@ -745,7 +745,7 @@ $popup6 = PopUp(['?','True','False'],2);
     </webwork>
 </exercise>
 
-<exercise><title>Function characteristics - HOMEMADE</title>
+<exercise><title>Function characteristics</title>
     <introduction>
       <image source="images/exp5" width="70%">
   </image>
@@ -794,7 +794,7 @@ $popup6 = PopUp(['?','True','False'],2);
     </webwork>
 </exercise>
 
-<exercise><title>Function Expression - HOMEMADE</title>
+<exercise><title>Function Expression</title>
   <introduction>
       <image source="images/exp6" width="70%">
   </image>
@@ -837,7 +837,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Function Expression - HOMEMADE</title>
+<exercise><title>Function Expression</title>
   <introduction>
       <image source="images/exp7" width="70%">
   </image>

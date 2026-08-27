@@ -202,15 +202,15 @@ Note: <m> x=4\ln \left(\frac{3}{5}\right)+1 </m> would be incorrect, and may be 
     </solution>
   </example>
 
-  <exercise><title>A basic exponential equation - FROM WEBWORK</title>
+  <exercise><title>A basic exponential equation</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap4Review/Q08.pg" />
   </exercise>
 
-  <exercise><title>Exponential equation - FROM WEBWORK</title>
+  <exercise><title>Exponential equation</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q45.pg" />
   </exercise>
 
-<!-- <exercise><title>Solve Exponential Equations  HOMEMADE  NEEDS FIXING</title>
+<!-- <exercise><title>Solve Exponential Equations - HOMEMADE  NEEDS FIXING</title>
   <introduction>
     <p>
     (Not randomizable)
@@ -277,15 +277,15 @@ To correctly apply this step, we must raise both sides of the equation \textbf{a
    </p>
   </aside>
 
-  <exercise><title>Logarithmic equation - FROM WEBWORK</title>
+  <exercise><title>Logarithmic equation</title>
     <webwork source="Library/LoyolaChicago/Precalc/Chap4Sec1/Q36.pg" />
   </exercise>
 
-  <exercise><title>Logarithmic equation and round the answer - FROM WEBWORK</title>
+  <exercise><title>Logarithmic equation and round the answer</title>
     <webwork source="Library/ma117DB/set8/srw4_4_41.pg" />
   </exercise>
 
-  <exercise><title>A logarithmic equation - FROM WEBWORK</title>
+  <exercise><title>A logarithmic equation</title>
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg" />
   </exercise>
 
@@ -317,35 +317,35 @@ To correctly apply this step, we must raise both sides of the equation \textbf{a
       If you find that you want even more practice, there are "Additional Exercises" (<xref ref="sec-alg-exercises"/>) below.
     </p>
 
-<exercise><title>A basic equation - FROM WEBWORK</title>
+<exercise><title>A basic equation</title>
     <webwork source="Library/Union/setFunctionLogarithmic/srw4_4_9.pg" />
   </exercise>
 
-  <exercise><title>Basic equations - FROM WEBWORK</title>
+  <exercise><title>Basic equations</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_49.pg" />
   </exercise>
 
-  <exercise><title>Solve the equations - FROM WEBWORK</title>
+  <exercise><title>Solve the equations</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg" />
   </exercise>
 
-<exercise><title>Logarithmic equation - FROM WEBWORK</title>
+<exercise><title>Logarithmic equation</title>
     <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg" />
   </exercise>
 
-  <exercise><title>Logarithmic equation with compositions - FROM WEBWORK</title>
+  <exercise><title>Logarithmic equation with compositions</title>
     <webwork source="Library/UMN/calculusStewartCCC/s_1_6_52.pg" />
   </exercise>
 
- <exercise><title>An equation with <m>x</m> appearing twice - FROM WEBWORK</title>
+ <exercise><title>An equation with <m>x</m> appearing twice</title>
     <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
   </exercise>
 
-  <exercise><title>Two equations - FROM WEBWORK</title>
+  <exercise><title>Two equations</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg" />
   </exercise>
 
- <exercise><title>Challenge: An exponential equation - FROM WEBWORK</title>
+ <exercise><title>Challenge: An exponential equation</title>
     <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
   </exercise>
 
@@ -359,11 +359,11 @@ For students who want even more problems to practice, here are some additional e
 
 
 
-  <exercise><title>Inequalties - FROM WEBWORK</title>
+  <exercise><title>Inequalties</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg" />
   </exercise>
 
-  <exercise><title>More inequalties - FROM WEBWORK</title>
+  <exercise><title>More inequalties</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg" />
   </exercise>
 

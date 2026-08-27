@@ -133,7 +133,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 	</solution>
   </example>
 
-  <exercise><title>Evaluate using special triangles 1 - HOMEMADE</title>
+  <exercise><title>Evaluate using special triangles 1</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -162,7 +162,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
- <exercise><title>Evaluate using special triangles 2 - HOMEMADE</title>
+ <exercise><title>Evaluate using special triangles 2</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -191,7 +191,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate using special triangles 3 - HOMEMADE</title>
+<exercise><title>Evaluate using special triangles 3</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -276,7 +276,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 	</solution>
   </example>
 
-<exercise><title>Continue the previous example - HOMEMADE</title>
+<exercise><title>Continue the previous example</title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -304,7 +304,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m> - HOMEMADE</title>
+<example xml:id="trig-intro-ex5"><title>Evaluate at <m>-\frac{\pi}{6}</m></title>
 	<statement>
       Find exact values for <m> \sin \left(-\frac{\pi}{6}\right), \ \cos \left(-\frac{\pi}{6}\right) </m> and <m>\sec \left(-\frac{\pi}{6}\right)</m> without using a calculator.
 	</statement>
@@ -352,7 +352,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 	</solution>
   </example>
 
-<exercise><title>Evaluate at <m>\frac{3\pi}{4}</m> - HOMEMADE</title>
+<exercise><title>Evaluate at <m>\frac{3\pi}{4}</m></title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -384,7 +384,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate at <m>-\frac{5\pi}{6}</m> - HOMEMADE </title>
+<exercise><title>Evaluate at <m>-\frac{5\pi}{6}</m></title>
   <webwork>
     <pg-code>
       Context("Fraction");
@@ -506,7 +506,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 	</solution>
   </example>
     
-<exercise><title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> - HOMEMADE </title>
+<exercise><title>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m></title>
   <webwork>
     <statement>
       <p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
@@ -515,7 +515,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate sine at multiples of <m>\frac{\pi}{2}</m>  - HOMEMADE</title>
+<exercise><title>Evaluate sine at multiples of <m>\frac{\pi}{2}</m></title>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -532,7 +532,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE - NOW SHOULD ACCEPT DNE... CHECK VERY CAREFULLY</title>
+<exercise><title>Evaluate trig at multiples of <m>\frac{\pi}{2}</m></title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -675,7 +675,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
       If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="trig-eval-additional"/>) and then come back to the Recommended Exercises.
     </p>
   
-<exercise><title>Evaluate at common angles - HOMEMADE</title>
+<exercise><title>Evaluate at common angles</title>
    <introduction>
     <p>
        (Not randomized.)
@@ -708,7 +708,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate at <m>-\frac{\pi}{3}</m> - HOMEMADE</title>
+<exercise><title>Evaluate at <m>-\frac{\pi}{3}</m></title>
    <introduction>
     <p>
        (Not randomized.)
@@ -737,7 +737,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate at <m>\frac{7\pi}{6}</m> - HOMEMADE</title>
+<exercise><title>Evaluate at <m>\frac{7\pi}{6}</m></title>
    <introduction>
     <p>
        (Not randomized.)
@@ -766,7 +766,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate <m>\cos \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m>\cos \theta </m></title>
    <introduction>
     <p>
        (Randomized.)
@@ -788,7 +788,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate at <m>0</m> - FROM WEBWORK</title>
+<exercise><title>Evaluate at <m>0</m></title>
   <introduction>
     <p>
        (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -798,7 +798,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
    </exercise>
 
 
-<exercise><title>Evaluate cosine at multiples of <m>\frac{\pi}{2}</m> - HOMEMADE </title>
+<exercise><title>Evaluate cosine at multiples of <m>\frac{\pi}{2}</m></title>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -815,7 +815,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
 </exercise>
 
-<exercise><title>Evaluate <m>\tan \theta </m>  - HOMEMADE</title>
+<exercise><title>Evaluate <m>\tan \theta </m></title>
    <introduction>
     <p>
        (Randomized.)
@@ -837,7 +837,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
  </exercise>
 
-<exercise><title>Evaluate <m>\sin \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m>\sin \theta </m></title>
    <introduction>
     <p>
        (Randomized.)
@@ -859,7 +859,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
  </exercise>
 
- <exercise><title>Evaluate at <m>\frac{-2\pi}{3}</m> - HOMEMADE</title>
+ <exercise><title>Evaluate at <m>\frac{-2\pi}{3}</m></title>
    <introduction>
     <p>
        (Not randomized.)
@@ -918,7 +918,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
   </webwork>
   </exercise>
 
-<exercise><title>Evaluate <m>\sin \theta </m> - HOMEMADE</title>
+<exercise><title>Evaluate <m>\sin \theta </m></title>
    <introduction>
     <p>
        (Randomized.)
@@ -950,7 +950,7 @@ For students who want even more problems to practice, here are some additional e
       Note: All angles are in radians. Answer with exact values. Do not use a calculator. 
   </p>
 
-<exercise><title>Evaluate <m>\cos \theta </m> - FROM WEBWORK</title>
+<exercise><title>Evaluate <m>\cos \theta </m></title>
    <introduction>
   <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -959,7 +959,7 @@ For students who want even more problems to practice, here are some additional e
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_13.pg" />
  </exercise>
 
-<exercise><title>Evaluate <m>\cos \theta </m> - FROM WEBWORK</title>
+<exercise><title>Evaluate <m>\cos \theta </m></title>
       <introduction>
         <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -968,7 +968,7 @@ For students who want even more problems to practice, here are some additional e
       <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_9.pg" />
   </exercise>
 
-<exercise><title>Evaluate <m>\cos \theta </m> - FROM WEBWORK</title>
+<exercise><title>Evaluate <m>\cos \theta </m></title>
       <introduction>
         <p>
 	 (Not randomized.) Evaluate the following without using a calculator. Use one of the techniques discussed in this section, as appropriate.  
@@ -977,7 +977,7 @@ For students who want even more problems to practice, here are some additional e
     <webwork source="Library/ASU-topics/setUnitCircle/srw5_2_5.pg" />
  </exercise>
 
- <exercise><title>Evaluate <m>\sin \theta </m> - HOMEMADE</title>
+ <exercise><title>Evaluate <m>\sin \theta </m></title>
    <introduction>
     <p>
        (Randomized.)

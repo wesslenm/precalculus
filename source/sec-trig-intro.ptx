@@ -274,7 +274,7 @@
     </solution>
   </example>
 
-<exercise xml:id="ex-trig-intro1"><title>Unit circle - FROM WEBWORK</title>
+<exercise xml:id="ex-trig-intro1"><title>Unit circle</title>
 	<webwork source="Library/MC/Trigonometry/RadianTerminalPoint.pg" />
 </exercise>
 </subsection>
@@ -414,7 +414,7 @@
     </p>
   </aside>
 
-<exercise><title>Evaluating basic trig - HOMEMADE - NEW, PLEASE CHECK</title>
+<exercise><title>Evaluating basic trig</title>
     <introduction>
       <p>
       In the below right angled triangle, there is a right angle and two accute angles labelled <m>\gamma</m> and <m>\mu</m>. 
@@ -554,7 +554,7 @@ Other trigonometric identities are also discussed in more detail in <xref ref="s
   </aside>
 
 
-  <!-- <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE</title>
+  <!-- <exercise xml:id="trig-intro-CP1"><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m></title>
   	<p>  
       Use the listed relationships between trigonomtric functions to find the definitions of secant, cosecant and cotangent. Write down lists of definitions first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle.  
     </p>
@@ -573,7 +573,7 @@ Other trigonometric identities are also discussed in more detail in <xref ref="s
   </exercise> -->
   
 
-<exercise><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m> - HOMEMADE - NEW, PLEASE CHECK</title>
+<exercise><title>Definitions of <m>\sec \theta</m>, <m>\csc \theta</m> and <m>\cot \theta</m></title>
     <introduction>
       <p>
        Use the above basic trigonometric identities and definitions to find the definitions of secant, cosecant and cotangent. Do this first in terms of right angled triangles, then in terms of <m>x, y, r</m> in a circle. 
@@ -703,7 +703,7 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
   </p>
   </assemblage>
 
-<exercise><title>Quadrant and sign - HOMEMADE - UPDATED PLEASE CHECK</title>
+<exercise><title>Quadrant and sign</title>
     <introduction>
       <p>
         (Not randomizable) Select the correct option from each drop down menu. All angles are given in radians. Do not use a calculator.
@@ -792,7 +792,7 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
 </exercise>
 
 <!-- Perhaps misleading then way that alpha is labelled.
-<exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
+<exercise><title>Evaluate trig given an angle in standard position</title>
    <introduction>
     <p>
       (Randomized. Feel free to practice the problem several times.) 
@@ -801,7 +801,7 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
     <webwork source="Library/MC/Trigonometry/trig_defn-01.pg" />
 </exercise> -->
 
-<exercise><title>Evaluate trig given an angle in standard position - FROM WEBWORK</title>
+<exercise><title>Evaluate trig given an angle in standard position</title>
    <introduction>
     <p>
      (Randomized. Feel free to practice the problem several times.)
@@ -810,7 +810,7 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
    <webwork source="Library/MC/Trigonometry/trig_defn-06.pg" />
   </exercise>
 
-<exercise><title>Simplify - HOMEMADE</title>
+<exercise><title>Simplify</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -835,7 +835,7 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
   </webwork>
 </exercise>
 
-<exercise><title>Quadrant and sign - HOMEMADE - UPDATED PLEASE CHECK</title>
+<exercise><title>Quadrant and sign</title>
     <introduction>
       <p>
         (Not randomizable) Select the correct option from each drop down menu. All angles are given in radians. Do not use a calculator.
