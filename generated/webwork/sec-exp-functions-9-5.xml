@@ -5,25 +5,25 @@
 <p>Which two functions have the same value for <m>a</m>?
 <var form="popup">
 <li>
-<p>BC</p>
+<p>BD</p>
 </li>
 <li>
 <p>AB</p>
 </li>
 <li>
-<p>BD</p>
+<p>BC</p>
 </li>
 <li>
-<p>AC</p>
-</li>
-<li>
-<p>CD</p>
+<p>?</p>
 </li>
 <li>
 <p>AD</p>
 </li>
 <li>
-<p>?</p>
+<p>CD</p>
+</li>
+<li>
+<p>AC</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-functions-9-5-image-1.png" width="66%"/>

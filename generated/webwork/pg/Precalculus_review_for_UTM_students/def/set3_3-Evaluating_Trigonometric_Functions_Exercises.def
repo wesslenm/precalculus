@@ -6,19 +6,19 @@ screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_3-Evaluating_Tr
 description       = Evaluating Trigonometric Functions
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_1-Evaluate_at_common_angles__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_1-Evaluate_at_common_angles.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_2-Evaluate_at_fracpi3__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_2-Evaluate_at_fracpi3.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_3-Evaluate_at_frac7pi6__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_3-Evaluate_at_frac7pi6.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_4-Evaluate_cos_theta___HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_4-Evaluate_cos_theta_.pg
 problem_id = 4
 problem_end
 problem_start
@@ -26,23 +26,23 @@ source_file = Library/ASU-topics/setUnitCircle/srw5_2_23.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_6-Evaluate_cosine_at_multiples_of_fracpi2__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_6-Evaluate_cosine_at_multiples_of_fracpi2.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_7-Evaluate_tan_theta____HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_7-Evaluate_tan_theta_.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_8-Evaluate_sin_theta___HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_8-Evaluate_sin_theta_.pg
 problem_id = 8
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_9-Evaluate_at_frac2pi3__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_9-Evaluate_at_frac2pi3.pg
 problem_id = 9
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_10-Evaluate_sin_theta___HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_5_10-Evaluate_sin_theta_.pg
 problem_id = 10
 problem_end
 problem_start
@@ -58,6 +58,6 @@ source_file = Library/ASU-topics/setUnitCircle/srw5_2_5.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_6_4-Evaluate_sin_theta___HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_3_6_4-Evaluate_sin_theta_.pg
 problem_id = 4
 problem_end

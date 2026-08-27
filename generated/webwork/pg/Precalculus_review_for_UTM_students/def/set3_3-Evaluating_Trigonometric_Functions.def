@@ -6,38 +6,38 @@ screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_3-Evaluating_Tr
 description       = Evaluating Trigonometric Functions
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_31-Evaluate_using_special_triangles_1__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_31-Evaluate_using_special_triangles_1.pg
 problem_id = 31
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_32-Evaluate_using_special_triangles_2__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_32-Evaluate_using_special_triangles_2.pg
 problem_id = 32
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_33-Evaluate_using_special_triangles_3__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_33-Evaluate_using_special_triangles_3.pg
 problem_id = 33
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_35-Continue_the_previous_example__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_35-Continue_the_previous_example.pg
 problem_id = 35
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_37-Evaluate_at_frac3pi4__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_37-Evaluate_at_frac3pi4.pg
 problem_id = 37
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_38-Evaluate_at_frac5pi6__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_38-Evaluate_at_frac5pi6.pg
 problem_id = 38
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_43-Evaluate_sin_leftfrac3pi2right__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_43-Evaluate_sin_leftfrac3pi2right.pg
 problem_id = 43
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_44-Evaluate_sine_at_multiples_of_fracpi2___HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_44-Evaluate_sine_at_multiples_of_fracpi2.pg
 problem_id = 44
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_45-Evaluate_trig_at_multiples_of_fracpi2__HOMEMADE__NOW_SHOULD_ACCEPT_DNE_CHECK_VERY_CAREFULLY.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_3-Evaluating_Trigonometric_Functions/3_45-Evaluate_trig_at_multiples_of_fracpi2.pg
 problem_id = 45
 problem_end

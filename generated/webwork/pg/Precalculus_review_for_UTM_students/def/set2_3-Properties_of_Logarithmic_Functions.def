@@ -6,14 +6,14 @@ screenHeaderFile  = Precalculus_review_for_UTM_students/header/2_3-Properties_of
 description       = Properties of Logarithmic Functions
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_29-Using_properties_to_evaluate__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_29-Using_properties_to_evaluate.pg
 problem_id = 29
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_31-True_or_False__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_31-True_or_False.pg
 problem_id = 31
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_33-Write_as_one_logarithm__HOMEMADE.pg
+source_file = Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_3-Properties_of_Logarithmic_Functions/2_33-Write_as_one_logarithm.pg
 problem_id = 33
 problem_end
