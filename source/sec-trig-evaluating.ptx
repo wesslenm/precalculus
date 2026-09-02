@@ -7,22 +7,22 @@
     <ul>
       <li>
         <p>
-          Evaluate trigonomtric functions using special triangles.
+          Evaluate trigonometric functions using special triangles.
         </p>
       </li>
       <li>
         <p>
-          Evaluate trigonomtric functions using the coordinate system and the unit circle.
+          Evaluate trigonometric functions using the coordinate system and the unit circle.
         </p>
       </li>
       <li>
         <p>
-          Evaluate trigonomtric functions using graphs.
+          Evaluate trigonometric functions using graphs.
         </p>
       </li>
             <li>
         <p>
-          Choose an appropriate method to evaluate a trigonomtric function at a given angle.
+          Choose an appropriate method to evaluate a trigonometric function at a given angle.
         </p>
       </li>
     </ul>
@@ -48,7 +48,8 @@
 
   <introduction>
     <p>    
-In this section we review methods for evaluating all six trigonomtric functions at given angles. Which method to use depends on the type of angle that is given. 
+In this section we review methods for evaluating all six trigonometric functions at given angles. 
+Which method to use depends on the type of angle that is given. 
     </p>
   </introduction>
 
@@ -118,7 +119,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
 	<solution>
 		<p>
 			We use the special triangle that has the angle <m> \frac{\pi}{3} </m>. 
-      We also know from the definition of <m> \cos \theta </m> that <m> \cos \theta = </m> adjacent / hypothenuse. 
+      We also know from the definition of <m> \cos \theta </m> that <m> \cos \theta = </m> adjacent / hypotenuse. 
       Reading off the values in the special triangle we see that 
 		</p>
 		<me>
@@ -154,10 +155,14 @@ In this section we review methods for evaluating all six trigonomtric functions 
     </pg-code>
 
     <statement>
-      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p>Use the special triangles to find the following values. 
+      Answer in exact form (using square roots if needed). </p>
       <p> (a) <m> \cos \left(\frac{\pi}{6}\right) =</m>  <var name="$ans1" width="6"/>.</p>
       <p> (b) <m> \cos \left(\frac{\pi}{4}\right) =</m>  <var name="$ans2" width="6"/>.</p>
       <p> (c) <m> \sin \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+              <p>
+  (Not randomizable)
+</p>
     </statement>
   </webwork>
 </exercise>
@@ -183,10 +188,16 @@ In this section we review methods for evaluating all six trigonomtric functions 
     </pg-code>
 
     <statement>
-      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p>
+        Use the special triangles to find the following values. 
+      Answer in exact form (using square roots if needed). 
+      </p>
       <p> (a) <m> \sin \left(\frac{\pi}{4}\right) =</m>  <var name="$ans1" width="6"/>.</p>
       <p> (b) <m> \tan \left(\frac{\pi}{6}\right) =</m>  <var name="$ans2" width="6"/>.</p>
       <p> (c) <m> \tan \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+              <p>
+  (Not randomizable)
+</p>
     </statement>
   </webwork>
 </exercise>
@@ -212,10 +223,16 @@ In this section we review methods for evaluating all six trigonomtric functions 
     </pg-code>
 
     <statement>
-      <p>Use the special triangles to find the following values. Answer in exact form (using square roots if needed). </p>
+      <p>
+        Use the special triangles to find the following values. 
+        Answer in exact form (using square roots if needed). 
+        </p>
       <p> (a) <m> \sec \left(\frac{\pi}{6}\right) =</m>  <var name="$ans1" width="6"/>.</p>
       <p> (b) <m> \csc \left(\frac{\pi}{4}\right) =</m>  <var name="$ans2" width="6"/>.</p>
       <p> (c) <m> \cot \left(\frac{\pi}{3}\right) =</m>  <var name="$ans3" width="6"/>.</p>
+              <p>
+  (Not randomizable)
+</p>
     </statement>
   </webwork>
 </exercise>
@@ -301,6 +318,9 @@ In this section we review methods for evaluating all six trigonomtric functions 
       <p> (b) <m> \csc \left(\frac{2\pi}{3}\right) =</m>  <var name="$ans2" width="10"/>.</p>
       <p> (c) <m> \cot \left(\frac{2\pi}{3}\right) =</m>  <var name="$ans3" width="10"/>.</p>
     </statement>
+                  <p>
+  (Not randomizable)
+</p>
   </webwork>
 </exercise>
 
@@ -380,6 +400,9 @@ In this section we review methods for evaluating all six trigonomtric functions 
       <p> (b) <m> \cos \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans2" width="10"/>.</p>
       <p> (c) <m> \tan \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans3" width="10"/>.</p>
       <p> (d) <m> \sec \left(\frac{3\pi}{4}\right) =</m>  <var name="$ans4" width="10"/>.</p>
+                      <p>
+  (Not randomizable)
+</p>
     </statement>
   </webwork>
 </exercise>
@@ -412,6 +435,9 @@ In this section we review methods for evaluating all six trigonomtric functions 
       <p> (b) <m> \cos \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans2" width="10"/>.</p>
       <p> (c) <m> \cot \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans3" width="10"/>.</p>
       <p> (d) <m> \csc \left(-\frac{5\pi}{6}\right) =</m>  <var name="$ans4" width="10"/>.</p>
+                      <p>
+  (Not randomizable)
+</p>
     </statement>
   </webwork>
 </exercise>
@@ -511,6 +537,9 @@ In this section we review methods for evaluating all six trigonomtric functions 
     <statement>
       <p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
         <p><m>\sin \left(\frac{3\pi}{2}\right)=</m><var name="'-1'" width="5" /></p>
+                        <p>
+  (Not randomizable)
+</p>
     </statement>
   </webwork>
 </exercise>
@@ -691,7 +720,7 @@ In this section we review methods for evaluating all six trigonomtric functions 
       $ans2 = Compute("sqrt(3)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
-      $ans3 = Compute("2")->with(
+      $ans3 = Compute("2/sqrt(3)")->with(
                tolType => 'absolute',
                tolerance => .000000000000000000001,   );
 

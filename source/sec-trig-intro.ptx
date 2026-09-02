@@ -287,7 +287,7 @@
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Some students like the neumonic SOH CAH TOA to help memorize these definitions. ``SOH'' refers to <m>\sin \theta = </m> Opposite / Hypothenuse, and similarly for CAH and TOA. 
+      Some students like the neumonic SOH CAH TOA to help memorize these definitions. ``SOH'' refers to <m>\sin \theta = </m> Opposite / Hypotenuse, and similarly for CAH and TOA. 
     </p>
  </aside>
 
@@ -300,12 +300,12 @@
     <ul>
       <li>
         <p>
-          Sine: <m>\sin \theta = </m> Opposite / Hypothenuse
+          Sine: <m>\sin \theta = </m> Opposite / Hypotenuse
         </p>
       </li>
       <li>
         <p>
-          Cosine: <m>\cos \theta = </m> Adjacent / Hypothenuse
+          Cosine: <m>\cos \theta = </m> Adjacent / Hypotenuse
         </p>
       </li>
       <li>
@@ -396,7 +396,7 @@
       </answer>
     <solution>
       <p>
-        The hypthenuse of this triangle is 17. 
+        The hypotenuse of this triangle is 17. 
         The `opposite' of angle <m>\alpha</m> is 15, while the `opposite' of angle <m>\beta</m> is 8. The `adjacent' of angle <m>\alpha</m> is 8, while the `adjacent' of angle <m>\beta</m> is 15. Then use the definitions listed above. 
       </p>
     </solution>
@@ -582,12 +582,12 @@ Other trigonometric identities are also discussed in more detail in <xref ref="s
     <webwork>
       <pg-code>
         Context("Numeric");
-        $popup1 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
-        $popup2 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
-        $popup3 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
-        $popup4 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
-        $popup5 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
-        $popup6 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+        $popup1 = PopUp(['?','opposite','adjacent','hypotenuse'],3);
+        $popup2 = PopUp(['?','opposite','adjacent','hypotenuse'],1);
+        $popup3 = PopUp(['?','opposite','adjacent','hypotenuse'],3);
+        $popup4 = PopUp(['?','opposite','adjacent','hypotenuse'],2);
+        $popup5 = PopUp(['?','opposite','adjacent','hypotenuse'],2);
+        $popup6 = PopUp(['?','opposite','adjacent','hypotenuse'],1);
         $popup7 = PopUp(['?','x','y','r'],3);
         $popup8 = PopUp(['?','x','y','r'],2);
         $popup9 = PopUp(['?','x','y','r'],3);
@@ -850,10 +850,12 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
         $popup2sign = PopUp(['?','positive','negative','0','undefined'],2);
                 $popup3quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],5);
         $popup3sign = PopUp(['?','positive','negative','0','undefined'],4);
-                $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],3);
+                $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III',
+                'in Quadrant IV','not in any quadrant'],3);
         $popup4sign = PopUp(['?','positive','negative','0','undefined'],2);
-                $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],1);
-        $popup5sign = PopUp(['?','positive','negative','0','undefined'],1);
+                $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III',
+                'in Quadrant IV','not in any quadrant'],3);
+        $popup5sign = PopUp(['?','positive','negative','0','undefined'],2);
       </pg-code>
       <statement>
         <p>

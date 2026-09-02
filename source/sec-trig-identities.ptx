@@ -348,7 +348,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     <statement>
       <p> 
       Suppose <m>\theta</m> is an angle with terminal side in Quadrant III, and 
-      suppose <m>\sin \theta = \frac{4}{7}</m>. What is the value of <m>\cos \theta</m>?
+      suppose <m>\sin \theta = -\frac{4}{7}</m>. What is the value of <m>\cos \theta</m>?
       </p>
       <p><m>\cos \theta =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -456,6 +456,9 @@ In this section we will discuss what trigonometic identities are, and practice u
       <p>
         <m>\cot^2 \theta - \csc^2 \theta =</m>  <var name="$ans" width="6"/>.
       </p>
+      <p>
+        Notation: To enter <m>\theta</m>, type in \theta. 
+      </p>
     </statement>
   </webwork>
 </exercise>
@@ -480,7 +483,7 @@ In this section we will discuss what trigonometic identities are, and practice u
     <p>
       Difference Identities:
       <men xml:id="trig-difference1"> \sin(x-y) = \sin x \cos y - \cos x \sin y</men>
-      <men xml:id="trig-difference2"> \cos(x-y) = \cos x \cos y - \sin x \sin y</men>
+      <men xml:id="trig-difference2"> \cos(x-y) = \cos x \cos y + \sin x \sin y</men>
       <men xml:id="trig-difference3"> \tan(x-y) = \frac{\tan x - \tan y}{1 + \tan x \tan y}</men>
     </p>
     <p>
@@ -540,7 +543,7 @@ In this section we will discuss what trigonometic identities are, and practice u
       Context("Numeric");
       $a = random(3,6,1);
       $ans1 = Compute("sin(5x)");
-      $ans2 = Compute("7-6x");
+      $ans2 = Compute("cos(7-6x)");
 
       Context()->functions->disable('All');
       Context()->functions->enable('sin','cos');
@@ -611,7 +614,7 @@ Now there are no powers, and no trigonometric function is multipled by a trigono
     </solution>
   </example>
 
-<exercise><title>Simplify</title>
+<exercise><title>Simplify (Challenging, but this will be useful later)</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -661,10 +664,10 @@ One starting point is to compare the graphs on a graphing calculator, for exampl
 
     <p> 
     You can not prove that two expressions are the same by looking at their graphs on a graphing calculator. 
-    But the graphs can be a gret first step to see if the expressions seem to be equal or not.
+    But the graphs can be a great first step to see if the expressions seem to be equal or not.
   </p>
 
-   <exercise><title>Comparing graphs - NOT COMPLETE </title>
+   <exercise><title>Comparing graphs</title>
   <introduction>
     <p>
       (Not randomizable)
@@ -677,31 +680,31 @@ One starting point is to compare the graphs on a graphing calculator, for exampl
       $ans = Compute("8");
 $radio1 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],1);
   $radio2 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],0);
   $radio3 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],0);
   $radio4 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],1);
 <!-- $radio2 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],1);
 $radio3 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],1);
 $radio4 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],2); -->
       Context()->functions->disable('All');
       Context()->functions->enable('sqrt');
@@ -710,7 +713,8 @@ $radio4 = RadioButtons([
     <statement>
       <p>
         Use DESMOS or some other graphing calculator to graph each pair of expressions. 
-        Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)
+        Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are? 
+        For example by using trigonometric identities?)
       </p>
 
 
@@ -809,10 +813,10 @@ $radio4 = RadioButtons([
       Context("Numeric");
       <!-- $a = random(2,9,1);
       $b = random(2,9,1); -->
-      $ans1 = Compute("11/5");
+      $ans1 = Compute("11/25");
       $ans2 = Compute("1");
       $ans3 = Compute("-6/5");
-      $popup = PopUp(['?','I','II','III','IV'],1);
+      $popup = PopUp(['?','I','II','III','IV'],3);
 
       Context()->functions->disable('All');
       Context()->functions->enable('sqrt');
@@ -820,7 +824,7 @@ $radio4 = RadioButtons([
 
     <statement>
        <p>
-      Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{\sqrt{11}}{6}</m> and 
+      Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{\sqrt{11}}{6}</m> and that 
       <m>\cos \theta = -\frac{5}{6}</m>. 
       Answer the following questions.
     <ol marker="a">
@@ -900,7 +904,7 @@ $popup6 = PopUp(['?','True','False'],2);
     </li>
       <li>
       <p>
-        <m>(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x </m> <var name="$popup5" form="popup"/>
+        <m>(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^9 x </m> <var name="$popup5" form="popup"/>
       </p>
     </li>
         <li>
@@ -921,7 +925,7 @@ $popup6 = PopUp(['?','True','False'],2);
       Context("Numeric");
       $a = random(2,9,1);
       $ans1 = Compute("(1-$a)/cos x");
-      $ans2 = Compute("2 sin x cos x");
+      $ans2 = Compute("sin x + cos x");
       $ans3 = Compute("1");
 
          Context()->functions->disable('All');
@@ -970,6 +974,9 @@ $popup6 = PopUp(['?','True','False'],2);
       </p>
       <p>
         <m>\sec(x^2+5) \left[\sin(x^2)\cos(5)+\cos(x^2)\sin(5)\right]=</m>  <var name="$ans" width="6"/>.
+      </p>
+      <p>
+        (Not randomizable)
       </p>
     </statement>
   </webwork>
@@ -1120,7 +1127,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </webwork>
 </exercise>
 
-<exercise><title>Simplify a product</title>
+<exercise><title>Simplify a quotient</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -1136,7 +1143,7 @@ $popup6 = PopUp(['?','True','False'],2);
        Simplify the below expressions as much as possible. 
       </p>
       <p>
-        <m>frac{\tan x + \cot x}{\sec x \csc x}=</m>  <var name="$ans" width="6"/>.
+        <m>\dfrac{\tan x + \cot x}{\sec x \csc x}=</m>  <var name="$ans" width="6"/>.
       </p>
     </statement>
   </webwork>
@@ -1172,7 +1179,7 @@ $popup4 = PopUp(['?','True','False'],2);
 
     <statement>
        <p>
-        Consier the equation 
+        Consider the equation 
         <md>
           \sin(x+y) = \sin x + \sin y
         </md>
@@ -1228,7 +1235,7 @@ $popup4 = PopUp(['?','True','False'],2);
     <statement>
       <p>
         Use a graphing calculator (for example DESMOS) to sketch the graph of <m>y=8\sin x \cos x \sin (2x)</m>. 
-        Use that graph to guess values of <m>a</m> and <m>a</m> that make the below equation an identity.
+        Use that graph to guess values of <m>a</m> and <m>b</m> that make the below equation an identity.
       <md>
         8\sin x \cos x \sin (2x) = a \sin (bx)
       </md>  

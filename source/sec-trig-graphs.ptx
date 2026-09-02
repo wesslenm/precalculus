@@ -252,12 +252,12 @@ Below is an example of a graph of a sinusoidal function.
       </li>
       <li>
         <p>
-        (b) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin x = 0</m>. 
+        (b) All values of <m>\theta</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin \theta = 0</m>. 
         </p>
       </li>
       <li>
         <p>
-        (c) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\tan x</m> is undefined.
+        (c) All values of <m>\theta</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\tan \theta</m> is undefined.
         </p>
       </li>
     </nl>
@@ -271,10 +271,14 @@ Below is an example of a graph of a sinusoidal function.
       (a) <m>\tan 0 = 0</m>, as seen from the graph of <m>y=\tan \theta</m>. 
       </p>
       <p>
-      (b) Looking at the graph of <m>y=\sin \theta</m>, we can see that it crosses the <m>x</m>-axis 5 times in the inteval <m>[-2\pi, 2\pi]</m>, at the <m>x</m>-values <m>x=-2\pi, x=-\pi,  x=0, x=\pi</m> and <m>x=2\pi</m>. 
+      (b) Looking at the graph of <m>y=\sin \theta</m>, we can see that it crosses the horizontal axis 5 times 
+      in the inteval <m>[-2\pi, 2\pi]</m>, at the values <m>\theta=-2\pi, \theta=-\pi,  \theta=0, \theta=\pi</m> 
+      and <m>\theta=2\pi</m>. 
       </p>
      <p>
-      (c) Looking at the graph of <m>y=\tan \theta</m>, we can see that it is undefined 4 times in the inteval <m>[-2\pi, 2\pi]</m>, at the <m>x</m>-values <m>x=-\frac{3\pi}{2}, x=-\frac{\pi}{2},  x=\frac{\pi}{2}</m> and <m>x=\frac{3\pi}{2}</m>. 
+      (c) Looking at the graph of <m>y=\tan \theta</m>, we can see that it is undefined 4 times in the interval 
+      <m>[-2\pi, 2\pi]</m>, at the values <m>\theta=-\frac{3\pi}{2}, \theta=-\frac{\pi}{2},  \theta=\frac{\pi}{2}</m> 
+      and <m>\theta=\frac{3\pi}{2}</m>. 
       </p>
     </solution>
   </example>
@@ -329,14 +333,15 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
 </p>
 <p>
  Also, <m>f(x)</m> is an <term>even function</term><idx><h>Even function</h></idx> if <m>f(-x)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
- This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. (If you rotate the graph 180 degree around the origin, the graph still looks the same.)
+ This means that the graph of <m>f</m> has reflective symmetry about the <m>y</m>-axis. (If you 
+ reflect the graph about the <m>y</m>-axis, the graph still looks the same.)
  </p>
 <p>
  Note that the reflective symmetry must be specifically about the <m>y</m>-axis, for the function to be called an even function. 
  Similarly an odd function must have rotational symmetry about the origin, not some other point. 
 </p>
 
-<example xml:id="graph2"><title>Symmetries - UPDATED PLEASE REVIEW</title>
+<example xml:id="graph2"><title>Symmetries</title>
     <statement>
       <p>
       Which of the following statements are true, and which are false? 
@@ -406,7 +411,7 @@ Visually, this means that the graph has 180 degree symmetry about the origin. (I
 
       $a = random(2,9,1);
       $popuptrue = PopUp(['?','True','False'],1);
-      $popupfalse = PopUp(['?','True','False'],1);
+      $popupfalse = PopUp(['?','True','False'],2);
     </pg-code>
 
     <statement>
@@ -493,7 +498,7 @@ Similarly for the graph of <m>y=A \sin x</m>.
 The number <m>A</m> is the amplitude of the sine or cosine curve. 
 </p>
 
-<exercise xml:id="trans2"><title>Investigating changes in graphs - HOMEMADE</title>
+<exercise xml:id="trans2"><title>Investigating changes in graphs</title>
 <p>
   Use the link to open a DESMOS page: 
 </p> 
@@ -538,13 +543,13 @@ The number <m>A</m> is the amplitude of the sine or cosine curve.
     <li>     
       <p>
         Now repeat the above investigations with the Cosine Curves `on' and the Sine Curves `muted'. 
-        Look back at your notes. Do the same obervations regarding each slider also apply to these curves?
+        Look back at your notes. Do the same observations regarding each slider also apply to these curves?
       </p>
     </li>
     <li>     
       <p>
         Now repeat the above investigations with only the Tan Curves `on'. 
-        Do the same obervations regarding each slider also apply to these curves? 
+        Do the same observations regarding each slider also apply to these curves? 
         Take note of where in the expressions the <m>a, c, d, k</m> appear, and write down some general conclusions. 
         Then continue reading the paragraphs below this Checkpoint.
       </p>
@@ -571,7 +576,7 @@ Consider the functions
 <ul>
   <li>
     <p>
-      If <m>a\not= 0</m>, the graphs are streched or compressed (compared to the graphs of <m>
+      If <m>a\not= 0</m>, the graphs are stretched or compressed (compared to the graphs of <m>
   f\left(x\right)=\sin x
 </m> and <m>
   f\left(x\right)=\cos x
@@ -632,15 +637,17 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
           The period is <m>\frac{\pi}{2}</m>.
         </p>
         <p>
-          The phase shift is <m>\frac{7}{4}</m>.
+          The phase shift is <m>\frac{7}{4}</m> to the right.
         </p>
     </answer>
     <solution>
        <p>
-        The amplitude is given by the constant multiplied by <m>\sin \theta</m>, in this case 3. 
+        The amplitude is given by the constant multiplied by <m>\sin x</m>, in this case 3. 
        </p>
 <p>
-  To find the period, notice that compared to <m>y=\sin x</m>, the graph of <m>y = 3 \sin (4x-7)</m> is compressed by a factor of <m>4</m>. This means the period is divided by <m>4</m>. The period of <m>y=\sin x</m> is <m>2\pi</m>, which means the persiod of <m>y = 3 \sin (4x-7)</m> is <m>\frac{2\pi}{4}= \frac{\pi}{2}</m>.
+  To find the period, notice that compared to <m>y=\sin x</m>, the graph of <m>y = 3 \sin (4x-7)</m> is compressed by a factor of <m>4</m>. This means the period is divided by <m>4</m>. 
+  The period of <m>y=\sin x</m> is <m>2\pi</m>, which means the period of <m>y = 3 \sin (4x-7)</m> is 
+  <m>\frac{2\pi}{4}= \frac{\pi}{2}</m>.
 </p>
 
 <p>
@@ -648,12 +655,13 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
   <me>
     y = 3 \sin (4x-7) =  3 \sin \left(4\left(x-\frac{7}{4}\right)\right)
   </me>
-  Now we see that the curve has been shifted <m>\frac{7}{4}</m> units to the right, so the phase shift is <m>\frac{7}{4}</m>. 
+  Now we see that the curve has been shifted <m>\frac{7}{4}</m> units to the right, 
+  so the phase shift is <m>\frac{7}{4}</m> to the right. 
 </p>
     </solution>
   </example>
 
-  <exercise><title>Determining period - HOMEMADE</title>
+  <exercise><title>Determining period</title>
   <webwork>
     <pg-code>
       Context("Numeric");
@@ -688,10 +696,10 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
   <exercises>
     <title>Exercises</title>
 
-    <exercise><title>Fact Check - NEW INSTRUCTIONS, PLEASE CHECK</title>
+    <exercise><title>Fact Check</title>
   <introduction>
      <p> 
-    Check to see if you remember the following facts about trigonometric graphs (or if can figure them out with out any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
+    Check to see if you remember the following facts about trigonometric graphs (or if can figure them out without any help). Try first without looking up the information. Sketch any graphs you need on your own (without a graphing tool).
     </p>
   <aside>
     <p>
@@ -751,7 +759,7 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
   </webwork>
   </exercise>
 
-<exercise><title>Find period, amplitude, phase shift - HOMEMADE - UPDATED</title>
+<exercise><title>Find period, amplitude, phase shift</title>
     <webwork>
     <pg-code>
       Context("Numeric");
@@ -783,7 +791,7 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
   </webwork>
   </exercise>
 
-  <exercise><title>Find period, amplitude, phase shift - HOMEMADE - UPDATED</title>
+  <exercise><title>Find period, amplitude, phase shift</title>
        <webwork>
     <pg-code>
       Context("Numeric");
@@ -821,6 +829,12 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
 </exercise>
 
   <exercise><title>Find the function</title>
+  <introduction>
+    <p>
+      Note: Your final answer should not include <m>f</m>. 
+      For example, write <m>10\sin\left({2\pi}{5} x\right)</m> rather than <m>f(2x)</m>.
+    </p>
+  </introduction>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q24.pg" />
   </exercise>
 
@@ -845,10 +859,20 @@ Here, <m>\frac{d}{k}</m> is called the phase shift (see <xref ref="trignotation"
  </exercise>
 
   <exercise><title>Determine if the graph is periodic</title>
+      <introduction>
+    <p>
+      (Not randomizable.)
+    </p>
+  </introduction>
     <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q06.pg" />
  </exercise>
 
   <exercise><title>Determine if the graph is periodic</title>
+    <introduction>
+    <p>
+      (Not randomizable.)
+    </p>
+  </introduction>
      <webwork source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg" />
  </exercise>
  
