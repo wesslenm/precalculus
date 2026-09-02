@@ -2,7 +2,7 @@
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-9-12" assembly-id="sec-trig-identities-9-12">
   <static seed="197">
     <statement><p>Simplify the below expressions as much as possible.</p>
-<p><m>frac{\tan x + \cot x}{\sec x \csc x}=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\dfrac{\tan x + \cot x}{\sec x \csc x}=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
@@ -67,7 +67,7 @@ $ans = Compute("1");
 BEGIN_PGML
 Simplify the below expressions as much as possible.
 
-[`frac{\tan x + \cot x}{\sec x \csc x}=`]  [_]{$ans}{6}.
+[`\dfrac{\tan x + \cot x}{\sec x \csc x}=`]  [_]{$ans}{6}.
 
 END_PGML
 

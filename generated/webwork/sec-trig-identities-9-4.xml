@@ -40,7 +40,7 @@
 </li></ul></p>
 </li>
 <li>
-<p><m>(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x</m> <ul form="popup" name="AnSwEr0005"><li>
+<p><m>(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^9 x</m> <ul form="popup" name="AnSwEr0005"><li>
 <p>?</p>
 </li><li>
 <p>True</p>
@@ -162,7 +162,7 @@ a.  [`\frac{1}{\sin x + \cos x} = \csc x + \sec x`] [_]{$popup3}{5}
 
 a.  [`(\sin x)^2 = \sin (x^2)`] [_]{$popup4}{5}
 
-a.  [`(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^5 x `] [_]{$popup5}{5}
+a.  [`(1-\sin^2 x)^3 \cdot (2\cos x)^3 = 8\cos^9 x `] [_]{$popup5}{5}
 
 a.  [`\sin (4x) + \sin (4x) = \sin (8x) `] [_]{$popup6}{5}
 

@@ -55,6 +55,8 @@ Simplify the below expression as much as possible.
 
 [`\sec(x^2+5) \left[\sin(x^2)\cos(5)+\cos(x^2)\sin(5)\right]=`]  [_]{$ans}{6}.
 
+(Not randomizable)
+
 END_PGML
 
 ############################################################

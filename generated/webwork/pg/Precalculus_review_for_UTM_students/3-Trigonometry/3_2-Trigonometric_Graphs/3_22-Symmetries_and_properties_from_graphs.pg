@@ -45,7 +45,7 @@ Context("Numeric");
 
 $a = random(2,9,1);
 $popuptrue = PopUp(['?','True','False'],1);
-$popupfalse = PopUp(['?','True','False'],1);
+$popupfalse = PopUp(['?','True','False'],2);
 
 ############################################################
 # Body

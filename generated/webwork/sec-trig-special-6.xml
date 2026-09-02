@@ -5,6 +5,7 @@
 <p>(a) <m>\cos \left(\frac{\pi}{6}\right) =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 <p>(b) <m>\cos \left(\frac{\pi}{4}\right) =</m>  <fillin characters="6" name="AnSwEr0002"/>.</p>
 <p>(c) <m>\sin \left(\frac{\pi}{3}\right) =</m>  <fillin characters="6" name="AnSwEr0003"/>.</p>
+<p>(Not randomizable)</p>
 </statement>
     <answer>
       <p>
@@ -94,6 +95,8 @@ Use the special triangles to find the following values. Answer in exact form (us
 (b) [` \cos \left(\frac{\pi}{4}\right) =`]  [_]{$ans2}{6}.
 
 (c) [` \sin \left(\frac{\pi}{3}\right) =`]  [_]{$ans3}{6}.
+
+(Not randomizable)
 
 END_PGML
 

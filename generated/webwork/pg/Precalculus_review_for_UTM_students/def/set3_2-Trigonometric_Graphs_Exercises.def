@@ -6,15 +6,15 @@ screenHeaderFile  = Precalculus_review_for_UTM_students/header/3_2-Trigonometric
 description       = Trigonometric Graphs
 problemListV2
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_2_5_1-Fact_Check__NEW_INSTRUCTIONS_PLEASE_CHECK.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_2_5_1-Fact_Check.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_2_5_2-Find_period_amplitude_phase_shift__HOMEMADE__UPDATED.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_2_5_2-Find_period_amplitude_phase_shift.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_2_5_3-Find_period_amplitude_phase_shift__HOMEMADE__UPDATED.pg
+source_file = Precalculus_review_for_UTM_students/3-Trigonometry/3_2-Trigonometric_Graphs/3_2_5_3-Find_period_amplitude_phase_shift.pg
 problem_id = 3
 problem_end
 problem_start

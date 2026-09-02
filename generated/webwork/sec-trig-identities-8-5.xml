@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-8-5" assembly-id="sec-trig-identities-8-5">
   <static seed="187">
-    <statement><p>Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)</p>
+    <statement><p>Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are? For example by using trigonometric identities?)</p>
 <p><ol label="a.">
 <li>
 <p><m>\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)</m> and <m>4\csc^2 x</m></p>
@@ -10,7 +10,7 @@
 <p>The graphs look different, so the expressions are definitely not equal</p>
 </li>
 <li>
-<p>The graphs look the same, so the expressions may be equal</p>
+<p>The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)</p>
 </li>
 </ul></p>
 </li>
@@ -21,7 +21,7 @@
 <p>The graphs look different, so the expressions are definitely not equal</p>
 </li>
 <li>
-<p>The graphs look the same, so the expressions may be equal</p>
+<p>The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)</p>
 </li>
 </ul></p>
 </li>
@@ -32,7 +32,7 @@
 <p>The graphs look different, so the expressions are definitely not equal</p>
 </li>
 <li>
-<p>The graphs look the same, so the expressions may be equal</p>
+<p>The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)</p>
 </li>
 </ul></p>
 </li>
@@ -43,7 +43,7 @@
 <p>The graphs look different, so the expressions are definitely not equal</p>
 </li>
 <li>
-<p>The graphs look the same, so the expressions may be equal</p>
+<p>The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)</p>
 </li>
 </ul></p>
 </li>
@@ -51,7 +51,7 @@
 </statement>
     <answer>
       <p>
-        <m>\text{The graphs ... be equal}</m>
+        <m>\text{The graphs ... sure)}</m>
       </p>
     </answer>
     <answer>
@@ -66,11 +66,11 @@
     </answer>
     <answer>
       <p>
-        <m>\text{The graphs ... be equal}</m>
+        <m>\text{The graphs ... sure)}</m>
       </p>
     </answer>
   </static>
-  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_56-Comparing_graphs__NOT_COMPLETE.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/3-Trigonometry/3_4-Trigonometric_Identities/3_56-Comparing_graphs.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
   <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
@@ -119,19 +119,19 @@ TEXT(beginproblem());
       $ans = Compute("8");
 $radio1 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],1);
   $radio2 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],0);
   $radio3 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],0);
   $radio4 = RadioButtons([
           'The graphs look different, so the expressions are definitely not equal',
-          'The graphs look the same, so the expressions may be equal',
+          'The graphs look the same, so the expressions may be equal (but more proof is needed before we can be sure)',
         ],1);
 
       Context()->functions->disable('All');
@@ -142,7 +142,7 @@ $radio1 = RadioButtons([
 ############################################################
 
 BEGIN_PGML
-Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are?)
+Use DESMOS or some other graphing calculator to graph each pair of expressions. Do they appear to be equivalent? (For those that appear equivalent, can you prove that they are? For example by using trigonometric identities?)
 
 a.  [`\csc^2 \left(\frac{x}{2}\right) + \sec^2 \left(\frac{x}{2}\right)`] and [`4\csc^2 x`]
 

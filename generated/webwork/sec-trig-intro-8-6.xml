@@ -176,12 +176,12 @@
     </answer>
     <answer>
       <p>
-        <m>\text{in Quadrant I}</m>
+        <m>\text{in Quadrant III}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\text{positive}</m>
+        <m>\text{negative}</m>
       </p>
     </answer>
   </static>
@@ -236,10 +236,12 @@ $popup1sign = PopUp(['?','positive','negative','0','undefined'],1);
 $popup2sign = PopUp(['?','positive','negative','0','undefined'],2);
         $popup3quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],5);
 $popup3sign = PopUp(['?','positive','negative','0','undefined'],4);
-        $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],3);
+        $popup4quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III',
+        'in Quadrant IV','not in any quadrant'],3);
 $popup4sign = PopUp(['?','positive','negative','0','undefined'],2);
-        $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III','in Quadrant IV','not in any quadrant'],1);
-$popup5sign = PopUp(['?','positive','negative','0','undefined'],1);
+        $popup5quadrant = PopUp(['?','in Quadrant I','in Quadrant II','in Quadrant III',
+        'in Quadrant IV','not in any quadrant'],3);
+$popup5sign = PopUp(['?','positive','negative','0','undefined'],2);
 
 ############################################################
 # Body

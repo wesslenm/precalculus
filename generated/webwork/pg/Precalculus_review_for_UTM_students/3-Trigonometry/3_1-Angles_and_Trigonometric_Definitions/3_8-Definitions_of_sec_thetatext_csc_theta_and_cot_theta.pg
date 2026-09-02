@@ -41,12 +41,12 @@ TEXT(beginproblem());
 # PG Setup Code
 ############################################################
 Context("Numeric");
-$popup1 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
-$popup2 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
-$popup3 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
-$popup4 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
-$popup5 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
-$popup6 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+$popup1 = PopUp(['?','opposite','adjacent','hypotenuse'],3);
+$popup2 = PopUp(['?','opposite','adjacent','hypotenuse'],1);
+$popup3 = PopUp(['?','opposite','adjacent','hypotenuse'],3);
+$popup4 = PopUp(['?','opposite','adjacent','hypotenuse'],2);
+$popup5 = PopUp(['?','opposite','adjacent','hypotenuse'],2);
+$popup6 = PopUp(['?','opposite','adjacent','hypotenuse'],1);
 $popup7 = PopUp(['?','x','y','r'],3);
 $popup8 = PopUp(['?','x','y','r'],2);
 $popup9 = PopUp(['?','x','y','r'],3);

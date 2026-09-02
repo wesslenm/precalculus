@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-9-3" assembly-id="sec-trig-identities-9-3">
   <static seed="188">
-    <statement><p>Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{\sqrt{11}}{6}</m> and <m>\cos \theta = -\frac{5}{6}\text{.}</m> Answer the following questions.
+    <statement><p>Suppose that for some angle <m>\theta</m> we know that <m>\sin \theta = -\frac{\sqrt{11}}{6}</m> and that <m>\cos \theta = -\frac{5}{6}\text{.}</m> Answer the following questions.
 <ol label="a.">
 <li>
 <p>Evaluate <m>\tan^2 \theta</m> = <fillin characters="6" name="AnSwEr0001"/>.</p>
@@ -29,7 +29,7 @@
 </statement>
     <answer>
       <p>
-        <m>\frac{11}{5}</m>
+        <m>\frac{11}{25}</m>
       </p>
     </answer>
     <answer>
@@ -44,7 +44,7 @@
     </answer>
     <answer>
       <p>
-        <m>\text{I}</m>
+        <m>\text{III}</m>
       </p>
     </answer>
   </static>
@@ -94,10 +94,10 @@ TEXT(beginproblem());
 ############################################################
 Context("Numeric");
 
-$ans1 = Compute("11/5");
+$ans1 = Compute("11/25");
 $ans2 = Compute("1");
 $ans3 = Compute("-6/5");
-$popup = PopUp(['?','I','II','III','IV'],1);
+$popup = PopUp(['?','I','II','III','IV'],3);
 
 Context()->functions->disable('All');
 Context()->functions->enable('sqrt');
@@ -107,7 +107,7 @@ Context()->functions->enable('sqrt');
 ############################################################
 
 BEGIN_PGML
-Suppose that for some angle [`\theta`] we know that [`\sin \theta = -\frac{\sqrt{11}}{6}`] and [`\cos \theta = -\frac{5}{6}\text{.}`] Answer the following questions.
+Suppose that for some angle [`\theta`] we know that [`\sin \theta = -\frac{\sqrt{11}}{6}`] and that [`\cos \theta = -\frac{5}{6}\text{.}`] Answer the following questions.
 a.  Evaluate [`\tan^2 \theta`] = [_]{$ans1}{6}.
 
 a.  Evaluate [`\cos^2 \theta + \sin^2 \theta`] = [_]{$ans2}{6}.

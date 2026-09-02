@@ -53,7 +53,7 @@ $ans = Compute("1");
 BEGIN_PGML
 Simplify the below expressions as much as possible.
 
-[`frac{\tan x + \cot x}{\sec x \csc x}=`]  [_]{$ans}{6}.
+[`\dfrac{\tan x + \cot x}{\sec x \csc x}=`]  [_]{$ans}{6}.
 
 END_PGML
 

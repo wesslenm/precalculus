@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-identities-6-11" assembly-id="sec-trig-identities-6-11">
   <static seed="183">
-    <statement><p>Suppose <m>\theta</m> is an angle with terminal side in Quadrant III, and suppose <m>\sin \theta = \frac{4}{7}\text{.}</m> What is the value of <m>\cos \theta\text{?}</m></p>
+    <statement><p>Suppose <m>\theta</m> is an angle with terminal side in Quadrant III, and suppose <m>\sin \theta = -\frac{4}{7}\text{.}</m> What is the value of <m>\cos \theta\text{?}</m></p>
 <p><m>\cos \theta =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
@@ -65,7 +65,7 @@ Context()->functions->enable('sqrt');
 ############################################################
 
 BEGIN_PGML
-Suppose [`\theta`] is an angle with terminal side in Quadrant III, and suppose [`\sin \theta = \frac{4}{7}\text{.}`] What is the value of [`\cos \theta\text{?}`]
+Suppose [`\theta`] is an angle with terminal side in Quadrant III, and suppose [`\sin \theta = -\frac{4}{7}\text{.}`] What is the value of [`\cos \theta\text{?}`]
 
 [`\cos \theta =`]  [_]{$ans}{6}.
 

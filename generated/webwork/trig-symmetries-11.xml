@@ -52,7 +52,7 @@
 </statement>
     <answer>
       <p>
-        <m>\text{True}</m>
+        <m>\text{False}</m>
       </p>
     </answer>
     <answer>
@@ -72,7 +72,7 @@
     </answer>
     <answer>
       <p>
-        <m>\text{True}</m>
+        <m>\text{False}</m>
       </p>
     </answer>
   </static>
@@ -125,7 +125,7 @@ Context("Numeric");
 
 $a = random(2,9,1);
 $popuptrue = PopUp(['?','True','False'],1);
-$popupfalse = PopUp(['?','True','False'],1);
+$popupfalse = PopUp(['?','True','False'],2);
 
 ############################################################
 # Body

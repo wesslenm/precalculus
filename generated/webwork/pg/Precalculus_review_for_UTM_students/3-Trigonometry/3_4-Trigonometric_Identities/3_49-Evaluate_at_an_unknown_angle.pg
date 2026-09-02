@@ -51,7 +51,7 @@ Context()->functions->enable('sqrt');
 ############################################################
 
 BEGIN_PGML
-Suppose [`\theta`] is an angle with terminal side in Quadrant III, and suppose [`\sin \theta = \frac{4}{7}\text{.}`] What is the value of [`\cos \theta\text{?}`]
+Suppose [`\theta`] is an angle with terminal side in Quadrant III, and suppose [`\sin \theta = -\frac{4}{7}\text{.}`] What is the value of [`\cos \theta\text{?}`]
 
 [`\cos \theta =`]  [_]{$ans}{6}.
 

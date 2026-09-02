@@ -3,6 +3,7 @@
   <static seed="184">
     <statement><p>Simplify the expression as much as possible and write your final answer in terms of <m>\sin \theta</m> and <m>\cos \theta</m> only.</p>
 <p><m>\cot^2 \theta - \csc^2 \theta =</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p>Notation: To enter <m>\theta\text{,}</m> type in \theta.</p>
 </statement>
     <answer>
       <p>
@@ -67,6 +68,8 @@ BEGIN_PGML
 Simplify the expression as much as possible and write your final answer in terms of [`\sin \theta`] and [`\cos \theta`] only.
 
 [`\cot^2 \theta - \csc^2 \theta =`]  [_]{$ans}{6}.
+
+Notation: To enter [`\theta\text{,}`] type in \\theta.
 
 END_PGML
 

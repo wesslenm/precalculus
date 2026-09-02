@@ -3,6 +3,7 @@
   <static seed="165">
     <statement><p>Evaluate <m>\sin \left(\frac{3\pi}{2}\right)</m> without using a calculator.</p>
 <p><m>\sin \left(\frac{3\pi}{2}\right)=</m><fillin characters="5" name="AnSwEr0001"/></p>
+<p>(Not randomizable)</p>
 </statement>
     <answer>
       <p>
@@ -63,6 +64,8 @@ BEGIN_PGML
 Evaluate [`\sin \left(\frac{3\pi}{2}\right)`] without using a calculator.
 
 [`\sin \left(\frac{3\pi}{2}\right)=`][_]{'-1'}{5}
+
+(Not randomizable)
 
 END_PGML
 

@@ -6,6 +6,7 @@
 <p>(b) <m>\cos \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0002"/>.</p>
 <p>(c) <m>\tan \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0003"/>.</p>
 <p>(d) <m>\sec \left(\frac{3\pi}{4}\right) =</m>  <fillin characters="10" name="AnSwEr0004"/>.</p>
+<p>(Not randomizable)</p>
 </statement>
     <answer>
       <p>
@@ -104,6 +105,8 @@ Evaluate the following. Answer in exact form (using square roots if needed).
 (c) [` \tan \left(\frac{3\pi}{4}\right) =`]  [_]{$ans3}{10}.
 
 (d) [` \sec \left(\frac{3\pi}{4}\right) =`]  [_]{$ans4}{10}.
+
+(Not randomizable)
 
 END_PGML
 

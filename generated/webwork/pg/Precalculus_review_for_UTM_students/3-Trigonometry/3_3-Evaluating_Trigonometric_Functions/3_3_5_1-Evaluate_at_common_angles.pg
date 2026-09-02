@@ -48,7 +48,7 @@ $ans1 = Compute("1/sqrt(2)")->with(
 $ans2 = Compute("sqrt(3)")->with(
          tolType => 'absolute',
          tolerance => .000000000000000000001,   );
-$ans3 = Compute("2")->with(
+$ans3 = Compute("2/sqrt(3)")->with(
          tolType => 'absolute',
          tolerance => .000000000000000000001,   );
 

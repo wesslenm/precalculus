@@ -10,7 +10,7 @@
 </li><li>
 <p>adjacent</p>
 </li><li>
-<p>hypothenuse</p>
+<p>hypotenuse</p>
 </li></ul> / <ul form="popup" name="AnSwEr0002"><li>
 <p>?</p>
 </li><li>
@@ -18,7 +18,7 @@
 </li><li>
 <p>adjacent</p>
 </li><li>
-<p>hypothenuse</p>
+<p>hypotenuse</p>
 </li></ul>.</p>
 </li>
 <li>
@@ -29,7 +29,7 @@
 </li><li>
 <p>adjacent</p>
 </li><li>
-<p>hypothenuse</p>
+<p>hypotenuse</p>
 </li></ul> / <ul form="popup" name="AnSwEr0004"><li>
 <p>?</p>
 </li><li>
@@ -37,7 +37,7 @@
 </li><li>
 <p>adjacent</p>
 </li><li>
-<p>hypothenuse</p>
+<p>hypotenuse</p>
 </li></ul>.</p>
 </li>
 <li>
@@ -48,7 +48,7 @@
 </li><li>
 <p>adjacent</p>
 </li><li>
-<p>hypothenuse</p>
+<p>hypotenuse</p>
 </li></ul> / <ul form="popup" name="AnSwEr0006"><li>
 <p>?</p>
 </li><li>
@@ -56,7 +56,7 @@
 </li><li>
 <p>adjacent</p>
 </li><li>
-<p>hypothenuse</p>
+<p>hypotenuse</p>
 </li></ul>.</p>
 </li>
 <li>
@@ -120,7 +120,7 @@
 </statement>
     <answer>
       <p>
-        <m>\text{hypothenuse}</m>
+        <m>\text{hypotenuse}</m>
       </p>
     </answer>
     <answer>
@@ -130,7 +130,7 @@
     </answer>
     <answer>
       <p>
-        <m>\text{hypothenuse}</m>
+        <m>\text{hypotenuse}</m>
       </p>
     </answer>
     <answer>
@@ -224,12 +224,12 @@ TEXT(beginproblem());
 # PG Setup Code
 ############################################################
 Context("Numeric");
-$popup1 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
-$popup2 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
-$popup3 = PopUp(['?','opposite','adjacent','hypothenuse'],3);
-$popup4 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
-$popup5 = PopUp(['?','opposite','adjacent','hypothenuse'],2);
-$popup6 = PopUp(['?','opposite','adjacent','hypothenuse'],1);
+$popup1 = PopUp(['?','opposite','adjacent','hypotenuse'],3);
+$popup2 = PopUp(['?','opposite','adjacent','hypotenuse'],1);
+$popup3 = PopUp(['?','opposite','adjacent','hypotenuse'],3);
+$popup4 = PopUp(['?','opposite','adjacent','hypotenuse'],2);
+$popup5 = PopUp(['?','opposite','adjacent','hypotenuse'],2);
+$popup6 = PopUp(['?','opposite','adjacent','hypotenuse'],1);
 $popup7 = PopUp(['?','x','y','r'],3);
 $popup8 = PopUp(['?','x','y','r'],2);
 $popup9 = PopUp(['?','x','y','r'],3);
