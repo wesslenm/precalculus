@@ -56,7 +56,7 @@ $popup4 = PopUp(['?','True','False'],2);
 ############################################################
 
 BEGIN_PGML
-Consier the equation
+Consider the equation
 
 [```
           \sin(x+y) = \sin x + \sin y

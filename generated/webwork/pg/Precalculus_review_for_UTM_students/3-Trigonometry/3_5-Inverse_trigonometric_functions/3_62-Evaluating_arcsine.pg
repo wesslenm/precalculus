@@ -55,6 +55,8 @@ Evaluate [`\arcsin \left(-\frac{\sqrt{3}}{2}\right)`] without using a calculator
 
 [`\arcsin \left(-\frac{\sqrt{3}}{2}\right)=`]  [_]{$ans}{6}.
 
+(Not randomizable)
+
 END_PGML
 
 ############################################################

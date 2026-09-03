@@ -51,6 +51,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\tan \left(\arctan \left(\frac{[$b]}{[$a]}\right)\right)`] without using a calculator. Answer with an exact value.
 
 [`\tan \left(\arctan \left(\frac{[$b]}{[$a]}\right)\right)=`]  [_]{$ans}{6}.

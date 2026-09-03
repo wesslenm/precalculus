@@ -13,7 +13,7 @@
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(3.5.6.6)
+## Problem1(3.4.5.10)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -39,25 +39,21 @@ TEXT(beginproblem());
 ############################################################
 # PG Setup Code
 ############################################################
-  Context("Numeric");
-  $a = Compute(random(2, 12, 1));
-  $b = Compute($a-1);
-  $ans = Compute("pi")->with(
-           tolType => 'absolute',
-           tolerance => .000000000000000000001,   );
+Context("Numeric");
+$a = random(2,9,1);
+$ans = Compute("1");
 
-Context()->functions->disable('trig');
+   Context()->functions->disable('All');
+   Context()->functions->enable('tan','cos');
 
 ############################################################
 # Body
 ############################################################
 
 BEGIN_PGML
-(Not randomizable)
+Simplify the below expressions as much as possible.
 
-Evaluate [`\mbox{arcsec} \left(-1 \right) `] without using a calculator. Answer with an exact value, in radians.
-
-[`\mbox{arsec} \left(-1\right)=`]  [_]{$ans}{6}.
+[`\dfrac{\tan x + \cot x}{\sec x \csc x}=`]  [_]{$ans}{6}.
 
 END_PGML
 

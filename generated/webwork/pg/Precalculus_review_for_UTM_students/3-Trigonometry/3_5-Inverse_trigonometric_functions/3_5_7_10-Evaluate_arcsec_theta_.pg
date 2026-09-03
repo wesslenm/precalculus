@@ -53,6 +53,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=`]  [_]{$ans}{6}.

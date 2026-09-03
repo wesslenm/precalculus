@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-triginv-additional-3" assembly-id="triginv-additional-3">
   <static seed="227">
-    <statement><p>Evaluate <m>\arcsin \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+    <statement><p>(Not randomizable)</p>
+<p>Evaluate <m>\arcsin \left(\frac{1}{2} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arcsin \left(\frac{1}{2} \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
@@ -67,6 +68,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\arcsin \left(\frac{1}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\arcsin \left(\frac{1}{2} \right)=`]  [_]{$ans}{6}.

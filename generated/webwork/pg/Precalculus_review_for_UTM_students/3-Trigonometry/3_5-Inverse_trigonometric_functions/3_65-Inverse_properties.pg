@@ -42,7 +42,7 @@ TEXT(beginproblem());
   Context("Numeric");
   $a = Compute(random(2, 12, 1));
   $b = Compute($a-1);
-  $ans = Compute(\pi/6);
+  $ans = Compute(pi/6);
 
 Context()->functions->disable('trig');
 

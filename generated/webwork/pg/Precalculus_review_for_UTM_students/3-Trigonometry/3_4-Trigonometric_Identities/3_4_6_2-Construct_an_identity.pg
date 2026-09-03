@@ -41,8 +41,8 @@ TEXT(beginproblem());
 ############################################################
 Context("Numeric");
 $a = random(3,6,1);
-$ans1 = Compute("2");
-$ans2 = Compute("4");
+$ans1 = Compute("4");
+$ans2 = Compute("2");
 
 Context()->functions->disable('All');
 Context()->functions->enable('tan');
@@ -52,10 +52,10 @@ Context()->functions->enable('tan');
 ############################################################
 
 BEGIN_PGML
-Use a graphing calculator (for example DESMOS) to sketch the graph of [`y=8\sin x \cos x \sin (2x)\text{.}`] Use that graph to guess values of [`a`] and [`a`] that make the below equation an identity.
+Use a graphing calculator (for example DESMOS) to sketch the graph of [`y=8\sin x \cos x \sin (2x)\text{.}`] Use that graph to guess values of [`a`] and [`b`] that make the below equation an identity.
 
 [```
-        8\sin x \cos x \sin (2x) = a \sin (bx)
+        8\sin x \cos x \sin (2x) = a \sin^2 (bx)
       ```]
 
 a.  [` a = `]    [_]{$ans1}{6}.

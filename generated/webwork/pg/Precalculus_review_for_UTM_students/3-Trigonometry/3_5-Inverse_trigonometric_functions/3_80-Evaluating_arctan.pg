@@ -55,6 +55,8 @@ Evaluate [`\arctan 1`] without using a calculator. Answer with an exact value.
 
 [`\arctan 1=`]  [_]{$ans}{6}.
 
+(Not randomizable)
+
 END_PGML
 
 ############################################################

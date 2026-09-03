@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-triginv-additional-6" assembly-id="triginv-additional-6">
   <static seed="230">
-    <statement><p>Evaluate <m>\sin^{-1} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+    <statement><p>(Not randomizable)</p>
+<p>Evaluate <m>\sin^{-1} \left(0 \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\sin^{-1} \left(0 \right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
@@ -65,6 +66,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\sin^{-1} \left(0 \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\sin^{-1} \left(0 \right)=`]  [_]{$ans}{6}.

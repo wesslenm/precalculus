@@ -55,6 +55,8 @@ Evaluate [`\arcsin \left(\frac{1}{2}\right)`] without using a calculator. Answer
 
 [`\arcsin \left(\frac{1}{2}\right)=`]  [_]{$ans}{6}.
 
+(Not randomizable)
+
 END_PGML
 
 ############################################################

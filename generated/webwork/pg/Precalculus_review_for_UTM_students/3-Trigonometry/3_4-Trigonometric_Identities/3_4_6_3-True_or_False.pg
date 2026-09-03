@@ -43,7 +43,7 @@ TEXT(beginproblem());
       Context("Numeric");
       $a = random(3,6,1);
       $ans = Compute("$a*x^($a-1)");
-$popup1 = PopUp(['?','True','False'],2);
+$popup1 = PopUp(['?','True','False'],1);
 $popup2 = PopUp(['?','True','False'],2);
 $popup3 = PopUp(['?','True','False'],1);
 $popup4 = PopUp(['?','True','False'],1);
@@ -64,9 +64,9 @@ a.  [` \frac{\sin (3x) + \cos (3x)}{\sin (3x)} = 1 + \cot (3x) `] [_]{$popup1}{5
 
 a.  [`\cos(3x+4y) = \cos(3x) + \cos(4y)`] [_]{$popup2}{5}
 
-a.  [`(\sec (xy))^2 = \frac{1}{\cos^2 (xy)}`] [_]{$popup3}{5}
+a.  [`\sin (-4x)  = -\sin (4x) `] [_]{$popup4}{5}
 
-a.  [`\sin (-4x)  = \sin (4x) `] [_]{$popup4}{5}
+a.  [`(\sec (xy))^2 = \frac{1}{\cos^2 (xy)}`] [_]{$popup3}{5}
 
 a.  [`(\tan (xy))^2 = \tan^2 (x)\tan^2 (y)`] [_]{$popup5}{5}
 

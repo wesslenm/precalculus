@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-triginv-additional-9" assembly-id="triginv-additional-9">
   <static seed="233">
-    <statement><p>Evaluate <m>\tan^{-1} \left(-\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+    <statement><p>(Not randomizable)</p>
+<p>Evaluate <m>\tan^{-1} \left(-\sqrt{3} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\tan^{-1} \left(-\sqrt{3}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
@@ -67,6 +68,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\tan^{-1} \left(-\sqrt{3} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\tan^{-1} \left(-\sqrt{3}\right)=`]  [_]{$ans}{6}.

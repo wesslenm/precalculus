@@ -55,6 +55,8 @@ Evaluate [`\mbox{arcsec} \left(-\sqrt{2} \right) `] without using a calculator. 
 
 [`\mbox{arcsec} \left(-\sqrt{2} \right)=`]  [_]{$ans}{6}.
 
+(Not randomizable)
+
 END_PGML
 
 ############################################################

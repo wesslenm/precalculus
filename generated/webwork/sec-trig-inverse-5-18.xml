@@ -6,7 +6,7 @@
 </statement>
     <answer>
       <p>
-        <m>1.56889\times 10^{13}</m>
+        <m>0.523599</m>
       </p>
     </answer>
   </static>
@@ -56,7 +56,7 @@ TEXT(beginproblem());
   Context("Numeric");
   $a = Compute(random(2, 12, 1));
   $b = Compute($a-1);
-  $ans = Compute(\pi/6);
+  $ans = Compute(pi/6);
 
 Context()->functions->disable('trig');
 

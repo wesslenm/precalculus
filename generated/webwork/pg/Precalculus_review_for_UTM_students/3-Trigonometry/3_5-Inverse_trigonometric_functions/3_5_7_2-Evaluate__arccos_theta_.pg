@@ -53,6 +53,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=`]  [_]{$ans}{6}.

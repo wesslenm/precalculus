@@ -55,6 +55,8 @@ Evaluate [`\arccos \left(\frac{1}{\sqrt{2}}\right)`] without using a calculator.
 
 [`\arccos \left(\frac{1}{\sqrt{2}}\right)=`]  [_]{$ans}{6}.
 
+(Not randomizable)
+
 END_PGML
 
 ############################################################

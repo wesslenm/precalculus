@@ -53,6 +53,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\mbox{arccsc} \left(-\sqrt{2} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\mbox{arccsc} \left(-\sqrt{2} \right) =`]  [_]{$ans}{6}.

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-3" assembly-id="trig-id-additional-3">
   <static seed="198">
-    <statement><p>Consier the equation</p>
+    <statement><p>Consider the equation</p>
 <p><me>\sin(x+y) = \sin x + \sin y</me></p>
 <p>Which of the following statements are true, and which are false?</p>
 <p><ol label="a.">
@@ -124,7 +124,7 @@ $popup4 = PopUp(['?','True','False'],2);
 ############################################################
 
 BEGIN_PGML
-Consier the equation
+Consider the equation
 
 [```
           \sin(x+y) = \sin x + \sin y

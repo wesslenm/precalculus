@@ -51,6 +51,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\sin^{-1} \left(0 \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\sin^{-1} \left(0 \right)=`]  [_]{$ans}{6}.

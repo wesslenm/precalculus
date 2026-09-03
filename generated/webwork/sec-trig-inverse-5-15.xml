@@ -3,6 +3,7 @@
   <static seed="206">
     <statement><p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2}\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\arcsin \left(-\frac{\sqrt{3}}{2}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p>(Not randomizable)</p>
 </statement>
     <answer>
       <p>
@@ -68,6 +69,8 @@ BEGIN_PGML
 Evaluate [`\arcsin \left(-\frac{\sqrt{3}}{2}\right)`] without using a calculator. Answer with an exact value.
 
 [`\arcsin \left(-\frac{\sqrt{3}}{2}\right)=`]  [_]{$ans}{6}.
+
+(Not randomizable)
 
 END_PGML
 

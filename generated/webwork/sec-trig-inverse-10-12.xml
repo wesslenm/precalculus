@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-inverse-10-12" assembly-id="sec-trig-inverse-10-12">
   <static seed="226">
-    <statement><p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+    <statement><p>(Not randomizable)</p>
+<p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
 <p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
@@ -67,6 +68,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)`] without using a calculator. Answer with an exact value.
 
 [`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=`]  [_]{$ans}{6}.

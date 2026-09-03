@@ -43,7 +43,7 @@ Context("Numeric");
 $a = random(2,9,1);
 $ans1 = Compute("((1-$a)cos x)/sin x");
 $ans2 = Compute("0");
-      $ans2 = Compute("1/sin x");
+      $ans3 = Compute("1/sin x");
 
    Context()->functions->disable('All');
    Context()->functions->enable('sin','cos');
@@ -53,13 +53,13 @@ $ans2 = Compute("0");
 ############################################################
 
 BEGIN_PGML
-Write each expression in terms of only sine and cosine, and simplify as much as possible.
+Write each expression in terms of only sine and cosine, and simplify as much as possible. Ignore any restrictions in the domain.
 
-a.  [`\frac{\csc x}{\sec x} - [$a] \cot x=`]  [_]{$ans1}{6}.
+a.  [`\dfrac{\csc x}{\sec x} - [$a] \cot x=`]  [_]{$ans1}{6}.
 
 a.  [`\sec x \sin x - \tan x = `] [_]{$ans2}{6}.
 
-a.  [`\frac{\csc x-\sin x}{\cot x\cos x} = `] [_]{$ans3}{6}.
+a.  [`\dfrac{\csc x-\sin x}{\cot x\cos x \sin x} = `] [_]{$ans3}{10}.
 
 END_PGML
 

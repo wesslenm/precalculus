@@ -53,6 +53,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =`]  [_]{$ans}{6}.

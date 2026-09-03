@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-4" assembly-id="trig-id-additional-4">
   <static seed="199">
-    <statement><p>Use a graphing calculator (for example DESMOS) to sketch the graph of <m>y=8\sin x \cos x \sin (2x)\text{.}</m> Use that graph to guess values of <m>a</m> and <m>a</m> that make the below equation an identity.</p>
-<p><me>8\sin x \cos x \sin (2x) = a \sin (bx)</me></p>
+    <statement><p>Use a graphing calculator (for example DESMOS) to sketch the graph of <m>y=8\sin x \cos x \sin (2x)\text{.}</m> Use that graph to guess values of <m>a</m> and <m>b</m> that make the below equation an identity.</p>
+<p><me>8\sin x \cos x \sin (2x) = a \sin^2 (bx)</me></p>
 <p><ol label="a.">
 <li>
 <p><m>a =</m>    <fillin characters="6" name="AnSwEr0001"/>.</p>
@@ -14,12 +14,12 @@
 </statement>
     <answer>
       <p>
-        <m>2</m>
+        <m>4</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>4</m>
+        <m>2</m>
       </p>
     </answer>
   </static>
@@ -68,8 +68,8 @@ TEXT(beginproblem());
 ############################################################
 Context("Numeric");
 $a = random(3,6,1);
-$ans1 = Compute("2");
-$ans2 = Compute("4");
+$ans1 = Compute("4");
+$ans2 = Compute("2");
 
 Context()->functions->disable('All');
 Context()->functions->enable('tan');
@@ -79,10 +79,10 @@ Context()->functions->enable('tan');
 ############################################################
 
 BEGIN_PGML
-Use a graphing calculator (for example DESMOS) to sketch the graph of [`y=8\sin x \cos x \sin (2x)\text{.}`] Use that graph to guess values of [`a`] and [`a`] that make the below equation an identity.
+Use a graphing calculator (for example DESMOS) to sketch the graph of [`y=8\sin x \cos x \sin (2x)\text{.}`] Use that graph to guess values of [`a`] and [`b`] that make the below equation an identity.
 
 [```
-        8\sin x \cos x \sin (2x) = a \sin (bx)
+        8\sin x \cos x \sin (2x) = a \sin^2 (bx)
       ```]
 
 a.  [` a = `]    [_]{$ans1}{6}.

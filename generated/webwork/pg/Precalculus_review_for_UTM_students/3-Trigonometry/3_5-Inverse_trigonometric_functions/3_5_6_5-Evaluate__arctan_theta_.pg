@@ -53,6 +53,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\arctan \left(\frac{1}{\sqrt{3}} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\arctan \left(\frac{1}{\sqrt{3}}\right)=`]  [_]{$ans}{6}.

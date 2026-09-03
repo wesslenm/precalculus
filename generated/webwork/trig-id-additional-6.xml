@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-trig-id-additional-6" assembly-id="trig-id-additional-6">
   <static seed="201">
-    <statement><p>Write each expression in terms of only sine and cosine, and simplify as much as possible.</p>
+    <statement><p>Write each expression in terms of only sine and cosine, and simplify as much as possible. Ignore any restrictions in the domain.</p>
 <p><ol label="a.">
 <li>
-<p><m>\frac{\csc x}{\sec x} - 4 \cot x=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
+<p><m>\dfrac{\csc x}{\sec x} - 4 \cot x=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </li>
 <li>
 <p><m>\sec x \sin x - \tan x =</m> <fillin characters="6" name="AnSwEr0002"/>.</p>
 </li>
 <li>
-<p><m>\frac{\csc x-\sin x}{\cot x\cos x} =</m> <fillin characters="1" name="AnSwEr0003"/>.</p>
+<p><m>\dfrac{\csc x-\sin x}{\cot x\cos x \sin x} =</m> <fillin characters="10" name="AnSwEr0003"/>.</p>
 </li>
 </ol></p>
 </statement>
@@ -21,12 +21,12 @@
     </answer>
     <answer>
       <p>
-        <m>\frac{1}{\sin\mathopen{}\left(x\right)}</m>
+        <m>0</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>6</m>
+        <m>\frac{1}{\sin\mathopen{}\left(x\right)}</m>
       </p>
     </answer>
   </static>
@@ -77,7 +77,7 @@ Context("Numeric");
 $a = random(2,9,1);
 $ans1 = Compute("((1-$a)cos x)/sin x");
 $ans2 = Compute("0");
-      $ans2 = Compute("1/sin x");
+      $ans3 = Compute("1/sin x");
 
    Context()->functions->disable('All');
    Context()->functions->enable('sin','cos');
@@ -87,13 +87,13 @@ $ans2 = Compute("0");
 ############################################################
 
 BEGIN_PGML
-Write each expression in terms of only sine and cosine, and simplify as much as possible.
+Write each expression in terms of only sine and cosine, and simplify as much as possible. Ignore any restrictions in the domain.
 
-a.  [`\frac{\csc x}{\sec x} - [$a] \cot x=`]  [_]{$ans1}{6}.
+a.  [`\dfrac{\csc x}{\sec x} - [$a] \cot x=`]  [_]{$ans1}{6}.
 
 a.  [`\sec x \sin x - \tan x = `] [_]{$ans2}{6}.
 
-a.  [`\frac{\csc x-\sin x}{\cot x\cos x} = `] [_]{$ans3}{6}.
+a.  [`\dfrac{\csc x-\sin x}{\cot x\cos x \sin x} = `] [_]{$ans3}{10}.
 
 END_PGML
 

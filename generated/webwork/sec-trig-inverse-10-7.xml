@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-trig-inverse-10-7" assembly-id="sec-trig-inverse-10-7">
   <static seed="221">
-    <statement><p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
+    <statement><p>(Not randomizable)</p>
+<p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right)</m> without using a calculator. Answer with an exact value, in radians.</p>
 <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <fillin characters="6" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
@@ -67,6 +68,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\arctan \left(\frac{1}{\sqrt{3}} \right) `] without using a calculator. Answer with an exact value, in radians.
 
 [`\arctan \left(\frac{1}{\sqrt{3}}\right)=`]  [_]{$ans}{6}.

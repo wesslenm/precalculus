@@ -53,6 +53,8 @@ Context()->functions->disable('trig');
 ############################################################
 
 BEGIN_PGML
+(Not randomizable)
+
 Evaluate [`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)`] without using a calculator. Answer with an exact value.
 
 [`\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=`]  [_]{$ans}{6}.
