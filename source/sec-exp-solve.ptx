@@ -61,7 +61,7 @@ involving exponential and logarithmic functions, and understand what these solut
   <subsection><title>Basic Exponential Equations</title>
   <p>
   We have already solved some equations in the previous sections of this chapter. 
-  Here we go back to the basics again, for review. 
+  Here, we go back to the basics again, for review. 
   </p>
   <p> 
     As we've seen earlier, logarithms and exponential functions can "cancel each other out" since they are inverses of each other. 
@@ -78,7 +78,7 @@ Here, in order to solve for <m>x</m>, we would apply the inverse operation of a 
   x=5
 </md>
 
-A similar argument can be made to solve exponential and logarithmic functions. 
+A similar argument can be made to solve exponential and logarithmic equations. 
 Consider the following exponential equation:
 <md>
   e^x=100
@@ -182,12 +182,12 @@ Therefore, we will take <m>\ln</m> on both sides of the equation:
             <m>5e^{\frac{x}{4}-1}+7=10</m>
           </p>
           <p>
-            Again, do not apply <m>\ln</m> too early. First remove all things on the `outside', 
-            then take <m>\ln</m>. Then move the things that were `inside' of the exponential. 
+            Again, do not apply <m>\ln</m> too early. First remove all things on the 'outside', 
+            then take <m>\ln</m>. Then move the things that were 'inside' of the exponential. 
             <me>5e^{\frac{x}{4}-1}+7=10</me>
             <me>5e^{\frac{x}{4}-1}=3</me>
             <me>e^{\frac{x}{4}-1}=\frac{3}{5}</me>
-            Now we are ready to `take <m>\ln</m>' because there are no things outside of the exponential:
+            Now we are ready to 'take <m>\ln</m>' because there are no things outside of the exponential:
             <me>\frac{x}{4}-1=\ln \left(\frac{3}{5}\right)</me>
             <me>\frac{x}{4}=\ln \left(\frac{3}{5}\right)+1</me>
             <me>x=4\left(\ln \left(\frac{3}{5}\right)+1\right)</me>
@@ -259,7 +259,7 @@ Consider the following logarithmic equation:
 
 To "cancel out" the natural logarithm, we must use the natural exponential function. 
 We must be mindful of how we apply the natural exponential function, though. 
-To correctly apply this step, we must raise both sides of the equation \textbf{as the power of <m>e</m>}:
+To correctly apply this step, we must raise both sides of the equation as the power of <m>e</m>:
 
 <me>e^{\ln x}=e^5</me>
 <me>x=e^5 \approx 148.413</me>
@@ -270,9 +270,9 @@ To correctly apply this step, we must raise both sides of the equation \textbf{a
       <alert> Study tip: </alert>
     </p>
     <p>  
-      A common misconception to try to \textit{multiply} both sides of the equation by <m>e</m> 
+      A common misconception to try to multiply both sides of the equation by <m>e</m> 
       in order to cancel out the logarithm. 
-       Again, this is not correct, since while <m>e</m> \textit{does} have numerical value, 
+       Again, this is not correct, since while <m>e</m> does have numerical value, 
        <m>\ln</m> does not, so <m>e \cdot \ln</m> is meaningless.
    </p>
   </aside>
@@ -337,16 +337,8 @@ To correctly apply this step, we must raise both sides of the equation \textbf{a
     <webwork source="Library/UMN/calculusStewartCCC/s_1_6_52.pg" />
   </exercise>
 
- <exercise><title>An equation with <m>x</m> appearing twice</title>
-    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
-  </exercise>
-
   <exercise><title>Two equations</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_52.pg" />
-  </exercise>
-
- <exercise><title>Challenge: An exponential equation</title>
-    <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
   </exercise>
 
   </exercises>
@@ -356,9 +348,6 @@ To correctly apply this step, we must raise both sides of the equation \textbf{a
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
-
-
-
   <exercise><title>Inequalties</title>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_53.pg" />
   </exercise>
@@ -367,36 +356,18 @@ For students who want even more problems to practice, here are some additional e
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg" />
   </exercise>
 
+ <exercise><title>An equation with <m>x</m> appearing twice</title>
+    <webwork source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" />
+  </exercise>
+
+   <exercise><title>Challenge: An exponential equation</title>
+    <webwork source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" />
+  </exercise>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
   </exercises> 
 </section>

@@ -56,7 +56,8 @@
   <introduction>
     <p>    
 In <xref ref="sec-exp-log"/> we saw the definition of logarithms and of <m>\ln x</m>. 
-In this section we continue working with more properties of logarithms, in particular the Logarithm Laws and properties stemming from the definition as inverse of <m>y=e^x</m>. 
+In this section we continue working with more properties of logarithms, 
+in particular the Logarithm Laws and properties stemming from their definition as inverses of exponential functions. 
     </p>
   </introduction>
  
@@ -218,7 +219,7 @@ It is important to understand these laws, and it is also important to understand
 
  <assemblage><title>Common Errors</title>
     <p>
-      Be careful to not apply `rules' that are not true. For example, note that:
+      Be careful to not apply 'rules' that are not true. For example, note that:
     </p>
     <p>
     <men xml:id="log-error1">
@@ -227,6 +228,9 @@ It is important to understand these laws, and it is also important to understand
     <men>
       (\ln x)^a \neq a(\ln x)
     </men>
+    <men>
+      \ln\left(x\right) + \ln\left(y\right) \neq \ln\left(xy\right) 
+    </men> 
     <men>
       a\ln x + b\ln y \neq ab\ln\left(xy\right) 
     </men>
@@ -292,13 +296,13 @@ It is important to understand these laws, and it is also important to understand
       <ol>
         <li>
           <p>
-           Using <xref ref="log-law-product"/> (uing it `backwards'), we see that <m>\ln (6) + \ln(4.5)=\ln (6\cdot 4.6) = \ln (27)</m>. 
+           Using <xref ref="log-law-product"/> (using it 'backwards'), we see that <m>\ln (6) + \ln(4.5)=\ln (6\cdot 4.6) = \ln (27)</m>. 
            So the statement is <m>\boxed{\mbox{TRUE}}</m>.
           </p>
         </li>
         <li>
           <p>
-            <m>\ln (5x) =\ln (5)\ln (x)</m>. This is precisely one of the common errors. The statement is <m>\boxed{\mbox{FALSE}}</m>.
+            <m>\ln (5x) =\ln (5)\ln (x)</m>. This is precisely one of the common errors. The statement is <m>\boxed{\mbox{FALSE}}</m>. (For example, suppose <m>x=1</m>. What is <m>\ln (5\cdot 0)</m> and what is <m>\ln (5)\ln (0)</m>? Are they equal?)
           </p>
         </li>
         <li>
@@ -309,7 +313,10 @@ It is important to understand these laws, and it is also important to understand
             </md>
             Then we use <xref ref="log-law-product"/> on the second term:
                         <md>
-              \ln \left(\frac{a}{bc}\right)=\ln a - \ln (bc) = \ln a - (\ln b + \ln c) = \ln a - \ln b - \ln c
+              \ln \left(\frac{a}{bc}\right)=\ln a - \ln (bc) = 
+            </md>
+                                    <md>
+               = \ln a - (\ln b + \ln c) = \ln a - \ln b - \ln c
             </md>
             So the statement is <m>\boxed{\mbox{TRUE}}</m>.
           </p>
@@ -347,7 +354,8 @@ $popup6 = PopUp(['?','True','False'],1);
         Which of the following statements are true, and which are false? 
       </p>
       <p>
-      Note: For a statement involving <m>a, b,c,</m> and/or <m>x</m> to be true, it must be true for ALL positive numbers <m>a, b,</m> and <m>c</m>. 
+      Note: For a statement involving <m>a, b,c,</m> and/or <m>x</m> to be true, 
+      it must be true for ALL positive numbers <m>a, b, c</m> and <m>x</m>. 
       </p>
 <p>
   <ol>
@@ -425,7 +433,7 @@ $popup6 = PopUp(['?','True','False'],1);
       </answer>
     <solution>
           <p>
-            Let's use the logarithm laws several times, and be careful to not use `false laws':
+            Let's use the logarithm laws several times, and be careful to not use 'false laws':
       <ol>
         <li>
           <p>
@@ -455,7 +463,7 @@ $popup6 = PopUp(['?','True','False'],1);
         Context("LimitedRadical");
         $b = Formula("16");
         Context("Numeric");
-        $c = Formula("x(x+1)");
+        $c = Formula("x(x+1)/(x-1)");
         Context("Numeric");
         $d = Formula("x^5");
       </pg-code>
@@ -561,7 +569,7 @@ $popup6 = PopUp(['?','True','False'],1);
     </li>
     <li>
       <p>
-        <m>\ln 7x^2 y^5=\ln 7 + 2 \ln x + 5 \ln y</m> <var name="$popup6" form="popup"/> 
+        <m>\ln \left( 7x^2 y^5 \right) =\ln 7 + 2 \ln x + 5 \ln y</m> <var name="$popup6" form="popup"/> 
       </p>
     </li>
   </ol>
@@ -596,6 +604,10 @@ $popup6 = PopUp(['?','True','False'],1);
        <p>
       Suppose <m>a, b, c,</m> and <m>x</m> are positive numbers.  
         Which of the following statements are true, and which are false? 
+      </p>
+      <p>
+      Note: For a statement involving <m>a, b,c,</m> and/or <m>x</m> to be true, 
+      it must be true for ALL positive numbers <m>a, b, c</m> and <m>x</m>. 
       </p>
 <p>
   <ol>
@@ -746,7 +758,9 @@ $popup6 = PopUp(['?','True','False'],1);
   <p>
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
-
+<p>
+  Note: More exercises will be added here over time. This resource is a work in progress. 
+</p>
  
   </exercises> 
 </section>

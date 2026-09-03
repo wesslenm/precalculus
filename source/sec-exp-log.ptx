@@ -68,9 +68,9 @@ In this section, we will review basic properties and characteristics of logarith
   </p>
       <p>
         A function <m>y=f(x)</m> has an <term>inverse</term><idx><h>Inverse function</h></idx> if and only if <m>y=f(x)</m> is one-to-one. 
-        An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes 
+        An equivalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes 
         the <term>horizontal line test (HLT)</term><idx><h>Horizontal line test</h></idx><idx><h>HLT</h></idx>. 
-        A function "passes the Horizontal Line tests" if no horizontal line crosses the curve more than once). 
+        A function "passes the Horizontal Line Tests" if no horizontal line crosses the curve more than once). 
       </p>
         
 <figure>
@@ -80,8 +80,10 @@ In this section, we will review basic properties and characteristics of logarith
 </figure>
 
       <p>
-        If we look at graphs of a few exponential functions (for example <m>y=e^x</m> and <m>y=2^x</m> and <m>y=3^x</m>), we see that they pass the HLT. 
-        They therefore have inverses. The inverse of each exponential function, is also a function. We call those inverse functions ``logarithmic functions''.   
+        If we look at graphs of a few exponential functions 
+        (for example <m>y=e^x</m> and <m>y=2^x</m> and <m>y=3^x</m>) we see that they pass the HLT. 
+        They therefore have inverse functions. The inverse of each exponential function is also a function. 
+        We call those inverse functions "logarithmic functions".   
       </p>
 
   <aside>
@@ -89,7 +91,8 @@ In this section, we will review basic properties and characteristics of logarith
       <alert> Study tip: </alert>
     </p>
     <p>  
-For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so there are the same restrictions for logarithmic functions, since logarithms are based on expoential functions. 
+For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so there are the same restrictions 
+for logarithmic functions, since logarithms are based on exponential functions. 
     </p>
   </aside>
 
@@ -120,8 +123,8 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so ther
       <alert> Study tip: </alert>
     </p>
     <p>  
-     <m>y=\log_b x</m> is a function. It requires an input. It would be complete non-sense to write <m>\sqrt{ \hspace{3mm} }</m> without any number or expression to take the square root of. 
-     Similarly it would be complete non-sense to write <m>y=\log_b \hspace{3mm}</m> without any number or expression to take log of. 
+     <m>y=\log_b x</m> is a function. It requires an input. It would be complete nonsense to write <m>\sqrt{ \hspace{3mm} }</m> without any number or expression to take the square root of. 
+     Similarly it would be complete nonsense to write <m>y=\log_b \hspace{3mm}</m> without any number or expression to take log of. 
     </p>
   </aside>
 
@@ -131,7 +134,7 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so ther
       <cell>Read as:</cell>
     </row>
     <row>
-      <cell><m>\log_b \ x</m></cell>
+      <cell><m>\log_b (x)</m></cell>
       <cell>"log, base <m>b</m>, of <m>x</m>"</cell>
     </row>
     <row>
@@ -145,6 +148,11 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so ther
   </tabular>
 
 <exercise><title>Interpreting Logarithms</title>
+<introduction>
+  <p>
+    (Not randomizable)
+  </p>
+</introduction>
   <webwork>
     <pg-code>
       Context("LimitedNumeric");
@@ -163,12 +171,12 @@ For exponential functions we required <m>b \gt 0</m> and <m>b \neq 1</m> so ther
       <ol>
         <li>
           <p>
-            <m> \log_{5}(3)</m> is read out as ``log base <var name="$ans1" width="6"/>, of <var name="$ans2" width="6"/>'' 
+            <m> \log_{5}(3)</m> is read out as "log base <var name="$ans1" width="6"/>, of <var name="$ans2" width="6"/>"
           </p>
         </li>
         <li>
           <p>
-            <m> \log_{12}(144)</m> is read out as ``log base <var name="$ans3" width="6"/>, of <var name="$ans4" width="6"/>'' 
+            <m> \log_{12}(144)</m> is read out as "log base <var name="$ans3" width="6"/>, of <var name="$ans4" width="6"/>" 
           </p>
         </li>
       </ol>
@@ -283,6 +291,11 @@ Notice that the base is <m>6</m> for both the logarithm and the exponential.
   </aside>
 
  <exercise><title>Write in logarithmic form</title>
+ <introduction>
+  <p>
+    (Not randomizable)
+  </p>
+</introduction>
     <webwork>
       <pg-code>
         Context("LimitedRadical");
@@ -437,7 +450,7 @@ Notice that the base is <m>2</m> for both the logarithm and the exponential.
               </p>
                 <p>
                   This is equivalent to <m>A = B^{C}</m> 
-                where <m>A=</m> <var name="$ans4a" width="10"/> and <m>B=</m> <var name="$ans4b" width="10"/> and <m>C=</m> <var name="$ans4c" width="10"/>.
+                where <m>A=</m> <var name="$ans3a" width="10"/> and <m>B=</m> <var name="$ans3b" width="10"/> and <m>C=</m> <var name="$ans3c" width="10"/>.
               </p>
             </li>
           </ol>
@@ -652,8 +665,8 @@ Then move the 4, and finally the 2:
     </row>
     <row>
       <cell><m>x</m>-intercept:</cell>
-      <cell><m>(1,0)</m></cell>
       <cell>None</cell>
+      <cell><m>(1,0)</m></cell>
     </row>
     <row>
       <cell><m>y</m>-intercept:</cell>
@@ -663,13 +676,15 @@ Then move the 4, and finally the 2:
   </tabular>
 
 <p>
-  Of course, graphs of logarithms can also be transformed (translated, stretched, compressed and reflected) just like any other type of graph. 
+  Of course, graphs of logarithms can also be transformed (translated, stretched, compressed and reflected) 
+  just like any other type of graph. 
 </p>
 
 <exercise><title>Interactive graph activity</title>
     <p>
     Click the link to see an interactive graph of a dynamic logarithmic function. 
-    Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>d</m> to see how different values of these parameters change the shape of the exponential graph.
+    Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>d</m> to see how different values of these 
+    parameters change the shape of the logarithmic graph.
      </p>
   <p> 
 <url href="https://www.desmos.com/calculator/zaraotrvj4" visual="desmos.com/calculator/zaraotrvj4">Interactive Graph Activity</url>
@@ -707,17 +722,26 @@ Then move the 4, and finally the 2:
  <exercises><title>Recommended Exercises</title>
     <p>
       For students who want a focused review of the topic, we recommend working on these exercises. 
-      If you find that you want even more practice, there are additional exercises below. 
-      If you find the Recommended Exercises difficult at first, you may want to start with the "Additional Exercises" (<xref ref="sec-alg-exercises"/>) and then come back to the Recommended Exercises.
+      If you find that you want even more practice, see also "Additional Exercises" (<xref ref="sec-alg-exercises"/>).
     </p>
 
+    <p>
+     Note: More exercises will be added over time. This resource is a work in progress.
+    </p>
+
+
 <exercise><title>Write in exponential form</title>
+<introduction>
+  <p>
+    (Not randomizable)
+  </p>
+</introduction>
     <webwork>
       <pg-code>
         Context("Numeric");
         $ans1a = Formula("1000");
        $ans1b = Formula("e");   
-        $ans1c = Formula("3"); 
+        $ans1c = Formula("5x"); 
         
         $ans2a = Formula("2x");
         $ans2b = Formula("e");   
@@ -739,7 +763,7 @@ Then move the 4, and finally the 2:
           <ol>
             <li>
               <p>
-                <m>\ln(1000)=3</m>.               
+                <m>\ln(1000)=5x</m>.               
               </p>
                 <p>
                   This is equivalent to <m>A = B^{C}</m> 
@@ -780,6 +804,11 @@ Then move the 4, and finally the 2:
   </exercise> 
 
 <exercise><title>Write in logarithmic form</title>
+<introduction>
+  <p>
+    (Not randomizable)
+  </p>
+</introduction>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -806,7 +835,7 @@ Then move the 4, and finally the 2:
                 <m>e^{7x}=56</m>.               
               </p>
                 <p>
-                  This is equivalent to <m>A = \log{B}(C)</m> 
+                  This is equivalent to <m>A = \log_{B}(C)</m> 
                 where <m>A=</m> <var name="$ans1a" width="10"/> and <m>B=</m> <var name="$ans1b" width="10"/> and <m>C=</m> <var name="$ans1c" width="10"/>.
               </p>
             </li>
@@ -815,7 +844,7 @@ Then move the 4, and finally the 2:
                <m>3^{x-5}=17</m>.               
               </p>
                 <p>
-                  This is equivalent to <m>A = \log{B}(C)</m> 
+                  This is equivalent to <m>A = \log_{B}(C)</m> 
                 where <m>A=</m> <var name="$ans2a" width="10"/> and <m>B=</m> <var name="$ans2b" width="10"/> and <m>C=</m> <var name="$ans2c" width="10"/>.
               </p>
             </li>
@@ -824,7 +853,7 @@ Then move the 4, and finally the 2:
                <m>4x=5^{2x}</m>.               
               </p>
                 <p>
-                  This is equivalent to <m>A = \log{B}(C)</m> 
+                  This is equivalent to <m>A = \log_{B}(C)</m> 
                 where <m>A=</m> <var name="$ans3a" width="10"/> and <m>B=</m> <var name="$ans3b" width="10"/> and <m>C=</m> <var name="$ans3c" width="10"/>.
               </p>
             </li>
@@ -839,11 +868,19 @@ Then move the 4, and finally the 2:
   </exercise>
 
 <exercise><title>Domain</title>
+<introduction>
+  <p>
+    (Not randomizable)
+  </p>
+</introduction>
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
   </exercise>
 
   <exercise><title>Function characteristics  - need to finish</title>
     <introduction>
+  <p>
+    (Not randomizable)
+  </p>
       <image source="images/log1" width="70%">
   </image>
     </introduction>
@@ -905,6 +942,9 @@ For students who want even more problems to practice, here are some additional e
 
    <exercise><title>Function characteristics - need to finish</title>
     <introduction>
+      <p>
+    (Not randomizable)
+  </p>
       <image source="images/log1" width="70%">
   </image>
     </introduction>
