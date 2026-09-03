@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-functions-9-3" assembly-id="sec-exp-functions-9-3">
   <static seed="91">
-    <statement><p>Remember that <m>e</m> is a real number (a constant). You may see it most often as part of an exponential function such as <m>f(x)=e^x\text{,}</m> but <m>e</m> itslf is just a number. Which of the following statements about the number <m>e</m> are true, and which are false? Try to answer all of them <alert>without using a calculator</alert>.</p>
+    <statement><p>Remember that <m>e</m> is a real number (a constant). You may see it most often as part of an exponential function such as <m>f(x)=e^x\text{,}</m> but <m>e</m> itself is just a number. Which of the following statements about the number <m>e</m> are true, and which are false? Try to answer all of them <alert>without using a calculator</alert>.</p>
 <p><ol label="a.">
 <li>
 <p><m>2.5 \lt e \lt 3</m> <ul form="popup" name="AnSwEr0001"><li>
@@ -150,7 +150,7 @@ $popup6 = PopUp(['?','True','False'],1);
 ############################################################
 
 BEGIN_PGML
-Remember that [`e`] is a real number (a constant). You may see it most often as part of an exponential function such as [`f(x)=e^x\text{,}`] but [`e`] itslf is just a number. Which of the following statements about the number [`e`] are true, and which are false? Try to answer all of them *without using a calculator*.
+Remember that [`e`] is a real number (a constant). You may see it most often as part of an exponential function such as [`f(x)=e^x\text{,}`] but [`e`] itself is just a number. Which of the following statements about the number [`e`] are true, and which are false? Try to answer all of them *without using a calculator*.
 
 a.  [`\newcommand{\lt}{<}2.5 \lt e \lt 3`] [_]{$popup1}{5}
 

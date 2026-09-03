@@ -4,19 +4,19 @@
     <statement><p>Consider the four functions graphed in the figure below, and assume the equations for <em>A, B, C,</em> and <em>D</em> can all be written in the form <m>y=ab^t</m>.</p>
 <p>Which function has the largest value for <m>a</m>? <var form="popup">
 <li>
-<p>B</p>
-</li>
-<li>
-<p>A</p>
-</li>
-<li>
-<p>C</p>
+<p>?</p>
 </li>
 <li>
 <p>D</p>
 </li>
 <li>
-<p>?</p>
+<p>C</p>
+</li>
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/sec-exp-functions-5-7-image-1.png" width="66%"/>
