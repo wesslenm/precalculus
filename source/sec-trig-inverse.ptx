@@ -351,6 +351,9 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
     <statement>
       <p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2}\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\arcsin \left(-\frac{\sqrt{3}}{2}\right)=</m>  <var name="$ans" width="6"/>.</p>
+        <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -370,6 +373,9 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
     <statement>
       <p>Evaluate <m>\arcsin \left(\frac{1}{2}\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\arcsin \left(\frac{1}{2}\right)=</m>  <var name="$ans" width="6"/>.</p>
+                <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -387,7 +393,8 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
     </pg-code>
 
     <statement>
-      <p>Evaluate <m>\sin \left(\arcsin \left(-\frac{<var name="$b"/>}{<var name="$a"/>}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
+      <p>Evaluate <m>\sin \left(\arcsin \left(-\frac{<var name="$b"/>}{<var name="$a"/>}\right)\right)</m> 
+        without using a calculator. Answer with an exact value.</p>
       <p><m>\sin \left(\arcsin \left(-\frac{<var name="$b"/>}{<var name="$a"/>}\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
 
@@ -400,7 +407,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
       Context("Numeric");
       $a = Compute(random(2, 12, 1));
       $b = Compute($a-1);
-      $ans = Compute(\pi/6);
+      $ans = Compute(pi/6);
 
     Context()->functions->disable('trig');  
     </pg-code>
@@ -557,7 +564,9 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
         From the definition in <xref ref="arccos" />, this means <m>\cos \theta = -\frac{1}{\sqrt{2}}</m> and <m>0 \leq \theta \leq \pi</m>. 
       </p> 
        <p> 
-        Question to consider: Which value of <m>\theta</m> in the interval <m>0 \leq \theta \leq \pi</m> corresponds to a cosine value of <m>-\frac{1}{\sqrt{2}}</m>? To answer that, we consider the following:
+        Question to consider: Which value of <m>\theta</m> in the interval <m>0 \leq \theta \leq \pi</m> 
+        corresponds to a cosine value of <m>-\frac{1}{\sqrt{2}}</m>? 
+        To answer that, we consider the following:
 <ul>
       <li>
         <p>
@@ -601,10 +610,10 @@ Therefore <m>\theta = \frac{3\pi}{4}</m>.
       </p> 
        <p> 
         Question to consider: Which value of <m>\theta</m> in the interval <m>0 \leq \theta \leq \pi</m> corresponds to a cosine value of <m>0</m>? 
-        The easiest way to answer that might be to look at the graph of <m>y=\cos x</m> (see <xref ref="cosgraph" />).
+        The easiest way to answer that might be to look at the graph of <m>y=\cos \theta</m> (see <xref ref="cosgraph" />).
   </p>
   <p>
-    From the graph of <m>y=\cos x</m> we see that <m>\cos \left( \frac{\pi}{2}\right) = 0</m>, and <m>\frac{\pi}{2}</m> is in the interval <m>0 \leq \theta \leq \pi</m>. 
+    From the graph of <m>y=\cos \theta</m> we see that <m>\cos \left( \frac{\pi}{2}\right) = 0</m>, and <m>\frac{\pi}{2}</m> is in the interval <m>0 \leq \theta \leq \pi</m>. 
   </p> 
   <p>
 Therefore <m>\theta = \frac{\pi}{2}</m>. 
@@ -658,7 +667,7 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </answer>
     <solution>
       <p>
-       <alert>The following illuatrates a COMMON ERROR:</alert>  
+       <alert>The following illustrates a COMMON ERROR:</alert>  
             </p>
       <p>   
         Note that <m>\arccos \left(\cos \left(\frac{4\pi}{3}\right)\right) \not= \frac{4\pi}{3} </m>. 
@@ -705,6 +714,9 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     <statement>
       <p>Evaluate <m>\arccos \left(\frac{1}{\sqrt{2}}\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\arccos \left(\frac{1}{\sqrt{2}}\right)=</m>  <var name="$ans" width="6"/>.</p>
+        <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -724,6 +736,9 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
     <statement>
       <p>Evaluate <m>\arccos 1</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\arccos 1=</m>  <var name="$ans" width="6"/>.</p>
+               <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -916,6 +931,9 @@ We see that <m>\tan \left(\frac{\pi}{3} \right) = \sqrt{3} </m>. Also, <m>\frac{
     <statement>
       <p>Evaluate <m>\arctan 1</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\arctan 1=</m>  <var name="$ans" width="6"/>.</p>
+               <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -1060,6 +1078,9 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
     <statement>
       <p>Evaluate <m>\mbox{arcsec} \left(-\sqrt{2} \right) </m> without using a calculator. Answer with an exact value.</p>
       <p><m>\mbox{arcsec} \left(-\sqrt{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
+               <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -1079,6 +1100,9 @@ Therefore <m>\theta = \frac{\pi}{6}</m>.
     <statement>
       <p>Evaluate <m>\mbox{arccsc} \left(\sqrt{2} \right) </m> without using a calculator. Answer with an exact value.</p>
       <p><m>\mbox{arccsc}\left(\sqrt{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
+               <p>
+          (Not randomizable)
+        </p>
     </statement>
 
   </webwork>
@@ -1166,7 +1190,7 @@ The following identities hold.
       </li>
       <li>
         <p>
-          <m>cos x</m> is negative in Quadrant II (but not in Quadrant I), so we are looking for a value on Quadrant II.
+          <m>\cos \theta</m> is negative in Quadrant II (but not in Quadrant I), so we are looking for a value on Quadrant II.
         </p>
       </li>
        <li>
@@ -1234,7 +1258,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       <p>
  The `solution' is incorrect. The first line is incorrect, because 
   <me>\mbox{arccot} \left(-\sqrt{3} \right) \not= \frac{1}{\arctan \left(-\sqrt{3} \right)}</me> 
-  Instead, solve the problrm similarly to <xref ref="inverse10" />. The correct final answer is 
+  Instead, solve the problem similarly to <xref ref="inverse10" />. The correct final answer is 
    <me>\mbox{arccot} \left(-\sqrt{3} \right) = \frac{5\pi}{6}</me> 
   </p>
     </solution>
@@ -1267,6 +1291,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+      <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arccos \left(\frac{1}{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arccos \left(\frac{1}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1287,6 +1314,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arcsin \left(-\frac{\sqrt{3}}{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left(-\frac{\sqrt{3}}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1307,6 +1337,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arcsin \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1327,6 +1360,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arctan \left(\frac{1}{\sqrt{3}} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arctan \left(\frac{1}{\sqrt{3}}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1347,6 +1383,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\mbox{arcsec} \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\mbox{arsec} \left(-1\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1367,6 +1406,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\mbox{arccsc} \left(-\sqrt{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\mbox{arccsc} \left(-\sqrt{2} \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1387,6 +1429,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left( \sin \left(\frac{5\pi}{12} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1407,6 +1452,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arccos \left( \cos \left(\frac{4\pi}{3} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1427,6 +1475,9 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\sec \left(\arccos \left(\frac{1}{\sqrt{2}}\right) - 6\arcsin \left(-\frac{1}{2}\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1455,6 +1506,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arcsin \left(\frac{1}{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left(\frac{1}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1475,6 +1529,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\cos^{-1} \left(-\frac{\sqrt{3}}{2} \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1495,6 +1552,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arctan \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arctan \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1513,6 +1573,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\sin^{-1} \left(0 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\sin^{-1} \left(0 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1533,6 +1596,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arccos \left(-1 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arccos \left(-1 \right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1553,6 +1619,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arcsin \left(\frac{1}{\sqrt{2}} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left(\frac{1}{\sqrt{2}}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1573,6 +1642,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\tan^{-1} \left(-\sqrt{3} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\tan^{-1} \left(-\sqrt{3}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1593,6 +1665,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\mbox{arccot} \left(\sqrt{3} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\mbox{arcot} \left(\sqrt{3}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1613,6 +1688,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\mbox{arccot} \left(0 \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\mbox{arcot} \left(0\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1633,6 +1711,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\mbox{arcsec} \left(\frac{2}{\sqrt{3}} \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\mbox{arsec} \left(\frac{2}{\sqrt{3}}\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1653,6 +1734,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) </m> without using a calculator. Answer with an exact value, in radians.</p>
       <p><m>\arcsin \left( \sin \left(-\frac{7\pi}{6} \right) \right) =</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1671,6 +1755,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\tan \left(\arctan \left(\frac{<var name="$b"/>}{<var name="$a"/>}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\tan \left(\arctan \left(\frac{<var name="$b"/>}{<var name="$a"/>}\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1690,6 +1777,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\cos \left(2 \arcsin \left(1\right)\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\cos \left(2 \arcsin \left(1\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>
@@ -1709,6 +1799,9 @@ For students who want even more problems to practice, here are some additional e
     </pg-code>
 
     <statement>
+            <p>
+        (Not randomizable)
+      </p>
       <p>Evaluate <m>\tan \left(4 \cos^{-1} \left(\frac{1}{\sqrt{2}}\right)\right)</m> without using a calculator. Answer with an exact value.</p>
       <p><m>\tan \left(4 \cos^{-1} \left(\frac{1}{\sqrt{2}}\right)\right)=</m>  <var name="$ans" width="6"/>.</p>
     </statement>

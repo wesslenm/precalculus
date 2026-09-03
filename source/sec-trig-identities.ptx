@@ -1225,8 +1225,8 @@ $popup4 = PopUp(['?','True','False'],2);
     <pg-code>
       Context("Numeric");
       $a = random(3,6,1);
-      $ans1 = Compute("2");
-      $ans2 = Compute("4");
+      $ans1 = Compute("4");
+      $ans2 = Compute("2");
 
       Context()->functions->disable('All');
       Context()->functions->enable('tan');
@@ -1237,7 +1237,7 @@ $popup4 = PopUp(['?','True','False'],2);
         Use a graphing calculator (for example DESMOS) to sketch the graph of <m>y=8\sin x \cos x \sin (2x)</m>. 
         Use that graph to guess values of <m>a</m> and <m>b</m> that make the below equation an identity.
       <md>
-        8\sin x \cos x \sin (2x) = a \sin (bx)
+        8\sin x \cos x \sin (2x) = a \sin^2 (bx)
       </md>  
       </p>
 
@@ -1268,7 +1268,7 @@ $popup4 = PopUp(['?','True','False'],2);
       Context("Numeric");
       $a = random(3,6,1);
       $ans = Compute("$a*x^($a-1)");
-$popup1 = PopUp(['?','True','False'],2);
+$popup1 = PopUp(['?','True','False'],1);
 $popup2 = PopUp(['?','True','False'],2);
 $popup3 = PopUp(['?','True','False'],1);
 $popup4 = PopUp(['?','True','False'],1);
@@ -1297,12 +1297,12 @@ $popup6 = PopUp(['?','True','False'],2);
     </li>
       <li>
       <p>
-        <m>(\sec (xy))^2 = \frac{1}{\cos^2 (xy)}</m> <var name="$popup3" form="popup"/> 
+        <m>\sin (-4x)  = -\sin (4x) </m> <var name="$popup4" form="popup"/> 
       </p>
     </li>
-        <li>
+      <li>
       <p>
-        <m>\sin (-4x)  = \sin (4x) </m> <var name="$popup4" form="popup"/> 
+        <m>(\sec (xy))^2 = \frac{1}{\cos^2 (xy)}</m> <var name="$popup3" form="popup"/> 
       </p>
     </li>
         <li>
@@ -1329,7 +1329,7 @@ $popup6 = PopUp(['?','True','False'],2);
       $a = random(2,9,1);
       $ans1 = Compute("((1-$a)cos x)/sin x");
       $ans2 = Compute("0");
-            $ans2 = Compute("1/sin x");
+            $ans3 = Compute("1/sin x");
 
          Context()->functions->disable('All');
          Context()->functions->enable('sin','cos');
@@ -1337,12 +1337,12 @@ $popup6 = PopUp(['?','True','False'],2);
 
     <statement>
       <p>
-        Write each expression in terms of only sine and cosine, and simplify as much as possible. 
+        Write each expression in terms of only sine and cosine, and simplify as much as possible. Ignore any restrictions in the domain.
       </p>
 <ol>
   <li>
     <p>
-      <m>\frac{\csc x}{\sec x} - <var name="$a"/> \cot x=</m>  <var name="$ans1" width="6"/>.
+      <m>\dfrac{\csc x}{\sec x} - <var name="$a"/> \cot x=</m>  <var name="$ans1" width="6"/>.
     </p>
   </li>
     <li>
@@ -1352,7 +1352,7 @@ $popup6 = PopUp(['?','True','False'],2);
   </li>
     <li>
     <p>
-      <m>\frac{\csc x-\sin x}{\cot x\cos x} = </m> <var name="$ans3" width="6"/>.
+      <m>\dfrac{\csc x-\sin x}{\cot x\cos x \sin x} = </m> <var name="$ans3" width="10"/>.
     </p>
   </li>
 </ol>
