@@ -72,17 +72,17 @@ Inverse trigonometric functions are useful in solving problems involving trigono
     Let's start with a reminder regarding inverse functions in general:  
   </p>
       <p>
-        A function <m>y=f(x)</m> has an <term>inverse</term><idx><h>Inverse function</h></idx> if and only if <m>y=f(x)</m> is one-to-one. 
-        An equavalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes 
+        A function <m>y=f(x)</m> has an <term>inverse function</term><idx><h>Inverse function</h></idx> if and only if <m>y=f(x)</m> is one-to-one. 
+        An equivalent way of saying this is that a function <m>y=f(x)</m> has an inverse if and only if the graph of <m>y=f(x)</m> passes 
         the <term>horizontal line test (HLT)</term><idx><h>Horizontal line test</h></idx> <idx><h>HLT</h></idx>(meaning, no horizontal line crosses the curve more than once). 
       </p>
         
     <figure xml:id="fig3-sin">
-  <caption>Graph of <m>y=\sin \theta</m>.</caption>
-  <title>Graph of <m>y=\sin \theta</m></title>
+  <caption>Graph of <m>y=\sin x</m>.</caption>
+  <title>Graph of <m>y=\sin x</m></title>
   <image source="images/trig1sin" width="70%">
       <shortdescription>
-          Graph of <m>y=\sin \theta</m>.
+          Graph of <m>y=\sin x</m>.
         </shortdescription>
   </image>
 </figure>
@@ -427,11 +427,11 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
       </p>
   
        <figure xml:id="fig3-cos">
-  <caption>Graph of <m>y=\cos \theta</m></caption>
-  <title>Graph of <m>y=\cos \theta</m></title>
+  <caption>Graph of <m>y=\cos x</m></caption>
+  <title>Graph of <m>y=\cos x</m></title>
   <image source="images/trig1cos" width="70%">
       <shortdescription>
-          Graph of <m>y=\cos \theta</m>.
+          Graph of <m>y=\cos x</m>.
         </shortdescription>
   </image>
 </figure>
@@ -441,7 +441,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
     However, we can choose a different interval. 
     The interval we will restrict <m>y=\cos x</m> to, in order to make it one-to-one is <m>\left[0, \pi\right]</m>. 
     Then the restricted function is one-to-one. 
-    We call the inverse of the restricted cosine function ``the inverse cosine function''''''', and write it as <m>y=\arccos x</m>. See the figures below.
+    We call the inverse of the restricted cosine function ``the inverse cosine function'', and write it as <m>y=\arccos x</m>. See the figures below.
   </p>
 
 
@@ -789,11 +789,11 @@ Therefore <m>\theta = \frac{\pi}{2}</m>.
       </p>
    
    <figure>
-  <caption>Graph of <m>y=\tan \theta</m></caption>
-  <title>Graph of <m>y=\tan \theta</m></title>
+  <caption>Graph of <m>y=\tan x</m></caption>
+  <title>Graph of <m>y=\tan x</m></title>
   <image source="images/trig2tan" width="70%">
       <shortdescription>
-          Graph of <m>y=\tan \theta</m>.
+          Graph of <m>y=\tan x</m>.
         </shortdescription>
   </image>
 </figure>

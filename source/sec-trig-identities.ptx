@@ -488,9 +488,9 @@ In this section we will discuss what trigonometic identities are, and practice u
     </p>
     <p>
       Double-Angle Identities:
-      <men xml:id="trig-double1"> \sin 2x = 2\sin x \cos y </men>
-      <men xml:id="trig-double2">\cos 2x = \cos x \cos y - \sin x \sin y</men>
-      <men xml:id="trig-duble3">\tan 2x = \frac{\tan x + \tan y}{1 - \tan x \tan y}</men>
+      <men xml:id="trig-double1"> \sin 2x = 2\sin x \cos x </men>
+      <men xml:id="trig-double2"> \cos 2x = \cos^2 x  - \sin^2 x </men>
+      <men xml:id="trig-duble3">\tan 2x = \frac{2\tan x}{1 - \tan^2 x}</men>
     </p>
 
     <p>
