@@ -43,7 +43,7 @@ TEXT(beginproblem());
  Context("Numeric");
  $ans1a = Formula("1000");
 $ans1b = Formula("e");   
- $ans1c = Formula("3"); 
+ $ans1c = Formula("5x"); 
  
  $ans2a = Formula("2x");
  $ans2b = Formula("e");   
@@ -60,7 +60,7 @@ $ans3c = Formula("3");
 BEGIN_PGML
 Write each of the following in exponential form.
 
-a.  [`\ln(1000)=3\text{.}`]
+a.  [`\ln(1000)=5x\text{.}`]
 
     This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
 

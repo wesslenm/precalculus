@@ -69,7 +69,7 @@ a.  [`\log_{27}(1)=0\text{.}`]
 
 a.  [`\log_5 6^x=3x\text{.}`]
 
-    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans4a}{10} and [`B=`] [_]{$ans4b}{10} and [`C=`] [_]{$ans4c}{10}.
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
 
 END_PGML
 

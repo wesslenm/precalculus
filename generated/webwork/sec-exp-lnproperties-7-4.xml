@@ -50,7 +50,7 @@
 </li></ul></p>
 </li>
 <li>
-<p><m>\ln 7x^2 y^5=\ln 7 + 2 \ln x + 5 \ln y</m> <ul form="popup" name="AnSwEr0006"><li>
+<p><m>\ln \left( 7x^2 y^5 \right) =\ln 7 + 2 \ln x + 5 \ln y</m> <ul form="popup" name="AnSwEr0006"><li>
 <p>?</p>
 </li><li>
 <p>True</p>
@@ -167,7 +167,7 @@ a.  [`\ln \sqrt{4x}=\ln 2 + \frac{1}{2}\ln x`] [_]{$popup4}{5}
 
 a.  [`\ln \left(\frac{1}{x}\right)=\frac{1}{\ln x}`] [_]{$popup5}{5}
 
-a.  [`\ln 7x^2 y^5=\ln 7 + 2 \ln x + 5 \ln y`] [_]{$popup6}{5}
+a.  [`\ln \left( 7x^2 y^5 \right) =\ln 7 + 2 \ln x + 5 \ln y`] [_]{$popup6}{5}
 
 END_PGML
 

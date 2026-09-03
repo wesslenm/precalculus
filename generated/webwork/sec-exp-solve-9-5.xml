@@ -1,23 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-9-5" assembly-id="sec-exp-solve-9-5">
-  <static seed="128" source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg">
-    <statement><p>Solve each equation for <m>x</m>.</p>
-<p>(a) <m>e^{2x+3}=3</m></p>
-<p>(b) <m>\ln(5-2x)=-7</m></p>
-<p>(a) <fillin characters="20" name="AnSwEr0001"/></p>
-<p>(b) <fillin characters="20" name="AnSwEr0002"/></p>
+  <static seed="134" source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg">
+    <statement><p>Solve the equation 
+<me>e^{x+6} = e^x + 5</me>
+<m>x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-0.950693855665945</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\frac{5-e^{-7}}{2}</m>
+        <m>-4.38808025819694</m>
       </p>
     </answer>
   </static>
-  <rendering-data sourceFilePath="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-  <pg source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_50.pg"/>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra30LogExpEqns/ur_le_1_6.pg"/>
 </webwork-reps>

@@ -29,7 +29,7 @@
     </answer>
     <answer>
       <p>
-        <m>x\mathopen{}\left(x+1\right)</m>
+        <m>\frac{x\mathopen{}\left(x+1\right)}{x-1}</m>
       </p>
     </answer>
     <answer>
@@ -88,7 +88,7 @@ $a = Formula("4");
 Context("LimitedRadical");
 $b = Formula("16");
 Context("Numeric");
-$c = Formula("x(x+1)");
+$c = Formula("x(x+1)/(x-1)");
 Context("Numeric");
 $d = Formula("x^5");
 

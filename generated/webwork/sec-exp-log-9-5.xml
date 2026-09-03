@@ -1,48 +1,150 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-9-5" assembly-id="sec-exp-log-9-5">
-  <static seed="107" source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg">
-    <statement><p>Let <m>f(x) = \ln{(x)}</m>.  Solve each of the following equations
-exactly for <m>x</m>.</p>
-<p>(a) <m>\bigg( f(x) \bigg)^{-1} = 16</m></p>
-<p><m>x =</m> <fillin characters="30" name="AnSwEr0001"/></p>
-<p>(b) <m>f^{-1}(x) = 16</m></p>
-<p><m>x =</m> <fillin characters="30" name="AnSwEr0002"/></p>
-<p>(c) <m>f \big( x^{-1} \big) = 16</m></p>
-<p><m>x =</m> <fillin characters="30" name="AnSwEr0003"/></p>
+  <static seed="106">
+    <statement><p>Write each of the following in logarithmic form.</p>
+<p><ol label="a.">
+<li>
+<p><m>e^{7x}=56\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{B}(C)</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0001"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0002"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0003"/>.</p>
+</li>
+<li>
+<p><m>3^{x-5}=17\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{B}(C)</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0004"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0005"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0006"/>.</p>
+</li>
+<li>
+<p><m>4x=5^{2x}\text{.}</m></p>
+<p>This is equivalent to <m>A = \log_{B}(C)</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0008"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0009"/>.</p>
+</li>
+</ol></p>
 </statement>
     <answer>
       <p>
-        <m>e^{\frac{1}{16}}</m>
+        <m>7x</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\ln\mathopen{}\left(16\right)</m>
+        <m>e</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>e^{-16}</m>
+        <m>56</m>
       </p>
     </answer>
-    <solution><alert>  SOLUTION </alert>
-
-
-
-(a) Since <m>\left( f(x) \right)^{-1} = \frac{1}{f(x)} = \frac{1}{\ln{(x)}}</m>, this equation is equivalent to <m>\frac{1}{\ln{(x)}} = 16</m> or <m>\ln{(x)} = \frac{1}{16}</m>.  Taking the exponential of both sides, we obtain <m>x = e^{1/16}</m>, so the solution is <m>x = e^{1/16}</m>.
-
-
-
-(b) Since the inverse function of <m>\ln{(x)}</m> is given by <m>f^{-1}(x) = e^x</m>, this equation is equivalent to <m>e^x = 16</m>.  Taking the natural logarithm of both sides, we obtain a solution of <m>x = \ln{(16)}</m>.
-
-
-
-(c) This equation is equivalent to <m>\ln{(1/x)} = 16</m>.  Taking the exponential of both sides, we obtain <m>\frac{1}{x} = e^{16}</m>, so the final answer is given by <m>x = e^{-16}</m>.
-
-
-
-</solution>
+    <answer>
+      <p>
+        <m>x-5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>17</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4x</m>
+      </p>
+    </answer>
   </static>
-  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-  <pg source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg"/>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_2_5_2-Write_in_logarithmic_form.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(2.2.5.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "contextForm.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+ Context("Numeric");
+ $ans1a = Formula("7x");
+$ans1b = Formula("e");   
+ $ans1c = Formula("56"); 
+ 
+ $ans2a = Formula("x-5");
+ $ans2b = Formula("3");   
+ $ans2c = Formula("17");
+
+  $ans3a = Formula("2x");
+ $ans3b = Formula("5");   
+$ans3c = Formula("4x");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Write each of the following in logarithmic form.
+
+a.  [`e^{7x}=56\text{.}`]
+
+    This is equivalent to [`A = \log_{B}(C)`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
+
+a.  [`3^{x-5}=17\text{.}`]
+
+    This is equivalent to [`A = \log_{B}(C)`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
+
+a.  [`4x=5^{2x}\text{.}`]
+
+    This is equivalent to [`A = \log_{B}(C)`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
 </webwork-reps>

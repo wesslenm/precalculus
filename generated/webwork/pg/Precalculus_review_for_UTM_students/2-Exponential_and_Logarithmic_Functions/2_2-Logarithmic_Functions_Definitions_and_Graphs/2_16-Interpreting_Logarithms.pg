@@ -55,9 +55,9 @@ Context()->functions->enable('sqrt');
 ############################################################
 
 BEGIN_PGML
-a.  [` \log_{5}(3)`] is read out as ``log base [_]{$ans1}{6}, of [_]{$ans2}{6}''
+a.  [` \log_{5}(3)`] is read out as "log base [_]{$ans1}{6}, of [_]{$ans2}{6}"
 
-a.  [` \log_{12}(144)`] is read out as ``log base [_]{$ans3}{6}, of [_]{$ans4}{6}''
+a.  [` \log_{12}(144)`] is read out as "log base [_]{$ans3}{6}, of [_]{$ans4}{6}"
 
 END_PGML
 

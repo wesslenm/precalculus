@@ -62,15 +62,15 @@ Write each of the following in logarithmic form.
 
 a.  [`e^{7x}=56\text{.}`]
 
-    This is equivalent to [`A = \log{B}(C)`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
+    This is equivalent to [`A = \log_{B}(C)`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
 
 a.  [`3^{x-5}=17\text{.}`]
 
-    This is equivalent to [`A = \log{B}(C)`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
+    This is equivalent to [`A = \log_{B}(C)`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
 
 a.  [`4x=5^{2x}\text{.}`]
 
-    This is equivalent to [`A = \log{B}(C)`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
+    This is equivalent to [`A = \log_{B}(C)`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
 
 END_PGML
 

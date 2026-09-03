@@ -1,27 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-9-6" assembly-id="sec-exp-solve-9-6">
-  <static seed="129" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg">
-    <statement><p>Solve for the unknown variable.</p>
-<p><m>\ln (x^{7}) - \ln (x^{3}) = 4</m></p>
-<p><m>x =</m>  <fillin characters="20" name="AnSwEr0001"/></p>
+  <static seed="135" source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg">
+    <statement><p>Find the solutions of the exponential equation
+<me>e^{2x}  -    5 e^x  +    6 =0.</me></p>
+<p>Enter your answer as a comma-separated list, and enter <em> none </em>
+if there are no solutions.</p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2.71828</m>
+        <m>0.693147180559945, 1.09861228866811</m>
       </p>
     </answer>
-    <solution><m>\ln(x^{7})-\ln(x^{3})=\ln ( \frac{x^{7}}{x^{3}} )=\ln (x^{4})= 4 \ln x</m>. Thus, <m>4 \ln x =4</m> or <m>\ln x =1</m>.  
-
-
- Hence, <m>x=e</m>.
-
-
-
-
-
-
-</solution>
   </static>
-  <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-  <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.6_Exponential_and_Logarithmic_Functions/1.6.33.pg"/>
+  <rendering-data sourceFilePath="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_31.pg"/>
 </webwork-reps>

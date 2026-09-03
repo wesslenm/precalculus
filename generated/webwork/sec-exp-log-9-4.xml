@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-9-4" assembly-id="sec-exp-log-9-4">
-  <static seed="106">
-    <statement><p>Write each of the following in logarithmic form.</p>
+  <static seed="105">
+    <statement><p>Write each of the following in exponential form.</p>
 <p><ol label="a.">
 <li>
-<p><m>e^{7x}=56\text{.}</m></p>
-<p>This is equivalent to <m>A = \log{B}(C)</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0001"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0002"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0003"/>.</p>
+<p><m>\ln(1000)=5x\text{.}</m></p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0001"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0002"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0003"/>.</p>
 </li>
 <li>
-<p><m>3^{x-5}=17\text{.}</m></p>
-<p>This is equivalent to <m>A = \log{B}(C)</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0004"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0005"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0006"/>.</p>
+<p><m>\ln (2x)=3^x\text{.}</m></p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0004"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0005"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0006"/>.</p>
 </li>
 <li>
-<p><m>4x=5^{2x}\text{.}</m></p>
-<p>This is equivalent to <m>A = \log{B}(C)</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0008"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0009"/>.</p>
+<p><m>\log_4 64=3\text{.}</m></p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0008"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0009"/>.</p>
 </li>
 </ol></p>
 </statement>
     <answer>
       <p>
-        <m>7x</m>
+        <m>1000</m>
       </p>
     </answer>
     <answer>
@@ -29,22 +29,7 @@
     </answer>
     <answer>
       <p>
-        <m>56</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>x-5</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>3</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>17</m>
+        <m>5x</m>
       </p>
     </answer>
     <answer>
@@ -54,16 +39,31 @@
     </answer>
     <answer>
       <p>
-        <m>5</m>
+        <m>e</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>4x</m>
+        <m>3^{x}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>64</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
       </p>
     </answer>
   </static>
-  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_2_5_2-Write_in_logarithmic_form.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <rendering-data problemSource="Precalculus_review_for_UTM_students/2-Exponential_and_Logarithmic_Functions/2_2-Logarithmic_Functions_Definitions_and_Graphs/2_2_5_1-Write_in_exponential_form.pg" origin="generated" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
   <pg><![CDATA[
 #############################################
 ###       Generated from PreTeXt source      
@@ -80,7 +80,7 @@
 ## EditionText1()
 ## AuthorText1()
 ## Section1(not reported)
-## Problem1(2.2.5.2)
+## Problem1(2.2.5.1)
 ## Author()
 ## Institution()
 ## Language(en-US)
@@ -108,36 +108,36 @@ TEXT(beginproblem());
 # PG Setup Code
 ############################################################
  Context("Numeric");
- $ans1a = Formula("7x");
+ $ans1a = Formula("1000");
 $ans1b = Formula("e");   
- $ans1c = Formula("56"); 
+ $ans1c = Formula("5x"); 
  
- $ans2a = Formula("x-5");
- $ans2b = Formula("3");   
- $ans2c = Formula("17");
+ $ans2a = Formula("2x");
+ $ans2b = Formula("e");   
+ $ans2c = Formula("3^x");
 
-  $ans3a = Formula("2x");
- $ans3b = Formula("5");   
-$ans3c = Formula("4x");
+  $ans3a = Formula("64");
+ $ans3b = Formula("4");   
+$ans3c = Formula("3");
 
 ############################################################
 # Body
 ############################################################
 
 BEGIN_PGML
-Write each of the following in logarithmic form.
+Write each of the following in exponential form.
 
-a.  [`e^{7x}=56\text{.}`]
+a.  [`\ln(1000)=5x\text{.}`]
 
-    This is equivalent to [`A = \log{B}(C)`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans1a}{10} and [`B=`] [_]{$ans1b}{10} and [`C=`] [_]{$ans1c}{10}.
 
-a.  [`3^{x-5}=17\text{.}`]
+a.  [`\ln (2x)=3^x\text{.}`]
 
-    This is equivalent to [`A = \log{B}(C)`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans2a}{10} and [`B=`] [_]{$ans2b}{10} and [`C=`] [_]{$ans2c}{10}.
 
-a.  [`4x=5^{2x}\text{.}`]
+a.  [`\log_4 64=3\text{.}`]
 
-    This is equivalent to [`A = \log{B}(C)`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
 
 END_PGML
 

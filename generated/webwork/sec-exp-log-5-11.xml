@@ -3,10 +3,10 @@
   <static seed="101">
     <statement><p><ol label="a.">
 <li>
-<p><m>\log_{5}(3)</m> is read out as ``log base <fillin characters="6" name="AnSwEr0001"/>, of <fillin characters="6" name="AnSwEr0002"/><rsq/><rsq/></p>
+<p><m>\log_{5}(3)</m> is read out as <lq/>log base <fillin characters="6" name="AnSwEr0001"/>, of <fillin characters="6" name="AnSwEr0002"/><rq/></p>
 </li>
 <li>
-<p><m>\log_{12}(144)</m> is read out as ``log base <fillin characters="6" name="AnSwEr0003"/>, of <fillin characters="6" name="AnSwEr0004"/><rsq/><rsq/></p>
+<p><m>\log_{12}(144)</m> is read out as <lq/>log base <fillin characters="6" name="AnSwEr0003"/>, of <fillin characters="6" name="AnSwEr0004"/><rq/></p>
 </li>
 </ol></p>
 </statement>
@@ -90,9 +90,9 @@ Context()->functions->enable('sqrt');
 ############################################################
 
 BEGIN_PGML
-a.  [` \log_{5}(3)`] is read out as ``log base [_]{$ans1}{6}, of [_]{$ans2}{6}''
+a.  [` \log_{5}(3)`] is read out as "log base [_]{$ans1}{6}, of [_]{$ans2}{6}"
 
-a.  [` \log_{12}(144)`] is read out as ``log base [_]{$ans3}{6}, of [_]{$ans4}{6}''
+a.  [` \log_{12}(144)`] is read out as "log base [_]{$ans3}{6}, of [_]{$ans4}{6}"
 
 END_PGML
 

@@ -13,7 +13,7 @@
 </li>
 <li>
 <p><m>\log_5 6^x=3x\text{.}</m></p>
-<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="1" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="1" name="AnSwEr0008"/> and <m>C=</m> <fillin characters="1" name="AnSwEr0009"/>.</p>
+<p>This is equivalent to <m>A = B^{C}</m> where <m>A=</m> <fillin characters="10" name="AnSwEr0007"/> and <m>B=</m> <fillin characters="10" name="AnSwEr0008"/> and <m>C=</m> <fillin characters="10" name="AnSwEr0009"/>.</p>
 </li>
 </ol></p>
 </statement>
@@ -49,17 +49,17 @@
     </answer>
     <answer>
       <p>
-        <m>10</m>
+        <m>6^{x}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10</m>
+        <m>5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10</m>
+        <m>3x</m>
       </p>
     </answer>
   </static>
@@ -136,7 +136,7 @@ a.  [`\log_{27}(1)=0\text{.}`]
 
 a.  [`\log_5 6^x=3x\text{.}`]
 
-    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans4a}{10} and [`B=`] [_]{$ans4b}{10} and [`C=`] [_]{$ans4c}{10}.
+    This is equivalent to [`A = B^{C}`] where [`A=`] [_]{$ans3a}{10} and [`B=`] [_]{$ans3b}{10} and [`C=`] [_]{$ans3c}{10}.
 
 END_PGML
 

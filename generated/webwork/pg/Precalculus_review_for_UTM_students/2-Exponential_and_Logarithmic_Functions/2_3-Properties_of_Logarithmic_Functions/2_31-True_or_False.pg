@@ -60,7 +60,7 @@ $popup6 = PopUp(['?','True','False'],1);
 BEGIN_PGML
 Suppose [`a, b, c,`] and [`x`] are positive numbers. Which of the following statements are true, and which are false?
 
-Note: For a statement involving [`a, b,c,`] and/or [`x`] to be true, it must be true for ALL positive numbers [`a, b,`] and [`c\text{.}`]
+Note: For a statement involving [`a, b,c,`] and/or [`x`] to be true, it must be true for ALL positive numbers [`a, b, c`] and [`x\text{.}`]
 
 a.  [`\ln (48)-\ln (3) = \ln (16)`] [_]{$popup1}{5}
 

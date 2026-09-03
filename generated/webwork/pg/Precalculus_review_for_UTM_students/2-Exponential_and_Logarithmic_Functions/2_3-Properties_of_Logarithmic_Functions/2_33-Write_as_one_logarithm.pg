@@ -46,7 +46,7 @@ $a = Formula("4");
 Context("LimitedRadical");
 $b = Formula("16");
 Context("Numeric");
-$c = Formula("x(x+1)");
+$c = Formula("x(x+1)/(x-1)");
 Context("Numeric");
 $d = Formula("x^5");
 

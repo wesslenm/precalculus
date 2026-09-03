@@ -2,6 +2,7 @@
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-lnproperties-7-5" assembly-id="sec-exp-lnproperties-7-5">
   <static seed="116">
     <statement><p>Suppose <m>a, b, c,</m> and <m>x</m> are positive numbers. Which of the following statements are true, and which are false?</p>
+<p>Note: For a statement involving <m>a, b,c,</m> and/or <m>x</m> to be true, it must be true for ALL positive numbers <m>a, b, c</m> and <m>x\text{.}</m></p>
 <p><ol label="a.">
 <li>
 <p><m>\ln (e^{6x}) = 6x</m> <ul form="popup" name="AnSwEr0001"><li>
@@ -154,6 +155,8 @@ $popup6 = PopUp(['?','True','False'],1);
 
 BEGIN_PGML
 Suppose [`a, b, c,`] and [`x`] are positive numbers. Which of the following statements are true, and which are false?
+
+Note: For a statement involving [`a, b,c,`] and/or [`x`] to be true, it must be true for ALL positive numbers [`a, b, c`] and [`x\text{.}`]
 
 a.  [`\ln (e^{6x}) = 6x`] [_]{$popup1}{5}
 

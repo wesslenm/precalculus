@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-solve-9-4" assembly-id="sec-exp-solve-9-4">
-  <static seed="135" source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg">
+  <static seed="133" source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_54.pg">
     <statement><p>Solve each inequality for <m>x</m>.</p>
-<p>(a) <m>2 \lt  \ln{x} \lt  10</m></p>
-<p>(b) <m>e^{2-3x} \lt  3</m></p>
+<p>(a) <m>2 \lt  \ln{x} \lt  8</m></p>
+<p>(b) <m>e^{2-3x} \lt  9</m></p>
 <p>(a) <fillin characters="10" name="AnSwEr0001"/> <m>\lt  x \lt </m> <fillin characters="10" name="AnSwEr0002"/></p>
 <p>(b) <m>x \lt </m> <fillin characters="25" name="AnSwEr0003"/></p>
 </statement>
@@ -14,12 +14,12 @@
     </answer>
     <answer>
       <p>
-        <m>e^{10}</m>
+        <m>e^{8}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>0.300463</m>
+        <m>-0.0657415</m>
       </p>
     </answer>
   </static>

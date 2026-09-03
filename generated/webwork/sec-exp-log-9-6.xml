@@ -1,22 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sec-exp-log-9-6" assembly-id="sec-exp-log-9-6">
-  <static seed="108" source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg">
-    <statement><p>Find (a) the domain of <m>f</m> and (b) <m>f^{-1}</m>.</p>
-<p><m>f(x)=\ln(2+\ln{x})</m></p>
-<p>(a) <m>x &gt;</m> <fillin characters="20" name="AnSwEr0001"/></p>
-<p>(b) <m>f^{-1}(x)=</m> <fillin characters="25" name="AnSwEr0002"/></p>
+  <static seed="107" source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg">
+    <statement><p>Let <m>f(x) = \ln{(x)}</m>.  Solve each of the following equations
+exactly for <m>x</m>.</p>
+<p>(a) <m>\bigg( f(x) \bigg)^{-1} = 16</m></p>
+<p><m>x =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p>(b) <m>f^{-1}(x) = 16</m></p>
+<p><m>x =</m> <fillin characters="30" name="AnSwEr0002"/></p>
+<p>(c) <m>f \big( x^{-1} \big) = 16</m></p>
+<p><m>x =</m> <fillin characters="30" name="AnSwEr0003"/></p>
 </statement>
     <answer>
       <p>
-        <m>e^{-2}</m>
+        <m>e^{\frac{1}{16}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>e^{e^{x}-2}</m>
+        <m>\ln\mathopen{}\left(16\right)</m>
       </p>
     </answer>
+    <answer>
+      <p>
+        <m>e^{-16}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Since <m>\left( f(x) \right)^{-1} = \frac{1}{f(x)} = \frac{1}{\ln{(x)}}</m>, this equation is equivalent to <m>\frac{1}{\ln{(x)}} = 16</m> or <m>\ln{(x)} = \frac{1}{16}</m>.  Taking the exponential of both sides, we obtain <m>x = e^{1/16}</m>, so the solution is <m>x = e^{1/16}</m>.
+
+
+
+(b) Since the inverse function of <m>\ln{(x)}</m> is given by <m>f^{-1}(x) = e^x</m>, this equation is equivalent to <m>e^x = 16</m>.  Taking the natural logarithm of both sides, we obtain a solution of <m>x = \ln{(16)}</m>.
+
+
+
+(c) This equation is equivalent to <m>\ln{(1/x)} = 16</m>.  Taking the exponential of both sides, we obtain <m>\frac{1}{x} = e^{16}</m>, so the final answer is given by <m>x = e^{-16}</m>.
+
+
+
+</solution>
   </static>
-  <rendering-data sourceFilePath="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
-  <pg source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg"/>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap8Sec2/Q42.pg"/>
 </webwork-reps>

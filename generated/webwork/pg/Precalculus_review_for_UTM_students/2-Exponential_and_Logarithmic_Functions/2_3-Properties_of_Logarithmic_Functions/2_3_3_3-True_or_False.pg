@@ -60,6 +60,8 @@ $popup6 = PopUp(['?','True','False'],1);
 BEGIN_PGML
 Suppose [`a, b, c,`] and [`x`] are positive numbers. Which of the following statements are true, and which are false?
 
+Note: For a statement involving [`a, b,c,`] and/or [`x`] to be true, it must be true for ALL positive numbers [`a, b, c`] and [`x\text{.}`]
+
 a.  [`\ln (e^{6x}) = 6x`] [_]{$popup1}{5}
 
 a.  [`\ln (e^{7x}-e^{4x}) = 3x`] [_]{$popup2}{5}
