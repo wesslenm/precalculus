@@ -876,7 +876,7 @@ Then move the 4, and finally the 2:
     <webwork source="Library/UCSB/Stewart5_1_6/Stewart5_1_6_56.pg" />
   </exercise>
 
-  <exercise><title>Function characteristics  - need to finish</title>
+  <exercise><title>Function characteristics</title>
     <introduction>
   <p>
     (Not randomizable)
@@ -890,17 +890,19 @@ Then move the 4, and finally the 2:
         Context("Numeric");
         $f = Formula("sqrt(x)");
         Context("Interval");
-        $domain = Interval("(-inf,inf)");
+        $domain = Interval("(2,inf)");
         Context("Interval");
-        $range = Interval("(-inf,3)");
+        $range = Interval("(-inf,inf)");
         Context("Point");
-        $intercept = Point("(0,2)");
+        $intercept = Point("(4,0)");
         Context("LimitedNumeric");
-        $va = Real(3);
+        $va = Real(2);
       </pg-code>
       <statement>
         <p>
-          The graph of a logarithmic function is given above. Answer the following questions about that graph. 
+          The graph of a logarithmic function is given above. 
+          Answer the following questions about that graph. 
+          (You can click on the image to make it larger.)
           <ol>
              <li>
               <p>
@@ -940,12 +942,12 @@ Then move the 4, and finally the 2:
 For students who want even more problems to practice, here are some additional exercises. 
   </p>
 
-   <exercise><title>Function characteristics - need to finish</title>
+   <exercise><title>Function characteristics</title>
     <introduction>
       <p>
     (Not randomizable)
   </p>
-      <image source="images/log1" width="70%">
+      <image source="images/log2" width="70%">
   </image>
     </introduction>
 
@@ -954,17 +956,19 @@ For students who want even more problems to practice, here are some additional e
         Context("Numeric");
         $f = Formula("sqrt(x)");
         Context("Interval");
-        $domain = Interval("(-inf,inf)");
+        $domain = Interval("(-4,inf)");
         Context("Interval");
-        $range = Interval("(-inf,3)");
+        $range = Interval("(-inf,inf)");
         Context("Point");
         $intercept = Point("(0,2)");
         Context("LimitedNumeric");
-        $va = Real(3);
+        $va = Real(-4);
       </pg-code>
       <statement>
         <p>
-          The graph of a logarithmic function is given above. Answer the following questions about that graph. 
+          The graph of a logarithmic function is given above. 
+          Answer the following questions about that graph. 
+          (You can click on the image to make it larger.)
           <ol>
              <li>
               <p>
@@ -978,7 +982,7 @@ For students who want even more problems to practice, here are some additional e
             </li>
             <li>
               <p>
-                What is the <m>x</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
+                What is the <m>y</m>-intercept of the function? <var name="$intercept" width="10"/>. (Enter your answer in point form, for example <m>(3,5)</m>.)
               </p>
             </li>
             <li>
