@@ -43,13 +43,13 @@ TEXT(beginproblem());
 Context("Numeric");
 $f = Formula("sqrt(x)");
 Context("Interval");
-$domain = Interval("(-inf,inf)");
+$domain = Interval("(2,inf)");
 Context("Interval");
-$range = Interval("(-inf,3)");
+$range = Interval("(-inf,inf)");
 Context("Point");
-$intercept = Point("(0,2)");
+$intercept = Point("(4,0)");
 Context("LimitedNumeric");
-$va = Real(3);
+$va = Real(2);
 
 ############################################################
 # Body
@@ -61,7 +61,7 @@ a.  What is the domain of the function, in interval notation? [_]{$domain}{10}.
 
 a.  What is the range of the function, in interval notation? [_]{$range}{10}.
 
-a.  What is the [`x`]-intercept of the function? [_]{$intercept}{10}. (Enter your answer in point form, for example [`(3,5)\text{.}`])
+a.  What is the [`y`]-intercept of the function? [_]{$intercept}{10}. (Enter your answer in point form, for example [`(3,5)\text{.}`])
 
 a.  What is the equation of the vertical asymptote? The vertical asymptote is [`x=`] [_]{$va}{10}. (Enter a single number.)
 

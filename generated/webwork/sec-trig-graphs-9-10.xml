@@ -6,22 +6,22 @@
 <p>Which graph below A-E matches your sketch?
 <var form="popup">
 <li>
-<p>E</p>
+<p>D</p>
 </li>
 <li>
-<p>A</p>
-</li>
-<li>
-<p>C</p>
+<p>Choose</p>
 </li>
 <li>
 <p>B</p>
 </li>
 <li>
-<p>D</p>
+<p>C</p>
 </li>
 <li>
-<p>Choose</p>
+<p>E</p>
+</li>
+<li>
+<p>A</p>
 </li>
 </var></p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
