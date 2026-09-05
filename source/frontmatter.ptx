@@ -32,9 +32,9 @@
       <institution>University of Toronto Mississauga</institution>
       <email>maria.wesslen@utoronto.ca</email>
           
-          <p> 
+          <!-- <p> 
             Contributing Editors: Micheal Pawliuk, Ivan Khatchatourian and Mike Pitocco
-          </p>
+          </p> -->
     </author>
     <author>
       <personname>Contributing Editor: Mike Pitocco</personname>
@@ -64,6 +64,12 @@
     <p>
       We're glad you are here and we hope you'll find this extra resource helpful!
     </p>
+    <p>
+      <alert>
+     If you are accessing this resource from a phone, click on the three lines in the bottom left corner to see the table of contents. 
+      </alert>
+    </p>
+
     <p>
       This resource is intended for students studying differential and/or integral calculus who would like to review relevant precalculus topics. You have most likely seen all or most of the material before, and this resource is meant as a review.
     </p>
