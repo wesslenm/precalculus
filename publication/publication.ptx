@@ -74,7 +74,7 @@
     <worksheets formatted="yes" />
   </latex>
 
- <!-- <html> -->
+
 
   <html 
       favicon="simple">
@@ -149,8 +149,7 @@
     <!-- Magic IDs identify HTML pages to analytics services   -->
     <!-- Presence implies relevant Javascript will be added    -->
     <!-- StatCounter requires both values to be set            -->
-    <!-- <analytics google-gst="UA-0123456-1" statcounter-project="0123456"
-    statcounter-security="0123456"/> -->
+
 
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
@@ -158,6 +157,11 @@
 <!-- Below, added by MW (plus I also made more minor edits above) --> 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+<!-- MW note: Counts the number of visitors to the page. Reports are emailed to MW. -->
+<analytics statcounter-project="13255761"
+    statcounter-security="d374eb11"/> 
 
 
 <!-- Added by MW to remove author line from the top banner (byline is author line)-->
