@@ -287,7 +287,7 @@
       <alert> Study tip: </alert>
     </p>
     <p>  
-      Some students like the neumonic SOH CAH TOA to help memorize these definitions. ``SOH'' refers to <m>\sin \theta = </m> Opposite / Hypotenuse, and similarly for CAH and TOA. 
+      Some students like the neumonic SOH CAH TOA to help memorize these definitions. "SOH" refers to <m>\sin \theta = </m> Opposite / Hypotenuse, and similarly for CAH and TOA. 
     </p>
  </aside>
 
@@ -397,7 +397,7 @@
     <solution>
       <p>
         The hypotenuse of this triangle is 17. 
-        The `opposite' of angle <m>\alpha</m> is 15, while the `opposite' of angle <m>\beta</m> is 8. The `adjacent' of angle <m>\alpha</m> is 8, while the `adjacent' of angle <m>\beta</m> is 15. Then use the definitions listed above. 
+        The 'opposite' of angle <m>\alpha</m> is 15, while the 'opposite' of angle <m>\beta</m> is 8. The 'adjacent' of angle <m>\alpha</m> is 8, while the 'adjacent' of angle <m>\beta</m> is 15. Then use the definitions listed above. 
       </p>
     </solution>
   </example>
@@ -410,7 +410,7 @@
      <m>y=\sin \theta</m> is a function. It requires an input. 
      It would be complete nonsense to write <m>\sqrt{ / }</m>, without any number or expression to take the square root of. 
      Similarly it would be complete nonsense to write <m>\sin</m> , without any number or expression to take sine of. 
-     Same for the other trigonometric functions - they all require an input. When we write <m>\sin \theta</m>, we mean ``sine of the angle <m>\theta</m>''.
+     Same for the other trigonometric functions - they all require an input. When we write <m>\sin \theta</m>, we mean "sine of the angle <m>\theta</m>".
     </p>
   </aside>
 
@@ -683,8 +683,8 @@ So we see that <m>\sin \theta </m> is positive when the angle <m>\theta </m> end
   </li>
     <li>
     <p>
-      The letters tell you which of the primary trigonometric functions are postive in that quadrant. 
-      For example, ``S'' in Quadrant II indicates that in Quadrant II, <m>\sin \theta</m> is positive, but <m>\cos \theta</m> and <m>\tan \theta</m> are negative.  
+      The letters tell you which of the primary trigonometric functions are positive in that quadrant. 
+      For example, "S" in Quadrant II indicates that in Quadrant II, <m>\sin \theta</m> is positive, but <m>\cos \theta</m> and <m>\tan \theta</m> are negative.  
     </p>
   </li>
     <li>

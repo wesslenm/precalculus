@@ -441,7 +441,7 @@ Note that <m>\arcsin \left(\sin \left(\pi\right)\right) \not= \pi </m>. We can n
     However, we can choose a different interval. 
     The interval we will restrict <m>y=\cos x</m> to, in order to make it one-to-one is <m>\left[0, \pi\right]</m>. 
     Then the restricted function is one-to-one. 
-    We call the inverse of the restricted cosine function ``the inverse cosine function'', and write it as <m>y=\arccos x</m>. See the figures below.
+    We call the inverse of the restricted cosine function "the inverse cosine function", and write it as <m>y=\arccos x</m>. See the figures below.
   </p>
 
 
@@ -1216,7 +1216,8 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
         Question: Evaluate <m>\arcsin \left( \sin \left( \frac{5\pi}{7}\right) \right) </m>
       </p>
             <p>
-        `Solution': Recall that <m>\arcsin \left( \sin x \right) = x</m> for <m>0 \leq x \leq \pi</m>. Since <m>0 \leq \frac{5\pi}{7} \leq \pi</m> this means <m>\arcsin \left( \sin \left( \frac{5\pi}{7}\right) \right) = \frac{5\pi}{7}</m>.
+        Incorrect 'Solution': Recall that <m>\arcsin \left( \sin x \right) = x</m> for <m>0 \leq x \leq \pi</m>. 
+        Since <m>0 \leq \frac{5\pi}{7} \leq \pi</m> this means <m>\arcsin \left( \sin \left( \frac{5\pi}{7}\right) \right) = \frac{5\pi}{7}</m>.
       </p>
     </statement>
     <answer>
@@ -1226,7 +1227,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       </answer>
     <solution>
       <p>
- The `solution' is incorrect. The range of <m>\arcsin x</m> is <m>\left[ - \frac{\pi}{2}, \frac{\pi}{2}\right] </m> so the identity <m>\arcsin \left( \sin x \right) = x</m>  holds for <m>- \frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m> (not for <m>0 \leq \frac{5\pi}{7} \leq \pi</m> ).
+ The 'solution' is incorrect. The range of <m>\arcsin x</m> is <m>\left[ - \frac{\pi}{2}, \frac{\pi}{2}\right] </m> so the identity <m>\arcsin \left( \sin x \right) = x</m>  holds for <m>- \frac{\pi}{2} \leq x \leq \frac{\pi}{2}</m> (not for <m>0 \leq \frac{5\pi}{7} \leq \pi</m> ).
       </p>
     </solution>
   </example>
@@ -1240,7 +1241,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
         Question: Evaluate <m>\mbox{arccot} \left(-\sqrt{3} \right) </m>
       </p>
             <p>
-        `Solution':
+       Incorrect 'Solution':
         <me>\mbox{arccot} \left(-\sqrt{3} \right) = \frac{1}{\arctan \left(-\sqrt{3} \right)}</me> 
         Now, let <m>\theta = \arctan \left(-\sqrt{3} \right) </m> so that <m>\tan \theta = -\sqrt{3} </m> and <m>\theta \in \left(- \frac{\pi}{2}, \frac{\pi}{2}\right)</m>. By using a special triangle in Quadrant IV, we see that <m>\tan \left(-\frac{\pi}{3}\right) = -\sqrt{3} </m> and <m>-\frac{\pi}{3} \in \left(- \frac{\pi}{2}, \frac{\pi}{2}\right)</m>.  
        </p>     
@@ -1256,7 +1257,7 @@ Therefore <m>\theta = \frac{5\pi}{6}</m>.
       </answer>
     <solution>
       <p>
- The `solution' is incorrect. The first line is incorrect, because 
+ The 'solution' is incorrect. The first line is incorrect, because 
   <me>\mbox{arccot} \left(-\sqrt{3} \right) \not= \frac{1}{\arctan \left(-\sqrt{3} \right)}</me> 
   Instead, solve the problem similarly to <xref ref="inverse10" />. The correct final answer is 
    <me>\mbox{arccot} \left(-\sqrt{3} \right) = \frac{5\pi}{6}</me> 

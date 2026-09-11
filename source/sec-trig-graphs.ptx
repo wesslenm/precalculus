@@ -106,7 +106,7 @@ Below is an example of a graph of a sinusoidal function.
           
         <p>
       A phase shift can also be called a <term>horizontal translation</term><idx><h>Horizontal translation</h></idx> or sometimes a horizontal shift. 
-      The term ``horizontal translation'' applies to any graphs translated horizontally, while the term ``phase shift'' is used only for sinusoidal graphs.
+      The term "horizontal translation" applies to any graphs translated horizontally, while the term "phase shift" is used only for sinusoidal graphs.
         </p>
       </li>
     </ul>
@@ -314,7 +314,7 @@ Below is an example of a graph of a sinusoidal function.
         </p>
         <p>
         (c) All values of <m>x</m> in the interval <m>[-2\pi, 2\pi]</m> where <m>\sin x = -1</m>. 
-        List your answers from smallest to largest. If there are only three such values (for example) then write `none' in any remaining answer boxes.
+        List your answers from smallest to largest. If there are only three such values (for example) then write 'none' in any remaining answer boxes.
           <var name="$ans3" width="6"/> and <var name="$ans4" width="6"/> and <var name="$ans5" width="6"/> and <var name="$ans5" width="6"/>
         </p>
     </statement>
@@ -487,7 +487,7 @@ Now let's compare the graphs of <m>y=\cos (2x)</m> and <m>y=\cos x</m>:
         </shortdescription>
   </image>
       <p>
-      Looking at the graph of <m>y=\cos (2x)</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except its period is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur `twice as fast' compared to the graph of <m>y=\cos x</m>. The graph of <m>y=\cos (2x)</m> is compressed horizontally by a factor of 2, compared to the graph of <m>y=\cos x</m>.
+      Looking at the graph of <m>y=\cos (2x)</m>, we see that it again looks similar to the graph of <m>y=\cos x</m>, except its period is <m>\pi</m> instead of <m>2\pi</m>. The oscillations occur 'twice as fast' compared to the graph of <m>y=\cos x</m>. The graph of <m>y=\cos (2x)</m> is compressed horizontally by a factor of 2, compared to the graph of <m>y=\cos x</m>.
       </p>
     </solution>
   </example>
@@ -542,13 +542,13 @@ The number <m>A</m> is the amplitude of the sine or cosine curve.
     </li>
     <li>     
       <p>
-        Now repeat the above investigations with the Cosine Curves `on' and the Sine Curves `muted'. 
+        Now repeat the above investigations with the Cosine Curves 'on' and the Sine Curves 'muted'. 
         Look back at your notes. Do the same observations regarding each slider also apply to these curves?
       </p>
     </li>
     <li>     
       <p>
-        Now repeat the above investigations with only the Tan Curves `on'. 
+        Now repeat the above investigations with only the Tan Curves 'on'. 
         Do the same observations regarding each slider also apply to these curves? 
         Take note of where in the expressions the <m>a, c, d, k</m> appear, and write down some general conclusions. 
         Then continue reading the paragraphs below this Checkpoint.
