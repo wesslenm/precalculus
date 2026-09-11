@@ -121,7 +121,7 @@ A defining characteristic of exponential functions is that they change at a rate
 <url href="https://www.desmos.com/calculator/pftghxv1g0" visual="desmos.com/calculator/pftghxv1g0">Interactive Graph Activity</url>
   </p>
   <p>
-    What do you notice for different values or types of values of <m>b</m>? 
+    1. What do you notice for different values or types of values of <m>b</m>? 
     <ul>
       <li>
         <p>
@@ -151,7 +151,7 @@ A defining characteristic of exponential functions is that they change at a rate
     </ul>
   </p> 
     <p>
-    What do you notice for different values of <m>a</m>? Can you determine different "cases" for <m>a</m>? 
+   2. What do you notice for different values of <m>a</m>? Can you determine different "cases" for <m>a</m>? 
     (Are there different groups of values of <m>a</m> that behave differently?)
   </p> 
 </exercise>
@@ -494,7 +494,7 @@ We will focus mostly on the cases where <m>d=0</m>.
     Use the sliders for the parameters <m>a</m>, <m>k</m> and <m>c</m> to see how different values of these parameters change the shape of the exponential graph.
      </p>
   <p> 
-<url href="https://www.desmos.com/calculator/yubsxb1abl" visual="desmos.com/calculator/yubsxb1abl">Interactive Graph Activity</url>
+<url href="https://www.desmos.com/calculator/rpeqwkdkjn" visual="desmos.com/calculator/rpeqwkdkjn">Interactive Graph Activity</url>
   </p>
   <p>
     To investigate the effect of <m>a</m>, keep the other sliders fixed, and change the values of <m>a</m>. What do you notice? 

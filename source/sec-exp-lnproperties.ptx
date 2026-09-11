@@ -228,6 +228,9 @@ It is important to understand these laws, and it is also important to understand
     <men>
       (\ln x)^a \neq a(\ln x)
     </men>
+        <men>
+      a e^x \neq e^\left(x^a\right) \ln\left(y\right) 
+    </men> 
     <men>
       \ln\left(x\right) + \ln\left(y\right) \neq \ln\left(xy\right) 
     </men> 
@@ -236,7 +239,7 @@ It is important to understand these laws, and it is also important to understand
     </men>
      <men>
       \ln\left(xy\right) \neq \ln\left(x\right) \ln\left(y\right) 
-    </men>   
+    </men>  
   </p>
   </assemblage>
 
@@ -312,12 +315,12 @@ It is important to understand these laws, and it is also important to understand
               \ln \left(\frac{a}{bc}\right)=\ln a - \ln (bc)
             </md>
             Then we use <xref ref="log-law-product"/> on the second term:
-                        <md>
-              \ln \left(\frac{a}{bc}\right)=\ln a - \ln (bc) = 
-            </md>
-                                    <md>
-               = \ln a - (\ln b + \ln c) = \ln a - \ln b - \ln c
-            </md>
+                <md>
+                  <mrow> \ln \left(\frac{a}{bc}\right) \amp = \ln a - \ln (bc)</mrow>
+                  <mrow> \amp = \ln a - (\ln b + \ln c)</mrow>
+                  <mrow> \amp = \ln a - \ln b - \ln c</mrow>
+                </md>
+
             So the statement is <m>\boxed{\mbox{TRUE}}</m>.
           </p>
         </li>
