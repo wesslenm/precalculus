@@ -562,7 +562,7 @@ Therefore the result can be stated as:
  </solution>
  </example>
 
-<exercise><title>Interpreting the result - HOMEMADE</title>
+<exercise><title>Interpreting the result</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1438,7 +1438,7 @@ Therefore the result can be stated as:
     </p>
   </aside>
 
-<exercise xml:id="longdivex1"><title>Set-up and notation - HOMEMADE</title>
+<exercise xml:id="longdivex1"><title>Set-up and notation</title>
         <introduction>
       <p>
         <p>
@@ -1540,7 +1540,7 @@ Therefore the result can be stated as:
     </webwork>
   </exercise>
 
-<exercise><title>Long division with quadratic dividend - HOMEMADE</title>
+<exercise><title>Long division with quadratic dividend</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1578,7 +1578,7 @@ Therefore the result can be stated as:
     </p>
   </aside>
 
-<exercise><title>Long division with cubic dividend - HOMEMADE</title>
+<exercise><title>Long division with cubic dividend</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1767,7 +1767,7 @@ If you would like to use synthetic division you can, but we will not go over it 
       </solution>
     </example>
 
-<exercise><title>Polynomial long division with "missing" terms - HOMEMADE</title>
+<exercise><title>Polynomial long division with "missing" terms</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1795,7 +1795,7 @@ If you would like to use synthetic division you can, but we will not go over it 
     </webwork>
   </exercise>
 
-<exercise><title>Polynomial long division with "missing" terms - HOMEMADE</title>
+<exercise><title>Polynomial long division with "missing" terms</title>
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -1831,7 +1831,7 @@ If you would like to use synthetic division you can, but we will not go over it 
   <exercises><title>Exercises</title>
 
 
-<exercise><title>True or False - HOMEMADE</title>
+<exercise><title>True or False</title>
 <webwork>
       <pg-code>
         Context("Numeric");
@@ -1874,7 +1874,7 @@ If you would like to use synthetic division you can, but we will not go over it 
 </exercise>
 
 
-<exercise><title>Set-up - HOMEMADE</title>
+<exercise><title>Set-up</title>
     <introduction>
       <p>
        (Not randomizable) Lennie wants to use long division to divide <m>(3x^2-2x-85)</m> by <m>(x+5)</m>, in other words Lennie wants to simplify <m>\dfrac{3x^2-2x-85}{x+5}</m>. 
@@ -1960,7 +1960,7 @@ If you would like to use synthetic division you can, but we will not go over it 
   </exercise>
 
 
-<exercise><title>Interpreting results - HOMEMADE</title>
+<exercise><title>Interpreting results</title>
         <introduction>
       <p>
         <p>
@@ -2120,7 +2120,7 @@ If you would like to use synthetic division you can, but we will not go over it 
     </webwork>
   </exercise>
 
-  <exercise><title>Interpreting results - HOMEMADE</title>    
+  <exercise><title>Interpreting results</title>    
         <introduction>
         <p>
          (Not randomizable) Suppose someone has written down the following long division. 
@@ -2245,23 +2245,23 @@ If you would like to use synthetic division you can, but we will not go over it 
     </webwork>
   </exercise>
 
-  <exercise><title>Quotient and remainder, degree 3 - FROM WEBWORK</title> 
+  <exercise><title>Quotient and remainder, degree 3</title> 
       <webwork source="Library/ASU-topics/setPolynomialDivision/jj3.pg" />
   </exercise>
 
-    <exercise><title>Quotient and remainder, degree 4 - FROM WEBWORK</title> 
+    <exercise><title>Quotient and remainder, degree 4</title> 
       <webwork source="Library/Rochester/setAlgebra22PolynomialDivision/long_div_easy.pg" />
   </exercise>
 
-     <exercise><title>Quotient and remainder, degree 5 - FROM WEBWORK</title>  
+     <exercise><title>Quotient and remainder, degree 5</title>  
      <webwork source="Library/Rochester/setAlgebra22PolynomialDivision/long_division_1.pg" />
   </exercise>
 
-    <exercise><title>Quotient and remainder, degree 3 - FROM WEBWORK</title> 
+    <exercise><title>Quotient and remainder, degree 3</title> 
       <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_5_22.pg" />
   </exercise>
 
-<exercise><title>Quotient and remainder, degree 5 - HOMEMADE</title> 
+<exercise><title>Quotient and remainder, degree 5</title> 
     <webwork>
       <pg-code>
         Context("Numeric");
@@ -2289,7 +2289,7 @@ If you would like to use synthetic division you can, but we will not go over it 
     </webwork>
   </exercise>
 
-<exercise><title>Specific result format - HOMEMADE</title> 
+<exercise><title>Specific result format</title> 
     <webwork>
       <pg-code>
         Context("Numeric");
